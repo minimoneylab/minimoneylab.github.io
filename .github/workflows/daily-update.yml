@@ -1,0 +1,53 @@
+name: Daily News Update
+
+on:
+  schedule:
+    # Runs at 00:00 UTC (08:00 Taiwan time) every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install --break-system-packages gspread google-auth-oauthlib google-auth anthropic playwright
+        playwright install chromium
+        
+    - name: Setup Google credentials
+      run: |
+        echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
+        echo '${{ secrets.GOOGLE_TOKEN }}' | base64 -d > token.pickle
+        
+    - name: Run scraper
+      run: |
+        python scrape_daily.py
+      continue-on-error: true
+      
+    - name: Run analyzer
+      env:
+        CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+      run: |
+        python analyze_news.py
+        
+    - name: Generate website data
+      run: |
+        python generate_data.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/*.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "Daily update $(date +'%Y-%m-%d')"
+        git push
