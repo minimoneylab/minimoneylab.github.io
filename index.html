@@ -4,44 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Brief - MiniMoneyLab</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            line-height: 1.6;
+            font-family: 'Inter', sans-serif;
+            background: #FAFAF5; /* Your perfect gray! */
             color: #2B2B2B;
-            background: #F5F5F5;
             -webkit-font-smoothing: antialiased;
         }
         
-        /* Loading state */
-        .loading {
-            text-align: center;
-            padding: 100px 20px;
-            color: #9B9B9B;
+        /* Layout */
+        .page-wrapper { display: flex; min-height: 100vh; }
+        
+        /* Sidebar - Now with gray background */
+        .sidebar {
+            width: 240px;
+            background: #FAFAF5; /* Same as body */
+            border-right: 1px solid #E5E5E5;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
         }
+        
+        .sidebar-header {
+            padding: 32px 24px 24px;
+            border-bottom: 1px solid #E8E8E8;
+        }
+        
+        .sidebar-logo {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2B2B2B;
+        }
+        
+        .sidebar-tagline {
+            font-size: 0.8125rem;
+            color: #9B9B9B;
+            margin-top: 4px;
+        }
+        
+        .country-nav { padding: 24px 0; }
+        
+        .country-nav-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #9B9B9B;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 0 24px 12px;
+        }
+        
+        .country-button {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: 100%;
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            border-left: 3px solid transparent;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+            font-size: 0.9375rem;
+            color: #4A4A4A;
+        }
+        
+        .country-button:hover { 
+            background: rgba(0,0,0,0.03); 
+        }
+        
+        .country-button.active {
+            background: rgba(0,0,0,0.05);
+            border-left-color: #2B2B2B;
+            color: #2B2B2B;
+            font-weight: 500;
+        }
+        
+        .country-flag { 
+            font-size: 1.25rem;
+            line-height: 1;
+        }
+        
+        .country-name { flex: 1; }
+        
+        .country-badge {
+            font-size: 0.6875rem;
+            color: #9B9B9B;
+            background: rgba(0,0,0,0.06);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+        
+        /* Main Content */
+        .main-content { flex: 1; margin-left: 240px; }
         
         /* Header */
         .header {
             background: white;
-            padding: 0;
             border-bottom: 1px solid #E5E5E5;
         }
         
         .header-illustration {
-            width: 100%;
-            max-width: 800px;
+            max-width: 480px; /* 60% of 800px */
             margin: 0 auto;
-            display: block;
-            padding: 60px 40px 40px;
+            padding: 40px 40px 30px; /* Reduced padding */
         }
         
         .header-illustration img {
@@ -52,16 +122,7 @@
         
         .header-content {
             text-align: center;
-            padding: 30px 40px 50px;
-        }
-        
-        .site-title {
-            font-size: 0.875rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            color: #9B9B9B;
-            margin-bottom: 12px;
-            text-transform: uppercase;
+            padding: 20px 40px 40px; /* Reduced top padding */
         }
         
         .main-title {
@@ -69,13 +130,11 @@
             font-weight: 400;
             color: #2B2B2B;
             margin-bottom: 16px;
-            letter-spacing: -0.02em;
         }
         
         .date {
             font-size: 0.9375rem;
             color: #6B6B6B;
-            font-weight: 400;
         }
         
         /* Stats */
@@ -93,9 +152,7 @@
             gap: 40px;
         }
         
-        .stat-item {
-            text-align: center;
-        }
+        .stat-item { text-align: center; }
         
         .stat-number {
             font-size: 2.5rem;
@@ -108,11 +165,10 @@
             font-size: 0.8125rem;
             color: #9B9B9B;
             font-weight: 500;
-            letter-spacing: 0.05em;
             text-transform: uppercase;
         }
         
-        /* Archive Navigation */
+        /* Archive Nav */
         .archive-nav {
             max-width: 1000px;
             margin: 0 auto;
@@ -130,7 +186,6 @@
             font-size: 0.875rem;
             font-weight: 600;
             color: #6B6B6B;
-            letter-spacing: 0.1em;
             text-transform: uppercase;
             margin-bottom: 16px;
         }
@@ -142,27 +197,19 @@
         }
         
         .date-button {
-            display: inline-block;
             padding: 8px 16px;
             background: #F5F5F5;
             border-radius: 6px;
-            text-decoration: none;
+            border: none;
             color: #2B2B2B;
             font-size: 0.875rem;
             cursor: pointer;
-            transition: background 0.2s;
-            border: none;
             font-family: inherit;
+            transition: background 0.2s;
         }
         
-        .date-button:hover {
-            background: #E5E5E5;
-        }
-        
-        .date-button.active {
-            background: #2B2B2B;
-            color: white;
-        }
+        .date-button:hover { background: #E5E5E5; }
+        .date-button.active { background: #2B2B2B; color: white; }
         
         /* Container */
         .container {
@@ -206,7 +253,6 @@
             font-size: 0.875rem;
             font-weight: 600;
             color: #6B6B6B;
-            letter-spacing: 0.1em;
             text-transform: uppercase;
         }
         
@@ -229,7 +275,6 @@
             color: #2B2B2B;
             margin-bottom: 16px;
             line-height: 1.4;
-            letter-spacing: -0.01em;
         }
         
         .article-meta {
@@ -245,7 +290,6 @@
             line-height: 1.7;
             color: #4A4A4A;
             margin-bottom: 24px;
-            font-weight: 400;
         }
         
         .article-link {
@@ -259,7 +303,7 @@
             padding: 10px 20px;
             border: 1px solid #E5E5E5;
             border-radius: 8px;
-            transition: all 0.2s ease;
+            transition: all 0.2s;
         }
         
         .article-link:hover {
@@ -267,21 +311,34 @@
             border-color: #D4D4D4;
         }
         
-        /* Not Relevant */
-        .not-relevant-list {
-            list-style: none;
-            padding: 0;
+        /* Under Construction */
+        .under-construction {
+            text-align: center;
+            padding: 100px 40px;
         }
         
-        .not-relevant-list li {
-            padding: 14px 0;
-            border-bottom: 1px solid #F5F5F5;
+        .construction-icon {
+            font-size: 4rem;
+            margin-bottom: 24px;
+        }
+        
+        .construction-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #2B2B2B;
+            margin-bottom: 12px;
+        }
+        
+        .construction-text {
+            font-size: 1rem;
             color: #9B9B9B;
-            font-size: 0.9375rem;
         }
         
-        .not-relevant-list li:last-child {
-            border-bottom: none;
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            color: #9B9B9B;
         }
         
         /* Footer */
@@ -295,8 +352,6 @@
         .footer-text {
             font-size: 0.875rem;
             color: #9B9B9B;
-            line-height: 1.6;
-            margin-bottom: 12px;
         }
         
         .footer-brand {
@@ -312,112 +367,213 @@
         
         /* Responsive */
         @media (max-width: 768px) {
-            .header-illustration { padding: 40px 20px 20px; }
-            .header-content { padding: 20px 20px 40px; }
-            .main-title { font-size: 2rem; }
-            .stats { padding: 30px 20px; }
-            .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 24px; }
-            .container { padding: 0 20px 60px; }
-            .section { padding: 32px 24px; }
+            .sidebar { display: none; }
+            .main-content { margin-left: 0; }
+            .header-illustration { max-width: 90%; }
         }
     </style>
 </head>
 <body>
-    <!-- Loading State -->
-    <div id="loading" class="loading">
-        <div style="font-size: 2rem; margin-bottom: 16px;">📰</div>
-        <div>Loading today's briefing...</div>
-    </div>
+    <div class="page-wrapper">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">MiniMoneyLab</div>
+                <div class="sidebar-tagline">Financial Intelligence</div>
+            </div>
+            
+            <div class="country-nav">
+                <div class="country-nav-title">Regions</div>
+                
+                <button class="country-button active" onclick="switchCountry('taiwan')">
+                    <span class="country-flag">🇹🇼</span>
+                    <span class="country-name">Taiwan</span>
+                </button>
+                
+                <button class="country-button" onclick="switchCountry('korea')">
+                    <span class="country-flag">🇰🇷</span>
+                    <span class="country-name">Korea</span>
+                    <span class="country-badge">Soon</span>
+                </button>
+                
+                <button class="country-button" onclick="switchCountry('philippines')">
+                    <span class="country-flag">🇵🇭</span>
+                    <span class="country-name">Philippines</span>
+                    <span class="country-badge">Soon</span>
+                </button>
+                
+                <button class="country-button" onclick="switchCountry('indonesia')">
+                    <span class="country-flag">🇮🇩</span>
+                    <span class="country-name">Indonesia</span>
+                    <span class="country-badge">Soon</span>
+                </button>
+                
+                <button class="country-button" onclick="switchCountry('india')">
+                    <span class="country-flag">🇮🇳</span>
+                    <span class="country-name">India</span>
+                    <span class="country-badge">Soon</span>
+                </button>
+                
+                <button class="country-button" onclick="switchCountry('malaysia')">
+                    <span class="country-flag">🇲🇾</span>
+                    <span class="country-name">Malaysia</span>
+                    <span class="country-badge">Soon</span>
+                </button>
+                
+                <button class="country-button" onclick="switchCountry('vietnam')">
+                    <span class="country-flag">🇻🇳</span>
+                    <span class="country-name">Vietnam</span>
+                    <span class="country-badge">Soon</span>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Taiwan Content -->
+            <div id="taiwan-content">
+                <div id="loading" class="loading">
+                    <div style="font-size: 2rem; margin-bottom: 16px;">📰</div>
+                    <div>Loading briefing...</div>
+                </div>
 
-    <!-- Main Content (hidden until loaded) -->
-    <div id="main-content" style="display: none;">
-        <!-- Header -->
-        <div class="header">
-            <div class="header-illustration">
-                <img src="trading_desk.jpg" alt="Trading Desk">
-            </div>
-            <div class="header-content">
-                <div class="site-title">MiniMoneyLab</div>
-                <h1 class="main-title">Daily Brief</h1>
-                <div id="current-date" class="date"></div>
-            </div>
-        </div>
-        
-        <!-- Stats -->
-        <div class="stats">
-            <div class="stats-inner">
-                <div class="stat-item">
-                    <div id="stat-total" class="stat-number">0</div>
-                    <div class="stat-label">Articles</div>
+                <div id="main-content" style="display: none;">
+                    <div class="header">
+                        <div class="header-illustration">
+                            <img id="country-illustration" src="taiwan.jpg" alt="Country Illustration">
+                        </div>
+                        <div class="header-content">
+                            <h1 class="main-title">Daily Brief</h1>
+                            <div id="current-date" class="date"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stats-inner">
+                            <div class="stat-item">
+                                <div id="stat-total" class="stat-number">0</div>
+                                <div class="stat-label">Articles</div>
+                            </div>
+                            <div class="stat-item">
+                                <div id="stat-high" class="stat-number">0</div>
+                                <div class="stat-label">High</div>
+                            </div>
+                            <div class="stat-item">
+                                <div id="stat-medium" class="stat-number">0</div>
+                                <div class="stat-label">Medium</div>
+                            </div>
+                            <div class="stat-item">
+                                <div id="stat-low" class="stat-number">0</div>
+                                <div class="stat-label">Low</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="archive-nav">
+                        <div class="archive-box">
+                            <div class="archive-title">📅 Past Briefings</div>
+                            <div id="archive-dates" class="archive-dates"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div id="content-sections"></div>
+                    </div>
+                    
+                    <div class="footer">
+                        <div class="footer-text">
+                            <span class="footer-brand">MiniMoneyLab</span><br>
+                            Taiwan Financial Intelligence
+                        </div>
+                        <div id="update-time" class="update-time"></div>
+                    </div>
                 </div>
-                <div class="stat-item">
-                    <div id="stat-high" class="stat-number">0</div>
-                    <div class="stat-label">High</div>
+            </div>
+            
+            <!-- Other Countries -->
+            <div id="other-content" style="display: none;">
+                <div class="header">
+                    <div class="header-illustration">
+                        <img id="country-illustration-other" src="korea.png" alt="Country Illustration">
+                    </div>
+                    <div class="header-content">
+                        <h1 class="main-title">Daily Brief</h1>
+                    </div>
                 </div>
-                <div class="stat-item">
-                    <div id="stat-medium" class="stat-number">0</div>
-                    <div class="stat-label">Medium</div>
-                </div>
-                <div class="stat-item">
-                    <div id="stat-low" class="stat-number">0</div>
-                    <div class="stat-label">Low</div>
+                <div class="under-construction">
+                    <div class="construction-icon">🚧</div>
+                    <h2 class="construction-title">Under Construction</h2>
+                    <p class="construction-text">This region's briefing is coming soon!</p>
                 </div>
             </div>
-        </div>
-        
-        <!-- Archive Navigation -->
-        <div class="archive-nav">
-            <div class="archive-box">
-                <div class="archive-title">📅 Past Briefings</div>
-                <div id="archive-dates" class="archive-dates"></div>
-            </div>
-        </div>
-        
-        <!-- Content Sections -->
-        <div class="container">
-            <div id="content-sections"></div>
-        </div>
-        
-        <!-- Footer -->
-        <div class="footer">
-            <div class="footer-text">
-                <span class="footer-brand">MiniMoneyLab</span><br>
-                Taiwan Financial Intelligence
-            </div>
-            <div id="update-time" class="update-time"></div>
         </div>
     </div>
 
     <script>
-        // Current selected date
         let currentDate = new Date().toISOString().split('T')[0];
+        let currentCountry = 'taiwan';
         
-        // Initialize
+        function switchCountry(country) {
+            currentCountry = country;
+            
+            // Update active button
+            document.querySelectorAll('.country-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.closest('.country-button').classList.add('active');
+            
+            // Change header illustration based on country
+            const headerImg = document.getElementById('country-illustration');
+            const headerImgOther = document.getElementById('country-illustration-other');
+            const imageFiles = {
+                'taiwan': 'taiwan.jpg',
+                'korea': 'korea.png',
+                'philippines': 'philippines.png',
+                'indonesia': 'indonesia.png',
+                'india': 'india.png',
+                'malaysia': 'malaysia.png',
+                'vietnam': 'vietnam.png'
+            };
+            
+            // Update both images
+            if (headerImg && imageFiles[country]) {
+                headerImg.src = imageFiles[country];
+                headerImg.alt = country.charAt(0).toUpperCase() + country.slice(1) + ' Illustration';
+            }
+            if (headerImgOther && imageFiles[country]) {
+                headerImgOther.src = imageFiles[country];
+                headerImgOther.alt = country.charAt(0).toUpperCase() + country.slice(1) + ' Illustration';
+            }
+            
+            // Show/hide content
+            if (country === 'taiwan') {
+                document.getElementById('taiwan-content').style.display = 'block';
+                document.getElementById('other-content').style.display = 'none';
+            } else {
+                document.getElementById('taiwan-content').style.display = 'none';
+                document.getElementById('other-content').style.display = 'block';
+            }
+        }
+        
         document.addEventListener('DOMContentLoaded', function() {
             loadAvailableDates();
             loadData(currentDate);
         });
         
-        // Load available date buttons (last 7 days)
         function loadAvailableDates() {
             const archiveContainer = document.getElementById('archive-dates');
             const dates = [];
             
-            // Generate last 7 days
             for (let i = 0; i < 7; i++) {
                 const date = new Date();
                 date.setDate(date.getDate() - i);
-                const dateStr = date.toISOString().split('T')[0];
-                dates.push(dateStr);
+                dates.push(date.toISOString().split('T')[0]);
             }
             
-            // Create buttons
             dates.forEach(dateStr => {
                 const button = document.createElement('button');
                 button.className = 'date-button';
-                if (dateStr === currentDate) {
-                    button.classList.add('active');
-                }
+                if (dateStr === currentDate) button.classList.add('active');
                 
                 const date = new Date(dateStr);
                 button.textContent = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -427,128 +583,70 @@
             });
         }
         
-        // Load data for specific date
         async function loadData(dateStr) {
             try {
                 const response = await fetch(`data/${dateStr}.json`);
-                
-                if (!response.ok) {
-                    throw new Error('Data not available');
-                }
+                if (!response.ok) throw new Error('Not found');
                 
                 const data = await response.json();
                 renderData(data, dateStr);
                 
-                // Update active button
-                document.querySelectorAll('.date-button').forEach(btn => {
-                    btn.classList.remove('active');
-                });
+                document.querySelectorAll('.date-button').forEach(btn => btn.classList.remove('active'));
                 event.target.classList.add('active');
                 currentDate = dateStr;
                 
             } catch (error) {
                 console.log('No data for ' + dateStr);
-                // If today's data doesn't exist, that's ok - just show empty
-                if (dateStr === new Date().toISOString().split('T')[0]) {
-                    document.getElementById('loading').innerHTML = 
-                        '<div style="font-size: 2rem; margin-bottom: 16px;">📭</div>' +
-                        '<div>No briefing available yet for today.</div>' +
-                        '<div style="margin-top: 12px; font-size: 0.875rem;">Try selecting a previous date above.</div>';
-                }
             }
         }
         
-        // Render data to page
         function renderData(data, dateStr) {
-            // Hide loading, show content
             document.getElementById('loading').style.display = 'none';
             document.getElementById('main-content').style.display = 'block';
             
-            // Set date
             const date = new Date(dateStr);
             document.getElementById('current-date').textContent = 
                 date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
             
-            // Set stats
             document.getElementById('stat-total').textContent = data.total_articles || 0;
             document.getElementById('stat-high').textContent = data.high?.length || 0;
             document.getElementById('stat-medium').textContent = data.medium?.length || 0;
             document.getElementById('stat-low').textContent = data.not_relevant?.length || 0;
             
-            // Render sections
             const container = document.getElementById('content-sections');
             container.innerHTML = '';
             
-            // High Priority
             if (data.high && data.high.length > 0) {
                 container.innerHTML += renderSection('High Priority', 'high', data.high);
             }
             
-            // Medium Priority
             if (data.medium && data.medium.length > 0) {
                 container.innerHTML += renderSection('Medium Priority', 'medium', data.medium);
             }
             
-            // Not Relevant
-            if (data.not_relevant && data.not_relevant.length > 0) {
-                container.innerHTML += renderNotRelevant(data.not_relevant);
-            }
-            
-            // Update time
             document.getElementById('update-time').textContent = 'Last updated ' + (data.update_time || dateStr);
         }
         
-        // Render priority section
         function renderSection(title, priority, articles) {
-            let html = `
-            <div class="section">
-                <div class="section-header">
-                    <div class="section-title-wrapper">
-                        <div class="priority-indicator ${priority}"></div>
-                        <h2 class="section-title">${title}</h2>
-                    </div>
-                </div>
-            `;
+            let html = `<div class="section"><div class="section-header">
+                <div class="section-title-wrapper">
+                    <div class="priority-indicator ${priority}"></div>
+                    <h2 class="section-title">${title}</h2>
+                </div></div>`;
             
             articles.forEach(article => {
-                html += `
-                <article class="article">
+                html += `<article class="article">
                     <h3 class="article-title">${article.title}</h3>
                     <div class="article-meta">
                         <span>📂 ${article.section}</span>
                         <span>📅 ${article.date}</span>
                     </div>
                     <div class="article-summary">${article.summary}</div>
-                    <a href="${article.url}" class="article-link" target="_blank" rel="noopener">
-                        Read Article →
-                    </a>
-                </article>
-                `;
+                    <a href="${article.url}" class="article-link" target="_blank">Read Article →</a>
+                </article>`;
             });
             
-            html += '</div>';
-            return html;
-        }
-        
-        // Render not relevant section
-        function renderNotRelevant(titles) {
-            let html = `
-            <div class="section">
-                <div class="section-header">
-                    <div class="section-title-wrapper">
-                        <div class="priority-indicator low"></div>
-                        <h2 class="section-title">Not Relevant</h2>
-                    </div>
-                </div>
-                <ul class="not-relevant-list">
-            `;
-            
-            titles.forEach(title => {
-                html += `<li>${title}</li>`;
-            });
-            
-            html += '</ul></div>';
-            return html;
+            return html + '</div>';
         }
     </script>
 </body>
