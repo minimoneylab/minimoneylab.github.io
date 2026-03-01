@@ -365,15 +365,143 @@
             margin-top: 16px;
         }
         
+        /* Mobile Menu Button */
+        .mobile-menu-button {
+            display: none;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 200;
+            background: white;
+            border: 1px solid #E5E5E5;
+            border-radius: 8px;
+            padding: 12px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .mobile-menu-button span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #2B2B2B;
+            margin: 5px 0;
+            transition: 0.3s;
+        }
+        
         /* Responsive */
         @media (max-width: 768px) {
-            .sidebar { display: none; }
-            .main-content { margin-left: 0; }
-            .header-illustration { max-width: 90%; }
+            .mobile-menu-button { display: block; }
+            
+            .sidebar {
+                transform: translateX(-100%);
+                transition: transform 0.3s;
+                z-index: 150;
+            }
+            
+            .sidebar.mobile-open {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+                width: 100%;
+            }
+            
+            .header-illustration {
+                max-width: 90%;
+                padding: 30px 20px 20px;
+            }
+            
+            .header-content {
+                padding: 15px 20px 30px;
+            }
+            
+            .main-title {
+                font-size: 1.75rem;
+            }
+            
+            .stats {
+                padding: 24px 20px;
+            }
+            
+            .stats-inner {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+            
+            .archive-nav {
+                padding: 20px;
+            }
+            
+            .archive-box {
+                padding: 20px;
+            }
+            
+            .archive-dates {
+                gap: 8px;
+            }
+            
+            .date-button {
+                padding: 6px 12px;
+                font-size: 0.8125rem;
+            }
+            
+            .container {
+                padding: 0 20px 60px;
+            }
+            
+            .section {
+                padding: 24px 20px;
+                margin-bottom: 16px;
+            }
+            
+            .article-title {
+                font-size: 1.25rem;
+            }
+            
+            .article-meta {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .article-summary {
+                font-size: 0.9375rem;
+            }
+        }
+        
+        /* Mobile overlay */
+        .mobile-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 140;
+        }
+        
+        .mobile-overlay.active {
+            display: block;
         }
     </style>
 </head>
 <body>
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" onclick="toggleMobileMenu()"></div>
+    
     <div class="page-wrapper">
         <!-- Sidebar -->
         <nav class="sidebar">
@@ -513,6 +641,14 @@
         let currentDate = new Date().toISOString().split('T')[0];
         let currentCountry = 'taiwan';
         
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const sidebar = document.querySelector('.sidebar');
+            const overlay = document.querySelector('.mobile-overlay');
+            sidebar.classList.toggle('mobile-open');
+            overlay.classList.toggle('active');
+        }
+        
         function switchCountry(country) {
             currentCountry = country;
             
@@ -552,6 +688,14 @@
             } else {
                 document.getElementById('taiwan-content').style.display = 'none';
                 document.getElementById('other-content').style.display = 'block';
+            }
+            
+            // Close mobile menu after selection
+            const sidebar = document.querySelector('.sidebar');
+            const overlay = document.querySelector('.mobile-overlay');
+            if (sidebar.classList.contains('mobile-open')) {
+                sidebar.classList.remove('mobile-open');
+                overlay.classList.remove('active');
             }
         }
         
