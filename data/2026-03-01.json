@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-01",
+  "update_time": "2026-03-01 11:51:06",
+  "total_articles": 15,
+  "high": [
+    {
+      "title": "US-Iran War Outbreak - Taiwan Stock Market to Face Major Pressure Test",
+      "section": "產經",
+      "date": "2026/02/28 22:47:36",
+      "url": "https://money.udn.com/money/story/5607/9350382",
+      "summary": "The sudden outbreak of US-Iran conflict during the 228 holiday weekend presents a major \"black swan\" event that will subject global investment markets to severe repricing pressure starting Monday (March 2). Taiwan stocks are expected to become foreign investors' ATM for capital withdrawal. Fund managers predict Monday's Taiwan stock market will face a severe stress test, with the TAIEX potentially falling 300 points in mild scenarios, or testing 5-day moving average support with drops reaching 800-900 points in severe cases. Chunghwa Securities Investment Consulting expects Taiwan stocks could drop to test the 5-day MA at 34,581 points. However, analysts suggest this may be a short-term factor lasting 2-3 days, presenting opportunities to accumulate TSMC-related stocks. Key defensive sectors that may benefit include gold concept stocks, upstream petrochemicals, and container shipping stocks due to potential freight rate surges."
+    },
+    {
+      "title": "Major Taiwan Listed Companies Face Geopolitical Impact from US-Iran Conflict",
+      "section": "產經",
+      "date": "2026/03/01 00:13:44",
+      "url": "https://money.udn.com/money/story/5607/9350475?from=edn_maintab_cate",
+      "summary": "The US-Israel joint attack on Iran launched on February 28 afternoon Taiwan time, coupled with NVIDIA's disappointing post-earnings performance (-4.1%), is expected to create significant pressure on Taiwan stocks. Fund managers anticipate Monday's trading will be a major stress test, with potential declines ranging from 300 points in mild scenarios to 800-900 points if testing 5-day MA support. KGI Securities Chairman notes this conflict is more serious than last June's action, potentially aiming for regime change rather than just destroying nuclear facilities. Three scenarios are outlined: Iran capitulating and accepting nuclear agreements, swift war ending with regime change, or worst case - Iran blocking Hormuz Strait leading to prolonged conflict. The impact on TSMC (2330) and other tech giants will be closely watched as foreign investors may use Taiwan as their primary regional risk adjustment market."
+    },
+    {
+      "title": "Foreign Investment Outflow Pressure as Taiwan Becomes Risk Asset Adjustment Target",
+      "section": "證券",
+      "date": "2026/02/28 20:49:12",
+      "url": "https://money.udn.com/money/story/5607/9350299?from=edn_subcatelist_cate",
+      "summary": "Capital Securities Futures provides comprehensive analysis of US-Iran conflict impact on Taiwan stocks, identifying three-layer transmission mechanisms. Taiwan's high-Beta characteristics and concentrated index weighting (particularly TSMC's significant weight) make it a primary target for foreign investor regional risk asset adjustments during risk-off periods. Key monitoring indicators include Hormuz Strait navigation status, Brent crude oil prices, and USD index movements. The analysis warns of potential structural impacts including: increased index volatility, rising futures hedging short positions, and pressure on weighted stocks. High P/E technology stocks may face valuation compression if energy costs rise and central bank rate cut expectations are delayed. NT dollar may face pressure from safe-haven flows into USD and US Treasuries, potentially accelerating foreign capital outflows from Taiwan stocks."
+    }
+  ],
+  "medium": [
+    {
+      "title": "ASIC Market Boom - MediaTek and Design Service Companies to Benefit",
+      "section": "金融",
+      "date": "2026/02/28 23:47:43",
+      "url": "https://money.udn.com/money/story/5612/9350471?from=edn_maintab_cate",
+      "summary": "MediaTek (2454) expects its ASIC business to become the fastest-growing segment over the next three years, potentially becoming the second-largest revenue source. The company targets breaking through $1 billion in related revenue this year and reaching several billion by 2027, aiming for 10-15% global ASIC market share within two years. Creative (3443) and Global Unichip (3661) are also positioned to benefit from the expanding cloud service provider ASIC development trend as companies seek to reduce total ownership costs from NVIDIA's dominance."
+    },
+    {
+      "title": "Global Container Shipping Consolidation Trend Accelerates",
+      "section": "金融",
+      "date": "2026/02/28 11:30:11",
+      "url": "https://money.udn.com/money/story/5612/9349585?from=edn_maintab_cate",
+      "summary": "The global container shipping industry's \"big getting bigger\" trend has accelerated with Hapag-Lloyd's 58% premium acquisition of ZIM. Taiwan's major shipping companies Evergreen (2603), Yang Ming (2609), and Wan Hai (2615) are actively ordering new vessels to strengthen competitiveness. Yang Ming has taken delivery of 2 out of 5 LNG dual-fuel container ships that reduce greenhouse gas emissions by 20% compared to traditional heavy fuel oil."
+    },
+    {
+      "title": "Yageo Benefits from AI Demand - Analysts Raise Full-Year EPS to NT$16.1",
+      "section": "產經",
+      "date": "2026/03/01 11:35:07",
+      "url": "https://money.udn.com/money/story/5710/9352075",
+      "summary": "Yageo (2327) reported strong Q4 results with revenue up 8.7% QoQ and 19.9% YoY, driven by robust AI-related application shipments and optimized product mix pushing gross margin to 37.3%. Full-year 2025 revenue reached NT$132.9 billion with EPS of NT$11.51. Analysts project 2026 revenue of NT$158.7 billion (up 19.4% YoY) and raised EPS forecast to NT$16.1, citing continued strong AI momentum and improving product mix supporting margin expansion."
+    },
+    {
+      "title": "Taiwan Ranks 2nd Globally in Entrepreneurship Environment Survey",
+      "section": "金融",
+      "date": "2026/02/28 21:12:10",
+      "url": "https://money.udn.com/money/story/5612/9350316?from=edn_subcatelist_cate",
+      "summary": "Taiwan achieved 2nd place globally in the Global Entrepreneurship Monitor (GEM) 2025/2026 report, ranking behind only UAE among 53 economies. Taiwan excelled in \"AI Solution Awareness\" and \"Corporate Sustainability Priority,\" receiving \"Excellent\" ratings alongside UAE, Norway, and Sweden. The report highlights Taiwan's mature entrepreneurship structure with over two-thirds of entrepreneurs aged 35-64, indicating strong industry experience and technical foundation."
+    }
+  ],
+  "not_relevant": []
+}
