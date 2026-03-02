@@ -10,10 +10,13 @@ import gspread
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import pickle
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import json
 import re
 import glob
+
+# Hong Kong timezone (UTC+8)
+HK_TIMEZONE = timezone(timedelta(hours=8))
 
 # ============================================================================
 # CONFIGURATION
@@ -244,10 +247,14 @@ class JSONGenerator:
         # Create output directory
         os.makedirs(output_dir, exist_ok=True)
         
-        # Get date for filename
-        date_str = json_data['date']
+        # Use Hong Kong time for filename (not the digest date which might be UTC)
+        hk_now = datetime.now(HK_TIMEZONE)
+        date_str = hk_now.strftime('%Y-%m-%d')
         filename = date_str + '.json'
         filepath = os.path.join(output_dir, filename)
+        
+        # Update json_data with correct HK date
+        json_data['date'] = date_str
         
         # Save JSON file
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -263,7 +270,8 @@ class JSONGenerator:
     def _cleanup_old_files(self, output_dir, days_to_keep):
         """Delete JSON files older than specified days"""
         try:
-            cutoff_date = datetime.now() - timedelta(days=days_to_keep)
+            hk_now = datetime.now(HK_TIMEZONE)
+            cutoff_date = hk_now - timedelta(days=days_to_keep)
             
             for filepath in glob.glob(os.path.join(output_dir, '*.json')):
                 filename = os.path.basename(filepath)
@@ -289,7 +297,8 @@ def main():
     print()
     print("=" * 70)
     print("MINIMONEYLAB DATA GENERATOR")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    hk_now = datetime.now(HK_TIMEZONE)
+    print(hk_now.strftime('%Y-%m-%d %H:%M:%S') + " HK Time")
     print("=" * 70)
     print()
 
