@@ -3,7 +3,7 @@ name: Daily News Update
 on:
   schedule:
     # Runs at 00:00 UTC (08:00 Taiwan time) every day
-    - cron: '30 22 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 permissions:
@@ -53,5 +53,5 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data/*.json
+        git add website/data/*.json
         git diff --quiet && git diff --staged --quiet || (git commit -m "Daily update $(date +'%Y-%m-%d')" && git push)
