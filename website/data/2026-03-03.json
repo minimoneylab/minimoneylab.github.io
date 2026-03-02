@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-03",
+  "update_time": "2026-03-02 23:26:04",
+  "total_articles": 65,
+  "high": [
+    {
+      "title": "US-Iran War Impact: Taiwan Stock Exchange Faces Pressure Test as Foreign Investors May Withdraw",
+      "section": "產經",
+      "date": "2026/02/28 22:47:36",
+      "url": "https://money.udn.com/money/story/5607/9350382",
+      "summary": "The sudden outbreak of US-Iran war during the 228 holiday has created a \"black swan\" event that will force global investment markets to undergo dramatic repricing when markets reopen Monday. Fund managers predict Taiwan stocks could face severe correction, with the TAIEX potentially falling 300-900 points as Taiwan becomes a cash withdrawal destination for foreign investors. The conflict, combined with Nvidia's earnings disappointment and UK financial institution MFS near-collapse, creates multiple headwinds. However, analysts suggest this may be short-term, with markets potentially stabilizing within 2-3 days, offering opportunities to accumulate TSMC-related stocks."
+    },
+    {
+      "title": "TSMC After-Hours Trading Hits Record High of NT$2,190 - Pointing to 37K TAIEX Target",
+      "section": "產經",
+      "date": "2026/03/02 18:15:00",
+      "url": "https://money.udn.com/money/story/5607/9354634",
+      "summary": "Despite TSMC's 20-point decline to NT$1,975 during regular trading, block trading revealed a new record high of NT$2,190 - the first time exceeding NT$2,100. Fund managers calculate this implies 1,711 points upside potential for the TAIEX, targeting 36,806 points and approaching the 37,000 milestone. However, TSMC ADR continued declining 2% in pre-market US trading, with futures also under pressure. The extreme block trading price suggests strong institutional confidence in TSMC's long-term prospects despite short-term volatility."
+    },
+    {
+      "title": "Taiwan Stock Market Shows Resilience with V-shaped Recovery Despite War Impact",
+      "section": "證券",
+      "date": "2026/03/03 03:29:19",
+      "url": "https://money.udn.com/money/story/5607/9355183",
+      "summary": "Taiwan stocks demonstrated remarkable resilience, staging a V-shaped recovery after opening down 809 points due to US-Iran conflict. Strong support from National Team funds and domestic investment trusts helped limit final losses to just 319 points (-0.9%). Foreign investors sold a massive NT$389.8 billion, but domestic institutions provided crucial support with investment trusts buying NT$83.2 billion and government-linked brokerages purchasing NT$99.3 billion. The five major insurers also stepped in with NT$200.6 billion in purchases, helping Taiwan outperform other Asian markets."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MediaTek and Qualcomm Battle for 6G Leadership at MWC 2026",
+      "section": "金融",
+      "date": "2026/03/03 02:32:25",
+      "url": "https://money.udn.com/money/story/5612/9355083",
+      "summary": "At MWC 2026, both MediaTek and Qualcomm are showcasing 6G technologies and AI-native network capabilities. Qualcomm announced partnerships to accelerate 6G development with commercial systems planned from 2029, while MediaTek demonstrated breakthrough 6G wireless access interoperability. The competition intensifies as both companies position for the next-generation mobile infrastructure market."
+    },
+    {
+      "title": "Container Shipping Rates Surge as Major Lines Avoid Persian Gulf",
+      "section": "金融",
+      "date": "2026/03/03 03:20:51",
+      "url": "https://money.udn.com/money/story/5612/9355168",
+      "summary": "Major container shipping lines including MSC, Maersk, and Hapag-Lloyd have suspended operations through the Strait of Hormuz due to US-Iran conflict. This is causing significant disruption to global trade routes and pushing up spot freight rates. Hapag-Lloyd has imposed a $1,500 war risk surcharge per 20-foot container, while CMA CGM added a $2,000 emergency conflict surcharge. The situation mirrors previous Red Sea disruptions and threatens global supply chains."
+    },
+    {
+      "title": "TSMC Continues Taiwan Advanced Process Expansion, Driving Backend Investment Surge",
+      "section": "金融",
+      "date": "2026/03/02 04:35:10",
+      "url": "https://money.udn.com/money/story/5612/9352055",
+      "summary": "TSMC's continued expansion of advanced processes in Taiwan is driving major capital expenditure from packaging and testing companies. Industry estimates suggest 80% of TSMC's advanced processes through 2030 will remain in Taiwan. ASE Group plans to increase equipment capex to $4.9 billion this year, while Powertech forecasts NT$40 billion in capex mainly for FOPLP capacity expansion. The investments reflect strong AI chip demand and advanced packaging requirements."
+    },
+    {
+      "title": "Foxconn Advances to Nvidia GTC Conference with Vera Rubin Collaboration",
+      "section": "金融",
+      "date": "2026/03/02 04:35:05",
+      "url": "https://money.udn.com/money/story/5612/9352118",
+      "summary": "Foxconn will participate in Nvidia's GTC conference March 16-19, showcasing collaboration on the new Vera Rubin AI supercomputer platform. As an Nvidia Cloud Partner, Foxconn is developing comprehensive L1-L12 manufacturing solutions including complete rack systems. The company's vertical integration capabilities position it well for the next wave of AI infrastructure investments, with order visibility extending to 2027."
+    }
+  ],
+  "not_relevant": [
+    "Food Safety Regulations for Manufacturing Companies",
+    "Global Container Shipping Competition Trends",
+    "Taiwan Startup Environment Rankings",
+    "Real Estate Development in North Taipei Science Park",
+    "Lottery Drawing Results",
+    "Personal Stories of Business Leaders",
+    "Middle East Military Conflict Details (non-market impact)",
+    "Energy Facility Attacks in Qatar",
+    "US Military Operations Details",
+    "Tourism Industry Disruptions",
+    "Manufacturing Company Earnings (non-listed companies)"
+  ]
+}
