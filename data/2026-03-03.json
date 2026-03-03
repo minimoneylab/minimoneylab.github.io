@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-03",
+  "update_time": "2026-03-03 13:46:21",
+  "total_articles": 93,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Hit by US-Iran Conflict, Foreign Investors Withdraw NT$94.7 Billion",
+      "section": "證券",
+      "date": "2026/03/03 18:04:43",
+      "url": "https://money.udn.com/money/story/5607/9357077",
+      "summary": "The Middle East conflict escalated, impacting Asian stock markets on March 3. Korean stocks plunged over 7%, Japanese stocks fell 3.06%, while Taiwan's stock market dropped 771.44 points to close at the day's low of 34,323.65 points, breaking below the 35,000-point level. Among the three major institutional investors, only investment trusts bought net, while foreign investors sold a massive NT$94.7 billion. Despite the massive withdrawal, foreign investors surprisingly bought 45,033 thousand shares of Yang Ming Marine Transport (2609), ranking it first in foreign buying. This demonstrates the selective nature of foreign capital amid the geopolitical turmoil, with investors favoring shipping stocks that benefit from supply chain disruptions in the Middle East."
+    },
+    {
+      "title": "TSMC Plunges with 7,869 Lot Sell Order in Final Session, Closes at NT$1,935",
+      "section": "產經",
+      "date": "2026/03/03 15:16:53",
+      "url": "https://money.udn.com/money/story/5607/9356602",
+      "summary": "Taiwan's stock market closed at 34,323.65 points on March 3, down 771.44 points (-2.2%), breaking below the 35,000-point level. TSMC (2330) was hit hard in the final session with a massive 7,869 lot sell order, pushing the stock down another NT$10 to close at NT$1,935, down NT$40 (-2.02%). This single stock movement contributed approximately 315 points to the overall index decline, reducing TSMC's market capitalization to NT$50.17 trillion. The escalating US-Iran conflict, with President Trump stating military operations could continue for 4-5 weeks, has created significant market uncertainty. The massive sell-off in TSMC's final trading session suggests institutional liquidation amid geopolitical fears."
+    },
+    {
+      "title": "Central Bank's Selective Credit Controls Expected to Remain Unchanged - Mega Financial Chairman",
+      "section": "金融",
+      "date": "2026/03/03 20:03:29",
+      "url": "https://money.udn.com/money/story/5613/9357280",
+      "summary": "Mega Financial Holdings (2886) Chairman Tony Tong, who also serves as a standing director of Taiwan's Central Bank, indicated support for maintaining the current seventh wave of selective credit controls ahead of the CBC's March 19 quarterly board meeting. Tong stated that the policy measures are still taking effect and should be maintained at present. He emphasized that the policy aims to curb property speculation rather than suppress the housing market entirely. Currently, about 90% of mortgage loans are for owner-occupied properties, with investment buyers nearly eliminated. The policy has successfully stabilized housing prices and transaction volumes have returned to normal levels, making it appropriate to continue the current measures."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Memory Chip Stocks Crash, Three Hit Daily Limit Down",
+      "section": "證券",
+      "date": "2026/03/03 12:14:56",
+      "url": "https://money.udn.com/money/story/5607/9356142",
+      "summary": "Memory chip stocks suffered the heaviest losses as Taiwan's stock market plunged over 700 points. Nanya Technology (2408), Macronix (2337), and Winbond (2344) all hit daily limit down, while Powerchip (6770) fell over 9%. Despite the sharp correction, TrendForce recently reported that DRAM contract prices will accelerate significantly this quarter, with general-purpose DRAM expected to surge 90-95%. Apple has reportedly accepted Samsung's latest DRAM price increase of 100%, highlighting severe supply shortages in the memory market."
+    },
+    {
+      "title": "Low Earth Orbit Satellite Stocks Surge Amid Market Turmoil",
+      "section": "證券",
+      "date": "2026/03/03 11:56:00",
+      "url": "https://money.udn.com/money/story/5607/9356056",
+      "summary": "While Taiwan's stock market experienced extreme volatility with intraday swings of 887 points, low earth orbit (LEO) satellite stocks emerged as safe havens. Parade Technologies (6152), Tatung (3701), and TWRF (2485) hit daily limit up, with Global Unichip (3443) and EDIMAX (3138) also lighting up. The MWC 2026 satellite commercialization theme provided support, with major satellite companies like SpaceX and Eutelsat showcasing space communications entering commercial scale. This sector demonstrated remarkable resilience amid the broader market selloff."
+    },
+    {
+      "title": "Taiwan Power Struggles with Doubling Electricity Demand",
+      "section": "金融",
+      "date": "2026/03/03 12:13:11",
+      "url": "https://money.udn.com/money/story/5612/9356129",
+      "summary": "Taipower Chairman Tseng Wen-sheng revealed that Taiwan's electricity demand growth will be 2-2.5 times higher than the past decade's average over the next five years, driven by AI industry expansion. Historically, Taiwan added 400,000-500,000 kW annually, but now faces building one new gas-fired power plant (1.3 million kW) each year. Keelung Mayor Hsieh Kuo-liang suggested establishing power feedback mechanisms for local industries when new plants are built, potentially transforming power plants from NIMBY facilities into welcomed infrastructure."
+    },
+    {
+      "title": "Container Shipping Rates Soar as Major Lines Avoid Persian Gulf",
+      "section": "產經",
+      "date": "2026/03/03 13:04:16",
+      "url": "https://money.udn.com/money/story/5710/9356260",
+      "summary": "The US-Iran conflict has disrupted shipping through the Strait of Hormuz, with Iran's Revolutionary Guards declaring the strait closed. Major shipping lines have stopped accepting Middle East cargo, while those still operating have imposed surcharges. Taiwan's container shipping giants Yang Ming (2609), Wan Hai (2615), and Evergreen (2603) surged 7-9% on expectations of higher freight rates. The Shanghai International Energy Exchange's Europe container index futures hit the daily limit up 15%."
+    }
+  ],
+  "not_relevant": []
+}
