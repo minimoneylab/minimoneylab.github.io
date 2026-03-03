@@ -53,5 +53,5 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add website/data/*.json
+        git add data/*.json
         git diff --quiet && git diff --staged --quiet || (git commit -m "Daily update $(date +'%Y-%m-%d')" && git push)
