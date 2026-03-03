@@ -30,7 +30,7 @@ CONFIG = {
     "digest_tab": "Daily Digest",
     
     # Output
-    "output_dir": "./website/data",
+    "output_dir": "./data",
     "days_to_keep": 7,
 }
 
