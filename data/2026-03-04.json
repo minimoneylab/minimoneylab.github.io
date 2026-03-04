@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-04",
+  "update_time": "2026-03-04 05:01:34",
+  "total_articles": 105,
+  "high": [
+    {
+      "title": "Central Bank Policy Meeting - 7th Wave Credit Controls Expected to Remain",
+      "section": "金融",
+      "date": "2026/03/03",
+      "url": "https://money.udn.com/money/story/5613/9357280",
+      "summary": "Mega Financial Holdings Chairman Tung Jui-bin, who also serves as a standing director of the Central Bank, expressed support for maintaining the current 7th wave selective credit controls ahead of the CBC's Q1 board meeting on March 19. Tung stated that the policy measures are still taking effect and should continue to prevent property speculation. The controls have successfully stabilized housing prices and reduced transaction volumes to normal levels, with approximately 90% of mortgage lending now going to owner-occupiers rather than investors. This suggests the CBC will likely maintain its restrictive stance on property lending, which could continue to impact bank lending margins and real estate-related financial activities."
+    },
+    {
+      "title": "Major Taiwan Semiconductor Companies Show Strong Revenue Growth",
+      "section": "證券",
+      "date": "2026/03/03",
+      "url": "https://money.udn.com/money/story/5710/9356976",
+      "summary": "Nanya Technology reported February revenue of NT$15.607 billion, up 1.94% monthly and 586.71% annually, marking a historic high. Cumulative revenue for the first two months reached NT$30.917 billion, up 597.10% year-over-year. The company benefits from continued DRAM shortages across multiple product categories including DDR5, LPDDR5, DDR4, LPDDR4, and DDR3, driven by AI and cloud server demand. This exceptional performance reflects the broader memory semiconductor boom and Taiwan's crucial position in the global supply chain."
+    },
+    {
+      "title": "Foreign Investment Outflow Reaches NT$947 billion Despite Selective Stock Purchases",
+      "section": "證券",
+      "date": "2026/03/03",
+      "url": "https://money.udn.com/money/story/5607/9357077",
+      "summary": "Foreign investors sold a massive NT$947.08 billion from Taiwan stocks on March 3, marking significant capital outflow amid Middle East tensions. However, they paradoxically bought 45,033 shares of Yang Ming Marine Transport, making it their top purchase. This suggests selective positioning in shipping stocks due to potential freight rate increases from Strait of Hormuz disruptions. The massive outflow represents foreign investors using Taiwan as a \"cash machine\" during regional uncertainty, while strategic buying in specific sectors indicates expectations of supply chain disruptions benefiting certain industries."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC Post-Market Trading Hits NT$2,190 New High",
+      "section": "證券",
+      "date": "2026/03/03",
+      "url": "https://money.udn.com/money/story/5607/9355206",
+      "summary": "TSMC's after-hours block trading reached a record NT$2,190 per share, the first time exceeding NT$2,100. This suggests potential upside of 1,711 points for the TAIEX index, targeting the 37,000 level despite recent volatility from Middle East tensions."
+    },
+    {
+      "title": "Memory Sector Faces Sharp Correction Despite Supply Shortages",
+      "section": "證券",
+      "date": "2026/03/03",
+      "url": "https://money.udn.com/money/story/5607/9356142",
+      "summary": "Memory stocks including Nanya Tech, Winbond, and Macronix hit limit down despite TrendForce reporting DRAM contract prices surging 90-95% this quarter. Apple reportedly accepted Samsung's 100% DRAM price increase, highlighting severe supply shortages, yet stocks suffered from broader market selloff."
+    },
+    {
+      "title": "Low Earth Orbit Satellite Stocks Rally Amid Market Turmoil",
+      "section": "證券",
+      "date": "2026/03/03",
+      "url": "https://money.udn.com/money/story/5607/9356056",
+      "summary": "Despite Taiwan stock market plunging over 717 points, low-orbit satellite stocks surged with several hitting limit up including Bai Yi, Ta Ching Holdings, and Zehra. The MWC 2026 conference themes around satellite commercialization provided defensive growth story amid geopolitical uncertainty."
+    },
+    {
+      "title": "Electronic Distribution Giant WT Microelectronics Hits Limit Up on Strong Outlook",
+      "section": "證券",
+      "date": "2026/03/04",
+      "url": "https://money.udn.com/money/story/5710/9358637",
+      "summary": "WT Microelectronics surged limit up after reporting revenue exceeding NT$1 trillion for first time in 2025 and projecting Q1 2026 revenue of NT$460-490 billion, representing 92% annual growth. The company's data center business CAGR of 48.3% and strong AI semiconductor demand outlook attracted foreign investment upgrades despite broader market weakness."
+    }
+  ],
+  "not_relevant": []
+}
