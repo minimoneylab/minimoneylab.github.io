@@ -2,6 +2,7 @@
 """
 STEP 1: Daily News Scraper
 Scrapes news from UDN Money and saves RAW articles to Google Sheets
+Filters to only include articles from the past 24 hours
 Run this ONCE per day (morning)
 No AI API needed - completely free!
 """
@@ -9,12 +10,15 @@ No AI API needed - completely free!
 import asyncio
 from playwright.async_api import async_playwright
 import json
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import os
 import gspread
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import pickle
+
+# Hong Kong timezone (UTC+8)
+HK_TIMEZONE = timezone(timedelta(hours=8))
 
 # ============================================================================
 # CONFIGURATION
@@ -31,6 +35,9 @@ CONFIG = {
     ],
     
     "articles_per_section": 10,  # 10 x 3 = 30 articles per day
+    
+    # Time filter: only articles from past 24 hours
+    "filter_hours": 24,  # Set to 0 to disable filtering
     
     # Google Sheets settings
     "credentials_file": "credentials.json",
@@ -226,6 +233,32 @@ class NewsAutomation:
     def __init__(self, config):
         self.config = config
         self.articles = []
+        self.scrape_time = datetime.now(HK_TIMEZONE)
+        self.cutoff_time = self.scrape_time - timedelta(hours=config.get('filter_hours', 0))
+    
+    def is_article_recent(self, article_date_str):
+        """Check if article is within the time window (past 24 hours)"""
+        if self.config.get('filter_hours', 0) == 0:
+            return True  # No filtering
+        
+        try:
+            # Parse article date: "2026/03/04 12:30:15" format
+            article_dt = datetime.strptime(article_date_str, '%Y/%m/%d %H:%M:%S')
+            # Make timezone-aware (assume HK time)
+            article_dt = article_dt.replace(tzinfo=HK_TIMEZONE)
+            
+            # Check if article is newer than cutoff
+            is_recent = article_dt >= self.cutoff_time
+            
+            if not is_recent:
+                hours_old = (self.scrape_time - article_dt).total_seconds() / 3600
+                print(f"   Skipping old article ({hours_old:.1f}h old)")
+            
+            return is_recent
+            
+        except Exception as e:
+            print(f"   Warning: Could not parse date '{article_date_str}': {e}")
+            return True  # Include if we can't parse (benefit of doubt)
         os.makedirs(config["output_dir"], exist_ok=True)
 
     async def get_article_links(self, page, section_url):
@@ -338,16 +371,20 @@ class NewsAutomation:
                                 article_data = await self.scrape_article(page, link)
 
                                 if article_data['content'] != 'No content' and len(article_data['content']) > 100:
-                                    self.articles.append({
-                                        'url': link,
-                                        'section': section_name,
-                                        'title': article_data['title'],
-                                        'date': article_data['date'],
-                                        'content': article_data['content'],
-                                        'scraped_at': datetime.now().isoformat()
-                                    })
-                                    section_count += 1
-                                    print("   OK: " + article_data['title'][:55])
+                                    # Check if article is within time window (past 24 hours)
+                                    if self.is_article_recent(article_data['date']):
+                                        self.articles.append({
+                                            'url': link,
+                                            'section': section_name,
+                                            'title': article_data['title'],
+                                            'date': article_data['date'],
+                                            'content': article_data['content'],
+                                            'scraped_at': self.scrape_time.isoformat()
+                                        })
+                                        section_count += 1
+                                        print("   OK: " + article_data['title'][:55])
+                                    else:
+                                        print("   Too old: " + article_data['title'][:50])
                                 else:
                                     print("   No content")
                             except Exception as article_error:
@@ -374,6 +411,10 @@ class NewsAutomation:
                     pass  # Browser already closed
 
         print("=" * 70)
+        filter_hours = self.config.get('filter_hours', 0)
+        if filter_hours > 0:
+            print(f"Time window: Past {filter_hours} hours")
+            print(f"Cutoff: {self.cutoff_time.strftime('%Y-%m-%d %H:%M')} HK")
         print("Total articles scraped: " + str(len(self.articles)))
         print("=" * 70)
         print()
