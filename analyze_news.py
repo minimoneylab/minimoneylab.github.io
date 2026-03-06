@@ -69,6 +69,8 @@ for a fund manager who focuses on Taiwan listed companies, life insurers,
 and monetary policy. Be precise, professional, and highlight market 
 implications where relevant.
 
+IMPORTANT: Write ALL summaries in ENGLISH. Translate Chinese article titles to English.
+
 Below are """ + str(len(articles)) + """ news articles from UDN Money.
 
 CRITICAL RULES:
@@ -76,6 +78,7 @@ CRITICAL RULES:
 - DO NOT modify, shorten, or make up URLs
 - Copy the URL exactly as it appears for each article
 - Filter articles based on relevance to the topics below
+- Write ALL content in ENGLISH (translate titles and summaries)
 
 RELEVANT TOPICS (ONLY summarize articles about these):
 - Taiwan life insurance companies (壽險公司)
