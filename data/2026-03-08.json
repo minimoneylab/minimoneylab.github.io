@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-08",
+  "update_time": "2026-03-07 23:01:19",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "Oil Price Surge Hits Global Bond Markets",
+      "section": "金融",
+      "date": "2026/03/07 13:41:03",
+      "url": "https://money.udn.com/money/story/5599/9365460",
+      "summary": "Global bond markets suffered severe damage this week as oil prices surged from $72/barrel pre-war to $92/barrel due to Iran conflict. UK 10-year yields jumped 39bp to 4.62% (worst week since Truss crisis 2022), while US 10-year yields rose 17bp to 4.13%. Market expectations have dramatically shifted - ECB now expected to raise rates 1 notch this year (previously cuts expected), and BoE cut probabilities reduced from 2 cuts to 50% chance of 1 cut. This represents a fundamental reversal in monetary policy expectations, with major implications for Taiwan life insurers' overseas bond portfolios and Central Bank of Taiwan policy considerations. Rising global yields will pressure life insurer overseas investment returns while potentially supporting Taiwan's monetary policy normalization."
+    },
+    {
+      "title": "Hon Hai Forecasts Double-Digit Growth, Prepares Gift for Huang Jen-hsun at NVIDIA GTC",
+      "section": "金融",
+      "date": "2026/03/07 00:58:20",
+      "url": "https://money.udn.com/money/story/5612/9364723?from=edn_maintab_cate",
+      "summary": "Hon Hai Chairman Liu Yang-wei announced the company expects definite double-digit revenue growth in 2026, driven by dual engines of AI servers and consumer electronics. Revenue could approach NT$9 trillion if double-digit growth materializes from 2025's NT$8 trillion base. The company secured major wins in foldable phones from Apple and Google, dominates iPhone 17e production, and is the largest iPhone 18 supplier. Liu expressed confidence about market share in NVIDIA's new Vera Rubin platform, revealing Hon Hai will present a special Vera Rubin-related gift to NVIDIA CEO Jensen Huang at the upcoming GTC conference. This positions Hon Hai strongly in next-generation AI infrastructure, critical for Taiwan's technology leadership."
+    },
+    {
+      "title": "TSMC Recruits 8,000 New Hires with Master's Engineers Earning NT$2.2 Million Annually",
+      "section": "金融",
+      "date": "2026/03/07 11:13:03",
+      "url": "https://money.udn.com/money/story/5612/9365222?from=edn_maintab_cate",
+      "summary": "TSMC launched its 2026 campus recruitment targeting 8,000 new employees across Taiwan locations. The semiconductor giant offers master's degree engineers an average total annual compensation of NT$2.2 million, significantly above market rates. Recruitment spans technical fields (electrical, electronics, materials, chemical engineering) and business functions (HR, accounting, management). TSMC emphasizes its digital transformation and AI/big data applications for smart factory development. The massive hiring reflects continued capacity expansion and technology advancement needs, reinforcing Taiwan's semiconductor dominance. The attractive compensation package demonstrates TSMC's commitment to talent acquisition amid global semiconductor competition."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Oracle and OpenAI Abandon Texas Data Center Expansion, Affecting NVIDIA's Next-Gen Chip Deployment",
+      "section": "金融",
+      "date": "2026/03/07 15:26:08",
+      "url": "https://money.udn.com/money/story/5599/9365612",
+      "summary": "Oracle and OpenAI decided against expanding their largest Crusoe-developed data center campus in Abilene, Texas, which would impact NVIDIA's Vera Rubin chip deployment strategy. The original eight buildings can house 400,000 NVIDIA Blackwell GPUs, with only two completed. OpenAI prefers to deploy next-generation chips at other locations rather than expand existing Blackwell clusters, reflecting rapid AI hardware evolution."
+    },
+    {
+      "title": "Taiwan Cement Chairman: Iran War Impact Unpredictable, Mainland China Economy Not Yet Recovering, AI Applications Most Optimistic",
+      "section": "金融",
+      "date": "2026/03/07 13:21:09",
+      "url": "https://money.udn.com/money/story/5612/9365435?from=edn_maintab_cate",
+      "summary": "Taiwan Cement Chairman Chang An-ping expressed uncertainty about Iran war impacts and noted China's economy remains weak in the short term. However, he's optimistic about AI applications becoming more practical this year as new platforms mature, enabling enterprise adoption and operational efficiency improvements. Taiwan Cement has deployed AI and IoT systems across European, Taiwan, and China factories, targeting 1-2% efficiency gains."
+    },
+    {
+      "title": "TSMC ADR Plunges 4.2%, Taiwan Index Futures Night Session Crashes 1,030 Points",
+      "section": "證券",
+      "date": "2026/03/08 02:46:47",
+      "url": "https://money.udn.com/money/story/5607/9366100?from=edn_maintab_cate",
+      "summary": "TSMC ADR dropped 4.2% following weak US employment data and surging oil prices. Taiwan index futures night session plummeted 1,030 points (3%) to 32,673. Market analysts expect Taiwan stocks to break below the monthly line at 33,250 points and potentially test the 33,000 support level. The rapid correction follows the index's 6,000+ point rally in January-February."
+    },
+    {
+      "title": "Formosa Plastics Q2 Outlook Supported by Dual Positives",
+      "section": "金融",
+      "date": "2026/03/07 01:01:45",
+      "url": "https://money.udn.com/money/story/5612/9364719?from=edn_maintab_cate",
+      "summary": "Formosa Plastics Group expects Q2 operations to gradually improve, supported by rising petrochemical prices due to Middle East conflicts and strong AI electronics materials demand. Nan Ya anticipates March revenue growth as AI server and HPC demand drives copper foil substrate, copper foil, and glass fiber products. The group benefits from low-cost raw material inventory amid rising product prices."
+    }
+  ],
+  "not_relevant": []
+}
