@@ -1,75 +1,73 @@
 {
   "date": "2026-03-07",
-  "update_time": "2026-03-06 05:05:16",
-  "total_articles": 121,
+  "update_time": "2026-03-07 09:18:59",
+  "total_articles": 14,
   "high": [
     {
-      "title": "TSMC Advances to 2nm Mass Production, Taiwan Maintains 85% of Global Advanced Processes",
+      "title": "Oil Price Surge Hammers Global Bond Markets",
       "section": "金融",
-      "date": "2026/03/02 04:35:10",
-      "url": "https://money.udn.com/money/story/5612/9352055?from=edn_subcatelist_cate",
-      "summary": "TSMC continues expanding advanced processes in Taiwan with 2nm technology ramping up at Kaohsiung Fab 22, while also building a new 2nm fab in Hsinchu Science Park. Industry assessment indicates that over the next 5 years, nearly 80% of TSMC's advanced processes will remain in Taiwan. TSMC's CoWoS advanced packaging monthly capacity is expected to grow from 70,000 wafers at end-2025 to 100,000 wafers by end-2026, reaching 130,000 wafers by end-2027. This drives strong demand for semiconductor backend testing and advanced packaging, benefiting Taiwan's testing houses including ASE Group, ChipMOS, and Sigurd Microelectronics, as well as testing interface firms Chunghwa Precision and MPI."
+      "date": "2026/03/07 13:41:03",
+      "url": "https://money.udn.com/money/story/5599/9365460",
+      "summary": "Global bond markets suffered severe losses this week as oil prices surged from $72/barrel pre-war to $92/barrel, with European natural gas prices soaring. UK 10-year gilt yields jumped 39bp to 4.62% - the worst week since the 2022 Truss crisis, while US 10-year Treasury yields rose 17bp to 4.13%. The Bloomberg Global Bond Index posted its worst week since October 2024. Investors fear inflation resurgence will derail central bank easing cycles. Market expectations have shifted dramatically: the ECB is now expected to raise rates 25bp this year versus pre-war expectations of further cuts. Bank of England rate cut bets fell from 50bp to just 50% chance of 25bp cut. However, US bonds performed relatively better given America's energy exporter status, and February's 92,000 job decline boosted Fed easing expectations. This energy-driven inflation shock poses significant risks to Taiwan's life insurers' bond portfolios and could delay CBC monetary easing."
     },
     {
-      "title": "Central Bank to Hold Q1 Board Meeting on March 19, Focus on Selective Credit Controls",
+      "title": "Hon Hai Targets Double-Digit Growth, Promises NVIDIA Gift at GTC",
       "section": "金融",
-      "date": "2026/03/03 20:03:29",
-      "url": "https://money.udn.com/money/story/5613/9357280",
-      "summary": "Mega Financial Chairman Tony Shen, who also serves as CBC board member, supports maintaining the seventh wave of selective credit controls. He stated that policy measures are still taking effect and should continue. Real estate lending has normalized to mostly owner-occupied properties with 90% of loans being for self-use. The policy has successfully stabilized housing prices while maintaining reasonable transaction volumes. This has significant implications for Taiwan's monetary policy direction and banking sector credit allocation."
+      "date": "2026/03/07 00:58:20",
+      "url": "https://money.udn.com/money/story/5612/9364723?from=edn_maintab_cate",
+      "summary": "Hon Hai Chairman Liu Yang-wei announced the company expects \"definite double-digit growth\" in 2026 revenue, driven by dual engines of AI servers and consumer electronics recovery. With 2025 revenue of NT$8 trillion, double-digit growth would push toward NT$9 trillion target. The company secured major wins including Apple and Google foldable phone orders, low-cost iPhone 17e production, and largest supplier status for H2 iPhone 18 series. Liu expressed optimism about NVIDIA's Vera Rubin AI server platform, citing Hon Hai's deep client relationships and vertical integration advantages. The company will showcase Vera Rubin-related products at NVIDIA's GTC conference mid-March, including AI server racks, compute trays, cooling systems, and power components. Liu teased a \"special gift\" for NVIDIA CEO Jensen Huang related to Vera Rubin platform. Strong order momentum and shipment dynamics support the growth outlook."
     },
     {
-      "title": "Memory Giant Nanya Tech Announces Q2 DRAM Prices to \"Jump\" Higher",
+      "title": "TSMC Launches Massive Recruitment Drive for 8,000 New Hires",
       "section": "金融",
-      "date": "2026/03/05 01:45:14",
-      "url": "https://money.udn.com/money/story/5612/9359987?from=edn_maintab_cate",
-      "summary": "Nanya Technology CEO Pei-Ing Lee stated that memory supply-demand imbalance will persist with Q1 prices rising monthly and Q2 seeing \"jump\" increases. The tight supply situation is expected to continue until at least 2H 2028. AI server DRAM share is rapidly climbing from 4% in 2024 to 7% in 2025, potentially exceeding 10% going forward. HBM demand is consuming about 25% of production capacity despite representing only 10% of bit demand. This supply constraint combined with surging AI demand creates a powerful tailwind for memory manufacturers including Nanya Tech, Winbond, and Macronix."
-    },
-    {
-      "title": "US-Iran War Escalates, Hormuz Strait Closed, Global Shipping Disrupted",
-      "section": "產經",
-      "date": "2026/03/03 11:29:33",
-      "url": "https://money.udn.com/money/story/5710/9355944?from=edn_maintab_cate",
-      "summary": "Iran Revolutionary Guard commander announced closure of Hormuz Strait, threatening to fire on any vessels attempting passage. About 10% of global container fleet is affected according to ONE CEO. Major shipping lines MSC, Yang Ming, and Wan Hai have suspended Middle East cargo bookings. This closure impacts approximately 20% of global oil and LNG transportation, creating significant supply chain disruptions and driving up freight rates. Taiwan shipping companies including Evergreen, Yang Ming, and Wan Hai are benefiting from higher container rates but face operational challenges."
+      "date": "2026/03/07 11:13:03",
+      "url": "https://money.udn.com/money/story/5612/9365222?from=edn_maintab_cate",
+      "summary": "TSMC announced its 2026 campus recruitment campaign, targeting 8,000 new employees across Taiwan locations including Taoyuan, Hsinchu, Miaoli, Taichung, Chiayi, Tainan, and Kaohsiung. The semiconductor giant is expanding beyond traditional engineering roles to recruit business administration, HR, and accounting professionals. Fresh master's degree graduates can expect average annual compensation of NT$2.2 million. TSMC emphasized its digital transformation and AI/big data initiatives for next-generation smart factories, specifically welcoming IT talent. The company will participate in 17 physical campus job fairs and five online sessions. TSMC's DNA summer internship program also launched, targeting junior-year students with potential for full-time pre-offers. This massive hiring drive reflects TSMC's confidence in sustained semiconductor demand growth and positions the company to capture expanding AI chip opportunities while maintaining manufacturing excellence leadership."
     }
   ],
   "medium": [
     {
-      "title": "Foreign Investors Sell NT$947 Billion but Buy Yang Ming Maritime 45,000 Shares",
-      "section": "證券",
-      "date": "2026/03/03 18:04:43",
-      "url": "https://money.udn.com/money/story/5607/9357077",
-      "summary": "Despite massive foreign selling pressure of NT$947 billion amid Middle East conflicts, foreign investors notably bought Yang Ming Maritime as their top pick with 45,033 shares, anticipating shipping rate increases from Hormuz Strait closure. Other shipping stocks also saw foreign buying interest as geopolitical tensions boost freight demand."
-    },
-    {
-      "title": "MediaTek, Qualcomm Battle for 6G at MWC 2026",
+      "title": "Oracle and OpenAI Abandon Texas Data Center Expansion",
       "section": "金融",
-      "date": "2026/03/03 02:32:25",
-      "url": "https://money.udn.com/money/story/5612/9355083?from=edn_maintab_cate",
-      "summary": "At MWC 2026, MediaTek showcased world's first 6G wireless interoperability achievements and \"Personal Device Cloud\" technology. Qualcomm announced partnerships to accelerate 6G development with commercial systems expected from 2029. ASUS is listed among Qualcomm's 6G collaboration partners, positioning Taiwan companies in next-generation wireless infrastructure."
+      "date": "2026/03/07 15:26:08",
+      "url": "https://money.udn.com/money/story/5599/9365612",
+      "summary": "Oracle and OpenAI decided against expanding their largest data center complex in Abilene, Texas, impacting NVIDIA's next-generation Vera Rubin chip deployment strategy. The original eight-building plan for 400,000 NVIDIA Blackwell GPUs continues, but the additional six-building expansion was scrapped. Power infrastructure delays and OpenAI's preference for deploying next-gen Vera Rubin chips at other locations drove the decision. NVIDIA is reportedly helping lease remaining space to Meta, though negotiations remain preliminary."
     },
     {
-      "title": "NVIDIA Invests $4 Billion in Optical Communications Companies",
+      "title": "Shipping Rates Surge 11% Weekly as Middle East Crisis Disrupts Global Routes",
       "section": "金融",
-      "date": "2026/03/04 01:34:04",
-      "url": "https://money.udn.com/money/story/11162/9357556?from=edn_maintab_cate",
-      "summary": "NVIDIA announced $2 billion investments each in Lumentum Holdings and Coherent, totaling $4 billion to expand US manufacturing and R&D capabilities. This drives co-packaged optics (CPO) adoption as AI infrastructure scales. Taiwan optical component suppliers including GaAs Labs, Optoma Technology, and Wah Hong Industrial benefit from the supply chain expansion."
+      "date": "2026/03/07 01:16:16",
+      "url": "https://money.udn.com/money/story/5612/9364701?from=edn_maintab_cate",
+      "summary": "The Shanghai Containerized Freight Index (SCFI) jumped 11.7% week-on-week to 1,489.19 points, with Asia-Persian Gulf rates surging 72% to $2,287/TEU amid US-Iran conflict. Shipping lines avoid Middle East ports despite operational status, creating vessel queues and reducing capacity by at least 10%. Trans-Pacific and Europe routes also posted gains of 1-4.5% as supply tightens during traditionally weak post-Lunar New Year period."
     },
     {
-      "title": "Taiwan Stock Index Plunges 1,494 Points on Middle East War Escalation",
-      "section": "證券",
-      "date": "2026/03/04 12:24:26",
-      "url": "https://money.udn.com/money/story/5607/9358575",
-      "summary": "TAIEX dropped 1,494 points to 32,828 as Middle East conflicts intensify. TSMC fell below 1,900 level while memory stocks hit limit down. Investment advisors view the monthly line and 33,000 level as bottom area for potential range trading. Four sectors recommended: CPO, low earth orbit satellites, AI, and defense."
+      "title": "Plastics Group Expects Q2 Recovery on Energy Price Rally",
+      "section": "金融",
+      "date": "2026/03/07 01:01:45",
+      "url": "https://money.udn.com/money/story/5612/9364719?from=edn_maintab_cate",
+      "summary": "Formosa Plastics Group expects Q2 operations to improve gradually, supported by Middle East conflict-driven energy and petrochemical price increases plus strong AI electronic materials demand. Taiwan Plastics noted China's export tax rebate cancellations prompted front-loading purchases, while Nan Ya highlighted continued AI server demand boosting copper foil substrate, copper foil, and glass fiber products. The group sees potential for petrochemical price increases as Asian refineries undergo maintenance."
     },
     {
-      "title": "Chunghwa Precision Reports Record January Revenue of NT$9 Billion",
+      "title": "Women Hold 16% of Global Gold Reserves, Benefiting from Price Rally",
+      "section": "產經",
+      "date": "2026/03/06 17:51:55",
+      "url": "https://money.udn.com/money/story/5599/9364215",
+      "summary": "Julius Baer research reveals women, particularly in India, are major beneficiaries of gold's price surge, holding an estimated 16% of global gold reserves. Female participation in gold investing tripled between 2018-2024, reaching 26% at Royal Mint. Chinese middle-aged female investors account for one-third of gold bar and coin purchases. The trend reflects women's preference for conservative investments offering stability and diversification during uncertain periods."
+    },
+    {
+      "title": "Smart Network Achieves Record February Revenue",
       "section": "證券",
-      "date": "2026/03/05 12:49:47",
-      "url": "https://money.udn.com/money/story/5607/9361081",
-      "summary": "Taiwan's January export orders hit record high of $76.91 billion, up 60.1% YoY for 12th consecutive month of growth. Server-related companies including Chunghwa Precision, which reported record January revenue of NT$9 billion, benefit from structural AI demand driving semiconductor testing and advanced packaging requirements."
+      "date": "2026/03/07 01:12:25",
+      "url": "https://money.udn.com/money/story/5710/9364425?from=edn_maintab_cate",
+      "summary": "Accton Technology posted February revenue of NT$23.58 billion, up 9.6% monthly and 82.7% annually, marking the strongest February on record. Foreign brokers raised price target to NT$1,850 from NT$1,620, citing continued 800G product shipments and new hyperscaler client contributions expected to reach 15% of revenue. Q1 revenue expected to decline mid-to-high single digits quarterly but grow ~60% annually."
+    },
+    {
+      "title": "Trade Link Posts Record 2025 EPS of NT$46.57",
+      "section": "證券",
+      "date": "2026/03/07 01:29:07",
+      "url": "https://money.udn.com/money/story/5710/9364439?from=edn_maintab_cate",
+      "summary": "Trade Link-KY reported Q4 2025 net profit of NT$2.74 billion and full-year earnings of NT$9.005 billion (+105% YoY), delivering EPS of NT$46.57 versus NT$25.41 in 2024. January 2026 EPS reached NT$5.01. High-performance computing segment exceeded 45% of revenue mix, driving the record profitability amid continued AI acceleration phase."
     }
   ],
-  "not_relevant": [
-    "Articles about food safety regulations, lottery results, cultural events, personal profiles, tourism impacts, and other topics not directly related to Taiwan financial markets, insurance sector, or monetary policy."
-  ]
+  "not_relevant": []
 }
