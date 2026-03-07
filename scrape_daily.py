@@ -424,18 +424,26 @@ class NewsAutomation:
         """Save JSON backup locally"""
         if not self.articles:
             return None
+        
+        try:
+            # Create output directory if it doesn't exist
+            os.makedirs(self.config["output_dir"], exist_ok=True)
             
-        filename = os.path.join(
-            self.config["output_dir"],
-            "scraped_" + datetime.now().strftime('%Y%m%d_%H%M%S') + ".json"
-        )
-        
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(self.articles, f, ensure_ascii=False, indent=2)
-        
-        print("Local backup: " + filename)
-        print()
-        return filename
+            filename = os.path.join(
+                self.config["output_dir"],
+                "scraped_" + datetime.now().strftime('%Y%m%d_%H%M%S') + ".json"
+            )
+            
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(self.articles, f, ensure_ascii=False, indent=2)
+            
+            print("Local backup: " + filename)
+            print()
+            return filename
+        except Exception as e:
+            print(f"Warning: Could not save local backup: {e}")
+            print()
+            return None
 
 
 # ============================================================================
