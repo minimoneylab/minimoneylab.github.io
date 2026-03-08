@@ -682,9 +682,12 @@
             }
             
             // Show/hide content
-            if (country === 'taiwan') {
+            if (country === 'taiwan' || country === 'vietnam') {
                 document.getElementById('taiwan-content').style.display = 'block';
                 document.getElementById('other-content').style.display = 'none';
+                // Reload dates and data for the selected country
+                const today = new Date().toISOString().split('T')[0];
+                loadData(today);  // Load today's data for the new country
             } else {
                 document.getElementById('taiwan-content').style.display = 'none';
                 document.getElementById('other-content').style.display = 'block';
@@ -706,6 +709,10 @@
         
         function loadAvailableDates() {
             const archiveContainer = document.getElementById('archive-dates');
+            
+            // Clear existing buttons first!
+            archiveContainer.innerHTML = '';
+            
             const dates = [];
             
             for (let i = 0; i < 7; i++) {
@@ -729,7 +736,10 @@
         
         async function loadData(dateStr) {
             try {
-                const response = await fetch(`data/${dateStr}.json`);
+                // Determine data path based on current country
+                const dataPath = currentCountry === 'vietnam' ? `vietnam/data/${dateStr}.json` : `data/${dateStr}.json`;
+                
+                const response = await fetch(dataPath);
                 if (!response.ok) throw new Error('Not found');
                 
                 const data = await response.json();
