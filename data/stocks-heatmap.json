@@ -1,0 +1,458 @@
+{
+  "update_time": "2026-03-08 23:07:32",
+  "total_stocks": 20,
+  "sectors": {
+    "半導體": [
+      {
+        "symbol": "2330",
+        "name": "TSMC",
+        "name_zh": "台積電",
+        "sector": "半導體",
+        "price": 1890.0,
+        "change": -10.0,
+        "change_pct": -0.53,
+        "market_cap": 49012.47,
+        "volume": 30082724
+      },
+      {
+        "symbol": "2454",
+        "name": "MediaTek",
+        "name_zh": "聯發科",
+        "sector": "半導體",
+        "price": 1765.0,
+        "change": -10.0,
+        "change_pct": -0.56,
+        "market_cap": 2817.13,
+        "volume": 4418206
+      },
+      {
+        "symbol": "2303",
+        "name": "UMC",
+        "name_zh": "聯電",
+        "sector": "半導體",
+        "price": 62.0,
+        "change": -0.1,
+        "change_pct": -0.16,
+        "market_cap": 780.47,
+        "volume": 54687401
+      },
+      {
+        "symbol": "3711",
+        "name": "ASE",
+        "name_zh": "日月光投控",
+        "sector": "半導體",
+        "price": 342.0,
+        "change": -11.5,
+        "change_pct": -3.25,
+        "market_cap": 1495.94,
+        "volume": 12622014
+      }
+    ],
+    "電子": [
+      {
+        "symbol": "2317",
+        "name": "Hon Hai",
+        "name_zh": "鴻海",
+        "sector": "電子",
+        "price": 223.0,
+        "change": -1.0,
+        "change_pct": -0.45,
+        "market_cap": 3113.69,
+        "volume": 36562334
+      },
+      {
+        "symbol": "2308",
+        "name": "Delta",
+        "name_zh": "台達電",
+        "sector": "電子",
+        "price": 1320.0,
+        "change": -15.0,
+        "change_pct": -1.12,
+        "market_cap": 3428.76,
+        "volume": 10254707
+      },
+      {
+        "symbol": "2382",
+        "name": "Quanta",
+        "name_zh": "廣達",
+        "sector": "電子",
+        "price": 289.0,
+        "change": -0.5,
+        "change_pct": -0.17,
+        "market_cap": 1113.96,
+        "volume": 12786246
+      },
+      {
+        "symbol": "2357",
+        "name": "Asustek",
+        "name_zh": "華碩",
+        "sector": "電子",
+        "price": 527.0,
+        "change": 9.0,
+        "change_pct": 1.74,
+        "market_cap": 391.43,
+        "volume": 3080642
+      },
+      {
+        "symbol": "2395",
+        "name": "Advantech",
+        "name_zh": "研華",
+        "sector": "電子",
+        "price": 375.0,
+        "change": 32.5,
+        "change_pct": 9.49,
+        "market_cap": 324.69,
+        "volume": 19650666
+      },
+      {
+        "symbol": "2301",
+        "name": "Lite-On",
+        "name_zh": "光寶科",
+        "sector": "電子",
+        "price": 159.0,
+        "change": -2.0,
+        "change_pct": -1.24,
+        "market_cap": 360.89,
+        "volume": 15374474
+      },
+      {
+        "symbol": "2327",
+        "name": "Yageo",
+        "name_zh": "國巨",
+        "sector": "電子",
+        "price": 265.0,
+        "change": -2.5,
+        "change_pct": -0.93,
+        "market_cap": 549.18,
+        "volume": 15045724
+      },
+      {
+        "symbol": "2345",
+        "name": "Accton",
+        "name_zh": "智邦",
+        "sector": "電子",
+        "price": 1465.0,
+        "change": 45.0,
+        "change_pct": 3.17,
+        "market_cap": 818.8,
+        "volume": 6137414
+      }
+    ],
+    "電信": [
+      {
+        "symbol": "2412",
+        "name": "Chunghwa Tel",
+        "name_zh": "中華電",
+        "sector": "電信",
+        "price": 136.5,
+        "change": -0.5,
+        "change_pct": -0.36,
+        "market_cap": 1058.89,
+        "volume": 10693177
+      }
+    ],
+    "金融": [
+      {
+        "symbol": "2882",
+        "name": "Cathay FHC",
+        "name_zh": "國泰金",
+        "sector": "金融",
+        "price": 73.0,
+        "change": -0.6,
+        "change_pct": -0.82,
+        "market_cap": 1070.85,
+        "volume": 21677181
+      },
+      {
+        "symbol": "2881",
+        "name": "Fubon FHC",
+        "name_zh": "富邦金",
+        "sector": "金融",
+        "price": 88.8,
+        "change": -1.7,
+        "change_pct": -1.88,
+        "market_cap": 1243.85,
+        "volume": 34932982
+      },
+      {
+        "symbol": "2891",
+        "name": "CTBC FHC",
+        "name_zh": "中信金",
+        "sector": "金融",
+        "price": 51.4,
+        "change": -0.1,
+        "change_pct": -0.19,
+        "market_cap": 1011.44,
+        "volume": 30300971
+      },
+      {
+        "symbol": "2886",
+        "name": "Mega FHC",
+        "name_zh": "兆豐金",
+        "sector": "金融",
+        "price": 39.3,
+        "change": 0.0,
+        "change_pct": 0.0,
+        "market_cap": 584.92,
+        "volume": 13870677
+      },
+      {
+        "symbol": "2885",
+        "name": "Yuanta FHC",
+        "name_zh": "元大金",
+        "sector": "金融",
+        "price": 45.9,
+        "change": 0.55,
+        "change_pct": 1.21,
+        "market_cap": 611.9,
+        "volume": 13893749
+      },
+      {
+        "symbol": "2892",
+        "name": "First FHC",
+        "name_zh": "第一金",
+        "sector": "金融",
+        "price": 29.4,
+        "change": 0.35,
+        "change_pct": 1.2,
+        "market_cap": 422.76,
+        "volume": 22109509
+      }
+    ],
+    "鋼鐵": [
+      {
+        "symbol": "2002",
+        "name": "China Steel",
+        "name_zh": "中鋼",
+        "sector": "鋼鐵",
+        "price": 19.9,
+        "change": 0.6,
+        "change_pct": 3.11,
+        "market_cap": 304.87,
+        "volume": 34425063
+      }
+    ]
+  },
+  "stocks": [
+    {
+      "symbol": "2330",
+      "name": "TSMC",
+      "name_zh": "台積電",
+      "sector": "半導體",
+      "price": 1890.0,
+      "change": -10.0,
+      "change_pct": -0.53,
+      "market_cap": 49012.47,
+      "volume": 30082724
+    },
+    {
+      "symbol": "2317",
+      "name": "Hon Hai",
+      "name_zh": "鴻海",
+      "sector": "電子",
+      "price": 223.0,
+      "change": -1.0,
+      "change_pct": -0.45,
+      "market_cap": 3113.69,
+      "volume": 36562334
+    },
+    {
+      "symbol": "2454",
+      "name": "MediaTek",
+      "name_zh": "聯發科",
+      "sector": "半導體",
+      "price": 1765.0,
+      "change": -10.0,
+      "change_pct": -0.56,
+      "market_cap": 2817.13,
+      "volume": 4418206
+    },
+    {
+      "symbol": "2412",
+      "name": "Chunghwa Tel",
+      "name_zh": "中華電",
+      "sector": "電信",
+      "price": 136.5,
+      "change": -0.5,
+      "change_pct": -0.36,
+      "market_cap": 1058.89,
+      "volume": 10693177
+    },
+    {
+      "symbol": "2882",
+      "name": "Cathay FHC",
+      "name_zh": "國泰金",
+      "sector": "金融",
+      "price": 73.0,
+      "change": -0.6,
+      "change_pct": -0.82,
+      "market_cap": 1070.85,
+      "volume": 21677181
+    },
+    {
+      "symbol": "2881",
+      "name": "Fubon FHC",
+      "name_zh": "富邦金",
+      "sector": "金融",
+      "price": 88.8,
+      "change": -1.7,
+      "change_pct": -1.88,
+      "market_cap": 1243.85,
+      "volume": 34932982
+    },
+    {
+      "symbol": "2891",
+      "name": "CTBC FHC",
+      "name_zh": "中信金",
+      "sector": "金融",
+      "price": 51.4,
+      "change": -0.1,
+      "change_pct": -0.19,
+      "market_cap": 1011.44,
+      "volume": 30300971
+    },
+    {
+      "symbol": "2886",
+      "name": "Mega FHC",
+      "name_zh": "兆豐金",
+      "sector": "金融",
+      "price": 39.3,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "market_cap": 584.92,
+      "volume": 13870677
+    },
+    {
+      "symbol": "2303",
+      "name": "UMC",
+      "name_zh": "聯電",
+      "sector": "半導體",
+      "price": 62.0,
+      "change": -0.1,
+      "change_pct": -0.16,
+      "market_cap": 780.47,
+      "volume": 54687401
+    },
+    {
+      "symbol": "2308",
+      "name": "Delta",
+      "name_zh": "台達電",
+      "sector": "電子",
+      "price": 1320.0,
+      "change": -15.0,
+      "change_pct": -1.12,
+      "market_cap": 3428.76,
+      "volume": 10254707
+    },
+    {
+      "symbol": "2382",
+      "name": "Quanta",
+      "name_zh": "廣達",
+      "sector": "電子",
+      "price": 289.0,
+      "change": -0.5,
+      "change_pct": -0.17,
+      "market_cap": 1113.96,
+      "volume": 12786246
+    },
+    {
+      "symbol": "2357",
+      "name": "Asustek",
+      "name_zh": "華碩",
+      "sector": "電子",
+      "price": 527.0,
+      "change": 9.0,
+      "change_pct": 1.74,
+      "market_cap": 391.43,
+      "volume": 3080642
+    },
+    {
+      "symbol": "2395",
+      "name": "Advantech",
+      "name_zh": "研華",
+      "sector": "電子",
+      "price": 375.0,
+      "change": 32.5,
+      "change_pct": 9.49,
+      "market_cap": 324.69,
+      "volume": 19650666
+    },
+    {
+      "symbol": "2301",
+      "name": "Lite-On",
+      "name_zh": "光寶科",
+      "sector": "電子",
+      "price": 159.0,
+      "change": -2.0,
+      "change_pct": -1.24,
+      "market_cap": 360.89,
+      "volume": 15374474
+    },
+    {
+      "symbol": "2327",
+      "name": "Yageo",
+      "name_zh": "國巨",
+      "sector": "電子",
+      "price": 265.0,
+      "change": -2.5,
+      "change_pct": -0.93,
+      "market_cap": 549.18,
+      "volume": 15045724
+    },
+    {
+      "symbol": "2345",
+      "name": "Accton",
+      "name_zh": "智邦",
+      "sector": "電子",
+      "price": 1465.0,
+      "change": 45.0,
+      "change_pct": 3.17,
+      "market_cap": 818.8,
+      "volume": 6137414
+    },
+    {
+      "symbol": "3711",
+      "name": "ASE",
+      "name_zh": "日月光投控",
+      "sector": "半導體",
+      "price": 342.0,
+      "change": -11.5,
+      "change_pct": -3.25,
+      "market_cap": 1495.94,
+      "volume": 12622014
+    },
+    {
+      "symbol": "2885",
+      "name": "Yuanta FHC",
+      "name_zh": "元大金",
+      "sector": "金融",
+      "price": 45.9,
+      "change": 0.55,
+      "change_pct": 1.21,
+      "market_cap": 611.9,
+      "volume": 13893749
+    },
+    {
+      "symbol": "2892",
+      "name": "First FHC",
+      "name_zh": "第一金",
+      "sector": "金融",
+      "price": 29.4,
+      "change": 0.35,
+      "change_pct": 1.2,
+      "market_cap": 422.76,
+      "volume": 22109509
+    },
+    {
+      "symbol": "2002",
+      "name": "China Steel",
+      "name_zh": "中鋼",
+      "sector": "鋼鐵",
+      "price": 19.9,
+      "change": 0.6,
+      "change_pct": 3.11,
+      "market_cap": 304.87,
+      "volume": 34425063
+    }
+  ]
+}
