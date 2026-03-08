@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Heatmap - MiniMoneyLab</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #FAFAF5;
+            color: #2B2B2B;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: #2B2B2B;
+        }
+        
+        .subtitle {
+            color: #9B9B9B;
+            font-size: 0.95rem;
+        }
+        
+        /* Market Selector */
+        .market-selector {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin: 24px 0;
+            flex-wrap: wrap;
+        }
+        
+        .market-button {
+            background: white;
+            border: 2px solid #E5E5E5;
+            border-radius: 8px;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            position: relative;
+        }
+        
+        .market-button:hover {
+            border-color: #2B2B2B;
+            background: #f9f9f9;
+        }
+        
+        .market-button.active {
+            background: #2B2B2B;
+            color: white;
+            border-color: #2B2B2B;
+        }
+        
+        .market-button.soon {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .market-button.soon:hover {
+            border-color: #E5E5E5;
+            background: white;
+        }
+        
+        .market-flag {
+            font-size: 1.2rem;
+        }
+        
+        .soon-badge {
+            background: #E5E5E5;
+            color: #9B9B9B;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 4px;
+        }
+        
+        .market-button.active .soon-badge {
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+        
+        .update-time {
+            color: #9B9B9B;
+            font-size: 0.85rem;
+            margin-top: 8px;
+            text-align: center;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 16px 24px;
+            border-radius: 8px;
+            border: 1px solid #E5E5E5;
+            text-align: center;
+            min-width: 120px;
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: #9B9B9B;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .stat-value.positive { color: #10b981; }
+        .stat-value.negative { color: #ef4444; }
+        
+        #heatmap {
+            background: white;
+            border-radius: 12px;
+            border: 1px solid #E5E5E5;
+            padding: 20px;
+            min-height: 600px;
+            overflow: hidden; /* Prevent overflow */
+            max-width: 100%; /* Force it to stay within bounds */
+        }
+        
+        #heatmap > div {
+            max-width: 100% !important; /* Force Plotly to respect container */
+        }
+        
+        .legend {
+            text-align: center;
+            margin-top: 20px;
+            padding: 16px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #E5E5E5;
+        }
+        
+        .legend-title {
+            font-size: 0.85rem;
+            color: #6B6B6B;
+            margin-bottom: 8px;
+        }
+        
+        .legend-scale {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+        }
+        
+        .legend-item {
+            font-size: 0.8rem;
+            color: #9B9B9B;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            color: #9B9B9B;
+        }
+        
+        .error {
+            text-align: center;
+            padding: 100px 20px;
+            color: #ef4444;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #6B6B6B;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .back-link:hover {
+            color: #2B2B2B;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Daily Brief</a>
+        
+        <div class="header">
+            <h1>📊 Stock Market Heatmap</h1>
+            <p class="subtitle">Top stocks by market capitalization</p>
+        </div>
+        
+        <!-- Market Selector -->
+        <div class="market-selector">
+            <button class="market-button active" onclick="switchMarket('taiwan')">
+                <span class="market-flag">🇹🇼</span>
+                <span>TWSE</span>
+            </button>
+            
+            <button class="market-button soon" disabled>
+                <span class="market-flag">🇰🇷</span>
+                <span>KOSPI</span>
+                <span class="soon-badge">Soon</span>
+            </button>
+            
+            <button class="market-button soon" disabled>
+                <span class="market-flag">🇻🇳</span>
+                <span>HOSE</span>
+                <span class="soon-badge">Soon</span>
+            </button>
+            
+            <button class="market-button soon" disabled>
+                <span class="market-flag">🇵🇭</span>
+                <span>PSE</span>
+                <span class="soon-badge">Soon</span>
+            </button>
+            
+            <button class="market-button soon" disabled>
+                <span class="market-flag">🇮🇩</span>
+                <span>IDX</span>
+                <span class="soon-badge">Soon</span>
+            </button>
+        </div>
+        
+        <p class="update-time" id="updateTime">Loading...</p>
+        
+        <div class="stats" id="stats">
+            <!-- Stats will be populated by JavaScript -->
+        </div>
+        
+        <div style="text-align: center; margin-bottom: 12px;">
+            <button id="resetZoom" onclick="resetHeatmapZoom()" style="
+                background: white;
+                border: 1px solid #E5E5E5;
+                border-radius: 6px;
+                padding: 8px 16px;
+                cursor: pointer;
+                font-size: 0.85rem;
+                color: #6B6B6B;
+            ">
+                🔄 Reset View
+            </button>
+        </div>
+        
+        <div id="heatmap">
+            <div class="loading">Loading stock data...</div>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-title">Color indicates daily performance</div>
+            <div class="legend-scale">
+                <span class="legend-item">🔴 Down</span>
+                <span class="legend-item">⚪ Flat</span>
+                <span class="legend-item">🟢 Up</span>
+            </div>
+            <div style="margin-top: 8px; font-size: 0.75rem; color: #9B9B9B;">
+                Size represents market capitalization
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentMarket = 'taiwan';
+        let currentData = null;
+        
+        function resetHeatmapZoom() {
+            if (currentData) {
+                renderHeatmap(currentData);
+            }
+        }
+        
+        function switchMarket(market) {
+            currentMarket = market;
+            
+            // Update active button
+            document.querySelectorAll('.market-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.closest('.market-button').classList.add('active');
+            
+            // Load data for selected market
+            loadHeatmapData(market);
+        }
+        
+        async function loadHeatmapData(market = 'taiwan') {
+            try {
+                // Clear current view
+                document.getElementById('heatmap').innerHTML = 
+                    '<div class="loading">Loading stock data...</div>';
+                
+                const filename = market === 'taiwan' 
+                    ? 'data/stocks-heatmap.json'
+                    : `data/stocks-heatmap-${market}.json`;
+                
+                const response = await fetch(filename);
+                if (!response.ok) throw new Error('Failed to load data');
+                
+                const data = await response.json();
+                currentData = data;  // Store for reset
+                renderHeatmap(data);
+                renderStats(data);
+                
+            } catch (error) {
+                console.error('Error loading heatmap:', error);
+                document.getElementById('heatmap').innerHTML = 
+                    '<div class="error">📭 Failed to load stock data<br><small>' + error.message + '</small></div>';
+            }
+        }
+        
+        function renderStats(data) {
+            const stocks = data.stocks;
+            const gainers = stocks.filter(s => s.change_pct > 0);
+            const losers = stocks.filter(s => s.change_pct < 0);
+            const topGainer = gainers.length > 0 ? gainers.reduce((a, b) => a.change_pct > b.change_pct ? a : b) : null;
+            const topLoser = losers.length > 0 ? losers.reduce((a, b) => a.change_pct < b.change_pct ? a : b) : null;
+            
+            document.getElementById('updateTime').textContent = 
+                `Last updated: ${data.update_time}`;
+            
+            document.getElementById('stats').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-label">Total Stocks</div>
+                    <div class="stat-value">${data.total_stocks}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Gainers</div>
+                    <div class="stat-value positive">${gainers.length}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Losers</div>
+                    <div class="stat-value negative">${losers.length}</div>
+                </div>
+                ${topGainer ? `
+                <div class="stat-card">
+                    <div class="stat-label">Top Gainer</div>
+                    <div class="stat-value positive">${topGainer.name_zh}</div>
+                    <div style="font-size: 0.85rem; color: #10b981; margin-top: 4px;">
+                        ${topGainer.change_pct > 0 ? '+' : ''}${topGainer.change_pct}%
+                    </div>
+                </div>
+                ` : ''}
+                ${topLoser ? `
+                <div class="stat-card">
+                    <div class="stat-label">Top Loser</div>
+                    <div class="stat-value negative">${topLoser.name_zh}</div>
+                    <div style="font-size: 0.85rem; color: #ef4444; margin-top: 4px;">
+                        ${topLoser.change_pct > 0 ? '+' : ''}${topLoser.change_pct}%
+                    </div>
+                </div>
+                ` : ''}
+            `;
+        }
+        
+        function renderHeatmap(data) {
+            const stocks = data.stocks;
+            
+            // Prepare data for treemap
+            const labels = stocks.map(s => `${s.name_zh}<br>${s.name}`);
+            const parents = stocks.map(s => s.sector);
+            const values = stocks.map(s => s.market_cap);
+            const changes = stocks.map(s => s.change_pct);
+            const texts = stocks.map(s => 
+                `${s.change_pct > 0 ? '+' : ''}${s.change_pct}%`
+            );
+            
+            // Add sector parents
+            const sectors = [...new Set(parents)];
+            const marketName = currentMarket.charAt(0).toUpperCase() + currentMarket.slice(1);
+            labels.push(...sectors);
+            parents.push(...sectors.map(() => marketName));
+            values.push(...sectors.map(() => 0));
+            changes.push(...sectors.map(() => 0));
+            texts.push(...sectors.map(() => ''));
+            
+            // Add root
+            labels.push(marketName);
+            parents.push('');
+            values.push(0);
+            changes.push(0);
+            texts.push('');
+            
+            // Create color scale based on performance
+            const colors = changes.map(change => {
+                if (change > 5) return 'rgb(0, 150, 0)';      // Dark green
+                if (change > 2) return 'rgb(50, 200, 50)';     // Green
+                if (change > 0) return 'rgb(150, 230, 150)';   // Light green
+                if (change === 0) return 'rgb(200, 200, 200)'; // Gray
+                if (change > -2) return 'rgb(255, 200, 200)';  // Light red
+                if (change > -5) return 'rgb(255, 100, 100)';  // Red
+                return 'rgb(200, 0, 0)';                       // Dark red
+            });
+            
+            const trace = {
+                type: 'treemap',
+                labels: labels,
+                parents: parents,
+                values: values,
+                text: texts,
+                textposition: 'middle center',
+                marker: {
+                    colors: colors,
+                    line: { width: 2, color: 'white' }
+                },
+                hovertemplate: '<b>%{label}</b><br>Change: %{text}<br>Market Cap: $%{value:.1f}B<extra></extra>',
+                textfont: {
+                    size: 14,
+                    color: 'white',
+                    family: '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
+                }
+            };
+            
+            const layout = {
+                margin: { t: 10, l: 0, r: 0, b: 0 },
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                height: 600,
+                width: null,  // Auto-fit to container
+                autosize: true
+            };
+            
+            const config = {
+                responsive: true,
+                displayModeBar: true,  // Show reset button
+                modeBarButtonsToRemove: ['pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d'],
+                modeBarButtonsToAdd: [],
+                displaylogo: false
+            };
+            
+            Plotly.newPlot('heatmap', [trace], layout, config);
+        }
+        
+        // Load Taiwan data on page load
+        loadHeatmapData('taiwan');
+    </script>
+</body>
+</html>
