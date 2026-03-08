@@ -26,7 +26,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install gspread google-auth-oauthlib anthropic playwright --break-system-packages
+          pip install gspread google-auth-oauthlib anthropic playwright yfinance --break-system-packages
           playwright install chromium
       
       - name: Setup Google credentials
@@ -44,6 +44,9 @@ jobs:
       
       - name: Generate Taiwan website data
         run: python generate_data.py
+      
+      - name: Fetch Taiwan stock data
+        run: python fetch_taiwan_stocks.py
       
       - name: Commit and push Taiwan data
         run: |
