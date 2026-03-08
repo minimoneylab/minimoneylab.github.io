@@ -34,7 +34,28 @@ CONFIG = {
         {"name": "證券", "url": "https://money.udn.com/money/cate/5590"},
     ],
     
-    "articles_per_section": 10,  # 10 x 3 = 30 articles per day
+    "articles_per_section": 15,  # Maximum relevant articles to scrape per section
+    
+    # Taiwan financial keywords - articles must contain at least one
+    "financial_keywords": [
+        # Major Companies
+        "台積電", "鴻海", "聯發科", "日月光", "廣達", "緯創", "和碩",
+        "聯電", "智邦", "貿聯",
+        
+        # Markets & Economy  
+        "央行", "匯率", "新台幣", "利率", "債券", "股市", "台股",
+        "加權指數", "外資", "GDP", "通膨", "升息", "降息",
+        
+        # Sectors
+        "半導體", "AI", "伺服器", "晶片", "科技股", "電子股",
+        
+        # Finance & Regulators
+        "金融", "銀行", "保險", "證券", "投資",
+        "壽險", "金管會", "銀行局", "證期局", "保險局",
+        
+        # Corporate
+        "營收", "財報", "EPS", "獲利", "股價"
+    ],
     
     # Time filter: only articles from past 24 hours
     "filter_hours": 24,  # Set to 0 to disable filtering
@@ -265,24 +286,52 @@ class NewsAutomation:
         await page.goto(section_url, wait_until='domcontentloaded')
         await page.wait_for_timeout(3000)
         
-        links = await page.evaluate("""
+        articles = await page.evaluate("""
             (function() {
-                var links = [];
+                var articles = [];
                 var allLinks = document.querySelectorAll('a[href]');
                 for (var i = 0; i < allLinks.length; i++) {
                     var href = allLinks[i].href;
                     if (href.indexOf('/money/story/') !== -1) {
-                        var found = false;
-                        for (var j = 0; j < links.length; j++) {
-                            if (links[j] === href) { found = true; break; }
+                        var title = allLinks[i].textContent.trim();
+                        if (title && title.length > 5) {
+                            // Check if URL already exists
+                            var found = false;
+                            for (var j = 0; j < articles.length; j++) {
+                                if (articles[j].url === href) { 
+                                    found = true; 
+                                    break; 
+                                }
+                            }
+                            if (!found) {
+                                articles.push({url: href, title: title});
+                            }
                         }
-                        if (!found) links.push(href);
                     }
                 }
-                return links;
+                return articles;
             })()
         """)
-        return links
+        return articles
+
+    def filter_relevant_articles(self, articles_with_titles):
+        """Filter articles based on financial keywords in titles"""
+        keywords = self.config.get("financial_keywords", [])
+        if not keywords:
+            # No filtering if no keywords defined
+            return articles_with_titles
+        
+        relevant = []
+        for article in articles_with_titles:
+            url = article['url']
+            title = article['title']
+            title_lower = title.lower()
+            
+            # Check if title contains any financial keyword
+            if any(keyword in title for keyword in keywords):
+                relevant.append(article)
+        
+        return relevant
 
     async def scrape_article(self, page, url):
         title = await page.evaluate("""
@@ -354,14 +403,27 @@ class NewsAutomation:
                     print("Section: " + section_name)
                     print("------------------------------------------------------------")
 
-                    links = await self.get_article_links(page, section_url)
-                    print("Found " + str(len(links)) + " articles")
+                    articles_with_titles = await self.get_article_links(page, section_url)
+                    print("Found " + str(len(articles_with_titles)) + " total articles")
+                    
+                    # Filter by financial keywords
+                    relevant_articles = self.filter_relevant_articles(articles_with_titles)
+                    print("Filtered to " + str(len(relevant_articles)) + " relevant articles (by title keywords)")
+                    
+                    if relevant_articles and len(relevant_articles) > 0:
+                        print("\nRelevant articles found:")
+                        for article in relevant_articles[:5]:
+                            print("  • " + article['title'][:70] + "...")
                     print()
 
                     section_count = 0
-                    for i, link in enumerate(links[:limit], 1):
+                    limit = min(len(relevant_articles), self.config['articles_per_section'])
+                    
+                    for i, article in enumerate(relevant_articles[:limit], 1):
+                        link = article['url']
+                        title_preview = article['title']
                         try:
-                            print("[" + str(i) + "/" + str(min(len(links), limit)) + "] Scraping...")
+                            print("[" + str(i) + "/" + str(limit) + "] Scraping: " + title_preview[:50] + "...")
                             
                             # Add individual timeout wrapper
                             try:
