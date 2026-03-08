@@ -1,0 +1,54 @@
+name: Vietnam Daily News Update
+
+on:
+  schedule:
+    # Runs at 22:30 UTC = 05:30 Vietnam time (UTC+7)
+    # You can adjust this if you want Vietnam to run at a different time
+    - cron: '30 22 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-vietnam-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install gspread google-auth-oauthlib anthropic playwright --break-system-packages
+          playwright install chromium
+      
+      - name: Setup Google credentials
+        run: |
+          echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
+          echo '${{ secrets.GOOGLE_TOKEN }}' | base64 -d > token.pickle
+      
+      - name: Run Vietnam scraper
+        run: python scrape_daily_vietnam.py
+      
+      - name: Run Vietnam analyzer
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: python analyze_news_vietnam.py
+      
+      - name: Generate Vietnam website data
+        run: python generate_data_vietnam.py
+      
+      - name: Commit and push Vietnam data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add vietnam/data/*.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Vietnam news data - $(date +'%Y-%m-%d')" && git push)
