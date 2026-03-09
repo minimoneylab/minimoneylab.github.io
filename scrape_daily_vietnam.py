@@ -140,9 +140,17 @@ class NewsAutomation:
             title_elem = await page.query_selector('h1.title, h1.detail-title, h1')
             title = await title_elem.inner_text() if title_elem else 'No title'
             
-            # Get article date
+            # Get article date - CafeF only shows time, so we add today's date
             date_elem = await page.query_selector('span.date, span.time, time, .publish-date')
-            date = await date_elem.inner_text() if date_elem else ''
+            time_str = await date_elem.inner_text() if date_elem else ''
+            
+            # Add full date (Vietnam timezone)
+            vn_now = datetime.now(VN_TIMEZONE)
+            if time_str.strip():
+                # Format: "DD/MM/YYYY HH:MM" 
+                date = f"{vn_now.strftime('%d/%m/%Y')} {time_str.strip()}"
+            else:
+                date = vn_now.strftime('%d/%m/%Y %H:%M')
             
             # Get article content
             content_elem = await page.query_selector('.detail-content, .content-detail, article')
