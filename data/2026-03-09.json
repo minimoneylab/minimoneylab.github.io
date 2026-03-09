@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-09",
+  "update_time": "2026-03-09 23:21:53",
+  "total_articles": 56,
+  "high": [
+    {
+      "title": "Global Bond Markets Hit Hard as Oil Prices Surge",
+      "section": "金融",
+      "date": "2026/03/07 13:41:03",
+      "url": "https://money.udn.com/money/story/5599/9365460",
+      "summary": "Global bond markets suffered severe losses this week amid soaring oil prices due to the Iran crisis. UK 10-year gilt yields surged 39 basis points to 4.62%, the worst performance since the 2022 Truss crisis. US 10-year Treasury yields rose 17 basis points to 4.13%. The Bloomberg Global Aggregate Bond Index recorded its worst week since October 2024. Oil prices have jumped from $72 per barrel before the war to $92, with European natural gas prices skyrocketing, fueling inflation concerns and eliminating expectations of central bank rate cuts. Markets now expect the ECB to raise rates by 25 basis points this year, versus pre-war expectations of further cuts. This has major implications for Taiwan's life insurers, who hold substantial foreign bond portfolios that are experiencing significant mark-to-market losses."
+    },
+    {
+      "title": "Taiwan Dollar and Interest Rate Policy Under Pressure from Middle East Crisis",
+      "section": "金融",
+      "date": "2026/03/07 23:01:03",
+      "url": "https://money.udn.com/money/story/5599/9366034",
+      "summary": "The Middle East crisis is creating a nightmare scenario for global energy markets as Iran targets the Strait of Hormuz, through which 20% of global oil and LNG transits. Oil tankers through the strait have dropped from 90 per day to zero under Iranian missile attacks. This particularly impacts Asia, which receives over 80% of Persian Gulf oil and 90% of LNG exports. Brent crude has surged above $90 per barrel, up 50% from pre-war levels. The crisis threatens to trigger stagflation globally, complicating central bank monetary policy decisions. For Taiwan, this creates significant challenges for the Central Bank's interest rate policy and puts pressure on the Taiwan Dollar. Life insurers face dual pressures from rising energy costs affecting their investment portfolios and potential currency volatility impacting their overseas investments."
+    },
+    {
+      "title": "TSMC Launches Major Campus Recruitment Drive - 8,000 New Hires with Master's Starting Salary NT$2.2 Million",
+      "section": "金融",
+      "date": "2026/03/07 11:13:03",
+      "url": "https://money.udn.com/money/story/5612/9365222?from=edn_maintab_cate",
+      "summary": "TSMC has launched its 2026 campus recruitment campaign, targeting 8,000 new employees across Taiwan with locations in Taoyuan, Hsinchu, Miaoli, Taichung, Chiayi, Tainan, and Kaohsiung. The company is offering an average annual salary of NT$2.2 million for master's degree holders, reflecting the intense competition for semiconductor talent. Beyond traditional engineering fields, TSMC is also recruiting in business administration, HR, and accounting. The company emphasizes its digital transformation initiatives and AI applications in smart manufacturing. This massive hiring drive signals TSMC's confidence in continued growth and its strategic importance to Taiwan's economy, supporting the broader semiconductor supply chain ecosystem."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Hon Hai Predicts Double-Digit Growth in 2026",
+      "section": "金融",
+      "date": "2026/03/07 00:58:20",
+      "url": "https://money.udn.com/money/story/5612/9364723?from=edn_maintab_cate",
+      "summary": "Hon Hai Chairman Liu Young-way announced the company expects double-digit revenue growth in 2026, driven by both AI servers and consumer electronics. The company has secured foldable phone orders from Apple and Google, positioning itself as a major supplier for high-end, mid-range, and entry-level smartphones."
+    },
+    {
+      "title": "Foreign Investors Record Largest Single-Day Sell-off in Taiwan Stock History",
+      "section": "證券",
+      "date": "2026/03/09 17:17:48",
+      "url": "https://money.udn.com/money/story/5607/9368900?from=edn_subcatelist_cate",
+      "summary": "Foreign investors sold a record NT$120.8 billion worth of Taiwan stocks in a single day, with TSMC bearing the brunt at 37,837 shares sold. The Yuanta Taiwan 50 ETF saw massive outflows of 200,178 shares. This represents a significant shift in foreign sentiment toward Taiwan equities amid global risk-off sentiment."
+    },
+    {
+      "title": "Taiwan Stock Exchange Reassures on Market Fundamentals",
+      "section": "證券",
+      "date": "2026/03/09 18:44:00",
+      "url": "https://money.udn.com/money/story/5607/9369082?from=edn_maintab_cate",
+      "summary": "The Taiwan Stock Exchange emphasized that despite geopolitical tensions, Taiwan's stock market remains relatively resilient with strong fundamentals. Listed companies reported February revenues of NT$2.3 trillion, up 19.75% year-on-year. The TSE noted that Taiwan stocks have shown relative strength compared to regional markets during this volatile period."
+    },
+    {
+      "title": "National Team Provides Record Support to Taiwan Stocks",
+      "section": "證券",
+      "date": "2026/03/09 02:22:24",
+      "url": "https://money.udn.com/money/story/5607/9367404?from=edn_maintab_cate",
+      "summary": "Eight major state-owned banks provided record support by purchasing over NT$70 billion in Taiwan stocks last week, the largest weekly buying spree on record. This \"national team\" intervention focused on AI supply chain stocks including TSMC, MediaTek, and other semiconductor companies, demonstrating government commitment to market stability."
+    }
+  ],
+  "not_relevant": []
+}
