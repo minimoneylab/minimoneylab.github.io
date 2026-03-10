@@ -169,10 +169,30 @@
         .basis-table {
             margin-top: 16px;
             font-size: 0.85rem;
+            overflow-x: auto;
+            display: block;
         }
         
         .basis-table th {
             font-size: 0.75rem;
+            white-space: nowrap;
+        }
+        
+        .basis-table td {
+            white-space: nowrap;
+        }
+        
+        .basis-table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-top: 16px;
+        }
+        
+        /* Hide less important columns on mobile */
+        @media (max-width: 768px) {
+            .hide-mobile {
+                display: none;
+            }
         }
         
         .prediction-box {
@@ -203,8 +223,30 @@
         }
         
         @media (max-width: 768px) {
+            .hide-mobile {
+                display: none;
+            }
+            
             .metrics-grid {
                 grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 16px;
+            }
+            
+            .signal-card {
+                padding: 16px;
+            }
+            
+            .signal-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+            
+            .signal-title {
+                font-size: 1.1rem;
             }
             
             table {
@@ -213,6 +255,20 @@
             
             th, td {
                 padding: 8px 4px;
+            }
+            
+            .prediction-box {
+                padding: 12px;
+            }
+            
+            .prediction-formula {
+                font-size: 0.75rem;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+            
+            body {
+                padding: 12px;
             }
         }
     </style>
@@ -347,20 +403,21 @@
                                 </div>
                             </div>
                             
-                            <table class="basis-table">
-                                <thead>
-                                    <tr>
-                                        <th>ADR Date</th>
-                                        <th style="text-align: right">ADR Close</th>
-                                        <th style="text-align: right">FX Rate</th>
-                                        <th style="text-align: right">TW Open (T+1)</th>
-                                        <th style="text-align: right">ADR×FX</th>
-                                        <th style="text-align: right">TW×5</th>
-                                        <th style="text-align: right">Basis</th>
-                                        <th style="text-align: right">Premium</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
+                            <div class="basis-table-wrapper">
+                                <table class="basis-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ADR Date</th>
+                                            <th style="text-align: right">ADR Close</th>
+                                            <th style="text-align: right" class="hide-mobile">FX Rate</th>
+                                            <th style="text-align: right">TW Open (T+1)</th>
+                                            <th style="text-align: right" class="hide-mobile">ADR×FX</th>
+                                            <th style="text-align: right" class="hide-mobile">TW×5</th>
+                                            <th style="text-align: right">Basis</th>
+                                            <th style="text-align: right">Premium</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
                     `;
                     
                     signal.basis_table.forEach(row => {
@@ -368,10 +425,10 @@
                             <tr>
                                 <td>${row.adr_date}</td>
                                 <td style="text-align: right">$${row.adr_close}</td>
-                                <td style="text-align: right">${row.fx_rate}</td>
+                                <td style="text-align: right" class="hide-mobile">${row.fx_rate}</td>
                                 <td style="text-align: right">${row.tw_open_next}</td>
-                                <td style="text-align: right">${row.adr_fx}</td>
-                                <td style="text-align: right">${row.tw_x_ratio}</td>
+                                <td style="text-align: right" class="hide-mobile">${row.adr_fx}</td>
+                                <td style="text-align: right" class="hide-mobile">${row.tw_x_ratio}</td>
                                 <td style="text-align: right">${row.basis}</td>
                                 <td style="text-align: right" class="${row.premium_pct >= 0 ? 'positive' : 'negative'}">
                                     ${row.premium_pct >= 0 ? '+' : ''}${row.premium_pct}%
@@ -381,8 +438,9 @@
                     });
                     
                     html += `
-                                </tbody>
-                            </table>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     `;
                 });
