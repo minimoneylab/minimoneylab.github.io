@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-10",
+  "update_time": "2026-03-10 13:53:57",
+  "total_articles": 80,
+  "high": [
+    {
+      "title": "Six Major Life Insurers Record Over 58.4 Billion in New Premiums in February",
+      "section": "金融",
+      "date": "2026/03/10 20:39:15",
+      "url": "https://money.udn.com/money/story/5613/9371783",
+      "summary": "Taiwan's six major life insurance companies recorded combined new contract premiums exceeding NT$58.4 billion in February 2026, representing a 41% year-on-year growth. Despite being below January's record-breaking NT$111.9 billion due to fewer working days from Lunar New Year holidays, the February performance was still strong. Investment-linked and participating policies drove most of the growth, with Cathay Life leading at NT$20.95 billion (up 32.5% YoY), followed by Fubon Life at NT$11.44 billion (up 6% YoY). Combined January-February new premiums exceeded NT$170.4 billion, up 70.8% YoY. Industry observers note that strong equity markets stimulate sales of investment-linked and participating policies, while USD-denominated interest-sensitive policies saw decreased sales due to strong USD performance. The ongoing US-Iran conflict hasn't significantly impacted policy sales yet, with insurers noting stable daily sales volumes."
+    },
+    {
+      "title": "Taiwan Central Bank Expected to Cut Rates by 2 Notches in H2 Despite Middle East Conflict",
+      "section": "金融",
+      "date": "2026/03/07 15:23:48",
+      "url": "https://money.udn.com/money/story/5612/9365609?from=edn_hottestlist_cate_side",
+      "summary": "Cathay Securities Investment Trust CEO Andy Chang stated that despite Middle East conflict concerns affecting oil prices and inflation expectations, the Federal Reserve's monetary policy trend remains unchanged. Chang believes there's still room for 2 rate cuts in H2 2026, particularly after new Fed Chair Warsh takes office, making monetary policy clearer. He noted that oil price impacts on CPI are less severe than the 1970s oil crisis, as energy's weight in the CPI basket has declined significantly. While rate cut timing may be delayed, the downward trend in core CPI continues unchanged. Chang emphasized that US economic growth momentum remains strong, supported by infrastructure spending and potential mid-term election stimulus measures, maintaining an optimistic outlook for H2 US economic growth and AI trends."
+    },
+    {
+      "title": "Foreign Investment Outflows Hit Record NT$120.8 Billion in Single Day",
+      "section": "證券",
+      "date": "2026/03/09 18:44:56",
+      "url": "https://money.udn.com/money/story/5607/9369084?from=edn_maintab_cate",
+      "summary": "Foreign investors sold a record NT$120.8 billion worth of Taiwan stocks in a single day on March 9, 2026, as Middle East tensions escalated. The massive selloff targeted major weight stocks including TSMC (NT$67.876 billion), Hon Hai (NT$6.35 billion), and MediaTek (NT$3.709 billion). Simultaneously, foreign investors bought smaller-cap industry leaders like ADATA (NT$3.856 billion), Phison (NT$2.21 billion), and Winbond (NT$2.164 billion), showing a \"dump large, buy small\" strategy. ETF outflows were also significant, with Yuanta Taiwan 50 seeing NT$14.578 billion in outflows. On the buying side, foreign capital flowed into defensive assets like 20-year US Treasury ETFs and oil-related leveraged ETFs, indicating a flight to safety amid geopolitical uncertainty. This selloff reflects global capital repositioning due to Middle East conflict concerns."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Global Bond Markets Hit by Oil Price Surge",
+      "section": "金融",
+      "date": "2026/03/07 13:41:03",
+      "url": "https://money.udn.com/money/story/5599/9365460",
+      "summary": "Global bond markets suffered severe losses as oil prices surged from $72 to $92 per barrel due to Middle East conflict. UK 10-year gilt yields jumped 39bp to 4.62%, while US 10-year yields rose 17bp to 4.13%. The sharp oil price increase sparked inflation concerns and eliminated expectations of central bank rate cuts. Markets now expect the ECB to raise rates by 25bp this year, while previous expectations were for further cuts."
+    },
+    {
+      "title": "Oil Price Surge Creates \"Perfect Storm\" for US Markets",
+      "section": "產經",
+      "date": "2026/03/07 10:48:27",
+      "url": "https://money.udn.com/money/story/123398/9365178",
+      "summary": "US markets faced a \"perfect storm\" of disappointing employment data and soaring oil prices amid Middle East conflict escalation. February job losses of 92,000 far exceeded expectations, while oil prices broke $90/barrel. WTI crude surged 12% to $90.90, posting the largest single-day gain since 2020. The combination threatens stagflation concerns, putting the Fed in a difficult position between addressing economic weakness and rising inflation pressures."
+    },
+    {
+      "title": "TSMC Launches Campus Recruitment for 8,000 New Hires",
+      "section": "金融",
+      "date": "2026/03/07 15:15:51",
+      "url": "https://money.udn.com/money/story/5612/9365600?from=edn_hottestlist_cate_side",
+      "summary": "TSMC announced plans to recruit 8,000 new employees in Taiwan for 2026, with master's degree graduates receiving average annual compensation of NT$2.2 million. The recruitment covers various disciplines including electrical engineering, materials science, and business administration. TSMC emphasizes its digital transformation and AI applications in building next-generation smart factories, seeking talent across multiple locations from Taoyuan to Kaohsiung."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges 1,489 Points Amid Middle East Crisis",
+      "section": "金融",
+      "date": "2026/03/09 16:17:34",
+      "url": "https://money.udn.com/money/story/10871/9368733?from=edn_subcatelist_cate",
+      "summary": "Taiwan's stock market suffered its fourth-largest single-day point drop of 1,489 points, closing at 32,110.42 as Middle East conflict pushed oil prices higher. The decline nearly erased February's 3,350-point gains, with total market capitalization shrinking to NT$112.49 trillion. Despite the severe selloff, the index managed to close above the psychological 32,000 level, suggesting some support at lower levels."
+    },
+    {
+      "title": "MediaTek CEO Describes AI as \"Five-Layer Cake\" Structure",
+      "section": "金融",
+      "date": "2026/03/09 02:04:31",
+      "url": "https://money.udn.com/money/story/11162/9367298?from=edn_maintab_cate",
+      "summary": "MediaTek CEO Rick Tsai told a podcast that AI investment scale exceeds previous internet and mobile phone developments by several levels. He described AI as transforming computing from pre-recorded software to real-time intelligence generation, requiring complete redesign of the computing stack. MediaTek is fully investing in datacenter AI business as part of its strategy to evolve \"from connectivity to computing.\""
+    }
+  ],
+  "not_relevant": []
+}
