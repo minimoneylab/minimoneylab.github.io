@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthetic Overnight Indicator - MiniMoneyLab</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #FAFAF5;
+            color: #2B2B2B;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: #2B2B2B;
+        }
+        
+        .subtitle {
+            color: #9B9B9B;
+            font-size: 0.95rem;
+        }
+        
+        .update-time {
+            color: #9B9B9B;
+            font-size: 0.85rem;
+            margin-top: 8px;
+            text-align: center;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #6B6B6B;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .back-link:hover {
+            color: #2B2B2B;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 12px;
+            border: 1px solid #E5E5E5;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+        
+        th {
+            text-align: left;
+            padding: 12px;
+            background: #F5F5F5;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #6B6B6B;
+            border-bottom: 2px solid #E5E5E5;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #F0F0F0;
+            font-size: 0.9rem;
+        }
+        
+        .positive { color: #10b981; }
+        .negative { color: #ef4444; }
+        
+        .signal-card {
+            background: white;
+            border: 1px solid #E5E5E5;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .signal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #F0F0F0;
+        }
+        
+        .signal-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .signal-badge {
+            padding: 6px 16px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .signal-bullish {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .signal-bearish {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        
+        .signal-neutral {
+            background: #f3f4f6;
+            color: #4b5563;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .metric {
+            padding: 12px;
+            background: #FAFAF5;
+            border-radius: 6px;
+        }
+        
+        .metric-label {
+            font-size: 0.75rem;
+            color: #9B9B9B;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        
+        .metric-value {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .basis-table {
+            margin-top: 16px;
+            font-size: 0.85rem;
+        }
+        
+        .basis-table th {
+            font-size: 0.75rem;
+        }
+        
+        .prediction-box {
+            background: #f0f9ff;
+            border: 1px solid #bae6fd;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        
+        .prediction-box h4 {
+            font-size: 0.9rem;
+            color: #0369a1;
+            margin-bottom: 12px;
+        }
+        
+        .prediction-formula {
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: #6B6B6B;
+            margin: 8px 0;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #9B9B9B;
+        }
+        
+        @media (max-width: 768px) {
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            table {
+                font-size: 0.8rem;
+            }
+            
+            th, td {
+                padding: 8px 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Daily Brief</a>
+        
+        <div class="header">
+            <h1>🌙 Synthetic Overnight Indicator</h1>
+            <p class="subtitle">Predict Taiwan market open based on overnight signals</p>
+            <p class="update-time" id="updateTime">Loading...</p>
+        </div>
+        
+        <div id="content">
+            <div class="loading">Loading overnight data...</div>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('data/overnight-signals.json');
+                if (!response.ok) throw new Error('Failed to load data');
+                
+                const data = await response.json();
+                renderPage(data);
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('content').innerHTML = 
+                    '<div class="loading">📭 No overnight data available yet</div>';
+            }
+        }
+        
+        function renderPage(data) {
+            document.getElementById('updateTime').textContent = 
+                `Last updated: ${data.update_time}`;
+            
+            let html = '';
+            
+            // US Indices
+            if (data.us_indices && data.us_indices.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-title">📈 US Market Close (Overnight)</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Index</th>
+                                    <th style="text-align: right">Close</th>
+                                    <th style="text-align: right">Change</th>
+                                    <th style="text-align: right">%</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                `;
+                
+                data.us_indices.forEach(idx => {
+                    const changeClass = idx.change_pct >= 0 ? 'positive' : 'negative';
+                    const arrow = idx.change_pct >= 0 ? '↑' : '↓';
+                    html += `
+                        <tr>
+                            <td>${idx.name}</td>
+                            <td style="text-align: right">${idx.close.toLocaleString()}</td>
+                            <td style="text-align: right" class="${changeClass}">${idx.change >= 0 ? '+' : ''}${idx.change}</td>
+                            <td style="text-align: right" class="${changeClass}">${idx.change_pct >= 0 ? '+' : ''}${idx.change_pct}% ${arrow}</td>
+                        </tr>
+                    `;
+                });
+                
+                html += `
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            }
+            
+            // ADR Signals
+            if (data.adr_signals && data.adr_signals.length > 0) {
+                data.adr_signals.forEach(signal => {
+                    const signalClass = signal.signal.toLowerCase();
+                    
+                    html += `
+                        <div class="signal-card">
+                            <div class="signal-header">
+                                <div class="signal-title">${signal.signal_icon} ${signal.name} (${signal.tw_ticker} / ${signal.adr_ticker})</div>
+                                <div class="signal-badge signal-${signalClass}">${signal.signal}</div>
+                            </div>
+                            
+                            <div class="metrics-grid">
+                                <div class="metric">
+                                    <div class="metric-label">Taiwan Close</div>
+                                    <div class="metric-value ${signal.tw_change_pct >= 0 ? 'positive' : 'negative'}">
+                                        ${signal.tw_close} TWD
+                                        <span style="font-size: 0.8rem">(${signal.tw_change_pct >= 0 ? '+' : ''}${signal.tw_change_pct}%)</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="metric">
+                                    <div class="metric-label">ADR Close (US)</div>
+                                    <div class="metric-value ${signal.adr_change_pct >= 0 ? 'positive' : 'negative'}">
+                                        $${signal.adr_close}
+                                        <span style="font-size: 0.8rem">(${signal.adr_change_pct >= 0 ? '+' : ''}${signal.adr_change_pct}%)</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="metric">
+                                    <div class="metric-label">USD/TWD FX Rate</div>
+                                    <div class="metric-value">${signal.fx_rate}</div>
+                                </div>
+                                
+                                <div class="metric">
+                                    <div class="metric-label">Avg Basis (5-day)</div>
+                                    <div class="metric-value">
+                                        ${signal.avg_basis}
+                                        <span style="font-size: 0.8rem">(${signal.avg_premium_pct >= 0 ? '+' : ''}${signal.avg_premium_pct}%)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="prediction-box">
+                                <h4>💡 Tomorrow's Prediction</h4>
+                                <div class="prediction-formula">
+                                    Expected Open = (${signal.adr_close} × ${signal.fx_rate}) / (5 × ${signal.avg_basis}) = ${signal.predicted_open} TWD
+                                </div>
+                                <div style="margin-top: 12px;">
+                                    <strong>Projected Open:</strong> ${signal.predicted_open} TWD<br>
+                                    <strong>Current Close:</strong> ${signal.tw_close} TWD<br>
+                                    <strong>Gap:</strong> <span class="${signal.gap_pct >= 0 ? 'positive' : 'negative'}">${signal.gap_pct >= 0 ? '+' : ''}${signal.gap_pct}%</span><br>
+                                    <strong>Signal:</strong> ${signal.signal_text}
+                                </div>
+                            </div>
+                            
+                            <table class="basis-table">
+                                <thead>
+                                    <tr>
+                                        <th>ADR Date</th>
+                                        <th style="text-align: right">ADR Close</th>
+                                        <th style="text-align: right">FX Rate</th>
+                                        <th style="text-align: right">TW Open (T+1)</th>
+                                        <th style="text-align: right">ADR×FX</th>
+                                        <th style="text-align: right">TW×5</th>
+                                        <th style="text-align: right">Basis</th>
+                                        <th style="text-align: right">Premium</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                    `;
+                    
+                    signal.basis_table.forEach(row => {
+                        html += `
+                            <tr>
+                                <td>${row.adr_date}</td>
+                                <td style="text-align: right">$${row.adr_close}</td>
+                                <td style="text-align: right">${row.fx_rate}</td>
+                                <td style="text-align: right">${row.tw_open_next}</td>
+                                <td style="text-align: right">${row.adr_fx}</td>
+                                <td style="text-align: right">${row.tw_x_ratio}</td>
+                                <td style="text-align: right">${row.basis}</td>
+                                <td style="text-align: right" class="${row.premium_pct >= 0 ? 'positive' : 'negative'}">
+                                    ${row.premium_pct >= 0 ? '+' : ''}${row.premium_pct}%
+                                </td>
+                            </tr>
+                        `;
+                    });
+                    
+                    html += `
+                                </tbody>
+                            </table>
+                        </div>
+                    `;
+                });
+            }
+            
+            // Asia Indices
+            if (data.asia_indices && data.asia_indices.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-title">📊 Asia Market Indices</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Index</th>
+                                    <th style="text-align: right">Close</th>
+                                    <th style="text-align: right">Change</th>
+                                    <th style="text-align: right">%</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                `;
+                
+                data.asia_indices.forEach(idx => {
+                    const changeClass = idx.change_pct >= 0 ? 'positive' : 'negative';
+                    const arrow = idx.change_pct >= 0 ? '↑' : '↓';
+                    html += `
+                        <tr>
+                            <td>${idx.name}</td>
+                            <td style="text-align: right">${idx.close.toLocaleString()}</td>
+                            <td style="text-align: right" class="${changeClass}">${idx.change >= 0 ? '+' : ''}${idx.change}</td>
+                            <td style="text-align: right" class="${changeClass}">${idx.change_pct >= 0 ? '+' : ''}${idx.change_pct}% ${arrow}</td>
+                        </tr>
+                    `;
+                });
+                
+                html += `
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            }
+            
+            document.getElementById('content').innerHTML = html;
+        }
+        
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
