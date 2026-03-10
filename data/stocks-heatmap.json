@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-10 13:54:05",
+  "update_time": "2026-03-10 23:49:23",
   "total_stocks": 20,
   "sectors": {
     "半導體": [
@@ -12,7 +12,7 @@
         "change": 40.0,
         "change_pct": 2.21,
         "market_cap": 47975.17,
-        "volume": 45506830
+        "volume": 41375691
       },
       {
         "symbol": "2454",
@@ -23,7 +23,7 @@
         "change": 40.0,
         "change_pct": 2.4,
         "market_cap": 2721.37,
-        "volume": 5605115
+        "volume": 5273491
       },
       {
         "symbol": "2303",
@@ -34,7 +34,7 @@
         "change": 0.7,
         "change_pct": 1.17,
         "market_cap": 760.32,
-        "volume": 75764243
+        "volume": 75467464
       },
       {
         "symbol": "3711",
@@ -45,7 +45,7 @@
         "change": 15.5,
         "change_pct": 4.84,
         "market_cap": 1467.51,
-        "volume": 24955077
+        "volume": 24659835
       }
     ],
     "電子": [
@@ -58,7 +58,7 @@
         "change": -1.0,
         "change_pct": -0.48,
         "market_cap": 2925.19,
-        "volume": 68864784
+        "volume": 66168862
       },
       {
         "symbol": "2308",
@@ -69,7 +69,7 @@
         "change": 70.0,
         "change_pct": 5.74,
         "market_cap": 3350.83,
-        "volume": 11974515
+        "volume": 11474848
       },
       {
         "symbol": "2382",
@@ -80,7 +80,7 @@
         "change": 0.5,
         "change_pct": 0.18,
         "market_cap": 1088.9,
-        "volume": 16538362
+        "volume": 16300354
       },
       {
         "symbol": "2357",
@@ -91,7 +91,7 @@
         "change": 14.0,
         "change_pct": 2.71,
         "market_cap": 394.41,
-        "volume": 5233563
+        "volume": 5151308
       },
       {
         "symbol": "2395",
@@ -102,7 +102,7 @@
         "change": -1.5,
         "change_pct": -0.43,
         "market_cap": 299.14,
-        "volume": 6945040
+        "volume": 6814809
       },
       {
         "symbol": "2301",
@@ -113,7 +113,7 @@
         "change": 6.0,
         "change_pct": 4.03,
         "market_cap": 351.81,
-        "volume": 18321130
+        "volume": 18117231
       },
       {
         "symbol": "2327",
@@ -124,7 +124,7 @@
         "change": 10.0,
         "change_pct": 4.02,
         "market_cap": 535.71,
-        "volume": 21559125
+        "volume": 21214420
       },
       {
         "symbol": "2345",
@@ -135,7 +135,7 @@
         "change": 55.0,
         "change_pct": 3.99,
         "market_cap": 802.03,
-        "volume": 5370772
+        "volume": 5264312
       }
     ],
     "電信": [
@@ -148,7 +148,7 @@
         "change": -1.0,
         "change_pct": -0.74,
         "market_cap": 1047.26,
-        "volume": 12612569
+        "volume": 12554852
       }
     ],
     "金融": [
@@ -161,7 +161,7 @@
         "change": 1.1,
         "change_pct": 1.57,
         "market_cap": 1042.98,
-        "volume": 18165821
+        "volume": 18047880
       },
       {
         "symbol": "2881",
@@ -172,7 +172,7 @@
         "change": 1.1,
         "change_pct": 1.26,
         "market_cap": 1236.85,
-        "volume": 17869439
+        "volume": 17562979
       },
       {
         "symbol": "2891",
@@ -183,7 +183,7 @@
         "change": 0.2,
         "change_pct": 0.39,
         "market_cap": 1007.5,
-        "volume": 52074639
+        "volume": 51806720
       },
       {
         "symbol": "2886",
@@ -194,7 +194,7 @@
         "change": -0.15,
         "change_pct": -0.38,
         "market_cap": 581.2,
-        "volume": 18930123
+        "volume": 18723760
       },
       {
         "symbol": "2885",
@@ -205,7 +205,7 @@
         "change": -0.3,
         "change_pct": -0.68,
         "market_cap": 584.57,
-        "volume": 19762533
+        "volume": 19511512
       },
       {
         "symbol": "2892",
@@ -216,7 +216,7 @@
         "change": -0.1,
         "change_pct": -0.34,
         "market_cap": 417.0,
-        "volume": 17296239
+        "volume": 17165295
       }
     ],
     "鋼鐵": [
@@ -229,7 +229,7 @@
         "change": 0.05,
         "change_pct": 0.26,
         "market_cap": 294.15,
-        "volume": 27140413
+        "volume": 27000996
       }
     ]
   },
@@ -243,7 +243,7 @@
       "change": 40.0,
       "change_pct": 2.21,
       "market_cap": 47975.17,
-      "volume": 45506830
+      "volume": 41375691
     },
     {
       "symbol": "2317",
@@ -254,7 +254,7 @@
       "change": -1.0,
       "change_pct": -0.48,
       "market_cap": 2925.19,
-      "volume": 68864784
+      "volume": 66168862
     },
     {
       "symbol": "2454",
@@ -265,7 +265,7 @@
       "change": 40.0,
       "change_pct": 2.4,
       "market_cap": 2721.37,
-      "volume": 5605115
+      "volume": 5273491
     },
     {
       "symbol": "2412",
@@ -276,7 +276,7 @@
       "change": -1.0,
       "change_pct": -0.74,
       "market_cap": 1047.26,
-      "volume": 12612569
+      "volume": 12554852
     },
     {
       "symbol": "2882",
@@ -287,7 +287,7 @@
       "change": 1.1,
       "change_pct": 1.57,
       "market_cap": 1042.98,
-      "volume": 18165821
+      "volume": 18047880
     },
     {
       "symbol": "2881",
@@ -298,7 +298,7 @@
       "change": 1.1,
       "change_pct": 1.26,
       "market_cap": 1236.85,
-      "volume": 17869439
+      "volume": 17562979
     },
     {
       "symbol": "2891",
@@ -309,7 +309,7 @@
       "change": 0.2,
       "change_pct": 0.39,
       "market_cap": 1007.5,
-      "volume": 52074639
+      "volume": 51806720
     },
     {
       "symbol": "2886",
@@ -320,7 +320,7 @@
       "change": -0.15,
       "change_pct": -0.38,
       "market_cap": 581.2,
-      "volume": 18930123
+      "volume": 18723760
     },
     {
       "symbol": "2303",
@@ -331,7 +331,7 @@
       "change": 0.7,
       "change_pct": 1.17,
       "market_cap": 760.32,
-      "volume": 75764243
+      "volume": 75467464
     },
     {
       "symbol": "2308",
@@ -342,7 +342,7 @@
       "change": 70.0,
       "change_pct": 5.74,
       "market_cap": 3350.83,
-      "volume": 11974515
+      "volume": 11474848
     },
     {
       "symbol": "2382",
@@ -353,7 +353,7 @@
       "change": 0.5,
       "change_pct": 0.18,
       "market_cap": 1088.9,
-      "volume": 16538362
+      "volume": 16300354
     },
     {
       "symbol": "2357",
@@ -364,7 +364,7 @@
       "change": 14.0,
       "change_pct": 2.71,
       "market_cap": 394.41,
-      "volume": 5233563
+      "volume": 5151308
     },
     {
       "symbol": "2395",
@@ -375,7 +375,7 @@
       "change": -1.5,
       "change_pct": -0.43,
       "market_cap": 299.14,
-      "volume": 6945040
+      "volume": 6814809
     },
     {
       "symbol": "2301",
@@ -386,7 +386,7 @@
       "change": 6.0,
       "change_pct": 4.03,
       "market_cap": 351.81,
-      "volume": 18321130
+      "volume": 18117231
     },
     {
       "symbol": "2327",
@@ -397,7 +397,7 @@
       "change": 10.0,
       "change_pct": 4.02,
       "market_cap": 535.71,
-      "volume": 21559125
+      "volume": 21214420
     },
     {
       "symbol": "2345",
@@ -408,7 +408,7 @@
       "change": 55.0,
       "change_pct": 3.99,
       "market_cap": 802.03,
-      "volume": 5370772
+      "volume": 5264312
     },
     {
       "symbol": "3711",
@@ -419,7 +419,7 @@
       "change": 15.5,
       "change_pct": 4.84,
       "market_cap": 1467.51,
-      "volume": 24955077
+      "volume": 24659835
     },
     {
       "symbol": "2885",
@@ -430,7 +430,7 @@
       "change": -0.3,
       "change_pct": -0.68,
       "market_cap": 584.57,
-      "volume": 19762533
+      "volume": 19511512
     },
     {
       "symbol": "2892",
@@ -441,7 +441,7 @@
       "change": -0.1,
       "change_pct": -0.34,
       "market_cap": 417.0,
-      "volume": 17296239
+      "volume": 17165295
     },
     {
       "symbol": "2002",
@@ -452,7 +452,7 @@
       "change": 0.05,
       "change_pct": 0.26,
       "market_cap": 294.15,
-      "volume": 27140413
+      "volume": 27000996
     }
   ]
 }
