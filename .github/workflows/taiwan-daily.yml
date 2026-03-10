@@ -48,6 +48,9 @@ jobs:
       - name: Fetch Taiwan stock data
         run: python fetch_taiwan_stocks.py
       
+      - name: Fetch overnight indicators
+        run: python fetch_overnight_indicators.py
+      
       - name: Commit and push Taiwan data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
