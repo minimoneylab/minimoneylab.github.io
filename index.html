@@ -85,8 +85,19 @@
         }
         
         .country-flag { 
-            font-size: 1.25rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #9B9B9B;
+            background: #F5F5F5;
+            padding: 4px 8px;
+            border-radius: 4px;
             line-height: 1;
+            letter-spacing: 0.5px;
+        }
+        
+        .country-button.active .country-flag {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
         }
         
         .country-name { flex: 1; }
@@ -514,42 +525,42 @@
                 <div class="country-nav-title">Regions</div>
                 
                 <button class="country-button active" onclick="switchCountry('taiwan')">
-                    <span class="country-flag">🇹🇼</span>
+                    <span class="country-flag">TW</span>
                     <span class="country-name">Taiwan</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('korea')">
-                    <span class="country-flag">🇰🇷</span>
+                    <span class="country-flag">KR</span>
                     <span class="country-name">Korea</span>
                     <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('philippines')">
-                    <span class="country-flag">🇵🇭</span>
+                    <span class="country-flag">PH</span>
                     <span class="country-name">Philippines</span>
                     <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('indonesia')">
-                    <span class="country-flag">🇮🇩</span>
+                    <span class="country-flag">ID</span>
                     <span class="country-name">Indonesia</span>
                     <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('india')">
-                    <span class="country-flag">🇮🇳</span>
+                    <span class="country-flag">IN</span>
                     <span class="country-name">India</span>
                     <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('malaysia')">
-                    <span class="country-flag">🇲🇾</span>
+                    <span class="country-flag">MY</span>
                     <span class="country-name">Malaysia</span>
                     <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('vietnam')">
-                    <span class="country-flag">🇻🇳</span>
+                    <span class="country-flag">VN</span>
                     <span class="country-name">Vietnam</span>
                 </button>
             </div>
@@ -559,8 +570,21 @@
                 <div style="font-size: 0.75rem; color: #9B9B9B; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">
                     Tools
                 </div>
-                <a href="stock-heatmap.html" style="display: flex; align-items: center; gap: 12px; padding: 12px; background: white; border: 1px solid #E5E5E5; border-radius: 8px; text-decoration: none; color: #2B2B2B; transition: all 0.2s;">
-                    <span style="font-size: 1.2rem;">📊</span>
+                
+                <a href="overnight-indicator.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; text-decoration: none; color: #2B2B2B; transition: all 0.2s; border-radius: 8px; margin-bottom: 8px;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <span style="font-size: 0.9rem;">Overnight Indicator</span>
+                </a>
+                
+                <a href="stock-heatmap.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; text-decoration: none; color: #2B2B2B; transition: all 0.2s; border-radius: 8px;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
                     <span style="font-size: 0.9rem;">Stock Heatmap</span>
                 </a>
             </div>
