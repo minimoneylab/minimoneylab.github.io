@@ -57,8 +57,8 @@ CONFIG = {
         "營收", "財報", "EPS", "獲利", "股價"
     ],
     
-    # Time filter: only articles from past 24 hours
-    "filter_hours": 24,  # Set to 0 to disable filtering
+    # Time filter: only articles from past 30 hours
+    "filter_hours": 30,  # Captures full previous day + early morning articles
     
     # Google Sheets settings
     "credentials_file": "credentials.json",
@@ -258,7 +258,7 @@ class NewsAutomation:
         self.cutoff_time = self.scrape_time - timedelta(hours=config.get('filter_hours', 0))
     
     def is_article_recent(self, article_date_str):
-        """Check if article is within the time window (past 24 hours)"""
+        """Check if article is within the time window (past 30 hours)"""
         if self.config.get('filter_hours', 0) == 0:
             return True  # No filtering
         
@@ -274,12 +274,13 @@ class NewsAutomation:
             if not is_recent:
                 hours_old = (self.scrape_time - article_dt).total_seconds() / 3600
                 print(f"   Skipping old article ({hours_old:.1f}h old)")
+                print(f"   Too old: {article_date_str}")
             
             return is_recent
             
         except Exception as e:
             print(f"   Warning: Could not parse date '{article_date_str}': {e}")
-            return True  # Include if we can't parse (benefit of doubt)
+            return False  # REJECT if we can't parse - safer approach
         os.makedirs(config["output_dir"], exist_ok=True)
 
     async def get_article_links(self, page, section_url):
