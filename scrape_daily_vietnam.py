@@ -53,8 +53,8 @@ CONFIG = {
         "vốn đầu tư nước ngoài", "fdi", "remittance", "kiều hối"
     ],
     
-    # Time filter: only articles from past 24 hours
-    "filter_hours": 24,
+    # Time filter: only articles from past 30 hours
+    "filter_hours": 30,  # Captures full previous day + early morning articles
     
     # Google Sheets settings
     "credentials_file": "credentials.json",
@@ -140,15 +140,21 @@ class NewsAutomation:
             title_elem = await page.query_selector('h1.title, h1.detail-title, h1')
             title = await title_elem.inner_text() if title_elem else 'No title'
             
-            # Get article date - CafeF only shows time, so we add today's date
+            # Get article date - CafeF sometimes shows just time, sometimes full date
             date_elem = await page.query_selector('span.date, span.time, time, .publish-date')
-            time_str = await date_elem.inner_text() if date_elem else ''
+            date_str = await date_elem.inner_text() if date_elem else ''
             
             # Add full date (Vietnam timezone)
             vn_now = datetime.now(VN_TIMEZONE)
-            if time_str.strip():
-                # Format: "DD/MM/YYYY HH:MM" 
-                date = f"{vn_now.strftime('%d/%m/%Y')} {time_str.strip()}"
+            if date_str.strip():
+                # Check if it already contains a date (has "/" character)
+                if '/' in date_str:
+                    # Already has full date, use as-is
+                    date = date_str.strip()
+                else:
+                    # Only has time, add today's date
+                    # Format: "DD/MM/YYYY HH:MM" 
+                    date = f"{vn_now.strftime('%d/%m/%Y')} {date_str.strip()}"
             else:
                 date = vn_now.strftime('%d/%m/%Y %H:%M')
             
