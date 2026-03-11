@@ -1,0 +1,61 @@
+{
+  "date": "2026-03-12",
+  "update_time": "2026-03-11 23:04:18",
+  "total_articles": 114,
+  "high": [
+    {
+      "title": "Six Major Life Insurers' February New Premium Income Exceeds NT$58.4 Billion",
+      "section": "金融",
+      "date": "2026/03/10 20:39:15",
+      "url": "https://money.udn.com/money/story/5613/9371783",
+      "summary": "The six major life insurance companies collectively recorded over NT$58.4 billion in new contract premiums for February 2026, representing a 41% year-over-year growth. Combined with January's record NT$111 billion, the first two months totaled over NT$170.4 billion, marking a 70.8% annual increase. Investment-linked and participating policies drove the growth, with Cathay Life posting NT$20.95 billion (32.5% YoY), Fubon Life NT$11.44 billion (6% YoY), and Shin Kong Life NT$8.09 billion (25% YoY). Taiwan Life surged 98% to NT$7.6 billion. Industry sources note that while February numbers declined from January's highs due to Chinese New Year holidays and fewer working days, the momentum remains strong. Investment-linked products benefited from positive market sentiment, while U.S. dollar-denominated interest-sensitive policies faced some headwinds from currency strength. The US-Iran conflict has not significantly impacted sales momentum thus far, with insurers noting stable daily sales volumes."
+    },
+    {
+      "title": "Foreign Investors Record Historic Single-Day Sell-off of NT$120.8 Billion",
+      "section": "證券",
+      "date": "2026/03/09 17:17:48",
+      "url": "https://money.udn.com/money/story/5607/9368900",
+      "summary": "Foreign investors executed the largest single-day sell-off in Taiwan stock market history on March 9, dumping NT$120.8 billion worth of shares as Middle East tensions escalated. The massive liquidation was led by sales of Yuanta Taiwan 50 ETF (0050), with foreign investors offloading 200,178 shares, and Taiwan Semiconductor Manufacturing Co (2330), where 37,837 shares were sold. The sell-off pattern showed \"abandoning large for small\" strategy, with foreign capital exiting mega-cap stocks while selectively buying smaller industry leaders like ADATA (3260), Phison Electronics (8299), and Winbond Electronics (2344). The foreign selling spree targeted primarily AI-related electronics stocks, including major positions in Foxconn, MediaTek, and World Advanced. Simultaneously, foreign investors purchased defensive assets including 20-year U.S. Treasury bond ETFs and oil-related instruments, indicating a clear risk-off positioning amid geopolitical uncertainty."
+    },
+    {
+      "title": "Oil Price Surge Devastates Global Bond Markets",
+      "section": "金融",
+      "date": "2026/03/07 13:41:03",
+      "url": "https://money.udn.com/money/story/5599/9365460",
+      "summary": "Global bond markets suffered severe losses this week as oil prices surged from $72 to $92 per barrel due to Middle East warfare, raising inflation concerns and dampening central bank dovish expectations. UK 10-year gilt yields jumped 39 basis points to 4.62%, marking the worst week since the Truss crisis in 2022. US 10-year Treasury yields rose 17 basis points to 4.13%, the largest weekly increase since the trade war outbreak in April last year. The Bloomberg Global Aggregate Bond Index posted its worst performance since October 2024. Market expectations have dramatically shifted, with the ECB now expected to raise rates by 25 basis points this year instead of further cuts. Bank of England rate cut expectations have been slashed to just 50% probability for one cut. However, US bonds performed relatively better due to America's energy exporter status and Friday's weak employment data showing 92,000 job losses, which increased Fed easing expectations. The energy shock's impact on inflation is considered less severe than the 1970s oil crisis due to reduced oil weighting in CPI calculations."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC February Revenue Falls to NT$317.6 Billion But Remains Strongest February Ever",
+      "section": "金融",
+      "date": "2026/03/11 02:04:34",
+      "url": "https://money.udn.com/money/story/5612/9372130",
+      "summary": "TSMC reported February revenue of NT$317.6 billion, down 20.8% month-over-month but still the strongest February on record. First two months combined revenue reached NT$718.9 billion, up 29.9% year-over-year and the best start to any year. The monthly decline was attributed to post-holiday normalization after strong January pulling by customers. Legal persons estimate February and March combined represent about 65% of Q1 guidance, suggesting the company will meet or exceed its quarterly forecast of $34.6-35.8 billion."
+    },
+    {
+      "title": "National Team Purchases Record NT$77.4 Billion to Counter Foreign Exodus",
+      "section": "證券",
+      "date": "2026/03/09 02:22:24",
+      "url": "https://money.udn.com/money/story/5607/9367404",
+      "summary": "Eight major state-owned banks executed their largest-ever weekly buying spree of NT$77.4 billion as foreign investors dumped over NT$300 billion in Taiwan stocks amid Middle East tensions. The aggressive support operation, led by TSMC purchases worth NT$32.9 billion, demonstrates policy commitment to market stability. Investment trusts also provided support with NT$40.5 billion in net buying, while foreign investors focused their selling on Taiwan 50 ETF (NT$41 billion) and major tech names including MediaTek and Hon Hai."
+    },
+    {
+      "title": "Taiwan Stock Market's Historic Volatility Week: Down 1,814 Points Then Up 661 Points",
+      "section": "證券",
+      "date": "2026/03/10 14:14:57",
+      "url": "https://money.udn.com/money/story/10871/9370786",
+      "summary": "Taiwan's stock market experienced extreme volatility with the index plunging 1,814 points last week before rebounding 661 points on March 10. President Trump's hint that the Iran war \"could end soon\" sparked the recovery, though market participants remain cautious about geopolitical developments. The index broke through 33,000 and nearly tested 34,000 but failed to hold gains as trading volume remained light at NT$702.8 billion, suggesting limited conviction in the bounce."
+    },
+    {
+      "title": "Central Bank Policy Outlook: 2 Rate Cuts Still Expected Despite Oil Price Surge",
+      "section": "金融",
+      "date": "2026/03/07 15:23:48",
+      "url": "https://money.udn.com/money/story/5612/9365609",
+      "summary": "Cathay Securities Investment Trust General Manager Zhang Yongchuan maintains expectation for two 25bp rate cuts by Taiwan's central bank in the second half of 2026, despite recent oil price volatility from Middle East conflicts. Zhang argues that oil's reduced weighting in CPI compared to 1970s oil crises limits inflationary impact, and core CPI's downward trend remains intact. He emphasizes AI demand strength continues supporting Taiwan's tech sector fundamentals, making current market pullbacks attractive entry points for long-term positioning."
+    }
+  ],
+  "not_relevant": [
+    "Oracle and OpenAI Abandon Texas Data Center Expansion Affecting Nvidia Chip Plans; NVIDIA CEO Jensen Huang's AI Five-Layer Cake Framework; Apple Foldable iPhone Production Increases 20%; iPhone India Manufacturing Reaches 25% Global Capacity; HTC Smart Glasses Expand to Singapore Market; Foxconn Chairman Predicts Double-Digit Growth; Restaurant Industry February Revenue Surge; EVA Air February Revenue Hits Record High; China Airlines 2025 EPS Reaches 2.42 Yuan; Evergreen Marine February Revenue Declines; Various Technology Company Earnings Reports; Pacific Electric Cable February Revenue Growth; Semiconductor Equipment Companies Performance; Food Service Industry Results; Airlines and Shipping Companies Monthly Updates; Memory Chip Sector Performance; AI Server Demand Growth; Electronics Manufacturing Services Providers Results; Retail Chain Store Expansion Plans; Telecommunications Operators February Performance; Real Estate and Construction Industry Updates; Traditional Manufacturing Sector Results; Automotive Parts Suppliers Performance; Textile and Apparel Industry Updates; Chemical and Materials Companies Results; Biotechnology and Pharmaceutical Sector News; Energy and Utilities Industry Updates; Media and Entertainment Companies Performance."
+  ]
+}
