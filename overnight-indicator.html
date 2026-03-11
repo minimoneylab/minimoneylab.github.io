@@ -142,19 +142,19 @@
         
         .metrics-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
             margin-bottom: 20px;
         }
         
         .metric {
-            padding: 12px;
+            padding: 10px 12px;
             background: #FAFAF5;
             border-radius: 6px;
         }
         
         .metric-label {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: #9B9B9B;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -162,7 +162,7 @@
         }
         
         .metric-value {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: 600;
         }
         
@@ -186,6 +186,32 @@
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
             margin-top: 16px;
+            display: none;  /* Hidden by default */
+        }
+        
+        .basis-table-wrapper.show {
+            display: block;
+        }
+        
+        .toggle-basis-btn {
+            background: #F5F5F5;
+            border: 1px solid #E5E5E5;
+            border-radius: 6px;
+            padding: 8px 16px;
+            font-size: 0.85rem;
+            color: #6B6B6B;
+            cursor: pointer;
+            margin-top: 12px;
+            transition: all 0.2s;
+        }
+        
+        .toggle-basis-btn:hover {
+            background: #E8E8E8;
+            color: #2B2B2B;
+        }
+        
+        .toggle-basis-btn:active {
+            transform: scale(0.98);
         }
         
         /* Hide less important columns on mobile */
@@ -228,7 +254,16 @@
             }
             
             .metrics-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);  /* Force 2 columns on mobile */
+                gap: 8px;
+            }
+            
+            .metric {
+                padding: 8px 10px;
+            }
+            
+            .metric-value {
+                font-size: 1rem;
             }
             
             .section {
@@ -403,7 +438,11 @@
                                 </div>
                             </div>
                             
-                            <div class="basis-table-wrapper">
+                            <button class="toggle-basis-btn" onclick="toggleBasisTable('${signal.adr_ticker}')">
+                                📊 Show Historical Basis Calculation
+                            </button>
+                            
+                            <div class="basis-table-wrapper" id="basis-${signal.adr_ticker}">
                                 <table class="basis-table">
                                     <thead>
                                         <tr>
@@ -488,6 +527,20 @@
         
         // Load data on page load
         loadData();
+        
+        // Toggle basis table visibility
+        function toggleBasisTable(ticker) {
+            const table = document.getElementById('basis-' + ticker);
+            const btn = event.target;
+            
+            if (table.classList.contains('show')) {
+                table.classList.remove('show');
+                btn.textContent = '📊 Show Historical Basis Calculation';
+            } else {
+                table.classList.add('show');
+                btn.textContent = '📊 Hide Historical Basis Calculation';
+            }
+        }
     </script>
 </body>
 </html>
