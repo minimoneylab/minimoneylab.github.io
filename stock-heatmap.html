@@ -144,13 +144,50 @@
             border-radius: 12px;
             border: 1px solid #E5E5E5;
             padding: 20px;
-            min-height: 600px;
-            overflow: hidden; /* Prevent overflow */
-            max-width: 100%; /* Force it to stay within bounds */
+            min-height: 450px;
+            max-height: 500px;
+            overflow: hidden;
+            max-width: 100%;
+            width: 100%;
+            box-sizing: border-box;
         }
         
         #heatmap > div {
-            max-width: 100% !important; /* Force Plotly to respect container */
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+        
+        #heatmap .plotly {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+        
+        /* Add text shadow to treemap text for better readability */
+        #heatmap text {
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            font-weight: bold !important;
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            #heatmap {
+                min-height: 350px;
+                max-height: 400px;
+                padding: 12px;
+            }
+            
+            .stats {
+                gap: 12px;
+            }
+            
+            .stat-card {
+                min-width: 90px;
+                padding: 12px 16px;
+            }
+            
+            .stat-value {
+                font-size: 1.2rem;
+            }
         }
         
         .legend {
@@ -217,15 +254,19 @@
         
         <!-- Market Selector -->
         <div class="market-selector">
-            <button class="market-button active" onclick="switchMarket('taiwan')">
+            <button class="market-button active" onclick="switchMarket('twse')">
                 <span class="market-flag">🇹🇼</span>
                 <span>TWSE</span>
             </button>
             
-            <button class="market-button soon" disabled>
+            <button class="market-button" onclick="switchMarket('kospi')">
                 <span class="market-flag">🇰🇷</span>
                 <span>KOSPI</span>
-                <span class="soon-badge">Soon</span>
+            </button>
+            
+            <button class="market-button" onclick="switchMarket('nse')">
+                <span class="market-flag">🇮🇳</span>
+                <span>NSE</span>
             </button>
             
             <button class="market-button soon" disabled>
@@ -237,12 +278,6 @@
             <button class="market-button soon" disabled>
                 <span class="market-flag">🇵🇭</span>
                 <span>PSE</span>
-                <span class="soon-badge">Soon</span>
-            </button>
-            
-            <button class="market-button soon" disabled>
-                <span class="market-flag">🇮🇩</span>
-                <span>IDX</span>
                 <span class="soon-badge">Soon</span>
             </button>
         </div>
@@ -267,8 +302,10 @@
             </button>
         </div>
         
-        <div id="heatmap">
-            <div class="loading">Loading stock data...</div>
+        <div style="width: 100%; max-width: 100%; overflow: hidden;">
+            <div id="heatmap">
+                <div class="loading">Loading stock data...</div>
+            </div>
         </div>
         
         <div class="legend">
@@ -307,15 +344,13 @@
             loadHeatmapData(market);
         }
         
-        async function loadHeatmapData(market = 'taiwan') {
+        async function loadHeatmapData(market = 'twse') {
             try {
                 // Clear current view
                 document.getElementById('heatmap').innerHTML = 
                     '<div class="loading">Loading stock data...</div>';
                 
-                const filename = market === 'taiwan' 
-                    ? 'data/stocks-heatmap.json'
-                    : `data/stocks-heatmap-${market}.json`;
+                const filename = `data/stocks-heatmap-${market}.json`;
                 
                 const response = await fetch(filename);
                 if (!response.ok) throw new Error('Failed to load data');
@@ -358,7 +393,7 @@
                 ${topGainer ? `
                 <div class="stat-card">
                     <div class="stat-label">Top Gainer</div>
-                    <div class="stat-value positive">${topGainer.name_zh}</div>
+                    <div class="stat-value positive">${topGainer.name}</div>
                     <div style="font-size: 0.85rem; color: #10b981; margin-top: 4px;">
                         ${topGainer.change_pct > 0 ? '+' : ''}${topGainer.change_pct}%
                     </div>
@@ -367,7 +402,7 @@
                 ${topLoser ? `
                 <div class="stat-card">
                     <div class="stat-label">Top Loser</div>
-                    <div class="stat-value negative">${topLoser.name_zh}</div>
+                    <div class="stat-value negative">${topLoser.name}</div>
                     <div style="font-size: 0.85rem; color: #ef4444; margin-top: 4px;">
                         ${topLoser.change_pct > 0 ? '+' : ''}${topLoser.change_pct}%
                     </div>
@@ -404,15 +439,20 @@
             changes.push(0);
             texts.push('');
             
-            // Create color scale based on performance
+            // FINVIZ-STYLE COLORS - Exact match to Finviz palette
             const colors = changes.map(change => {
-                if (change > 5) return 'rgb(0, 150, 0)';      // Dark green
-                if (change > 2) return 'rgb(50, 200, 50)';     // Green
-                if (change > 0) return 'rgb(150, 230, 150)';   // Light green
-                if (change === 0) return 'rgb(200, 200, 200)'; // Gray
-                if (change > -2) return 'rgb(255, 200, 200)';  // Light red
-                if (change > -5) return 'rgb(255, 100, 100)';  // Red
-                return 'rgb(200, 0, 0)';                       // Dark red
+                // Strong gains
+                if (change > 4) return 'rgb(0, 128, 0)';        // Dark forest green
+                if (change > 2) return 'rgb(46, 125, 50)';      // Medium green
+                if (change > 0.5) return 'rgb(102, 187, 106)';  // Light green
+                
+                // Neutral zone
+                if (change > -0.5) return 'rgb(117, 117, 117)'; // Dark gray (not light!)
+                
+                // Losses
+                if (change > -2) return 'rgb(239, 83, 80)';     // Coral red (not pink!)
+                if (change > -4) return 'rgb(211, 47, 47)';     // Deep red
+                return 'rgb(183, 28, 28)';                      // Dark crimson
             });
             
             const trace = {
@@ -427,25 +467,39 @@
                     line: { width: 2, color: 'white' }
                 },
                 hovertemplate: '<b>%{label}</b><br>Change: %{text}<br>Market Cap: $%{value:.1f}B<extra></extra>',
+                hoverlabel: {
+                    bgcolor: 'rgba(0, 0, 0, 0.9)',  // Dark background for hover
+                    bordercolor: 'white',
+                    font: {
+                        family: '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+                        size: 14,
+                        color: 'white'  // White text for contrast
+                    }
+                },
                 textfont: {
-                    size: 14,
+                    size: 16,
                     color: 'white',
-                    family: '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
+                    family: '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif, Arial, sans-serif',
+                    weight: 700  // Bold text like Finviz
                 }
             };
             
+            // Get actual container width
+            const container = document.getElementById('heatmap');
+            const containerWidth = container.offsetWidth - 40; // Subtract padding
+            
             const layout = {
-                margin: { t: 10, l: 0, r: 0, b: 0 },
+                margin: { t: 10, l: 10, r: 10, b: 10 },
                 paper_bgcolor: 'rgba(0,0,0,0)',
                 plot_bgcolor: 'rgba(0,0,0,0)',
-                height: 600,
-                width: null,  // Auto-fit to container
-                autosize: true
+                height: 480,
+                width: containerWidth,  // Use calculated width
+                autosize: false  // Disable autosize, use fixed width
             };
             
             const config = {
                 responsive: true,
-                displayModeBar: true,  // Show reset button
+                displayModeBar: true,
                 modeBarButtonsToRemove: ['pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d'],
                 modeBarButtonsToAdd: [],
                 displaylogo: false
