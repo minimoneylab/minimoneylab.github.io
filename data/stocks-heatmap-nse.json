@@ -1,0 +1,166 @@
+{
+  "market_name": "India National Stock Exchange",
+  "stocks": [
+    {
+      "symbol": "RELIANCE.NS",
+      "name": "Reliance",
+      "price": 1392.2,
+      "change": 2.0,
+      "change_pct": 0.14,
+      "market_cap": 18839907598336
+    },
+    {
+      "symbol": "TCS.NS",
+      "name": "TCS",
+      "price": 2442.4,
+      "change": -22.5,
+      "change_pct": -0.91,
+      "market_cap": 8836816568320
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "name": "HDFC Bank",
+      "price": 832.75,
+      "change": -1.2,
+      "change_pct": -0.14,
+      "market_cap": 12816257908736
+    },
+    {
+      "symbol": "INFY.NS",
+      "name": "Infosys",
+      "price": 1265.8,
+      "change": -10.5,
+      "change_pct": -0.82,
+      "market_cap": 5121941962752
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "name": "ICICI Bank",
+      "price": 1266.5,
+      "change": -28.1,
+      "change_pct": -2.17,
+      "market_cap": 9064812642304
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "name": "Bharti Airtel",
+      "price": 1801.3,
+      "change": -5.7,
+      "change_pct": -0.32,
+      "market_cap": 10972568748032
+    },
+    {
+      "symbol": "SBIN.NS",
+      "name": "SBI",
+      "price": 1085.2,
+      "change": -5.9,
+      "change_pct": -0.54,
+      "market_cap": 10017065402368
+    },
+    {
+      "symbol": "HINDUNILVR.NS",
+      "name": "HUL",
+      "price": 2136.9,
+      "change": -24.5,
+      "change_pct": -1.13,
+      "market_cap": 5021570695168
+    },
+    {
+      "symbol": "ITC.NS",
+      "name": "ITC",
+      "price": 304.1,
+      "change": -4.9,
+      "change_pct": -1.59,
+      "market_cap": 3810138783744
+    },
+    {
+      "symbol": "LT.NS",
+      "name": "L&T",
+      "price": 3719.5,
+      "change": -119.3,
+      "change_pct": -3.11,
+      "market_cap": 5116586885120
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "name": "Axis Bank",
+      "price": 1234.5,
+      "change": -21.3,
+      "change_pct": -1.7,
+      "market_cap": 3835874770944
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "name": "Bajaj Finance",
+      "price": 863.1,
+      "change": -30.55,
+      "change_pct": -3.42,
+      "market_cap": 5365327986688
+    },
+    {
+      "symbol": "MARUTI.NS",
+      "name": "Maruti",
+      "price": 13011.0,
+      "change": -486.0,
+      "change_pct": -3.6,
+      "market_cap": 4090691584000
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "name": "HCL Tech",
+      "price": 1358.1,
+      "change": 7.8,
+      "change_pct": 0.58,
+      "market_cap": 3674546634752
+    },
+    {
+      "symbol": "M&M.NS",
+      "name": "M&M",
+      "price": 3031.2,
+      "change": -137.0,
+      "change_pct": -4.32,
+      "market_cap": 3638873292800
+    },
+    {
+      "symbol": "ASIANPAINT.NS",
+      "name": "Asian Paints",
+      "price": 2221.2,
+      "change": -10.8,
+      "change_pct": -0.48,
+      "market_cap": 2129229643776
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "name": "Wipro",
+      "price": 202.51,
+      "change": 0.28,
+      "change_pct": 0.14,
+      "market_cap": 2121823420416
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "name": "Kotak Bank",
+      "price": 375.3,
+      "change": -7.9,
+      "change_pct": -2.06,
+      "market_cap": 3732543111168
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "name": "Sun Pharma",
+      "price": 1825.3,
+      "change": -0.6,
+      "change_pct": -0.03,
+      "market_cap": 4379506114560
+    },
+    {
+      "symbol": "TITAN.NS",
+      "name": "Titan",
+      "price": 4129.6,
+      "change": -10.7,
+      "change_pct": -0.26,
+      "market_cap": 3663142060032
+    }
+  ],
+  "update_time": "2026-03-12 23:06:05"
+}

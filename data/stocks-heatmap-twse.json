@@ -1,0 +1,166 @@
+{
+  "market_name": "Taiwan Stock Exchange",
+  "stocks": [
+    {
+      "symbol": "2330.TW",
+      "name": "TSMC",
+      "price": 1885.0,
+      "change": -55.0,
+      "change_pct": -2.84,
+      "market_cap": 48882805374976
+    },
+    {
+      "symbol": "2317.TW",
+      "name": "Hon Hai",
+      "price": 214.5,
+      "change": -4.5,
+      "change_pct": -2.05,
+      "market_cap": 2995007520768
+    },
+    {
+      "symbol": "2454.TW",
+      "name": "MediaTek",
+      "price": 1785.0,
+      "change": 20.0,
+      "change_pct": 1.13,
+      "market_cap": 2849056751616
+    },
+    {
+      "symbol": "2412.TW",
+      "name": "Chunghwa Tel",
+      "price": 136.0,
+      "change": 0.5,
+      "change_pct": 0.37,
+      "market_cap": 1055012749312
+    },
+    {
+      "symbol": "2882.TW",
+      "name": "Cathay FHC",
+      "price": 72.5,
+      "change": 0.7,
+      "change_pct": 0.97,
+      "market_cap": 1063517683712
+    },
+    {
+      "symbol": "2881.TW",
+      "name": "Fubon FHC",
+      "price": 89.4,
+      "change": 0.2,
+      "change_pct": 0.22,
+      "market_cap": 1252258480128
+    },
+    {
+      "symbol": "2891.TW",
+      "name": "CTBC FHC",
+      "price": 51.3,
+      "change": 0.1,
+      "change_pct": 0.2,
+      "market_cap": 1009471979520
+    },
+    {
+      "symbol": "2886.TW",
+      "name": "Mega FHC",
+      "price": 38.8,
+      "change": -0.5,
+      "change_pct": -1.27,
+      "market_cap": 577475051520
+    },
+    {
+      "symbol": "2303.TW",
+      "name": "UMC",
+      "price": 60.6,
+      "change": -1.6,
+      "change_pct": -2.57,
+      "market_cap": 762842251264
+    },
+    {
+      "symbol": "2308.TW",
+      "name": "Delta",
+      "price": 1370.0,
+      "change": -30.0,
+      "change_pct": -2.14,
+      "market_cap": 3558634422272
+    },
+    {
+      "symbol": "2382.TW",
+      "name": "Quanta",
+      "price": 288.5,
+      "change": -0.5,
+      "change_pct": -0.17,
+      "market_cap": 1112028479488
+    },
+    {
+      "symbol": "2357.TW",
+      "name": "Asustek",
+      "price": 581.0,
+      "change": -3.0,
+      "change_pct": -0.51,
+      "market_cap": 431543713792
+    },
+    {
+      "symbol": "2395.TW",
+      "name": "Advantech",
+      "price": 345.0,
+      "change": -1.0,
+      "change_pct": -0.29,
+      "market_cap": 298711351296
+    },
+    {
+      "symbol": "2301.TW",
+      "name": "Lite-On",
+      "price": 159.5,
+      "change": 0.5,
+      "change_pct": 0.31,
+      "market_cap": 362028630016
+    },
+    {
+      "symbol": "2327.TW",
+      "name": "Yageo",
+      "price": 251.5,
+      "change": -13.0,
+      "change_pct": -4.91,
+      "market_cap": 521207250944
+    },
+    {
+      "symbol": "2345.TW",
+      "name": "Accton",
+      "price": 1505.0,
+      "change": 20.0,
+      "change_pct": 1.35,
+      "market_cap": 841156591616
+    },
+    {
+      "symbol": "3711.TW",
+      "name": "ASE",
+      "price": 335.0,
+      "change": -10.5,
+      "change_pct": -3.04,
+      "market_cap": 1465319686144
+    },
+    {
+      "symbol": "2885.TW",
+      "name": "Yuanta FHC",
+      "price": 44.25,
+      "change": -0.1,
+      "change_pct": -0.23,
+      "market_cap": 589903364096
+    },
+    {
+      "symbol": "2892.TW",
+      "name": "First FHC",
+      "price": 28.85,
+      "change": -0.3,
+      "change_pct": -1.03,
+      "market_cap": 414847664128
+    },
+    {
+      "symbol": "2002.TW",
+      "name": "China Steel",
+      "price": 19.35,
+      "change": -0.15,
+      "change_pct": -0.77,
+      "market_cap": 296445640704
+    }
+  ],
+  "update_time": "2026-03-12 23:05:42"
+}
