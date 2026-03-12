@@ -18,6 +18,9 @@ import glob
 # Hong Kong timezone (UTC+8)
 HK_TIMEZONE = timezone(timedelta(hours=8))
 
+# Time filter: only include articles from past 30 hours
+FILTER_HOURS = 30
+
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
@@ -117,6 +120,33 @@ class SheetsReader:
 # ============================================================================
 
 class DataParser:
+    def __init__(self):
+        """Initialize with current HK time"""
+        self.now = datetime.now(HK_TIMEZONE)
+        self.cutoff_time = self.now - timedelta(hours=FILTER_HOURS)
+    
+    def is_article_recent(self, article_date_str):
+        """Check if article is within the time window (past 30 hours)"""
+        try:
+            # Parse article date: "2026/03/10 20:39:15" format
+            article_dt = datetime.strptime(article_date_str, '%Y/%m/%d %H:%M:%S')
+            # Make timezone-aware (assume HK time)
+            article_dt = article_dt.replace(tzinfo=HK_TIMEZONE)
+            
+            # Check if article is newer than cutoff
+            is_recent = article_dt >= self.cutoff_time
+            
+            if not is_recent:
+                hours_old = (self.now - article_dt).total_seconds() / 3600
+                print(f"   Filtering out old article ({hours_old:.1f}h old): {article_date_str}")
+            
+            return is_recent
+            
+        except Exception as e:
+            # If we can't parse the date, reject it (safer approach)
+            print(f"   Warning: Could not parse date '{article_date_str}': {e}")
+            return False
+    
     def parse_summary(self, summary):
         """Parse Claude's summary into structured JSON data"""
         
@@ -136,7 +166,9 @@ class DataParser:
                 end = summary.find('📊 DAILY STATS')
             
             section = summary[start:end] if end != -1 else summary[start:]
-            data['high'] = self._parse_articles(section)
+            all_high = self._parse_articles(section)
+            # Filter by date
+            data['high'] = [a for a in all_high if self.is_article_recent(a.get('date', ''))]
         
         # Parse Medium Priority
         if '🟡 MEDIUM IMPORTANCE' in summary:
@@ -146,7 +178,9 @@ class DataParser:
                 end = summary.find('📊 DAILY STATS')
             
             section = summary[start:end] if end != -1 else summary[start:]
-            data['medium'] = self._parse_articles(section)
+            all_medium = self._parse_articles(section)
+            # Filter by date
+            data['medium'] = [a for a in all_medium if self.is_article_recent(a.get('date', ''))]
         
         # Parse Not Relevant
         if '⚪ NOT RELEVANT' in summary:
@@ -228,6 +262,16 @@ class JSONGenerator:
         # Parse the summary
         parser = DataParser()
         parsed = parser.parse_summary(digest_data['summary'])
+        
+        # Print filtering summary
+        print()
+        print("=" * 70)
+        print(f"TIME FILTER: Past {FILTER_HOURS} hours")
+        print(f"Cutoff: {parser.cutoff_time.strftime('%Y-%m-%d %H:%M HK')}")
+        print(f"High priority articles (after filter): {len(parsed['high'])}")
+        print(f"Medium priority articles (after filter): {len(parsed['medium'])}")
+        print("=" * 70)
+        print()
         
         # Create JSON structure
         json_data = {
