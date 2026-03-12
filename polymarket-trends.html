@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Trends - MiniMoneyLab</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #FAFAF5;
+            color: #2B2B2B;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        
+        .subtitle {
+            color: #9B9B9B;
+            font-size: 0.95rem;
+        }
+        
+        .update-time {
+            text-align: center;
+            color: #9B9B9B;
+            font-size: 0.85rem;
+            margin-bottom: 30px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #6B6B6B;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .back-link:hover {
+            color: #2B2B2B;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #E5E5E5;
+        }
+        
+        .market-card {
+            background: white;
+            border: 1px solid #E5E5E5;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 16px;
+            transition: all 0.2s;
+        }
+        
+        .market-card:hover {
+            border-color: #2B2B2B;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .market-card.featured {
+            border-width: 2px;
+            border-color: #10b981;
+        }
+        
+        .market-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+            gap: 16px;
+        }
+        
+        .market-question {
+            font-size: 1.05rem;
+            font-weight: 500;
+            flex: 1;
+            line-height: 1.4;
+        }
+        
+        .market-question a {
+            color: #2B2B2B;
+            text-decoration: none;
+        }
+        
+        .market-question a:hover {
+            color: #10b981;
+        }
+        
+        .probability {
+            font-size: 2rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        
+        .prob-high {
+            color: #10b981;
+        }
+        
+        .prob-medium {
+            color: #f59e0b;
+        }
+        
+        .prob-low {
+            color: #9B9B9B;
+        }
+        
+        .market-meta {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            font-size: 0.85rem;
+            color: #6B6B6B;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .featured-badge {
+            display: inline-block;
+            background: #d1fae5;
+            color: #065f46;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #9B9B9B;
+        }
+        
+        .error {
+            text-align: center;
+            padding: 60px 20px;
+            color: #ef4444;
+        }
+        
+        @media (max-width: 768px) {
+            .market-header {
+                flex-direction: column;
+            }
+            
+            .probability {
+                font-size: 1.5rem;
+            }
+            
+            .market-meta {
+                gap: 12px;
+            }
+            
+            body {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Daily Brief</a>
+        
+        <div class="header">
+            <h1>🎲 Polymarket Trends</h1>
+            <p class="subtitle">Prediction market probabilities from real-money bets</p>
+        </div>
+        
+        <p class="update-time" id="updateTime">Loading...</p>
+        
+        <div id="content">
+            <div class="loading">Loading prediction markets...</div>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('data/polymarket-trends.json');
+                if (!response.ok) throw new Error('Failed to load data');
+                
+                const data = await response.json();
+                renderPage(data);
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('content').innerHTML = 
+                    '<div class="error">📭 No Polymarket data available yet</div>';
+            }
+        }
+        
+        function getProbabilityClass(prob) {
+            if (prob >= 60) return 'prob-high';
+            if (prob >= 40) return 'prob-medium';
+            return 'prob-low';
+        }
+        
+        function formatVolume(volume) {
+            if (volume >= 1000000) {
+                return '$' + (volume / 1000000).toFixed(1) + 'M';
+            } else if (volume >= 1000) {
+                return '$' + (volume / 1000).toFixed(0) + 'K';
+            } else {
+                return '$' + volume.toFixed(0);
+            }
+        }
+        
+        function renderMarketCard(market, isFeatured = false) {
+            const probClass = getProbabilityClass(market.probability);
+            const featuredClass = isFeatured ? 'featured' : '';
+            
+            let daysText = '';
+            if (market.days_to_close !== null) {
+                if (market.days_to_close === 0) {
+                    daysText = 'Closes today';
+                } else if (market.days_to_close === 1) {
+                    daysText = 'Closes tomorrow';
+                } else if (market.days_to_close < 0) {
+                    daysText = 'Closed';
+                } else {
+                    daysText = `Closes in ${market.days_to_close} days`;
+                }
+            }
+            
+            return `
+                <div class="market-card ${featuredClass}">
+                    ${isFeatured ? '<div class="featured-badge">Featured</div>' : ''}
+                    <div class="market-header">
+                        <div class="market-question">
+                            <a href="${market.url}" target="_blank" rel="noopener">
+                                ${market.question}
+                            </a>
+                        </div>
+                        <div class="probability ${probClass}">
+                            ${market.probability}%
+                        </div>
+                    </div>
+                    <div class="market-meta">
+                        <div class="meta-item">
+                            💰 Volume: ${formatVolume(market.volume)}
+                        </div>
+                        <div class="meta-item">
+                            💧 Liquidity: ${formatVolume(market.liquidity)}
+                        </div>
+                        ${daysText ? `<div class="meta-item">📅 ${daysText}</div>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+        
+        function renderPage(data) {
+            document.getElementById('updateTime').textContent = 
+                `Last updated: ${data.update_time}`;
+            
+            let html = '';
+            
+            // Featured markets
+            if (data.featured && data.featured.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-title">⭐ Featured Markets</div>
+                `;
+                
+                data.featured.forEach(market => {
+                    html += renderMarketCard(market, true);
+                });
+                
+                html += `</div>`;
+            }
+            
+            // Auto-discovered categories
+            if (data.categories) {
+                for (const [category, markets] of Object.entries(data.categories)) {
+                    if (markets.length > 0) {
+                        // Get category emoji
+                        let emoji = '📊';
+                        if (category.includes('Geopolitics')) emoji = '🌍';
+                        if (category.includes('Fed') || category.includes('Economy')) emoji = '💰';
+                        if (category.includes('Crypto')) emoji = '₿';
+                        if (category.includes('Markets')) emoji = '📈';
+                        
+                        html += `
+                            <div class="section">
+                                <div class="section-title">${emoji} ${category}</div>
+                        `;
+                        
+                        markets.forEach(market => {
+                            html += renderMarketCard(market, false);
+                        });
+                        
+                        html += `</div>`;
+                    }
+                }
+            }
+            
+            if (!html) {
+                html = '<div class="error">No markets found</div>';
+            }
+            
+            document.getElementById('content').innerHTML = html;
+        }
+        
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
