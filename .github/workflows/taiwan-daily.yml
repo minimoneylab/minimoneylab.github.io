@@ -45,8 +45,8 @@ jobs:
       - name: Generate Taiwan website data
         run: python generate_data.py
       
-      - name: Fetch Taiwan stock data
-        run: python fetch_taiwan_stocks.py
+      - name: Fetch stock data (Taiwan, Korea, India)
+        run: python fetch_stocks_multimarket.py
       
       - name: Fetch overnight indicators
         run: python fetch_overnight_indicators.py
