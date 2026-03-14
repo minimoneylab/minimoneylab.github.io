@@ -322,7 +322,7 @@
     </div>
 
     <script>
-        let currentMarket = 'taiwan';
+        let currentMarket = 'twse';
         let currentData = null;
         
         function resetHeatmapZoom() {
@@ -380,7 +380,7 @@
             document.getElementById('stats').innerHTML = `
                 <div class="stat-card">
                     <div class="stat-label">Total Stocks</div>
-                    <div class="stat-value">${data.total_stocks}</div>
+                    <div class="stat-value">${stocks.length}</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-label">Gainers</div>
@@ -415,29 +415,13 @@
             const stocks = data.stocks;
             
             // Prepare data for treemap
-            const labels = stocks.map(s => `${s.name_zh}<br>${s.name}`);
-            const parents = stocks.map(s => s.sector);
-            const values = stocks.map(s => s.market_cap);
+            const labels = stocks.map(s => `${s.name}<br>${s.change_pct > 0 ? '+' : ''}${s.change_pct}%`);
+            const parents = stocks.map(() => '');  // No sectors, flat structure
+            const values = stocks.map(s => s.market_cap || 1000000000);  // Default 1B if missing
             const changes = stocks.map(s => s.change_pct);
             const texts = stocks.map(s => 
                 `${s.change_pct > 0 ? '+' : ''}${s.change_pct}%`
             );
-            
-            // Add sector parents
-            const sectors = [...new Set(parents)];
-            const marketName = currentMarket.charAt(0).toUpperCase() + currentMarket.slice(1);
-            labels.push(...sectors);
-            parents.push(...sectors.map(() => marketName));
-            values.push(...sectors.map(() => 0));
-            changes.push(...sectors.map(() => 0));
-            texts.push(...sectors.map(() => ''));
-            
-            // Add root
-            labels.push(marketName);
-            parents.push('');
-            values.push(0);
-            changes.push(0);
-            texts.push('');
             
             // FINVIZ-STYLE COLORS - Exact match to Finviz palette
             const colors = changes.map(change => {
@@ -488,11 +472,15 @@
             const container = document.getElementById('heatmap');
             const containerWidth = container.offsetWidth - 40; // Subtract padding
             
+            // Responsive height: More square on mobile, landscape on desktop
+            const isMobile = window.innerWidth < 768;
+            const height = isMobile ? containerWidth * 1.2 : Math.min(480, containerWidth * 0.6);
+            
             const layout = {
                 margin: { t: 10, l: 10, r: 10, b: 10 },
                 paper_bgcolor: 'rgba(0,0,0,0)',
                 plot_bgcolor: 'rgba(0,0,0,0)',
-                height: 480,
+                height: height,
                 width: containerWidth,  // Use calculated width
                 autosize: false  // Disable autosize, use fixed width
             };
@@ -508,8 +496,8 @@
             Plotly.newPlot('heatmap', [trace], layout, config);
         }
         
-        // Load Taiwan data on page load
-        loadHeatmapData('taiwan');
+        // Load TWSE data on page load
+        loadHeatmapData('twse');
     </script>
 </body>
 </html>
