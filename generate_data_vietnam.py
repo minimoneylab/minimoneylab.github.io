@@ -18,7 +18,7 @@ import glob
 VN_TIMEZONE = timezone(timedelta(hours=7))
 
 # Time filter: only include articles from past 30 hours
-FILTER_HOURS = 30
+FILTER_HOURS = 36
 
 # ============================================================================
 # CONFIGURATION
