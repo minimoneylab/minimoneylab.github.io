@@ -1,245 +1,204 @@
 #!/usr/bin/env python3
 """
-Polymarket Trends Fetcher
-Fetches prediction market data from Polymarket API
-Uses hybrid approach: featured markets + auto-discovery
+Polymarket Trends Fetcher - Using Official API
+Based on https://docs.polymarket.com/market-data/fetching-markets
 """
 
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
 
-# Configuration
-CONFIG = {
-    # Featured markets (always show these)
-    'featured': [
-        {
-            'slug': 'will-iran-conduct-a-direct-military-strike-on-israel-before-april-2026',
-            'label': '🌍 Iran Strikes Israel',
-            'category': 'Geopolitics'
-        },
-        {
-            'slug': 'will-the-federal-reserve-cut-interest-rates-in-march-2026',
-            'label': '💰 Fed Cuts March 2026',
-            'category': 'Fed & Economy'
-        },
-        {
-            'slug': 'will-bitcoin-reach-100000-in-2026',
-            'label': '₿ Bitcoin $100K',
-            'category': 'Crypto'
-        }
-    ],
+# Featured event slugs from your URLs
+FEATURED_SLUGS = [
+    # Iran/Middle East
+    'will-iran-close-the-strait-of-hormuz-by-2027',
+    'iran-strikes-israel-on',
+    'us-x-iran-ceasefire-by',
+    'us-forces-enter-iran-by',
+    'will-the-iranian-regime-fall-by-march-31',
+    'will-the-iranian-regime-fall-by-june-30',
     
-    # Auto-discovery by category
-    'auto_discover': {
-        'Geopolitics': {
-            'keywords': ['iran', 'israel', 'war', 'ukraine', 'china', 'taiwan', 'military', 'conflict'],
-            'min_volume': 50000,
-            'limit': 5
-        },
-        'Fed & Economy': {
-            'keywords': ['fed', 'federal reserve', 'rate cut', 'inflation', 'recession', 'cpi', 'unemployment', 'powell'],
-            'min_volume': 100000,
-            'limit': 5
-        },
-        'Crypto': {
-            'keywords': ['bitcoin', 'btc', 'ethereum', 'eth', 'crypto'],
-            'min_volume': 150000,
-            'limit': 3
-        },
-        'Markets': {
-            'keywords': ['s&p', 'dow', 'nasdaq', 'stock market', 'bear market', 'correction'],
-            'min_volume': 100000,
-            'limit': 3
-        }
-    },
+    # Oil
+    'will-crude-oil-cl-hit-by-end-of-march',
     
-    # Global filters
-    'max_days_to_close': 180,  # Within 6 months
-    'min_liquidity': 25000      # At least $25K traded
-}
+    # Fed
+    'how-many-fed-rate-cuts-in-2026',
+    'fed-decision-in-march-885',
+    'fed-decision-in-april',
+]
 
-POLYMARKET_API = "https://gamma-api.polymarket.com/markets"
+EVENTS_API = "https://gamma-api.polymarket.com/events"
 
-
-def fetch_all_markets():
-    """Fetch all active markets from Polymarket"""
-    print("=" * 70)
-    print("FETCHING POLYMARKET DATA")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
-    print("=" * 70)
-    print()
-    
+def fetch_event_by_slug(slug):
+    """Fetch a specific event by slug"""
     try:
-        print("Fetching markets from Polymarket API...")
+        # Use query parameter method
+        url = f"{EVENTS_API}?slug={slug}"
+        response = requests.get(url, timeout=10)
         
-        # Get active markets
-        params = {
-            'closed': 'false',
-            'limit': 100,
-            'offset': 0
-        }
-        
-        response = requests.get(POLYMARKET_API, params=params, timeout=10)
-        response.raise_for_status()
-        
-        markets = response.json()
-        print(f"✓ Fetched {len(markets)} active markets")
-        
-        return markets
-        
-    except Exception as e:
-        print(f"✗ Error fetching markets: {e}")
-        return []
-
-
-def filter_market_by_keywords(market, keywords):
-    """Check if market matches any keyword"""
-    text = f"{market.get('question', '')} {market.get('description', '')}".lower()
-    return any(keyword.lower() in text for keyword in keywords)
-
-
-def get_market_data(market):
-    """Extract relevant data from market"""
-    try:
-        # Get probability (price of YES outcome)
-        outcomes = market.get('outcomes', [])
-        yes_outcome = next((o for o in outcomes if o.get('outcome') == 'Yes'), None)
-        
-        if not yes_outcome:
+        if response.status_code == 404:
             return None
         
-        probability = float(yes_outcome.get('price', 0)) * 100
+        response.raise_for_status()
+        data = response.json()
         
-        # Get volume
-        volume = float(market.get('volume', 0))
+        # API returns array, get first item
+        if isinstance(data, list) and len(data) > 0:
+            return data[0]
         
-        # Get liquidity
-        liquidity = float(market.get('liquidity', 0))
-        
-        # Get close date
-        end_date_iso = market.get('endDate')
-        if end_date_iso:
-            end_date = datetime.fromisoformat(end_date_iso.replace('Z', '+00:00'))
-            days_to_close = (end_date - datetime.now(end_date.tzinfo)).days
-        else:
-            days_to_close = None
-        
-        return {
-            'question': market.get('question', 'Unknown'),
-            'slug': market.get('slug', ''),
-            'probability': round(probability, 1),
-            'volume': round(volume, 0),
-            'liquidity': round(liquidity, 0),
-            'end_date': end_date_iso,
-            'days_to_close': days_to_close,
-            'url': f"https://polymarket.com/event/{market.get('slug', '')}"
-        }
+        return None
         
     except Exception as e:
-        print(f"  Warning: Could not parse market: {e}")
+        print(f"  ✗ Error fetching {slug}: {e}")
         return None
 
 
-def get_featured_markets(all_markets):
-    """Get data for featured markets"""
-    print("\nFetching featured markets...")
-    featured_data = []
-    
-    for featured in CONFIG['featured']:
-        # Find market by slug
-        market = next((m for m in all_markets if m.get('slug') == featured['slug']), None)
+def parse_event(event):
+    """Parse event data into our format"""
+    try:
+        title = event.get('title', '')
+        slug = event.get('slug', '')
         
-        if market:
-            data = get_market_data(market)
-            if data:
-                data['label'] = featured['label']
-                data['category'] = featured['category']
-                data['is_featured'] = True
-                featured_data.append(data)
-                print(f"  ✓ {featured['label']}: {data['probability']}%")
-        else:
-            print(f"  ✗ Not found: {featured['label']}")
-    
-    return featured_data
+        # Get markets within this event
+        markets = event.get('markets', [])
+        
+        if not markets:
+            return None
+        
+        # Get aggregate data
+        volume = float(event.get('volume', 0))
+        liquidity = float(event.get('liquidity', 0))
+        
+        # Get end date
+        end_date = event.get('endDate', '')
+        days_to_close = None
+        
+        if end_date:
+            try:
+                end_dt = datetime.fromisoformat(end_date.replace('Z', '+00:00'))
+                days_to_close = (end_dt - datetime.now(end_dt.tzinfo)).days
+            except:
+                pass
+        
+        # Parse individual markets for probabilities
+        market_data = []
+        for market in markets:
+            try:
+                question = market.get('question', '')
+                
+                # Get probability
+                outcome_prices = market.get('outcomePrices', '[]')
+                if isinstance(outcome_prices, str):
+                    prices = json.loads(outcome_prices)
+                else:
+                    prices = outcome_prices
+                
+                if prices and len(prices) > 0:
+                    prob = float(prices[0]) * 100
+                    market_data.append({
+                        'question': question,
+                        'probability': round(prob, 1)
+                    })
+            except:
+                continue
+        
+        return {
+            'title': title,
+            'slug': slug,
+            'volume': round(volume, 0),
+            'liquidity': round(liquidity, 0),
+            'end_date': end_date,
+            'days_to_close': days_to_close,
+            'markets': market_data,
+            'url': f"https://polymarket.com/event/{slug}"
+        }
+        
+    except Exception as e:
+        return None
 
 
-def auto_discover_markets(all_markets):
-    """Auto-discover markets by category"""
-    print("\nAuto-discovering markets by category...")
-    discovered = {}
+def categorize_events(events):
+    """Categorize events by topic"""
+    categories = {
+        'Iran & Middle East': [],
+        'Oil & Energy': [],
+        'Fed & Rates': [],
+    }
     
-    for category, config in CONFIG['auto_discover'].items():
-        print(f"\n{category}:")
+    for event in events:
+        title = event['title'].lower()
         
-        # Filter markets
-        filtered = []
-        for market in all_markets:
-            # Check keywords
-            if not filter_market_by_keywords(market, config['keywords']):
-                continue
-            
-            # Check volume
-            volume = float(market.get('volume', 0))
-            if volume < config['min_volume']:
-                continue
-            
-            # Check close date
-            end_date_iso = market.get('endDate')
-            if end_date_iso:
-                end_date = datetime.fromisoformat(end_date_iso.replace('Z', '+00:00'))
-                days_to_close = (end_date - datetime.now(end_date.tzinfo)).days
-                if days_to_close > CONFIG['max_days_to_close'] or days_to_close < 0:
-                    continue
-            
-            # Check liquidity
-            liquidity = float(market.get('liquidity', 0))
-            if liquidity < CONFIG['min_liquidity']:
-                continue
-            
-            data = get_market_data(market)
-            if data:
-                data['category'] = category
-                data['is_featured'] = False
-                filtered.append(data)
-        
-        # Sort by volume and take top N
-        filtered.sort(key=lambda x: x['volume'], reverse=True)
-        top_markets = filtered[:config['limit']]
-        
-        discovered[category] = top_markets
-        
-        for market in top_markets:
-            print(f"  • {market['question'][:60]}... ({market['probability']}%, ${market['volume']:,.0f})")
+        # Categorize
+        if any(term in title for term in ['iran', 'israel', 'middle east', 'strait', 'hormuz', 'regime']):
+            categories['Iran & Middle East'].append(event)
+        elif any(term in title for term in ['oil', 'crude', 'wti']):
+            categories['Oil & Energy'].append(event)
+        elif any(term in title for term in ['fed', 'rate cut', 'fomc']):
+            categories['Fed & Rates'].append(event)
     
-    return discovered
+    # Sort by volume
+    for category in categories:
+        categories[category].sort(key=lambda x: x['volume'], reverse=True)
+    
+    return categories
 
 
 def main():
     """Main function"""
+    print("=" * 70)
+    print("POLYMARKET TRENDS FETCHER - Official API")
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    print("=" * 70)
+    print()
     
-    # Fetch all markets
-    all_markets = fetch_all_markets()
+    print("Fetching featured events by slug...\n")
     
-    if not all_markets:
-        print("No markets fetched. Exiting.")
+    events = []
+    for slug in FEATURED_SLUGS:
+        print(f"Fetching: {slug}")
+        event = fetch_event_by_slug(slug)
+        
+        if event:
+            parsed = parse_event(event)
+            if parsed:
+                events.append(parsed)
+                print(f"  ✓ {parsed['title']}")
+                print(f"    Volume: ${parsed['volume']:,.0f}")
+                if parsed['markets']:
+                    for m in parsed['markets'][:2]:  # Show first 2 markets
+                        print(f"    • {m['question'][:50]}... ({m['probability']}%)")
+            else:
+                print(f"  ✗ Could not parse event")
+        else:
+            print(f"  ✗ Event not found or closed")
+        print()
+    
+    if not events:
+        print("No events found!")
         return
     
-    # Get featured markets
-    featured = get_featured_markets(all_markets)
+    # Categorize
+    categorized = categorize_events(events)
     
-    # Auto-discover markets
-    discovered = auto_discover_markets(all_markets)
+    print("=" * 70)
+    print("SUMMARY BY CATEGORY")
+    print("=" * 70)
     
-    # Combine data
-    output = {
-        'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-        'featured': featured,
-        'categories': discovered
-    }
+    for category, cat_events in categorized.items():
+        if cat_events:
+            print(f"\n{category}: {len(cat_events)} events")
+            for e in cat_events:
+                print(f"  • {e['title']}")
+                print(f"    ${e['volume']:,.0f} | {len(e['markets'])} markets")
     
     # Save to JSON
+    output = {
+        'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'categories': categorized,
+        'total_events': len(events)
+    }
+    
     os.makedirs('./data', exist_ok=True)
     filename = './data/polymarket-trends.json'
     
@@ -248,8 +207,7 @@ def main():
     
     print("\n" + "=" * 70)
     print(f"✓ Saved to: {filename}")
-    print(f"Featured markets: {len(featured)}")
-    print(f"Auto-discovered: {sum(len(markets) for markets in discovered.values())}")
+    print(f"Total events: {len(events)}")
     print("=" * 70)
 
 
@@ -257,7 +215,7 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\nStopped by user")
+        print("\nStopped")
     except Exception as e:
         print(f"Error: {e}")
         import traceback
