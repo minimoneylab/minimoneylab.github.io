@@ -85,6 +85,106 @@ MARKETS = {
             {'symbol': 'SUNPHARMA.NS', 'name': 'Sun Pharma'},
             {'symbol': 'TITAN.NS', 'name': 'Titan'}
         ]
+    },
+    'hose': {
+        'name': 'Vietnam Ho Chi Minh Stock Exchange',
+        'stocks': [
+            {'symbol': 'VNM.VN', 'name': 'Vinamilk'},
+            {'symbol': 'VCB.VN', 'name': 'Vietcombank'},
+            {'symbol': 'VHM.VN', 'name': 'Vinhomes'},
+            {'symbol': 'VIC.VN', 'name': 'Vingroup'},
+            {'symbol': 'HPG.VN', 'name': 'Hoa Phat'},
+            {'symbol': 'GAS.VN', 'name': 'PetroVietnam Gas'},
+            {'symbol': 'TCB.VN', 'name': 'Techcombank'},
+            {'symbol': 'BID.VN', 'name': 'BIDV'},
+            {'symbol': 'CTG.VN', 'name': 'VietinBank'},
+            {'symbol': 'MBB.VN', 'name': 'MB Bank'},
+            {'symbol': 'VPB.VN', 'name': 'VPBank'},
+            {'symbol': 'PLX.VN', 'name': 'Petrolimex'},
+            {'symbol': 'MSN.VN', 'name': 'Masan'},
+            {'symbol': 'SSI.VN', 'name': 'SSI Securities'},
+            {'symbol': 'VRE.VN', 'name': 'Vincom Retail'},
+            {'symbol': 'POW.VN', 'name': 'PetroVietnam Power'},
+            {'symbol': 'SAB.VN', 'name': 'Sabeco'},
+            {'symbol': 'FPT.VN', 'name': 'FPT Corp'},
+            {'symbol': 'TPB.VN', 'name': 'TPBank'},
+            {'symbol': 'ACB.VN', 'name': 'ACB'}
+        ]
+    },
+    'pse': {
+        'name': 'Philippines Stock Exchange',
+        'stocks': [
+            {'symbol': 'SM.PSE', 'name': 'SM Investments'},
+            {'symbol': 'BDO.PSE', 'name': 'BDO Unibank'},
+            {'symbol': 'SMPH.PSE', 'name': 'SM Prime'},
+            {'symbol': 'ALI.PSE', 'name': 'Ayala Land'},
+            {'symbol': 'JGS.PSE', 'name': 'JG Summit'},
+            {'symbol': 'TEL.PSE', 'name': 'PLDT'},
+            {'symbol': 'MBT.PSE', 'name': 'Metrobank'},
+            {'symbol': 'GLO.PSE', 'name': 'Globe Telecom'},
+            {'symbol': 'AC.PSE', 'name': 'Ayala Corp'},
+            {'symbol': 'BPI.PSE', 'name': 'BPI'},
+            {'symbol': 'GTCAP.PSE', 'name': 'GT Capital'},
+            {'symbol': 'MEG.PSE', 'name': 'Megaworld'},
+            {'symbol': 'URC.PSE', 'name': 'Universal Robina'},
+            {'symbol': 'ICT.PSE', 'name': 'International Container'},
+            {'symbol': 'SECB.PSE', 'name': 'Security Bank'},
+            {'symbol': 'DMC.PSE', 'name': 'DMCI Holdings'},
+            {'symbol': 'AGI.PSE', 'name': 'Alliance Global'},
+            {'symbol': 'RLC.PSE', 'name': 'Robinsons Land'},
+            {'symbol': 'AP.PSE', 'name': 'Aboitiz Power'},
+            {'symbol': 'MONDE.PSE', 'name': 'Monde Nissin'}
+        ]
+    },
+    'klse': {
+        'name': 'Malaysia Stock Exchange',
+        'stocks': [
+            {'symbol': '1155.KL', 'name': 'Maybank'},
+            {'symbol': '1023.KL', 'name': 'CIMB Group'},
+            {'symbol': '1295.KL', 'name': 'Public Bank'},
+            {'symbol': '5347.KL', 'name': 'Tenaga Nasional'},
+            {'symbol': '6033.KL', 'name': 'Petronas Gas'},
+            {'symbol': '5681.KL', 'name': 'Petronas Dagangan'},
+            {'symbol': '1961.KL', 'name': 'IOI Corp'},
+            {'symbol': '4197.KL', 'name': 'Sime Darby'},
+            {'symbol': '3816.KL', 'name': 'MISC'},
+            {'symbol': '6947.KL', 'name': 'Digi'},
+            {'symbol': '6888.KL', 'name': 'Axiata'},
+            {'symbol': '6012.KL', 'name': 'Maxis'},
+            {'symbol': '4715.KL', 'name': 'Genting Malaysia'},
+            {'symbol': '3182.KL', 'name': 'Genting'},
+            {'symbol': '1066.KL', 'name': 'RHB Bank'},
+            {'symbol': '5819.KL', 'name': 'Hong Leong Bank'},
+            {'symbol': '1015.KL', 'name': 'AMMB Holdings'},
+            {'symbol': '4065.KL', 'name': 'PPB Group'},
+            {'symbol': '4707.KL', 'name': 'Nestle Malaysia'},
+            {'symbol': '7113.KL', 'name': 'Top Glove'}
+        ]
+    },
+    'idx': {
+        'name': 'Indonesia Stock Exchange',
+        'stocks': [
+            {'symbol': 'BBCA.JK', 'name': 'Bank Central Asia'},
+            {'symbol': 'BBRI.JK', 'name': 'Bank Rakyat'},
+            {'symbol': 'BMRI.JK', 'name': 'Bank Mandiri'},
+            {'symbol': 'TLKM.JK', 'name': 'Telkom Indonesia'},
+            {'symbol': 'ASII.JK', 'name': 'Astra International'},
+            {'symbol': 'BBNI.JK', 'name': 'Bank Negara'},
+            {'symbol': 'UNVR.JK', 'name': 'Unilever Indonesia'},
+            {'symbol': 'GOTO.JK', 'name': 'GoTo'},
+            {'symbol': 'ADRO.JK', 'name': 'Adaro Energy'},
+            {'symbol': 'INDF.JK', 'name': 'Indofood'},
+            {'symbol': 'ICBP.JK', 'name': 'Indofood CBP'},
+            {'symbol': 'PTBA.JK', 'name': 'Bukit Asam'},
+            {'symbol': 'KLBF.JK', 'name': 'Kalbe Farma'},
+            {'symbol': 'EXCL.JK', 'name': 'XL Axiata'},
+            {'symbol': 'INCO.JK', 'name': 'Vale Indonesia'},
+            {'symbol': 'ITMG.JK', 'name': 'Indo Tambangraya'},
+            {'symbol': 'SMGR.JK', 'name': 'Semen Indonesia'},
+            {'symbol': 'PWON.JK', 'name': 'Pakuwon Jati'},
+            {'symbol': 'ANTM.JK', 'name': 'Aneka Tambang'},
+            {'symbol': 'UNTR.JK', 'name': 'United Tractors'}
+        ]
     }
 }
 
@@ -95,6 +195,52 @@ def fetch_market_data(market_id):
     print(f"\n{'='*70}")
     print(f"FETCHING {market['name'].upper()} DATA")
     print(f"{'='*70}\n")
+    
+    # Get live FX rates from Yahoo Finance
+    print("Fetching live FX rates...")
+    fx_rates = {}
+    
+    try:
+        # Fetch live FX rates
+        if market_id == 'twse':
+            usdtwd = yf.Ticker('TWD=X').history(period='1d')
+            fx_rates['twse'] = usdtwd['Close'].iloc[-1] if len(usdtwd) > 0 else 31.5
+        elif market_id == 'kospi':
+            usdkrw = yf.Ticker('KRW=X').history(period='1d')
+            fx_rates['kospi'] = usdkrw['Close'].iloc[-1] if len(usdkrw) > 0 else 1350
+        elif market_id == 'nse':
+            usdinr = yf.Ticker('INR=X').history(period='1d')
+            fx_rates['nse'] = usdinr['Close'].iloc[-1] if len(usdinr) > 0 else 83
+        elif market_id == 'hose':
+            usdvnd = yf.Ticker('VND=X').history(period='1d')
+            fx_rates['hose'] = usdvnd['Close'].iloc[-1] if len(usdvnd) > 0 else 25000
+        elif market_id == 'pse':
+            usdphp = yf.Ticker('PHP=X').history(period='1d')
+            fx_rates['pse'] = usdphp['Close'].iloc[-1] if len(usdphp) > 0 else 56
+        elif market_id == 'klse':
+            usdmyr = yf.Ticker('MYR=X').history(period='1d')
+            fx_rates['klse'] = usdmyr['Close'].iloc[-1] if len(usdmyr) > 0 else 4.7
+        elif market_id == 'idx':
+            usdidr = yf.Ticker('IDR=X').history(period='1d')
+            fx_rates['idx'] = usdidr['Close'].iloc[-1] if len(usdidr) > 0 else 16000
+        
+        fx_rate = fx_rates.get(market_id, 1)
+        print(f"✓ FX Rate: {fx_rate:.2f} (local currency per USD)")
+        print()
+    except:
+        # Fallback to approximate rates if live fetch fails
+        fallback_rates = {
+            'twse': 31.5, 
+            'kospi': 1350, 
+            'nse': 83,
+            'hose': 25000,
+            'pse': 56,
+            'klse': 4.7,
+            'idx': 16000
+        }
+        fx_rate = fallback_rates.get(market_id, 1)
+        print(f"⚠️  Using fallback FX rate: {fx_rate}")
+        print()
     
     stocks_data = []
     
@@ -117,12 +263,20 @@ def fetch_market_data(market_id):
             change = current_price - prev_close
             change_pct = (change / prev_close) * 100
             
-            # Get market cap
+            # Get market cap in local currency and convert to USD
             try:
                 info = ticker.info
-                market_cap = info.get('marketCap', 0)
+                market_cap_local = info.get('marketCap', 0)
+                
+                if market_cap_local and market_cap_local > 0:
+                    # Convert local currency to USD
+                    market_cap_usd = market_cap_local / fx_rate
+                else:
+                    # Default 1B if missing
+                    market_cap_usd = 1000000000
+                    
             except:
-                market_cap = 0
+                market_cap_usd = 1000000000  # Default 1B
             
             stocks_data.append({
                 'symbol': stock['symbol'],
@@ -130,7 +284,7 @@ def fetch_market_data(market_id):
                 'price': round(current_price, 2),
                 'change': round(change, 2),
                 'change_pct': round(change_pct, 2),
-                'market_cap': market_cap
+                'market_cap': round(market_cap_usd, 0)  # Converted to USD
             })
             
             print(f"  ✓ {stock['name']}: {change_pct:+.2f}%")
@@ -150,9 +304,9 @@ def main():
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
     print("=" * 70)
     
-    # Fetch all markets
+    # Fetch working markets only (Philippines not available on Yahoo Finance)
     all_data = {}
-    for market_id in ['twse', 'kospi', 'nse']:
+    for market_id in ['twse', 'kospi', 'nse', 'hose', 'klse', 'idx']:
         stocks_data = fetch_market_data(market_id)
         all_data[market_id] = {
             'market_name': MARKETS[market_id]['name'],
