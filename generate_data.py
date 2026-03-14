@@ -19,7 +19,7 @@ import glob
 HK_TIMEZONE = timezone(timedelta(hours=8))
 
 # Time filter: only include articles from past 30 hours
-FILTER_HOURS = 30
+FILTER_HOURS = 36
 
 # ============================================================================
 # CONFIGURATION
