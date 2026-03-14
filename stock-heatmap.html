@@ -255,30 +255,33 @@
         <!-- Market Selector -->
         <div class="market-selector">
             <button class="market-button active" onclick="switchMarket('twse')">
-                <span class="market-flag">🇹🇼</span>
+                <span class="market-flag">TW</span>
                 <span>TWSE</span>
             </button>
             
             <button class="market-button" onclick="switchMarket('kospi')">
-                <span class="market-flag">🇰🇷</span>
+                <span class="market-flag">KR</span>
                 <span>KOSPI</span>
             </button>
             
             <button class="market-button" onclick="switchMarket('nse')">
-                <span class="market-flag">🇮🇳</span>
+                <span class="market-flag">IN</span>
                 <span>NSE</span>
             </button>
             
-            <button class="market-button soon" disabled>
-                <span class="market-flag">🇻🇳</span>
+            <button class="market-button" onclick="switchMarket('hose')">
+                <span class="market-flag">VN</span>
                 <span>HOSE</span>
-                <span class="soon-badge">Soon</span>
             </button>
             
-            <button class="market-button soon" disabled>
-                <span class="market-flag">🇵🇭</span>
-                <span>PSE</span>
-                <span class="soon-badge">Soon</span>
+            <button class="market-button" onclick="switchMarket('klse')">
+                <span class="market-flag">MY</span>
+                <span>KLSE</span>
+            </button>
+            
+            <button class="market-button" onclick="switchMarket('idx')">
+                <span class="market-flag">ID</span>
+                <span>IDX</span>
             </button>
         </div>
         
@@ -415,13 +418,16 @@
             const stocks = data.stocks;
             
             // Prepare data for treemap
-            const labels = stocks.map(s => `${s.name}<br>${s.change_pct > 0 ? '+' : ''}${s.change_pct}%`);
+            const labels = stocks.map(s => s.name);  // Just name, no % (will show in hover)
             const parents = stocks.map(() => '');  // No sectors, flat structure
             const values = stocks.map(s => s.market_cap || 1000000000);  // Default 1B if missing
             const changes = stocks.map(s => s.change_pct);
             const texts = stocks.map(s => 
                 `${s.change_pct > 0 ? '+' : ''}${s.change_pct}%`
             );
+            
+            // Convert market cap to billions for hover
+            const marketCapBillions = values.map(v => v / 1000000000);
             
             // FINVIZ-STYLE COLORS - Exact match to Finviz palette
             const colors = changes.map(change => {
@@ -450,7 +456,8 @@
                     colors: colors,
                     line: { width: 2, color: 'white' }
                 },
-                hovertemplate: '<b>%{label}</b><br>Change: %{text}<br>Market Cap: $%{value:.1f}B<extra></extra>',
+                customdata: marketCapBillions,  // Pass billions for hover
+                hovertemplate: '<b>%{label}</b><br>Change: %{text}<br>Market Cap: $%{customdata:.1f}B<extra></extra>',
                 hoverlabel: {
                     bgcolor: 'rgba(0, 0, 0, 0.9)',  // Dark background for hover
                     bordercolor: 'white',
@@ -472,9 +479,11 @@
             const container = document.getElementById('heatmap');
             const containerWidth = container.offsetWidth - 40; // Subtract padding
             
-            // Responsive height: More square on mobile, landscape on desktop
+            // Responsive height: Portrait on mobile, landscape on desktop
             const isMobile = window.innerWidth < 768;
-            const height = isMobile ? containerWidth * 1.2 : Math.min(480, containerWidth * 0.6);
+            const height = isMobile 
+                ? containerWidth * 1.6  // Mobile: 1.6x taller (more portrait)
+                : Math.min(480, containerWidth * 0.6);  // Desktop: wider
             
             const layout = {
                 margin: { t: 10, l: 10, r: 10, b: 10 },
