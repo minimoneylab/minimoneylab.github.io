@@ -231,21 +231,45 @@
             }
         }
         
-        function renderMarketCard(market, isFeatured = false) {
-            const probClass = getProbabilityClass(market.probability);
+        function renderMarketCard(event, isFeatured = false) {
+            // Get primary probability from first market
+            let primaryProb = event.markets && event.markets.length > 0 
+                ? event.markets[0].probability 
+                : null;
+            
+            const probClass = primaryProb !== null ? getProbabilityClass(primaryProb) : '';
             const featuredClass = isFeatured ? 'featured' : '';
             
             let daysText = '';
-            if (market.days_to_close !== null) {
-                if (market.days_to_close === 0) {
+            if (event.days_to_close !== null) {
+                if (event.days_to_close === 0) {
                     daysText = 'Closes today';
-                } else if (market.days_to_close === 1) {
+                } else if (event.days_to_close === 1) {
                     daysText = 'Closes tomorrow';
-                } else if (market.days_to_close < 0) {
+                } else if (event.days_to_close < 0) {
                     daysText = 'Closed';
                 } else {
-                    daysText = `Closes in ${market.days_to_close} days`;
+                    daysText = `Closes in ${event.days_to_close} days`;
                 }
+            }
+            
+            // Render sub-markets
+            let marketsHtml = '';
+            if (event.markets && event.markets.length > 1) {
+                marketsHtml = '<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #f0f0f0;">';
+                event.markets.slice(0, 3).forEach(market => {
+                    const mClass = getProbabilityClass(market.probability);
+                    marketsHtml += `
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin: 6px 0; font-size: 0.9rem;">
+                            <span style="color: #666; flex: 1;">${market.question}</span>
+                            <span class="probability ${mClass}" style="font-size: 0.85rem; padding: 2px 8px; margin-left: 12px;">${market.probability}%</span>
+                        </div>
+                    `;
+                });
+                if (event.markets.length > 3) {
+                    marketsHtml += `<div style="font-size: 0.85rem; color: #999; margin-top: 6px;">+ ${event.markets.length - 3} more outcomes</div>`;
+                }
+                marketsHtml += '</div>';
             }
             
             return `
@@ -253,23 +277,22 @@
                     ${isFeatured ? '<div class="featured-badge">Featured</div>' : ''}
                     <div class="market-header">
                         <div class="market-question">
-                            <a href="${market.url}" target="_blank" rel="noopener">
-                                ${market.question}
+                            <a href="${event.url}" target="_blank" rel="noopener">
+                                ${event.title}
                             </a>
                         </div>
-                        <div class="probability ${probClass}">
-                            ${market.probability}%
-                        </div>
+                        ${primaryProb !== null ? `<div class="probability ${probClass}">${primaryProb}%</div>` : ''}
                     </div>
                     <div class="market-meta">
                         <div class="meta-item">
-                            💰 Volume: ${formatVolume(market.volume)}
+                            💰 Volume: ${formatVolume(event.volume)}
                         </div>
                         <div class="meta-item">
-                            💧 Liquidity: ${formatVolume(market.liquidity)}
+                            💧 Liquidity: ${formatVolume(event.liquidity)}
                         </div>
                         ${daysText ? `<div class="meta-item">📅 ${daysText}</div>` : ''}
                     </div>
+                    ${marketsHtml}
                 </div>
             `;
         }
