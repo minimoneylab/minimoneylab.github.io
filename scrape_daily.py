@@ -36,29 +36,96 @@ CONFIG = {
     
     "articles_per_section": 15,  # Maximum relevant articles to scrape per section
     
-    # Taiwan financial keywords - articles must contain at least one
+    # Taiwan financial keywords - HIGH QUALITY FOCUS
     "financial_keywords": [
-        # Major Companies
-        "台積電", "鴻海", "聯發科", "日月光", "廣達", "緯創", "和碩",
-        "聯電", "智邦", "貿聯",
+        # ========== TIER 1: REGULATORS & GOVERNMENT (HIGHEST PRIORITY) ==========
+        "金管會", "FSC", "金融監督管理委員會", "黃天牧", "金管會主委",
+        "銀行局", "證期局", "保險局", "檢查局",
+        "央行", "中央銀行", "楊金龍", "總裁", "理監事會議",
+        "財政部", "國庫署", "賦稅署",
+        "行政院", "主計總處", "國發會", "經濟部",
         
-        # Markets & Economy  
-        "央行", "匯率", "新台幣", "利率", "債券", "股市", "台股",
-        "加權指數", "外資", "GDP", "通膨", "升息", "降息",
+        # ========== TIER 1: LIFE INSURANCE COMPANIES (HIGHEST PRIORITY) ==========
+        # Top 9 Life Insurers by assets
+        "國泰人壽", "富邦人壽", "新光人壽", "南山人壽", "中國人壽",
+        "台灣人壽", "全球人壽", "三商美邦", "國華人壽",
+        "保德信", "安聯人壽", "宏泰人壽", "遠雄人壽", "元大人壽",
+        "壽險業", "人壽保險", "壽險公會", "壽險", "保險業",
         
-        # Sectors
-        "半導體", "AI", "伺服器", "晶片", "科技股", "電子股",
+        # Insurance specific terms
+        "壽險資金", "海外投資", "匯兌損益", "避險成本", "外匯價格變動準備金",
+        "責任準備金", "淨值比", "RBC", "資本適足率", "清償能力",
+        "投資型保單", "利變型", "傳統型", "保費收入", "新契約保費",
+        "保單貸款", "解約率", "死差益", "利差益", "費差益",
         
-        # Finance & Regulators
-        "金融", "銀行", "保險", "證券", "投資",
-        "壽險", "金管會", "銀行局", "證期局", "保險局",
+        # ========== TIER 1: FINANCIAL HOLDINGS & BANKS ==========
+        # Major financial holdings
+        "富邦金", "國泰金", "中信金", "兆豐金", "第一金", "玉山金",
+        "元大金", "台新金", "永豐金", "開發金", "合庫金", "華南金",
         
-        # Corporate
-        "營收", "財報", "EPS", "獲利", "股價"
+        # Major banks
+        "台灣銀行", "土地銀行", "合作金庫", "第一銀行", "華南銀行",
+        "彰化銀行", "兆豐銀行", "台灣企銀", "中國輸出入銀行",
+        "台北富邦", "國泰世華", "中信銀", "玉山銀", "台新銀",
+        
+        # Banking terms
+        "存款", "放款", "逾放比", "備抵呆帳", "利差", "淨利差",
+        "房貸", "企業貸款", "消費金融", "信用卡", "財富管理",
+        
+        # ========== TIER 2: MONETARY POLICY & MACRO ==========
+        "利率", "升息", "降息", "貼放利率", "重貼現率",
+        "存款準備率", "公開市場操作", "選擇性信用管制",
+        "匯率", "新台幣", "TWD", "USD/TWD", "外匯存底",
+        "匯兌", "匯市", "央行干預", "阻升", "阻貶",
+        
+        # Economic indicators
+        "GDP", "經濟成長率", "CPI", "通膨", "通貨膨脹",
+        "PMI", "景氣燈號", "景氣對策信號", "領先指標", "同時指標",
+        "失業率", "就業", "薪資", "經常帳", "貿易順差", "貿易逆差",
+        
+        # ========== TIER 2: MARKETS & INVESTORS ==========
+        "台股", "加權指數", "台指期", "股市", "證券",
+        "外資", "三大法人", "投信", "自營商", "散戶",
+        "融資", "融券", "借券", "當沖", "隔日沖",
+        "ADR", "台積電ADR", "聯電ADR", "日月光ADR",
+        
+        # Bond market
+        "債券", "公債", "公司債", "金融債", "可轉債",
+        "殖利率", "殖利率曲線", "利差", "債市", "天期",
+        "十年期公債", "美債", "美國公債", "公債標售",
+        
+        # ========== TIER 2: KEY LISTED COMPANIES (Selective) ==========
+        # Only mega-cap / systemically important
+        "台積電", "TSMC", "鴻海", "聯發科", "廣達",
+        "台塑", "中鋼", "中華電", "台電", "中油",
+        
+        # ========== TIER 3: GLOBAL MACRO (Affecting Taiwan) ==========
+        "Fed", "聯準會", "FOMC", "Powell", "鮑爾",
+        "升息循環", "降息循環", "QE", "QT", "縮表",
+        "美元指數", "DXY", "日圓", "歐元", "人民幣",
+        
+        "油價", "原油", "WTI", "布蘭特", "OPEC",
+        "黃金", "金價", "避險", "通膨預期",
+        
+        "戰爭", "地緣政治", "衝突", "制裁", "關稅",
+        "中東", "伊朗", "以色列", "俄烏", "台海",
+        "中美", "美中", "貿易戰", "科技戰", "脫鉤",
+        
+        # ========== TIER 3: FINTECH & NEW REGULATIONS ==========
+        "純網銀", "樂天銀行", "將來銀行", "LINE Bank",
+        "開放銀行", "API", "數位金融", "金融科技", "FinTech",
+        "穩定幣", "CBDC", "數位貨幣", "虛擬資產", "加密貨幣",
+        "比特幣", "以太幣", "區塊鏈", "DeFi",
+        
+        # ========== TIER 3: MARKET EVENTS ==========
+        "MSCI", "權重", "調整", "納入", "剔除",
+        "除權", "除息", "配息", "股利", "現金股利",
+        "增資", "減資", "合併", "收購", "下市", "私有化",
+        "董事會", "股東會", "法說會", "重訊", "停牌"
     ],
     
-    # Time filter: only articles from past 30 hours
-    "filter_hours": 30,  # Captures full previous day + early morning articles
+    # Time filter: only articles from past 36 hours
+    "filter_hours": 36,  # Captures full previous day + early morning articles
     
     # Google Sheets settings
     "credentials_file": "credentials.json",
@@ -186,6 +253,51 @@ class GoogleSheetsManager:
         """Check if URL already exists"""
         clean_url = url.split('?')[0]
         return clean_url in self.existing_urls
+    
+    def delete_old_articles(self, hours_to_keep=48):
+        """Delete articles older than specified hours"""
+        try:
+            print(f"Deleting articles older than {hours_to_keep} hours...")
+            
+            all_values = self.sheet.get_all_values()
+            if len(all_values) <= 1:
+                print("No articles to clean")
+                return
+            
+            # Current time in HK timezone
+            now = datetime.now(timezone(timedelta(hours=8)))
+            cutoff = now - timedelta(hours=hours_to_keep)
+            
+            rows_to_delete = []
+            
+            # Check each row (skip header)
+            for idx, row in enumerate(all_values[1:], start=2):  # Start from row 2
+                if len(row) > 3 and row[3]:  # Date column
+                    try:
+                        # Parse date: "2026/03/07 13:41:03"
+                        article_dt = datetime.strptime(row[3], '%Y/%m/%d %H:%M:%S')
+                        article_dt = article_dt.replace(tzinfo=timezone(timedelta(hours=8)))
+                        
+                        if article_dt < cutoff:
+                            rows_to_delete.append(idx)
+                    except:
+                        continue
+            
+            if rows_to_delete:
+                # Delete from bottom to top to avoid row number changes
+                rows_to_delete.reverse()
+                for row_num in rows_to_delete:
+                    self.sheet.delete_rows(row_num)
+                
+                print(f"✓ Deleted {len(rows_to_delete)} old articles")
+            else:
+                print("No old articles to delete")
+            
+            print()
+            
+        except Exception as e:
+            print(f"Warning: Could not delete old articles: {e}")
+            print()
 
     def add_articles(self, articles, source_name):
         """Add new articles to sheet"""
@@ -407,9 +519,14 @@ class NewsAutomation:
                     articles_with_titles = await self.get_article_links(page, section_url)
                     print("Found " + str(len(articles_with_titles)) + " total articles")
                     
-                    # Filter by financial keywords
-                    relevant_articles = self.filter_relevant_articles(articles_with_titles)
-                    print("Filtered to " + str(len(relevant_articles)) + " relevant articles (by title keywords)")
+                    # 金融 section: Scrape ALL (already curated by UDN)
+                    # 產經/證券: Filter by keywords (reduce noise)
+                    if section_name == "金融":
+                        relevant_articles = articles_with_titles
+                        print("Scraping ALL articles from 金融 (pre-curated financial news)")
+                    else:
+                        relevant_articles = self.filter_relevant_articles(articles_with_titles)
+                        print("Filtered to " + str(len(relevant_articles)) + " relevant articles (by title keywords)")
                     
                     if relevant_articles and len(relevant_articles) > 0:
                         print("\nRelevant articles found:")
@@ -541,6 +658,7 @@ async def main():
 
     if sheets.connect():
         sheets.setup_headers()
+        sheets.delete_old_articles(hours_to_keep=48)  # Clean up articles older than 48 hours
         sheets.load_existing_urls()
         sheets.add_articles(automation.articles, CONFIG["site_name"])
         
