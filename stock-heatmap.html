@@ -492,16 +492,34 @@
                 paper_bgcolor: 'rgba(0,0,0,0)',
                 plot_bgcolor: 'rgba(0,0,0,0)',
                 height: height,
-                autosize: true  // Let it auto-size to container
+                autosize: true,  // Let it auto-size to container
+                hovermode: 'closest',  // Show hover for nearest item
+                dragmode: false  // Disable drag to prevent zoom
             };
             
             const config = {
                 responsive: true,
                 displayModeBar: false,  // Hide toolbar on mobile
-                displaylogo: false
+                displaylogo: false,
+                scrollZoom: false,  // Disable scroll zoom
+                doubleClick: false,  // Disable double-click zoom
+                modeBarButtonsToRemove: ['zoom2d', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'resetScale2d']
             };
             
             Plotly.newPlot('heatmap', [trace], layout, config);
+            
+            // Fix mobile touch: make tap show hover instead of zoom
+            const plotElement = document.getElementById('heatmap');
+            plotElement.on('plotly_click', function(data) {
+                // On mobile tap, trigger hover display
+                if (data.points && data.points[0]) {
+                    const point = data.points[0];
+                    Plotly.Fx.hover('heatmap', {
+                        curveNumber: point.curveNumber,
+                        pointNumber: point.pointNumber
+                    });
+                }
+            });
             
             // Re-render on window resize
             window.addEventListener('resize', () => {
