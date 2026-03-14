@@ -36,25 +36,44 @@ CONFIG = {
     
     # Vietnamese financial keywords - articles must contain at least one
     "financial_keywords": [
-        # Banking & Finance
+        # Banking & Finance (expanded)
         "ngân hàng", "lãi suất", "tiền gửi", "tín dụng", "nợ xấu", "npl",
         "bidv", "vietcombank", "techcombank", "acb", "mbbank", "vpbank",
+        "agribank", "sacombank", "vib", "tpbank", "hdbank",
+        "tín phiếu", "cho vay", "huy động", "thanh khoản", "tài sản nợ",
         
-        # FX & Monetary Policy
-        "tỷ giá", "vnd", "usd", "ngoại tệ", "dự trữ ngoại hối",
-        "nhnn", "ngân hàng nhà nước", "chính sách tiền tệ",
+        # FX & Monetary Policy (expanded)
+        "tỷ giá", "vnd", "usd", "ngoại tệ", "dự trữ ngoại hối", "đô la",
+        "nhnn", "ngân hàng nhà nước", "chính sách tiền tệ", "điều hành",
+        "can thiệp", "tỷ giá trung tâm", "biên độ", "phá giá", "tăng giá",
         
-        # Markets & Bonds
+        # Markets & Bonds (expanded)
         "trái phiếu", "lãi suất trái phiếu", "tăng trưởng tín dụng",
-        "vn-index", "chứng khoán", "cổ phiếu ngân hàng",
+        "vn-index", "chứng khoán", "cổ phiếu ngân hàng", "cổ phiếu",
+        "hose", "hnx", "upcom", "phái sinh", "covered warrant", "etf",
+        "thị trường chứng khoán", "chỉ số", "giao dịch", "thanh khoản thị trường",
         
-        # Economic indicators
+        # Economic indicators (expanded)
         "lạm phát", "gdp", "cán cân thương mại", "xuất khẩu", "nhập khẩu",
-        "vốn đầu tư nước ngoài", "fdi", "remittance", "kiều hối"
+        "vốn đầu tư nước ngoài", "fdi", "remittance", "kiều hối",
+        "cpi", "iip", "pmi", "sản xuất công nghiệp", "bán lẻ",
+        "đầu tư công", "ngân sách", "chi tiêu", "thu ngân sách",
+        
+        # Oil & Commodities
+        "dầu thô", "giá dầu", "xăng dầu", "petrolimex", "điện lực",
+        "vàng", "giá vàng", "sjc", "doji", "pnj",
+        
+        # International
+        "fed", "trung quốc", "mỹ", "chiến tranh", "địa chính trị",
+        "trung đông", "iran", "israel", "nga", "ukraine",
+        "thương mại", "thuế quan", "制裁", "制裁經濟",
+        
+        # Crypto
+        "bitcoin", "tiền mã hoá", "tiền điện tử", "crypto"
     ],
     
     # Time filter: only articles from past 30 hours
-    "filter_hours": 30,  # Captures full previous day + early morning articles
+    "filter_hours": 36,  # Captures full previous day + early morning articles
     
     # Google Sheets settings
     "credentials_file": "credentials.json",
