@@ -1,0 +1,166 @@
+{
+  "market_name": "Indonesia Stock Exchange",
+  "stocks": [
+    {
+      "symbol": "BBCA.JK",
+      "name": "Bank Central Asia",
+      "price": 6875.0,
+      "change": -25.0,
+      "change_pct": -0.36,
+      "market_cap": 49956557456.0
+    },
+    {
+      "symbol": "BBRI.JK",
+      "name": "Bank Rakyat",
+      "price": 3510.0,
+      "change": -60.0,
+      "change_pct": -1.68,
+      "market_cap": 31423714667.0
+    },
+    {
+      "symbol": "BMRI.JK",
+      "name": "Bank Mandiri",
+      "price": 4750.0,
+      "change": -210.0,
+      "change_pct": -4.23,
+      "market_cap": 26187804114.0
+    },
+    {
+      "symbol": "TLKM.JK",
+      "name": "Telkom Indonesia",
+      "price": 2970.0,
+      "change": -50.0,
+      "change_pct": -1.66,
+      "market_cap": 17379336596.0
+    },
+    {
+      "symbol": "ASII.JK",
+      "name": "Astra International",
+      "price": 5825.0,
+      "change": -125.0,
+      "change_pct": -2.1,
+      "market_cap": 13836901121.0
+    },
+    {
+      "symbol": "BBNI.JK",
+      "name": "Bank Negara",
+      "price": 4240.0,
+      "change": -40.0,
+      "change_pct": -0.93,
+      "market_cap": 9331255835.0
+    },
+    {
+      "symbol": "UNVR.JK",
+      "name": "Unilever Indonesia",
+      "price": 1870.0,
+      "change": -20.0,
+      "change_pct": -1.06,
+      "market_cap": 4195458059.0
+    },
+    {
+      "symbol": "GOTO.JK",
+      "name": "GoTo",
+      "price": 55.0,
+      "change": -1.0,
+      "change_pct": -1.79,
+      "market_cap": 3438643732.0
+    },
+    {
+      "symbol": "ADRO.JK",
+      "name": "Adaro Energy",
+      "price": 2480.0,
+      "change": -20.0,
+      "change_pct": -0.8,
+      "market_cap": 4219104628.0
+    },
+    {
+      "symbol": "INDF.JK",
+      "name": "Indofood",
+      "price": 5900.0,
+      "change": -150.0,
+      "change_pct": -2.48,
+      "market_cap": 3060104885.0
+    },
+    {
+      "symbol": "ICBP.JK",
+      "name": "Indofood CBP",
+      "price": 7250.0,
+      "change": -325.0,
+      "change_pct": -4.29,
+      "market_cap": 4994319237.0
+    },
+    {
+      "symbol": "PTBA.JK",
+      "name": "Bukit Asam",
+      "price": 2910.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "market_cap": 1979253259.0
+    },
+    {
+      "symbol": "KLBF.JK",
+      "name": "Kalbe Farma",
+      "price": 965.0,
+      "change": -35.0,
+      "change_pct": -3.5,
+      "market_cap": 2587539202.0
+    },
+    {
+      "symbol": "EXCL.JK",
+      "name": "XL Axiata",
+      "price": 2650.0,
+      "change": -170.0,
+      "change_pct": -6.03,
+      "market_cap": 2848936086.0
+    },
+    {
+      "symbol": "INCO.JK",
+      "name": "Vale Indonesia",
+      "price": 5650.0,
+      "change": -375.0,
+      "change_pct": -6.22,
+      "market_cap": 3517619486.0
+    },
+    {
+      "symbol": "ITMG.JK",
+      "name": "Indo Tambangraya",
+      "price": 27725.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "market_cap": 1840614899.0
+    },
+    {
+      "symbol": "SMGR.JK",
+      "name": "Semen Indonesia",
+      "price": 2490.0,
+      "change": -60.0,
+      "change_pct": -2.35,
+      "market_cap": 993049537.0
+    },
+    {
+      "symbol": "PWON.JK",
+      "name": "Pakuwon Jati",
+      "price": 332.0,
+      "change": -8.0,
+      "change_pct": -2.35,
+      "market_cap": 944473258.0
+    },
+    {
+      "symbol": "ANTM.JK",
+      "name": "Aneka Tambang",
+      "price": 3810.0,
+      "change": -80.0,
+      "change_pct": -2.06,
+      "market_cap": 5408306382.0
+    },
+    {
+      "symbol": "UNTR.JK",
+      "name": "United Tractors",
+      "price": 29075.0,
+      "change": -900.0,
+      "change_pct": -3.0,
+      "market_cap": 6237512528.0
+    }
+  ],
+  "update_time": "2026-03-14 14:45:49"
+}
