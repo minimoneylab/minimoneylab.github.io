@@ -145,8 +145,8 @@
             border: 1px solid #E5E5E5;
             padding: 20px;
             min-height: 450px;
-            max-height: 500px;
-            overflow: hidden;
+            overflow-x: auto;  /* Allow horizontal scroll if needed */
+            overflow-y: visible;  /* Don't cut off vertically */
             max-width: 100%;
             width: 100%;
             box-sizing: border-box;
@@ -171,8 +171,7 @@
         /* Mobile responsive */
         @media (max-width: 768px) {
             #heatmap {
-                min-height: 350px;
-                max-height: 400px;
+                min-height: 500px;  /* Taller on mobile */
                 padding: 12px;
             }
             
@@ -477,32 +476,45 @@
             
             // Get actual container width
             const container = document.getElementById('heatmap');
-            const containerWidth = container.offsetWidth - 40; // Subtract padding
+            const containerWidth = container.offsetWidth;
             
-            // Responsive height: Portrait on mobile, landscape on desktop
-            const isMobile = window.innerWidth < 768;
+            // Better mobile detection and responsive sizing
+            const isMobile = window.innerWidth <= 768;
+            
+            // Mobile: Make it scrollable vertically (taller)
+            // Desktop: Keep it wide and short
             const height = isMobile 
-                ? containerWidth * 1.6  // Mobile: 1.6x taller (more portrait)
-                : Math.min(480, containerWidth * 0.6);  // Desktop: wider
+                ? Math.max(600, containerWidth * 1.5)  // Mobile: at least 600px tall
+                : Math.min(500, containerWidth * 0.5);  // Desktop: landscape
             
             const layout = {
                 margin: { t: 10, l: 10, r: 10, b: 10 },
                 paper_bgcolor: 'rgba(0,0,0,0)',
                 plot_bgcolor: 'rgba(0,0,0,0)',
                 height: height,
-                width: containerWidth,  // Use calculated width
-                autosize: false  // Disable autosize, use fixed width
+                autosize: true  // Let it auto-size to container
             };
             
             const config = {
                 responsive: true,
-                displayModeBar: true,
-                modeBarButtonsToRemove: ['pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d'],
-                modeBarButtonsToAdd: [],
+                displayModeBar: false,  // Hide toolbar on mobile
                 displaylogo: false
             };
             
             Plotly.newPlot('heatmap', [trace], layout, config);
+            
+            // Re-render on window resize
+            window.addEventListener('resize', () => {
+                const newWidth = document.getElementById('heatmap').offsetWidth;
+                const newIsMobile = window.innerWidth <= 768;
+                const newHeight = newIsMobile 
+                    ? Math.max(600, newWidth * 1.5)
+                    : Math.min(500, newWidth * 0.5);
+                
+                Plotly.relayout('heatmap', {
+                    height: newHeight
+                });
+            });
         }
         
         // Load TWSE data on page load
