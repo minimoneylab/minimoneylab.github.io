@@ -240,6 +240,68 @@
         .back-link:hover {
             color: #2B2B2B;
         }
+        
+        /* Stock Table Styles */
+        .stock-table-container {
+            background: white;
+            border-radius: 12px;
+            border: 1px solid #E5E5E5;
+            padding: 20px;
+            overflow-x: auto;
+        }
+        
+        .stock-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        
+        .stock-table th {
+            background: #FAFAF5;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #2B2B2B;
+            border-bottom: 2px solid #E5E5E5;
+            white-space: nowrap;
+        }
+        
+        .stock-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #F0F0F0;
+        }
+        
+        .stock-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .stock-table tr:hover {
+            background: #FAFAF5;
+        }
+        
+        .stock-table .positive {
+            color: #10b981;
+        }
+        
+        .stock-table .negative {
+            color: #ef4444;
+        }
+        
+        .stock-table .rank {
+            color: #9B9B9B;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .stock-table {
+                font-size: 0.8rem;
+            }
+            
+            .stock-table th,
+            .stock-table td {
+                padding: 8px 6px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -290,6 +352,11 @@
             <!-- Stats will be populated by JavaScript -->
         </div>
         
+        <!-- Index & Top Stocks Table -->
+        <div id="stocksTable" style="display: none; margin-bottom: 24px;">
+            <!-- Will be populated by JavaScript -->
+        </div>
+        
         <div style="text-align: center; margin-bottom: 12px;">
             <button id="resetZoom" onclick="resetHeatmapZoom()" style="
                 background: white;
@@ -305,8 +372,8 @@
         </div>
         
         <div style="width: 100%; max-width: 100%; overflow: hidden;">
-            <div id="heatmap">
-                <div class="loading">Loading stock data...</div>
+            <div id="heatmap" style="min-height: 450px;">
+                <!-- Heatmap will be rendered here -->
             </div>
         </div>
         
@@ -348,24 +415,24 @@
         
         async function loadHeatmapData(market = 'twse') {
             try {
-                // Clear current view
-                document.getElementById('heatmap').innerHTML = 
-                    '<div class="loading">Loading stock data...</div>';
-                
-                const filename = `data/stocks-heatmap-${market}.json`;
+                // Add timestamp to prevent caching
+                const timestamp = new Date().getTime();
+                const filename = `data/stocks-heatmap-${market}.json?t=${timestamp}`;
                 
                 const response = await fetch(filename);
                 if (!response.ok) throw new Error('Failed to load data');
                 
                 const data = await response.json();
                 currentData = data;  // Store for reset
-                renderHeatmap(data);
                 renderStats(data);
+                renderStockTable(data, market);
+                renderHeatmap(data);
                 
             } catch (error) {
                 console.error('Error loading heatmap:', error);
                 document.getElementById('heatmap').innerHTML = 
                     '<div class="error">📭 Failed to load stock data<br><small>' + error.message + '</small></div>';
+                document.getElementById('stocksTable').style.display = 'none';
             }
         }
         
@@ -411,6 +478,115 @@
                 </div>
                 ` : ''}
             `;
+        }
+        
+        function renderStockTable(data, market) {
+            const stocks = [...data.stocks].sort((a, b) => b.market_cap - a.market_cap);
+            
+            // Market index info
+            const marketNames = {
+                'twse': 'TWSE Index',
+                'kospi': 'KOSPI Index',
+                'nse': 'NIFTY 50',
+                'hose': 'VN-Index',
+                'klse': 'FTSE Bursa Malaysia KLCI',
+                'idx': 'IDX Composite'
+            };
+            
+            const marketName = marketNames[market] || 'Market Index';
+            
+            // Check if we have PE/PB data for this market
+            const hasPE = stocks.some(s => s.pe_ratio !== null && s.pe_ratio !== undefined);
+            const hasPB = stocks.some(s => s.pb_ratio !== null && s.pb_ratio !== undefined);
+            
+            // Debug logging
+            console.log(`${market.toUpperCase()}: hasPE=${hasPE}, hasPB=${hasPB}`);
+            console.log('First stock:', stocks[0]);
+            
+            let html = `
+                <div class="stock-table-container">
+                    <h3 style="margin: 0 0 16px 0; font-size: 1.1rem;">${marketName} - Top 20 Stocks by Market Cap</h3>
+                    <div style="overflow-x: auto;">
+                        <table class="stock-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Company</th>
+                                    <th style="text-align: right;">Price</th>
+                                    <th style="text-align: right;">Change</th>
+                                    <th style="text-align: right;">Market Cap (B)</th>
+            `;
+            
+            // Smart columns: Show PE/PB if available, otherwise Div Yield and 52W High
+            if (hasPE && hasPB) {
+                html += `
+                                    <th style="text-align: right;">PE</th>
+                                    <th style="text-align: right;">PB</th>
+                `;
+            } else {
+                html += `
+                                    <th style="text-align: right;">Div Yield</th>
+                                    <th style="text-align: right;">From 52W High</th>
+                `;
+            }
+            
+            html += `
+                                </tr>
+                            </thead>
+                            <tbody>
+            `;
+            
+            stocks.slice(0, 20).forEach((stock, index) => {
+                const changeClass = stock.change_pct > 0 ? 'positive' : stock.change_pct < 0 ? 'negative' : '';
+                const changeSymbol = stock.change_pct > 0 ? '+' : '';
+                const marketCapB = (stock.market_cap / 1000000000).toFixed(1);
+                
+                html += `
+                    <tr>
+                        <td class="rank">${index + 1}</td>
+                        <td style="font-weight: 500;">${stock.name}</td>
+                        <td style="text-align: right;">${stock.price.toFixed(2)}</td>
+                        <td style="text-align: right;" class="${changeClass}">${changeSymbol}${stock.change_pct.toFixed(2)}%</td>
+                        <td style="text-align: right;">$${marketCapB}</td>
+                `;
+                
+                if (hasPE && hasPB) {
+                    // Show PE and PB
+                    const peDisplay = stock.pe_ratio ? stock.pe_ratio.toFixed(2) : 'N/A';
+                    const pbDisplay = stock.pb_ratio ? stock.pb_ratio.toFixed(2) : 'N/A';
+                    html += `
+                        <td style="text-align: right;">${peDisplay}</td>
+                        <td style="text-align: right;">${pbDisplay}</td>
+                    `;
+                } else {
+                    // Show Div Yield and 52W High
+                    const divYield = stock.dividend_yield ? stock.dividend_yield.toFixed(2) + '%' : 'N/A';
+                    
+                    let fromHighDisplay = 'N/A';
+                    let fromHighClass = '';
+                    if (stock.pct_from_high !== null && stock.pct_from_high !== undefined) {
+                        fromHighDisplay = stock.pct_from_high.toFixed(1) + '%';
+                        fromHighClass = stock.pct_from_high >= 0 ? 'positive' : 'negative';
+                    }
+                    
+                    html += `
+                        <td style="text-align: right;">${divYield}</td>
+                        <td style="text-align: right;" class="${fromHighClass}">${fromHighDisplay}</td>
+                    `;
+                }
+                
+                html += `</tr>`;
+            });
+            
+            html += `
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('stocksTable').innerHTML = html;
+            document.getElementById('stocksTable').style.display = 'block';
         }
         
         function renderHeatmap(data) {
