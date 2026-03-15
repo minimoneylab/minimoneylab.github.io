@@ -197,8 +197,32 @@ class SheetsReader:
             headers = all_rows[0]
             articles = []
             
+            # Get current time for filtering
+            from datetime import datetime, timedelta, timezone
+            hk_tz = timezone(timedelta(hours=8))
+            now = datetime.now(hk_tz)
+            cutoff = now - timedelta(hours=36)  # Match scraper's 36-hour window
+            
+            skipped_old = 0
+            skipped_bad_date = 0
+            
             for row in all_rows[1:]:  # Skip header
                 if len(row) < 7:
+                    continue
+                
+                # Filter by scraped date - only include articles from last 36 hours
+                try:
+                    # Parse scraped_date (format: 2026-03-11 06:30:15)
+                    scraped_date = datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S')
+                    scraped_date = scraped_date.replace(tzinfo=hk_tz)
+                    
+                    # Skip old articles
+                    if scraped_date < cutoff:
+                        skipped_old += 1
+                        continue
+                except:
+                    # If date parsing fails, SKIP the article (don't include it)
+                    skipped_bad_date += 1
                     continue
                     
                 article = {
@@ -220,7 +244,11 @@ class SheetsReader:
             if max_articles > 0:
                 articles = articles[-max_articles:]
             
-            print("Found " + str(len(articles)) + " articles to analyze")
+            print(f"Found {len(articles)} articles to analyze")
+            if skipped_old > 0:
+                print(f"  (Skipped {skipped_old} old articles beyond 36h)")
+            if skipped_bad_date > 0:
+                print(f"  (Skipped {skipped_bad_date} articles with unparseable dates)")
             print()
             return articles
             
@@ -288,15 +316,71 @@ class ClaudeAnalyzer:
         self.client = Anthropic(api_key=api_key)
 
     def analyze(self, articles):
-        """Send articles to Claude for analysis"""
+        """Send articles to Claude for analysis with automatic batching"""
         print("=" * 70)
         print("SENDING TO CLAUDE API FOR ANALYSIS")
         print("=" * 70)
         print()
-        print("Analyzing " + str(len(articles)) + " articles...")
-        print("Please wait...")
-        print()
+        
+        total_articles = len(articles)
+        print(f"Analyzing {total_articles} articles...")
+        
+        # If more than 75 articles, split into batches to avoid rate limits
+        # Rate limit: 30,000 tokens/min ≈ 75 articles per batch
+        BATCH_SIZE = 70
+        
+        if total_articles <= BATCH_SIZE:
+            # Small enough - send all at once
+            print("Please wait...")
+            print()
+            return self._send_single_batch(articles)
+        else:
+            # Split into batches
+            num_batches = (total_articles + BATCH_SIZE - 1) // BATCH_SIZE
+            print(f"Splitting into {num_batches} batches to avoid rate limits...")
+            print()
+            
+            all_summaries = []
+            
+            for i in range(0, total_articles, BATCH_SIZE):
+                batch_num = (i // BATCH_SIZE) + 1
+                batch = articles[i:i + BATCH_SIZE]
+                
+                print(f"Batch {batch_num}/{num_batches}: Analyzing {len(batch)} articles...")
+                
+                summary = self._send_single_batch(batch)
+                if summary is None:
+                    print(f"✗ Batch {batch_num} failed!")
+                    return None
+                
+                all_summaries.append(summary)
+                print(f"✓ Batch {batch_num} complete!")
+                print()
+                
+                # Wait 65 seconds between batches to avoid rate limit
+                if batch_num < num_batches:
+                    import time
+                    print(f"Waiting 65 seconds before next batch...")
+                    time.sleep(65)
+                    print()
+            
+            # Combine all batch summaries
+            print("=" * 70)
+            print("COMBINING BATCH RESULTS")
+            print("=" * 70)
+            print()
+            
+            combined_summary = self._combine_summaries(all_summaries)
+            
+            print("=" * 70)
+            print("ANALYSIS COMPLETE!")
+            print("=" * 70)
+            print()
+            
+            return combined_summary
 
+    def _send_single_batch(self, articles):
+        """Send a single batch to Claude"""
         try:
             prompt = build_prompt(articles)
             
@@ -308,18 +392,18 @@ class ClaudeAnalyzer:
                 ]
             )
             
-            summary = message.content[0].text
-            
-            print("=" * 70)
-            print("ANALYSIS COMPLETE!")
-            print("=" * 70)
-            print()
-            
-            return summary
+            return message.content[0].text
 
         except Exception as e:
             print("Claude API error: " + str(e))
             return None
+
+    def _combine_summaries(self, summaries):
+        """Combine multiple batch summaries into one"""
+        # Simple combination - just concatenate with separators
+        # The JSON parser will merge the high/medium/not_relevant arrays
+        combined = "\n\n".join(summaries)
+        return combined
 
 
 # ============================================================================
