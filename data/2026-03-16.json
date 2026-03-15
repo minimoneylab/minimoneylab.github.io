@@ -1,0 +1,73 @@
+{
+  "date": "2026-03-16",
+  "update_time": "2026-03-15 23:52:29",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "TSMC's 1.2nm Fab Site Environmental Review Expected in April",
+      "section": "產經",
+      "date": "2026/03/15 18:34:10",
+      "url": "https://money.udn.com/money/story/5612/9381497",
+      "summary": "The Shalun Ecological Science Park, reportedly the planned site for TSMC's (2330) 1.2nm process manufacturing, will submit its environmental impact assessment to the Ministry of Environment in April 2026. Originally scheduled for late 2025, the submission was delayed due to concerns over protected raptor species (Grass Owl) habitats in the development area. The Executive Yuan has approved the park development plan, covering 531 hectares with projected output value of NT$2.25 trillion and 35,000 jobs. The Southern Taiwan Science Park Administration has been collecting stakeholder feedback and optimizing the development plan to minimize ecological impact while balancing industrial development needs. This represents a critical milestone for TSMC's next-generation advanced process expansion and Taiwan's semiconductor leadership."
+    },
+    {
+      "title": "Listed Companies' 2025 Earnings Hit Record NT$4.6 Trillion with TSMC Leading",
+      "section": "證券",
+      "date": "2026/03/15 02:34:15",
+      "url": "https://money.udn.com/money/story/5607/9380514?from=edn_subcatelist_cate",
+      "summary": "Taiwan's listed companies are expected to achieve record earnings of NT$4.6 trillion in 2025, surpassing 2021's previous high of NT$4.31 trillion. TSMC (2330) leads with NT$1.71 trillion in net profit, followed by MediaTek (2454) at NT$105.3 billion and CTBC Financial (2891) at NT$80.6 billion. Among 1,427 companies reporting so far, 1,107 are profitable (56%), with combined earnings already reaching NT$3.81 trillion. EPS leaders include Wiwynn (275.06), Largan Precision (159.41), and Weltrend (103.92). The strong performance is driven by AI-related demand, with semiconductor companies dominating the top performers. This reflects Taiwan's strategic position in the global AI supply chain and semiconductor manufacturing ecosystem."
+    },
+    {
+      "title": "Science Parks Revenue Hits NT$5.8 Trillion with TSMC Contributing Record 63%",
+      "section": "金融",
+      "date": "2026/03/16 02:01:22",
+      "url": "https://money.udn.com/money/story/5612/9381786?from=edn_subcatelist_cate",
+      "summary": "Taiwan's three major science parks achieved record revenue of NT$5.8 trillion in 2025, growing 21.83%, with TSMC (2330) contributing an unprecedented 63% share. This represents a significant increase from 42% in 2020 and 58% in 2024. Integrated circuit production accounts for 83% of total park revenue at over NT$4.8 trillion, growing 26.8%. TSMC's contribution varies by park: 34% to Hsinchu (considered \"relatively healthy and diversified\"), 58% to Central Taiwan, and 81% to Southern Taiwan Science Park. As TSMC continues expanding advanced processes in Central and Southern parks, its revenue contribution is expected to increase further. This concentration highlights Taiwan's semiconductor dominance but also raises concerns about diversification, prompting plans to develop biotechnology, robotics, aerospace, and energy technologies."
+    },
+    {
+      "title": "Semiconductor Price Increases: UMC, World Advanced Lead Fourth Wave",
+      "section": "金融",
+      "date": "2026/03/16 02:59:10",
+      "url": "https://money.udn.com/money/story/5612/9381834?from=edn_maintab_cate",
+      "summary": "Major mature-process foundries including UMC (2303), World Advanced Technology (5347), Powerchip (6770), and China's Hefei Xinsheng are raising prices up to 10% or more starting April 2026. This follows previous price increases in memory and packaging, indicating broader \"chip inflation.\" World Advanced cited rising costs for equipment, raw materials, energy, precious metals, labor, and transportation as reasons for seeking customer support. Power Chip confirmed price adjustments for lower-margin product lines starting this quarter. The move affects mature processes widely used in consumer electronics, automotive, and industrial applications. IC design companies, particularly display driver manufacturers, are planning corresponding price increases to maintain margins, potentially impacting the broader electronics supply chain."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Hon Hai Chairman Leads GTC Participation with Three Technical Sessions",
+      "section": "金融",
+      "date": "2026/03/16 02:33:29",
+      "url": "https://money.udn.com/money/story/5612/9381856?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317) Chairman Liu Yang-wei will personally lead the company's participation at NVIDIA's GTC conference, highlighting the strong partnership between the two companies. Hon Hai will present three technical sessions covering Physical AI, AI factories, and quantum computing - the most among Taiwanese companies. This demonstrates NVIDIA's high regard for Hon Hai as its largest manufacturing partner and their deep collaboration in next-generation AI infrastructure development."
+    },
+    {
+      "title": "Compal to Participate in GTC with Rack-Level AI Solutions",
+      "section": "證券",
+      "date": "2026/03/15 00:32:14",
+      "url": "https://money.udn.com/money/story/5710/9380334?from=edn_subcatelist_cate",
+      "summary": "Compal (2324) will participate in NVIDIA's GTC conference led by CEO Anthony Peter Bonadero, showcasing rack-level AI infrastructure solutions. The company will demonstrate three-rack architecture integrating compute, power, and liquid cooling systems. Despite weaker February revenue, foreign investors maintain over 35% shareholding, with Swiss Bank and Nomura Securities showing strong buying interest. The company aims to return to trillion-dollar revenue scale this year through AI server ODM expansion."
+    },
+    {
+      "title": "Taiwan Tiger Airways Launches Subscription Model Targeting Aviation Netflix Status",
+      "section": "金融",
+      "date": "2026/03/16 02:05:04",
+      "url": "https://money.udn.com/money/story/10871/9381785?from=edn_maintab_cate",
+      "summary": "Taiwan Tiger Airways (6757) Chairman Huang Shih-hui announced plans to launch subscription-based flight tickets by end-March 2026, aiming to become the \"Netflix of aviation.\" The company will focus on the Japanese market and offer differentiated membership plans including monthly, bi-monthly, and quarterly flight options. Additional services include AI-powered travel planning and long-haul airline partnerships, targeting 18% market share in Japan routes."
+    },
+    {
+      "title": "Tesla Optimus 3 Production Accelerated to Summer 2026",
+      "section": "金融",
+      "date": "2026/03/16 02:30:16",
+      "url": "https://money.udn.com/money/story/5612/9381859?from=edn_maintab_cate",
+      "summary": "Tesla CEO Elon Musk announced that humanoid robot Optimus 3 production will begin this summer, ahead of the original year-end timeline. The company plans to release a new robot model annually, targeting 10 million units annual capacity. Key suppliers including Asia Optical (3019) and Merry Electronics (2464) are expected to benefit significantly from accelerated production schedules and annual model updates."
+    },
+    {
+      "title": "National Team Spent NT$80 Billion Defending Taiwan Stocks Last Week",
+      "section": "證券",
+      "date": "2026/03/16 02:23:33",
+      "url": "https://money.udn.com/money/story/5607/9381868?from=edn_subcatelist_cate",
+      "summary": "Government-backed funds spent nearly NT$80 billion supporting Taiwan stocks amid Middle East tensions last week. Eight major state-owned banks bought NT$49.2 billion while investment trusts purchased NT$29.8 billion. TSMC (2330) received the largest support with NT$23.4 billion from state banks and NT$5.9 billion from investment trusts, signaling strong government commitment to market stability."
+    }
+  ],
+  "not_relevant": []
+}
