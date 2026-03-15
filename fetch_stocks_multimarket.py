@@ -274,9 +274,39 @@ def fetch_market_data(market_id):
                 else:
                     # Default 1B if missing
                     market_cap_usd = 1000000000
+                
+                # Get PE ratio (try trailing first, then forward for Korea/etc)
+                pe_ratio = info.get('trailingPE')
+                if not pe_ratio:
+                    pe_ratio = info.get('forwardPE')  # Fallback for Korean stocks
+                
+                # Get PB ratio  
+                pb_ratio = info.get('priceToBook')
+                
+                # Get dividend yield (Yahoo returns as decimal, e.g., 0.0129 = 1.29%)
+                dividend_yield = info.get('dividendYield', None)
+                if dividend_yield and dividend_yield < 1:  # If < 1, it's decimal format
+                    dividend_yield = dividend_yield * 100  # Convert to percentage
+                
+                # Get 52-week high
+                week_52_high = info.get('fiftyTwoWeekHigh', None)
+                pct_from_high = None
+                if week_52_high and week_52_high > 0:
+                    pct_from_high = ((current_price - week_52_high) / week_52_high) * 100
                     
-            except:
-                market_cap_usd = 1000000000  # Default 1B
+            except Exception as e:
+                market_cap_usd = 1000000000
+                pe_ratio = None
+                pb_ratio = None
+                dividend_yield = None
+                pct_from_high = None
+            
+            # Debug output for first stock of each market
+            if len(stocks_data) == 1:
+                print(f"  [DEBUG FETCHED] PE={pe_ratio}, PB={pb_ratio}, Div={dividend_yield}")
+                pe_saved = round(pe_ratio, 2) if (pe_ratio and 0 < pe_ratio < 1000) else None
+                pb_saved = round(pb_ratio, 2) if (pb_ratio and 0 < pb_ratio < 100) else None
+                print(f"  [DEBUG SAVED] PE={pe_saved}, PB={pb_saved}")
             
             stocks_data.append({
                 'symbol': stock['symbol'],
@@ -284,7 +314,11 @@ def fetch_market_data(market_id):
                 'price': round(current_price, 2),
                 'change': round(change, 2),
                 'change_pct': round(change_pct, 2),
-                'market_cap': round(market_cap_usd, 0)  # Converted to USD
+                'market_cap': round(market_cap_usd, 0),  # Converted to USD
+                'pe_ratio': round(pe_ratio, 2) if (pe_ratio and 0 < pe_ratio < 1000) else None,
+                'pb_ratio': round(pb_ratio, 2) if (pb_ratio and 0 < pb_ratio < 100) else None,
+                'dividend_yield': round(dividend_yield, 2) if (dividend_yield and dividend_yield > 0) else None,
+                'pct_from_high': round(pct_from_high, 2) if pct_from_high else None
             })
             
             print(f"  ✓ {stock['name']}: {change_pct:+.2f}%")
