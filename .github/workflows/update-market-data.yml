@@ -1,0 +1,44 @@
+name: Update Market Data
+
+on:
+  schedule:
+    # Run at 6:30 AM Hong Kong Time (10:30 PM UTC previous day)
+    - cron: '30 22 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install yfinance requests beautifulsoup4 lxml
+    
+    - name: Fetch stock heatmap data (6 markets)
+      run: |
+        python fetch_stocks_multimarket.py
+    
+    - name: Fetch overnight indicators
+      run: |
+        python fetch_overnight_indicators.py
+    
+    - name: Fetch Polymarket trends
+      run: |
+        python fetch_polymarket_trends.py
+    
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/*.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update market data - $(date +'%Y-%m-%d %H:%M:%S')" && git push)
