@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-19",
+  "update_time": "2026-03-18 23:51:21",
+  "total_articles": 35,
+  "high": [
+    {
+      "title": "Fed Decision: Powell Emphasizes No Rate Cut Without Inflation Progress, Will Remain Until Investigation Ends",
+      "section": "金融",
+      "date": "2026/03/19 06:37:40",
+      "url": "https://money.udn.com/money/story/5599/9389262",
+      "summary": "The Federal Reserve maintained rates unchanged despite Iranian war pushing energy prices higher, keeping space for one rate cut this year. However, Fed Chair Powell emphasized officials must see inflation cooling progress before resuming cuts, particularly goods inflation driven by tariffs. Powell stated \"If we don't see progress, we won't cut rates.\" Economic projections show inflation outlook raised from 2.4% to 2.7% for this year, with core inflation also at 2.7%. Powell described current policy stance as close to \"neutral rate\" levels. He also confirmed he intends to remain as Fed Governor until the DOJ investigation into a construction project \"fully concludes\" and will serve as acting chair if his successor isn't confirmed by May. This hawkish stance significantly impacts Taiwan's monetary policy expectations and foreign investment flows into Taiwan markets."
+    },
+    {
+      "title": "US Stocks Close: Inflation Pressure Dashes Rate Cut Hopes, Dow Plunges 768 Points Below Annual Line",
+      "section": "金融",
+      "date": "2026/03/19 07:05:34",
+      "url": "https://money.udn.com/money/story/123398/9389272",
+      "summary": "US stocks fell sharply Wednesday with Dow dropping 768 points, falling below 200-day moving average for first time since last summer. Fed Chair Powell indicated Middle East war-driven energy price spikes have become new inflation variable, putting policymakers in \"difficult position.\" February PPI jumped 3.4% annually, well above 2.9% expectations and hitting one-year high. Rate futures now show 48% probability of no rate cuts in 2026, up from just 4% before Middle East conflict. TSM ADR fell 1.9%, NVIDIA down 0.8% despite Beijing approving certain AI chip sales. This broad US market weakness and tech selloff creates headwinds for Taiwan's export-dependent economy and TSMC's outlook."
+    },
+    {
+      "title": "Samsung May Strike Could Intensify NAND Chip Rally, Benefits Taiwan DRAM Companies",
+      "section": "金融",
+      "date": "2026/03/19 00:00:04",
+      "url": "https://money.udn.com/money/story/5612/9388895?from=edn_maintab_cate",
+      "summary": "Samsung unions voted overwhelmingly to approve an 18-day strike in May if labor disputes over performance bonuses aren't resolved, escalating production disruption risks amid global memory shortage. Samsung holds 36.6% global DRAM market share and nearly 40% of NAND chips in Q4 2025. The potential strike could intensify memory chip price rallies benefiting Taiwan companies including Powerchip Semiconductor, Nanya Technology, Winbond, Phison, and ADATA. Industry analysts note that with AI driving HBM demand and SK Hynix/Micron focusing capacity on HBM rather than standard DRAM/NAND, Samsung's production disruption could create even more severe supply gaps. The strike threat is being interpreted by markets as \"reduced supply equals greater shortages\" - a major bullish factor for memory prices. This represents significant upside for Taiwan's memory-related companies."
+    }
+  ],
+  "medium": [
+    {
+      "title": "GTC Rally Drives Foreign Buying Return, Taiwan Stocks Recover Three Key Levels Led by Dual Kings",
+      "section": "證券",
+      "date": "2026/03/18 01:48:14",
+      "url": "https://money.udn.com/money/story/5607/9386508?from=edn_maintab_cate",
+      "summary": "Taiwan stocks surged 494 points to close at 33,836 on NVIDIA GTC conference momentum and foreign buying of NT$470 million. TSMC performed ex-dividend filling, closing up 30 yuan at 1,870 yuan, while stock king Sincere Navigation hit new high at 11,320 yuan."
+    },
+    {
+      "title": "TSMC Leads Charge, High-Price Stock Comparison Rally - Experts Warn of Short-term Overextension",
+      "section": "證券",
+      "date": "2026/03/19 01:15:45",
+      "url": "https://money.udn.com/money/story/5607/9388948?from=edn_maintab_cate",
+      "summary": "Taiwan stocks rallied 512 points to 34,348 led by AI stocks and memory-related sectors. TSMC recovered monthly line while stock kings Sincere Navigation and Eris Technology led gains. Foreign investors bought NT$9.02 billion focusing on memory stocks ahead of Micron earnings."
+    },
+    {
+      "title": "MediaTek Attacks MicroLED Optical Cables, Partners with Microsoft Research on Next-Gen Active Products",
+      "section": "證券",
+      "date": "2026/03/19 00:32:51",
+      "url": "https://money.udn.com/money/story/5710/9388595?from=edn_maintab_cate",
+      "summary": "MediaTek announced successful development of next-generation Active Optical Cables (AOC) using miniaturized MicroLED light sources with Microsoft Research. The technology combines copper cable-level reliability with significantly extended transmission distances, addressing data center networking limitations."
+    },
+    {
+      "title": "Delta Electronics Bites AI Power Revolution, Market Darling 800V High Voltage DC System Enters Mass Production Q3",
+      "section": "金融",
+      "date": "2026/03/19 00:40:18",
+      "url": "https://money.udn.com/money/story/5612/9388974?from=edn_maintab_cate",
+      "summary": "Delta Electronics' 800V high voltage DC system will enter mass production in Q3, one quarter ahead of schedule, as NVIDIA's next-gen AI servers demand higher power. The company's Solid State Transformer (SST) has been sampled to four major global cloud service providers, positioning for data center power infrastructure transformation."
+    }
+  ],
+  "not_relevant": []
+}
