@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-20",
+  "update_time": "2026-03-19 23:53:44",
+  "total_articles": 32,
+  "high": [
+    {
+      "title": "Fed Emphasizes No Rate Cuts Without Inflation Progress; Powell Confirms He'll Stay Until Investigation Concludes",
+      "section": "金融",
+      "date": "2026/03/19 06:37:40",
+      "url": "https://money.udn.com/money/story/5599/9389262",
+      "summary": "The Federal Reserve maintained rates unchanged while preserving room for one rate cut this year despite Iran war pushing up energy prices and hampering multi-year inflation fight efforts. However, Fed Chair Powell emphasized that to resume rate cuts, officials must see progress in cooling inflation, especially goods inflation driven by tariffs. Powell stated: \"If we don't see progress, we won't cut rates.\" Officials revised 2026 inflation outlook from 2.4% to 2.7%, with core inflation also rising to 2.7%. Powell described current policy stance as quite close to \"neutral rate\" level that neither stimulates nor slows economic growth. The decision sparked market selloff with 10-year Treasury yields rising 5.5bp to 4.256% and S&P 500 falling 1.4%. This hawkish stance significantly impacts Taiwan's monetary policy expectations and foreign capital flows, as investors reassess global rate trajectories."
+    },
+    {
+      "title": "Central Bank Eases Real Estate Controls: Second Home Loan Ratio Raised from 50% to 60%",
+      "section": "產經",
+      "date": "2026/03/19 16:50:08",
+      "url": "https://money.udn.com/money/story/7307/9390779",
+      "summary": "Taiwan's Central Bank announced adjustment to real estate credit controls, raising the loan-to-value ratio for natural persons' second homes from 50% to 60%. The CBC noted that selective credit controls implemented since September 2024 have shown effectiveness, with banks' real estate lending concentration ratio declining from peak 37.6% in June 2024 to 36.0% in February 2026. Real estate loan growth has also moderated significantly from 9.4% in September 2024 to 3.7% in February 2026. The adjustment responds to public appeals regarding legitimate housing needs for family members or self-occupation. This policy change signals the CBC's confidence in cooling speculative activities while supporting genuine housing demand, potentially benefiting Taiwan's financial sector and providing modest stimulus to the property market."
+    },
+    {
+      "title": "Foreign Investors Withdraw Record NT$90.94 Billion; National Team Steps In",
+      "section": "證券",
+      "date": "2026/03/20 01:31:13",
+      "url": "https://money.udn.com/money/story/5607/9391556?from=edn_maintab_cate",
+      "summary": "Taiwan stocks faced massive foreign selling pressure of NT$90.94 billion amid escalating US-Iran conflict and hawkish Fed stance, marking the 8th largest single-day foreign outflow in history. The TAIEX plunged 658 points to close at 33,689, with trading volume shrinking to NT$893.9 billion. However, the \"national team\" comprising eight major state-owned banks provided crucial support by purchasing NT$16.68 billion, primarily in TSMC and Hon Hai. Life insurers also bought NT$13.2 billion in TSMC, while proprietary trading desks added NT$1.48 billion. Despite the heavy selling, the controlled volume and institutional support prevented panic, suggesting resilience in Taiwan's market structure. This demonstrates the effectiveness of domestic institutional buffers during external shocks, crucial for market stability."
+    }
+  ],
+  "medium": [
+    {
+      "title": "US Stocks Close Lower as Fed Rate Cut Expectations Nearly Disappear; Dow Drops 768 Points Below 200-Day Average",
+      "section": "金融",
+      "date": "2026/03/19 07:05:34",
+      "url": "https://money.udn.com/money/story/123398/9389272",
+      "summary": "US markets tumbled with Dow falling 768 points, breaking below 200-day moving average for first time since last summer. Middle East conflict pushing energy prices higher creates new inflation variables, putting policymakers in \"difficult position.\" Taiwan Semiconductor ADR dropped 1.9%, reflecting broader tech weakness. Rate futures now show 48% probability of no cuts in 2026, up from 4% before Middle East conflict."
+    },
+    {
+      "title": "TSMC Leads Rally in High-Priced Stocks; Experts Warn of Short-Term Volatility After Rally",
+      "section": "證券",
+      "date": "2026/03/19 01:15:45",
+      "url": "https://money.udn.com/money/story/5607/9388948?from=edn_maintab_cate",
+      "summary": "TAIEX surged 512 points to 34,348 led by AI stocks and pricing-up sectors including memory, PCB, and passive components. TSMC recovered monthly line while stock king Simplo and stock queen Ennostar both rallied strongly. Foreign investors bought NT$9.02 billion for second consecutive day, mainly targeting memory stocks ahead of Micron earnings."
+    },
+    {
+      "title": "Micron Optimistic on Memory Market, Announces Major Expansion; Taiwan Memory Stocks Benefit",
+      "section": "金融",
+      "date": "2026/03/20 00:26:14",
+      "url": "https://money.udn.com/money/story/5612/9391458?from=edn_maintab_cate",
+      "summary": "Micron reported exceptional Q1 results with revenue of $23.9 billion (+75% QoQ) and guided current quarter to $33.5 billion with ~81% gross margin. Company announced capex over $25 billion this year and \"significantly higher\" next year. CEO emphasized continued supply-demand imbalance in both DRAM and NAND, benefiting Taiwan memory-related companies including Nanya Tech, Winbond, ADATA, and Phison."
+    },
+    {
+      "title": "TrendForce: TSMC Advanced Process Pricing Increase, Orders Visibility Extended to 2027",
+      "section": "金融",
+      "date": "2026/03/20 00:41:28",
+      "url": "https://money.udn.com/money/story/5612/9391499?from=edn_maintab_cate",
+      "summary": "Research firm TrendForce reports TSMC and Samsung foundry confirmed price increases for 5nm and below processes. TSMC raised 2026 pricing for 5nm/4nm and below across the board, with order visibility extending to 2027 and potential for continued increases. TSMC's advanced processes (7nm and below) represented 77% of Q4 wafer revenue."
+    },
+    {
+      "title": "MediaTek Partners with Microsoft Research on Next-Gen MicroLED Active Optical Cables",
+      "section": "證券",
+      "date": "2026/03/19 00:32:51",
+      "url": "https://money.udn.com/money/story/5710/9388595?from=edn_maintab_cate",
+      "summary": "MediaTek announced successful development of next-generation active optical cables using miniaturized MicroLED light sources in collaboration with Microsoft Research. The technology addresses data center limitations by combining copper-level reliability with extended transmission distances and lower power consumption than traditional laser-based solutions."
+    }
+  ],
+  "not_relevant": []
+}
