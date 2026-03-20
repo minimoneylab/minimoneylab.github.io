@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-21",
+  "update_time": "2026-03-20 23:51:57",
+  "total_articles": 27,
+  "high": [
+    {
+      "title": "Foreign Investors Withdraw NT$909.4 Billion as National Team Supports Taiwan Stocks",
+      "section": "證券",
+      "date": "2026/03/20 01:31:13",
+      "url": "https://money.udn.com/money/story/5607/9391556?from=edn_maintab_cate",
+      "summary": "Taiwan stocks faced massive foreign selling pressure of NT$909.4 billion on March 19 amid escalating US-Iran tensions and hawkish Fed policy, marking the 8th largest single-day foreign outflow in history. However, the national team (state-owned banks) provided strong support with NT$166.8 billion in purchases, helping limit the TAIEX decline to 658 points (1.9%) to close at 33,689 points. Trading volume fell to NT$893.9 billion. The three major institutional investors combined sold NT$1,024.2 billion, with foreign investors leading the selloff, proprietary traders selling NT$111.3 billion, and investment trusts selling NT$3.4 billion. Life insurers also supported TSMC with NT$132 billion in purchases. For March, foreign investors have now sold over NT$7,000 billion, exceeding last year's total record and becoming the second-largest selloff in history after 2022."
+    },
+    {
+      "title": "TSMC Advanced Process Price Hikes Confirmed, Orders Visible Through 2027",
+      "section": "金融",
+      "date": "2026/03/20 00:41:28",
+      "url": "https://money.udn.com/money/story/5612/9391499?from=edn_maintab_cate",
+      "summary": "TrendForce reports that TSMC and Samsung have confirmed price increases for 5nm and below advanced processes due to supply-demand imbalances. TSMC is raising prices across all 5nm/4nm and below foundry services for 2026, with order visibility extending to 2027, and further increases not ruled out. This marks TSMC's fourth consecutive year of price hikes since 2023. The company's 5nm/4nm and below capacity is fully loaded through end-2025. Industry sources suggest potential four-year consecutive increases starting 2026, with varying increases by customer purchasing level. Analysts predict 3-10% price increases for 2026 advanced processes. TSMC's 2025 revenue hit a record NT$3.81 trillion, up 31.6% annually, driven mainly by advanced processes. Advanced processes (7nm and below) accounted for 77% of Q4 wafer sales, with 3nm at 28%, 5nm at 35%, and 7nm at 14%."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Major Central Banks Focus on Middle East War Impact as Euro and Yen Surge, Dollar Index Falls Below 100",
+      "section": "產經",
+      "date": "2026/03/20 07:39:22",
+      "url": "https://money.udn.com/money/story/5599/9391896",
+      "summary": "The Euro and Yen surged against the dollar Thursday as European and Japanese central banks maintained rates while closely monitoring oil price spikes and inflation risks from Middle East conflicts. The ECB held rates steady but expressed concern over oil-driven growth and inflation risks. The Euro jumped 1.2% to $1.1585. The Bank of Japan also maintained rates while leaning toward tighter policy, with the Yen surging 1.4% to 157.61 per dollar. The Bank of England held rates unchanged with the Pound rising 1.4% to $1.34360. The Dollar Index fell 0.9% to 99.232, losing the key 100 level."
+    },
+    {
+      "title": "US Stocks Close Lower Amid Middle East War Clouds and Inflation Concerns, Major Indices Break Below 200-Day Moving Averages",
+      "section": "金融",
+      "date": "2026/03/20 06:47:51",
+      "url": "https://money.udn.com/money/story/123398/9391869",
+      "summary": "US markets closed lower Thursday as Middle East energy facility attacks sparked inflation anxiety, causing investors to significantly reduce Fed rate cut expectations for this year. Despite Israel claiming to have weakened Iranian military capabilities and oil prices retreating from highs, market confidence remained low with all three major indices breaking below the key 200-day moving average support. The S&P 500 fell 0.3% to 6,606.49, the Dow dropped 0.4% to 46,021.43, and the Nasdaq declined 0.3% to 22,090.69. The probability of no rate cuts this year surged from 48% to 73% according to CME FedWatch. Philadelphia Semiconductor Index gained 0.9% with AMD up 2.9%, while TSMC ADR fell 0.2% and Nvidia dropped 1%. Micron tumbled 3.8% despite strong AI demand as guidance disappointed investors."
+    },
+    {
+      "title": "Taiwan Stock Multi-Scenario Analysis: Oil Prices Become Key Variable for Market Direction",
+      "section": "證券",
+      "date": "2026/03/21 01:01:05",
+      "url": "https://money.udn.com/money/story/5607/9393671?from=edn_maintab_cate",
+      "summary": "Taiwan stocks showed volatility this week with a \"short-term rebound, medium-term consolidation\" pattern, ending up 143 points for the week at 33,543 despite Thursday's 145-point decline. Fund managers outline three scenarios based on Brent crude prices: if oil stays at $100-110, TAIEX may trade in 33,000-35,000 range; if oil rises above $130, the index could test the previous low of 31,529 to 30,000; worst case scenario with oil above $150 could see a retest of the 28,963 starting point. Foreign investors continued selling with NT$403.1 billion outflow Thursday, bringing March total to over NT$7,000 billion. State-owned banks bought NT$118.22 billion for the second consecutive day of support over NT$100 billion."
+    },
+    {
+      "title": "Amazon Orders One Million Nvidia Chips, Benefiting Foxconn, Quanta and Others",
+      "section": "金融",
+      "date": "2026/03/21 00:35:43",
+      "url": "https://money.udn.com/money/story/5612/9393661?from=edn_maintab_cate",
+      "summary": "Reuters reports Nvidia will sell one million GPU chips, language processing units (LPUs), and networking platforms to Amazon AWS through end-2027, with shipments starting this year and continuing to 2027. The deal includes Nvidia's new Groq chips and Spectrum Ethernet chips, representing sustained order momentum for Taiwan contract manufacturers including Foxconn, Quanta, and Wistron. The LPU chips enhance inference performance by working with GPUs to deliver faster AI computation results. This order signals strong AI server OEM demand entering peak delivery season, with Vera Rubin architecture AI servers expected to begin mass production in Q3 2025."
+    }
+  ],
+  "not_relevant": []
+}
