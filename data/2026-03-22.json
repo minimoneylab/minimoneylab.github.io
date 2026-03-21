@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-22",
+  "update_time": "2026-03-21 23:05:27",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "Amazon Buys Million NVIDIA Chips - Benefits Hon Hai, Quanta and Others",
+      "section": "金融",
+      "date": "2026/03/21 00:35:43",
+      "url": "https://money.udn.com/money/story/5612/9393661?from=edn_maintab_cate",
+      "summary": "NVIDIA confirmed it will sell 1 million GPU chips, language processing units (LPU), and networking platform products to Amazon AWS by the end of 2027. This represents a massive order that benefits Taiwan's ODM supply chain including Hon Hai (2317), Quanta, and Wistron. The agreement includes NVIDIA's new Groq chips for enhanced AI inference performance, combining GPU and LPU chips for significantly improved AI computing efficiency. The Vera Rubin platform integrates multiple chip types including Rubin GPU, Vera CPU, Spectrum networking, NVLink switches, and BlueField data processing chips. This order indicates AI server manufacturing will enter peak delivery season starting Q3 2026, with production extending through 2027. The deal demonstrates continued strong demand from cloud service providers and validates Taiwan ODMs' critical role in AI infrastructure supply chains. For investors, this reinforces positive outlook for Taiwan's AI server manufacturing ecosystem."
+    },
+    {
+      "title": "Taiwan Stock Market Shows Resilience - Three Oil Price Scenarios Analyzed",
+      "section": "證券",
+      "date": "2026/03/21 01:01:05",
+      "url": "https://money.udn.com/money/story/5607/9393671?from=edn_maintab_cate",
+      "summary": "Taiwan stock market closed down 145 points at 33,543 but gained 143 points for the week, showing resilience amid Middle East tensions. Fund managers outline three scenarios based on Brent crude oil prices: if oil stays at $100-110, TAIEX may fluctuate between 33,000-35,000 points; if oil rises above $130, index could fall to 30,000-31,529 range; worst case scenario with oil above $150 could test the 28,963 support level. Foreign investors continued heavy selling with NT$403.1 billion outflow yesterday, bringing March total to NT$720.5 billion - the second-largest monthly outflow on record. However, government funds provided support with NT$118.2 billion buying for two consecutive days. The market faces technical pressure as it failed to hold monthly moving average, though 10-day line provides temporary support. Oil price trajectory has become the key variable determining market direction."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Energy Supply Disruption Raises Recession Concerns - US Stocks Fall",
+      "section": "金融",
+      "date": "2026/03/21 05:12:38",
+      "url": "https://money.udn.com/money/story/123398/9393840",
+      "summary": "US stocks closed lower due to concerns over long-term energy supply disruptions from Middle East conflict raising global recession fears. Dow Jones fell 443.96 points (-0.96%) to 45,577.47, S&P 500 dropped 100.01 points (-1.51%), and NASDAQ declined 443.08 points (-2.01%). Philadelphia Semiconductor Index fell 192.695 points (-2.45%), reflecting broad market weakness amid geopolitical tensions."
+    },
+    {
+      "title": "Memory Investment Strategy Turns Selective - Morgan Stanley Favors Old Flash",
+      "section": "證券",
+      "date": "2026/03/21 00:38:29",
+      "url": "https://money.udn.com/money/story/5607/9393655?from=edn_maintab_cate",
+      "summary": "Morgan Stanley advises turning selective on old-generation memory investments, favoring traditional Flash over DDR4 as pricing power gradually returns. The firm upgraded Macronix (2337) to top pick with target price raised to NT$202, while downgrading Nanya (2408) and Winbond (2344) to neutral. Analysts expect MLC and traditional TLC NAND prices could surge over 200% from Q1 to Q4 2026 due to supply shortages."
+    },
+    {
+      "title": "TSMC Chairman: We Make 95% of Robot Brains, Long-term Care Next Hot Application",
+      "section": "金融",
+      "date": "2026/03/22 02:44:15",
+      "url": "https://money.udn.com/money/story/5612/9394990?from=edn_maintab_cate",
+      "summary": "TSMC Chairman C.C. Wei emphasized that \"95% of robot brains are manufactured by TSMC\" during a university speech. He dismissed Chinese robots as \"just for show\" and highlighted that useful robots require sophisticated sensors and AI chips to provide real services. Wei predicts every elderly household will have robots in the future, with long-term care becoming a major application area for AI-powered robotics."
+    },
+    {
+      "title": "Cloud Providers Push AI Applications - Sustained Compute Demand Benefits ODMs",
+      "section": "金融",
+      "date": "2026/03/22 02:20:20",
+      "url": "https://money.udn.com/money/story/5612/9395001?from=edn_maintab_cate",
+      "summary": "Major cloud service providers accelerate AI application deployment with Google reportedly paying Apple $1 billion annually for AI model integration, OpenAI partnering with four major consulting firms, and Amazon expanding into autonomous vehicles and AI IoT devices. This represents AI's evolution from infrastructure to consumer and enterprise applications, sustaining strong demand for AI computing power and benefiting ODMs like Hon Hai, Quanta, and Wistron."
+    }
+  ],
+  "not_relevant": []
+}
