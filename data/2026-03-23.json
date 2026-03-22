@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-23",
+  "update_time": "2026-03-22 23:07:19",
+  "total_articles": 21,
+  "high": [
+    {
+      "title": "TSMC Chairman: TSMC Manufactures 95% of Robot Brains, Long-term Care Is Next Hot Application",
+      "section": "金融",
+      "date": "2026/03/22 02:44:15",
+      "url": "https://money.udn.com/money/story/5612/9394990?from=edn_maintab_cate",
+      "summary": "TSMC Chairman Mark Liu stated that \"95% of robot brains are made by TSMC,\" emphasizing the company's dominance in AI chip manufacturing for robotics applications. Liu highlighted that truly useful robots require sophisticated sensor systems and AI processing capabilities to serve humans effectively, dismissing competitors' products as \"just for show.\" He pointed to long-term care as a critical future application for AI robots, noting that every aging household will have robots in the future. This positions TSMC at the center of the robotics revolution, with significant implications for investors as the company leverages its advanced semiconductor technology to enable everything AI. The comments underscore TSMC's strategic positioning in the AI ecosystem beyond traditional computing applications, potentially opening new revenue streams in healthcare robotics and eldercare solutions."
+    },
+    {
+      "title": "TSMC's Four US Fabs Fully Booked",
+      "section": "金融",
+      "date": "2026/03/23 02:31:29",
+      "url": "https://money.udn.com/money/story/5612/9396267?from=edn_subcatelist_cate",
+      "summary": "TSMC's US Arizona facilities are experiencing unprecedented demand, with all four planned fabs now fully booked by customers. The company's US expansion is driven by geopolitical considerations and US clients' needs for production diversification, with Apple, Nvidia, AMD, and Qualcomm leading the demand. TSMC plans to invest $165 billion in six fabs, two advanced packaging facilities, and a R&D center in Arizona. Chairman Liu indicated that 30% of 2nm and below advanced process capacity will be produced in Arizona by 2030, with Taiwan-US capacity ratio expected at 7:3. This massive expansion reflects the critical importance of geographic diversification for advanced semiconductor manufacturing and positions TSMC to serve US customers' strategic needs while maintaining technological leadership."
+    },
+    {
+      "title": "AI Giants Willing to Sign Long-term Memory Contracts, Securing Samsung and Micron High-end Products",
+      "section": "金融",
+      "date": "2026/03/23 02:26:01",
+      "url": "https://money.udn.com/money/story/11162/9396273?from=edn_maintab_cate",
+      "summary": "AI giants Google and Microsoft are reportedly willing to sign 3-5 year supply contracts with Samsung and Micron, paying substantial upfront fees to secure memory chip supplies. This unprecedented move reflects the severity of the memory shortage driven by AI demand. The contracts would link pricing to spot markets while providing supply certainty for both sides. Samsung's co-CEO confirmed the company is considering extending current quarterly/annual contracts to 3-5 years. This structural shift benefits Taiwan memory companies like Nanya Technology (2408) and Winbond (2344) as Samsung and Micron focus on high-end AI server memory, leaving consumer electronics memory market to smaller players. The development signals a fundamental change in the memory industry's business model and creates significant opportunities for Taiwan memory suppliers."
+    },
+    {
+      "title": "Foreign Investors Dump Taiwan Stocks, Selling NT$720.5B in March",
+      "section": "證券",
+      "date": "2026/03/23 02:22:20",
+      "url": "https://money.udn.com/money/story/5607/9396282?from=edn_maintab_cate",
+      "summary": "Foreign investors have aggressively sold Taiwan stocks in March, with net sales reaching NT$720.5 billion, primarily targeting AI-related stocks. TSMC alone was sold 199,900 shares worth NT$375.3 billion. The selling pressure stems from Middle East conflicts requiring fund redemptions and military financing needs. Other major sales targets include Hon Hai (NT$51.5B), MediaTek (NT$38.5B), Nanya Technology, and Winbond. This represents the fourth-largest annual foreign selling on record, significantly impacting Taiwan's equity market liquidity and valuations. The concentrated selling of AI stocks suggests a broad risk-off sentiment among international investors, with potential long-term implications for Taiwan's technology sector valuations and foreign ownership structure."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Cloud Vendors Push AI Applications, Sustained Computing Demand Benefits Hon Hai, Quanta",
+      "section": "金融",
+      "date": "2026/03/22 02:20:20",
+      "url": "https://money.udn.com/money/story/5612/9395001?from=edn_maintab_cate",
+      "summary": "Major cloud service providers are aggressively pursuing AI landing applications, with Google partnering with Apple, OpenAI collaborating with consulting giants, and Amazon expanding into autonomous vehicles and IoT. This trend drives continued AI computing demand, benefiting ODM manufacturers Hon Hai (2317), Quanta (2382), and Wistron (3231). The shift from infrastructure investment to application deployment indicates sustainable AI server demand through at least 2028."
+    },
+    {
+      "title": "AI Effect: Server Cabinet Demand Triples, Orders Booked Until Next Year",
+      "section": "金融",
+      "date": "2026/03/23 02:06:59",
+      "url": "https://money.udn.com/money/story/5612/9396227?from=edn_maintab_cate",
+      "summary": "Nvidia's latest Vera Rubin platform will ship in H2 2026, tripling server cabinet demand and triggering an industry-wide \"cabinet shortage.\" The platform requires 2-3 additional cabinets for power and cooling systems, creating explosive order growth for cabinet manufacturers including Chenbro (8210), JPP-KY (5284), and Sheng Hong (3013). Orders are booked through 2027, marking a new supply constraint in AI infrastructure."
+    },
+    {
+      "title": "Pegatron Server Business Bears Fruit, Foreign Investors Buy for Seven Consecutive Days",
+      "section": "證券",
+      "date": "2026/03/22 00:17:16",
+      "url": "https://money.udn.com/money/story/5710/9394800?from=edn_maintab_cate",
+      "summary": "Pegatron (4938) stock surged from NT$70.1 to above NT$80 as its server business gains momentum. The company expects server revenue to grow ten-fold in 2026 due to low base effects and new customer wins. Foreign investors have bought the stock for seven consecutive days, accumulating over 21,000 shares. The company's late entry into servers is now showing strong growth potential."
+    },
+    {
+      "title": "Middle East Tensions Drive Eastern Alkali Themes, Institutional Support",
+      "section": "證券",
+      "date": "2026/03/22 00:09:59",
+      "url": "https://money.udn.com/money/story/5710/9394721?from=edn_subcatelist_cate",
+      "summary": "Middle East conflicts disrupt global fertilizer supply chains, benefiting Eastern Alkali (1708), Taiwan's largest potash fertilizer producer with shipping fleet. The company's dual exposure to fertilizer prices and shipping rates has attracted institutional buying, with the stock gaining 10.8% in five trading days. Foreign investors accumulated 8,673 shares amid supply shortage expectations."
+    }
+  ],
+  "not_relevant": []
+}
