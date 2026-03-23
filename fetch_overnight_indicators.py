@@ -282,7 +282,7 @@ def main():
     }
     
     # Save to JSON
-    output_file = './data/overnight-signals.json'
+    output_file = './data/overnight-indicators.json'
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
     
