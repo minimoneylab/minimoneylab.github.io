@@ -68,9 +68,9 @@
       "change": -1500.0,
       "change_pct": -1.83,
       "market_cap": 7374709096.0,
-      "pe_ratio": 17.31,
+      "pe_ratio": 17.33,
       "pb_ratio": 2.93,
-      "dividend_yield": 2.56,
+      "dividend_yield": 2.61,
       "pct_from_high": -38.78
     },
     {
@@ -94,7 +94,7 @@
       "market_cap": 10249871286.0,
       "pe_ratio": 9.01,
       "pb_ratio": 1.61,
-      "dividend_yield": 1.13,
+      "dividend_yield": 1.17,
       "pct_from_high": -32.07
     },
     {
@@ -106,7 +106,7 @@
       "market_cap": 9583758037.0,
       "pe_ratio": 7.3,
       "pb_ratio": 1.41,
-      "dividend_yield": 93.0,
+      "dividend_yield": 96.0,
       "pct_from_high": -25.29
     },
     {
@@ -118,7 +118,7 @@
       "market_cap": 7645506446.0,
       "pe_ratio": 7.52,
       "pb_ratio": 1.48,
-      "dividend_yield": 1.16,
+      "dividend_yield": 1.2,
       "pct_from_high": -15.25
     },
     {
@@ -152,7 +152,7 @@
       "change": -500.0,
       "change_pct": -0.7,
       "market_cap": 3886663211.0,
-      "pe_ratio": 26.13,
+      "pe_ratio": 26.11,
       "pb_ratio": 2.9,
       "dividend_yield": null,
       "pct_from_high": -24.68
@@ -212,9 +212,9 @@
       "change": -1500.0,
       "change_pct": -2.01,
       "market_cap": 4727832081.0,
-      "pe_ratio": 14.02,
+      "pe_ratio": 14.03,
       "pb_ratio": 3.41,
-      "dividend_yield": 2.68,
+      "dividend_yield": 2.74,
       "pct_from_high": -35.28
     },
     {
@@ -242,5 +242,5 @@
       "pct_from_high": -23.73
     }
   ],
-  "update_time": "2026-03-23 15:22:48"
+  "update_time": "2026-03-23 23:56:26"
 }

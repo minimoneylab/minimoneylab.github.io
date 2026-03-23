@@ -67,11 +67,11 @@
       "price": 4390.0,
       "change": 70.0,
       "change_pct": 1.62,
-      "market_cap": 9634054159.0,
-      "pe_ratio": 8.18,
-      "pb_ratio": 0.95,
-      "dividend_yield": 7.96,
-      "pct_from_high": -7.19
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "UNVR.JK",
@@ -242,5 +242,5 @@
       "pct_from_high": -6.25
     }
   ],
-  "update_time": "2026-03-23 15:23:05"
+  "update_time": "2026-03-23 23:56:40"
 }
