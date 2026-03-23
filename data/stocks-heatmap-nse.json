@@ -4,163 +4,243 @@
     {
       "symbol": "RELIANCE.NS",
       "name": "Reliance",
-      "price": 1380.7,
-      "change": -11.5,
-      "change_pct": -0.83,
-      "market_cap": 202014106081.0
+      "price": 1407.8,
+      "change": -6.6,
+      "change_pct": -0.47,
+      "market_cap": 204942181090.0,
+      "pe_ratio": 22.88,
+      "pb_ratio": 2.17,
+      "dividend_yield": 39.0,
+      "pct_from_high": -12.66
     },
     {
       "symbol": "TCS.NS",
       "name": "TCS",
-      "price": 2410.5,
-      "change": -31.9,
-      "change_pct": -1.31,
-      "market_cap": 94295599626.0
+      "price": 2383.8,
+      "change": -6.8,
+      "change_pct": -0.28,
+      "market_cap": 92781655216.0,
+      "pe_ratio": 18.06,
+      "pb_ratio": 7.6,
+      "dividend_yield": 2.64,
+      "pct_from_high": -35.75
     },
     {
       "symbol": "HDFCBANK.NS",
       "name": "HDFC Bank",
-      "price": 817.0,
-      "change": -15.75,
-      "change_pct": -1.89,
-      "market_cap": 135948329359.0
+      "price": 744.15,
+      "change": -36.3,
+      "change_pct": -4.65,
+      "market_cap": 123215778873.0,
+      "pe_ratio": 16.61,
+      "pb_ratio": 2.03,
+      "dividend_yield": 1.41,
+      "pct_from_high": -27.08
     },
     {
       "symbol": "INFY.NS",
       "name": "Infosys",
-      "price": 1248.3,
-      "change": -17.5,
-      "change_pct": -1.38,
-      "market_cap": 54612711050.0
+      "price": 1256.8,
+      "change": 0.9,
+      "change_pct": 0.07,
+      "market_cap": 54707758984.0,
+      "pe_ratio": 17.49,
+      "pb_ratio": 5.87,
+      "dividend_yield": 3.58,
+      "pct_from_high": -27.27
     },
     {
       "symbol": "ICICIBANK.NS",
       "name": "ICICI Bank",
-      "price": 1254.8,
-      "change": -11.7,
-      "change_pct": -0.92,
-      "market_cap": 97103173552.0
+      "price": 1222.7,
+      "change": -22.7,
+      "change_pct": -1.82,
+      "market_cap": 94158786831.0,
+      "pe_ratio": 16.7,
+      "pb_ratio": 2.51,
+      "dividend_yield": 88.0,
+      "pct_from_high": -18.49
     },
     {
       "symbol": "BHARTIARTL.NS",
       "name": "Bharti Airtel",
-      "price": 1803.4,
-      "change": 2.1,
-      "change_pct": 0.12,
-      "market_cap": 118773495301.0
+      "price": 1795.9,
+      "change": -50.2,
+      "change_pct": -2.72,
+      "market_cap": 117684060515.0,
+      "pe_ratio": 35.51,
+      "pb_ratio": 8.76,
+      "dividend_yield": 87.0,
+      "pct_from_high": -17.41
     },
     {
       "symbol": "SBIN.NS",
       "name": "SBI",
-      "price": 1047.0,
-      "change": -38.2,
-      "change_pct": -3.52,
-      "market_cap": 104491910258.0
+      "price": 1031.9,
+      "change": -26.1,
+      "change_pct": -2.47,
+      "market_cap": 102466431862.0,
+      "pe_ratio": 11.24,
+      "pb_ratio": 1.61,
+      "dividend_yield": 1.5,
+      "pct_from_high": -16.43
     },
     {
       "symbol": "HINDUNILVR.NS",
       "name": "HUL",
-      "price": 2160.0,
-      "change": 23.1,
-      "change_pct": 1.08,
-      "market_cap": 54880036148.0
+      "price": 2052.2,
+      "change": -30.5,
+      "change_pct": -1.46,
+      "market_cap": 51878607137.0,
+      "pe_ratio": 47.6,
+      "pb_ratio": 9.9,
+      "dividend_yield": 2.06,
+      "pct_from_high": -25.37
     },
     {
       "symbol": "ITC.NS",
       "name": "ITC",
-      "price": 301.45,
-      "change": -2.65,
-      "change_pct": -0.87,
-      "market_cap": 40836160648.0
+      "price": 290.45,
+      "change": -9.5,
+      "change_pct": -3.17,
+      "market_cap": 39147948347.0,
+      "pe_ratio": 17.86,
+      "pb_ratio": 5.12,
+      "dividend_yield": 4.78,
+      "pct_from_high": -34.61
     },
     {
       "symbol": "LT.NS",
       "name": "L&T",
-      "price": 3439.0,
-      "change": -280.5,
-      "change_pct": -7.54,
-      "market_cap": 51148538522.0
+      "price": 3342.4,
+      "change": -92.4,
+      "change_pct": -2.69,
+      "market_cap": 49461517524.0,
+      "pe_ratio": 26.16,
+      "pb_ratio": 4.54,
+      "dividend_yield": 99.0,
+      "pct_from_high": -24.72
     },
     {
       "symbol": "AXISBANK.NS",
       "name": "Axis Bank",
-      "price": 1197.3,
-      "change": -37.2,
-      "change_pct": -3.01,
-      "market_cap": 40223658018.0
+      "price": 1170.6,
+      "change": -33.3,
+      "change_pct": -2.77,
+      "market_cap": 39166721261.0,
+      "pe_ratio": 13.89,
+      "pb_ratio": 1.76,
+      "dividend_yield": 8.0,
+      "pct_from_high": -17.46
     },
     {
       "symbol": "BAJFINANCE.NS",
       "name": "Bajaj Finance",
-      "price": 855.05,
-      "change": -8.05,
-      "change_pct": -0.93,
-      "market_cap": 57468768437.0
+      "price": 812.6,
+      "change": -17.95,
+      "change_pct": -2.16,
+      "market_cap": 54340693089.0,
+      "pe_ratio": 28.03,
+      "pb_ratio": 4.89,
+      "dividend_yield": 53.0,
+      "pct_from_high": -26.29
     },
     {
       "symbol": "MARUTI.NS",
       "name": "Maruti",
-      "price": 12591.0,
-      "change": -420.0,
-      "change_pct": -3.23,
-      "market_cap": 42800764026.0
+      "price": 12355.0,
+      "change": -246.0,
+      "change_pct": -1.95,
+      "market_cap": 41787081186.0,
+      "pe_ratio": 26.01,
+      "pb_ratio": 3.89,
+      "dividend_yield": 1.07,
+      "pct_from_high": -28.87
     },
     {
       "symbol": "HCLTECH.NS",
       "name": "HCL Tech",
-      "price": 1325.4,
-      "change": -32.7,
-      "change_pct": -2.41,
-      "market_cap": 38772538318.0
+      "price": 1358.6,
+      "change": 24.9,
+      "change_pct": 1.87,
+      "market_cap": 39543657249.0,
+      "pe_ratio": 22.39,
+      "pb_ratio": 4.83,
+      "dividend_yield": 4.05,
+      "pct_from_high": -23.68
     },
     {
       "symbol": "M&M.NS",
       "name": "M&M",
-      "price": 2931.1,
-      "change": -100.1,
-      "change_pct": -3.3,
-      "market_cap": 38044178183.0
+      "price": 2955.8,
+      "change": -110.3,
+      "change_pct": -3.6,
+      "market_cap": 38171621421.0,
+      "pe_ratio": 21.14,
+      "pb_ratio": 3.98,
+      "dividend_yield": 83.0,
+      "pct_from_high": -23.02
     },
     {
       "symbol": "ASIANPAINT.NS",
       "name": "Asian Paints",
-      "price": 2196.8,
-      "change": -24.4,
-      "change_pct": -1.1,
-      "market_cap": 22768299547.0
+      "price": 2121.3,
+      "change": -74.1,
+      "change_pct": -3.38,
+      "market_cap": 21875105717.0,
+      "pe_ratio": 52.79,
+      "pb_ratio": 10.38,
+      "dividend_yield": 1.14,
+      "pct_from_high": -28.95
     },
     {
       "symbol": "WIPRO.NS",
       "name": "Wipro",
-      "price": 197.58,
-      "change": -4.93,
-      "change_pct": -2.43,
-      "market_cap": 22382624181.0
+      "price": 187.54,
+      "change": -3.36,
+      "change_pct": -1.76,
+      "market_cap": 21136287042.0,
+      "pe_ratio": 14.86,
+      "pb_ratio": 2.19,
+      "dividend_yield": 8.91,
+      "pct_from_high": -31.73
     },
     {
       "symbol": "KOTAKBANK.NS",
       "name": "Kotak Bank",
-      "price": 366.85,
-      "change": -8.45,
-      "change_pct": -2.25,
-      "market_cap": 39447551339.0
+      "price": 356.55,
+      "change": -10.2,
+      "change_pct": -2.78,
+      "market_cap": 38146960291.0,
+      "pe_ratio": 18.88,
+      "pb_ratio": 2.11,
+      "dividend_yield": 14.0,
+      "pct_from_high": -22.55
     },
     {
       "symbol": "SUNPHARMA.NS",
       "name": "Sun Pharma",
-      "price": 1801.6,
-      "change": -23.7,
-      "change_pct": -1.3,
-      "market_cap": 46736316769.0
+      "price": 1758.4,
+      "change": -18.7,
+      "change_pct": -1.05,
+      "market_cap": 45385987397.0,
+      "pe_ratio": 38.65,
+      "pb_ratio": 5.42,
+      "dividend_yield": 93.0,
+      "pct_from_high": -5.01
     },
     {
       "symbol": "TITAN.NS",
       "name": "Titan",
-      "price": 4073.2,
-      "change": -56.4,
-      "change_pct": -1.37,
-      "market_cap": 39064901584.0
+      "price": 3853.1,
+      "change": -253.5,
+      "change_pct": -6.17,
+      "market_cap": 36767939258.0,
+      "pe_ratio": 71.62,
+      "pb_ratio": 26.69,
+      "dividend_yield": 27.0,
+      "pct_from_high": -12.0
     }
   ],
-  "update_time": "2026-03-14 14:44:29"
+  "update_time": "2026-03-23 15:22:41"
 }
