@@ -1,0 +1,80 @@
+{
+  "date": "2026-03-25",
+  "update_time": "2026-03-24 23:57:54",
+  "total_articles": 54,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Suffers Major Selloff by Foreign Investors - NT$83.92 Billion Outflow as Middle East War Fears Drive Panic",
+      "section": "證券",
+      "date": "2026/03/24 01:23:04",
+      "url": "https://money.udn.com/money/story/5607/9398459?from=edn_maintab_cate",
+      "summary": "Asian markets experienced a roller coaster session on March 23rd, initially hammered by \"Black Monday\" panic selling after President Trump's ultimatum to attack Iran's power plants, before surging on evening news of delayed strikes. Taiwan stocks faced massive foreign outflows of NT$83.92 billion, with early trading down 1,082 points before domestic institutional support helped pare losses to 821 points. The market's volatility reflects heightened geopolitical tensions affecting energy-dependent Asian economies. Taiwan's relatively diversified energy sources helped limit damage compared to Japan (-3.48%) and South Korea (-6.49%). This massive foreign selling pressure signals potential continued volatility as investors flee risky assets amid Middle East conflict escalation. The evening recovery on Trump's negotiation comments shows how quickly sentiment can shift on geopolitical developments."
+    },
+    {
+      "title": "Foreign Investors Sell NT$12.19 Billion, Memory Stocks Lead Both Buying and Selling",
+      "section": "證券",
+      "date": "2026/03/24 18:00:15",
+      "url": "https://money.udn.com/money/story/5607/9400317?from=edn_maintab_cate",
+      "summary": "Foreign investors sold a net NT$12.19 billion on March 24th, with memory stocks dominating both ends of the trading spectrum. Powertech Technology (6770) topped the sell list with 80,806 thousand shares sold, while Nanya Technology (2408) led purchases with 13,066 thousand shares bought. This divergent approach within the memory sector reflects differing views on individual company prospects despite sector-wide pressure from geopolitical concerns and supply chain disruptions."
+    },
+    {
+      "title": "TSM Founder Morris Chang in Good Health, NVIDIA's Jensen Huang's Day Trip to Taiwan Revealed",
+      "section": "金融",
+      "date": "2026/03/24 17:16:41",
+      "url": "https://money.udn.com/money/story/5612/9400219?from=edn_maintab_cate",
+      "summary": "TSMC founder Morris Chang's wife Sophie Chang revealed that the semiconductor pioneer's health has improved recently, with better mobility and mood. Notably, she disclosed that NVIDIA CEO Jensen Huang made a dedicated day trip between Taiwan and the US specifically to visit Chang, demonstrating the close relationship between these semiconductor industry leaders. Chang had missed TSMC's sports event last year due to foot discomfort. Sophie Chang also mentioned Huang's regular visits to their home and his preference for her mapo tofu. With Huang scheduled to attend Computex in June, this reveals the ongoing strong personal and business relationships at the heart of the AI semiconductor ecosystem."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC, Hon Hai, and Supply Chain to Benefit from Apple's Full AI Product Lineup",
+      "section": "金融",
+      "date": "2026/03/24 01:12:39",
+      "url": "https://money.udn.com/money/story/11162/9398349?from=edn_maintab_cate",
+      "summary": "Apple is preparing the next-generation entry-level iPad 12 with A18 chip, completing its AI-enabled product portfolio. The upgrade from A16 to A18 will enable Apple Intelligence support across all devices. TSMC, Hon Hai, and Pegatron are expected to benefit from this comprehensive AI integration across Apple's ecosystem."
+    },
+    {
+      "title": "Tesla Recruits Taiwan Semiconductor Talent, Targeting TSMC Engineers for 2nm Fab",
+      "section": "金融",
+      "date": "2026/03/24 01:30:44",
+      "url": "https://money.udn.com/money/story/5612/9398456?from=edn_maintab_cate",
+      "summary": "Tesla's \"TeraFab\" project seeks experienced process integration engineers in Taiwan, specifically targeting TSMC's core talent for its planned US$20-25 billion 2nm fab. The requirements focus on 10+ years advanced process experience, potentially intensifying Taiwan's semiconductor talent competition as Tesla aims to compete directly with TSMC, Samsung, and Intel."
+    },
+    {
+      "title": "Jensen Huang Claims AGI Already Achieved, Praises TSMC's Three Success Factors",
+      "section": "金融",
+      "date": "2026/03/24 20:53:48",
+      "url": "https://money.udn.com/money/story/5599/9400688",
+      "summary": "NVIDIA CEO Jensen Huang stated that Artificial General Intelligence (AGI) has already been achieved, while highlighting three factors behind TSMC's global dominance: superior technology encompassing transistors to packaging, service-oriented corporate culture, and the trust factor that puts customer companies first. Huang also revealed he declined TSMC's CEO offer from Morris Chang in 2013."
+    },
+    {
+      "title": "Powerchip Advances Five-Year Growth Plan with AI and Automotive Dual Engines",
+      "section": "證券",
+      "date": "2026/03/24 00:17:37",
+      "url": "https://money.udn.com/money/story/5710/9398096?from=edn_subcatelist_cate",
+      "summary": "Powerchip announces \"55 Plan\" targeting US$500 million MOSFET revenue by 2030, up from current US$150 million. The company benefits from AI server power architecture upgrades from 12V to 48V, driving MOSFET specifications from 30V to 100V with higher pricing. Current order-to-bill ratio maintains 1.2-1.4x with visibility through H2 2026."
+    },
+    {
+      "title": "Formosa Plastics Group Declares Force Majeure, Production Cuts Due to Middle East War",
+      "section": "金融",
+      "date": "2026/03/25 01:37:54",
+      "url": "https://money.udn.com/money/story/5612/9400874?from=edn_maintab_cate",
+      "summary": "Taiwan's Formosa Plastics Group companies sequentially declare force majeure as Middle East war disrupts raw material supply. Formosa Chemicals expects nearly 50% reduction in aromatic products, with potential supply disruptions for styrene monomer, phenol, and PTA through May. The group prioritizes domestic and contract customers over spot and overseas buyers."
+    },
+    {
+      "title": "Innolux Sells Tainan Fab 5 to ASE Group's SPIL for NT$6.325 Billion",
+      "section": "金融",
+      "date": "2026/03/25 01:26:08",
+      "url": "https://money.udn.com/money/story/5612/9400925?from=edn_maintab_cate",
+      "summary": "Panel maker Innolux divests its Tainan Science Park Fab 5 to semiconductor assembly and test leader ASE Group's SPIL subsidiary for NT$6.325 billion. The transaction generates estimated disposal gains of NT$5.8 billion, contributing approximately NT$0.72 per share. This represents Innolux's asset optimization strategy while helping ASE Group rapidly expand advanced packaging capacity for AI demand."
+    },
+    {
+      "title": "Oil Prices Plummet 10% Below $100 on Trump's Iran Attack Delay",
+      "section": "產經",
+      "date": "2026/03/24 07:45:20",
+      "url": "https://money.udn.com/money/story/5599/9398721",
+      "summary": "International oil prices crashed over 10% after President Trump announced a five-day delay in attacking Iran's power plants, with Brent crude falling below $100/barrel for the first time in two weeks. However, Iran denies any negotiations, creating uncertainty about the sustainability of this price decline. Market volatility reflects the ongoing Middle East crisis's impact on global energy supplies."
+    }
+  ],
+  "not_relevant": []
+}
