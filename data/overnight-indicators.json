@@ -1,40 +1,33 @@
 {
-  "update_time": "2026-03-24 22:40:16",
+  "update_time": "2026-03-24 22:48:16",
   "us_indices": [
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
+      "close": 6560.4,
+      "change": -20.6,
+      "change_pct": -0.31
+    },
+    {
+      "name": "Nasdaq",
+      "ticker": "^IXIC",
+      "close": 21801.88,
+      "change": -144.88,
+      "change_pct": -0.66
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "^DJI",
       "close": NaN,
       "change": NaN,
       "change_pct": NaN
     },
     {
-      "name": "Nasdaq",
-      "ticker": "^IXIC",
-      "close": 21757.87,
-      "change": -188.89,
-      "change_pct": -0.86
-    },
-    {
-      "name": "Dow Jones",
-      "ticker": "^DJI",
-      "close": 46094.52,
-      "change": -113.95,
-      "change_pct": -0.25
-    },
-    {
       "name": "VIX",
       "ticker": "^VIX",
-      "close": 26.76,
-      "change": 0.61,
-      "change_pct": 2.33
-    },
-    {
-      "name": "SOX (Semiconductors)",
-      "ticker": "^SOX",
-      "close": 7770.07,
-      "change": -3.06,
-      "change_pct": -0.04
+      "close": 26.56,
+      "change": 0.41,
+      "change_pct": 1.57
     }
   ],
   "asia_indices": [
@@ -67,8 +60,8 @@
       "adr_ticker": "TSM",
       "tw_close": 1810.0,
       "tw_change_pct": 0.0,
-      "adr_close": 338.29,
-      "adr_change_pct": -0.05,
+      "adr_close": NaN,
+      "adr_change_pct": NaN,
       "fx_rate": 31.93,
       "basis_table": [
         {
@@ -124,11 +117,11 @@
       ],
       "avg_basis": 1.1653,
       "avg_premium_pct": 16.53,
-      "predicted_open": 1854.09,
-      "gap_pct": 2.44,
-      "signal": "BULLISH",
-      "signal_icon": "🟢",
-      "signal_text": "Strong catch-up rally expected"
+      "predicted_open": NaN,
+      "gap_pct": NaN,
+      "signal": "NEUTRAL",
+      "signal_icon": "⚪",
+      "signal_text": "Minor adjustment expected"
     },
     {
       "name": "UMC",
@@ -136,8 +129,8 @@
       "adr_ticker": "UMC",
       "tw_close": 56.5,
       "tw_change_pct": -0.35,
-      "adr_close": 8.99,
-      "adr_change_pct": -1.05,
+      "adr_close": 9.01,
+      "adr_change_pct": -0.91,
       "fx_rate": 31.93,
       "basis_table": [
         {
@@ -193,8 +186,8 @@
       ],
       "avg_basis": 1.0073,
       "avg_premium_pct": 0.73,
-      "predicted_open": 57.03,
-      "gap_pct": 0.94,
+      "predicted_open": 57.1,
+      "gap_pct": 1.06,
       "signal": "NEUTRAL",
       "signal_icon": "⚪",
       "signal_text": "Minor adjustment expected"
@@ -205,8 +198,8 @@
       "adr_ticker": "ASX",
       "tw_close": 332.5,
       "tw_change_pct": 0.91,
-      "adr_close": 21.28,
-      "adr_change_pct": -1.82,
+      "adr_close": 21.33,
+      "adr_change_pct": -1.61,
       "fx_rate": 31.93,
       "basis_table": [
         {
@@ -262,8 +255,8 @@
       ],
       "avg_basis": 1.0186,
       "avg_premium_pct": 1.86,
-      "predicted_open": 333.65,
-      "gap_pct": 0.35,
+      "predicted_open": 334.29,
+      "gap_pct": 0.54,
       "signal": "NEUTRAL",
       "signal_icon": "⚪",
       "signal_text": "Minor adjustment expected"
