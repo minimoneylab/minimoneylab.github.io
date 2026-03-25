@@ -221,15 +221,23 @@ class SheetsReader:
                 
                 # Filter by scraped date - only include articles from last 36 hours
                 try:
-                    scraped_date = datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S')
+                    # Handle both date formats: 'YYYY-MM-DD' and 'YYYY-MM-DD HH:MM:SS'
+                    date_str = row[0].strip()
+                    if len(date_str) > 10 and ' ' in date_str:
+                        # Has time component
+                        scraped_date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
+                    else:
+                        # Date only
+                        scraped_date = datetime.strptime(date_str, '%Y-%m-%d')
                     scraped_date = scraped_date.replace(tzinfo=vn_tz)
                     
                     # Skip old articles
                     if scraped_date < cutoff:
                         skipped_old += 1
                         continue
-                except:
+                except Exception as parse_error:
                     # If date parsing fails, SKIP the article (don't include it)
+                    print(f"  Warning: Could not parse date '{row[0]}': {parse_error}")
                     skipped_bad_date += 1
                     continue
                     
