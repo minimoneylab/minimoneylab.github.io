@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-26",
+  "update_time": "2026-03-26 00:02:57",
+  "total_articles": 18,
+  "high": [
+    {
+      "title": "AI Chip Demand Surges - Broadcom Warns TSMC Capacity Insufficient, Supply Chain Bottlenecks Extend to Components",
+      "section": "金融",
+      "date": "2026/03/25 01:16:06",
+      "url": "https://money.udn.com/money/story/5612/9400942?from=edn_subcatelist_cate",
+      "summary": "Broadcom, a major TSMC client, warned that supply chain constraints are intensifying, with TSMC's production capacity approaching limits and creating bottlenecks in 2026. The company noted that TSMC's capacity, once described as \"infinite,\" has now become a constraint affecting the entire supply chain. TSMC is accelerating expansion plans including facilities in Taiwan and Arizona, and converting 5nm capacity to support 3nm when necessary. However, supply bottlenecks have extended beyond chips to other tech components including lasers and PCBs. High-end HDI and IC substrate shortages are particularly acute, with suppliers like Unimicron and Kinsus adopting alternative solutions. Many customers are now signing long-term agreements spanning 3-4 years to secure capacity commitments. This development underscores the structural supply constraints in advanced semiconductor manufacturing amid surging AI infrastructure demand."
+    },
+    {
+      "title": "Apple AI Evolution at WWDC 2026 - Expected to Boost TSMC, Hon Hai and Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/03/25 01:20:42",
+      "url": "https://money.udn.com/money/story/5612/9400930?from=edn_maintab_cate",
+      "summary": "Apple's WWDC 2026 will commence June 8 (US time), with unprecedented official mention of \"AI advancements\" in the announcement. The conference is expected to showcase iOS 27, next-generation Siri, and foldable device applications. Apple is breaking its usual secrecy by pre-announcing AI focus, suggesting significantly higher \"AI content\" compared to previous years. The event could drive momentum for Taiwan suppliers including TSMC and Hon Hai. The upgraded Siri, rebuilt on large language models, will feature enhanced contextual understanding and cross-app execution capabilities. Apple Intelligence services will expand with real-time video analysis, personalized health insights, and improved battery management. Market expects official unveiling of Google Gemini collaboration results and potential foldable iPhone software preparation."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Plunges 926 Points Amid Major Player Exodus - Seeking Support at Quarterly Line",
+      "section": "證券",
+      "date": "2026/03/25 01:44:13",
+      "url": "https://money.udn.com/money/story/5607/9400983?from=edn_maintab_cate",
+      "summary": "Taiwan stocks opened higher on Trump's delayed Iran attack news but plunged 110 points to close at 32,612 amid foreign selling of NT$12.18 billion. The index experienced 926-point intraday volatility with major players and institutions retreating. Foreign investors have sold NT$816.73 billion in March alone, while government funds bought NT$7.89 billion to stem declines. Market seeks quarterly line support at 31,765 points for potential rebound."
+    },
+    {
+      "title": "US Import Ban on Wireless Routers - Taiwanese Network Equipment Companies on Alert",
+      "section": "金融",
+      "date": "2026/03/25 01:20:43",
+      "url": "https://money.udn.com/money/story/11162/9400858?from=edn_maintab_cate",
+      "summary": "The FCC banned imports of new foreign-made consumer wireless routers citing national security concerns, primarily targeting China's TP-Link. Taiwanese companies including ASUS, D-Link, and EDIMAX are assessing impact. The ban focuses on \"de-Sinicization\" efforts and doesn't affect already-authorized products. Netgear shares surged 13% on potential competitive advantage. Taiwan manufacturers face challenges as most production occurs in Asia with thin profit margins making US manufacturing difficult."
+    },
+    {
+      "title": "Innolux Sells Tainan Fab 5 to ASE Group's SPIL for NT$6.325 Billion",
+      "section": "金融",
+      "date": "2026/03/25 01:26:08",
+      "url": "https://money.udn.com/money/story/5612/9400925?from=edn_maintab_cate",
+      "summary": "Innolux completed sale of its Tainan Science Park Fab 5 to SPIL for NT$6.325 billion, generating disposal gain of NT$5.8 billion. The transaction supports Innolux's asset optimization and transformation strategy while enabling ASE Group to rapidly expand advanced packaging capacity for AI demand. SPIL also secured additional land usage rights in Central Taiwan Science Park, with total investment exceeding NT$6.6 billion."
+    }
+  ],
+  "not_relevant": []
+}
