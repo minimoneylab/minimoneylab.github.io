@@ -1,8 +1,8 @@
 name: Taiwan Daily News Update
 on:
   schedule:
-    # Runs at 22:30 UTC = 06:30 HK/Taiwan time
-    - cron: '30 22 * * *'
+    # Runs at 23:48 UTC = 07:48 HK/Taiwan time
+    - cron: '48 23 * * *'
   workflow_dispatch:  # Allow manual trigger
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install gspread google-auth-oauthlib anthropic playwright yfinance requests --break-system-packages
+          pip install gspread google-auth-oauthlib anthropic playwright --break-system-packages
           playwright install chromium
       
       - name: Setup Google credentials
@@ -41,15 +41,6 @@ jobs:
       
       - name: Generate Taiwan website data
         run: python generate_data.py
-      
-      - name: Fetch stock data (Taiwan, Korea, India)
-        run: python fetch_stocks_multimarket.py
-      
-      - name: Fetch overnight indicators
-        run: python fetch_overnight_indicators.py
-      
-      - name: Fetch Polymarket trends
-        run: python fetch_polymarket_trends.py
       
       - name: Commit and push Taiwan data
         uses: stefanzweifel/git-auto-commit-action@v5
