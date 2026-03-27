@@ -1,0 +1,59 @@
+{
+  "date": "2026-03-27",
+  "update_time": "2026-03-27 15:14:34",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "TSMC ADR Plunges Over 6%, Philadelphia Semiconductor Index Falls Nearly 5% Dragged by Memory Stocks",
+      "section": "金融",
+      "date": "2026/03/27 07:18:49",
+      "url": "https://money.udn.com/money/story/5599/9405994",
+      "summary": "TSMC ADR closed down over 6% at $326.11, equivalent to NT$2,081.56 per share when converted to Taiwan dollars, with a premium rate of 13.13% over Taipei-traded shares. The Philadelphia Semiconductor Index plummeted 381.87 points (-4.79%) to 7,585.87 points as Google's new AI compression technology TurboQuant raised concerns about memory demand prospects. The technology claims to require only one-sixth the memory for large language models while boosting performance eight-fold, triggering sell-offs in chip stocks. This development signals potential headwinds for Taiwan's semiconductor sector, particularly memory companies, despite the broader AI boom continuing to drive demand for advanced chips."
+    },
+    {
+      "title": "Google's New TurboQuant Algorithm Claims Only One-Sixth Memory Storage Required, Scares Memory Sector",
+      "section": "金融",
+      "date": "2026/03/27 01:43:36",
+      "url": "https://money.udn.com/money/story/5612/9405744?from=edn_maintab_cate",
+      "summary": "Google unveiled its TurboQuant compression algorithm, claiming it can run large language models with only one-sixth the memory while delivering 8x performance improvement. This sparked widespread selling in global memory stocks, with Micron and SanDisk leading declines of over 3%. Korean memory giants Samsung and SK Hynix fell 4.7% and 6% respectively. Taiwan memory stocks initially opened higher on Nanya's investment news but reversed to close lower, with Nanya dropping NT$1 to NT$225.5. The technology targets the \"key-value cache\" bottleneck in AI systems, compressing buffer memory to 3-bit format. While concerning for memory demand, industry experts suggest this could actually expand the overall AI market by making applications more accessible and affordable."
+    },
+    {
+      "title": "Foreign Investors Resume Selling, Taiwan Stocks End Mixed After Early Gains",
+      "section": "證券",
+      "date": "2026/03/27 01:26:05",
+      "url": "https://money.udn.com/money/story/5607/9405759?from=edn_maintab_cate",
+      "summary": "Taiwan stocks opened strongly with gains of 453 points to 33,892 but reversed to close down 101 points at 33,337 as oil prices surged and selling pressure emerged. Foreign investors turned net sellers with NT$79.2 billion in outflows, while their futures net short positions increased by 1,118 contracts to 37,065. March foreign selling has reached NT$787.1 billion, already exceeding 2025's full-year outflow of NT$599.5 billion. Eight of the ten largest single-day selling records occurred in March, potentially setting a new monthly record. Key weighted stocks including TSMC, MediaTek, and Delta Electronics faced late-session selling pressure. The divergent performance between early strength and late weakness reflects ongoing uncertainty over Middle East tensions and their impact on global markets."
+    }
+  ],
+  "medium": [
+    {
+      "title": "US Stocks Close Lower with Broad Sell-off, S&P 500 Records Largest Drop Since January",
+      "section": "金融",
+      "date": "2026/03/27 07:05:25",
+      "url": "https://money.udn.com/money/story/5599/9405987",
+      "summary": "US markets fell sharply with Dow down 1.01%, S&P 500 down 1.74%, and Nasdaq plunging 2.38% into correction territory. Concerns over potential Iran-US ceasefire failure and oil price spikes drove risk-off sentiment. Trump later announced a 10-day suspension of Iran energy facility attacks until April 6th, slightly reducing futures declines."
+    },
+    {
+      "title": "Memory Industry Players: Google's New Algorithm Won't Impact Demand",
+      "section": "金融",
+      "date": "2026/03/27 01:39:53",
+      "url": "https://money.udn.com/money/story/5612/9405748?from=edn_subcatelist_cate",
+      "summary": "Local memory industry executives dismiss concerns over Google's TurboQuant algorithm, arguing it only compresses inference processes without affecting HBM or storage needs. They believe lower AI costs will expand market adoption, ultimately driving more data generation and storage demand, particularly for NAND flash memory."
+    },
+    {
+      "title": "Foreign Investors Sell NT$384.7 Billion, Winbond Leads Buying Despite Dividend Cut",
+      "section": "證券",
+      "date": "2026/03/27 17:49:32",
+      "url": "https://money.udn.com/money/story/5607/9407407?from=edn_maintab_cate",
+      "summary": "Foreign investors sold NT$384.7 billion as Taiwan stocks fell 225 points. Despite the broad selling, Winbond topped foreign buying with 24,119 shares purchased, followed by Compal with 22,461 shares. Both stocks went ex-dividend and traded below their adjusted reference prices, creating unusual buying opportunities for foreign investors."
+    },
+    {
+      "title": "Oil Prices Open Down Over 1% After Trump Delays Iran Energy Facility Attacks",
+      "section": "產經",
+      "date": "2026/03/27 07:52:23",
+      "url": "https://money.udn.com/money/story/5599/9406021",
+      "summary": "Oil prices reversed Thursday's 5% gains, falling over 1% after Trump extended the deadline for attacking Iran's energy facilities to April 6th. WTI crude dropped to around $93/barrel while Brent closed at $108.01. Trump cited ongoing negotiations and Iran's gesture of allowing 10 oil tankers through the Strait of Hormuz as reasons for the extension."
+    }
+  ],
+  "not_relevant": []
+}
