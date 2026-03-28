@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-28 07:03:59",
+  "update_time": "2026-03-29 06:03:37",
   "us_indices": [
     {
       "name": "S&P 500",
@@ -37,7 +37,29 @@
       "change_pct": -1.69
     }
   ],
-  "asia_indices": [],
+  "asia_indices": [
+    {
+      "name": "TWSE Index",
+      "ticker": "^TWII",
+      "close": 33112.59,
+      "change": -225.03,
+      "change_pct": -0.68
+    },
+    {
+      "name": "Hang Seng",
+      "ticker": "^HSI",
+      "close": 24951.88,
+      "change": 95.45,
+      "change_pct": 0.38
+    },
+    {
+      "name": "Nikkei 225",
+      "ticker": "^N225",
+      "close": 53373.07,
+      "change": -230.58,
+      "change_pct": -0.43
+    }
+  ],
   "adr_signals": [
     {
       "name": "TSMC",
@@ -47,7 +69,7 @@
       "tw_change_pct": -1.09,
       "adr_close": 326.74,
       "adr_change_pct": 0.19,
-      "fx_rate": 32.02,
+      "fx_rate": 31.93,
       "basis_table": [
         {
           "adr_date": "Mar 20",
@@ -102,8 +124,8 @@
       ],
       "avg_basis": 1.1737,
       "avg_premium_pct": 17.37,
-      "predicted_open": 1782.77,
-      "gap_pct": -2.05,
+      "predicted_open": 1777.76,
+      "gap_pct": -2.32,
       "signal": "BEARISH",
       "signal_icon": "🔴",
       "signal_text": "Already ahead, expect pullback"
@@ -116,7 +138,7 @@
       "tw_change_pct": -0.69,
       "adr_close": 8.87,
       "adr_change_pct": -1.66,
-      "fx_rate": 32.02,
+      "fx_rate": 31.93,
       "basis_table": [
         {
           "adr_date": "Mar 20",
@@ -171,8 +193,8 @@
       ],
       "avg_basis": 1.0105,
       "avg_premium_pct": 1.05,
-      "predicted_open": 56.21,
-      "gap_pct": -2.75,
+      "predicted_open": 56.06,
+      "gap_pct": -3.02,
       "signal": "BEARISH",
       "signal_icon": "🔴",
       "signal_text": "Already ahead, expect pullback"
@@ -185,7 +207,7 @@
       "tw_change_pct": -1.53,
       "adr_close": 21.5,
       "adr_change_pct": 0.33,
-      "fx_rate": 32.02,
+      "fx_rate": 31.93,
       "basis_table": [
         {
           "adr_date": "Mar 20",
@@ -240,8 +262,8 @@
       ],
       "avg_basis": 1.0136,
       "avg_premium_pct": 1.36,
-      "predicted_open": 339.6,
-      "gap_pct": -3.93,
+      "predicted_open": 338.64,
+      "gap_pct": -4.2,
       "signal": "BEARISH",
       "signal_icon": "🔴",
       "signal_text": "Already ahead, expect pullback"
