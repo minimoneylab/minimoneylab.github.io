@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-28",
+  "update_time": "2026-03-28 00:08:39",
+  "total_articles": 39,
+  "high": [
+    {
+      "title": "TSMC ADR Plunges Over 6%, Philadelphia Semiconductor Index Falls Nearly 5% Dragged Down by Memory Stocks",
+      "section": "金融",
+      "date": "2026/03/27 07:18:49",
+      "url": "https://money.udn.com/money/story/5599/9405994",
+      "summary": "TSMC ADR closed down over 6% at $326.11, equivalent to NT$2,081.56 after currency conversion with a 13.13% premium over Taipei trading. The Philadelphia Semiconductor Index plummeted 381.87 points (-4.79%) to 7,585.87 points due to Google's new AI compression technology TurboQuant, which claims to operate large language models with only one-sixth the memory requirement while improving performance eightfold. This sparked market concerns about memory demand prospects, dragging down chip stocks. The selloff reflects broader investor anxiety about potential disruption to the AI memory boom that has driven massive gains in semiconductor stocks. For Taiwan investors, this represents significant pressure on the tech-heavy index given TSMC's substantial weighting."
+    },
+    {
+      "title": "Foreign Investors Turn to Selling Again, Taiwan Stock Index Ends Lower After Early Gains as Oil Prices Rise",
+      "section": "證券",
+      "date": "2026/03/27 01:26:05",
+      "url": "https://money.udn.com/money/story/5607/9405759?from=edn_maintab_cate",
+      "summary": "Taiwan stocks opened strongly with gains of 453 points to 33,892 but reversed course amid Middle East tensions and oil price spikes, closing down 101 points at 33,337. Foreign investors switched from buying to selling NT$79.2 billion, with Taiwan index futures net short positions increasing by 1,118 contracts to 37,065. March foreign selling has reached NT$787.1 billion, already exceeding 2025's full-year net selling of NT$599.5 billion. Eight of the ten largest single-day selling records this year occurred in March, potentially setting a new monthly record. Weight stocks including TSMC, MediaTek, and Delta Electronics faced late-session selling pressure. The market shows continued vulnerability to geopolitical tensions affecting investor sentiment."
+    },
+    {
+      "title": "Foreign Investors Sell NT$384.7 Billion as Taiwan Stocks Fall 225 Points",
+      "section": "證券",
+      "date": "2026/03/27 17:49:32",
+      "url": "https://money.udn.com/money/story/5607/9407407?from=edn_maintab_cate",
+      "summary": "Taiwan stocks closed down 225.03 points at 33,112.59 as Trump extended the deadline for attacking Iranian energy facilities by 10 days until April 7. Foreign investors sold NT$384.71 billion worth of stocks, with Yuanta Taiwan 50 ETF (0050) being the most sold at over 60,000 shares. Interestingly, the top two foreign buying targets were both stocks trading ex-dividend and falling into discount territory - Winbond (2344) with 24,119 shares bought and Compal (2324). TSMC fell NT$20 to NT$1,820, contributing about 159 points to the index decline. The heavy foreign selling amid geopolitical uncertainty continues to weigh on market sentiment despite some selective stock picking in dividend-paying names."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Google's New TurboQuant Algorithm Spooks Memory Sector Despite Industry Claims of Limited Impact",
+      "section": "金融",
+      "date": "2026/03/27 01:43:36",
+      "url": "https://money.udn.com/money/story/5612/9405744?from=edn_maintab_cate",
+      "summary": "Google's TurboQuant compression algorithm triggered global memory stock selloffs, with Micron and SanDisk falling over 3% in the US, Samsung and SK Hynix dropping 4.7% and 6% respectively in Korea. However, domestic memory industry executives dismissed concerns, arguing that compression technology would expand overall market size rather than reduce demand by making AI applications more accessible."
+    },
+    {
+      "title": "Hon Hai and Taiwan Suppliers Benefit from Trump Robot Policy as Figure 3 Enters White House",
+      "section": "金融",
+      "date": "2026/03/27 01:04:32",
+      "url": "https://money.udn.com/money/story/5612/9405702?from=edn_maintab_cate",
+      "summary": "First Lady Melania Trump welcomed Figure AI's humanoid robot \"Plato\" to the White House, marking the first robot to enter the presidential residence. This signals Trump administration support for US manufacturing and robotics, potentially benefiting Taiwan suppliers including E-Pin Optical, Canon, CONTEX, and Amaryllo through their collaborations with US robot companies."
+    },
+    {
+      "title": "TSMC Block Trade Shows NT$2,020 High Price Despite Night Session Drop Below NT$1,800",
+      "section": "證券",
+      "date": "2026/03/27 21:15:49",
+      "url": "https://money.udn.com/money/story/5607/9407693?from=edn_maintab_cate",
+      "summary": "TSMC closed at NT$1,820 after showing resilience despite ADR weakness, with after-hours block trades including 8 shares at NT$2,020 - the sixth-highest price in history. The NT$200 premium suggests potential upside toward 34,700 points for the weighted index. However, night session futures fell below NT$1,800 amid continued geopolitical concerns."
+    },
+    {
+      "title": "Oil Prices Open Down Over 1% After Trump Extends Iran Strike Deadline",
+      "section": "產經",
+      "date": "2026/03/27 07:52:23",
+      "url": "https://money.udn.com/money/story/5599/9406021",
+      "summary": "International oil prices reversed Thursday's 5% gains, falling over 1% as Trump extended the deadline for attacking Iranian energy facilities by 10 days to April 6. WTI crude dropped 1.6% to around $93/barrel while Brent fell from Thursday's $108.01 close. Gold prices recovered 0.5% as geopolitical tensions eased temporarily."
+    }
+  ],
+  "not_relevant": [
+    "• US Stock Market Shows Selling Pressure as Four Major Indices Close in Red",
+    "• Machinery Industry Expects Double-digit Export Growth This Year",
+    "• Musk Attacks AI Video Generation Market with xAI Services",
+    "• Arm Launches First AI Chip Manufactured by TSMC",
+    "• US May Launch \"Final Strike\" on Iran with Four Potential Military Options",
+    "• Germany Energy Minister Criticizes Nuclear Phase-out as Major Error",
+    "• China Steel Announces Shareholder Meeting Gift of NT$50 7-Eleven Voucher",
+    "• SCFI Freight Index Rises 7% This Week",
+    "• Electricity Prices Frozen for Current Period",
+    "• Regent Hotel Stock Sale by Ambience Hotels",
+    "• Google Search Introduces New Voice and Camera Features",
+    "• Trump Announces Extension of Iran Energy Facility Attack Deadline",
+    "• Oil Price Surge Doesn't Boost Tesla Demand",
+    "• Iran Situation Creates Deadlock, Questions Trump's \"Impromptu Diplomacy\"",
+    "• New IPO Prologium to List at NT$780 with Potential 105% Returns"
+  ]
+}
