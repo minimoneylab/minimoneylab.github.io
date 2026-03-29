@@ -6,8 +6,11 @@ Fetches stock data for Taiwan, Korea, and India markets
 
 import yfinance as yf
 import json
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import os
+
+# Hong Kong timezone (UTC+8)
+HK_TZ = timezone(timedelta(hours=8))
 
 # Market configurations
 MARKETS = {
@@ -335,17 +338,21 @@ def main():
     """Main function to fetch all markets"""
     print("=" * 70)
     print("MULTI-MARKET STOCK HEATMAP DATA FETCHER")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    hk_now = datetime.now(HK_TZ)
+    print(hk_now.strftime('%Y-%m-%d %H:%M:%S'))
     print("=" * 70)
     
     # Fetch working markets only (Philippines not available on Yahoo Finance)
     all_data = {}
+    hk_now = datetime.now(HK_TZ)
+    update_time_str = hk_now.strftime('%Y-%m-%d %H:%M:%S')
+    
     for market_id in ['twse', 'kospi', 'nse', 'hose', 'klse', 'idx']:
         stocks_data = fetch_market_data(market_id)
         all_data[market_id] = {
             'market_name': MARKETS[market_id]['name'],
             'stocks': stocks_data,
-            'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            'update_time': update_time_str
         }
     
     # Save to separate JSON files
