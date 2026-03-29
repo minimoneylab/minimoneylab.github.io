@@ -1,30 +1,65 @@
 {
   "date": "2026-03-29",
-  "update_time": "2026-03-29 11:11:22",
-  "total_articles": 17,
+  "update_time": "2026-03-29 11:23:38",
+  "total_articles": 18,
   "high": [
     {
-      "title": "Apple to Launch Two Foldable Phones, Major Suppliers Including TSMC, Hon Hai Set to Accelerate Q2 Inventory Build-Up",
-      "section": "金融",
-      "date": "2026/03/29 02:11:57",
+      "title": "Apple to Launch Two Folding Phones, Benefiting Largan, Sintai Optical and Others with Q2 Accelerated Stocking",
+      "section": "Financial",
+      "date": "2026/03/29",
       "url": "https://money.udn.com/money/story/5612/9409265?from=edn_maintab_cate",
-      "summary": "Foreign media reports suggest Apple's first foldable iPhone may launch with two models this year - a \"large and small foldable\" strategy to capture market share. Apple appears confident about iPhone Fold sales, with supply chain expected to accelerate inventory build-up in late Q2/early Q3. Key beneficiaries include Hon Hai (2317), TSMC (2330), Largan Precision (3008), and Sintai Optical (3376). Industry sources indicate Apple may adopt Samsung's successful dual-model approach, directly competing across same price segments. The larger model features an approximately 7.5-8 inch internal screen with book-style inward folding design, while the smaller model resembles a compact mirror flip design. This represents a significant product expansion for Apple and could drive substantial revenue growth for Taiwan's supply chain partners, particularly given Apple's focus on reducing screen crease depth to below 0.15mm, requiring advanced manufacturing capabilities."
+      "summary": "External reports indicate Apple may launch two iPhone Fold models this year - a large and small folding phone strategy to capture market share. Apple appears confident about iPhone Fold sales, with supply chain expected to accelerate stocking in late Q2/early Q3. Key beneficiaries include Hon Hai (2317), TSMC (2330), Largan Precision (3008), and Sintai Optical (3376). The large model features a 7.5-8 inch internal display with book-like inward folding design, while the small model resembles a compact mirror flip design. Industry analysts note this mirrors Samsung's successful dual-model strategy. The folding crease depth is reportedly reduced to below 0.15mm, significantly improving user experience. This represents a major product cycle opportunity for Taiwan's precision manufacturing supply chain, particularly in optical components and assembly services."
     },
     {
-      "title": "Oil Price Surge Creates Four Categories of War-Beneficiary Stocks with Taiwan Polymer, Swancor Holdings Attracting Buying Interest",
-      "section": "證券",
-      "date": "2026/03/29 02:39:25",
+      "title": "Four Categories of War-Beneficiary Stocks Show Profit Potential as TPC, CHC Attract Buying",
+      "section": "Securities",
+      "date": "2026/03/29",
       "url": "https://money.udn.com/money/story/5607/9409231?from=edn_maintab_cate",
-      "summary": "Middle East warfare has driven international oil prices near $120/barrel, spurring buying interest in four major sectors: petrochemicals and derivatives, paper manufacturing, oil/gas/electricity, and shipping. Sixteen \"war-beneficiary stocks\" including Taiwan Polymer (1304) and Taiwan SynCorr (1309) have shown strong performance as market focuses on defensive plays. PE prices have surged 37% since the US-Iran conflict began, rising from RMB 6,597/ton to RMB 8,990/ton by March 27th. Cultural and industrial paper prices are also trending upward with 10% increases announced by major paper manufacturers. The oil price rally directly impacts upstream petrochemical feedstock costs, benefiting companies with low-cost inventory holdings who can capture significant inventory gains. This trend supports Taiwan Polymer, Acelon Chemical & Fiber, and other PE manufacturers who can benefit from the price-cost spread dynamics."
+      "summary": "Middle East conflict drives oil prices near $120/barrel, triggering strong buying in four sectors: petrochemicals, paper, oil/gas/electricity, and shipping. Key beneficiaries include Taiwan Polymer (1304) and CHC Resources (1309) among 16 \"war-beneficiary stocks.\" PE prices surged 37% since conflict began, rising from RMB6,597 to RMB8,990 per ton. Petrochemical companies benefit from low-cost inventory gains as product prices soar. Paper companies like Cheng Loong and Yuen Foong Yu announce 10% price increases. Oil companies CPC and Formosa Petrochemical raise fuel prices, while shipping companies benefit from higher tanker demand and freight rates."
+    },
+    {
+      "title": "Five Major Trend Mainstream Stocks Attract Capital, Zhen Ding, Shun Da Can Be Opportunistically Entered",
+      "section": "Securities",
+      "date": "2026/03/29",
+      "url": "https://money.udn.com/money/story/5607/9409261?from=edn_maintab_cate",
+      "summary": "Despite Middle East conflict volatility, funds concentrate on five major tech trends: high-end semiconductor equipment/materials, CPO, ABF, and power storage. Zhen Ding-KY (4958) leads with 16,000-share institutional buying over five days, while Shun Da (3211) and Lite-On (2301) each saw 9,000+ share purchases. IET-KY surged 21.3% in five days. These sectors align with NVIDIA CEO's five-layer cake theory, with Taiwan's supply chain dominating hardware layers 1-3. NVIDIA's order visibility extends to 2027 with $1 trillion total value, benefiting semiconductor equipment, materials, CPO, ABF, and power-related suppliers."
+    },
+    {
+      "title": "Oil Price Volatility and US-Iran Negotiation Variables Increase Taiwan Stock Correction Pressure",
+      "section": "Securities",
+      "date": "2026/03/29",
+      "url": "https://money.udn.com/money/story/5607/9409896?from=edn_subcatelist_cate",
+      "summary": "US indices closed lower Friday with NASDAQ down 2.1%. Ongoing US-Iran negotiations and elevated oil prices create headwinds for Taiwan stocks. Technical analysis shows monthly moving average providing resistance while quarterly line offers support, with consolidation expected between these levels. Foreign investors sold NT$823.5 billion in March, requiring conflict resolution and foreign buying return for uptrend resumption."
+    },
+    {
+      "title": "US-Iran War Will Enter Fifth Week, Three Major Variables to Watch for US Stocks Next Week",
+      "section": "Securities",
+      "date": "2026/03/29",
+      "url": "https://money.udn.com/money/story/5607/9409827?from=edn_subcatelist_cate",
+      "summary": "Franklin Templeton identifies three key variables: Middle East situation and oil prices, Trump tariff policies using various trade law provisions, and economic data including consumer confidence, ISM indices, and non-farm payrolls. Oil price surge above $112/barrel (50%+ increase) raises inflation and growth concerns. However, US economic fundamentals remain solid, supporting equity markets despite elevated volatility."
     }
   ],
   "medium": [
     {
-      "title": "Five Major Trend Mainstream Stocks Attract Capital with Zhen Ding Technology,順達 Among Opportunities",
-      "section": "證券",
-      "date": "2026/03/29 02:17:02",
-      "url": "https://money.udn.com/money/story/5607/9409261?from=edn_maintab_cate",
-      "summary": "Despite Middle East war impact dragging global markets, Taiwan funds are concentrating on five new trend categories: high-end semiconductor equipment, materials, CPO, ABF, and energy storage stocks. Key beneficiaries include Zhen Ding Technology (4958), 順達 (3211), and Eternal Chemical (1711). Foreign institutional investors bought over 16,000 shares of Zhen Ding Technology in the past five days, reflecting strong confidence in these AI supply chain segments.\n\n**Oil Price Volatility and US-Iran Negotiation Variables Increase Taiwan Stock Correction Pressure**\n📂 Section: 證券 | 📅 Date: 2026/03/29 13:14:31\n🔗 https://money.udn.com/money/story/5607/9409896?from=edn_subcatelist_cate\n\nUS indices closed lower Friday with NASDAQ down 2.1%. Ongoing US-Iran negotiations and elevated oil prices create headwinds for Taiwan stocks. Technical analysis shows monthly and short-term moving averages forming resistance, though quarterly line provides support. Foreign capital outflows of NT$823.5 billion in March continue to pressure market sentiment.\n\n**US-Iran War Affects Oil Price Surge, Fund Managers: Taiwan Stocks Struggle to Break Out of Volatility**\n📂 Section: 金融 | 📅 Date: 2026/03/29 17:21:40\n🔗 https://money.udn.com/money/story/5612/9410140?from=edn_subcatelist_cate\n\nTaiwan's weighted index fell 225.03 points Friday, holding above 33,000 level. Fund managers note US-Iran conflict continues impacting oil prices and investor sentiment, keeping Taiwan stocks in volatile range. However, global AI leaders maintain capital expenditure plans, with NVIDIA's new Vera Rubin servers entering production, potentially boosting Taiwan's AI supply chain performance.\n\n**This Week 10 Stock and Bond ETFs Go Ex-Dividend, Highest Annualized Yield Reaches 7.58%**\n📂 Section: 證券 | 📅 Date: 2026/03/29 16:24:53\n🔗 https://money.udn.com/money/story/5607/9410070?from=edn_subcatelist_cate\n\nTen ETFs scheduled for ex-dividend this week, including eight bond ETFs and two Taiwan equity ETFs, all monthly-paying types suitable for steady cash flow needs. Investment-grade bond ETFs dominate with six offerings, all showing annualized dividend yields above 4.8%. This provides income-focused investors defensive options amid market uncertainty."
+      "title": "US-Iran Conflict Drives Oil Price Surge, Fund Managers: Taiwan Stocks Remain Volatile",
+      "section": "Financial",
+      "date": "2026/03/29",
+      "url": "https://money.udn.com/money/story/5612/9410140?from=edn_subcatelist_cate",
+      "summary": "Taiwan stocks fell 225 points but held above 33,000, while Taiwan futures night session dropped 882 points. PGIM fund manager notes AI supply chain remains main theme despite volatility, with NVIDIA's new Vera Rubin servers entering production. Global AI capex remains strong with $1 trillion orders for Blackwell and Rubin from 2025-2027."
+    },
+    {
+      "title": "This Week 10 Stock and Bond ETFs to Pay Dividends with Highest Annualized Yield at 7.58%",
+      "section": "Securities",
+      "date": "2026/03/29",
+      "url": "https://money.udn.com/money/story/5607/9410070?from=edn_subcatelist_cate",
+      "summary": "Ten monthly-dividend ETFs to ex-dividend this week, including eight bond ETFs and two Taiwan stock ETFs. Highest yield is PIMCO High Yield Non-IG Bond ETF (00953B) at 7.58% annualized. Taiwan stock ETFs include Cathay Tech High Dividend Growth (00946) at 6.81% yield and Uni-President Taiwan High Dividend Momentum (00939) at 5.53% yield."
+    },
+    {
+      "title": "Taiwan Stock Arena: Monica Chuang Earns 51% Q1 Champion Returns Far Exceeding Market",
+      "section": "Securities",
+      "date": "2026/03/29",
+      "url": "https://money.udn.com/money/story/123397/9409271?from=edn_subcatelist_cate",
+      "summary": "Investment competition winner \"Multi-Short Sniper\" Monica Chuang achieved 51.9% Q1 returns versus market's 15.9%, growing virtual portfolio from NT$5M to NT$7.596M. Her winning picks included memory theme stock Apacer (8271) up 43.3% in one week and space satellite stocks."
     }
   ],
   "not_relevant": []
