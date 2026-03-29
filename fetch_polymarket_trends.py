@@ -6,8 +6,11 @@ Based on https://docs.polymarket.com/market-data/fetching-markets
 
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import os
+
+# Hong Kong timezone (UTC+8)
+HK_TZ = timezone(timedelta(hours=8))
 
 # Featured event slugs from your URLs
 FEATURED_SLUGS = [
@@ -148,7 +151,8 @@ def main():
     """Main function"""
     print("=" * 70)
     print("POLYMARKET TRENDS FETCHER - Official API")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    hk_now = datetime.now(HK_TZ)
+    print(hk_now.strftime('%Y-%m-%d %H:%M:%S'))
     print("=" * 70)
     print()
     
@@ -193,8 +197,9 @@ def main():
                 print(f"    ${e['volume']:,.0f} | {len(e['markets'])} markets")
     
     # Save to JSON
+    hk_now = datetime.now(HK_TZ)
     output = {
-        'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'update_time': hk_now.strftime('%Y-%m-%d %H:%M:%S'),
         'categories': categorized,
         'total_events': len(events)
     }
