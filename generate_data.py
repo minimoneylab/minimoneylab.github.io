@@ -128,8 +128,15 @@ class DataParser:
     def is_article_recent(self, article_date_str):
         """Check if article is within the time window (past 30 hours)"""
         try:
-            # Parse article date: "2026/03/10 20:39:15" format
-            article_dt = datetime.strptime(article_date_str, '%Y/%m/%d %H:%M:%S')
+            # Handle both date formats: '2026/03/10' and '2026/03/10 20:39:15'
+            date_str = article_date_str.strip()
+            if len(date_str) > 10 and ' ' in date_str:
+                # Has time component
+                article_dt = datetime.strptime(date_str, '%Y/%m/%d %H:%M:%S')
+            else:
+                # Date only - assume start of day
+                article_dt = datetime.strptime(date_str, '%Y/%m/%d')
+            
             # Make timezone-aware (assume HK time)
             article_dt = article_dt.replace(tzinfo=HK_TIMEZONE)
             
