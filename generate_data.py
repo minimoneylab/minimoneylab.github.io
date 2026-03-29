@@ -202,7 +202,28 @@ class DataParser:
     def _parse_articles(self, section_text):
         """Extract articles from a priority section"""
         articles = []
+        
+        # First try splitting by --- separator (HIGH priority format)
         article_blocks = section_text.split('---')
+        
+        # If we only got one block, try splitting by article titles instead (MEDIUM priority format)
+        if len(article_blocks) <= 1 or all('**' not in block for block in article_blocks[1:]):
+            # Split by lines starting with **
+            lines = section_text.split('\n')
+            article_blocks = []
+            current_block = []
+            
+            for line in lines:
+                if line.strip().startswith('**') and current_block:
+                    # Start of new article
+                    article_blocks.append('\n'.join(current_block))
+                    current_block = [line]
+                else:
+                    current_block.append(line)
+            
+            # Don't forget the last block
+            if current_block:
+                article_blocks.append('\n'.join(current_block))
         
         for block in article_blocks:
             if '**' not in block:
