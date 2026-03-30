@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-30",
+  "update_time": "2026-03-30 06:21:49",
+  "total_articles": 33,
+  "high": [
+    {
+      "title": "Central Bank Governor Yang Suggests Shortening Grace Period for New Youth Housing Loan 2.0",
+      "section": "金融",
+      "date": "2026/03/30 13:07:41",
+      "url": "https://money.udn.com/money/story/7307/9411523",
+      "summary": "Central Bank Governor Yang Chin-long provided recommendations for the upcoming New Youth Housing Loan 2.0 program during legislative questioning. With the current program expiring in July, Yang suggested that overly long grace periods are not beneficial as they may make borrowers less disciplined in financial planning. He recommended moderately shortening grace periods, which would benefit both borrowers and banks. Yang noted that 75% of current borrowers use grace periods of three years or less, and while five-year grace periods might help disadvantaged borrowers, shorter periods encourage more prudent financial planning. This policy guidance is significant as it may influence the structure of the revised housing support program, potentially affecting accessibility for young homebuyers and overall housing market dynamics."
+    },
+    {
+      "title": "Taiwan Stock Index Falls 594 Points, TSMC Down NT$40 to NT$1,780",
+      "section": "金融",
+      "date": "2026/03/30 13:40:35",
+      "url": "https://money.udn.com/money/story/5607/9411594",
+      "summary": "Taiwan stocks closed sharply lower on March 30, with the TAIEX dropping 594.43 points to 32,518.16 on volume of NT$646.6 billion. TSMC, the market bellwether, fell NT$40 to NT$1,780, down 2.2%. The decline reflects ongoing Middle East war concerns entering the fifth week, with significant gaps between US-Iran ceasefire conditions creating market uncertainty. Oil prices continue climbing with Brent crude rising 3.37% to $105.32 per barrel on Friday, as Iran maintains blockade of the Strait of Hormuz. Since the war began, Brent has surged approximately 50%, raising fears of an escalating energy crisis. The broad market decline affected major technology stocks while some traditional industries like petrochemicals and shipping showed relative strength due to higher oil prices."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Four War-Benefiting Stock Categories Gain Traction: Petrochemicals, Shipping Among Favorites",
+      "section": "證券",
+      "date": "2026/03/29 02:39:25",
+      "url": "https://money.udn.com/money/story/5607/9409231?from=edn_maintab_cate",
+      "summary": "Middle East war drives international oil prices toward $120/barrel, boosting four major sectors: petrochemicals, paper, oil & gas utilities, and shipping. Key beneficiaries include Formosa Plastics (1304), USI (1305), and Asia Polymer (1308). Polyethylene prices surged 37% since the war began, while paper prices rose up to 10% as plastic bag shortages drive demand for paper alternatives."
+    },
+    {
+      "title": "Semiconductor Inflation Heats Up: Six Major IC Design Houses Raise Prices by Up to 20%",
+      "section": "金融",
+      "date": "2026/03/30 02:07:32",
+      "url": "https://money.udn.com/money/story/11162/9410517?from=edn_subcatelist_cate",
+      "summary": "Rising production costs prompt six major IC design companies to raise prices, with increases of up to 20%. Silicon Creative (8016) and Ili Technology will raise driver IC prices by 15-20% starting April 1st, citing higher foundry and packaging costs. Novatek (3034), Parade (4961), Raydium (3592), and Elan Microelectronics (3545) are also implementing price adjustments across various product lines."
+    },
+    {
+      "title": "Container Shipping Rates to Rise Across the Board in April, Analysts Optimistic on Evergreen, Yang Ming, Wan Hai",
+      "section": "金融",
+      "date": "2026/03/30 02:19:15",
+      "url": "https://money.udn.com/money/story/10871/9410514?from=edn_maintab_cate",
+      "summary": "Global container shipping rates set for comprehensive increases in April due to higher fuel costs and reduced vessel supply from Middle East conflicts. Industry expects 10% initial increases in April with potential for additional hikes. Far East-US West Coast rates projected at $2,525 per 40-foot container, up 7%, while Far East-US East Coast rates at $3,525, up 8%. War has impacted 1.5% of global container capacity."
+    }
+  ],
+  "not_relevant": []
+}
