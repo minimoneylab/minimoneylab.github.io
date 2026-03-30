@@ -1,8 +1,8 @@
 name: Taiwan Daily News Update
 on:
   schedule:
-    # Runs at 23:48 UTC = 07:48 HK/Taiwan time
-    - cron: '48 23 * * *'
+    # Runs at 23:30 UTC = 07:30 HK/Taiwan time
+    - cron: '30 23 * * *'
   workflow_dispatch:  # Allow manual trigger
 permissions:
   contents: write
