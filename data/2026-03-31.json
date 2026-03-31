@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-31",
+  "update_time": "2026-03-31 06:04:54",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "Yang Jin-long Provides Recommendations for New Youth Housing Loan 2.0: Grace Period Should Not Be Too Long",
+      "section": "金融",
+      "date": "2026/03/30 13:07:41",
+      "url": "https://money.udn.com/money/story/7307/9411523",
+      "summary": "Central Bank of Taiwan (CBC) Governor Yang Jin-long appeared before the Legislative Yuan on March 30 to provide insights on the upcoming New Youth Housing Loan 2.0 revision. The current program expires in July 2026, and relevant departments are studying modifications. Yang Jin-long expressed his personal view that excessively long grace periods are not beneficial, as they may lead to lax financial planning by borrowers. He suggested that appropriately shortening grace periods would benefit both borrowers and banks. According to Ministry of Finance data, about 75% of current loans have grace periods of three years or less. Yang emphasized that while five-year grace periods might help disadvantaged groups, shorter periods encourage more prudent financial planning. This represents significant input from the central bank on housing policy reform, which could impact real estate financing conditions and bank lending practices."
+    },
+    {
+      "title": "Taiwan Stock Market Falls 594 Points, Closes at 32,518; TSMC Drops 40 NT$ to 1,780 NT$",
+      "section": "金融",
+      "date": "2026/03/30 13:40:35",
+      "url": "https://money.udn.com/money/story/5607/9411594",
+      "summary": "Taiwan stocks closed down 594.43 points at 32,518.16 with trading volume of 646.6 billion NT$. TSMC closed at 1,780 NT$, down 40 NT$ (-2.2%). The decline was attributed to escalating US-Iran conflict entering its fifth week with significant gaps in ceasefire conditions. Weekend bombings of Iranian nuclear and steel facilities led to retaliation across the Persian Gulf. Brent crude surged 3.37% to $105.32/barrel on Friday, with Iran continuing to block the Strait of Hormuz, which carries about 20% of global oil and LNG supplies. Since the war began, Brent oil prices have risen approximately 50%, potentially escalating into an energy crisis. Market participants are closely monitoring the Strait of Hormuz situation, oil price movements, and Iran peace talks progress."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Falls 795 Points to 31,722, Loses Quarterly Line; Q1 Down 3,642 Points",
+      "section": "金融",
+      "date": "2026/03/31 13:50:15",
+      "url": "https://money.udn.com/money/story/5607/9414008",
+      "summary": "Taiwan stocks ended Q1 with a sharp decline of 795.17 points (-2.45%) to close at 31,722.99, with trading volume reaching 792.45 billion NT$. TSMC fell 20 NT$ to 1,760 NT$, with heavy selling pressure of 13,812 shares in the final session. For the entire first quarter, Taiwan stocks dropped 3,642 points, reflecting market concerns over Middle East tensions and geopolitical risks."
+    },
+    {
+      "title": "US Stock Q1 Performance Worst in Four Years, Analysts Warn of Further Declines",
+      "section": "金融",
+      "date": "2026/03/31 12:50:06",
+      "url": "https://money.udn.com/money/story/5599/9413836",
+      "summary": "US markets posted their worst quarterly performance in four years, with the S&P 500 down 7.3% for Q1. The decline from the Iran conflict has exceeded typical geopolitical shock impacts. Deutsche Bank strategists noted that systematic strategy funds have reduced equity exposure below neutral levels for the first time since July 2025, indicating heightened risk-off sentiment among institutional investors."
+    },
+    {
+      "title": "Taiwan Stock Market Opens Low, Falls Over 600 Points Below 33K; TSMC Down 40 NT$",
+      "section": "證券",
+      "date": "2026/03/30 09:14:48",
+      "url": "https://money.udn.com/money/story/5607/9410897",
+      "summary": "Taiwan stocks opened down 102 points and extended losses to over 600 points, breaking below 33,000. TSMC opened at 1,780 NT$, down 40 NT$. Geopolitical tensions continue to weigh on markets, with oil prices maintaining high volatility and raising inflation concerns that may prompt central banks to shift toward tighter monetary policies."
+    },
+    {
+      "title": "Anthropic's New AI Agent Demand Surge Benefits Server Manufacturers Including Hon Hai",
+      "section": "金融",
+      "date": "2026/03/30 02:42:08",
+      "url": "https://money.udn.com/money/story/5612/9410564",
+      "summary": "US AI company Anthropic announced token usage limits during peak hours due to computing power constraints from increased demand for its Claude AI model. This development is expected to boost AI server shipment momentum for ODM manufacturers including Hon Hai (2317), Quanta (2382), Wistron (3231), and Wiwynn (6669) as Anthropic increases computing power rental from AWS and Google Cloud."
+    }
+  ],
+  "not_relevant": []
+}
