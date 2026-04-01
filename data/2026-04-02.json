@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-02",
+  "update_time": "2026-04-01 23:18:52",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "Samsung Announces 1 Nanometer Process by 2030 to Challenge TSMC - First Company to Release 1nm Roadmap",
+      "section": "金融",
+      "date": "2026/04/01 01:52:41",
+      "url": "https://money.udn.com/money/story/5612/9415056?from=edn_maintab_cate",
+      "summary": "Samsung foundry is once again challenging TSMC (2330). Foreign media reports that Samsung is the first to announce plans for 1 nanometer process technology to be ready and enter mass production before 2030, becoming the first company in the industry to reveal a 1nm production node plan, competing with TSMC for technological leadership. In contrast, TSMC has not yet announced its 1nm production roadmap. TSMC's most advanced process technology currently disclosed is the next-generation A14 (1.4 nanometer) advanced logic process entering the \"angstrom era,\" scheduled for production in 2028. The A14 process aims to drive AI transformation through faster computing and better energy efficiency, potentially enhancing smartphone capabilities through improved on-device AI functionality. Samsung's aggressive pursuit includes setting a \"2030 1nm process introduction\" target, with plans to shift from current Gate-All-Around (GAA) architecture to \"fork sheet\" structure, adding insulation layers between nanosheets to further improve transistor density and achieve better power consumption and performance."
+    },
+    {
+      "title": "NVIDIA Partners with Marvell for Optical Communications Push - Taiwan Supply Chain Benefits, Wangxin Optics Also Set to Benefit",
+      "section": "金融",
+      "date": "2026/04/01 01:45:55",
+      "url": "https://money.udn.com/money/story/5612/9415059?from=edn_maintab_cate",
+      "summary": "NVIDIA announced on March 31st a strategic partnership with chip giant Marvell, with both companies collaborating on silicon photonics technology, and NVIDIA investing $2 billion (over NT$64 billion) in Marvell. Industry experts believe NVIDIA's alliance with Marvell signifies strengthening relationships with ASIC manufacturers and continued surging demand for advanced processes, making TSMC (2330) the big winner. Additionally, NVIDIA's silicon photonics collaboration with Marvell supports optical communications development, benefiting Marvell's Taiwan optical communications partner Wangxin Optics (4979). This follows NVIDIA's early March announcement of investing a combined $4 billion in optical communications giants Lumentum and Coherent. The partnership reflects the importance of high-speed connectivity, optical interconnects, and accelerated infrastructure in AI scaling, with both companies working on custom XPUs and NVLink Fusion-compatible vertical scaling networks."
+    },
+    {
+      "title": "Advanced Process Wafer Foundries Continue Push - Equipment Partners Will Prosper",
+      "section": "金融",
+      "date": "2026/04/01 01:49:32",
+      "url": "https://money.udn.com/money/story/5612/9415098?from=edn_subcatelist_cate",
+      "summary": "As wafer foundries continue advancing their cutting-edge processes, related testing and material suppliers become increasingly important. With TSMC (2330), Samsung and other major foundries competing for next-generation technologies, testing and material partners including Hermes-Epitek (3587), Chang Wah Technology (1560), and Topco Scientific (8028) are expected to continue benefiting from customer advanced process expansion. Hermes-Epitek's three core technologies include atomic-level Cs aberration-corrected TEM, 800W-1500W ultra-high power burn-in technology, and silicon photonics material and structure testing capabilities, maintaining a solid position in global AI and silicon photonics testing. Chang Wah's biggest growth driver comes from diamond disc business with high market share in major customer advanced process applications, currently expanding production with monthly diamond disc capacity expected to exceed 60,000 units this year."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Rallies 1,451 Points Led by TSMC in Revenge Rebound",
+      "section": "證券",
+      "date": "2026/04/02 00:32:39",
+      "url": "https://money.udn.com/money/story/5607/9417711?from=edn_maintab_cate",
+      "summary": "Messages indicating willingness to end the US-Iran war boosted US stocks and drove Taiwan's stock market to a revenge rebound on April 1st. With all three major institutional investors buying, the index closed up 1,451 points at 33,174, creating the second-largest single-day point gain in history and recovering both the 33,000 level and quarterly line. TSMC (2330) surged 95 yuan to close at 1,855 yuan, leading the market recovery above the monthly line."
+    },
+    {
+      "title": "Kioxia Stops 2D NAND Production - Benefiting Taiwan Companies Winbond and Macronix Expected to Receive Order Transfers",
+      "section": "金融",
+      "date": "2026/04/01 23:49:48",
+      "url": "https://money.udn.com/money/story/5612/9417628?from=edn_maintab_cate",
+      "summary": "Global top-three NAND Flash manufacturer Kioxia notified customers it will completely cease production of planar (2D) NAND chips, covering floating gate architecture and 64-layer BiCS3 product lines. Customers must complete final orders by September 30, 2026. Taiwan companies Winbond and Macronix, which have long focused on 2D NAND markets, are expected to benefit from significant order transfers as Kioxia exits this segment."
+    },
+    {
+      "title": "Oil Prices Remain High, Customers Rush to Taiwan for Materials - Formosa Plastics Group Products See Across-the-Board Price Increases",
+      "section": "金融",
+      "date": "2026/04/01 01:07:48",
+      "url": "https://money.udn.com/money/story/5612/9415146?from=edn_maintab_cate",
+      "summary": "With no end in sight to the reopening of the Strait of Hormuz and persistently high international oil prices, Formosa Plastics Group faces tight raw material supply and soaring costs. Products from subsidiaries Formosa Chemicals (1326), Nan Ya Plastics (1303), and Formosa Petrochemical (6505) have seen across-the-board price increases. Japanese customers, worried about supply disruptions, are now traveling to Taiwan to secure materials, changing from monthly purchases to buying several months' worth at once."
+    },
+    {
+      "title": "Display Industry Leaders Advance \"Light Replaces Copper\" Era - Panel Makers Transform into Silicon Photonics",
+      "section": "金融",
+      "date": "2026/04/01 01:03:51",
+      "url": "https://money.udn.com/money/story/11162/9415037?from=edn_maintab_cate",
+      "summary": "Panel industry leaders embrace the \"light replaces copper\" era. AUO's (2409) CTO said MicroLED is excellent light source technology for CPO applications, with AUO's AI supply chain collaboration entering the sampling stage. Innolux (3481) Chairman emphasized combining materials and equipment partners to strengthen CPO deployment, pushing Taiwan's industry to new heights. Both companies are positioning for co-packaged optics (CPO) technology as data centers face power consumption and transmission bandwidth bottlenecks."
+    },
+    {
+      "title": "US Stocks Close Higher Following Trump's Iran Ceasefire Hints - Philadelphia Semiconductor Index Rises 2.8%",
+      "section": "產經",
+      "date": "2026/04/02 06:49:34",
+      "url": "https://money.udn.com/money/story/123398/9417937",
+      "summary": "US stocks closed higher for the second consecutive day as President Trump prepared to address the nation on the Iran conflict, with investors optimistically betting the conflict will end. The Philadelphia Semiconductor Index surged 2.8%, with Micron and Intel leading gains of 8.9% and 8.8% respectively, while TSMC ADR rose 1.1%. Trump told Reuters the US will \"withdraw from Iran soon\" and may conduct \"targeted strikes\" if needed, with a national address scheduled hours later."
+    }
+  ],
+  "not_relevant": []
+}
