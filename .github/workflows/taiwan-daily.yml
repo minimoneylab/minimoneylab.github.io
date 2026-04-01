@@ -42,6 +42,12 @@ jobs:
       - name: Generate Taiwan website data
         run: python generate_data.py
       
+      - name: Pull latest changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+      
       - name: Commit and push Taiwan data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -49,4 +55,3 @@ jobs:
           file_pattern: 'data/*.json'
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
-          pull: '--rebase --autostash'
