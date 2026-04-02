@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-03",
+  "update_time": "2026-04-02 23:05:32",
+  "total_articles": 26,
+  "high": [
+    {
+      "title": "TSMC Leads Taiwan Stock Rebound with 1,451 Point Surge",
+      "section": "證券",
+      "date": "2026/04/02 00:32:39",
+      "url": "https://money.udn.com/money/story/5607/9417711?from=edn_maintab_cate",
+      "summary": "Taiwan stocks staged a dramatic recovery rally as US-Iran tensions showed signs of easing, with the benchmark index surging 1,451 points to close at 33,174 points - the second-largest single-day point gain in history. TSMC led the charge with a 95 yuan rise to 1,855 yuan, reclaiming the 1,800 yuan level and month moving average ahead of the broader market. All three major institutional investor groups turned buyers, with foreign investors purchasing NT$23.25 billion worth of shares after four consecutive days of selling. The rally helped the index reclaim both the 33,000 point level and quarterly moving average, setting up a potential challenge of the monthly moving average. Market participants believe if Taiwan stocks can successfully stand above the monthly moving average while oil prices retreat, the index could advance toward 33,500 points."
+    },
+    {
+      "title": "Foreign Investors Resume Heavy Selling, Taiwan Stocks Plunge 602 Points Before Holiday",
+      "section": "證券",
+      "date": "2026/04/03 00:51:31",
+      "url": "https://money.udn.com/money/story/5607/9420067?from=edn_maintab_cate",
+      "summary": "Taiwan stocks suffered a severe \"air raid\" before the Qingming holiday as President Trump's hawkish speech triggered massive foreign selling of NT$38.69 billion. The index dropped 602 points to close at 32,572 points despite national team support from state-owned banks and funds. The dramatic intraday swing of 980 points reflected heightened uncertainty over Middle East tensions. Market participants are preparing for three potential scenarios: Iran capitulation within 2-3 weeks (low probability but would trigger strong rebound), targeted US strikes followed by withdrawal (most likely scenario), or prolonged ground war pushing oil to $150-200/barrel (most bearish for high-valuation tech stocks). Technical analysis shows the index faces critical quarterly line support at 32,328 points, with failure potentially leading to tests of 30,500 or even the half-year line at 29,949 points."
+    },
+    {
+      "title": "Nanya Technology Q1 Revenue Hits Record High at NT$49.09 Billion, Up 63% QoQ",
+      "section": "金融",
+      "date": "2026/04/03 01:29:45",
+      "url": "https://money.udn.com/money/story/11162/9419952?from=edn_maintab_cate",
+      "summary": "Formosa Plastics Group's memory subsidiary Nanya Technology reported record quarterly revenue of NT$49.09 billion in Q1 2026, marking a 63.1% quarter-over-quarter increase and 582.91% year-over-year surge. March alone saw NT$18.17 billion in consolidated revenue, reflecting the ongoing DRAM shortage and price increases. The company expects DRAM prices to continue rising through year-end, with supply-demand imbalances likely persisting until H1 2027. Nanya recently completed a major private placement raising NT$78.72 billion from international memory giants including Kioxia, SanDisk, SK Hynix's Solidigm, and networking leader Cisco. This influx of strategic capital is expected to enhance Nanya's cooperation with global memory manufacturers and system integrators, positioning the company well for the AI-driven memory boom."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Kioxia Exits 2D NAND Production, Benefiting Taiwan's Winbond and Macronix",
+      "section": "金融",
+      "date": "2026/04/01 23:49:48",
+      "url": "https://money.udn.com/money/story/5612/9417628?from=edn_maintab_cate",
+      "summary": "Japanese memory giant Kioxia announced it will completely cease production of 2D NAND chips, including floating gate architecture and 64-layer BiCS3 products, with final orders required by September 30, 2026. This creates significant opportunities for Taiwan manufacturers Winbond and Macronix to capture market share in automotive, industrial, and embedded applications. The move reflects AI-driven resource reallocation as manufacturers focus on high-layer 3D NAND products."
+    },
+    {
+      "title": "Airlines Raise Fuel Surcharges as Oil Prices Double",
+      "section": "金融",
+      "date": "2026/04/02 00:12:43",
+      "url": "https://money.udn.com/money/story/5612/9417634?from=edn_maintab_cate",
+      "summary": "China Airlines, EVA Air, and Starlux Airlines will implement significant fuel surcharge increases starting April 7, with short-haul routes rising to $45 per segment and long-haul to $117 per segment. Aviation fuel prices have doubled to NT$44.2 per liter domestically, creating substantial cost pressures for Taiwan's aviation sector. The carriers are absorbing 60-85% of the fuel cost increases themselves, with ticket prices for popular routes like Tokyo rising nearly 13%."
+    },
+    {
+      "title": "Dubai Transit Hub Disruption Benefits Taiwan Airlines",
+      "section": "金融",
+      "date": "2026/04/02 00:07:58",
+      "url": "https://money.udn.com/money/story/5612/9417638?from=edn_maintab_cate",
+      "summary": "The dysfunction of Dubai as a Middle East transit hub has created massive demand spillover for Taiwan's airlines serving European routes. China Airlines and EVA Air are reporting load factors exceeding 90-97% on European flights, with booking demand extending into the summer season. This represents a significant revenue opportunity as travelers avoid Middle East connections due to regional conflicts."
+    },
+    {
+      "title": "Taiwan Dollar and Interest Rate Impacts from Oil Price Surge",
+      "section": "產經",
+      "date": "2026/04/02 18:42:27",
+      "url": "https://money.udn.com/money/story/5599/9419629",
+      "summary": "Iran is establishing a de facto toll system for ships transiting the Strait of Hormuz, accepting payment in Chinese yuan or stablecoins. The mechanism could generate $120 billion annually for Iran based on pre-war shipping volumes. This development has significant implications for global oil flows and Taiwan's energy costs, potentially affecting the Taiwan dollar and Central Bank monetary policy as imported inflation pressures mount."
+    }
+  ],
+  "not_relevant": []
+}
