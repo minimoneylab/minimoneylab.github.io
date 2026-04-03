@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-04",
+  "update_time": "2026-04-03 23:06:33",
+  "total_articles": 20,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Faces \"Qingming Festival Reversal\" - Foreign Investors Sell NT$38.69 Billion, Three Scenarios for Post-Holiday Strategy",
+      "section": "證券",
+      "date": "2026/04/03 00:51:31",
+      "url": "https://money.udn.com/money/story/5607/9420067?from=edn_maintab_cate",
+      "summary": "Taiwan stocks suffered a massive selloff ahead of the Qingming Festival holiday, plunging 602 points to close at 32,572 as foreign investors dumped NT$38.69 billion worth of shares following Trump's hawkish speech threatening \"extremely fierce\" attacks on Iran within 2-3 weeks. Eight major state-owned securities firms and the national team rushed in to stem the decline, with the index swinging 980 points intraday. Analysts outline three potential scenarios: (1) Iran capitulates under US pressure, leading to a relief rally; (2) US delivers devastating strikes on Iranian energy facilities then declares \"mission accomplished\" - the most likely scenario; (3) Prolonged ground warfare pushing Brent crude to $150-200/barrel, forcing the Fed to delay rate cuts and hurting high-valuation tech stocks. Technical analysis shows Taiwan stocks have broken key short-term moving average support, with downside risks to 30,500 or even the half-year line at 29,949 if the quarterly line at 32,328 fails to hold."
+    },
+    {
+      "title": "Microsoft Invests $10 Billion in Japan AI Infrastructure - Hon Hai to Benefit from Increased Orders",
+      "section": "金融",
+      "date": "2026/04/04 00:18:49",
+      "url": "https://money.udn.com/money/story/5612/9421468?from=edn_maintab_cate",
+      "summary": "Microsoft announced a four-year $10 billion investment plan in Japan focusing on data centers and related infrastructure, partnering with Sakura Internet and SoftBank to develop cloud and AI infrastructure. This represents a significant expansion of AI services in Asia and is expected to directly benefit Hon Hai (2317), which has existing collaboration with SoftBank on AI computing power projects. Hon Hai has already converted Sharp's second Kameyama factory into an AI server manufacturing base to capture Japan's sovereign AI data requirements. SoftBank previously acquired land and buildings at Sharp's Sakai panel factory for approximately 100 billion yen to build AI data centers, with operations planned to begin in 2026. The investment focuses on \"data sovereignty\" - managing critical data within national borders - an increasingly important concept for economic security."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Nanya Technology Q1 Revenue Hits Record High at NT$49.09 Billion, Up 63% QoQ",
+      "section": "金融",
+      "date": "2026/04/03 01:29:45",
+      "url": "https://money.udn.com/money/story/11162/9419952?from=edn_maintab_cate",
+      "summary": "Nanya Technology (2408) reported March revenue of NT$18.17 billion, a new monthly high, with Q1 consolidated revenue reaching NT$49.09 billion, up 63.1% QoQ and 582.91% YoY. The company expects DRAM supply shortage to continue through H1 2027, with Q2 prices set to jump further due to AI demand expansion and limited new capacity additions."
+    },
+    {
+      "title": "Analysts Advise Investors to Monitor Four Key Indicators During Holiday for Post-Holiday Taiwan Stock Direction",
+      "section": "證券",
+      "date": "2026/04/03 00:09:44",
+      "url": "https://money.udn.com/money/story/5607/9420011?from=edn_maintab_cate",
+      "summary": "Following Trump's speech threatening Iran attacks, analysts identify four critical indicators to watch during the holiday: (1) US military actions and timing, (2) Iran's retaliation scale and Strait of Hormuz conditions, (3) US stock reaction to non-farm payrolls data, and (4) oil price transmission effects. Brent crude above $110/barrel would create significant global inflation pressure."
+    },
+    {
+      "title": "DRAM Market Noise Increases, But Industry Players Say \"Don't Worry\"",
+      "section": "金融",
+      "date": "2026/04/03 01:25:14",
+      "url": "https://money.udn.com/money/story/11162/9419954?from=edn_subcatelist_cate",
+      "summary": "Despite recent noise in memory markets including spot price corrections in US and China, Taiwan memory companies including Nanya (2408), Winbond, ADATA, and Apacer maintain that the price cycle has not reversed and the industry remains in an upward trend. Contract prices continue rising with multi-year agreements being signed, providing stable operational support."
+    },
+    {
+      "title": "Three Major IC Sectors Brewing Price Increases to Reflect Higher Production Costs",
+      "section": "金融",
+      "date": "2026/04/04 00:48:23",
+      "url": "https://money.udn.com/money/story/5612/9421467?from=edn_maintab_cate",
+      "summary": "Taiwan-based power management IC, MCU, and touch IC manufacturers are considering price increases to reflect higher production costs. Following price hikes by major international players like Infineon, NXP, and TI, Taiwan's Sitronix and Himax announced 15-20% price increases for driver ICs effective April 1st."
+    },
+    {
+      "title": "Google Launches Open Model Gemma 4, Benefiting Taiwan Supply Chain Including Hon Hai and Quanta",
+      "section": "金融",
+      "date": "2026/04/04 00:50:33",
+      "url": "https://money.udn.com/money/story/5612/9421460?from=edn_maintab_cate",
+      "summary": "Google unveiled Gemma 4, a new generation open model supporting various hardware scenarios from Android devices to data center AI computing. The expansion is expected to increase AI server demand, benefiting ODM manufacturers Hon Hai (2317), Quanta, and Wistron. Hon Hai handles both GPU and TPU architecture AI server orders for Google with market share above 40%."
+    },
+    {
+      "title": "ChungHwa Telecom Champions Net Zero Technology R&D",
+      "section": "金融",
+      "date": "2026/04/03 01:26:41",
+      "url": "https://money.udn.com/money/story/5612/9419962?from=edn_subcatelist_cate",
+      "summary": "ChungHwa Telecom (3045) and Fubon Group continued their collaboration with Academia Sinica on net zero technology development, successfully achieving Taiwan's first deep geothermal well drilling and Kuroshio current power generation testing. The partnership focuses on \"decarbonization and hydrogen,\" \"geothermal energy,\" and \"ocean energy\" technologies."
+    }
+  ],
+  "not_relevant": []
+}
