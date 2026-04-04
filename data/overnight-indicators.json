@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-04-04 05:59:42",
+  "update_time": "2026-04-05 05:57:12",
   "us_indices": [
     {
       "name": "S&P 500",
@@ -44,6 +44,28 @@
       "close": 25116.53,
       "change": -177.5,
       "change_pct": -0.7
+    },
+    {
+      "name": "Nikkei 225",
+      "ticker": "^N225",
+      "close": 53123.49,
+      "change": 660.22,
+      "change_pct": 1.26
+    }
+  ],
+  "sgx_futures": [
+    {
+      "name": "SGX FTSE Taiwan",
+      "contract": "TWN M26",
+      "ticker": "TWN-M26.SI",
+      "date": "2026-04-02",
+      "open": 2728.5,
+      "high": 2740.0,
+      "low": 2634.0,
+      "close": 2678.5,
+      "prev_close": null,
+      "change_pct": null,
+      "volume": 314
     }
   ],
   "adr_signals": [
