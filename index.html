@@ -563,6 +563,12 @@
                     <span class="country-flag">VN</span>
                     <span class="country-name">Vietnam</span>
                 </button>
+
+		<button class="country-button" onclick="switchCountry('brazil')">
+		    <span class="country-flag">BR</span>
+		    <span class="country-name">Brazil</span>
+		</button>
+
             </div>
             
             <!-- Tools Section -->
@@ -711,7 +717,8 @@
                 'indonesia': 'indonesia.png',
                 'india': 'india.png',
                 'malaysia': 'malaysia.png',
-                'vietnam': 'vietnam.png'
+                'vietnam': 'vietnam.png',
+		'brazil': 'brazil.png'
             };
             
             // Update both images
@@ -725,7 +732,7 @@
             }
             
             // Show/hide content
-            if (country === 'taiwan' || country === 'vietnam') {
+            if (country === 'taiwan' || country === 'vietnam' || country === 'brazil') {
                 document.getElementById('taiwan-content').style.display = 'block';
                 document.getElementById('other-content').style.display = 'none';
                 // Reload dates and data for the selected country
@@ -780,7 +787,9 @@
         async function loadData(dateStr) {
             try {
                 // Determine data path based on current country
-                const dataPath = currentCountry === 'vietnam' ? `vietnam/data/${dateStr}.json` : `data/${dateStr}.json`;
+                const dataPath = currentCountry === 'vietnam' ? `vietnam/data/${dateStr}.json` : 
+                 currentCountry === 'brazil' ? `data/brazil-news.json` : 
+                 `data/${dateStr}.json`;
                 
                 const response = await fetch(dataPath);
                 if (!response.ok) throw new Error('Not found');
@@ -881,7 +890,7 @@
                 html += `<article class="article">
                     <h3 class="article-title">${article.title}</h3>
                     <div class="article-meta">
-                        <span>📂 ${article.section}</span>
+                        <span>📂 ${article.section || article.source}</span>
                         <span>📅 ${article.date}</span>
                     </div>
                     <div class="article-summary">${article.summary}</div>
