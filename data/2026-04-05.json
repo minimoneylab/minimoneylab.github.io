@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-05",
+  "update_time": "2026-04-04 23:09:14",
+  "total_articles": 16,
+  "high": [
+    {
+      "title": "Microsoft Invests $10 Billion in Japan AI Infrastructure; Hon Hai Benefits with Order Momentum",
+      "section": "金融",
+      "date": "2026/04/04 00:18:49",
+      "url": "https://money.udn.com/money/story/5612/9421468?from=edn_maintab_cate",
+      "summary": "Microsoft announced a four-year $10 billion investment in Japan focusing on data centers and related infrastructure as part of its AI service expansion in Asia. Industry analysts expect Hon Hai (2317) to directly benefit, laying groundwork for future order momentum. Microsoft will collaborate with Sakura Internet and SoftBank to develop cloud and AI infrastructure. Hon Hai and SoftBank have significant consensus on AI computing infrastructure projects, jointly pursuing AI computing power in the US and building sovereign AI. Hon Hai previously converted Sharp's second Kameyama factory into an AI server manufacturing base to capture Japan's sovereign AI data autonomy demand. This development strengthens Hon Hai's position in the global AI infrastructure supply chain and supports its capital expenditure expansion plans in the US, Japan, and Taiwan for AI capacity increases."
+    },
+    {
+      "title": "TSMC's Magnetic Effect Powers Science Parks to Record Revenue; Integrated Circuits Contribute Over 80%",
+      "section": "金融",
+      "date": "2026/04/04 22:24:10",
+      "url": "https://money.udn.com/money/story/5612/9422694?from=edn_maintab_cate",
+      "summary": "Taiwan's three major science parks delivered exceptional performance in early 2026, with combined January-February revenue approaching NT$1 trillion at NT$992.1 billion, up 21.48% year-on-year. Integrated circuit industries generated NT$825.16 billion revenue, representing over 83% of total park revenue and growing 23.36%. Experts analyze that TSMC's (2330) leading position in advanced processes is translating into powerful growth momentum, creating a strong \"magnetic effect\" across the entire park ecosystem. With TSMC's 2026 capex raised to $52-56 billion, most spending will convert to domestic fab equipment and R&D investments, significantly boosting the semiconductor supply chain in Taiwan's science parks."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Google Launches Open Model Benefiting Taiwan Chain; Hon Hai, Quanta Benefit",
+      "section": "金融",
+      "date": "2026/04/04 00:50:33",
+      "url": "https://money.udn.com/money/story/5612/9421460?from=edn_maintab_cate",
+      "summary": "Google announced Gemma 4, a new open model supporting Android devices to data center AI computing. The model enhances text generation and supports image, video processing and code generation, expanding mobile and edge AI applications. This development increases AI computing demand, benefiting ODM manufacturers like Hon Hai, Quanta, Wistron, and Inventec through increased AI server orders."
+    },
+    {
+      "title": "Three IC Sectors Brewing Price Increases to Reflect Higher Production Costs",
+      "section": "金融",
+      "date": "2026/04/04 00:48:23",
+      "url": "https://money.udn.com/money/story/5612/9421467?from=edn_maintab_cate",
+      "summary": "Taiwan's power management IC, MCU, and touch IC manufacturers are preparing price increases to reflect higher production costs. This follows earlier price hikes by Chinese MCU manufacturers and major international players like Infineon, NXP, and TI. Display driver IC companies including Sitronix and Himax have already implemented 15-20% price increases from April 1st."
+    },
+    {
+      "title": "AI Computing Demand Heats Up; Test Interface Four Leaders See Explosive Operations",
+      "section": "金融",
+      "date": "2026/04/05 02:27:23",
+      "url": "https://money.udn.com/money/story/5612/9422788?from=edn_maintab_cate",
+      "summary": "Continued AI computing demand growth drives complexity in HPC, ASIC, and advanced packaging tests, benefiting semiconductor test interface companies. Taiwan's \"big four\" - Chunghwa Precision Test Tech, MPI Corporation, ChipMOS Technologies, and Logos Technologies - are experiencing strong operational momentum with upgraded product portfolios and expanded customer bases."
+    },
+    {
+      "title": "Three Major Science Parks Achieve Double-Digit Growth Benefiting from Strong HPC and AI Demand",
+      "section": "金融",
+      "date": "2026/04/05 02:04:38",
+      "url": "https://money.udn.com/money/story/5612/9422785?from=edn_maintab_cate",
+      "summary": "Taiwan's three science parks generated NT$992.1 billion in January-February revenue, up 21.48% year-on-year, driven by strong HPC, AI applications, optical communications, and electronic shelf label demand. Southern Taiwan Science Park led with NT$492.97 billion revenue, up 22.25%, while Hsinchu and Central Taiwan parks also achieved over 20% growth."
+    },
+    {
+      "title": "Foreign and Domestic Investors Support Dark Horse Stocks; Ta Yih Eusol, Mega Financial Gain Buying Interest",
+      "section": "證券",
+      "date": "2026/04/05 02:20:49",
+      "url": "https://money.udn.com/money/story/5607/9422794?from=edn_maintab_cate",
+      "summary": "Despite foreign investors withdrawing nearly NT$1 trillion from Taiwan stocks since Middle East conflicts began, certain stocks received simultaneous buying from both foreign and domestic institutional investors. Sixteen stocks including Ta Yih Eusol (3702), Mega Financial (2886), Unimicron (3037), and Huaku Development (2548) attracted dual institutional buying and showed strong price performance above monthly moving averages."
+    }
+  ],
+  "not_relevant": []
+}
