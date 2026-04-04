@@ -487,6 +487,56 @@
                 });
             }
             
+            // SGX Futures (Overnight)
+            if (data.sgx_futures && data.sgx_futures.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-title">🌐 Asian Equity Futures (Overnight)</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Future</th>
+                                    <th style="text-align: right">Date</th>
+                                    <th style="text-align: right">Open</th>
+                                    <th style="text-align: right">High</th>
+                                    <th style="text-align: right">Low</th>
+                                    <th style="text-align: right">Close</th>
+                                    <th style="text-align: right">Prev Close</th>
+                                    <th style="text-align: right">Change %</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                `;
+                
+                data.sgx_futures.forEach(fut => {
+                    const changeClass = fut.change_pct !== null && fut.change_pct >= 0 ? 'positive' : 'negative';
+                    const arrow = fut.change_pct !== null ? (fut.change_pct >= 0 ? '↑' : '↓') : '';
+                    const changeDisplay = fut.change_pct !== null ? `${fut.change_pct >= 0 ? '+' : ''}${fut.change_pct}% ${arrow}` : 'N/A';
+                    
+                    html += `
+                        <tr>
+                            <td>${fut.name} (${fut.contract})</td>
+                            <td style="text-align: right">${fut.date}</td>
+                            <td style="text-align: right">${fut.open ? fut.open.toLocaleString() : 'N/A'}</td>
+                            <td style="text-align: right">${fut.high ? fut.high.toLocaleString() : 'N/A'}</td>
+                            <td style="text-align: right">${fut.low ? fut.low.toLocaleString() : 'N/A'}</td>
+                            <td style="text-align: right"><strong>${fut.close ? fut.close.toLocaleString() : 'N/A'}</strong></td>
+                            <td style="text-align: right">${fut.prev_close ? fut.prev_close.toLocaleString() : 'N/A'}</td>
+                            <td style="text-align: right" class="${fut.change_pct !== null ? changeClass : ''}">${changeDisplay}</td>
+                        </tr>
+                    `;
+                });
+                
+                html += `
+                            </tbody>
+                        </table>
+                        <div style="margin-top: 12px; font-size: 0.8rem; color: #9B9B9B;">
+                            <strong>Note:</strong> SGX FTSE Taiwan futures trade in two sessions - T session (8:45 AM - 1:45 PM SGT) and T+1 overnight session (2:15 PM - 5:15 AM SGT next day). Close price reflects end of T+1 overnight session.
+                        </div>
+                    </div>
+                `;
+            }
+            
             // Asia Indices
             if (data.asia_indices && data.asia_indices.length > 0) {
                 html += `
