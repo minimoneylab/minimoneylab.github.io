@@ -48,6 +48,42 @@ ASIA_INDICES = [
     {'^N225': 'Nikkei 225'}
 ]
 
+# SGX Futures - contract month codes
+# Futures month codes: F=Jan, G=Feb, H=Mar, J=Apr, K=May, M=Jun, N=Jul, Q=Aug, U=Sep, V=Oct, X=Nov, Z=Dec
+MONTH_CODES = ['F', 'G', 'H', 'J', 'K', 'M', 'N', 'Q', 'U', 'V', 'X', 'Z']
+
+def get_current_sgx_ticker():
+    """Get current SGX FTSE Taiwan futures ticker based on current month"""
+    now = datetime.now(HK_TIMEZONE)
+    current_year = now.year % 100  # Last 2 digits
+    
+    # SGX futures use quarterly contracts
+    # Quarterly months: Mar (H), Jun (M), Sep (U), Dec (Z)
+    quarterly_codes = ['H', 'M', 'U', 'Z']
+    quarterly_months = [3, 6, 9, 12]
+    
+    # Find next quarterly expiry (use "on the month" contract for liquidity)
+    for i, month in enumerate(quarterly_months):
+        if now.month <= month:
+            month_code = quarterly_codes[i]
+            year = current_year
+            break
+    else:
+        # Roll to next year Q1
+        month_code = 'H'  # March
+        year = (current_year + 1) % 100
+    
+    ticker = f"TWN-{month_code}{year:02d}.SI"
+    return ticker
+
+SGX_FUTURES = [
+    {
+        'name': 'SGX FTSE Taiwan',
+        'contract': 'TWN',
+        'get_ticker': get_current_sgx_ticker  # Function to get current contract
+    }
+]
+
 
 def safe_round(value, decimals=2):
     """Round value, return None if NaN or inf"""
@@ -277,6 +313,62 @@ def get_asia_indices():
     return indices
 
 
+def get_sgx_futures():
+    """Get SGX futures data - show raw OHLC for latest trading day"""
+    futures = []
+    
+    for future in SGX_FUTURES:
+        try:
+            # Get current contract ticker
+            ticker = future['get_ticker']()
+            print(f"  Trying ticker: {ticker}")
+            
+            # Fetch data from Yahoo Finance
+            data = yf.Ticker(ticker)
+            hist = data.history(period='1mo')  # Use 1 month to ensure data on weekends
+            
+            print(f"    Debug: Got {len(hist)} rows")
+            
+            if len(hist) < 1:
+                print(f"  ✗ No data available for {future['name']}")
+                continue
+            
+            # Get latest trading day
+            latest = hist.iloc[-1]
+            latest_date = hist.index[-1].strftime('%Y-%m-%d')
+            
+            # Try to get previous close (if available)
+            prev_close = None
+            change_pct = None
+            if len(hist) >= 2:
+                prev_close = safe_round(hist['Close'].iloc[-2], 2)
+                current_close = safe_round(latest['Close'], 2)
+                if prev_close and current_close:
+                    change_pct = safe_round(((current_close - prev_close) / prev_close) * 100, 2)
+            
+            futures.append({
+                'name': future['name'],
+                'contract': f"{future['contract']} {ticker.split('-')[1].split('.')[0]}",  # e.g., "TWN M26"
+                'ticker': ticker,
+                'date': latest_date,
+                'open': safe_round(latest['Open'], 2),
+                'high': safe_round(latest['High'], 2),
+                'low': safe_round(latest['Low'], 2),
+                'close': safe_round(latest['Close'], 2),
+                'prev_close': prev_close,  # Will be None if only 1 day of data
+                'change_pct': change_pct,  # Will be None if only 1 day of data
+                'volume': int(latest['Volume']) if not math.isnan(latest['Volume']) else 0
+            })
+            
+            print(f"  ✓ {future['name']} ({latest_date}): O={latest['Open']:.2f}, H={latest['High']:.2f}, L={latest['Low']:.2f}, C={latest['Close']:.2f}")
+            
+        except Exception as e:
+            print(f"  ✗ Error fetching {future['name']}: {e}")
+            continue
+    
+    return futures
+
+
 def main():
     print("=" * 70)
     print("SYNTHETIC OVERNIGHT INDICATOR")
@@ -294,6 +386,11 @@ def main():
     asia_indices = get_asia_indices()
     print(f"✓ Fetched {len(asia_indices)} Asia indices")
     
+    # Get SGX futures
+    print("Fetching SGX futures data...")
+    sgx_futures = get_sgx_futures()
+    print(f"✓ Fetched {len(sgx_futures)} SGX futures")
+    
     # Get ADR signals
     print("Calculating ADR signals...")
     adr_signals = []
@@ -310,6 +407,7 @@ def main():
         'update_time': datetime.now(HK_TIMEZONE).strftime('%Y-%m-%d %H:%M:%S'),
         'us_indices': us_indices,
         'asia_indices': asia_indices,
+        'sgx_futures': sgx_futures,
         'adr_signals': adr_signals
     }
     
