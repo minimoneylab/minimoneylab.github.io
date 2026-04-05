@@ -1,18 +1,35 @@
 {
-  "date": "2026-04-04",
-  "update_time": "2026-04-04 11:20:19",
-  "total_articles": 2,
+  "date": "2026-04-05",
+  "update_time": "2026-04-05 08:04:06",
+  "total_articles": 6,
   "high": [
     {
-      "title": "10 Stocks to Invest and Outperform the Ibovespa in April, According to Safra",
+      "title": "Natura (NATU3) leads Ibovespa gains and RD Saúde (RADL3) is worst performing stock; see weekly highlights",
+      "source": "MoneyTimes",
+      "date": "2026-04-05",
+      "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-14-lils/",
+      "summary": "The Ibovespa completed its second consecutive week of gains, rising 3.58% to close at 188,042.02 points amid uncertainties about the Iran conflict duration and Brazil's electoral scenario. The USD/BRL fell 1.56% during the week, closing at R$ 5.1599, showing BRL strength. Central Bank President Gabriel Galípolo explained that the monetary authority opted for a smaller interest rate cut to \"gain more time\" for assessment. In March, COPOM reduced the Selic rate from 15% to 14.75% per annum. Galípolo stated that \"the cushion accumulated with a more conservative position allowed gaining time to better understand the scenario and continue with the planned trajectory.\" This dovish commentary suggests the BCB remains cautious about further aggressive cuts. The market continues focusing on Middle East conflict implications for monetary policy, while the first electoral polls are drawing attention to Brazil's political landscape."
+    }
+  ],
+  "medium": [
+    {
+      "title": "10 stocks to invest and outperform Ibovespa in April, according to Safra",
       "source": "MoneyTimes",
       "date": "2026-04-04",
       "url": "https://www.moneytimes.com.br/10-acoes-para-investir-e-superar-o-ibovespa-em-abril-segundo-o-safra-jals/",
-      "summary": "Banco Safra has adjusted its recommended equity portfolio for April, replacing Allos (ALOS3) with Multiplan (MULT3) and rebalancing weights across assets. The bank maintains positive assessments for all portfolio names, with changes driven only by marginal risk-return adjustments. Multiplan's inclusion follows recent underperformance versus peers, creating a more attractive valuation window according to Safra. The company benefits from a leaner capex plan and should be among the main beneficiaries of tax reform in its sector. Notably, Safra reduced Bradesco (BBDC4) weighting due to marginal deterioration in the domestic banking environment, particularly in the credit segment amid rising judicial recovery requests. Conversely, Vale (VALE3) exposure was increased after recent weaker performance. This portfolio adjustment reflects selective positioning within Brazilian equities, with particular attention to banking sector headwinds and commodity sector opportunities, providing insight into institutional sentiment toward key Ibovespa components."
+      "summary": "Safra adjusted its recommended stock portfolio for April, replacing Allos (ALOS3) with Multiplan (MULT3) and rebalancing weights among assets. The bank reduced Bradesco (BBDC4) exposure due to marginal deterioration in the domestic banking environment, particularly in credit segments amid increased judicial recovery requests. Vale (VALE3) exposure was increased after recent weak performance, while Multiplan entered following underperformance that created attractive valuation opportunities."
+    },
+    {
+      "title": "Dividends: Itaú BBA replaces Aura Minerals (AURA33) with Petrobras (PETR4) in April; see stocks",
+      "source": "MoneyTimes",
+      "date": "2026-04-05",
+      "url": "https://www.moneytimes.com.br/dividendos-itau-bba-troca-aura-minerals-aura33-por-petrobras-petr4-em-abril-veja-acoes-pads/",
+      "summary": "Itaú BBA modified its dividend portfolio for April, removing Aura Minerals (AURA33) and adding Petrobras (PETR4). The bank expects Petrobras to benefit from higher oil prices through upward diesel price adjustments, projecting generous dividend distributions. In March, the dividend portfolio fell 6.5%, underperforming Ibovespa by 5.8 percentage points, with Bradesco's 9% decline being the main negative contributor due to weak banking sector performance."
     }
   ],
-  "medium": [],
   "not_relevant": [
-    "Salaries up to R$ 52,000; see the areas with the highest compensation"
+    "Salary up to R$ 52 thousand; see areas with highest compensation",
+    "It's tomorrow: plan to seek up to R$ 1.4 million starting with R$ 2,198 initial in cryptocurrencies opens registrations",
+    "'Memebot Flash Million' opens vacancies to access tool that seeks up to R$ 1 million with cryptocurrencies operating every 7 days"
   ]
 }
