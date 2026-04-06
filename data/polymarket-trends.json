@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-04-06 05:57:50",
+  "update_time": "2026-04-07 06:02:49",
   "categories": {
     "Iran & Middle East": [
       {
         "title": "US forces enter Iran by..?",
         "slug": "us-forces-enter-iran-by",
-        "volume": 157894720.0,
-        "liquidity": 3260076.0,
+        "volume": 195085196.0,
+        "liquidity": 6326861.0,
         "end_date": "",
         "days_to_close": null,
         "markets": [
@@ -24,7 +24,7 @@
           },
           {
             "question": "US forces enter Iran by December 31?",
-            "probability": 99.9
+            "probability": 99.7
           },
           {
             "question": "US forces enter Iran by March 3?",
@@ -44,7 +44,7 @@
           },
           {
             "question": "US forces enter Iran by April 30?",
-            "probability": 99.8
+            "probability": 99.6
           }
         ],
         "url": "https://polymarket.com/event/us-forces-enter-iran-by"
@@ -52,8 +52,8 @@
       {
         "title": "US x Iran ceasefire by...?",
         "slug": "us-x-iran-ceasefire-by",
-        "volume": 93577914.0,
-        "liquidity": 1602875.0,
+        "volume": 103439309.0,
+        "liquidity": 1938854.0,
         "end_date": "",
         "days_to_close": null,
         "markets": [
@@ -63,7 +63,7 @@
           },
           {
             "question": "US x Iran ceasefire by April 30?",
-            "probability": 22.5
+            "probability": 29.5
           },
           {
             "question": "US x Iran ceasefire by March 6?",
@@ -79,23 +79,27 @@
           },
           {
             "question": "US x Iran ceasefire by December 31?",
-            "probability": 74.0
+            "probability": 75.5
           },
           {
             "question": "US x Iran ceasefire by June 30?",
-            "probability": 51.5
+            "probability": 58.5
           },
           {
             "question": "US x Iran ceasefire by May 31?",
-            "probability": 40.5
+            "probability": 46.5
           },
           {
             "question": "US x Iran ceasefire by April 15?",
-            "probability": 9.5
+            "probability": 15.5
           },
           {
             "question": "US x Iran ceasefire by April 7?",
-            "probability": 2.6
+            "probability": 2.2
+          },
+          {
+            "question": "US x Iran ceasefire by May 15?",
+            "probability": 44.5
           }
         ],
         "url": "https://polymarket.com/event/us-x-iran-ceasefire-by"
@@ -106,7 +110,7 @@
         "volume": 63229538.0,
         "liquidity": 0.0,
         "end_date": "2026-03-31T00:00:00Z",
-        "days_to_close": -6,
+        "days_to_close": -7,
         "markets": [
           {
             "question": "Will the Iranian regime fall by March 31?",
@@ -118,14 +122,14 @@
       {
         "title": "Will the Iranian regime fall by June 30?",
         "slug": "will-the-iranian-regime-fall-by-june-30",
-        "volume": 26402352.0,
-        "liquidity": 1448084.0,
+        "volume": 26730980.0,
+        "liquidity": 1349174.0,
         "end_date": "2026-06-30T00:00:00Z",
-        "days_to_close": 85,
+        "days_to_close": 84,
         "markets": [
           {
             "question": "Will the Iranian regime fall by June 30?",
-            "probability": 13.5
+            "probability": 11.5
           }
         ],
         "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30"
@@ -136,7 +140,7 @@
         "volume": 5772413.0,
         "liquidity": 0.0,
         "end_date": "2026-12-31T00:00:00Z",
-        "days_to_close": 269,
+        "days_to_close": 268,
         "markets": [
           {
             "question": "Will Iran close the Strait of Hormuz before 2027?",
@@ -216,7 +220,7 @@
         "volume": 84160555.0,
         "liquidity": 0.0,
         "end_date": "2026-03-31T00:00:00Z",
-        "days_to_close": -6,
+        "days_to_close": -7,
         "markets": [
           {
             "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of March?",
@@ -345,7 +349,7 @@
         "volume": 260075340.0,
         "liquidity": 0.0,
         "end_date": "2026-03-18T00:00:00Z",
-        "days_to_close": -19,
+        "days_to_close": -20,
         "markets": [
           {
             "question": "Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?",
@@ -369,10 +373,10 @@
       {
         "title": "Fed decision in April?",
         "slug": "fed-decision-in-april",
-        "volume": 54416275.0,
-        "liquidity": 3427368.0,
+        "volume": 56239623.0,
+        "liquidity": 4096876.0,
         "end_date": "2026-04-29T00:00:00Z",
-        "days_to_close": 23,
+        "days_to_close": 22,
         "markets": [
           {
             "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
@@ -396,14 +400,14 @@
       {
         "title": "How many Fed rate cuts in 2026?",
         "slug": "how-many-fed-rate-cuts-in-2026",
-        "volume": 16372577.0,
-        "liquidity": 1064125.0,
+        "volume": 16567099.0,
+        "liquidity": 1126017.0,
         "end_date": "2026-12-31T00:00:00Z",
-        "days_to_close": 269,
+        "days_to_close": 268,
         "markets": [
           {
             "question": "Will no Fed rate cuts happen in 2026?",
-            "probability": 37.8
+            "probability": 39.9
           },
           {
             "question": "Will 1 Fed rate cut happen in 2026?",
@@ -411,23 +415,23 @@
           },
           {
             "question": "Will 2 Fed rate cuts happen in 2026?",
-            "probability": 16.0
+            "probability": 15.5
           },
           {
             "question": "Will 3 Fed rate cuts happen in 2026?",
-            "probability": 9.0
+            "probability": 7.5
           },
           {
             "question": "Will 4 Fed rate cuts happen in 2026?",
-            "probability": 5.8
+            "probability": 4.8
           },
           {
             "question": "Will 5 Fed rate cuts happen in 2026?",
-            "probability": 2.0
+            "probability": 1.8
           },
           {
             "question": "Will 6 Fed rate cuts happen in 2026?",
-            "probability": 1.1
+            "probability": 1.2
           },
           {
             "question": "Will 7 Fed rate cuts happen in 2026?",
@@ -435,11 +439,11 @@
           },
           {
             "question": "Will 8 Fed rate cuts happen in 2026?",
-            "probability": 0.8
+            "probability": 0.5
           },
           {
             "question": "Will 9 Fed rate cuts happen in 2026?",
-            "probability": 0.5
+            "probability": 0.4
           },
           {
             "question": "Will 10 Fed rate cuts happen in 2026?",
@@ -451,7 +455,7 @@
           },
           {
             "question": "Will 12 or more Fed rate cuts happen in 2026?",
-            "probability": 0.9
+            "probability": 1.1
           }
         ],
         "url": "https://polymarket.com/event/how-many-fed-rate-cuts-in-2026"
