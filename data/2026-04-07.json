@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-07",
+  "update_time": "2026-04-06 23:08:50",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "Hon Hai Posts Record March Revenue on Strong AI Cabinet Shipments",
+      "section": "金融",
+      "date": "2026/04/06 02:31:32",
+      "url": "https://money.udn.com/money/story/5612/9423946?from=edn_maintab_cate",
+      "summary": "Hon Hai (2317) reported March consolidated revenue of NT$803.738 billion, marking the strongest March on record. Q1 revenue reached NT$2.129 trillion, the strongest first quarter ever with 29.68% YoY growth despite an 18.18% QoQ decline. All four major product categories showed strong growth. The company highlighted that AI cabinet shipments continue to grow, supporting strong Q2 performance with both quarterly and annual growth expected. Cloud networking products benefited from strong AI cloud product demand, while consumer smart products saw growth from new product launches. Hon Hai maintains full order visibility through 2027 for AI servers (L6-L11), positioning the company for double-digit growth this year. However, foreign investors have been net sellers amid Middle East tensions, with the stock falling to NT$193 last Thursday on selling pressure."
+    },
+    {
+      "title": "TSMC Investor Conference to Drive Market Rally on April 16",
+      "section": "證券",
+      "date": "2026/04/06 01:38:19",
+      "url": "https://money.udn.com/money/story/5607/9423943?from=edn_maintab_cate",
+      "summary": "Taiwan's earnings conference season begins in April with 26 listed companies scheduled. Market focus centers on TSMC's (2330) April 16 conference, with analysts expecting strong operational outlook to trigger a retaliatory rebound. Key conferences include Hon Hai (April 10), Nanya Tech (April 13), Delta Electronics and Lite-On (April 14). Fund managers believe these conferences will restore market confidence amid Middle East uncertainties, with TSMC's NT$46.9 trillion market cap having the largest index impact. Structural growth themes including AI, low-orbit satellites, optical communications remain key focuses for long-term positioning."
+    },
+    {
+      "title": "ChatGPT to Upgrade with 40% Computing Power Increase - Benefits Server Supply Chain",
+      "section": "金融",
+      "date": "2026/04/07 01:04:52",
+      "url": "https://money.udn.com/money/story/11162/9425203?from=edn_subcatelist_cate",
+      "summary": "OpenAI is reportedly preparing to release GPT 6.0 model mid-April, integrating ChatGPT, Codex, and Atlas browser functions with 40% higher computing capacity than GPT 5.4. The new model will handle text, audio, images, and video simultaneously. This drives additional computing power demand benefiting AI server supply chain including Hon Hai, Quanta (2382), and Wistron (3231). Hon Hai has secured orders through 2027 and expects double-digit growth this year. Quanta focuses on NVIDIA GPU architecture servers for CSPs, with Vera Rubin AI servers entering mass production in H2. The upgrade reflects continued AI infrastructure expansion driving server demand."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Foreign Investors Increase Stakes in AI-Related Stocks Despite Selling",
+      "section": "證券",
+      "date": "2026/04/07 00:35:52",
+      "url": "https://money.udn.com/money/story/5607/9425053?from=edn_maintab_cate",
+      "summary": "Despite selling NT$968.2 billion in March, foreign investors selectively increased positions in 14 stocks including Taiwan Circuit (6274), Jiazer, and semiconductor equipment companies. Electronics stocks, particularly AI-related names, remain foreign buying focus as war doesn't impact AI industry trends. Key purchases include copper clad laminate manufacturers and semiconductor equipment suppliers."
+    },
+    {
+      "title": "NVIDIA Partners with Marvell on AI-RAN, Benefits Taiwan Partners",
+      "section": "金融",
+      "date": "2026/04/07 02:38:57",
+      "url": "https://money.udn.com/money/story/5612/9425295?from=edn_maintab_cate",
+      "summary": "NVIDIA invested $2 billion in Marvell to expand AI-RAN ecosystem, transforming global telecom networks into AI infrastructure. This benefits Taiwan partners including Lite-On (2301), Pegatron (4938), and Wistron NeWeb (6285). AI-RAN technology adds computing capability to base stations, enabling AI inference tasks during low network traffic periods."
+    },
+    {
+      "title": "Phison Launches AI Mini PC Solution, Sells Out in 2 Hours",
+      "section": "金融",
+      "date": "2026/04/07 02:33:43",
+      "url": "https://money.udn.com/money/story/5612/9425296?from=edn_maintab_cate",
+      "summary": "Phison (8299) introduced AI mini PC solution for edge AI applications, selling out within two hours on JD.com platform in China. The \"GMK\" AI mini PC uses Phison's hybrid AI SSD solution, enabling 120 billion parameter AI model inference with only 32GB DRAM. This marks Phison as first Taiwan company directly capturing edge AI device demand."
+    },
+    {
+      "title": "Largan Posts Strongest Q1 Revenue, iPhone 18 Variable Aperture Expected",
+      "section": "金融",
+      "date": "2026/04/06 02:13:28",
+      "url": "https://money.udn.com/money/story/5612/9423875?from=edn_maintab_cate",
+      "summary": "Largan (3008) reported Q1 revenue of NT$15.544 billion, strongest first quarter on record with 7% YoY growth. March revenue reached NT$5.42 billion. Market expects iPhone 18 series to first adopt variable aperture lens in H2, representing biggest iPhone upgrade in recent years and benefiting Largan's premium positioning."
+    }
+  ],
+  "not_relevant": []
+}
