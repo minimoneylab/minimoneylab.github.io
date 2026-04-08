@@ -6,6 +6,7 @@ Scrapes financial news about Brazil markets, FX, rates, and central bank
 
 import os
 import sys
+import time
 from datetime import datetime, timezone, timedelta
 from playwright.sync_api import sync_playwright
 import gspread
@@ -204,11 +205,28 @@ def fetch_article_content(url):
 
 
 def save_to_sheet(client, articles):
-    """Save articles to Google Sheet"""
+    """Save articles to Google Sheet with retry logic"""
+    
+    # Retry logic for API errors (503, rate limits, etc.)
+    max_retries = 3
+    retry_delay = 5  # seconds
+    
+    spreadsheet = None
+    for attempt in range(max_retries):
+        try:
+            # Open spreadsheet
+            spreadsheet = client.open(SPREADSHEET_NAME)
+            break  # Success, exit retry loop
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"  Attempt {attempt + 1} failed: {e}")
+                print(f"  Retrying in {retry_delay} seconds...")
+                time.sleep(retry_delay)
+            else:
+                print(f"  All {max_retries} attempts failed")
+                raise  # Final attempt failed, re-raise error
+    
     try:
-        # Open spreadsheet
-        spreadsheet = client.open(SPREADSHEET_NAME)
-        
         # Try to get existing tab, or create it
         try:
             sheet = spreadsheet.worksheet(SHEET_NAME)
