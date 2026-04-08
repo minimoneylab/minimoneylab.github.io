@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-09",
+  "update_time": "2026-04-08 23:13:05",
+  "total_articles": 35,
+  "high": [
+    {
+      "title": "TSMC Target Price Raised to NT$2,750 by Goldman Sachs Ahead of April 16 Investor Conference",
+      "section": "證券",
+      "date": "2026/04/09 01:21:36",
+      "url": "https://money.udn.com/money/story/5607/9430256?from=edn_maintab_cate",
+      "summary": "Following Morgan Stanley, Goldman Sachs has raised TSMC's target price to NT$2,750 from NT$2,600, maintaining a \"Buy\" rating ahead of the company's April 16 investor conference. Goldman's semiconductor analyst Lu Kun-lin upgraded 2026-2027 earnings forecasts by 4-6%, with 2027 EPS now at NT$125 and 2028 EPS at NT$165.32. The upgrade reflects strong AI demand driving structural higher profit margins despite weak smartphone and consumer demand. AI accelerator and AI-driven traditional server CPU demand is expected to offset consumer weakness. This follows other bullish calls, with Lyon Securities maintaining the highest target price at NT$3,030. The upgrades create positive momentum before TSMC's critical April 16 investor day, which will provide guidance on advanced node capacity and AI demand outlook."
+    },
+    {
+      "title": "Taiwan Stock Market Surges 1,531 Points to 34,761 on US-Iran Ceasefire News",
+      "section": "證券",
+      "date": "2026/04/09 02:08:10",
+      "url": "https://money.udn.com/money/story/5607/9430204?from=edn_maintab_cate",
+      "summary": "Taiwan stocks experienced a massive rally on April 8, gaining 1,531 points (4.6%) to close at 34,761 points, marking the second-largest single-day point gain in history. The surge was driven by the US-Iran two-week ceasefire agreement, which injected confidence into global markets. TSMC led the charge with a NT$90 gain to NT$1,950. The electronics sector index surged 112 points (5.4%), creating a historic high in point terms. Trading volume expanded to NT$894.1 billion, showing healthy \"price up, volume up\" dynamics. Three major institutional investor groups bought a record NT$158.36 billion net, with foreign investors purchasing NT$117.77 billion (second-highest on record), investment trusts buying NT$4.72 billion, and proprietary traders purchasing NT$35.86 billion (both historic highs). This massive capital inflow suggests institutional confidence in Taiwan's tech sector recovery."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Goldman Sachs Recommends Four Taiwan Tech Companies Including Hon Hai as Top Pick",
+      "section": "證券",
+      "date": "2026/04/08 00:54:59",
+      "url": "https://money.udn.com/money/story/5607/9427425?from=edn_maintab_cate",
+      "summary": "Goldman Sachs recommends buying Hon Hai, Wiwynn, Wistron, and Auras as top picks among Taiwan ODM and brand companies. The firm expects these ten major Taiwan companies to see 28% revenue growth in March, outperforming earlier estimates. Hon Hai is highlighted as the preferred choice due to its leading AI server market share and smartphone design innovations driving future growth momentum."
+    },
+    {
+      "title": "Taiwan Stock Market Outlook: Three Scenarios Based on US-Iran Developments",
+      "section": "證券",
+      "date": "2026/04/08 01:26:58",
+      "url": "https://money.udn.com/money/story/5607/9427776?from=edn_maintab_cate",
+      "summary": "Market experts have outlined three scenarios for Taiwan stocks following Trump's ultimatum deadline to Iran. Scenario one predicts market collapse if US-Iran conflict escalates, potentially testing 31,722 points. Scenario two suggests a 2,000-3,000 point rally if tensions resolve peacefully. Scenario three anticipates continued volatility if situations remain unresolved through third-party mediation."
+    },
+    {
+      "title": "Broadcom Announces Strategic Partnership with Google and Anthropic, Benefiting TSMC",
+      "section": "金融",
+      "date": "2026/04/08 01:38:38",
+      "url": "https://money.udn.com/money/story/5612/9827820?from=edn_maintab_cate",
+      "summary": "Broadcom signed a five-year agreement with Google to develop future TPU generations and will supply networking components through 2031. The partnership with Anthropic provides access to approximately 5GW of computing power starting 2027. This expansion in ASIC market demand is expected to benefit TSMC's advanced process capacity utilization."
+    },
+    {
+      "title": "Memory Sector Reports Strong March Revenue Growth Led by Winbond, ADATA, and Team Group",
+      "section": "金融",
+      "date": "2026/04/08 00:35:42",
+      "url": "https://money.udn.com/money/story/11162/9427735?from=edn_maintab_cate",
+      "summary": "Memory companies posted robust March results with Winbond reaching NT$44.22 billion revenue (96.5% YoY growth), while ADATA and Team Group both hit record monthly highs. The sector benefits from AI demand and supply gaps as major memory manufacturers exit certain product segments."
+    }
+  ],
+  "not_relevant": []
+}
