@@ -1,35 +1,25 @@
 {
-  "date": "2026-04-06",
-  "update_time": "2026-04-06 08:30:55",
-  "total_articles": 8,
+  "date": "2026-04-08",
+  "update_time": "2026-04-08 08:34:19",
+  "total_articles": 2,
   "high": [
     {
-      "title": "Natura (NATU3) leads Ibovespa gains and RD Saúde (RADL3) is worst performing stock; see week highlights",
+      "title": "Markets advance with US-Iran ceasefire; Ibovespa in dollar soars today (08)",
       "source": "MoneyTimes",
-      "date": "2026-04-05",
-      "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-14-lils/",
-      "summary": "The Ibovespa completed its second consecutive week of gains, rising 3.58% to close at 188,042.02 points amid uncertainties about the Iran conflict duration and Brazil's electoral scenario. The USD/BRL closed at R$ 5.1599, with the dollar weakening 1.56% against the real during the week. Central Bank President Gabriel Galípolo explained the smaller interest rate cut (Selic from 15% to 14.75%) was designed to \"gain more time\" to assess the scenario. Galípolo stated that \"the cushion accumulated with a more conservative position allowed us to gain time to better understand the scenario and continue with the planned trajectory.\" The market remains focused on Middle East conflict implications for monetary policy and the emerging electoral landscape. This cautious BCB approach suggests potential for more gradual easing ahead, supporting BRL strength and providing clarity on the monetary policy trajectory for bond investors."
+      "date": "2026-04-08",
+      "url": "https://www.moneytimes.com.br/mercados-avancam-com-cessar-fogo-entre-eua-e-ira-ibovespa-em-dolar-dispara-hoje-08-jals/",
+      "summary": "Brazilian markets surged strongly following a temporary two-week ceasefire agreement between the United States and Iran, which has significantly reduced geopolitical tensions and oil prices. The Ibovespa showed particularly strong performance when measured in dollar terms, benefiting from both the risk-on sentiment and potential BRL strength. Oil prices retreated below $100 per barrel as the truce paves the way for reopening the Strait of Hormuz, a critical shipping route for global energy supplies. The ceasefire was brokered by Pakistan after Iran accepted a 10-point proposal, with President Trump announcing the suspension of planned military strikes. This development is highly bullish for Brazilian risk assets, as reduced geopolitical tensions typically drive capital flows toward emerging markets like Brazil. The relief in commodity markets, particularly oil, could also benefit Brazil's inflation outlook and provide the Central Bank with more policy flexibility. FX traders should monitor whether this risk-on sentiment sustains BRL strength against the USD."
     },
     {
-      "title": "Oil falls after little-changed start as market assesses war-related disruptions",
+      "title": "Real Time: US-Iran truce moves market; Ibovespa tracks inflation and industry",
       "source": "MoneyTimes",
-      "date": "2026-04-06",
-      "url": "https://www.moneytimes.com.br/petroleo-cai-apos-inicio-com-pouca-alteracao-enquanto-mercado-avalia-interrupcoes-devido-a-guerra-fets/",
-      "summary": "Oil prices declined on Monday after a flat opening, with Brent futures falling 1.05% to US$ 107.9/barrel and WTI dropping 1.71% to US$ 109.6/barrel. This follows dramatic gains in the previous session (WTI +11%, Brent +8%), marking the largest absolute price increases since 2020. Investors are awaiting clarity on US-Iran talks while remaining cautious about prolonged supply losses from maritime transport disruptions. Trump escalated pressure on Tehran with social media threats over the Easter weekend. For Brazilian markets, sustained high oil prices are positive for Petrobras revenues and dividend prospects, supporting both PETR4 shares and the real through improved trade balance dynamics."
+      "date": "2026-04-08",
+      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-08-04-2026-jals-lils-apsa/",
+      "summary": "The Ibovespa is closely monitoring key inflation and economic activity indicators, including Brazil's IGP-DI inflation data and vehicle production figures, alongside global data from the Eurozone. Markets are particularly focused on the upcoming FOMC minutes from the US Federal Reserve, which could provide crucial insights into future monetary policy direction and impact BRL/USD dynamics. The US-Iran truce continues to support risk sentiment across Brazilian assets. Iranian Foreign Minister Abbas Araghchi confirmed that passage through the Strait of Hormuz would be reopened, further supporting the positive market mood and benefiting Brazilian equities and the real."
     }
   ],
-  "medium": [
-    {
-      "title": "Dividends: Itaú BBA swaps Aura Minerals (AURA33) for Petrobras (PETR4) in April; see stocks",
-      "source": "MoneyTimes",
-      "date": "2026-04-05",
-      "url": "https://www.moneytimes.com.br/dividendos-itau-bba-troca-aura-minerals-aura33-por-petrobras-petr4-em-abril-veja-acoes-pads/",
-      "summary": "Itaú BBA added Petrobras (PETR4) to its dividend portfolio, expecting the company to benefit from higher oil prices through diesel price adjustments. The bank projects stronger revenues will enable generous dividend distributions in coming quarters. The dividend portfolio fell 6.5% in March, underperforming the Ibovespa by 5.8 percentage points, with Bradesco contributing the largest negative impact with a 9% decline."
-    }
-  ],
+  "medium": [],
   "not_relevant": [
-    "Tomorrow: plan to seek up to R$ 1.4 million starting with R$ 2,198 initial investment in cryptocurrencies opens registrations (duplicate articles)",
-    "'Memebot Flash Million' opens spots to access tool that seeks up to R$ 1 million with cryptocurrencies operating every 7 days (duplicate articles)",
-    "5 coins with potential for up to 500x multiplication in 12 months; see how to access the list"
+    "Bresco Logistics Real Estate Fund (BRCO11) contract renewal with Pague Menos"
   ]
 }
