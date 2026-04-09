@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Vietnam Data Generator
+Vietnam Data Generator  
 Reads digest from Google Sheets and generates JSON data files
 """
 
@@ -17,8 +17,8 @@ import glob
 # Vietnam timezone (UTC+7)
 VN_TIMEZONE = timezone(timedelta(hours=7))
 
-# Time filter: only include articles from past 30 hours
-FILTER_HOURS = 36
+# Time filter: DISABLED - include all articles from today's digest
+FILTER_HOURS = None  # Disabled
 
 # ============================================================================
 # CONFIGURATION
@@ -123,36 +123,6 @@ class DataParser:
     def __init__(self):
         """Initialize with current Vietnam time"""
         self.now = datetime.now(VN_TIMEZONE)
-        self.cutoff_time = self.now - timedelta(hours=FILTER_HOURS)
-    
-    def is_article_recent(self, article_date_str):
-        """Check if article is within the time window (past 30 hours)"""
-        try:
-            # Parse article date: "10/03/2026 05:38" or "05:38" format
-            # Try full date format first
-            if '/' in article_date_str:
-                article_dt = datetime.strptime(article_date_str, '%d/%m/%Y %H:%M')
-            else:
-                # Only time given, assume today
-                time_part = datetime.strptime(article_date_str, '%H:%M')
-                article_dt = self.now.replace(hour=time_part.hour, minute=time_part.minute, second=0, microsecond=0)
-            
-            # Make timezone-aware (Vietnam time)
-            article_dt = article_dt.replace(tzinfo=VN_TIMEZONE)
-            
-            # Check if article is newer than cutoff
-            is_recent = article_dt >= self.cutoff_time
-            
-            if not is_recent:
-                hours_old = (self.now - article_dt).total_seconds() / 3600
-                print(f"   Filtering out old article ({hours_old:.1f}h old): {article_date_str}")
-            
-            return is_recent
-            
-        except Exception as e:
-            # If we can't parse the date, reject it (safer approach)
-            print(f"   Warning: Could not parse date '{article_date_str}': {e}")
-            return False
     
     def parse_summary(self, summary_text):
         """Parse Claude's summary into structured data"""
@@ -175,15 +145,13 @@ class DataParser:
                                 high_section.group(1), re.DOTALL)
             for title, section, date, url, summary in articles:
                 if title.strip() and not title.strip().startswith('No articles'):
-                    # Filter by date
-                    if self.is_article_recent(date.strip()):
-                        data['high'].append({
-                            'title': title.strip(),
-                            'section': section.strip(),
-                            'date': date.strip(),
-                            'url': url.strip(),
-                            'summary': summary.strip()
-                        })
+                    data['high'].append({
+                        'title': title.strip(),
+                        'section': section.strip(),
+                        'date': date.strip(),
+                        'url': url.strip(),
+                        'summary': summary.strip()
+                    })
         
         # Parse medium priority
         if medium_section:
@@ -191,15 +159,13 @@ class DataParser:
                                 medium_section.group(1), re.DOTALL)
             for title, section, date, url, summary in articles:
                 if title.strip():
-                    # Filter by date
-                    if self.is_article_recent(date.strip()):
-                        data['medium'].append({
-                            'title': title.strip(),
-                            'section': section.strip(),
-                            'date': date.strip(),
-                            'url': url.strip(),
-                            'summary': summary.strip()
-                        })
+                    data['medium'].append({
+                        'title': title.strip(),
+                        'section': section.strip(),
+                        'date': date.strip(),
+                        'url': url.strip(),
+                        'summary': summary.strip()
+                    })
         
         # Parse not relevant
         if not_relevant_section:
@@ -223,13 +189,11 @@ class JsonGenerator:
         
         parsed = self.parser.parse_summary(digest_data['summary'])
         
-        # Print filtering summary
+        # Print summary (no filtering)
         print()
         print("=" * 70)
-        print(f"TIME FILTER: Past {FILTER_HOURS} hours")
-        print(f"Cutoff: {self.parser.cutoff_time.strftime('%Y-%m-%d %H:%M VN')}")
-        print(f"High priority articles (after filter): {len(parsed['high'])}")
-        print(f"Medium priority articles (after filter): {len(parsed['medium'])}")
+        print(f"High priority articles: {len(parsed['high'])}")
+        print(f"Medium priority articles: {len(parsed['medium'])}")
         print("=" * 70)
         print()
         
