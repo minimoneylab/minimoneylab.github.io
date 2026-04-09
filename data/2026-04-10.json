@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-10",
+  "update_time": "2026-04-09 23:14:12",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "KS Gu Invests Over NT$10 Billion in Taiwan Cement Shares, Signals Intent to Run for Director",
+      "section": "金融",
+      "date": "2026/04/09 01:38:21",
+      "url": "https://money.udn.com/money/story/5612/9430247?from=edn_maintab_cate",
+      "summary": "Taiwan Cement (1101) announced that CTBC Financial chairman KS Gu has acquired over 406 million shares (5.26% stake) worth NT$10.16 billion through market purchases from December 2025 to March 2026. This makes Gu potentially the largest individual shareholder of Taiwan Cement. The filing indicates Gu intends to \"run for or support others as directors\" ahead of the 2027 board elections. Taiwan Cement's shares have been under pressure since the battery factory incident in July 2025 caused losses exceeding NT$10 billion. The investment represents a significant consolidation play in Taiwan's cement sector, with potential implications for corporate governance and strategic direction. Market observers note this could lead to boardroom changes at one of Taiwan's traditional industrial giants."
+    },
+    {
+      "title": "TSMC Target Price Raised to NT$2,750 by Goldman Sachs Ahead of Investor Conference",
+      "section": "證券",
+      "date": "2026/04/09 01:21:36",
+      "url": "https://money.udn.com/money/story/5607/9430256?from=edn_maintab_cate",
+      "summary": "Goldman Sachs raised TSMC's (2330) target price from NT$2,600 to NT$2,750, reiterating a \"buy\" rating ahead of the company's April 16 investor conference. Analyst Kevin Lu upgraded 2026-2027 earnings estimates by 4-6%, citing strong AI demand as a multi-year growth driver for TSMC. The revised 2027 EPS estimate stands at NT$125, with 2028 at NT$165.32. This follows similar upgrades from JPMorgan (target: NT$2,400) and Morgan Stanley (NT$2,288). Credit Suisse maintains the highest target at NT$3,030. The analyst community's bullish stance reflects expectations of continued 3nm capacity tightness, high utilization rates, and rush orders, supporting robust margin performance through Q1-Q2 2026."
+    },
+    {
+      "title": "Panel Makers Sound Optimistic on Market Outlook Amid Component Shortages",
+      "section": "金融",
+      "date": "2026/04/09 00:58:41",
+      "url": "https://money.udn.com/money/story/5612/9430198?from=edn_maintab_cate",
+      "summary": "Innolux (3481) chairman James Hung expressed \"very optimistic\" sentiment about display business, citing war-related supply concerns and memory shortages driving aggressive customer inventory building. AUO (2409) chairman Paul Peng echoed positive sentiment, noting panel industry conditions remain \"pretty good so far.\" Both companies highlight memory price increases and geopolitical tensions prompting brands to front-load purchases, reducing future cost uncertainties. The Touch Taiwan exhibition saw strong government support, with Premier Cho announcing NT$1 trillion industry output value and 100,000+ employment. However, Middle East conflicts create daily volatility, making long-term planning challenging. The panel recovery appears broad-based across TV, monitor, and specialty display applications."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Exchange Lists 33 Attention Stocks Including TSMC and Wiwynn",
+      "section": "產經",
+      "date": "2026/04/09 19:44:11",
+      "url": "https://money.udn.com/money/story/5607/9432236",
+      "summary": "Taiwan Stock Exchange published its latest \"attention securities\" list featuring 33 stocks including TSMC (2330) and AI server maker Wiwynn (6669) due to excessive price volatility. TSMC showed a NT$195 price differential over six trading days, while Wiwynn had NT$280 differential. The listing serves as investor warning about heightened volatility risks."
+    },
+    {
+      "title": "Quanta March Revenue Hits NT$362.8 Billion Record High",
+      "section": "金融",
+      "date": "2026/04/09 00:51:42",
+      "url": "https://money.udn.com/money/story/5612/9430211?from=edn_subcatelist_cate",
+      "summary": "Quanta Computer (2382) reported record March revenue of NT$362.8 billion (+68.3% MoM, +88.4% YoY), driving Q1 revenue to NT$809.2 billion (+26.7% QoQ, +66.6% YoY). Notebook shipments reached 5.3 million units in March. Server business remains focused on NVIDIA GB300 platform in H1, with sequential revenue growth expected throughout the year."
+    },
+    {
+      "title": "Phison Launches Largest-Ever Fundraising of $800 Million",
+      "section": "金融",
+      "date": "2026/04/09 00:43:45",
+      "url": "https://money.udn.com/money/story/5612/9430217?from=edn_subcatelist_cate",
+      "summary": "Memory solution provider Phison (8299) announced its first overseas convertible bond issuance targeting up to $800 million (NT$25+ billion), representing the company's largest fundraising to date. The capital will support NAND flash procurement amid rising chip prices and strong AI-driven storage demand."
+    },
+    {
+      "title": "Taiwan Stocks Surge 1,531 Points in Celebration Rally After US-Iran Ceasefire",
+      "section": "證券",
+      "date": "2026/04/09 02:08:10",
+      "url": "https://money.udn.com/money/story/5607/9430204?from=edn_maintab_cate",
+      "summary": "Taiwan stocks posted the second-largest single-day point gain in history, rising 1,531 points to 34,761 on ceasefire news. Three major institutional investor groups recorded historic buying levels: foreign investors bought NT$117.7 billion (near-record), domestic institutions NT$4.7 billion, and proprietary trading desks NT$35.9 billion (record)."
+    },
+    {
+      "title": "Delta Electronics March Revenue Reaches Record NT$59.78 Billion",
+      "section": "金融",
+      "date": "2026/04/09 23:57:10",
+      "url": "https://money.udn.com/money/story/5612/9432557?from=edn_maintab_cate",
+      "summary": "Power supply leader Delta Electronics (2308) reported record March revenue of NT$59.78 billion (+19.8% MoM, +37.6% YoY), driven by AI datacenter power and liquid cooling demand. Q1 revenue hit NT$159.4 billion, the strongest first quarter on record despite seasonal weakness."
+    }
+  ],
+  "not_relevant": []
+}
