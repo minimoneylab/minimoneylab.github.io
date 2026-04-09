@@ -1,25 +1,41 @@
 {
-  "date": "2026-04-08",
-  "update_time": "2026-04-08 08:34:19",
-  "total_articles": 2,
+  "date": "2026-04-09",
+  "update_time": "2026-04-09 08:34:07",
+  "total_articles": 6,
   "high": [
     {
-      "title": "Markets advance with US-Iran ceasefire; Ibovespa in dollar soars today (08)",
+      "title": "Markets Advance with US-Iran Ceasefire; Ibovespa in Dollar Surges Today (08)",
       "source": "MoneyTimes",
       "date": "2026-04-08",
       "url": "https://www.moneytimes.com.br/mercados-avancam-com-cessar-fogo-entre-eua-e-ira-ibovespa-em-dolar-dispara-hoje-08-jals/",
-      "summary": "Brazilian markets surged strongly following a temporary two-week ceasefire agreement between the United States and Iran, which has significantly reduced geopolitical tensions and oil prices. The Ibovespa showed particularly strong performance when measured in dollar terms, benefiting from both the risk-on sentiment and potential BRL strength. Oil prices retreated below $100 per barrel as the truce paves the way for reopening the Strait of Hormuz, a critical shipping route for global energy supplies. The ceasefire was brokered by Pakistan after Iran accepted a 10-point proposal, with President Trump announcing the suspension of planned military strikes. This development is highly bullish for Brazilian risk assets, as reduced geopolitical tensions typically drive capital flows toward emerging markets like Brazil. The relief in commodity markets, particularly oil, could also benefit Brazil's inflation outlook and provide the Central Bank with more policy flexibility. FX traders should monitor whether this risk-on sentiment sustains BRL strength against the USD."
+      "summary": "Markets surged strongly on Wednesday (8th) as oil prices returned to below $100 per barrel, reflecting investor relief after a temporary ceasefire agreement between the United States and Iran. The two-week truce opens the path for the reopening of the Strait of Hormuz. The agreement took shape after the Iranian government accepted a ceasefire proposal mediated by Pakistan. In parallel, President Trump announced the suspension of planned attacks against Iran for the same period. This development is critical for Brazilian markets as it reduces geopolitical risk premium in commodities, particularly benefiting the BRL and supporting the Ibovespa's dollar-denominated performance. The reopening of Hormuz strait is crucial for global oil flows, which directly impacts Brazil's trade balance and Petrobras operations. FX traders should monitor whether this ceasefire holds, as any resumption of tensions could quickly reverse BRL gains and reignite commodity volatility."
     },
     {
-      "title": "Real Time: US-Iran truce moves market; Ibovespa tracks inflation and industry",
+      "title": "Live Coverage: US-Iran Truce Moves Market; Ibovespa Tracks Inflation and Industry",
       "source": "MoneyTimes",
       "date": "2026-04-08",
       "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-08-04-2026-jals-lils-apsa/",
-      "summary": "The Ibovespa is closely monitoring key inflation and economic activity indicators, including Brazil's IGP-DI inflation data and vehicle production figures, alongside global data from the Eurozone. Markets are particularly focused on the upcoming FOMC minutes from the US Federal Reserve, which could provide crucial insights into future monetary policy direction and impact BRL/USD dynamics. The US-Iran truce continues to support risk sentiment across Brazilian assets. Iranian Foreign Minister Abbas Araghchi confirmed that passage through the Strait of Hormuz would be reopened, further supporting the positive market mood and benefiting Brazilian equities and the real."
+      "summary": "The Ibovespa is monitoring inflation and global activity indicators, highlighting PPI and retail sales in the Eurozone, plus Brazil's IGP-DI and vehicle production data. In the US, the FOMC minutes will be the center of attention, providing clues about the Federal Reserve's future stance regarding inflation. Investors are also tracking the truce movement between the US and Iran. This combination of domestic inflation data and geopolitical developments creates a complex trading environment for BRL and Brazilian bonds, with market participants weighing reduced geopolitical risk against persistent inflation concerns."
+    },
+    {
+      "title": "Asian Markets Close Lower with Fragile Ceasefire and Rising Oil",
+      "source": "MoneyTimes",
+      "date": "2026-04-09",
+      "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-baixa-com-cessar-fogo-fragil-e-petroleo-em-alta-fets/",
+      "summary": "Asian markets closed lower on Thursday (9th) as oil prices rose again amid skepticism regarding the fragile US-Iran ceasefire. The South Korean Kospi led declines, falling 1.61%, while Japan's Nikkei dropped 0.73% and Hong Kong's Hang Seng fell 0.54%. Oil prices advanced overnight after yesterday's drop, facing signs of fragility in the temporary truce. The Strait of Hormuz remained largely closed despite US demands for reopening. This development signals potential renewed volatility for emerging markets including Brazil, as fragile geopolitical stability could quickly reverse recent BRL gains and impact commodity-sensitive Brazilian assets."
     }
   ],
-  "medium": [],
+  "medium": [
+    {
+      "title": "Brava's (BRAV3) Average Daily Production Falls to 76 Thousand Oil Equivalent Barrels in Q1 26",
+      "source": "MoneyTimes",
+      "date": "2026-04-09",
+      "url": "https://www.moneytimes.com.br/producao-media-diaria-da-brava-brav3-cai-para-76-mil-barris-de-oleo-equivalente-no-1t26/",
+      "summary": "Brava Energia (BRAV3) reported average daily production of 75,983 thousand barrels of oil equivalent (boe/d) in Q1 2026, declining from previous quarters. The company, formed from the merger of 3R Petroleum and Enauta, saw production split between 27,398 thousand boe/d onshore and 48,585 thousand boe/d offshore. This production decline at a significant Brazilian oil company could impact the stock's performance within the Ibovespa energy sector weighting."
+    }
+  ],
   "not_relevant": [
-    "Bresco Logistics Real Estate Fund (BRCO11) contract renewal with Pague Menos"
+    "Goodbye, Ozempic? Empiricus Updates International Portfolio and Removes Drug Manufacturer and Amazon (AMZO34) from Recommendations",
+    "'IPO is Not an Isolated Decision': Why Cryptocurrency Companies Suspended New IPOs in 2026"
   ]
 }
