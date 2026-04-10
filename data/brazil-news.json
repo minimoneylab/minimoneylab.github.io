@@ -1,41 +1,51 @@
 {
-  "date": "2026-04-09",
-  "update_time": "2026-04-09 08:34:07",
-  "total_articles": 6,
+  "date": "2026-04-10",
+  "update_time": "2026-04-10 08:28:26",
+  "total_articles": 10,
   "high": [
     {
-      "title": "Markets Advance with US-Iran Ceasefire; Ibovespa in Dollar Surges Today (08)",
+      "title": "Oil Rises and Returns to $100 with Attacks on Saudi Facilities; Hormuz Nearly Paralyzed",
       "source": "MoneyTimes",
-      "date": "2026-04-08",
-      "url": "https://www.moneytimes.com.br/mercados-avancam-com-cessar-fogo-entre-eua-e-ira-ibovespa-em-dolar-dispara-hoje-08-jals/",
-      "summary": "Markets surged strongly on Wednesday (8th) as oil prices returned to below $100 per barrel, reflecting investor relief after a temporary ceasefire agreement between the United States and Iran. The two-week truce opens the path for the reopening of the Strait of Hormuz. The agreement took shape after the Iranian government accepted a ceasefire proposal mediated by Pakistan. In parallel, President Trump announced the suspension of planned attacks against Iran for the same period. This development is critical for Brazilian markets as it reduces geopolitical risk premium in commodities, particularly benefiting the BRL and supporting the Ibovespa's dollar-denominated performance. The reopening of Hormuz strait is crucial for global oil flows, which directly impacts Brazil's trade balance and Petrobras operations. FX traders should monitor whether this ceasefire holds, as any resumption of tensions could quickly reverse BRL gains and reignite commodity volatility."
+      "date": "2026-04-10",
+      "url": "https://www.moneytimes.com.br/petroleo-sobe-e-volta-a-bater-em-us-100-com-ataques-a-instalacoes-sauditas-ormuz-quase-paralisado-fets/",
+      "summary": "Oil prices are surging Friday, driven by new concerns over Saudi Arabia's supply and the fact that tanker traffic through the strategic Strait of Hormuz remains largely paralyzed. Brent futures advanced $1.81 (1.89%) to $97.73 per barrel, while WTI climbed $1.74 (1.78%) to $99.61. Despite the daily gains, both contracts are down about 11% for the week - the largest weekly decline since June 2025. The oil rally comes amid a fragile two-week ceasefire between the US and Iran, with Israel signaling diplomatic openness by stating readiness to begin direct negotiations with Lebanon. For Brazilian markets, higher oil prices typically benefit Petrobras (PETR4) but create inflationary pressures that could influence BCB monetary policy. The Strait of Hormuz disruption, through which 20% of global hydrocarbons transit, represents a critical supply shock that Brazilian policymakers must consider when setting interest rates to combat imported inflation."
     },
     {
-      "title": "Live Coverage: US-Iran Truce Moves Market; Ibovespa Tracks Inflation and Industry",
+      "title": "Markets in Waiting Mode for IPCA and CPI; Ibovespa in Dollars Retreats Today (10)",
       "source": "MoneyTimes",
-      "date": "2026-04-08",
-      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-08-04-2026-jals-lils-apsa/",
-      "summary": "The Ibovespa is monitoring inflation and global activity indicators, highlighting PPI and retail sales in the Eurozone, plus Brazil's IGP-DI and vehicle production data. In the US, the FOMC minutes will be the center of attention, providing clues about the Federal Reserve's future stance regarding inflation. Investors are also tracking the truce movement between the US and Iran. This combination of domestic inflation data and geopolitical developments creates a complex trading environment for BRL and Brazilian bonds, with market participants weighing reduced geopolitical risk against persistent inflation concerns."
+      "date": "2026-04-10",
+      "url": "https://www.moneytimes.com.br/mercados-em-compasso-de-espera-pelo-ipca-e-cpi-ibovespa-em-dolar-recua-hoje-10-jals/",
+      "summary": "Investors are monitoring developments from the temporary ceasefire between the US and Iran while awaiting key inflation data. The spotlight is on Brazil's IPCA inflation index for March, which will reflect the impact of the Middle East war and oil price surge. Market estimates show a 0.77% advance in March according to Broadcast's median forecast. President Trump expressed optimism about negotiation progress but threatened Tehran after Iran's decision to charge fees for vessels crossing the Strait of Hormuz. For Brazilian markets, the IPCA reading is crucial as it will influence BCB's monetary policy decisions. Higher inflation readings could pressure the central bank to maintain or increase the Selic rate, impacting BRL/USD dynamics and government bond yields. The oil price shock from Middle East tensions poses a significant challenge to Brazil's inflation targeting regime."
     },
     {
-      "title": "Asian Markets Close Lower with Fragile Ceasefire and Rising Oil",
+      "title": "Live Coverage: Ibovespa Closes Week Focused on IPCA",
       "source": "MoneyTimes",
-      "date": "2026-04-09",
-      "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-baixa-com-cessar-fogo-fragil-e-petroleo-em-alta-fets/",
-      "summary": "Asian markets closed lower on Thursday (9th) as oil prices rose again amid skepticism regarding the fragile US-Iran ceasefire. The South Korean Kospi led declines, falling 1.61%, while Japan's Nikkei dropped 0.73% and Hong Kong's Hang Seng fell 0.54%. Oil prices advanced overnight after yesterday's drop, facing signs of fragility in the temporary truce. The Strait of Hormuz remained largely closed despite US demands for reopening. This development signals potential renewed volatility for emerging markets including Brazil, as fragile geopolitical stability could quickly reverse recent BRL gains and impact commodity-sensitive Brazilian assets."
+      "date": "2026-04-10",
+      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-10-04-2026-jals-lils-apsa/",
+      "summary": "The Ibovespa closes the week with attention on inflation indicators, with Brazil's IPCA and US CPI in focus, essential for forming monetary policy expectations. Investors continue monitoring developments from the temporary US-Iran ceasefire announced Tuesday, seeking signs the agreement could evolve into a more lasting solution. President Trump expressed optimism about negotiation progress while threatening Tehran over Iran's decision to charge fees for vessels crossing the Strait of Hormuz. The IPCA data will be critical for understanding inflationary pressures and potential BCB policy responses."
     }
   ],
   "medium": [
     {
-      "title": "Brava's (BRAV3) Average Daily Production Falls to 76 Thousand Oil Equivalent Barrels in Q1 26",
+      "title": "Asian Stock Markets Close Higher After NY Gains, Despite US-Iran Uncertainties",
+      "source": "MoneyTimes",
+      "date": "2026-04-10",
+      "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-alta-apos-ganhos-em-ny-apesar-de-incertezas-sobre-eua-ira-fets/",
+      "summary": "Asian markets closed higher Friday, following Wall Street, despite continued oil price increases amid the fragile Middle East ceasefire. Japan's Nikkei led gains with a 1.84% rise, while South Korea's Kospi advanced 1.40% after the central bank maintained its key rate at 2.50%. Oil prices continue rising for the second consecutive day due to uncertainties about the sustainability of the two-week US-Iran truce. The global risk sentiment affects Brazilian markets through commodity price channels and capital flow dynamics."
+    },
+    {
+      "title": "Asian Stock Markets Close Lower with Fragile Ceasefire and Rising Oil",
       "source": "MoneyTimes",
       "date": "2026-04-09",
-      "url": "https://www.moneytimes.com.br/producao-media-diaria-da-brava-brav3-cai-para-76-mil-barris-de-oleo-equivalente-no-1t26/",
-      "summary": "Brava Energia (BRAV3) reported average daily production of 75,983 thousand barrels of oil equivalent (boe/d) in Q1 2026, declining from previous quarters. The company, formed from the merger of 3R Petroleum and Enauta, saw production split between 27,398 thousand boe/d onshore and 48,585 thousand boe/d offshore. This production decline at a significant Brazilian oil company could impact the stock's performance within the Ibovespa energy sector weighting."
+      "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-baixa-com-cessar-fogo-fragil-e-petroleo-em-alta-fets/",
+      "summary": "Asian markets closed lower Thursday as oil prices resumed their climb amid skepticism regarding the fragile US-Iran ceasefire. South Korea's Kospi fell 1.61%, Japan's Nikkei dropped 0.73%, and Hong Kong's Hang Seng declined 0.54%. Oil prices advanced overnight after yesterday's tumble, due to signs of fragility in the temporary truce between the US and Iran. The Strait of Hormuz remained largely closed despite US demands for reopening, affecting global energy flows and market sentiment."
     }
   ],
   "not_relevant": [
     "Goodbye, Ozempic? Empiricus Updates International Portfolio and Removes Drug Manufacturer and Amazon (AMZO34) from Recommendations",
-    "'IPO is Not an Isolated Decision': Why Cryptocurrency Companies Suspended New IPOs in 2026"
+    "Brava (BRAV3) Daily Average Production Falls to 76 Thousand Oil Equivalent Barrels in 1Q26",
+    "'IPO is Not an Isolated Decision': Why Cryptocurrency Companies Suspended New IPOs in 2026",
+    "Bitcoin (BTC): Cryptocurrency Could Go from $76,000 to $61,000 This Week, But Token List Could Outperform BTC and Deliver Up to 500x Multiplications",
+    "Interview: Why REITs Still Haven't 'Caught On' with Institutionals — and How This Limits the Market, According to Santander"
   ]
 }
