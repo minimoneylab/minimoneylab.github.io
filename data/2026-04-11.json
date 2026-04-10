@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-11",
+  "update_time": "2026-04-10 23:08:20",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "TSMC Revenue Hits Double Records - March and Q1 Performance, Single Quarter Exceeds High-End Guidance",
+      "section": "金融",
+      "date": "2026/04/11 01:15:33",
+      "url": "https://money.udn.com/money/story/5612/9434892?from=edn_maintab_cate",
+      "summary": "Taiwan Semiconductor Manufacturing Company (2330) reported March consolidated revenue of NT$415.19 billion, up 30.7% month-on-month and 45.2% year-on-year, setting a new monthly record. Q1 revenue reached NT$1.134 trillion, exceeding the high-end guidance and setting a new quarterly high, up 8.4% quarter-on-quarter and 35.1% year-on-year. TSMC's previous guidance estimated Q1 USD revenue between $34.6-35.8 billion (NT$1.093-1.131 trillion), making actual results surpass expectations. CFO Huang Jen-chao attributed growth to strong AI and HPC demand, with 3nm and 5nm advanced processes driving growth despite seasonal smartphone adjustments. Advanced processes below 7nm now account for 74% of total revenue. The company will hold an earnings call on April 16th, with market focus on advanced packaging, manufacturing capacity expansion, and capex plans. Market rumors suggest non-Apple mobile clients have adjusted 4nm orders, with TSMC reallocating capacity to 3nm to address supply bottlenecks."
+    },
+    {
+      "title": "Taiwan Stock Exchange Announces 33 Attention Stocks List Including TSMC and Wiwynn",
+      "section": "產經",
+      "date": "2026/04/09 19:44:11",
+      "url": "https://money.udn.com/money/story/5607/9432236",
+      "summary": "The Taiwan Stock Exchange published its latest \"Attention Securities\" list featuring 33 listed securities flagged for abnormal trading activity, excessive volatility, or high turnover rates. Notably, semiconductor giant TSMC (2330) and AI server manufacturer Wiwynn (6669) were both included due to severe short-term price volatility. TSMC showed a price difference of NT$195 over the past six trading days, closing at NT$1,955 on April 9th, marking the highest level in six days. Wiwynn demonstrated even greater volatility with a NT$280 price difference over six trading days. The TSE emphasized that inclusion serves as an abnormal trading alert, urging investors to review financial statements and material information carefully to avoid blind chasing or selling. The complete list includes major names across sectors, highlighting increased market volatility amid ongoing geopolitical tensions and AI-driven speculation."
+    },
+    {
+      "title": "Taiwan Stock Index Soars to Historic High - TSMC Earnings Preview Boosts Market to 35,417 Points",
+      "section": "證券",
+      "date": "2026/04/11 01:18:51",
+      "url": "https://money.udn.com/money/story/5607/9434864?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market achieved seven major milestones yesterday, with the TAIEX surging 556 points to close at 35,417 points, setting a new closing high. Market capitalization increased by NT$1.8 trillion to NT$115.5 trillion, both historic records. The rally was driven by Philadelphia Semiconductor Index gains and TSMC earnings anticipation. Key achievements include: OTC index reaching 349.5 points, surpassing 1997's 343.99 peak; electronics index hitting 2,229 points; two new trillion-NT$ market cap stocks (Accton and Unimicron); and TSMC closing at NT$2,000, its second-highest closing price. The weekly gain of 2,845 points exceeded previous records, while foreign investors' NT$188.45 billion weekly net buying set a new single-week record. Three major institutional investors net bought NT$37.89 billion, with foreigners purchasing NT$28.8 billion for four consecutive days. Market experts advise monitoring US-Iran negotiation developments while maintaining flexible trading strategies amid continued foreign capital inflows."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Delta Electronics Steals Spotlight with Record Revenue - March Hits NT$59.7 Billion, Up Nearly 20% Monthly",
+      "section": "金融",
+      "date": "2026/04/09 23:57:10",
+      "url": "https://money.udn.com/money/story/5612/9432557?from=edn_maintab_cate",
+      "summary": "Power supply leader Delta Electronics (2308) reported March consolidated revenue of NT$59.78 billion, a monthly record with 19.8% month-on-month and 37.6% year-on-year growth, driven by AI data center power and liquid cooling demand. Q1 revenue reached NT$159.35 billion, the strongest first quarter and second-highest quarterly performance ever. Market expects strong Q2 growth with significant AI GPU-related AC/DC power product shipments and potential product updates in Q3."
+    },
+    {
+      "title": "Hon Hai and Foxconn Electronics Benefit from Apple Mac Shortage Due to \"Lobster Farming\" Craze",
+      "section": "金融",
+      "date": "2026/04/10 00:43:23",
+      "url": "https://money.udn.com/money/story/5612/9432581?from=edn_maintab_cate",
+      "summary": "OpenClaw's global \"lobster farming\" trend has created Mac shortage, with Mac mini delivery times extending to at least four weeks and some configurations requiring 2-3 months. Mac Studio wait times range from 2-3 weeks to over a month depending on configuration. Market analysts expect Apple to increase orders to suppliers including Hon Hai (2317), Delta Electronics, Lite-On, and Chicony, all benefiting from this surge in demand."
+    },
+    {
+      "title": "ASUS Reports Record High - March and Q1 Revenue Hit New Peaks, PC Terminal Products to See Price Increases",
+      "section": "金融",
+      "date": "2026/04/10 02:05:42",
+      "url": "https://money.udn.com/money/story/11162/9432484?from=edn_subcatelist_cate",
+      "summary": "ASUS (2357) reported March group revenue of NT$86.08 billion, a monthly record up 58.38% month-on-month and 33.85% year-on-year, driven by server and PC business growth. Q1 group revenue reached NT$208.37 billion, a quarterly record. With memory prices rising 100%, ASUS will implement price increases for terminal products across different regions to maintain profitability, as memory shortages are expected to persist for two years."
+    },
+    {
+      "title": "Foreign Investors Surge Back into Taiwan Stocks - NT$188.45 Billion Weekly Net Buying Sets Record",
+      "section": "證券",
+      "date": "2026/04/10 01:12:57",
+      "url": "https://money.udn.com/money/story/5607/9432553?from=edn_maintab_cate",
+      "summary": "Taiwan stocks ended higher yesterday despite Middle East uncertainties, with TSMC's late rally pushing the index to close up 99 points at 34,861. Foreign investors continued their buying spree for the third consecutive day, purchasing NT$31.77 billion, while positioning ahead of TSMC's earnings call and US tech earnings season. The mysterious buying in TSMC's final trading session came from major brokerages including Merrill Lynch, Goldman Sachs, and Citigroup Global."
+    },
+    {
+      "title": "Listed Companies' March Revenue Exceeds NT$5 Trillion for First Time - 183 Companies Hit Record Highs",
+      "section": "證券",
+      "date": "2026/04/11 00:33:26",
+      "url": "https://money.udn.com/money/story/5607/9434831?from=edn_maintab_cate",
+      "summary": "Listed companies achieved a historic milestone with March revenue surpassing NT$5 trillion for the first time, reaching NT$5.29 trillion. A record 183 companies posted monthly revenue highs, driven by AI demand and rising commodity prices from Middle East tensions. Q1 revenue reached NT$14.22 trillion, the strongest first quarter performance, with analysts expecting continued growth in Q2 amid sustained AI demand."
+    }
+  ],
+  "not_relevant": []
+}
