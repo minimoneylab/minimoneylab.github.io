@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-12",
+  "update_time": "2026-04-11 23:05:49",
+  "total_articles": 28,
+  "high": [
+    {
+      "title": "TSMC Revenue Creates Double Records - March and Q1 Both Achieve Strong Results, Quarterly Performance Exceeds High End of Guidance",
+      "section": "金融",
+      "date": "2026/04/11 01:15:33",
+      "url": "https://money.udn.com/money/story/5612/9434892?from=edn_maintab_cate",
+      "summary": "TSMC (2330) announced March consolidated revenue of NT$415.19 billion, up 30.7% month-over-month and 45.2% year-over-year, setting a new monthly record. Q1 revenue reached NT$1.134 trillion, exceeding the high end of guidance and breaking new ground with quarterly growth of 8.4% and annual growth of 35.1%. The company's CFO attributed the strong Q1 growth primarily to robust AI applications and high-performance computing (HPC) demand, with 3nm and 5nm advanced technologies continuing to drive growth, offsetting seasonal adjustments in smartphones. Advanced processes below 7nm now account for 74% of total revenue. Market implications are significant as TSMC will hold its earnings call on April 16th, with investors focusing on advanced packaging and capacity expansion progress. The company is expected to maintain strong momentum throughout 2026 with near-30% USD revenue growth anticipated."
+    },
+    {
+      "title": "Foreign Investors Massively Return, Taiwan Stock Index Hits New High - Weighted Index Stands at 35,417 Points",
+      "section": "證券",
+      "date": "2026/04/11 01:18:51",
+      "url": "https://money.udn.com/money/story/5607/9434864?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market surged to new historic highs, driven by Philadelphia Semiconductor Index gains and TSMC's earnings anticipation. The TAIEX closed up 556 points at 35,417, breaking the previous record set on February 26th. Trading volume was NT$871.8 billion. Foreign investors returned strongly with four consecutive days of buying, accumulating NT$188.45 billion in net purchases this week - the highest weekly inflow on record. The market capitalization increased by NT$1.8 trillion to NT$115.5 trillion. Investment implications show strong institutional confidence returning to Taiwan equities, particularly in the semiconductor sector, though investors should monitor ongoing US-Iran negotiations for potential volatility."
+    },
+    {
+      "title": "TSMC Earnings Call on April 16th - Seven Key Topics in Focus, Analysts Predict Full-Year Profit Could Exceed Ten Times Equity Capital",
+      "section": "金融",
+      "date": "2026/04/12 00:58:16",
+      "url": "https://money.udn.com/money/story/11162/9436111?from=edn_maintab_cate",
+      "summary": "TSMC's upcoming April 16th earnings call will address seven critical areas: Q2 performance outlook, full-year growth forecast revisions, overseas facility progress, AI demand trends, geopolitical supply chain impacts, semiconductor market conditions, and advanced packaging/process developments. With Q1 revenue exceeding guidance at NT$1.134 trillion, analysts expect strong momentum to continue. The company previously projected nearly 30% USD revenue growth for 2026. Legal entities estimate TSMC could earn over two equity capital units per quarter this year, potentially achieving over ten equity capital units for the full year - a new record. This would represent exceptional profitability driven by AI accelerator demand and advanced process leadership, making the earnings call crucial for understanding Taiwan's semiconductor sector outlook and broader tech industry trends."
+    }
+  ],
+  "medium": [
+    {
+      "title": "ASE Group Capital Expenditure May Be Revised Up - COO Wu Tian-Yu Says CPO Will Enter Mass Production This Year",
+      "section": "金融",
+      "date": "2026/04/11 00:28:27",
+      "url": "https://money.udn.com/money/story/5612/9434841?from=edn_maintab_cate",
+      "summary": "ASE Group (3711) is accelerating expansion with six new facilities planned for 2026, a record high. COO Wu Tian-Yu indicated the originally planned $7 billion capex may be revised upward due to AI demand. He confirmed co-packaged optics (CPO) will enter mass production this year, representing a significant technology milestone for the semiconductor assembly and test leader."
+    },
+    {
+      "title": "Listed Companies March Revenue Flies Over NT$5 Trillion - 183 Companies Hit New Highs",
+      "section": "證券",
+      "date": "2026/04/11 00:33:26",
+      "url": "https://money.udn.com/money/story/5607/9434831?from=edn_maintab_cate",
+      "summary": "Listed companies achieved a historic milestone with March revenue exceeding NT$5 trillion for the first time, driven by strong AI demand and rising commodity prices. A record 183 companies posted monthly revenue highs, concentrated in TSMC's supply chain including wafer foundry, assembly, and memory sectors. Q1 revenue reached NT$14.22 trillion, the strongest first quarter on record."
+    },
+    {
+      "title": "Phison CEO Says Memory Shortage Has 'No End in Sight' - Plans NT$43 Billion Fundraising",
+      "section": "金融",
+      "date": "2026/04/12 02:01:14",
+      "url": "https://money.udn.com/money/story/5612/9436124?from=edn_maintab_cate",
+      "summary": "Phison (8299) CEO Pua Khein-Seng warned of severe memory shortages with no end in sight, particularly concerned about Q4 supply disruptions. The company is strategically stockpiling inventory exceeding NT$50 billion and planning over NT$43 billion in fundraising through convertible bonds and syndicated loans to secure memory components ahead of anticipated shortages."
+    },
+    {
+      "title": "MediaTek and World Advanced - Choose Long-Term Options",
+      "section": "證券",
+      "date": "2026/04/11 00:38:08",
+      "url": "https://money.udn.com/money/story/5739/9434640?from=edn_subcatelist_cate",
+      "summary": "MediaTek (2454) strengthened its AI positioning by investing in silicon photonics startup Ayar Labs, acquiring 2.4% stake. This strategic move completes optical-electronic integration for cloud AI transmission. World Advanced (3661) benefits from major North American CSP client N3 production ramp expected from Q2. Both companies are positioned to capture growing customized chip demand from cloud service providers."
+    }
+  ],
+  "not_relevant": []
+}
