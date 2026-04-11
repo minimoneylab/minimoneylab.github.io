@@ -1,51 +1,63 @@
 {
-  "date": "2026-04-10",
-  "update_time": "2026-04-10 08:28:26",
+  "date": "2026-04-11",
+  "update_time": "2026-04-11 08:05:41",
   "total_articles": 10,
   "high": [
+    {
+      "title": "Future Interest Rates: Short-term Rates Rise Strongly with Inflation Above Expectations",
+      "source": "MoneyTimes",
+      "date": "2026-04-11",
+      "url": "https://www.moneytimes.com.br/juros-futuros-10-4-26-lils/",
+      "summary": "The Brazilian futures yield curve closed Friday with significant steepening as short-term rates spiked following stronger-than-expected inflation data. The DI rate for January 2027 (very short-term) jumped 14 basis points to 14.060% from 13.920%. Medium-term DI rates for January 2029 also rose to 13.380% from 13.305%. However, long-term rates (DI January 2036) fell 14 basis points to 13.455% from 13.595%. This curve movement suggests markets are pricing in more aggressive BCB monetary tightening in the near term while maintaining expectations for eventual rate cuts in the long term. The reaction mirrors similar moves in US Treasuries following American inflation data. For BRL traders, this yield curve steepening typically pressures the currency as it reflects inflation concerns and potential BCB intervention."
+    },
+    {
+      "title": "Markets in Wait-and-See Mode for IPCA and CPI; Dollar-denominated Ibovespa Falls Today (10th)",
+      "source": "MoneyTimes",
+      "date": "2026-04-10",
+      "url": "https://www.moneytimes.com.br/mercados-em-compasso-de-espera-pelo-ipca-e-cpi-ibovespa-em-dolar-recua-hoje-10-jals/",
+      "summary": "Brazilian markets are in a holding pattern awaiting the March IPCA release, which will reflect the impact of the Middle East conflict and oil price surge. Market consensus expects a 0.77% monthly increase according to Broadcast's median estimate. The geopolitical tensions from the US-Iran temporary ceasefire continue to create uncertainty, with Trump expressing optimism about negotiations while threatening Tehran over Strait of Hormuz shipping fees. The IPCA data will be crucial for BCB monetary policy expectations and BRL direction, especially given oil price volatility. Dollar-denominated Ibovespa performance is declining, suggesting foreign investor caution ahead of the inflation print."
+    },
+    {
+      "title": "Ibovespa at 196 Thousand Points: 'Won't Take Much Effort to Reach 200 Thousand Points,' Says Analyst; See 10 Stocks to Buy Now",
+      "source": "MoneyTimes",
+      "date": "2026-04-11",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-nos-196-mil-pontos-nao-sera-preciso-muito-esforco-para-chegar-nos-200-mil-pontos-diz-analista-veja-10-acoes-para-comprar-agora-lbrdis568/",
+      "summary": "The Ibovespa hit fresh highs for the third consecutive session, touching 197,554 points despite challenging macro conditions. The index has gained 4% this week, defying risk-off sentiment from Middle East tensions. Brazil's March IPCA came in at 0.88%, accelerating from February's 0.70% and beating market expectations of 0.77% by 11 basis points. This inflation surprise, combined with ongoing Strait of Hormuz disruptions affecting oil prices, complicates BCB's Selic cutting cycle prospects. However, the index's resilience amid geopolitical and inflation headwinds suggests strong domestic fundamentals. For equity investors, the momentum toward 200,000 points appears sustainable despite external pressures."
+    }
+  ],
+  "medium": [
     {
       "title": "Oil Rises and Returns to $100 with Attacks on Saudi Facilities; Hormuz Nearly Paralyzed",
       "source": "MoneyTimes",
       "date": "2026-04-10",
       "url": "https://www.moneytimes.com.br/petroleo-sobe-e-volta-a-bater-em-us-100-com-ataques-a-instalacoes-sauditas-ormuz-quase-paralisado-fets/",
-      "summary": "Oil prices are surging Friday, driven by new concerns over Saudi Arabia's supply and the fact that tanker traffic through the strategic Strait of Hormuz remains largely paralyzed. Brent futures advanced $1.81 (1.89%) to $97.73 per barrel, while WTI climbed $1.74 (1.78%) to $99.61. Despite the daily gains, both contracts are down about 11% for the week - the largest weekly decline since June 2025. The oil rally comes amid a fragile two-week ceasefire between the US and Iran, with Israel signaling diplomatic openness by stating readiness to begin direct negotiations with Lebanon. For Brazilian markets, higher oil prices typically benefit Petrobras (PETR4) but create inflationary pressures that could influence BCB monetary policy. The Strait of Hormuz disruption, through which 20% of global hydrocarbons transit, represents a critical supply shock that Brazilian policymakers must consider when setting interest rates to combat imported inflation."
+      "summary": "Oil prices surged back toward $100/barrel due to attacks on Saudi facilities and near-total paralysis of Strait of Hormuz tanker traffic. Brent futures rose 1.89% to $97.73 while WTI gained 1.78% to $99.61. Despite the US-Iran two-week ceasefire, supply disruptions continue. This oil rally directly impacts Brazilian inflation expectations and BCB policy outlook, as energy costs feed through to IPCA readings."
     },
     {
-      "title": "Markets in Waiting Mode for IPCA and CPI; Ibovespa in Dollars Retreats Today (10)",
-      "source": "MoneyTimes",
-      "date": "2026-04-10",
-      "url": "https://www.moneytimes.com.br/mercados-em-compasso-de-espera-pelo-ipca-e-cpi-ibovespa-em-dolar-recua-hoje-10-jals/",
-      "summary": "Investors are monitoring developments from the temporary ceasefire between the US and Iran while awaiting key inflation data. The spotlight is on Brazil's IPCA inflation index for March, which will reflect the impact of the Middle East war and oil price surge. Market estimates show a 0.77% advance in March according to Broadcast's median forecast. President Trump expressed optimism about negotiation progress but threatened Tehran after Iran's decision to charge fees for vessels crossing the Strait of Hormuz. For Brazilian markets, the IPCA reading is crucial as it will influence BCB's monetary policy decisions. Higher inflation readings could pressure the central bank to maintain or increase the Selic rate, impacting BRL/USD dynamics and government bond yields. The oil price shock from Middle East tensions poses a significant challenge to Brazil's inflation targeting regime."
-    },
-    {
-      "title": "Live Coverage: Ibovespa Closes Week Focused on IPCA",
+      "title": "Real-Time: Ibovespa Closes Week Focused on IPCA",
       "source": "MoneyTimes",
       "date": "2026-04-10",
       "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-10-04-2026-jals-lils-apsa/",
-      "summary": "The Ibovespa closes the week with attention on inflation indicators, with Brazil's IPCA and US CPI in focus, essential for forming monetary policy expectations. Investors continue monitoring developments from the temporary US-Iran ceasefire announced Tuesday, seeking signs the agreement could evolve into a more lasting solution. President Trump expressed optimism about negotiation progress while threatening Tehran over Iran's decision to charge fees for vessels crossing the Strait of Hormuz. The IPCA data will be critical for understanding inflationary pressures and potential BCB policy responses."
-    }
-  ],
-  "medium": [
+      "summary": "The Ibovespa ended the week with attention focused on Brazilian IPCA and US CPI data, both crucial for monetary policy expectations. Investors continue monitoring the fragile US-Iran ceasefire while Trump remains \"optimistic\" about negotiations despite threatening Iran over Hormuz shipping fees. Market sentiment remains cautious ahead of key inflation prints."
+    },
     {
-      "title": "Asian Stock Markets Close Higher After NY Gains, Despite US-Iran Uncertainties",
+      "title": "Asian Stocks Close Higher After NY Gains, Despite US-Iran Uncertainties",
       "source": "MoneyTimes",
       "date": "2026-04-10",
       "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-alta-apos-ganhos-em-ny-apesar-de-incertezas-sobre-eua-ira-fets/",
-      "summary": "Asian markets closed higher Friday, following Wall Street, despite continued oil price increases amid the fragile Middle East ceasefire. Japan's Nikkei led gains with a 1.84% rise, while South Korea's Kospi advanced 1.40% after the central bank maintained its key rate at 2.50%. Oil prices continue rising for the second consecutive day due to uncertainties about the sustainability of the two-week US-Iran truce. The global risk sentiment affects Brazilian markets through commodity price channels and capital flow dynamics."
+      "summary": "Asian markets closed higher following Wall Street gains, with Japan's Nikkei leading (+1.84%) and oil prices continuing to rise amid fragile Middle East ceasefire ahead of weekend US-Iran peace negotiations. The positive sentiment provides supportive backdrop for emerging market assets including Brazilian equities, though oil price strength remains inflationary concern."
     },
     {
-      "title": "Asian Stock Markets Close Lower with Fragile Ceasefire and Rising Oil",
+      "title": "Vale (VALE3) Shares Could Unlock More Value Thanks to Little-Known 'Crown Jewel,' According to Analyst",
       "source": "MoneyTimes",
-      "date": "2026-04-09",
-      "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-baixa-com-cessar-fogo-fragil-e-petroleo-em-alta-fets/",
-      "summary": "Asian markets closed lower Thursday as oil prices resumed their climb amid skepticism regarding the fragile US-Iran ceasefire. South Korea's Kospi fell 1.61%, Japan's Nikkei dropped 0.73%, and Hong Kong's Hang Seng declined 0.54%. Oil prices advanced overnight after yesterday's tumble, due to signs of fragility in the temporary truce between the US and Iran. The Strait of Hormuz remained largely closed despite US demands for reopening, affecting global energy flows and market sentiment."
+      "date": "2026-04-11",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/acoes-da-vale-vale3-podem-destravar-mais-valor-gracas-a-uma-joia-da-coroa-pouco-conhecida-segundo-analista-lbrdcp121/",
+      "summary": "Vale shares fell 6.77% in March despite accumulating 14.6% gains in 2026. Empiricus analyst views the decline as profit-taking amid resilient iron ore prices. As a major Ibovespa component with dollar revenues, Vale benefits from BRL weakness during periods of uncertainty, making it relevant for both equity and FX market dynamics."
     }
   ],
   "not_relevant": [
-    "Goodbye, Ozempic? Empiricus Updates International Portfolio and Removes Drug Manufacturer and Amazon (AMZO34) from Recommendations",
-    "Brava (BRAV3) Daily Average Production Falls to 76 Thousand Oil Equivalent Barrels in 1Q26",
-    "'IPO is Not an Isolated Decision': Why Cryptocurrency Companies Suspended New IPOs in 2026",
-    "Bitcoin (BTC): Cryptocurrency Could Go from $76,000 to $61,000 This Week, But Token List Could Outperform BTC and Deliver Up to 500x Multiplications",
-    "Interview: Why REITs Still Haven't 'Caught On' with Institutionals — and How This Limits the Market, According to Santander"
+    "Bitcoin (BTC): Cryptocurrency Could Go from $76k to $61k This Week, But Token List Could Outperform BTC and Deliver Up to 500x Multiplications; Understand",
+    "Interview: Why REITs Still Haven't 'Caught On' with Institutionals — and How This Limits the Market, According to Santander",
+    "Last Days to Discover New Version of SOROS, Which Seeks 'Microcycles' of Opportunity with Cryptocurrencies"
   ]
 }
