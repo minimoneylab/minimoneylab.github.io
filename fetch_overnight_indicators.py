@@ -2,12 +2,17 @@
 """
 Synthetic Overnight Indicator Data Fetcher
 Fetches US market close, Taiwan ADRs, and Asia futures to predict Taiwan market open
+
+HYBRID APPROACH FOR SGX FUTURES:
+1. Try Yahoo Finance first (fast)
+2. If Yahoo data is stale (>1 day old), use Investing.com scraper (slower but reliable)
 """
 
 import yfinance as yf
 import json
 import math
 from datetime import datetime, timezone, timedelta
+from typing import List, Tuple, Optional
 
 # Hong Kong timezone (UTC+8)
 HK_TIMEZONE = timezone(timedelta(hours=8))
@@ -18,7 +23,7 @@ ADR_PAIRS = [
         'name': 'TSMC',
         'tw_ticker': '2330.TW',
         'adr_ticker': 'TSM',
-        'ratio': 5  # 1 ADR = 5 ordinary shares
+        'ratio': 5
     },
     {
         'name': 'UMC',
@@ -30,7 +35,7 @@ ADR_PAIRS = [
         'name': 'ASE',
         'tw_ticker': '3711.TW',
         'adr_ticker': 'ASX',
-        'ratio': 2  # 1 ADR = 2 ordinary shares
+        'ratio': 2
     }
 ]
 
@@ -48,41 +53,51 @@ ASIA_INDICES = [
     {'^N225': 'Nikkei 225'}
 ]
 
-# SGX Futures - contract month codes
-# Futures month codes: F=Jan, G=Feb, H=Mar, J=Apr, K=May, M=Jun, N=Jul, Q=Aug, U=Sep, V=Oct, X=Nov, Z=Dec
-MONTH_CODES = ['F', 'G', 'H', 'J', 'K', 'M', 'N', 'Q', 'U', 'V', 'X', 'Z']
+# Monthly futures month codes
+# F=Jan, G=Feb, H=Mar, J=Apr, K=May, M=Jun, N=Jul, Q=Aug, U=Sep, V=Oct, X=Nov, Z=Dec
+MONTH_TO_CODE = {
+    1: 'F', 2: 'G', 3: 'H', 4: 'J', 5: 'K', 6: 'M',
+    7: 'N', 8: 'Q', 9: 'U', 10: 'V', 11: 'X', 12: 'Z'
+}
 
-def get_current_sgx_ticker():
-    """Get current SGX FTSE Taiwan futures ticker based on current month"""
+MONTH_NAMES = {
+    1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'May', 6: 'Jun',
+    7: 'Jul', 8: 'Aug', 9: 'Sep', 10: 'Oct', 11: 'Nov', 12: 'Dec'
+}
+
+
+def get_sgx_contract_tickers() -> List[Tuple[str, str, str]]:
+    """
+    Get current and next month SGX contract tickers
+    Returns: List of (ticker, contract_code, month_name) tuples
+    
+    Contract expires on 2nd last business day of the contract month.
+    """
     now = datetime.now(HK_TIMEZONE)
-    current_year = now.year % 100  # Last 2 digits
+    current_month = now.month
+    current_year = now.year
     
-    # SGX futures use quarterly contracts
-    # Quarterly months: Mar (H), Jun (M), Sep (U), Dec (Z)
-    quarterly_codes = ['H', 'M', 'U', 'Z']
-    quarterly_months = [3, 6, 9, 12]
+    contracts = []
     
-    # Find next quarterly expiry (use "on the month" contract for liquidity)
-    for i, month in enumerate(quarterly_months):
-        if now.month <= month:
-            month_code = quarterly_codes[i]
-            year = current_year
-            break
-    else:
-        # Roll to next year Q1
-        month_code = 'H'  # March
-        year = (current_year + 1) % 100
+    # Current month contract
+    month_code = MONTH_TO_CODE[current_month]
+    year_code = current_year % 100
+    ticker = f"TWN-{month_code}{year_code:02d}.SI"
+    contract_code = f"{month_code}{year_code:02d}"
+    month_name = f"{MONTH_NAMES[current_month]} {current_year}"
+    contracts.append((ticker, contract_code, month_name))
     
-    ticker = f"TWN-{month_code}{year:02d}.SI"
-    return ticker
-
-SGX_FUTURES = [
-    {
-        'name': 'SGX FTSE Taiwan',
-        'contract': 'TWN',
-        'get_ticker': get_current_sgx_ticker  # Function to get current contract
-    }
-]
+    # Next month contract
+    next_month = current_month + 1 if current_month < 12 else 1
+    next_year = current_year if current_month < 12 else current_year + 1
+    next_month_code = MONTH_TO_CODE[next_month]
+    next_year_code = next_year % 100
+    next_ticker = f"TWN-{next_month_code}{next_year_code:02d}.SI"
+    next_contract_code = f"{next_month_code}{next_year_code:02d}"
+    next_month_name = f"{MONTH_NAMES[next_month]} {next_year}"
+    contracts.append((next_ticker, next_contract_code, next_month_name))
+    
+    return contracts
 
 
 def safe_round(value, decimals=2):
@@ -92,18 +107,183 @@ def safe_round(value, decimals=2):
     return round(value, decimals)
 
 
-def get_historical_basis(tw_ticker, adr_ticker, ratio=5, days=5):
+def is_data_stale(date_str: str, max_age_days: int = 1) -> bool:
+    """Check if data date is older than max_age_days"""
+    try:
+        data_date = datetime.strptime(date_str, '%Y-%m-%d')
+        now = datetime.now(HK_TIMEZONE).replace(tzinfo=None)
+        age_days = (now - data_date).days
+        return age_days > max_age_days
+    except:
+        return True
+
+
+def try_yahoo_sgx_futures(ticker: str, contract_code: str, month_name: str) -> Optional[dict]:
     """
-    Calculate historical ADR basis using next-day Taiwan open
-    basis = (ADR_close_T × FX_T) / (TW_open_T+1 × ratio)
+    Try to fetch SGX futures data from Yahoo Finance
+    Returns dict if successful, None if failed or stale
     """
     try:
-        # Fetch data
+        print(f"    Trying Yahoo Finance: {ticker}")
+        data = yf.Ticker(ticker)
+        hist = data.history(period='5d')
+        
+        if len(hist) < 1:
+            print(f"    ✗ No data from Yahoo")
+            return None
+        
+        # Get latest trading day
+        latest = hist.iloc[-1]
+        latest_date = hist.index[-1].strftime('%Y-%m-%d')
+        
+        # Check if data is stale (>1 day old)
+        if is_data_stale(latest_date, max_age_days=1):
+            print(f"    ⚠ Yahoo data is stale ({latest_date}), will try scraping")
+            return None
+        
+        # Try to get previous close
+        prev_close = None
+        change_pct = None
+        if len(hist) >= 2:
+            prev_close = safe_round(hist['Close'].iloc[-2], 2)
+            current_close = safe_round(latest['Close'], 2)
+            if prev_close and current_close:
+                change_pct = safe_round(((current_close - prev_close) / prev_close) * 100, 2)
+        
+        result = {
+            'name': 'SGX FTSE Taiwan',
+            'contract': f"TWN {contract_code}",
+            'ticker': ticker,
+            'month': month_name,
+            'date': latest_date,
+            'open': safe_round(latest['Open'], 2),
+            'high': safe_round(latest['High'], 2),
+            'low': safe_round(latest['Low'], 2),
+            'close': safe_round(latest['Close'], 2),
+            'prev_close': prev_close,
+            'change_pct': change_pct,
+            'volume': int(latest['Volume']) if not math.isnan(latest['Volume']) else 0,
+            'source': 'Yahoo Finance'
+        }
+        
+        print(f"    ✓ Yahoo: {latest_date}, Close={latest['Close']:.2f}")
+        return result
+        
+    except Exception as e:
+        print(f"    ✗ Yahoo error: {e}")
+        return None
+
+
+def try_investing_scraper(contract_code: str, month_name: str) -> Optional[dict]:
+    """
+    Scrape SGX futures data from Investing.com using Playwright
+    Only called if Yahoo Finance fails or has stale data
+    """
+    try:
+        print(f"    Trying Investing.com scraper for {contract_code}...")
+        from playwright.sync_api import sync_playwright
+        
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            
+            # Investing.com SGX FTSE Taiwan futures page
+            url = "https://www.investing.com/indices/sgx-ftse-taiwan-futures"
+            page.goto(url, wait_until='domcontentloaded', timeout=20000)
+            page.wait_for_timeout(2000)
+            
+            # Try to extract price data from the page
+            # This is a simplified scraper - might need adjustment based on actual page structure
+            try:
+                # Get current price
+                price_elem = page.query_selector('[data-test="instrument-price-last"]')
+                close_price = float(price_elem.inner_text().replace(',', '')) if price_elem else None
+                
+                # Get change percentage
+                change_elem = page.query_selector('[data-test="instrument-price-change-percent"]')
+                change_pct_text = change_elem.inner_text() if change_elem else None
+                change_pct = float(change_pct_text.replace('%', '').replace('+', '')) if change_pct_text else None
+                
+                # Get date (use today since it's live data)
+                today = datetime.now(HK_TIMEZONE).strftime('%Y-%m-%d')
+                
+                if close_price:
+                    result = {
+                        'name': 'SGX FTSE Taiwan',
+                        'contract': f"TWN {contract_code}",
+                        'ticker': f"TWN-{contract_code}.SI",
+                        'month': month_name,
+                        'date': today,
+                        'open': None,  # Not always available from Investing.com
+                        'high': None,
+                        'low': None,
+                        'close': safe_round(close_price, 2),
+                        'prev_close': None,
+                        'change_pct': safe_round(change_pct, 2) if change_pct else None,
+                        'volume': 0,
+                        'source': 'Investing.com (scraped)'
+                    }
+                    
+                    print(f"    ✓ Investing.com: {today}, Close={close_price:.2f}")
+                    browser.close()
+                    return result
+                
+            except Exception as e:
+                print(f"    ✗ Investing.com scraping error: {e}")
+            
+            browser.close()
+            
+    except ImportError:
+        print(f"    ✗ Playwright not installed, skipping scraper")
+    except Exception as e:
+        print(f"    ✗ Investing.com error: {e}")
+    
+    return None
+
+
+def get_sgx_futures():
+    """
+    Get SGX futures data with hybrid approach:
+    1. Try Yahoo Finance (fast)
+    2. If Yahoo fails or stale, try Investing.com scraper (slower but fresh)
+    """
+    print("Fetching SGX futures data (hybrid mode)...")
+    futures = []
+    
+    contracts = get_sgx_contract_tickers()
+    
+    for ticker, contract_code, month_name in contracts:
+        print(f"  Processing {contract_code} ({month_name})...")
+        
+        # Try Yahoo first
+        result = try_yahoo_sgx_futures(ticker, contract_code, month_name)
+        
+        # If Yahoo failed or stale, try scraping
+        if result is None:
+            print(f"    Yahoo failed/stale, trying Investing.com scraper...")
+            result = try_investing_scraper(contract_code, month_name)
+        
+        # Add to list if we got data
+        if result:
+            futures.append(result)
+        else:
+            print(f"  ✗ Could not get data for {contract_code}")
+    
+    return futures
+
+
+# ============================================================================
+# ALL OTHER FUNCTIONS REMAIN EXACTLY THE SAME
+# (ADR signals, US indices, Asia indices - NO CHANGES)
+# ============================================================================
+
+def get_historical_basis(tw_ticker, adr_ticker, ratio=5, days=5):
+    """Calculate historical ADR basis - UNCHANGED"""
+    try:
         tw = yf.Ticker(tw_ticker)
         adr = yf.Ticker(adr_ticker)
         fx = yf.Ticker('TWD=X')
         
-        # Get 15 days to ensure we have enough data
         tw_hist = tw.history(period='15d')
         adr_hist = adr.history(period='15d')
         fx_hist = fx.history(period='15d')
@@ -113,21 +293,16 @@ def get_historical_basis(tw_ticker, adr_ticker, ratio=5, days=5):
         
         basis_table = []
         
-        # Calculate for last 5 days (need T+1, so we stop at -1)
         for i in range(-days-1, -1):
             try:
                 adr_date = adr_hist.index[i]
-                
-                # Get values
                 adr_close_T = adr_hist['Close'].iloc[i]
                 fx_rate_T = fx_hist['Close'].iloc[i]
-                tw_open_T1 = tw_hist['Open'].iloc[i+1]  # NEXT DAY OPEN
+                tw_open_T1 = tw_hist['Open'].iloc[i+1]
                 
-                # Skip if any value is invalid
                 if any(math.isnan(v) or math.isinf(v) for v in [adr_close_T, fx_rate_T, tw_open_T1]):
                     continue
                 
-                # Calculate basis
                 adr_fx = adr_close_T * fx_rate_T
                 tw_x_ratio = tw_open_T1 * ratio
                 basis = adr_fx / tw_x_ratio
@@ -143,16 +318,13 @@ def get_historical_basis(tw_ticker, adr_ticker, ratio=5, days=5):
                     'basis': safe_round(basis, 4),
                     'premium_pct': safe_round(premium_pct, 2)
                 })
-            except Exception as e:
+            except:
                 continue
         
         if not basis_table:
             return None, None
         
-        # Calculate average
         avg_basis = sum([row['basis'] for row in basis_table if row['basis']]) / len(basis_table)
-        avg_premium = (avg_basis - 1) * 100
-        
         return basis_table, round(avg_basis, 4)
         
     except Exception as e:
@@ -161,13 +333,12 @@ def get_historical_basis(tw_ticker, adr_ticker, ratio=5, days=5):
 
 
 def get_adr_signal(pair):
-    """Get ADR signal for a Taiwan stock"""
+    """Get ADR signal - UNCHANGED"""
     try:
         tw = yf.Ticker(pair['tw_ticker'])
         adr = yf.Ticker(pair['adr_ticker'])
         fx = yf.Ticker('TWD=X')
         
-        # Get latest data
         tw_hist = tw.history(period='2d')
         adr_hist = adr.history(period='2d')
         fx_hist = fx.history(period='1d')
@@ -185,37 +356,23 @@ def get_adr_signal(pair):
         
         fx_rate = fx_hist['Close'].iloc[-1]
         
-        # Check for invalid values
         if any(math.isnan(v) or math.isinf(v) for v in [tw_close, adr_close, fx_rate]):
             return None
         
-        # Get historical basis
-        basis_table, avg_basis = get_historical_basis(
-            pair['tw_ticker'], 
-            pair['adr_ticker'], 
-            pair['ratio']
-        )
+        basis_table, avg_basis = get_historical_basis(pair['tw_ticker'], pair['adr_ticker'], pair['ratio'])
         
         if avg_basis is None:
             return None
         
-        # Predict Taiwan open
         predicted_open = (adr_close * fx_rate) / (pair['ratio'] * avg_basis)
         gap_pct = ((predicted_open - tw_close) / tw_close) * 100
         
-        # Generate signal
         if gap_pct > 1.5:
-            signal = "BULLISH"
-            signal_icon = "🟢"
-            signal_text = "Strong catch-up rally expected"
+            signal, signal_icon, signal_text = "BULLISH", "🟢", "Strong catch-up rally expected"
         elif gap_pct < -1.5:
-            signal = "BEARISH"
-            signal_icon = "🔴"
-            signal_text = "Already ahead, expect pullback"
+            signal, signal_icon, signal_text = "BEARISH", "🔴", "Already ahead, expect pullback"
         else:
-            signal = "NEUTRAL"
-            signal_icon = "⚪"
-            signal_text = "Minor adjustment expected"
+            signal, signal_icon, signal_text = "NEUTRAL", "⚪", "Minor adjustment expected"
         
         return {
             'name': pair['name'],
@@ -235,14 +392,13 @@ def get_adr_signal(pair):
             'signal_icon': signal_icon,
             'signal_text': signal_text
         }
-        
     except Exception as e:
         print(f"Error getting ADR signal for {pair['name']}: {e}")
         return None
 
 
 def get_us_indices():
-    """Get US market indices"""
+    """Get US market indices - UNCHANGED"""
     indices = []
     for idx_dict in US_INDICES:
         for ticker, name in idx_dict.items():
@@ -256,7 +412,6 @@ def get_us_indices():
                 close = hist['Close'].iloc[-1]
                 prev_close = hist['Close'].iloc[-2]
                 
-                # Skip if invalid
                 if math.isnan(close) or math.isinf(close) or math.isnan(prev_close) or math.isinf(prev_close):
                     continue
                 
@@ -278,7 +433,7 @@ def get_us_indices():
 
 
 def get_asia_indices():
-    """Get Asia market indices"""
+    """Get Asia market indices - UNCHANGED"""
     indices = []
     for idx_dict in ASIA_INDICES:
         for ticker, name in idx_dict.items():
@@ -292,7 +447,6 @@ def get_asia_indices():
                 close = hist['Close'].iloc[-1]
                 prev_close = hist['Close'].iloc[-2]
                 
-                # Skip if invalid
                 if math.isnan(close) or math.isinf(close) or math.isnan(prev_close) or math.isinf(prev_close):
                     continue
                 
@@ -313,62 +467,6 @@ def get_asia_indices():
     return indices
 
 
-def get_sgx_futures():
-    """Get SGX futures data - show raw OHLC for latest trading day"""
-    futures = []
-    
-    for future in SGX_FUTURES:
-        try:
-            # Get current contract ticker
-            ticker = future['get_ticker']()
-            print(f"  Trying ticker: {ticker}")
-            
-            # Fetch data from Yahoo Finance
-            data = yf.Ticker(ticker)
-            hist = data.history(period='1mo')  # Use 1 month to ensure data on weekends
-            
-            print(f"    Debug: Got {len(hist)} rows")
-            
-            if len(hist) < 1:
-                print(f"  ✗ No data available for {future['name']}")
-                continue
-            
-            # Get latest trading day
-            latest = hist.iloc[-1]
-            latest_date = hist.index[-1].strftime('%Y-%m-%d')
-            
-            # Try to get previous close (if available)
-            prev_close = None
-            change_pct = None
-            if len(hist) >= 2:
-                prev_close = safe_round(hist['Close'].iloc[-2], 2)
-                current_close = safe_round(latest['Close'], 2)
-                if prev_close and current_close:
-                    change_pct = safe_round(((current_close - prev_close) / prev_close) * 100, 2)
-            
-            futures.append({
-                'name': future['name'],
-                'contract': f"{future['contract']} {ticker.split('-')[1].split('.')[0]}",  # e.g., "TWN M26"
-                'ticker': ticker,
-                'date': latest_date,
-                'open': safe_round(latest['Open'], 2),
-                'high': safe_round(latest['High'], 2),
-                'low': safe_round(latest['Low'], 2),
-                'close': safe_round(latest['Close'], 2),
-                'prev_close': prev_close,  # Will be None if only 1 day of data
-                'change_pct': change_pct,  # Will be None if only 1 day of data
-                'volume': int(latest['Volume']) if not math.isnan(latest['Volume']) else 0
-            })
-            
-            print(f"  ✓ {future['name']} ({latest_date}): O={latest['Open']:.2f}, H={latest['High']:.2f}, L={latest['Low']:.2f}, C={latest['Close']:.2f}")
-            
-        except Exception as e:
-            print(f"  ✗ Error fetching {future['name']}: {e}")
-            continue
-    
-    return futures
-
-
 def main():
     print("=" * 70)
     print("SYNTHETIC OVERNIGHT INDICATOR")
@@ -386,10 +484,9 @@ def main():
     asia_indices = get_asia_indices()
     print(f"✓ Fetched {len(asia_indices)} Asia indices")
     
-    # Get SGX futures
-    print("Fetching SGX futures data...")
+    # Get SGX futures (HYBRID METHOD)
     sgx_futures = get_sgx_futures()
-    print(f"✓ Fetched {len(sgx_futures)} SGX futures")
+    print(f"✓ Fetched {len(sgx_futures)} SGX futures contracts")
     
     # Get ADR signals
     print("Calculating ADR signals...")
@@ -411,7 +508,7 @@ def main():
         'adr_signals': adr_signals
     }
     
-    # Save to JSON with custom handling for None values
+    # Save to JSON
     output_file = './data/overnight-indicators.json'
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2, allow_nan=False)
