@@ -1,63 +1,33 @@
 {
-  "date": "2026-04-11",
-  "update_time": "2026-04-11 08:05:41",
-  "total_articles": 10,
+  "date": "2026-04-12",
+  "update_time": "2026-04-12 08:10:38",
+  "total_articles": 7,
   "high": [
     {
-      "title": "Future Interest Rates: Short-term Rates Rise Strongly with Inflation Above Expectations",
+      "title": "Future Interest Rates: Short-Term Rates Rise Strongly with Above-Expected Inflation",
       "source": "MoneyTimes",
       "date": "2026-04-11",
       "url": "https://www.moneytimes.com.br/juros-futuros-10-4-26-lils/",
-      "summary": "The Brazilian futures yield curve closed Friday with significant steepening as short-term rates spiked following stronger-than-expected inflation data. The DI rate for January 2027 (very short-term) jumped 14 basis points to 14.060% from 13.920%. Medium-term DI rates for January 2029 also rose to 13.380% from 13.305%. However, long-term rates (DI January 2036) fell 14 basis points to 13.455% from 13.595%. This curve movement suggests markets are pricing in more aggressive BCB monetary tightening in the near term while maintaining expectations for eventual rate cuts in the long term. The reaction mirrors similar moves in US Treasuries following American inflation data. For BRL traders, this yield curve steepening typically pressures the currency as it reflects inflation concerns and potential BCB intervention."
+      "summary": "Brazil's interest rate futures curve closed Friday with significant steepening as short-term rates spiked following stronger-than-expected inflation data. The DI rate for January 2027 surged 14 basis points to 14.060% from 13.920%, reflecting market repricing of near-term monetary policy expectations. Medium-term rates also rose, with January 2029 DI climbing to 13.380% from 13.305%. However, long-term rates continued their recent decline, with January 2036 DI falling 14bp to 13.455% from 13.595%.\n\nThis curve movement is critical for BRL traders and bond investors as it signals the market is pricing in a more hawkish BCB stance in the near term due to inflation pressures, while maintaining expectations for eventual policy normalization. The parallel movement in U.S. Treasury yields (2-year at 3.779%) suggests synchronized global inflation concerns. Watch for potential BCB intervention signals and how this yield curve steepening affects foreign portfolio flows into Brazilian fixed income."
     },
     {
-      "title": "Markets in Wait-and-See Mode for IPCA and CPI; Dollar-denominated Ibovespa Falls Today (10th)",
-      "source": "MoneyTimes",
-      "date": "2026-04-10",
-      "url": "https://www.moneytimes.com.br/mercados-em-compasso-de-espera-pelo-ipca-e-cpi-ibovespa-em-dolar-recua-hoje-10-jals/",
-      "summary": "Brazilian markets are in a holding pattern awaiting the March IPCA release, which will reflect the impact of the Middle East conflict and oil price surge. Market consensus expects a 0.77% monthly increase according to Broadcast's median estimate. The geopolitical tensions from the US-Iran temporary ceasefire continue to create uncertainty, with Trump expressing optimism about negotiations while threatening Tehran over Strait of Hormuz shipping fees. The IPCA data will be crucial for BCB monetary policy expectations and BRL direction, especially given oil price volatility. Dollar-denominated Ibovespa performance is declining, suggesting foreign investor caution ahead of the inflation print."
-    },
-    {
-      "title": "Ibovespa at 196 Thousand Points: 'Won't Take Much Effort to Reach 200 Thousand Points,' Says Analyst; See 10 Stocks to Buy Now",
+      "title": "Ibovespa at 196,000 Points: 'Won't Take Much Effort to Reach 200,000 Points', Says Analyst",
       "source": "MoneyTimes",
       "date": "2026-04-11",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-nos-196-mil-pontos-nao-sera-preciso-muito-esforco-para-chegar-nos-200-mil-pontos-diz-analista-veja-10-acoes-para-comprar-agora-lbrdis568/",
-      "summary": "The Ibovespa hit fresh highs for the third consecutive session, touching 197,554 points despite challenging macro conditions. The index has gained 4% this week, defying risk-off sentiment from Middle East tensions. Brazil's March IPCA came in at 0.88%, accelerating from February's 0.70% and beating market expectations of 0.77% by 11 basis points. This inflation surprise, combined with ongoing Strait of Hormuz disruptions affecting oil prices, complicates BCB's Selic cutting cycle prospects. However, the index's resilience amid geopolitical and inflation headwinds suggests strong domestic fundamentals. For equity investors, the momentum toward 200,000 points appears sustainable despite external pressures."
+      "summary": "The Ibovespa defied macroeconomic headwinds for the third consecutive session, hitting new highs and touching 197,554 points on Friday. The index gained 4% this week despite continued instability in risk assets. Key market drivers include the announced two-week ceasefire between the US and Iran, though the Strait of Hormuz remains largely closed, impacting interest rate expectations and Selic cut cycles.\n\nMost significantly for monetary policy, IBGE released March IPCA inflation data showing 0.88% monthly acceleration - up 0.18 percentage points from February's 0.70% and above market expectations of 0.77%. Despite this inflationary pressure typically negative for equities, the Ibovespa's resilience suggests strong underlying fundamentals. Analysts view this performance as signaling that reaching 200,000 points requires minimal effort. For international investors, this disconnect between inflation concerns and equity performance indicates robust domestic demand and corporate earnings, though it may complicate BCB policy normalization and BRL stability."
     }
   ],
   "medium": [
     {
-      "title": "Oil Rises and Returns to $100 with Attacks on Saudi Facilities; Hormuz Nearly Paralyzed",
-      "source": "MoneyTimes",
-      "date": "2026-04-10",
-      "url": "https://www.moneytimes.com.br/petroleo-sobe-e-volta-a-bater-em-us-100-com-ataques-a-instalacoes-sauditas-ormuz-quase-paralisado-fets/",
-      "summary": "Oil prices surged back toward $100/barrel due to attacks on Saudi facilities and near-total paralysis of Strait of Hormuz tanker traffic. Brent futures rose 1.89% to $97.73 while WTI gained 1.78% to $99.61. Despite the US-Iran two-week ceasefire, supply disruptions continue. This oil rally directly impacts Brazilian inflation expectations and BCB policy outlook, as energy costs feed through to IPCA readings."
-    },
-    {
-      "title": "Real-Time: Ibovespa Closes Week Focused on IPCA",
-      "source": "MoneyTimes",
-      "date": "2026-04-10",
-      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-10-04-2026-jals-lils-apsa/",
-      "summary": "The Ibovespa ended the week with attention focused on Brazilian IPCA and US CPI data, both crucial for monetary policy expectations. Investors continue monitoring the fragile US-Iran ceasefire while Trump remains \"optimistic\" about negotiations despite threatening Iran over Hormuz shipping fees. Market sentiment remains cautious ahead of key inflation prints."
-    },
-    {
-      "title": "Asian Stocks Close Higher After NY Gains, Despite US-Iran Uncertainties",
-      "source": "MoneyTimes",
-      "date": "2026-04-10",
-      "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-alta-apos-ganhos-em-ny-apesar-de-incertezas-sobre-eua-ira-fets/",
-      "summary": "Asian markets closed higher following Wall Street gains, with Japan's Nikkei leading (+1.84%) and oil prices continuing to rise amid fragile Middle East ceasefire ahead of weekend US-Iran peace negotiations. The positive sentiment provides supportive backdrop for emerging market assets including Brazilian equities, though oil price strength remains inflationary concern."
-    },
-    {
-      "title": "Vale (VALE3) Shares Could Unlock More Value Thanks to Little-Known 'Crown Jewel,' According to Analyst",
+      "title": "Vale (VALE3) Shares Could Unlock More Value Thanks to Little-Known 'Crown Jewel', Says Analyst",
       "source": "MoneyTimes",
       "date": "2026-04-11",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/acoes-da-vale-vale3-podem-destravar-mais-valor-gracas-a-uma-joia-da-coroa-pouco-conhecida-segundo-analista-lbrdcp121/",
-      "summary": "Vale shares fell 6.77% in March despite accumulating 14.6% gains in 2026. Empiricus analyst views the decline as profit-taking amid resilient iron ore prices. As a major Ibovespa component with dollar revenues, Vale benefits from BRL weakness during periods of uncertainty, making it relevant for both equity and FX market dynamics."
+      "summary": "Vale (VALE3) closed March down 6.77% but still accumulates 14.6% gains in 2026 after rising 49% in 2025. Analysts attribute the decline to profit-taking rather than fundamental weakness, given resilient iron ore prices. The company benefits from dollar-denominated revenues amid currency uncertainty caused by geopolitical tensions. Empiricus Research sees potential market rotation within commodities toward oil due to war-related demand. Vale's operational improvements and hidden assets could drive shares to more attractive levels."
     }
   ],
   "not_relevant": [
-    "Bitcoin (BTC): Cryptocurrency Could Go from $76k to $61k This Week, But Token List Could Outperform BTC and Deliver Up to 500x Multiplications; Understand",
-    "Interview: Why REITs Still Haven't 'Caught On' with Institutionals — and How This Limits the Market, According to Santander",
-    "Last Days to Discover New Version of SOROS, Which Seeks 'Microcycles' of Opportunity with Cryptocurrencies"
+    "Last Days to Learn About the New Version of SOROS, Which Seeks 'Microcycles' of Opportunity with Cryptocurrencies (Articles 1 & 5 - duplicates)"
   ]
 }
