@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Monitor - MiniMoneyLab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #FAFAF5;
+            color: #2B2B2B;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .header {
+            background: white;
+            border-bottom: 1px solid #E5E5E5;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #6B6B6B;
+            text-decoration: none;
+            font-size: 0.875rem;
+            margin-bottom: 24px;
+            transition: color 0.2s;
+        }
+        
+        .back-link:hover { color: #2B2B2B; }
+        
+        .main-title {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #2B2B2B;
+            margin-bottom: 12px;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            color: #9B9B9B;
+        }
+        
+        .update-time {
+            font-size: 0.8125rem;
+            color: #C4C4C4;
+            margin-top: 16px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        
+        .category-section {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 24px;
+            border: 1px solid #E5E5E5;
+        }
+        
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #F0F0F0;
+        }
+        
+        .category-icon {
+            font-size: 1.5rem;
+        }
+        
+        .category-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2B2B2B;
+        }
+        
+        .category-count {
+            font-size: 0.875rem;
+            color: #9B9B9B;
+            background: rgba(0,0,0,0.05);
+            padding: 4px 12px;
+            border-radius: 12px;
+        }
+        
+        .tweet-card {
+            padding: 24px 0;
+            border-bottom: 1px solid #F5F5F5;
+        }
+        
+        .tweet-card:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .tweet-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        
+        .tweet-author {
+            flex: 1;
+        }
+        
+        .tweet-username {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #2B2B2B;
+        }
+        
+        .tweet-handle {
+            font-size: 0.8125rem;
+            color: #9B9B9B;
+        }
+        
+        .tweet-date {
+            font-size: 0.8125rem;
+            color: #C4C4C4;
+        }
+        
+        .tweet-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #4A4A4A;
+            margin-bottom: 16px;
+            padding-left: 52px;
+        }
+        
+        .tweet-impact {
+            background: #F9F9F9;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            margin-left: 52px;
+        }
+        
+        .impact-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #9B9B9B;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+        
+        .impact-text {
+            font-size: 0.9375rem;
+            color: #2B2B2B;
+            line-height: 1.5;
+        }
+        
+        .tweet-sectors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+            margin-left: 52px;
+        }
+        
+        .sector-tag {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            background: rgba(0,0,0,0.05);
+            border-radius: 12px;
+            color: #6B6B6B;
+        }
+        
+        .tweet-footer {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-left: 52px;
+        }
+        
+        .tweet-stat {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8125rem;
+            color: #9B9B9B;
+        }
+        
+        .tweet-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #2B2B2B;
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            border: 1px solid #E5E5E5;
+            border-radius: 6px;
+            transition: all 0.2s;
+            margin-left: auto;
+        }
+        
+        .tweet-link:hover {
+            background: #FAFAFA;
+            border-color: #D4D4D4;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #9B9B9B;
+        }
+        
+        .empty-icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            color: #9B9B9B;
+        }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .header { padding: 24px 20px; }
+            .main-title { font-size: 1.75rem; }
+            .container { padding: 20px; }
+            .category-section { padding: 24px 20px; }
+            
+            .tweet-text,
+            .tweet-impact,
+            .tweet-sectors,
+            .tweet-footer {
+                margin-left: 0;
+                padding-left: 0;
+            }
+            
+            .tweet-footer {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+            
+            .tweet-link {
+                margin-left: 0;
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="back-link">
+            ← Back to Daily Brief
+        </a>
+        <h1 class="main-title">🐦 Twitter Monitor</h1>
+        <p class="subtitle">Market-moving tweets from influential accounts</p>
+        <div id="update-time" class="update-time"></div>
+    </div>
+    
+    <div class="container">
+        <div id="loading" class="loading">
+            <div style="font-size: 2rem; margin-bottom: 16px;">🐦</div>
+            <div>Loading tweets...</div>
+        </div>
+        
+        <div id="content" style="display: none;"></div>
+    </div>
+
+    <script>
+        const CATEGORY_CONFIG = {
+            'Macro Market': {
+                icon: '📊',
+                description: 'Fed policy, tariffs, inflation, central banks'
+            },
+            'Stock Market': {
+                icon: '📈',
+                description: 'Indices, sectors, broad market moves'
+            },
+            'Specific Stock/Company': {
+                icon: '🏢',
+                description: 'Individual companies, earnings, activist positions'
+            },
+            'Geopolitics': {
+                icon: '🌍',
+                description: 'Wars, sanctions, elections affecting markets'
+            },
+            'Crypto/Commodities': {
+                icon: '💰',
+                description: 'Bitcoin, oil, gold, commodities'
+            }
+        };
+        
+        function getInitials(username) {
+            return username.substring(0, 2).toUpperCase();
+        }
+        
+        function formatDate(dateStr) {
+            try {
+                const date = new Date(dateStr);
+                const now = new Date();
+                const diffMs = now - date;
+                const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+                const diffMins = Math.floor(diffMs / (1000 * 60));
+                
+                if (diffMins < 60) {
+                    return `${diffMins}m ago`;
+                } else if (diffHours < 24) {
+                    return `${diffHours}h ago`;
+                } else {
+                    return date.toLocaleDateString('en-US', { 
+                        month: 'short', 
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit'
+                    });
+                }
+            } catch {
+                return dateStr;
+            }
+        }
+        
+        function renderTweet(tweet) {
+            const sectors = tweet.affected_sectors || [];
+            const likes = tweet.likes || 0;
+            const retweets = tweet.retweets || 0;
+            
+            return `
+                <div class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">${getInitials(tweet.username)}</div>
+                        <div class="tweet-author">
+                            <div class="tweet-username">@${tweet.username}</div>
+                        </div>
+                        <div class="tweet-date">${formatDate(tweet.date)}</div>
+                    </div>
+                    
+                    <div class="tweet-text">${tweet.text}</div>
+                    
+                    <div class="tweet-impact">
+                        <div class="impact-label">💡 Market Impact</div>
+                        <div class="impact-text">${tweet.impact_summary}</div>
+                    </div>
+                    
+                    ${sectors.length > 0 ? `
+                        <div class="tweet-sectors">
+                            ${sectors.map(sector => `<span class="sector-tag">${sector}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                    
+                    <div class="tweet-footer">
+                        <div class="tweet-stat">
+                            <span>❤️</span>
+                            <span>${likes.toLocaleString()}</span>
+                        </div>
+                        <div class="tweet-stat">
+                            <span>🔄</span>
+                            <span>${retweets.toLocaleString()}</span>
+                        </div>
+                        ${tweet.url ? `
+                            <a href="${tweet.url}" class="tweet-link" target="_blank">
+                                View on Twitter →
+                            </a>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+        
+        function renderCategory(categoryName, tweets) {
+            const config = CATEGORY_CONFIG[categoryName] || { icon: '📌', description: '' };
+            
+            if (!tweets || tweets.length === 0) {
+                return '';
+            }
+            
+            return `
+                <div class="category-section">
+                    <div class="category-header">
+                        <span class="category-icon">${config.icon}</span>
+                        <h2 class="category-title">${categoryName}</h2>
+                        <span class="category-count">${tweets.length}</span>
+                    </div>
+                    ${tweets.map(tweet => renderTweet(tweet)).join('')}
+                </div>
+            `;
+        }
+        
+        async function loadData() {
+            try {
+                const response = await fetch('data/twitter-analyzed.json');
+                if (!response.ok) throw new Error('Not found');
+                
+                const data = await response.json();
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+                
+                // Update time
+                document.getElementById('update-time').textContent = 
+                    'Last updated ' + data.update_time;
+                
+                // Render categories in order
+                const categoryOrder = [
+                    'Macro Market',
+                    'Stock Market',
+                    'Specific Stock/Company',
+                    'Geopolitics',
+                    'Crypto/Commodities'
+                ];
+                
+                let html = '';
+                let totalTweets = 0;
+                
+                categoryOrder.forEach(category => {
+                    const tweets = data.categories[category] || [];
+                    totalTweets += tweets.length;
+                    html += renderCategory(category, tweets);
+                });
+                
+                if (totalTweets === 0) {
+                    html = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <div style="font-size: 1.25rem; color: #6B6B6B; margin-bottom: 12px;">
+                                No market-relevant tweets
+                            </div>
+                            <div style="font-size: 0.9375rem;">
+                                No significant market-moving tweets in the past 24 hours
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                document.getElementById('content').innerHTML = html;
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <div style="font-size: 1.25rem; color: #6B6B6B; margin-bottom: 12px;">
+                            Data not available
+                        </div>
+                        <div style="font-size: 0.9375rem;">
+                            Twitter data hasn't been generated yet.<br>
+                            Run the daily scraper to populate this page.
+                        </div>
+                    </div>
+                `;
+                document.getElementById('loading').style.display = 'block';
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
