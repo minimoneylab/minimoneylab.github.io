@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-13",
+  "update_time": "2026-04-12 23:08:00",
+  "total_articles": 24,
+  "high": [
+    {
+      "title": "TSMC April 16 Earnings Call - Seven Key Focus Areas as Legal Entity Targets Annual Profit Above Ten Share Capital",
+      "section": "金融",
+      "date": "2026/04/12 00:58:16",
+      "url": "https://money.udn.com/money/story/11162/9436111?from=edn_maintab_cate",
+      "summary": "TSMC (2330) will hold its online investor conference on April 16, releasing Q1 financial results and Q2 guidance. Market focus centers on seven key issues: Q2 performance continuation, full-year growth outlook revisions, overseas fab progress, AI demand, geopolitical impacts on supply chain costs, semiconductor cycle outlook, and advanced packaging/process developments. TSMC's March revenue hit a record NT$415.19 billion, up 30.7% monthly and 45.2% yearly. Q1 revenue reached NT$1.134 trillion, up 35.1% yearly. Legal entities estimate TSMC could earn over two share capital per quarter in 2026, potentially challenging annual profits exceeding ten share capital - a new record. The stock recently reclaimed the NT$2,000 level after Middle East tensions eased, with strong AI accelerator demand driving 3nm advanced process orders and price increases providing dual growth engines."
+    },
+    {
+      "title": "Phison Aggressively Stockpiling as Memory Shortage 'Has No End in Sight' - Plans NT$43 Billion Fundraising",
+      "section": "金融",
+      "date": "2026/04/12 02:01:14",
+      "url": "https://money.udn.com/money/story/5612/9436124?from=edn_maintab_cate",
+      "summary": "Phison (8299) CEO Pua Khein-Seng stated memory shortages are \"endless,\" prompting strategic stockpiling with inventory surpassing NT$50 billion. The company plans over NT$43 billion in fundraising this year to enter \"aggressive procurement\" mode. Recent demand is extremely strong, with PC vendors urgently adding 1 million SSD orders and US clients frequently placing rush orders. NVIDIA's new AI chip Rubin series will absorb original manufacturer capacity instantly, making supply-demand imbalance the norm. The fundraising includes up to US$800 million in overseas unsecured convertible bonds, NT$6 billion domestic convertible bonds, and NT$12 billion syndicated loans. CEO Pua acknowledged funding pressure from high Flash prices, implementing prepayment mechanisms with customers to share stocking pressure. The AI effect will drive storage industry growth for \"another 20 years.\""
+    },
+    {
+      "title": "Hon Hai and Quanta Benefit as Apple's Budget MacBook Neo Sells Out, Emergency Orders Placed",
+      "section": "金融",
+      "date": "2026/04/13 01:02:11",
+      "url": "https://money.udn.com/money/story/11162/9437440?from=edn_maintab_cate",
+      "summary": "Apple's new MacBook Neo, priced at just $599 (under NT$20,000), has triggered global buying frenzy and sold out completely. Apple is urgently placing large additional orders and raising shipment estimates from millions to over 10 million units. Main contract manufacturers Hon Hai (2317) and Quanta (2382) are ramping production accordingly. Supply chain sources indicate Hon Hai produces MacBook Neo at China and Vietnam facilities. CEO Cook revealed this was \"the best week for new Mac users in Mac history,\" showing demand far exceeded expectations. Current orders on Apple's website require waiting until April 24-May 1 for delivery. Taiwan is not in the first wave of launch regions but expected to begin sales mid-April to early May. The A18 chip inventory will also be exhausted, facing potential shortage issues."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Jim Cramer: I Like TSMC But NVIDIA Stock is Better Buy Now",
+      "section": "產經",
+      "date": "2026/04/11 19:46:27",
+      "url": "https://money.udn.com/money/story/5599/9435887",
+      "summary": "CNBC host Jim Cramer commented on TSMC when discussing Iran war impacts, telling viewers: \"Listen, I like TSMC, but I have to tell you, I'd suggest you buy NVIDIA. NVIDIA has fallen significantly and suddenly become unpopular - this is when you should enter.\" He praised TSMC's strong Q4 results and management's bullish capacity expansion plans through 2028-2029."
+    },
+    {
+      "title": "TVBS Sale Rumors - Fubon, CTBC, and Taiwan Steel Group Possibly Competing",
+      "section": "金融",
+      "date": "2026/04/13 01:02:33",
+      "url": "https://money.udn.com/money/story/5612/9437450?from=edn_subcatelist_cate",
+      "summary": "Following two waves of layoffs, TVBS's major shareholder HTC Chairwoman Cher Wang reportedly wants to sell TVBS. Market rumors suggest a asking price of NT$7.5 billion, though TVBS hopes for NT$10 billion level. Two to three groups allegedly competing include CTBC (2891), Fubon (2881) financial holdings, Taiwan Steel Group, and foreign private equity. CTBC's major shareholder Jeffrey Koo Jr. denied involvement through associates, while Fubon declined comment and Taiwan Steel called it \"completely false.\""
+    },
+    {
+      "title": "Investment Trust Aggressive Stock Buying - Nan Ya PCB, Unimicron Among Top Performers",
+      "section": "證券",
+      "date": "2026/04/12 02:29:13",
+      "url": "https://money.udn.com/money/story/5607/9436101?from=edn_maintab_cate",
+      "summary": "Active ETF popularity drives investment trust stock picking, with 14 stocks including Powertech (3163), Nan Ya PCB, and Unimicron receiving heavy investment trust buying in recent five trading days, all outperforming the broader market. These electronics stocks span semiconductors, components, communications, benefiting from strong AI demand. Many are expensive stocks with technical advantages and strong fundamentals."
+    },
+    {
+      "title": "US-Iran Negotiations Fail to Reach Agreement - Taiwan Stock Market Expected to Face High-Level Volatility",
+      "section": "證券",
+      "date": "2026/04/13 01:30:35",
+      "url": "https://money.udn.com/money/story/5607/9437500?from=edn_maintab_cate",
+      "summary": "After 21 hours of marathon negotiations, US Vice President Vance announced no agreement reached with Iran, with the US delegation returning home. Iran described talks as \"filled with distrust and suspicion.\" Market experts expect short-term high-level consolidation for Taiwan stocks, but rebound structure toward historical highs remains intact as long as pullbacks don't break 31,705 points."
+    }
+  ],
+  "not_relevant": []
+}
