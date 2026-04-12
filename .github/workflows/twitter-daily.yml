@@ -1,0 +1,45 @@
+name: Twitter Monitor Daily
+
+on:
+  schedule:
+    # Run at 6:00 AM UTC daily (adjust timezone as needed)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  twitter-monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --break-system-packages anthropic snscrape
+      
+      - name: Scrape Twitter accounts
+        run: |
+          python scrape_twitter.py
+        continue-on-error: true
+      
+      - name: Analyze with Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python analyze_twitter.py
+        continue-on-error: true
+      
+      - name: Commit and push data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/twitter-*.json
+          git diff --staged --quiet || git commit -m "Update Twitter monitor data - $(date +'%Y-%m-%d')"
+          git push
+        continue-on-error: true
