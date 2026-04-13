@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-14",
+  "update_time": "2026-04-13 23:16:22",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "Apple's Budget Notebook Selling Out, Hon Hai and Quanta Benefit from Emergency Orders",
+      "section": "金融",
+      "date": "2026/04/13 01:02:11",
+      "url": "https://money.udn.com/money/story/11162/9437440?from=edn_maintab_cate",
+      "summary": "Apple's new entry-level MacBook Neo, priced at just $599 (under NT$20,000), has triggered a global buying frenzy and sold out completely. Apple has urgently placed massive additional orders, upgrading shipment forecasts from millions to over 10 million units. This benefits key assembly partners Hon Hai (2317) and Quanta (2382). The MacBook Neo represents Apple's most affordable laptop ever, with CEO Cook revealing it achieved \"the best new user sales week in Mac history.\" Supply chain sources indicate Hon Hai manufactures the device at mainland China and Vietnam facilities. The surge in orders reflects stronger-than-expected demand for affordable Apple products, potentially reshaping the notebook market landscape and directly impacting Wintel and Chromebook segments. This development is significant for Taiwan's tech manufacturing ecosystem, as it demonstrates the supply chain's ability to rapidly scale production for unexpected demand spikes."
+    },
+    {
+      "title": "TSMC Accelerates Taiwan-US Advanced Packaging Capacity, Benefiting Marketech and Airtac",
+      "section": "金融",
+      "date": "2026/04/13 01:21:37",
+      "url": "https://money.udn.com/money/story/5612/9437501?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) is aggressively expanding advanced packaging capacity across Taiwan and the US, triggering a new wave of cleanroom construction and water treatment business opportunities. Key beneficiaries include Marketech (2404) and Airtac (6196). Marketech, a major cleanroom contractor for TSMC, is deeply involved in 2nm fab construction and heavily investing in CoWoS advanced packaging facility development. Under TSMC's strong order support, Marketech achieved record profits of NT$9.069 billion last year, up 46.5% annually. March 2026 revenue reached NT$7.693 billion, the second-highest monthly figure ever, growing 100.6% year-on-year. Airtac also benefits from overseas market expansion, with Q1 revenue of NT$14.309 billion representing a 7.9% annual increase. The company reports record-high order backlogs that will keep teams busy through 2026, driven by advanced packaging equipment deliveries in Taiwan and fab construction projects in the US, Japan, Germany, and Singapore."
+    },
+    {
+      "title": "US-Iran Negotiations Fail to Reach Consensus, Taiwan Stock Market Expected to Face High-Level Volatility",
+      "section": "證券",
+      "date": "2026/04/13 01:30:35",
+      "url": "https://money.udn.com/money/story/5607/9437500?from=edn_maintab_cate",
+      "summary": "After 21 hours of marathon negotiations, US Vice President Vance announced on April 12 that the US and Iran failed to reach an agreement, immediately leading the US delegation back home. Iran also described the talks as \"filled with mistrust and suspicion,\" indicating Middle East tensions remain unresolved. Market experts believe the Taiwan stock market will face short-term high-level volatility, but as long as pullbacks don't break 31,705 points, the rebound structure challenging historical highs will continue. Trump subsequently suggested the US could implement naval blockades on Iran similar to actions taken against Venezuela, and later announced immediate blockade of all ships attempting to enter or exit the Strait of Hormuz. Despite the negotiation failure, analysts note both sides avoided inflammatory rhetoric post-talks. With listed companies reporting record March revenues and AI supply chain companies like TSMC (2330) and Delta Electronics (2308) delivering historic highs, downside corrections are expected to be limited. Key focuses include international oil prices, US dollar trends, US bond yields, and TSMC's upcoming earnings call."
+    },
+    {
+      "title": "Nanya Technology Q2 Gross Margin Approaches 70%, Expects Continued DRAM Price Increases",
+      "section": "金融",
+      "date": "2026/04/14 00:47:38",
+      "url": "https://money.udn.com/money/story/5612/9439583?from=edn_subcatelist_cate",
+      "summary": "DRAM manufacturer Nanya Technology (2408) reported a record gross margin of 67.9% in Q1, breaking Taiwan's wafer manufacturing industry record and surpassing even TSMC's 62.3% from Q4 2025. The company's net margin also hit a historic 53.1%. CEO Lee Pei-ying indicated Q1 DRAM prices rose significantly with average selling prices increasing over 70% quarter-on-quarter. For Q2, prices are \"confirmed to have considerable increases\" with double-digit growth expected, expressing confidence that \"gross margins can be maintained for several quarters ahead.\" The strong pricing is driven by explosive AI demand across HBM, high-capacity DDR5, and LPDDR5 segments, particularly RDIMM products for cloud servers. AI applications are expanding from data centers to edge devices, creating long-term structural demand. Supply remains tight as DDR4 and DDR3 mature process capacity exits the market rapidly, with new capacity focused on advanced processes and AI applications. Even with major manufacturers increasing capex, new capacity won't meaningfully contribute until 2028, keeping supply-demand tight through 2027."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Apple's Budget Notebook Triggers Laptop Market Reshuffling",
+      "section": "金融",
+      "date": "2026/04/13 00:59:39",
+      "url": "https://money.udn.com/money/story/11162/9437441?from=edn_subcatelist_cate",
+      "summary": "The MacBook Neo's aggressive pricing directly threatens Wintel entry-level laptops and Google Chromebooks, particularly in education markets. With educational pricing at NT$16,900, it poses strong appeal to student demographics, potentially disrupting established market positions."
+    },
+    {
+      "title": "TVBS Media Reportedly for Sale, Fubon, CTBC, and Taiwan Steel May Bid",
+      "section": "金融",
+      "date": "2026/04/13 01:02:33",
+      "url": "https://money.udn.com/money/story/5612/9437450?from=edn_subcatelist_cate",
+      "summary": "Following layoffs, HTC Chairwoman Cher Wang reportedly seeks to sell TVBS with asking price around NT$7.5-10 billion. Potential bidders include CTBC (2891), Fubon (2881) financial holdings, Taiwan Steel Group, and private equity funds. Both major financial groups declined to comment."
+    },
+    {
+      "title": "Elon Musk to Launch XChat Communication App, Benefiting Wistron and Inventec",
+      "section": "金融",
+      "date": "2026/04/14 01:01:26",
+      "url": "https://money.udn.com/money/story/11162/9439483?from=edn_maintab_cate",
+      "summary": "Tesla CEO Musk will officially launch XChat on Friday (17th), featuring ad-free, high-encryption messaging with disappearing messages. The app will integrate xAI's Grok AI model, boosting computing power demand for suppliers Wistron (3231) and Inventec."
+    },
+    {
+      "title": "Petrochemical Companies Warn of Material Shortages Through Year-End Due to Gulf War Damage",
+      "section": "金融",
+      "date": "2026/04/14 01:34:10",
+      "url": "https://money.udn.com/money/story/5612/9439559?from=edn_maintab_cate",
+      "summary": "Taiwan petrochemical companies including Formosa Plastics (1301), Formosa Chemicals (1326), and Nan Ya Plastics (1303) have declared force majeure due to Middle East supply disruptions. Companies warn material shortages will persist through year-end with 72 oil and gas facilities damaged."
+    },
+    {
+      "title": "Apple to Launch AI Glasses Next Year with Advanced Siri Integration",
+      "section": "金融",
+      "date": "2026/04/14 01:11:39",
+      "url": "https://money.udn.com/money/story/5612/9439591?from=edn_maintab_cate",
+      "summary": "Apple's first AI glasses expected to launch in early 2027, featuring integrated cameras, microphones, and speakers for advanced Siri interaction. Suppliers Hon Hai (2317), Genius Electronic Optical (3406), and Largan Precision (3008) are expected to benefit from the new product category."
+    },
+    {
+      "title": "AUO Promotes Energy Business Corporatization, Divests Stellar Energy Investment for NT$860 Million",
+      "section": "金融",
+      "date": "2026/04/14 00:42:09",
+      "url": "https://money.udn.com/money/story/11162/9439594?from=edn_subcatelist_cate",
+      "summary": "AUO (2409) board approved energy business reorganization, planning to split energy operations to subsidiary Darfon Energy in August, then divest to Stellar Energy Investment for approximately NT$860 million to enhance operational efficiency and competitiveness."
+    }
+  ],
+  "not_relevant": []
+}
