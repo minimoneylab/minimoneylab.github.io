@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-15",
+  "update_time": "2026-04-14 23:27:49",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "Taiwan Stock Index Soars Past 36K Creating Six Records, TSMC Hits NT$2,055 High",
+      "section": "證券",
+      "date": "2026/04/15 01:25:38",
+      "url": "https://money.udn.com/money/story/5607/9442039?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market achieved a historic milestone as the TAIEX surged 838 points to close at 36,296 points, marking the first time the index has broken through 36K. TSMC led the charge, reaching an all-time high of NT$2,055 with a 3.26% gain. The rally created six new records including index highs, market capitalization peaks, and trading volume records. Foreign investors returned as net buyers with NT$68.9 billion in purchases, the fifth-largest single-day buying on record. Market analysts remain optimistic ahead of TSMC's investor conference on April 16th, expecting positive guidance to sustain the upward momentum. Despite ongoing Middle East tensions, sentiment has shifted toward growth prospects rather than geopolitical risks. The surge reflects continued confidence in Taiwan's semiconductor leadership and AI infrastructure demand."
+    },
+    {
+      "title": "NT Dollar Strengthens 9.5 Cents Against USD to 31.690",
+      "section": "證券",
+      "date": "2026/04/14 16:42:58",
+      "url": "https://money.udn.com/money/story/12509/9441215?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar appreciated 9.5 cents against the US dollar, closing at 31.690 on April 14th. Trading volume reached $1.442 billion with an intraday high of 31.650 and low of 31.740. This strengthening coincides with strong foreign capital inflows into Taiwan equities and reflects investor confidence in Taiwan's tech sector prospects."
+    },
+    {
+      "title": "TSMC Closes at Record NT$2,055, Up 3.26%",
+      "section": "證券",
+      "date": "2026/04/14 14:38:40",
+      "url": "https://money.udn.com/money/story/12509/9440929?from=edn_subcatelist_cate",
+      "summary": "TSMC closed at a historic high of NT$2,055, gaining NT$65 or 3.26% with volume of 38,857 shares. The semiconductor sector remained strong with MediaTek up 6.17% and ASE Group up 1.55%. Other major tech stocks also rallied, with Hon Hai gaining 3.75% and Delta Electronics up 0.57%. Financial stocks showed positive momentum with Fubon Financial up 1.03% and Cathay Financial up 0.97%."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Nanya Technology Q2 Gross Margin Expected to Exceed 70%",
+      "section": "金融",
+      "date": "2026/04/14 00:47:38",
+      "url": "https://money.udn.com/money/story/5612/9439583?from=edn_maintab_cate",
+      "summary": "Nanya Technology reported Q1 gross margin surging to 67.9%, breaking Taiwan's semiconductor manufacturing record and exceeding TSMC's previous high. Management expects Q2 DRAM pricing to continue rising with double-digit growth. The company cited strong AI server demand driving high-capacity DDR5 and LPDDR5 requirements. Supply constraints are expected to persist through 2027 as new capacity won't materialize until 2028."
+    },
+    {
+      "title": "Passive Component Price Hikes Continue as Taiyo Yuden Raises Prices",
+      "section": "金融",
+      "date": "2026/04/15 00:58:05",
+      "url": "https://money.udn.com/money/story/11162/9442069?from=edn_maintab_cate",
+      "summary": "Japanese component maker Taiyo Yuden announced price increases starting May 1st for multiple product lines including MLCCs and inductors, with increases reportedly in double digits. This follows earlier price hikes by Murata and Taiwan's Yageo in April. The move signals strong demand driven by AI server applications and raw material cost pressures, benefiting Taiwan suppliers like Yageo, Phycomp, Holy Stone, and Walsin Technology."
+    },
+    {
+      "title": "Amazon, Microsoft AI Investment Wave Could Reach $1 Trillion",
+      "section": "金融",
+      "date": "2026/04/15 01:15:00",
+      "url": "https://money.udn.com/money/story/5612/9442050?from=edn_maintab_cate",
+      "summary": "Bloomberg estimates global AI infrastructure capital expenditure could reach $1 trillion over the next year, led by major cloud service providers. This investment surge benefits Taiwan's ODM manufacturers including Hon Hai, Quanta, Wistron, and Inventec who are major AI server assembly partners. The investment wave extends beyond tech into power infrastructure sectors."
+    },
+    {
+      "title": "Apple to Launch AI Glasses in 2027 with Advanced Siri Integration",
+      "section": "金融",
+      "date": "2026/04/14 01:11:39",
+      "url": "https://money.udn.com/money/story/5612/9439591?from=edn_maintab_cate",
+      "summary": "Apple plans to launch AI-enabled smart glasses by 2027, featuring integrated cameras, microphones, and speakers for advanced Siri interaction. Taiwan suppliers Hon Hai (assembly), Genius Electronic Optical, and Largan Precision are expected to benefit from this new product category launch."
+    },
+    {
+      "title": "Taiwan Stock Market Shows Resilience Amid Geopolitical Tensions",
+      "section": "證券",
+      "date": "2026/04/14 01:08:53",
+      "url": "https://money.udn.com/money/story/5607/9439595?from=edn_maintab_cate",
+      "summary": "Despite foreign investor selling of NT$16.13 billion, Taiwan stocks closed higher supported by domestic institutional buying. The market showed resilience amid US-Iran tensions, with analysts noting technical indicators remain favorable for continued gains. Focus remains on TSMC's upcoming investor conference for market direction."
+    }
+  ],
+  "not_relevant": []
+}
