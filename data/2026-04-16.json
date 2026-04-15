@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-16",
+  "update_time": "2026-04-15 23:15:36",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "New Taiwan Dollar Closes at 31.650 Against US Dollar, Appreciates 4 Points",
+      "section": "證券",
+      "date": "2026/04/15 16:21:04",
+      "url": "https://money.udn.com/money/story/12509/9443614?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar strengthened against the US dollar on April 15th, closing at 31.650, an appreciation of 4 points from the previous trading day's close of 31.690. This currency strength comes amid Taiwan's stock market surge to record highs above 36,000 points, driven by foreign capital inflows totaling NT$689 billion - the fifth largest single-day foreign buying in history. The TWD's appreciation reflects strong foreign investor confidence in Taiwan's technology sector, particularly ahead of TSMC's earnings call. Market implications include potential headwinds for Taiwan's export competitiveness but also signals robust capital flows supporting the local equity market."
+    },
+    {
+      "title": "TSMC Stock Hits Record High at NT$2,055, Taiwan Stock Index Soars to 36,296 Points Creating Six Records",
+      "section": "證券",
+      "date": "2026/04/15 01:25:38",
+      "url": "https://money.udn.com/money/story/5607/9442039?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market achieved a historic milestone on April 14th, with the TAIEX surging 838 points to close at 36,296, marking the first time above 36,000. TSMC led the rally, reaching a record high of NT$2,055 with market capitalization hitting NT$53.29 trillion. The session created six new records including market cap, electronic sector index, and futures prices. Foreign investors returned with massive buying of NT$689 billion, the fifth-largest single-day purchase on record. Trading volume reached NT$1.01 trillion. Market analysts expect the rally to continue, supported by optimism ahead of TSMC's earnings call on April 16th and improving US-Iran dialogue prospects. The surge reflects strong AI-driven demand expectations and positions Taiwan's tech sector for continued outperformance."
+    },
+    {
+      "title": "Kuomintang First Quarter Results Show Double-Rate Growth with EPS of NT$3.9",
+      "section": "金融",
+      "date": "2026/04/16 01:51:23",
+      "url": "https://money.udn.com/money/story/11162/9444551?from=edn_subcatelist_cate",
+      "summary": "Passive component leader Yageo Corporation reported strong Q1 2026 results with net profit surging 18.5% QoQ and 44.7% YoY to NT$8.001 billion, translating to earnings per share of NT$3.9. Revenue increased 6.1% QoQ and 22.7% YoY to NT$38.166 billion. The company achieved \"double-rate growth\" with gross margin improving to 38.1% and operating margin to 25.2%. AI applications now represent 13-15% of revenue in Q1, expected to exceed 15% for the full year. Tantalum capacitors, particularly polymer products, showed strongest order visibility extending into the second half. The company has implemented price adjustments across various product lines to reflect rising raw material costs including tantalum and silver. Strong AI server demand continues driving high-end passive component requirements, positioning Yageo for sustained growth."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC Earnings Call to Take Place, April 16 Important Financial Calendar",
+      "section": "產經",
+      "date": "2026/04/16 06:33:49",
+      "url": "https://money.udn.com/money/story/5607/9444759",
+      "summary": "TSMC's highly anticipated earnings conference is scheduled for April 16th, with multiple companies going ex-dividend. China will also release March consumption, industrial production, and fixed asset investment data on the same day."
+    },
+    {
+      "title": "Morgan Stanley: TSMC Expected to Raise Financial Guidance, Revenue Growth Rate Could Increase to 35%",
+      "section": "證券",
+      "date": "2026/04/16 01:32:37",
+      "url": "https://money.udn.com/money/story/5607/9444485?from=edn_maintab_cate",
+      "summary": "Morgan Stanley expects TSMC to raise its 2026 revenue growth guidance from around 30% to approximately 35% at today's earnings call. The investment bank also anticipates a three-year capex outlook totaling around $200 billion (2026-2028), with 2026 at $55 billion, 2027 at $65 billion, and 2028 at $80 billion."
+    },
+    {
+      "title": "Taiwan Stock Market Flashes 37K, Reaches New High with TSMC at NT$2,080",
+      "section": "證券",
+      "date": "2026/04/16 02:18:16",
+      "url": "https://money.udn.com/money/story/5607/9444488?from=edn_maintab_cate",
+      "summary": "Taiwan's stock index briefly touched 37,000 points before closing up 426 points at 36,722, setting new records. TSMC reached an intraday high of NT$2,100 before closing at NT$2,080. Foreign investors bought NT$553.5 billion while domestic institutions sold, reflecting overseas optimism ahead of TSMC's earnings call."
+    },
+    {
+      "title": "Broadcom and Meta Extend Partnership, Potential for More Orders Benefiting Quanta and Wiwynn",
+      "section": "金融",
+      "date": "2026/04/16 01:54:29",
+      "url": "https://money.udn.com/money/story/5612/9444491?from=edn_maintab_cate",
+      "summary": "Broadcom announced an extended partnership with Meta through 2029 to supply over 1GW of custom AI inference accelerator (MTIA) chips on 2nm process. This strengthens Taiwan's semiconductor supply chain including TSMC for manufacturing and assembly partners Quanta and Wiwynn for ASIC AI servers."
+    },
+    {
+      "title": "Global Smartphone Q1 Sales Decline, Only Apple and Samsung Grow, Supporting Hon Hai and Largan",
+      "section": "金融",
+      "date": "2026/04/16 01:48:26",
+      "url": "https://money.udn.com/money/story/5612/9444555?from=edn_maintab_cate",
+      "summary": "IDC reports global smartphone market declined 4.1% in Q1 2026, the first drop since 2023, due to memory supply constraints and Iran war impacts. Apple and Samsung were the only brands showing growth above 3%, benefiting their Taiwan suppliers including TSMC, Hon Hai, and Largan."
+    }
+  ],
+  "not_relevant": []
+}
