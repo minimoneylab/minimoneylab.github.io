@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-17",
+  "update_time": "2026-04-16 23:15:15",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "TSMC Raises Revenue Outlook, Q2 Operations Expected to Hit New Records",
+      "section": "金融",
+      "date": "2026/04/17 01:26:39",
+      "url": "https://money.udn.com/money/story/5612/9446968?from=edn_maintab_cate",
+      "summary": "TSMC reported record Q1 profits of NT$572.48 billion (EPS NT$22.08), with both gross margin (66.2%) and operating margin (58.1%) exceeding guidance highs. Chairman C.C. Wei expressed confidence in USD revenue growth exceeding 30% for 2026, upgrading from the previous \"approaching 30%\" outlook three months ago. Q2 revenue guidance of USD$39-40.2 billion (mid-point ~USD$39.6 billion) represents 10% QoQ and 32% YoY growth, beating consensus expectations of 6-8%. AI demand remains extremely strong with global AI accelerator revenue CAGR 2024-2029 expected in the \"high 50%\" range. This significant beat and raised outlook validates the AI supercycle thesis and positions TSMC for continued outperformance, though valuation concerns persist at 22x P/E."
+    },
+    {
+      "title": "TSMC Q1 Financials Create Five New Highs, Both Margins Exceed Guidance",
+      "section": "金融",
+      "date": "2026/04/17 01:05:15",
+      "url": "https://money.udn.com/money/story/5612/9446856?from=edn_maintab_cate",
+      "summary": "TSMC delivered exceptional Q1 results with five new records: revenue, net profit, EPS, gross margin, and operating margin all hitting historical highs. The company averaged NT$6.36 billion daily profit over the 90-day quarter. Q1 USD revenue of USD$35.9 billion, gross margin 66.2%, and operating margin 58.1% all exceeded the high end of guidance ranges. HPC applications dominated at 61% of revenue, followed by smartphones (26%). Advanced nodes (7nm and below) accounted for 74% of revenue, with 3nm at 25% and 5nm at 36%. The stellar performance reflects strong AI/HPC demand driving higher utilization rates and favorable product mix toward advanced processes."
+    },
+    {
+      "title": "Supply Shortage: TSMC Launches Global 3nm Capacity Expansion, Accelerates Advanced Packaging",
+      "section": "金融",
+      "date": "2026/04/17 00:59:55",
+      "url": "https://money.udn.com/money/story/5612/9446860?from=edn_maintab_cate",
+      "summary": "TSMC announced a global 3nm capacity expansion across Taiwan, US, and Japan due to persistent supply shortages. Taiwan's Tainan GIGAFAB will add a new 3nm fab (production H1 2027), Arizona Fab 21B will use 3nm technology (production H2 2027), and Japan's Kumamoto Fab 2 will employ 3nm (production 2028). Chairman Wei emphasized \"not leaving any business on the table\" for advanced packaging, expanding both internal CoWoS capacity and OSAT partnerships. The company will optimize capacity flexibility across 7nm, 5nm, and 3nm nodes. For the first time, TSMC will continue expanding capacity even after reaching target levels for a node, highlighting unprecedented AI demand visibility."
+    },
+    {
+      "title": "Morgan Stanley: TSMC May Raise Guidance, Expects 2026 Revenue Growth Upgraded to 35%",
+      "section": "證券",
+      "date": "2026/04/16 01:32:37",
+      "url": "https://money.udn.com/money/story/5607/9444485?from=edn_maintab_cate",
+      "summary": "Morgan Stanley expects TSMC to raise 2026 revenue growth guidance from \"approaching 30%\" to approximately 35% and increase three-year capex outlook (2026-2028) to around USD$200 billion total (USD$55B/65B/80B respectively). This represents MS moving from base case to optimistic scenario expectations. The upgrade is driven by stronger-than-expected AI semiconductor demand offsetting smartphone weakness, and TSMC increasing 2027 EUV orders for robust 3nm demand from HBM base dies, LPUs, and CPUs. MS maintains Overweight ratings on TSMC, Gudeng, and Marketech International, highlighting the semiconductor equipment investment cycle acceleration."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Breaks 37K, Creates Six Major Records",
+      "section": "證券",
+      "date": "2026/04/17 01:25:03",
+      "url": "https://money.udn.com/money/story/5607/9446969?from=edn_maintab_cate",
+      "summary": "Taiwan stocks hit historic highs with TAIEX reaching 37,135 intraday before closing at 37,132 (+409 points). Six records were set: new index highs, total market cap exceeding NT$131 trillion, TSMC hitting NT$54.06 trillion market cap, Chipsip reaching NT$14,480, 44 stocks now trading above NT$1,000, and futures premium reaching 512 points. Foreign investors bought NT$44 billion. Analysts warn of seven reversal signals to watch including deviation ratios and technical indicators."
+    },
+    {
+      "title": "US Stock Indices Hit New Highs Led by Tech Rally",
+      "section": "金融",
+      "date": "2026/04/16 07:01:12",
+      "url": "https://money.udn.com/money/story/123398/9444764",
+      "summary": "US markets rallied with S&P 500 breaking 7,000 for the first time, closing at 7,022.95 (+0.8%). Nasdaq gained 1.6% to 24,016.02, marking 11 consecutive gains. Philadelphia Semiconductor Index rose 0.2% for fifth straight record. Broadcom surged 4.2% on Meta chip partnership extension. Progress in US-Iran talks and strong bank earnings supported sentiment, though TSMC ADR declined 1.3%. The rally reflects optimism about geopolitical risk reduction and continued AI demand strength."
+    },
+    {
+      "title": "Global Smartphone Sales Decline Q1, Only Apple and Samsung Grow",
+      "section": "金融",
+      "date": "2026/04/16 01:48:26",
+      "url": "https://money.udn.com/money/story/5612/9444555?from=edn_maintab_cate",
+      "summary": "IDC data shows global smartphone market declined 4.1% in Q1 2026, the first drop since 2023. Apple and Samsung were the only top-5 brands to post growth (both >3%), benefiting Taiwan suppliers like TSMC, Hon Hai, and Largan. Memory shortages and Iran war impacts drove up component costs by 40-50% in emerging markets. Chinese brands from OPPO to Xiaomi saw significant shipment declines. IDC warns memory shortages may persist through H2 2027."
+    },
+    {
+      "title": "ASML Reports Strong Results, Raises Outlook for Second Time",
+      "section": "金融",
+      "date": "2026/04/16 01:58:51",
+      "url": "https://money.udn.com/money/story/5612/9444482?from=edn_maintab_cate",
+      "summary": "ASML exceeded Q1 expectations with €8.8B revenue and 53% gross margin, raising 2026 revenue guidance to €36-40B (vs. prior €34-39B). CEO expects supply unable to meet demand \"for the foreseeable future\" as customers accelerate capacity expansion. Taiwan sales share increased to 23% vs. 13% in Q4, while China dropped to 19% from 36%. Company plans to produce at least 60 Low-NA EUV systems in 2026, targeting 80+ in 2027."
+    },
+    {
+      "title": "Yageo Q1 Results Show Double-Rate Growth, EPS NT$3.9",
+      "section": "金融",
+      "date": "2026/04/16 01:51:23",
+      "url": "https://money.udn.com/money/story/11162/9444551?from=edn_subcatelist_cate",
+      "summary": "Passive component leader Yageo posted Q1 net profit of NT$8.001 billion (EPS NT$3.9), up 18.5% QoQ and 44.7% YoY. Both gross margin (38.1%) and operating margin (25.2%) improved. AI-related business reached 13-15% of revenue in Q1, expected to exceed 15% for full year. Tantalum capacitors show strongest order visibility extending to H2 2026. Company implementing price adjustments across product lines due to rising raw material costs."
+    },
+    {
+      "title": "New Taiwan Dollar Appreciates to 31.556 Against USD",
+      "section": "證券",
+      "date": "2026/04/16 17:39:53",
+      "url": "https://money.udn.com/money/story/12509/9446299?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar strengthened 9.4 cents to close at 31.556 against the US Dollar on April 16th. Intraday high was 31.517 and low was 31.620. The appreciation reflects continued foreign capital inflows into Taiwan equities amid the AI rally and strong semiconductor export momentum."
+    }
+  ],
+  "not_relevant": []
+}
