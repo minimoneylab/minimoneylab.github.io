@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-18",
+  "update_time": "2026-04-17 23:13:14",
+  "total_articles": 33,
+  "high": [
+    {
+      "title": "TSMC Raises Revenue Outlook, Q1 Operations Set New Records",
+      "section": "金融",
+      "date": "2026/04/17 01:26:39",
+      "url": "https://money.udn.com/money/story/5612/9446968?from=edn_maintab_cate",
+      "summary": "TSMC (2330) reported exceptional Q1 results at its earnings call, with net income reaching NT$572.48 billion and EPS of NT$22.08, both setting new highs. Both gross margin and operating margin exceeded guidance at 66.2% and 58.1% respectively. Chairman C.C. Wei expressed confidence that USD revenue growth will exceed 30% this year, upgrading from the previous forecast of nearly 30%. Q2 USD revenue is projected at $39-40.2 billion, representing 10% QoQ growth and 32% YoY growth. AI demand remains extremely strong, with global AI accelerator revenue CAGR expected at the higher 50% range from 2024-2029. The company emphasized its pricing strategy as partnership-oriented rather than aggressive price adjustments. This strong performance reinforces TSMC's dominance in advanced manufacturing and its critical role in the AI revolution, supporting continued premium valuations."
+    },
+    {
+      "title": "TSMC Q1 Financial Results Create Five New Highs with Both Margins Flying Past Guidance",
+      "section": "金融",
+      "date": "2026/04/17 01:05:15",
+      "url": "https://money.udn.com/money/story/5612/9446856?from=edn_maintab_cate",
+      "summary": "TSMC achieved unprecedented financial performance in Q1, setting five new records: revenue, net income, EPS, gross margin, and operating margin. Net income hit NT$572.48 billion (NT$63.6 billion daily average), with EPS of NT$22.08. Both gross margin (66.2%) and operating margin (58.1%) significantly exceeded the high-end of guidance ranges. Revenue structure showed HPC accounting for 61% and smartphones 26%, while advanced processes (7nm and below) comprised 74% of revenue. The outstanding results reflect strong demand for leading-edge processes, improved cost structures, higher utilization rates, and favorable forex conditions. Operating cash flow reached NT$699 billion with capex at NT$351 billion, demonstrating continued aggressive investment in advanced manufacturing capabilities."
+    },
+    {
+      "title": "Supply Shortage: TSMC Launches Global 3nm Capacity Expansion, Accelerates Advanced Packaging",
+      "section": "金融",
+      "date": "2026/04/17 00:59:55",
+      "url": "https://money.udn.com/money/story/5612/9446860?from=edn_maintab_cate",
+      "summary": "TSMC announced a comprehensive global 3nm capacity expansion plan due to persistent supply shortages. New 3nm fabs will be added in Taiwan (Tainan Gigafab, 2027H1), Arizona (second fab, 2027H2), and Kumamoto, Japan (second fab, 2028). Chairman Wei emphasized maximizing support for all customers without favoritism despite tight capacity. The company is also aggressively expanding advanced packaging capabilities and upgrading CoWoS technology while developing next-gen CoPoS packaging. 2nm manufacturing has begun at both Hsinchu and Kaohsiung fabs with excellent yields, targeting smartphone, HPC, and AI applications. This expansion strategy positions TSMC to maintain its technological leadership while meeting exploding AI-driven demand, though it requires massive capital investment and careful capacity allocation across global operations."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Index Soars to 37K Creating Six Surprises, Analysts: Watch Seven Reversal Signals",
+      "section": "證券",
+      "date": "2026/04/17 01:25:03",
+      "url": "https://money.udn.com/money/story/5607/9446969?from=edn_maintab_cate",
+      "summary": "Taiwan's weighted index surged 409 points to close at 37,132, the first time above 37,000, creating six market records including new highs for indices, market values, and TSMC's stock price. Total market capitalization exceeded NT$130 trillion. Foreign investors bought NT$44 billion while domestic institutions were mixed. Analysts warn investors should monitor seven reversal indicators including deviation rates, technical corrections, and market sentiment overheating signals."
+    },
+    {
+      "title": "Stock King Hits Sky-High Prices, Stock Queen Charges to NT$10,000, 44 Stocks Above NT$1,000",
+      "section": "證券",
+      "date": "2026/04/17 00:32:46",
+      "url": "https://money.udn.com/money/story/5607/9446977?from=edn_maintab_cate",
+      "summary": "High-priced stocks dominated Taiwan market with Faraday (5274) and eMemory (6515) both setting new records. The \"NT$1,000 club\" expanded to 44 stocks, reflecting market recognition of high-growth industries and structural P/E expansion. This trend is driven by AI demand boosting semiconductor packaging, thermal, and related supply chain companies with strong fundamentals and extended order visibility."
+    },
+    {
+      "title": "UMC Announces H2 Price Increases, Operations to Benefit",
+      "section": "金融",
+      "date": "2026/04/18 00:38:50",
+      "url": "https://money.udn.com/money/story/5612/9449028?from=edn_maintab_cate",
+      "summary": "UMC (2303) confirmed it has notified customers of second-half price adjustments due to rising material, energy, and logistics costs amid tight capacity conditions. The foundry cited strong demand across communications, industrial, consumer electronics, and AI-related applications. Price adjustments will be based on product portfolio strategy, capacity agreements, and long-term partnerships. UMC will hold its earnings conference on April 29."
+    },
+    {
+      "title": "Ten Foreign Brokerages Raise TSMC Target Prices, CLSA Calls Highest at NT$3,030",
+      "section": "證券",
+      "date": "2026/04/18 01:04:11",
+      "url": "https://money.udn.com/money/story/5607/9449064?from=edn_maintab_cate",
+      "summary": "Following TSMC's earnings call, ten major foreign brokerages raised target prices, with Citi leading at NT$2,875. However, CLSA's previous target of NT$3,030 remains the highest on record. Most analysts maintain \"Buy\" or \"Overweight\" ratings, citing strong fundamental momentum and potential for continued estimate revisions over the next 2-3 quarters despite short-term profit-taking concerns."
+    }
+  ],
+  "not_relevant": []
+}
