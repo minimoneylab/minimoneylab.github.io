@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-19",
+  "update_time": "2026-04-18 23:08:31",
+  "total_articles": 26,
+  "high": [
+    {
+      "title": "TSMC Impresses: Ten Foreign Brokerages Raise Target Prices, Credit Agricole Calls Highest at 3,030 Yuan",
+      "section": "證券",
+      "date": "2026/04/18 01:04:11",
+      "url": "https://money.udn.com/money/story/5607/9449064?from=edn_maintab_cate",
+      "summary": "TSMC's (2330) investor conference exceeded expectations, prompting major foreign brokerages to issue updated reports. Ten firms including Citi, Nomura, and HSBC have raised target prices, with Citi lifting its target to NT$2,875 - the highest among recent updates. However, Credit Agricole's earlier target of NT$3,030 remains the market's highest for 2026. Citi raised from NT$2,800 to NT$2,875; Nomura from NT$2,735 to NT$2,820; HSBC from NT$2,700 to NT$2,800. Goldman Sachs maintained NT$2,750. UBS significantly increased from NT$1,500 to NT$2,650. All maintained \"Buy\" or \"Outperform\" ratings. Goldman Sachs analyst expects TSMC to accelerate cleanroom construction and equipment installation to meet strong future demand, projecting 2026 capex at approximately $56 billion and cumulative 2026-2028 capex reaching $200 billion to solidify advanced process leadership."
+    },
+    {
+      "title": "TSMC Becomes Second Stock in Ten-Thousand Yuan Club, Closes at 10,305 Yuan",
+      "section": "證券",
+      "date": "2026/04/18 00:49:02",
+      "url": "https://money.udn.com/money/story/5607/9448971?from=edn_maintab_cate",
+      "summary": "Taiwan stock market fell 327 points to 36,804 yesterday, ending eight consecutive gains despite TSMC's positive investor conference. Market showed \"index down, individual stocks hot\" phenomenon with 102 stocks hitting daily limit up. Stock queen Chroma ATE (6515) surged NT$485 to NT$10,305, becoming the second stock to join the ten-thousand yuan club after Aspeed Technology. This marks the first time Taiwan has two stocks above NT$10,000 simultaneously, creating unprecedented market dynamics for high-priced stocks."
+    },
+    {
+      "title": "UMC Announces Second Half Price Increases, Operations Get Boost, Investor Conference on 29th",
+      "section": "金融",
+      "date": "2026/04/18 00:38:50",
+      "url": "https://money.udn.com/money/story/5612/9449028?from=edn_maintab_cate",
+      "summary": "UMC (2303) confirmed it has notified customers of price adjustments for the second half of 2026, citing strong demand across communications, industrial, consumer electronics, and AI-related applications creating tight capacity conditions. The foundry stated pricing adjustments will reflect supply-demand environment and ongoing investments to support customer growth, determined by product portfolio strategy, capacity agreements, and long-term partnerships. UMC will hold its investor conference on April 29th. The company expects renewed growth in 2026 driven by accelerating 22nm platform adoption and new solution deployment, with advanced packaging and silicon photonics becoming new growth drivers for AI, networking, consumer electronics, and automotive applications."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Tesla Recruits Chip Engineers in Taiwan, Talent Poaching from Foundry Leader Creates Market Buzz",
+      "section": "金融",
+      "date": "2026/04/18 00:23:40",
+      "url": "https://money.udn.com/money/story/5612/9449030?from=edn_maintab_cate",
+      "summary": "Tesla is recruiting semiconductor engineers in Taiwan for its Terafab AI chip project, posting nine positions requiring 5+ years advanced process experience. Some roles specifically require 2nm process and advanced packaging knowledge including CoWoS and SoIC technologies developed by TSMC. The \"TSMC talent poaching\" topic has become hot discussion in Taiwan's semiconductor industry, as Tesla builds its \"vertically integrated semiconductor factory\" integrating logic, memory, packaging, testing, and mask production."
+    },
+    {
+      "title": "MediaTek Expected to Benefit from AI Glasses Boom, Shipments to Grow 72% Annually",
+      "section": "金融",
+      "date": "2026/04/17 19:54:22",
+      "url": "https://money.udn.com/money/story/11162/8699?from=edn_subcatelist_cate",
+      "summary": "Research firm TrendForce projects global AI glasses including lightweight AR glasses shipments will reach 16.1 million units in 2026, growing 72% annually. AI glasses are expected to become smartphone extensions and ideal AI Agent carriers due to advantages in fashion, practicality, and low cost. Major tech giants including Meta, Google, ByteDance, and Alibaba are competing in this space to defend their social, search, and content dominance, while consumer electronics leaders like Apple, Samsung, Xiaomi, and Huawei view AI glasses as smartphone product extensions."
+    },
+    {
+      "title": "Five Major Financial Holdings Groups Show Promise, One Offers Up to 20% Upside Potential",
+      "section": "產經",
+      "date": "2026/04/18 15:29:31",
+      "url": "https://money.udn.com/money/story/5607/9449870",
+      "summary": "Local brokerages issued positive ratings for five major financial holdings: Fubon Financial (2881), Cathay Financial (2882), KGI Financial (2883), SinoPac Financial (2890), and CTBC Financial (2891), all receiving \"Buy\" ratings. Despite life insurance headwinds from rising bond yields, strong Taiwan stock trading volumes and steady banking core income drove better-than-expected Q1 performance. Fubon Financial shows highest upside potential at 17% with NT$103 target price, while securities subsidiaries significantly benefited from Taiwan stock daily average volume exceeding NT$800 billion."
+    }
+  ],
+  "not_relevant": []
+}
