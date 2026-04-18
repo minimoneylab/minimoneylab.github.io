@@ -1,18 +1,25 @@
 {
-  "date": "2026-04-17",
-  "update_time": "2026-04-17 08:34:00",
+  "date": "2026-04-18",
+  "update_time": "2026-04-18 08:11:01",
   "total_articles": 3,
   "high": [
     {
-      "title": "This Brazilian Stock Could Benefit Even from a 'Worst Case Scenario' for the Selic Rate, According to Analyst; Find Out Why",
+      "title": "This Brazilian Stock Can Benefit Even from a 'Worst Possible Scenario' for Selic Rate, According to Analyst",
       "source": "MoneyTimes",
       "date": "2026-04-17",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/essa-acao-brasileira-pode-se-beneficiar-ate-de-um-pior-cenario-possivel-para-a-taxa-selic-segundo-analista-lbrdaz221/",
-      "summary": "The Central Bank's COPOM initiated the widely anticipated Selic rate cutting cycle in its March 18 meeting, but the magnitude of cuts may fall short of initial market expectations. Market pricing for the terminal Selic rate has deteriorated significantly due to Middle East conflict-driven inflationary pressures. Empiricus Research analyst Ruy Hungria reports that expectations have shifted from a 12% year-end 2026 Selic rate (as priced in mid-February) to 13.5%-13.75%, with potential for further upward revisions depending on conflict duration.\n\nThis shift represents a fundamental repricing of Brazilian monetary policy expectations, with significant implications for BRL strength and government bond yields. Higher-for-longer rates typically support BRL against USD but create headwinds for highly leveraged companies in the Ibovespa. The article suggests certain Brazilian equities could paradoxically benefit from this \"worst case\" scenario, though the specific stock and rationale require the full article content. For fixed income investors, this repricing suggests Brazilian government bonds may offer more attractive real yields, while FX traders should monitor how sustained higher rates impact carry trade dynamics."
+      "summary": "The Selic rate cutting cycle that began in March's COPOM meeting may be smaller than initially expected due to Middle East geopolitical tensions adding inflationary pressure. Market expectations for the terminal Selic rate have deteriorated from 12% to 13.5%-13.75% for end-2026, according to Empiricus Research analyst Ruy Hungria. The analyst notes this revision occurred as geopolitical conflicts extend inflationary pressures beyond initial forecasts. Higher-than-expected rates typically pressure leveraged companies through increased debt service costs, creating headwinds for equity valuations. This shift in monetary policy expectations is critical for BRL traders and bond investors, as it suggests BCB may maintain a more hawkish stance longer than anticipated. Bond yields should remain elevated while BRL could face pressure from sustained high real rates. Investors should monitor geopolitical developments and upcoming COPOM communications for further guidance on the pace of rate cuts."
+    },
+    {
+      "title": "Vale (VALE3): Is It Time to Invest? Analyst Gives 5 Reasons to Buy Shares",
+      "source": "MoneyTimes",
+      "date": "2026-04-18",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/vale-vale3-e-hora-de-investir-analista-da-5-motivos-para-comprar-acoes-lbrdaz223/",
+      "summary": "Vale shares fell 6% in March while Ibovespa dropped 0.9%, but Empiricus Research analyst Ruy Hungria calls the decline \"unjustified.\" The stock recovered fully by April 15, closing at R$88.44 versus March's R$82.48 close. The analyst maintains a buy recommendation with five supporting reasons, suggesting the mining giant can continue \"unlocking value\" for investors despite broader market risk aversion that affected Brazilian equities in March."
     }
   ],
   "medium": [],
   "not_relevant": [
-    "Bitcoin (BTC) Goes Above $75,000 and Moves to Close Week with 'Head Above Water'; See Cryptocurrency Prices This Friday (17)**"
+    "Bitcoin (BTC) Goes Above $75,000 and Heads to Close Week with 'Head Above Water'; See Cryptocurrency Prices This Friday (17)"
   ]
 }
