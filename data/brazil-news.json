@@ -1,25 +1,33 @@
 {
-  "date": "2026-04-18",
-  "update_time": "2026-04-18 08:11:01",
-  "total_articles": 3,
+  "date": "2026-04-19",
+  "update_time": "2026-04-19 08:11:00",
+  "total_articles": 4,
   "high": [
     {
-      "title": "This Brazilian Stock Can Benefit Even from a 'Worst Possible Scenario' for Selic Rate, According to Analyst",
+      "title": "Vamos (VAMO3) leads Ibovespa gains and BRAV3 is worst performing stock; see weekly highlights",
       "source": "MoneyTimes",
-      "date": "2026-04-17",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/essa-acao-brasileira-pode-se-beneficiar-ate-de-um-pior-cenario-possivel-para-a-taxa-selic-segundo-analista-lbrdaz221/",
-      "summary": "The Selic rate cutting cycle that began in March's COPOM meeting may be smaller than initially expected due to Middle East geopolitical tensions adding inflationary pressure. Market expectations for the terminal Selic rate have deteriorated from 12% to 13.5%-13.75% for end-2026, according to Empiricus Research analyst Ruy Hungria. The analyst notes this revision occurred as geopolitical conflicts extend inflationary pressures beyond initial forecasts. Higher-than-expected rates typically pressure leveraged companies through increased debt service costs, creating headwinds for equity valuations. This shift in monetary policy expectations is critical for BRL traders and bond investors, as it suggests BCB may maintain a more hawkish stance longer than anticipated. Bond yields should remain elevated while BRL could face pressure from sustained high real rates. Investors should monitor geopolitical developments and upcoming COPOM communications for further guidance on the pace of rate cuts."
-    },
+      "date": "2026-04-19",
+      "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-16-lils/",
+      "summary": "The Ibovespa broke its streak of weekly gains despite renewing historical highs and geopolitical tensions easing, falling 0.81% to close at 195,733.51 points. The main culprit was oil prices returning to $90 levels. However, the index set new records during the week, reaching 198,657.33 points on Tuesday and hitting an intraday high of 199,354.81 points - a new nominal historical maximum. The USD/BRL pair closed at R$ 4.9833, at its lowest level since mid-2024, with the real strengthening 0.56% against the dollar over five trading sessions. This represents significant BRL strength that FX traders should monitor closely. The market continued focusing on Middle East conflict effects and monetary policy implications, while electoral polls also remained on the radar. The combination of near-record Ibovespa levels and BRL strength suggests continued foreign capital inflows, but oil price volatility poses risks to the sustainability of these moves."
+    }
+  ],
+  "medium": [
     {
-      "title": "Vale (VALE3): Is It Time to Invest? Analyst Gives 5 Reasons to Buy Shares",
+      "title": "Vale (VALE3): is it time to invest? Analyst gives 5 reasons to buy shares; check recommendation",
       "source": "MoneyTimes",
       "date": "2026-04-18",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/vale-vale3-e-hora-de-investir-analista-da-5-motivos-para-comprar-acoes-lbrdaz223/",
-      "summary": "Vale shares fell 6% in March while Ibovespa dropped 0.9%, but Empiricus Research analyst Ruy Hungria calls the decline \"unjustified.\" The stock recovered fully by April 15, closing at R$88.44 versus March's R$82.48 close. The analyst maintains a buy recommendation with five supporting reasons, suggesting the mining giant can continue \"unlocking value\" for investors despite broader market risk aversion that affected Brazilian equities in March."
+      "summary": "Vale (VALE3) underperformed in March with a 6% decline versus Ibovespa's 0.9% drop, closing at R$ 82.48. However, Empiricus Research analyst Ruy Hungria considers this decline \"unjustified\" and believes the shares can continue \"unlocking value.\" By Wednesday's close, Vale had recovered to R$ 88.44, fully recovering March losses and supporting the investment thesis. The analyst maintains his buy recommendation based on five key factors, suggesting the mining giant remains attractive despite broader market volatility affecting commodity stocks."
+    },
+    {
+      "title": "Top picks: PRIO3, ROXO34, VALE3 and more stocks to invest with Ibovespa near 200,000 points, according to Empiricus",
+      "source": "MoneyTimes",
+      "date": "2026-04-19",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/top-picks-prio3-roxo34-vale3-e-mais-acoes-para-investir-com-o-ibovespa-perto-dos-200-mil-pontos-segundo-a-empiricus-lbrdjr234/",
+      "summary": "Foreign investors continue injecting capital into Brazilian stocks despite Middle East geopolitical tensions, with approximately R$ 70 billion in foreign inflows helping drive Ibovespa's 22.1% gain in 2026. April alone saw over R$ 14 billion in foreign investment by April 14th, pushing the index above 198,000 points to new historical highs. Empiricus Research believes profit opportunities remain despite elevated valuations, but emphasizes the need for \"high selectivity\" in stock picking as the market is no longer a broad bargain."
     }
   ],
-  "medium": [],
   "not_relevant": [
-    "Bitcoin (BTC) Goes Above $75,000 and Heads to Close Week with 'Head Above Water'; See Cryptocurrency Prices This Friday (17)"
+    "Cryptocurrencies: 'those who understand macro can position well' in ups or downs and seek profits, according to specialist"
   ]
 }
