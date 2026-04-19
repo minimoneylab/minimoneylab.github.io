@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-20",
+  "update_time": "2026-04-19 23:08:14",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "TSMC's Record Q1 Results Trigger 40K Taiwan Stock Index Predictions",
+      "section": "證券",
+      "date": "2026/04/20 01:20:26",
+      "url": "https://money.udn.com/money/story/5607/9451595?from=edn_maintab_cate",
+      "summary": "TSMC's exceptional Q1 earnings conference has prompted major institutions to upgrade 2026 EPS forecasts from NT$90-95 to NT$96-103, with 2027 projections reaching NT$125. The semiconductor giant reported record Q1 revenue of NT$1.134 trillion (+35.1% YoY) and net income of NT$572.48 billion (+58.3% YoY), with EPS of NT$22.08. Q2 revenue guidance of $39-40.2 billion implies 10.3% sequential growth, exceeding market expectations. Investment firms have raised average target prices to a historical high of NT$2,643, suggesting 613-point upside from current NT$2,030. Given TSMC's 8.5-point index impact per NT$1 move, analysts project 5,200 points of potential upside for Taiwan's stock index, targeting the 40K milestone. This momentum is supported by upcoming CSP earnings (Google, Meta, Microsoft, Amazon) and Computex 2024, sustaining AI investment themes."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Listed Companies' Dividend Payouts Reach Record NT$2.5 Trillion",
+      "section": "證券",
+      "date": "2026/04/19 02:17:31",
+      "url": "https://money.udn.com/money/story/5607/9450364?from=edn_maintab_cate",
+      "summary": "1,863 listed companies have announced dividends totaling over NT$2.2 trillion in cash dividends, approaching last year's NT$2.31 trillion. TSMC leads with NT$570.5 billion in cash dividends, followed by Hon Hai at NT$100.9 billion and MediaTek at NT$85.8 billion. With major financial holding companies yet to announce, total payouts are expected to reach NT$2.5 trillion, setting a new record."
+    },
+    {
+      "title": "Taiwan Petrochemical Companies Receive \"Buy\" Ratings on Supply Chain Disruptions",
+      "section": "金融",
+      "date": "2026/04/19 01:55:22",
+      "url": "https://money.udn.com/money/story/5612/9450371?from=edn_subcatelist_cate",
+      "summary": "Domestic brokerages upgraded Formosa Chemicals (1326), Formosa Petrochemical (6505), and Formosa Plastics (1301) to \"Buy\" with target prices of NT$65-70, implying 21.7%-27.5% upside potential. Middle East production capacity damage and supply constraints are supporting petrochemical margins, with companies returning to profitability in Q1 after six quarters of losses."
+    },
+    {
+      "title": "Semiconductor Suppliers Rally on TSMC Outlook with Strong Institutional Buying",
+      "section": "證券",
+      "date": "2026/04/19 02:44:10",
+      "url": "https://money.udn.com/money/story/5607/9450355?from=edn_maintab_cate",
+      "summary": "TSMC's positive earnings guidance triggered institutional buying in semiconductor supply chain stocks. MediaTek received 15,400 shares of net buying, Advanced Semiconductor Engineering (2329) saw 16,000 shares, and Walton Advanced Engineering (2329) gained 15,300 shares. The buying reflects confidence in AI server demand growth and semiconductor industry recovery extending beyond TSMC to the entire ecosystem."
+    },
+    {
+      "title": "Taiwan Stock Market Expected to Weather Middle East Tensions with Limited Downside",
+      "section": "證券",
+      "date": "2026/04/20 01:28:40",
+      "url": "https://money.udn.com/money/story/5607/9451607?from=edn_maintab_cate",
+      "summary": "Despite Iran's re-closure of the Hormuz Strait, market analysts expect limited downside for Taiwan stocks due to strong fundamentals and technical support around 35,171-35,579 points. Foreign investors continue net buying while retail participation reached a 26-year high at NT$427.1 billion. Google's upcoming TPU architecture announcement at Google Cloud Next (April 22-24) may provide additional momentum for AI-related stocks."
+    }
+  ],
+  "not_relevant": []
+}
