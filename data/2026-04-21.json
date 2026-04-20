@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-21",
+  "update_time": "2026-04-20 23:14:26",
+  "total_articles": 24,
+  "high": [
+    {
+      "title": "Financial Management Committee to Allow USD Dividend Payments by Listed Companies",
+      "section": "證券",
+      "date": "2026/04/21 01:20:13",
+      "url": "https://money.udn.com/money/story/5607/9453734?from=edn_maintab_cate",
+      "summary": "The Financial Supervisory Commission (FSC) announced plans to allow Taiwan listed companies to pay cash dividends in USD, marking a significant step toward internationalizing Taiwan's capital markets. The new regulations are expected to take effect in July, though the first USD dividend payments likely won't occur until 2027 due to required corporate charter amendments. USD dividends will be limited to foreign institutional and individual investors only, while domestic investors must receive TWD dividends. This regulatory change responds to the rising foreign ownership in Taiwan stocks, which has increased from 37% in 2016 to 46% by March 2026. Companies with substantial USD assets and high foreign investor ratios, such as TSMC with quarterly dividend payments exceeding NT$100 billion, will benefit from reduced currency conversion costs. The Taiwan Depository & Clearing Corporation has developed supporting mechanisms, including foreign currency shareholder account databases and modified disclosure formats. This development could reduce foreign exchange losses for both companies and foreign investors, potentially making Taiwan stocks more attractive to international investors."
+    },
+    {
+      "title": "Taiwan Dollar Strengthens to 31.531 Against USD",
+      "section": "證券",
+      "date": "2026/04/20 18:10:42",
+      "url": "https://money.udn.com/money/story/12509/9453220?from=edn_subcatelist_cate",
+      "summary": "The Taiwan Dollar closed at 31.531 against the USD on April 20, appreciating 6.5 cents from the previous trading day's close of 31.596. The currency traded within a range of 31.474 (high) to 31.560 (low), opening at 31.550. Daily trading volume reached USD 1.232 billion. This strengthening reflects positive sentiment surrounding Taiwan's equity markets and continued foreign capital inflows into Taiwan assets."
+    },
+    {
+      "title": "Taiwan Stock Index Hits Record High, Closes at Near-Record 36,958 Points",
+      "section": "證券",
+      "date": "2026/04/20 14:13:39",
+      "url": "https://money.udn.com/money/story/12509/9452700?from=edn_subcatelist_cate",
+      "summary": "Taiwan's stock market soared to an intraday record high of 37,344.5 points before closing at 36,958.8 points, up 154.46 points (+0.41%) with trading value of NT$920 billion. The rally was led by high-priced technology stocks, though TSMC closed down 0.24% at NT$2,025 after late-session selling pressure. The over-the-counter market outperformed significantly, setting four new records including closing index, trading value, and total market capitalization of NT$10.37 trillion. Foreign investors returned to net buying with NT$4.34 billion in purchases, while investment trusts sold NT$2.03 billion. Total market capitalization reached NT$130.93 trillion, near the record high of NT$131.01 trillion set on April 16. The market's strength reflects optimism about AI demand and TSMC's recent strong earnings guidance, though geopolitical tensions in the Middle East remain a concern."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Strong Fundamentals Support Taiwan Stock Market's March Toward 40K Points",
+      "section": "證券",
+      "date": "2026/04/20 01:20:26",
+      "url": "https://money.udn.com/money/story/5607/9451595?from=edn_maintab_cate",
+      "summary": "Following TSMC's better-than-expected earnings guidance, major domestic and foreign institutions have upgraded their 2026 EPS forecasts for TSMC to 96-103 TWD range, with 2027 projections reaching 125 TWD. Target prices have been raised to 2,600-3,000 TWD, with the average target price reaching a record 2,643 TWD, suggesting 613 TWD upside potential from current levels."
+    },
+    {
+      "title": "Middle East Tensions Create Market Volatility but Taiwan Stocks Remain Resilient",
+      "section": "證券",
+      "date": "2026/04/20 01:28:40",
+      "url": "https://money.udn.com/money/story/5607/9451607?from=edn_maintab_cate",
+      "summary": "Despite renewed tensions as Iran re-closed the Strait of Hormuz after briefly opening it, market experts note signs of \"bad news not causing declines.\" Taiwan stocks are expected to show resilience with support at the 35,171-35,579 point range. Google's upcoming Cloud Next conference and new TPU architecture announcement could benefit TSMC, MediaTek, and CPO concept stocks."
+    },
+    {
+      "title": "Hon Hai Group Advances CPO Layout, Industrial Fulian to Ship Thousands of All-Optical Switches",
+      "section": "金融",
+      "date": "2026/04/21 00:45:08",
+      "url": "https://money.udn.com/money/story/5612/9453717?from=edn_subcatelist_cate",
+      "summary": "Hon Hai's subsidiary Industrial Fulian announced it has begun producing CPO all-optical switch prototypes and expects to ship over 10,000 units this year. The company emphasized that CPO products will bring \"structural changes\" to overall profitability due to their high margins. GB200 and GB300 server shipments remain smooth, with next-generation Vera Rubin platform products ready for production."
+    },
+    {
+      "title": "Memory Shortage More Severe Than Expected, Apple Delays New Mac Products",
+      "section": "金融",
+      "date": "2026/04/21 00:48:20",
+      "url": "https://money.udn.com/money/story/5612/9453698?from=edn_maintab_cate",
+      "summary": "Bloomberg reports Apple may delay key Mac upgrades due to memory supply shortages, including the high-end M5 Mac Studio originally scheduled for summer release and the OLED MacBook Pro with touch screen potentially delayed until next year. This affects Taiwan supply chain partners including TSMC, Quanta, and Delta Electronics."
+    },
+    {
+      "title": "Samsung Discontinues LPDDR4 Production, Creating Supply Shortage and Price Increases",
+      "section": "金融",
+      "date": "2026/04/21 00:53:18",
+      "url": "https://money.udn.com/money/story/5612/9453694?from=edn_maintab_cate",
+      "summary": "Samsung has officially notified customers of discontinuing LPDDR4/4X mobile memory production, with only existing orders to be delivered. This creates opportunities for Nanya Technology and Winbond to benefit from order transfers and continued price increases. Samsung held approximately 36% global DRAM market share in Q4 2025."
+    },
+    {
+      "title": "Wistron Group Advances Optical Communications Business, Chicony Leading the Charge",
+      "section": "金融",
+      "date": "2026/04/20 02:18:35",
+      "url": "https://money.udn.com/money/story/11162/9451640?from=edn_subcatelist_cate",
+      "summary": "Wistron's subsidiary Chicony has successfully entered the optical communications market with OCS all-optical switches, securing orders from major US optical communication companies and shipping 800G switches. Analysts project Chicony's 2026 revenue could reach NT$138.5 billion with gross margins exceeding 13.2%."
+    },
+    {
+      "title": "TV Panel Prices Rise for Fourth Consecutive Month, Benefiting AUO and Innolux",
+      "section": "金融",
+      "date": "2026/04/21 00:10:17",
+      "url": "https://money.udn.com/money/story/11162/9453607?from=edn_maintab_cate",
+      "summary": "TrendForce reports continued price increases for large-size TV panels, with 65-inch and 75-inch panels seeing further price hikes in April. Both AUO and Innolux chairmen expressed optimism about first-half 2026 market conditions exceeding expectations, driven by customer inventory building amid component shortages and geopolitical uncertainties."
+    }
+  ],
+  "not_relevant": []
+}
