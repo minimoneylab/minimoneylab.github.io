@@ -1,33 +1,52 @@
 {
-  "date": "2026-04-19",
-  "update_time": "2026-04-19 08:11:00",
-  "total_articles": 4,
+  "date": "2026-04-20",
+  "update_time": "2026-04-20 08:56:03",
+  "total_articles": 12,
   "high": [
     {
-      "title": "Vamos (VAMO3) leads Ibovespa gains and BRAV3 is worst performing stock; see weekly highlights",
+      "title": "Iran Returns to Close Strait of Hormuz and Scares Markets; Oil and Ibovespa in Dollar Rise Today (20)",
       "source": "MoneyTimes",
-      "date": "2026-04-19",
-      "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-16-lils/",
-      "summary": "The Ibovespa broke its streak of weekly gains despite renewing historical highs and geopolitical tensions easing, falling 0.81% to close at 195,733.51 points. The main culprit was oil prices returning to $90 levels. However, the index set new records during the week, reaching 198,657.33 points on Tuesday and hitting an intraday high of 199,354.81 points - a new nominal historical maximum. The USD/BRL pair closed at R$ 4.9833, at its lowest level since mid-2024, with the real strengthening 0.56% against the dollar over five trading sessions. This represents significant BRL strength that FX traders should monitor closely. The market continued focusing on Middle East conflict effects and monetary policy implications, while electoral polls also remained on the radar. The combination of near-record Ibovespa levels and BRL strength suggests continued foreign capital inflows, but oil price volatility poses risks to the sustainability of these moves."
+      "date": "2026-04-20",
+      "url": "https://www.moneytimes.com.br/ira-volta-a-fechar-estreito-de-ormuz-e-assusta-o-mercado-petroleo-e-ibovespa-em-dolar-sobem-hoje-20-jals/",
+      "summary": "Markets are operating cautiously amid escalating Middle East tensions after Iran refused to participate in new peace negotiations with the US scheduled in Pakistan. President Trump announced that the US Navy intercepted an Iranian cargo vessel in the Gulf of Oman, while Tehran reportedly fired on commercial vessels transiting the Strait of Hormuz - a critical passage for global oil flows. The US maintains a naval blockade in the region since last week. These developments have reduced expectations for peace progress before the ceasefire deadline and are driving oil prices higher. The geopolitical tensions are creating risk-off sentiment that could impact BRL volatility, especially given Brazil's sensitivity to commodity price movements and global risk appetite. Traders should monitor oil prices closely as sustained elevation could pressure inflation expectations and influence BCB policy considerations."
+    },
+    {
+      "title": "Live Updates: Ibovespa Operates with Low Liquidity",
+      "source": "MoneyTimes",
+      "date": "2026-04-20",
+      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-20-04-2026-jals-lils-apsa/",
+      "summary": "The Ibovespa opens the week at a slower pace due to Brazil's holiday bridge, which tends to reduce trading volumes throughout the session. Despite lower liquidity, the market continues to function normally and may react to specific flow movements. In the domestic scenario, the Focus Report will update inflation and interest rate projections, while Japan releases trade balance data internationally. Bitcoin trades around $75,000 with slight weakness of less than 1%. The global crypto market retreats mildly following weekend macroeconomic developments. Iran's foreign ministry spokesman declared Tehran has no current plans for new Pakistan-mediated negotiations, citing contradictions from President Trump as signs of dishonesty. This reduced liquidity environment could amplify any BRL or Ibovespa moves from geopolitical developments."
     }
   ],
   "medium": [
     {
-      "title": "Vale (VALE3): is it time to invest? Analyst gives 5 reasons to buy shares; check recommendation",
-      "source": "MoneyTimes",
-      "date": "2026-04-18",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/vale-vale3-e-hora-de-investir-analista-da-5-motivos-para-comprar-acoes-lbrdaz223/",
-      "summary": "Vale (VALE3) underperformed in March with a 6% decline versus Ibovespa's 0.9% drop, closing at R$ 82.48. However, Empiricus Research analyst Ruy Hungria considers this decline \"unjustified\" and believes the shares can continue \"unlocking value.\" By Wednesday's close, Vale had recovered to R$ 88.44, fully recovering March losses and supporting the investment thesis. The analyst maintains his buy recommendation based on five key factors, suggesting the mining giant remains attractive despite broader market volatility affecting commodity stocks."
-    },
-    {
-      "title": "Top picks: PRIO3, ROXO34, VALE3 and more stocks to invest with Ibovespa near 200,000 points, according to Empiricus",
+      "title": "Vamos (VAMO3) Leads Ibovespa Gains and BRAV3 is Worst Performing Stock; See Weekly Highlights",
       "source": "MoneyTimes",
       "date": "2026-04-19",
+      "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-16-lils/",
+      "summary": "The Ibovespa interrupted its weekly winning streak despite renewing historical highs and geopolitical tensions easing, with oil prices returning to $90 being the main negative factor. The index accumulated a 0.81% weekly loss, closing at 195,733.51 points, though it set new records on Tuesday at 198,657.33 points with an intraday high of 199,354.81. The dollar ended at R$4.9833, at its lowest level since mid-2024, falling 0.56% against the real over five sessions. The market continues focusing on Middle East conflict effects and monetary policy implications, with electoral polls also on the radar."
+    },
+    {
+      "title": "B3 Extends Hours and Will Trade Crypto and Gold Until 8 PM",
+      "source": "MoneyTimes",
+      "date": "2026-04-20",
+      "url": "https://www.moneytimes.com.br/b3-amplia-horario-e-passa-a-negociar-cripto-e-ouro-ate-20h-jals/",
+      "summary": "Starting Monday (20), B3 will operate with extended hours for Bitcoin (BIT), Ethereum (ETR), Solana (SOL) and gold (GLD) futures contracts, expanding trading from 9 AM to 8 PM for 11 continuous hours. This change occurs amid growing demand for crypto and precious metals exposure within regulated environments, plus investor demand for greater flexibility to adjust positions outside traditional market hours. The extension impacts trading dynamics for institutional investors and provides greater capacity to react to external events throughout the day, especially for cryptocurrencies that operate globally on a continuous basis."
+    },
+    {
+      "title": "Top Picks: PRIO3, ROXO34, VALE3 and More Stocks to Invest with Ibovespa Near 200,000 Points, According to Empiricus",
+      "source": "MoneyTimes",
+      "date": "2026-04-20",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/top-picks-prio3-roxo34-vale3-e-mais-acoes-para-investir-com-o-ibovespa-perto-dos-200-mil-pontos-segundo-a-empiricus-lbrdjr234/",
-      "summary": "Foreign investors continue injecting capital into Brazilian stocks despite Middle East geopolitical tensions, with approximately R$ 70 billion in foreign inflows helping drive Ibovespa's 22.1% gain in 2026. April alone saw over R$ 14 billion in foreign investment by April 14th, pushing the index above 198,000 points to new historical highs. Empiricus Research believes profit opportunities remain despite elevated valuations, but emphasizes the need for \"high selectivity\" in stock picking as the market is no longer a broad bargain."
+      "summary": "Foreign investors continue injecting resources into the Brazilian stock exchange despite Middle East conflict turbulence, with Ibovespa advancing 22.1% in 2026 driven by approximately R$70 billion in foreign inflows. April alone saw over R$14 billion in foreign investment, helping the main index surpass historical highs above 198,000 points, compared to R$25 billion for all of 2025. Despite strong performance making the exchange less of a bargain, Empiricus believes selective opportunities remain, though the context demands careful company selection given current valuations."
     }
   ],
   "not_relevant": [
-    "Cryptocurrencies: 'those who understand macro can position well' in ups or downs and seek profits, according to specialist"
+    "Cryptocurrencies: 'Those Who Understand Macro Can Position Well' in Ups or Downs and Seek Profits, According to Specialist",
+    "Empiricus Crypto Momentum: See Curation of 10 Cryptocurrencies Recommended by Specialists to Invest Now",
+    "ISA Energia (ISAE4) Elevated to Buy and Multiplan (MULT3) is Top Pick of the Week: See Money Picks Recommendations",
+    "New Opportunity with 5 Cryptocurrencies Could Multiply Investments by Up to 500x; Learn More",
+    "China Stocks Hit Month High Due to Economic Resilience",
+    "Iran Has No Plans for New Round of Negotiations, Says Foreign Minister"
   ]
 }
