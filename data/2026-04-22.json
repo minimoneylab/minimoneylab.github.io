@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-22",
+  "update_time": "2026-04-21 23:12:56",
+  "total_articles": 28,
+  "high": [
+    {
+      "title": "FSC to Allow USD Dividend Distributions by Listed Companies",
+      "section": "證券",
+      "date": "2026/04/21",
+      "url": "https://money.udn.com/money/story/5607/9453734?from=edn_maintab_cate",
+      "summary": "The Financial Supervisory Commission (FSC) announced it will allow Taiwan's listed companies to distribute cash dividends in US dollars, marking a significant step toward internationalizing Taiwan's capital markets. The new regulations are expected to take effect in July 2026, though actual USD dividend distributions may not occur until 2027 due to required corporate charter amendments. USD dividends will be limited to foreign institutional and individual investors only, while domestic investors will continue receiving NTD dividends. This policy responds to growing foreign ownership in Taiwan stocks, which has risen from 37% in 2016 to 46% as of March 2026. Companies with substantial USD assets and high foreign investor ratios, particularly those like TSMC distributing billions in quarterly dividends, will benefit by reducing forex conversion costs and hedging currency risks. The move requires coordination with the Ministry of Economic Affairs and Central Bank, plus system upgrades by the Taiwan Depository & Clearing Corporation."
+    },
+    {
+      "title": "Taiwan Stock Market Surges to New High, Foreign Investors Buy NT$60.15 Billion",
+      "section": "證券",
+      "date": "2026/04/22",
+      "url": "https://money.udn.com/money/story/5607/9456137?from=edn_maintab_cate",
+      "summary": "Taiwan stocks experienced a spectacular rally on April 21, with the TAIEX soaring 646 points to close at a record high of 37,605 points. Foreign investors returned with massive buying of NT$60.15 billion, the seventh-largest single-day purchase on record. The surge created six new market records including new highs for the main board, OTC market, and combined market capitalization reaching NT$133.2 trillion. TSMC and other tech giants led the advance, with trading volume expanding to NT$1.02 trillion. The market's decisive move above previous resistance levels signals strong momentum toward the psychological 40,000-point level, supported by improving fundamentals and AI-driven demand for Taiwan's semiconductor sector."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MediaTek Surges to NT$2,000 on Google TPU ASIC Orders",
+      "section": "金融",
+      "date": "2026/04/22",
+      "url": "https://money.udn.com/money/story/5612/9456172?from=edn_maintab_cate",
+      "summary": "MediaTek hit a historic high of NT$2,090, breaking the NT$2,000 barrier for the first time amid speculation about Google TPU chip orders ahead of Google Cloud Next 2026. The company expects data center ASIC revenue to exceed $1 billion this year and reach several billion by 2027, positioning it as a key beneficiary of AI infrastructure demand."
+    },
+    {
+      "title": "Hon Hai Group Advances CPO Layout, Industrial Foxconn to Ship Over 10,000 All-Optical Switches",
+      "section": "金融",
+      "date": "2026/04/21",
+      "url": "https://money.udn.com/money/story/5612/9453717?from=edn_subcatelist_cate",
+      "summary": "Hon Hai's Industrial Foxconn (FII) announced it has begun producing CPO (Co-Packaged Optics) all-optical switch prototypes and will ship over 10,000 units this year. The company expects CPO products to deliver significantly higher margins than previous 400G and 800G switches, creating a \"structural change\" in overall profitability."
+    },
+    {
+      "title": "Memory Shortage More Severe Than Expected, Apple Delays New Mac Products",
+      "section": "金融",
+      "date": "2026/04/21",
+      "url": "https://money.udn.com/money/story/5612/9453698?from=edn_maintab_cate",
+      "summary": "Apple may delay its next major Mac upgrades due to memory market supply constraints, including the high-end M5 Mac Studio originally planned for summer and the OLED touchscreen MacBook Pro. This highlights the severity of the current memory shortage and affects suppliers like TSMC, Quanta, and Delta Electronics."
+    },
+    {
+      "title": "Samsung Officially Stops LPDDR4 Production, Benefits Taiwan Memory Makers",
+      "section": "金融",
+      "date": "2026/04/21",
+      "url": "https://money.udn.com/money/story/5612/9453694?from=edn_maintab_cate",
+      "summary": "Samsung has officially notified customers it will cease LPDDR4/4X mobile memory production, only fulfilling existing orders. This creates significant supply gaps benefiting Taiwan manufacturers Nanya Technology and Winbond, who will capture increased market share and pricing power in the mobile memory segment."
+    }
+  ],
+  "not_relevant": []
+}
