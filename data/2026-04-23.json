@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-23",
+  "update_time": "2026-04-22 23:31:06",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "MediaTek Surges to 2,000 Yuan with Google TPU Chip Orders, ASIC Business Drives Stock Price",
+      "section": "金融",
+      "date": "2026/04/22 00:41:49",
+      "url": "https://money.udn.com/money/story/5612/9456172?from=edn_maintab_cate",
+      "summary": "MediaTek (2454) hit the daily limit and reached a historic high of 2,090 yuan, driven by Google TPU chip order speculation ahead of Google Cloud Next 2026. The company crossed the 2,000 yuan milestone five years after first joining the \"thousand yuan club\" in 2021. Q1 consolidated revenue was 149.15 billion yuan, down 0.6% QoQ and 2.7% YoY. While smartphone chip business faces headwinds from potential market contraction, MediaTek is focusing on ASIC (Application-Specific Integrated Circuit) business growth. The company expressed confidence that data center ASIC revenue will exceed $1 billion this year and reach tens of billions by 2027, with projects starting revenue contribution from 2028. Market expects MediaTek secured partial orders for Google's 8th generation TPU focused on inference capabilities."
+    },
+    {
+      "title": "Amazon Increases AI Investment, Hon Hai, Wiwynn, Quanta Benefit from 25 Billion Dollar Anthropic Deal",
+      "section": "金融",
+      "date": "2026/04/22 01:09:28",
+      "url": "https://money.udn.com/money/story/5612/9456202?from=edn_maintab_cate",
+      "summary": "Amazon expanded cooperation with AI startup Anthropic, committing to invest up to $25 billion total with initial $5 billion, followed by additional investment based on commercial milestones. Anthropic pledged to spend over $100 billion on AWS technology and chips over the next decade. The deal covers Amazon's Trainium2, Trainium3, and Trainium4 chips. By end-2026, Anthropic will obtain 1GW computing power through Trainium2/3, potentially scaling to 5GW. Analysts see Wiwynn (6669) as primary beneficiary as main AWS ASIC server supplier. Since Anthropic uses multiple architectures (Nvidia GPUs, AWS Trainium, Google TPU), server manufacturers Hon Hai (2317), Wiwynn, Quanta (2382), and Inventec (2356) all benefit from diversified AI infrastructure demand."
+    },
+    {
+      "title": "Taiwan Stock Market Hits New High at 37,605 Points, Foreign Investors Buy Record 60.15 Billion",
+      "section": "證券",
+      "date": "2026/04/22 01:29:02",
+      "url": "https://money.udn.com/money/story/5607/9456137?from=edn_maintab_cate",
+      "summary": "Taiwan stocks surged 646 points to close at 37,605, setting six historical records amid foreign capital influx of 60.15 billion yuan (7th largest single-day purchase). Market cap reached 122.6 trillion yuan for listed companies and 133.2 trillion total. Electronic sector hit 2,388.31 points with 99.1 trillion yuan market cap, while semiconductor index reached 1,240.26 points worth 66.8 trillion yuan. Taiwan futures led spot market, closing at 38,048 points. ETF total market size exceeded 9 trillion yuan for first time. Analysts attribute rally to recognition of Taiwan's \"fundamentally-driven\" growth, with buying across large-cap and mid-small cap stocks. Market momentum targeting 40,000-point milestone as geopolitical risk impact diminishes and capital flows return to tech growth stocks."
+    }
+  ],
+  "medium": [
+    {
+      "title": "UMC to Produce Memory Chips in Japan with Phison's IP Technology",
+      "section": "金融",
+      "date": "2026/04/22 00:45:05",
+      "url": "https://money.udn.com/money/story/5612/9456166?from=edn_maintab_cate",
+      "summary": "UMC (2303) reportedly will produce 2D NAND flash memory at its Japan facility USJC, partnering with Phison (3529) for key IP and circuit design. This marks Taiwan's first memory production in Japan amid global NAND shortage. Major NAND manufacturers are exiting 2D NAND to focus on advanced 3D NAND, creating supply gap for automotive and industrial applications requiring long product lifecycles."
+    },
+    {
+      "title": "Hon Hai Benefits from Amazon's AI Infrastructure Expansion with Meta's New $1 Billion Data Center",
+      "section": "金融",
+      "date": "2026/04/23 01:23:25",
+      "url": "https://money.udn.com/money/story/11162/9458613?from=edn_subcatelist_cate",
+      "summary": "Meta announced construction of new data center in Tulsa, Oklahoma with over $1 billion investment, covering 2 million square feet. This marks Meta's 28th US facility and 32nd globally. Meta's 2026 capex targeting up to $135 billion for AI infrastructure nearly doubles 2025 levels. Supply chain including Hon Hai (2317), Quanta (2382), Wiwynn (6669), and Auras (3324) expected to benefit from increased AI server demand."
+    },
+    {
+      "title": "TSMC Reveals A13 and A12 Process Technology for 2029 Production",
+      "section": "金融",
+      "date": "2026/04/23 06:25:23",
+      "url": "https://money.udn.com/money/story/5612/9458901",
+      "summary": "TSMC (2330) unveiled A13 process technology at North America Technology Forum, offering 6% area savings compared to A14 with full backward compatibility. A13 scheduled for 2029 production, one year after A14. Also previewed A12 with Super Power Rail technology for backside power delivery targeting AI and HPC applications. Enhanced N2 platform with N2U variant provides 3-4% speed improvement or 8-10% power reduction. CoWoS technology expanding to support larger chip integration with 5.5x reticle size currently in production."
+    },
+    {
+      "title": "Google Launches 8th Generation TPU with Dual-Chip Strategy",
+      "section": "金融",
+      "date": "2026/04/23 01:27:54",
+      "url": "https://money.udn.com/money/story/11162/9458609?from=edn_maintab_cate",
+      "summary": "Google unveiled TPU v8 at Cloud Next 26 conference, introducing two specialized chips: TPU 8t for training and TPU 8i for inference. TPU 8t offers 3x processing power improvement with single superpod scaling to 9,600 TPUs. Market expects MediaTek secured inference chip orders, contributing to consecutive daily limit gains. Taiwan supply chain including TSMC, MediaTek, Hon Hai, Quanta, and Inventec positioned to benefit from Google's TPU expansion."
+    }
+  ],
+  "not_relevant": []
+}
