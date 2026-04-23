@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-24",
+  "update_time": "2026-04-23 23:29:27",
+  "total_articles": 32,
+  "high": [
+    {
+      "title": "TSMC Unveils A13 and A12 Manufacturing Processes, Set for 2029 Mass Production at North America Technology Forum",
+      "section": "金融",
+      "date": "2026/04/23 06:25:23",
+      "url": "https://money.udn.com/money/story/5612/9458901",
+      "summary": "TSMC held its 2026 North America Technology Forum, revealing significant advances in next-generation chip manufacturing. The company announced its A13 process technology, delivering 6% area reduction compared to A14 while maintaining full backward compatibility. Both A13 and the advanced A12 process (featuring Super Power Rail technology for AI and HPC applications) are scheduled for 2029 production. TSMC also unveiled N2U process technology and expanded CoWoS packaging capabilities to 5.5x reticle size, with plans for 14x size by 2028. This demonstrates TSMC's continued leadership in advanced semiconductor manufacturing, critical for maintaining Taiwan's position as the global chip hub. The developments will benefit major clients like Apple and Nvidia, strengthening TSMC's competitive moat and supporting premium pricing for advanced nodes."
+    },
+    {
+      "title": "Philadelphia Semiconductor Index Achieves Record 16 Consecutive Trading Days of Gains",
+      "section": "金融",
+      "date": "2026/04/23 07:00:42",
+      "url": "https://money.udn.com/money/story/123398/9458911",
+      "summary": "US markets closed with major indices at record highs, led by a historic 16-day winning streak for the Philadelphia Semiconductor Index, the longest since records began in 1994. The index gained 2.7% and is poised for its largest monthly gain since 2000. TSMC ADR surged 5.3% while Micron jumped 8.5% to new highs. The rally reflects massive AI infrastructure investment driving semiconductor demand. This momentum directly benefits Taiwan's tech sector, with semiconductor companies likely to see continued strong demand and pricing power. The sustained chip sector rally validates Taiwan's strategic importance in the global AI supply chain and suggests robust earnings prospects for listed semiconductor companies."
+    },
+    {
+      "title": "Google Launches Two New TPU Chips - TPU 8t for Training and TPU 8i for Inference, Benefiting Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/04/23 01:27:54",
+      "url": "https://money.udn.com/money/story/11162/9458609?from=edn_maintab_cate",
+      "summary": "Google unveiled its eighth-generation Tensor Processing Units at Cloud Next 26, introducing TPU 8t for training and TPU 8i for inference. The move is expected to drive new TPU demand, benefiting Taiwan suppliers including TSMC, MediaTek, Hon Hai, Quanta, and Inventec. MediaTek is believed to have secured TPU 8i orders for inference applications, boosting its ASIC business. The stock surged to NT$2,295 with its second consecutive limit-up. This development reinforces Taiwan's critical role in the AI hardware ecosystem and provides diversification beyond Nvidia for local suppliers. Google's TPU expansion represents a significant growth driver for Taiwan's tech sector, particularly in advanced packaging and server manufacturing."
+    },
+    {
+      "title": "TSMC Plans Chip Packaging Plant in Arizona by 2029",
+      "section": "金融",
+      "date": "2026/04/23 04:12:19",
+      "url": "https://money.udn.com/money/story/5612/9458817?from=edn_maintab_cate",
+      "summary": "TSMC's senior VP announced plans to establish advanced packaging capabilities including CoWoS and 3D-IC technologies in Arizona by 2029. This addresses a critical supply chain bottleneck as modern AI chips require sophisticated packaging that currently forces chips manufactured in Arizona to return to Taiwan for completion. The move strengthens TSMC's US operations and reduces geopolitical risks for major customers like Apple and Nvidia. For Taiwan's market, this represents both an opportunity through technology transfer partnerships and a strategic shift of some high-value operations overseas. The development supports TSMC's long-term competitiveness while potentially reducing concentration risk in Taiwan operations."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Posts Record Single-Day Fluctuation of 1,757 Points with 1.4 Trillion Volume",
+      "section": "證券",
+      "date": "2026/04/23 15:27:43",
+      "url": "https://money.udn.com/money/story/5607/9460080",
+      "summary": "Taiwan stocks experienced historic volatility, reaching 38,921 points before plunging 1,757 points intraday. The market closed down 164 points with record volume of NT$1.4 trillion. Foreign investors and proprietary traders sold heavily while TSMC remained resilient, contributing 244 points to limit the decline."
+    },
+    {
+      "title": "Container Shipping Rates Surge 50% Due to Middle East Conflict, Yang Ming Announces May Rate Increases",
+      "section": "金融",
+      "date": "2026/04/23 01:54:08",
+      "url": "https://money.udn.com/money/story/5612/9458591?from=edn_maintab_cate",
+      "summary": "Yang Ming announced GRI rate increases of at least 50% effective May 15, with Far East-North America routes adding $2,000 per 40-foot container. Middle East conflicts and rising oil prices are driving supply chain disruptions, benefiting Evergreen, Yang Ming, and Wan Hai's annual contract negotiations."
+    },
+    {
+      "title": "TSMC Announces Major Salary Increases Up to 9%, Record Bonuses Average NT$2.64 Million",
+      "section": "金融",
+      "date": "2026/04/23 00:59:53",
+      "url": "https://money.udn.com/money/story/5612/9458654?from=edn_subcatelist_cate",
+      "summary": "TSMC confirmed salary increases averaging 3-5% with top performers receiving up to 9% raises. Employee bonuses reached record NT$206.1 billion total, averaging NT$2.64 million per employee, reflecting strong AI-driven profitability and the company's commitment to talent retention."
+    },
+    {
+      "title": "Meta Invests Over $1 Billion in New Oklahoma Data Center, Benefiting Quanta, Wiwynn, and AcBel",
+      "section": "金融",
+      "date": "2026/04/23 01:23:25",
+      "url": "https://money.udn.com/money/story/11162/9458613?from=edn_subcatelist_cate",
+      "summary": "Meta announced construction of its 28th US data center in Tulsa, Oklahoma, with over $1 billion investment. The 2 million square foot facility will drive demand for AI servers, benefiting Taiwan suppliers Hon Hai, Quanta, Wiwynn, and AcBel in Meta's supply chain."
+    },
+    {
+      "title": "US Congress Passes Largest Export Controls Since 2018 Targeting Chinese Memory Giants",
+      "section": "金融",
+      "date": "2026/04/24 00:56:01",
+      "url": "https://money.udn.com/money/story/5612/9461049?from=edn_maintab_cate",
+      "summary": "US House Foreign Affairs Committee approved 20 export control bills, with Micron specifically lobbying to restrict equipment sales to Chinese memory manufacturers CXMT and YMTC. The measures could benefit Taiwan memory companies Nanya Technology and Winbond by limiting Chinese competition."
+    }
+  ],
+  "not_relevant": []
+}
