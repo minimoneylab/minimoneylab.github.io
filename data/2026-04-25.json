@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-25",
+  "update_time": "2026-04-24 23:13:00",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "US Department of Justice Drops Criminal Investigation Against Fed Chair Powell, Clearing Obstacles for Walsh Appointment",
+      "section": "金融",
+      "date": "2026/04/24 23:09:33",
+      "url": "https://money.udn.com/money/story/5599/9463161",
+      "summary": "US Attorney for DC Jeanine Pirro announced that the Justice Department has withdrawn its criminal investigation against Federal Reserve Chairman Powell, ending a stalemate that could have affected successor Walsh's appointment process. The investigation into Fed renovation cost overruns has been transferred to the Fed's Inspector General for internal review. This development removes obstacles for Trump's Fed Chairman nominee Walsh, as Republican Senator Tillis had been blocking the nomination process citing the investigation as \"baseless.\" Fed's Inspector General had previously reviewed the project twice without finding wrongdoing. This resolution provides clarity for US monetary policy leadership transition and removes uncertainty that could have impacted financial markets and central bank credibility during a critical period of economic management."
+    },
+    {
+      "title": "Taiwan Stock Market Experiences Historic 1,757-Point Intraday Swing, Closes Up 1,218 Points at New High of 38,932",
+      "section": "證券",
+      "date": "2026/04/24 14:36:37",
+      "url": "https://money.udn.com/money/story/12509/9462281?from=edn_subcatelist_cate",
+      "summary": "Taiwan's stock market staged a dramatic recovery, surging 1,218 points to close at 38,932 - a new historical high after experiencing the largest intraday swing in history of 1,757 points. TSMC led the rally, gaining 5.05% to NT$2,185, contributing significantly to the market's rebound. The Philadelphia Semiconductor Index's consecutive highs and FSC's policy to raise fund investment limits in individual stocks like TSMC fueled the surge. Foreign investors reversed course with NT$43.9 billion in net buying, particularly NT$17.9 billion in TSMC alone. This dramatic turnaround demonstrates the resilience of Taiwan's equity market and strong institutional support for leading tech stocks, with implications for continued foreign capital inflows into Taiwan's technology sector."
+    },
+    {
+      "title": "TSMC Unveils A13 Process Technology and Advanced Packaging Roadmap at North American Technology Forum",
+      "section": "金融",
+      "date": "2026/04/24 01:29:50",
+      "url": "https://money.udn.com/money/story/5612/9461086?from=edn_maintab_cate",
+      "summary": "TSMC revealed its latest A13 process technology at its annual North American Technology Forum, emphasizing smaller area, lower power consumption, and enhanced performance targeting AI, HPC, and mobile applications. The A13 process offers 6% area savings compared to A14 while maintaining full backward compatibility. TSMC also announced the A12 process featuring Super Power Rail technology for backside power delivery in AI and HPC applications, with both A13 and A12 scheduled for production in 2029. Additionally, TSMC showcased expanded CoWoS packaging capabilities, currently producing 5.5x reticle size packages and planning 14x reticle size versions by 2028. These developments solidify TSMC's technological leadership over competitors like Samsung and Intel, providing confidence for continued strong order momentum from clients like Apple and Nvidia, supporting long-term revenue growth prospects."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Tesla Announces Major Transformation Focus on AI and Humanoid Robots, Benefiting Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/04/24 00:13:52",
+      "url": "https://money.udn.com/money/story/5612/9461007?from=edn_maintab_cate",
+      "summary": "Tesla CEO Elon Musk announced a strategic pivot toward AI and automation, focusing on humanoid robot Optimus and FSD autonomous driving. Taiwan suppliers including Alight (3019), Mentech, and TradeLead-KY are expected to benefit from increased orders. Musk described Optimus as potentially \"the biggest product of all time\" with production lines starting July-August 2026 at Fremont factory."
+    },
+    {
+      "title": "Micron Lobbies Congress to Restrict Equipment Sales to Chinese Memory Giants",
+      "section": "金融",
+      "date": "2026/04/24 00:56:01",
+      "url": "https://money.udn.com/money/story/5612/9461049?from=edn_maintab_cate",
+      "summary": "US Congress passed 20 export control bills targeting China's semiconductor development, with Micron specifically lobbying to restrict equipment sales to Chinese memory giants Yangtze Memory and ChangXin Memory. The MATCH Act aims to pressure allies to adopt similar restrictions on DUV lithography equipment. This development could benefit Taiwan memory companies like Nanya Tech (2408) and Winbond by reducing competitive pressure from Chinese expansion."
+    },
+    {
+      "title": "OpenAI Launches \"Most Intelligent\" GPT-5.5 Model, Boosting Taiwan AI Infrastructure Demand",
+      "section": "金融",
+      "date": "2026/04/24 23:38:45",
+      "url": "https://money.udn.com/money/story/11162/9463173?from=edn_maintab_cate",
+      "summary": "OpenAI released GPT-5.5, touted as its \"most intelligent\" model with enhanced autonomous capabilities and complex task handling. The model demonstrates superior performance in coding, research, data analysis, and agentic AI functions. This advancement is expected to drive increased AI computing demand, benefiting Taiwan contract manufacturers like Hon Hai (2317), Quanta, and Wistron in AI server production and infrastructure deployment."
+    },
+    {
+      "title": "Intel Reports Strong Q1 Results with Optimistic Q2 Outlook, Benefiting Taiwan Partners",
+      "section": "金融",
+      "date": "2026/04/25 00:05:32",
+      "url": "https://money.udn.com/money/story/5612/9463181?from=edn_maintab_cate",
+      "summary": "Intel delivered better-than-expected Q1 earnings with revenue growing 7.2% to $13.58 billion, driven by strong AI and datacenter demand. Q2 revenue guidance of $13.8-14.8 billion significantly exceeds market expectations. Intel's continued reliance on TSMC for advanced processes and partnership with ASE Group for advanced packaging positions these Taiwan companies to benefit from Intel's AI transformation and capacity expansion plans."
+    },
+    {
+      "title": "Evergreen Marine CEO Confident on Freight Rate Recovery Amid Red Sea Disruption",
+      "section": "金融",
+      "date": "2026/04/24 23:51:41",
+      "url": "https://money.udn.com/money/story/5612/9463164?from=edn_maintab_cate",
+      "summary": "Evergreen Marine's CEO expressed optimism about Q2-Q3 freight rate and volume recovery, citing shipping lines' confidence in rate increases due to continued Red Sea closure and cargo volume pickup since late March. The company expects GRI increases of $2,000 per FEU on transpacific routes in May, with young fuel-efficient fleet providing cost advantages amid high oil prices."
+    }
+  ],
+  "not_relevant": []
+}
