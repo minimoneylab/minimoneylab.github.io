@@ -1,29 +1,36 @@
 {
-  "date": "2026-04-23",
-  "update_time": "2026-04-23 08:43:13",
+  "date": "2026-04-24",
+  "update_time": "2026-04-24 08:43:44",
   "total_articles": 7,
   "high": [
     {
-      "title": "Master Bank: Less than a month after BC blocks Daniel Vorcaro's offshore, 'new' Titan created in London",
+      "title": "Banco Master: Less than a month after BCB blocks Daniel Vorcaro's offshore, 'new' Titan created in London",
       "source": "MoneyTimes",
       "date": "2026-04-23",
       "url": "https://www.moneytimes.com.br/banco-master-menos-de-um-mes-apos-bc-bloquear-offshore-de-daniel-vorcaro-nova-titan-e-criada-em-londres-em-nome-de-produtor-rural-vtra/",
-      "summary": "This development highlights ongoing regulatory scrutiny in Brazil's banking sector, which could impact market confidence and regulatory risk perceptions. Less than a month after Brazil's Central Bank (BCB) froze assets of Titan Capital Holding - an offshore entity linked to Master Bank owner Daniel Vorcaro in the Cayman Islands - a nearly identical company was registered in the UK. The new \"Titan Capital Holdings Ltd.\" was incorporated on April 2, 2026, approximately four weeks after the BCB action against the holding described as Master Bank's indirect control vehicle during its extrajudicial liquidation. The timing and name similarity raise questions about potential asset reorganization in another jurisdiction. The new entity is registered under Victor Henrique Medeiros Lima, a 38-year-old Brazilian soybean producer with no financial market background. This case underscores the BCB's aggressive stance on banking sector irregularities and could signal continued regulatory tightening, potentially affecting investor sentiment toward Brazilian financial institutions and regulatory risk premiums in BRL-denominated assets."
+      "summary": "This development signals potential regulatory evasion in Brazil's banking sector, with significant implications for BCB oversight and financial system integrity. Less than a month after the Central Bank of Brazil froze assets of Titan Capital Holding (linked to Banco Master owner Daniel Vorcaro) in the Cayman Islands, a similarly-named entity \"Titan Capital Holdings Ltd.\" was registered in the UK on April 2, 2026. The new company is registered under Victor Henrique Medeiros Lima, a 38-year-old Brazilian soy producer with no financial market background. This raises serious questions about potential asset restructuring to circumvent BCB enforcement actions. For investors, this case highlights ongoing risks in Brazil's banking sector supervision and the challenges regulators face in tracking cross-border financial structures. The timing and naming similarity suggest possible regulatory arbitrage, which could prompt stricter BCB oversight of international corporate structures linked to Brazilian financial institutions. Watch for potential BCB policy responses and enhanced cross-border cooperation measures."
     }
   ],
   "medium": [
     {
-      "title": "Small cap stock updates R$150 million dividend payment; see dates and value per share",
+      "title": "Small cap on exchange will pay R$83.1 million in dividends and interest on equity",
+      "source": "MoneyTimes",
+      "date": "2026-04-24",
+      "url": "https://www.moneytimes.com.br/grendene-small-cap-da-bolsa-pagara-r-831-milhoes-em-dividendos-e-jcp-lmrs/",
+      "summary": "Grendene (GRND3) approved R$83.1 million in shareholder distributions, with R$82 million as interest on equity (subject to IR withholding) and R$1.13 million as dividends. This represents healthy cash distribution from a small-cap stock, potentially supporting broader equity market sentiment and dividend yield expectations in the Brazilian market."
+    },
+    {
+      "title": "Small cap on exchange updates payment of R$150 million in dividends; see dates and value per share",
       "source": "MoneyTimes",
       "date": "2026-04-23",
       "url": "https://www.moneytimes.com.br/small-cap-da-bolsa-atualiza-pagamento-de-r-150-milhoes-em-dividendos-veja-datas-e-valor-por-acao-igdl/",
-      "summary": "Iguatemi (IGTI11) updated its 2026 dividend payments totaling R$150 million across three installments, with payments scheduled for April 29, July 29, and October 29. The company recalculated per-share values due to recent share buybacks, maintaining the total amount but adjusting individual payouts. This reflects positive cash flow management among Brazilian small caps and supports income-focused equity strategies in the current market environment."
+      "summary": "Iguatemi (IGTI11) updated its R$150 million dividend distribution schedule for 2026, with payments on April 29, July 29, and October 29. The per-share values were recalculated due to recent share buybacks, maintaining the total amount while adjusting individual payouts based on reduced share count."
     }
   ],
   "not_relevant": [
-    "Tomorrow (22): learn how to access the 'Memebot Flash Million', tool that seeks high potential opportunities in cryptocurrencies",
-    "New recommended portfolio seeks to invest in trends that could transform the global economy; get free access to Empiricus Megatrends",
     "Israel and Lebanon should resume direct negotiations in the US to expand ceasefire",
-    "Bitcoin (BTC) finds resistance to surpass $80,000 today; see cryptocurrency prices this Thursday (23)"
+    "Bitcoin (BTC) finds resistance to surpass $80,000 today; see cryptocurrency prices this Thursday (23)",
+    "It's tomorrow (22): learn how to access 'Memebot Flash Million', tool that seeks high-potential opportunities in cryptocurrencies",
+    "It's tomorrow (22): learn how to access 'Memebot Flash Million', tool that seeks high-potential opportunities in cryptocurrencies"
   ]
 }
