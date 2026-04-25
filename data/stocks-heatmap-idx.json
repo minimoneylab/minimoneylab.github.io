@@ -10,7 +10,7 @@
       "market_cap": 43086252883.0,
       "pe_ratio": 12.95,
       "pb_ratio": 2.64,
-      "dividend_yield": 5.23,
+      "dividend_yield": 5.55,
       "pct_from_high": -38.27
     },
     {
@@ -34,7 +34,7 @@
       "market_cap": 24315404764.0,
       "pe_ratio": 7.46,
       "pb_ratio": 1.38,
-      "dividend_yield": 2.16,
+      "dividend_yield": 2.22,
       "pct_from_high": -19.28
     },
     {
@@ -46,7 +46,7 @@
       "market_cap": 16115604306.0,
       "pe_ratio": 12.82,
       "pb_ratio": 2.03,
-      "dividend_yield": 7.38,
+      "dividend_yield": 7.56,
       "pct_from_high": -29.57
     },
     {
@@ -80,9 +80,9 @@
       "change": -100.0,
       "change_pct": -5.97,
       "market_cap": 3463234117.0,
-      "pe_ratio": 16.94,
+      "pe_ratio": 16.95,
       "pb_ratio": 13.37,
-      "dividend_yield": null,
+      "dividend_yield": 8.51,
       "pct_from_high": -44.54
     },
     {
@@ -118,7 +118,7 @@
       "market_cap": 3507493944.0,
       "pe_ratio": 5.67,
       "pb_ratio": 0.83,
-      "dividend_yield": 4.01,
+      "dividend_yield": 4.06,
       "pct_from_high": -21.81
     },
     {
@@ -142,7 +142,7 @@
       "market_cap": 1933169356.0,
       "pe_ratio": 11.42,
       "pb_ratio": 1.49,
-      "dividend_yield": 11.23,
+      "dividend_yield": 11.46,
       "pct_from_high": -9.94
     },
     {
@@ -154,7 +154,7 @@
       "market_cap": 2294083958.0,
       "pe_ratio": 10.87,
       "pb_ratio": 1.7,
-      "dividend_yield": null,
+      "dividend_yield": 4.11,
       "pct_from_high": -45.31
     },
     {
@@ -166,7 +166,7 @@
       "market_cap": 3234735244.0,
       "pe_ratio": 18.29,
       "pb_ratio": 1.87,
-      "dividend_yield": null,
+      "dividend_yield": 5.18,
       "pct_from_high": -32.53
     },
     {
@@ -190,7 +190,7 @@
       "market_cap": 1717745600.0,
       "pe_ratio": 9.02,
       "pb_ratio": null,
-      "dividend_yield": 5.52,
+      "dividend_yield": 5.59,
       "pct_from_high": -14.01
     },
     {
@@ -242,5 +242,5 @@
       "pct_from_high": -2.97
     }
   ],
-  "update_time": "2026-04-25 06:10:29"
+  "update_time": "2026-04-26 06:02:44"
 }
