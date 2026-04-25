@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-26",
+  "update_time": "2026-04-25 23:09:58",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "Dual Kings Lead Taiwan Stocks to New Peak, Next Week Eyes 39K Challenge",
+      "section": "證券",
+      "date": "2026/04/25 00:31:40",
+      "url": "https://money.udn.com/money/story/5607/9463194?from=edn_maintab_cate",
+      "summary": "Taiwan stocks surged 1,218 points to close at 38,932 on April 24th, led by TSMC and Esprimo. The rally was driven by the Philadelphia Semiconductor Index hitting consecutive highs and FSC policy raising fund investment limits in individual stocks like TSMC. Five records were set: new index high at 38,932, market cap reaching NT$126.9 trillion, TSMC hitting NT$2,185 with NT$2.7 trillion market value gain, Esprimo setting new price record at NT$16,370, and electronic index reaching 2,501 points. Foreign investors reversed to buy NT$43.9 billion, with TSMC alone receiving NT$17.9 billion inflows. The weekly gain of 2,128 points (5.7%) represents strong multi-institutional buying across foreign funds, domestic institutions, and retail investors, positioning for the 39K challenge."
+    },
+    {
+      "title": "OpenAI Launches \"Most Intelligent\" GPT-5.5, Boosting Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/04/24 23:38:45",
+      "url": "https://money.udn.com/money/story/11162/9463173?from=edn_maintab_cate",
+      "summary": "OpenAI announced GPT-5.5 on April 23rd, touted as their \"most intelligent\" model with enhanced autonomous execution capabilities for complex tasks. The model excels in code writing/debugging, online research, data analysis, document creation, and seamless tool switching until task completion. Analysts expect this to drive higher AI computing demand, benefiting Taiwan's infrastructure suppliers including Hon Hai (2317), Quanta, and Wistron. The new model maintains GPT-5.4's speed while using significantly fewer tokens, making it more powerful and efficient. Market analysts predict GPT-5.5 will increase consumer willingness to pay for premium services, driving sustained AI infrastructure demand and boosting shipment momentum for Taiwan's contract manufacturers through 2028."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Intel Reports Strong Q1 Results, Positive Outlook Boosts Taiwan Chain",
+      "section": "金融",
+      "date": "2026/04/25 00:05:32",
+      "url": "https://money.udn.com/money/story/5612/9463181?from=edn_maintab_cate",
+      "summary": "Intel's Q1 revenue and profits exceeded expectations, driven by strong AI demand in data centers. Revenue grew 7.2% YoY to $13.58 billion with adjusted EPS of $0.29. Q2 revenue guidance of $13.8-14.8 billion implies 11% YoY growth. Intel's recovery benefits Taiwan partners including TSMC for advanced processes and ASE Group for advanced packaging, as AI chip demand expands high-integration requirements."
+    },
+    {
+      "title": "US Justice Department Withdraws Criminal Investigation of Fed Chairman Powell",
+      "section": "金融",
+      "date": "2026/04/24 23:09:33",
+      "url": "https://money.udn.com/money/story/5599/9463161",
+      "summary": "The Justice Department has withdrawn its criminal investigation into Fed Chairman Powell regarding renovation cost overruns, clearing obstacles for Trump's Fed chair nominee Huawei. The investigation is transferred to the Fed's Inspector General for internal review. This resolves the deadlock that could have affected Huawei's nomination process, as Republican Senator Tillis had been blocking the appointment citing the \"baseless\" investigation into Powell."
+    },
+    {
+      "title": "Hon Hai Signs MOU with Mitsubishi Electric for Automotive Business Alliance",
+      "section": "證券",
+      "date": "2026/04/25 00:00:07",
+      "url": "https://money.udn.com/money/story/5710/9462949?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317) signed an MOU with Mitsubishi Electric to explore strategic alliance feasibility in automotive equipment business. The evaluation includes potential 50% stake transfer of Mitsubishi Electric Mobility Corporation to Hon Hai. If successful, this partnership could help Hon Hai access Mitsubishi's extensive automotive customer base, strengthening its position in the automotive supply chain."
+    },
+    {
+      "title": "Foreign Investors Upgrade Target Prices, MediaTek and Delta Electronics Gain Capital Inflows",
+      "section": "證券",
+      "date": "2026/04/26 02:21:32",
+      "url": "https://money.udn.com/money/story/5607/9464494?from=edn_maintab_cate",
+      "summary": "Foreign brokerages are upgrading target prices for Taiwan tech stocks, with dual engine support from valuations and fund flows. Goldman Sachs raised Yageo's target to NT$346, while Citi upgraded TSMC to NT$2,875. MediaTek received targets of NT$2,454-2,800 from multiple brokerages. The upgrades reflect growing confidence in AI supply chain expansion and improved product mix for Taiwan's semiconductor ecosystem."
+    },
+    {
+      "title": "Quanta Chairman Lin Optimistic: 2026 Revenue Expected to Set New Record",
+      "section": "金融",
+      "date": "2026/04/26 01:51:18",
+      "url": "https://money.udn.com/money/story/5612/9464486?from=edn_maintab_cate",
+      "summary": "Quanta (2382) Chairman Barry Lam expressed confidence that 2026 revenue will exceed 2025's record-breaking NT$2 trillion, despite global uncertainties and ongoing conflicts. The company is benefiting from strong AI server demand, with GPU and ASIC server revenue expected to account for up to two-thirds of total revenue this year, marking a complete transformation from traditional PC/laptop ODM to AI infrastructure focus."
+    },
+    {
+      "title": "Major Tech Earnings Week Approaches, Taiwan Supply Chain Optimistic",
+      "section": "證券",
+      "date": "2026/04/26 01:48:27",
+      "url": "https://money.udn.com/money/story/5607/9464496?from=edn_maintab_cate",
+      "summary": "Microsoft, Alphabet, Meta, and Amazon will report earnings on April 29th US time, followed by Apple on April 30th. Analysts focus on cloud service providers' capital expenditure monetization capabilities. Taiwan supply chain maintains strong order visibility with expanding AI application penetration rates, benefiting companies like MediaTek, TSMC, Hon Hai, Quanta, and component suppliers."
+    }
+  ],
+  "not_relevant": []
+}
