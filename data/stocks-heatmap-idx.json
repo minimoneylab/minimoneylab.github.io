@@ -232,15 +232,15 @@
     {
       "symbol": "UNTR.JK",
       "name": "United Tractors",
-      "price": 31850.0,
-      "change": -650.0,
+      "price": 30754.0,
+      "change": -627.63,
       "change_pct": -2.0,
       "market_cap": 6587820620.0,
       "pe_ratio": 7.8,
       "pb_ratio": 1.16,
       "dividend_yield": 6.88,
-      "pct_from_high": -2.97
+      "pct_from_high": -6.31
     }
   ],
-  "update_time": "2026-04-26 06:02:44"
+  "update_time": "2026-04-27 06:04:29"
 }

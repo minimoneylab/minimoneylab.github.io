@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-04-26 06:03:21",
+  "update_time": "2026-04-27 06:05:16",
   "us_indices": [
     {
       "name": "S&P 500",
@@ -70,7 +70,7 @@
       "tw_change_pct": 5.05,
       "adr_close": 402.46,
       "adr_change_pct": 5.17,
-      "fx_rate": 31.45,
+      "fx_rate": 31.44,
       "basis_table": [
         {
           "adr_date": "Apr 17",
@@ -125,8 +125,8 @@
       ],
       "avg_basis": 1.143,
       "avg_premium_pct": 14.3,
-      "predicted_open": 2214.55,
-      "gap_pct": 1.35,
+      "predicted_open": 2213.99,
+      "gap_pct": 1.33,
       "signal": "NEUTRAL",
       "signal_icon": "⚪",
       "signal_text": "Minor adjustment expected"
@@ -139,7 +139,7 @@
       "tw_change_pct": 1.22,
       "adr_close": 12.28,
       "adr_change_pct": 2.33,
-      "fx_rate": 31.45,
+      "fx_rate": 31.44,
       "basis_table": [
         {
           "adr_date": "Apr 17",
@@ -194,8 +194,8 @@
       ],
       "avg_basis": 0.9926,
       "avg_premium_pct": -0.74,
-      "predicted_open": 77.81,
-      "gap_pct": 4.44,
+      "predicted_open": 77.79,
+      "gap_pct": 4.42,
       "signal": "BULLISH",
       "signal_icon": "🟢",
       "signal_text": "Strong catch-up rally expected"
@@ -208,7 +208,7 @@
       "tw_change_pct": 6.78,
       "adr_close": 32.0,
       "adr_change_pct": 7.35,
-      "fx_rate": 31.45,
+      "fx_rate": 31.44,
       "basis_table": [
         {
           "adr_date": "Apr 17",
@@ -263,8 +263,8 @@
       ],
       "avg_basis": 0.9952,
       "avg_premium_pct": -0.48,
-      "predicted_open": 505.58,
-      "gap_pct": 1.93,
+      "predicted_open": 505.45,
+      "gap_pct": 1.91,
       "signal": "BULLISH",
       "signal_icon": "🟢",
       "signal_text": "Strong catch-up rally expected"
