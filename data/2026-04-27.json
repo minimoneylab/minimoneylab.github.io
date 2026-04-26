@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-27",
+  "update_time": "2026-04-26 23:12:04",
+  "total_articles": 26,
+  "high": [
+    {
+      "title": "Foreign Capital Approves with Price Upgrades - Strong Momentum for MediaTek, Delta Electronics and Others with Capital Inflow",
+      "section": "證券",
+      "date": "2026/04/26 02:21:32",
+      "url": "https://money.udn.com/money/story/5607/9464494?from=edn_maintab_cate",
+      "summary": "Foreign brokerages have been issuing mostly \"buy\" ratings with target price upgrades amid Taiwan's bull market. Key stocks receiving both institutional buying and foreign upgrades include TSMC, MediaTek, and Delta Electronics. TSMC accumulated over 55,000 shares in April buying by three major institutional investors, with multiple foreign brokerages raising targets post-earnings, including Citigroup's upgrade to NT$2,875 from NT$2,800. Credit Lyonnais maintains the highest target at NT$3,030. MediaTek received 19,000 shares of net buying with Goldman Sachs, Morgan Stanley, and Macquarie setting targets at NT$2,454, NT$2,588, and NT$2,800 respectively. The FSC's policy to raise single stock limits for funds to 25% removes selling pressure on heavyweight tech stocks, creating a favorable policy environment for continued upside."
+    },
+    {
+      "title": "Taiwan Stocks Surge Toward 43,000 Points - TSMC Has 458 Points of Upside Room",
+      "section": "證券",
+      "date": "2026/04/27 01:26:07",
+      "url": "https://money.udn.com/money/story/5607/9465849?from=edn_maintab_cate",
+      "summary": "Taiwan stock futures hit record highs Friday night, with market experts raising wave targets from 40K to 43K points. The FSC's policy to raise fund single-stock limits to 25% removes selling pressure on TSMC and signals strong policy support. Major institutions have raised TSMC's 2026 EPS estimates to 96-102 yuan from 90-95 yuan, with 2027 targets of 125-130 yuan. Average target prices now reach NT$2,643, implying 458 points upside from Friday's close at NT$2,185. Each NT$1 move in TSMC affects the index by 8.5 points, suggesting potential for the index to reach 42,825 points. First quarter listed company earnings are expected to hit record highs of 1.4-1.5 trillion yuan, providing fundamental support for the bull market."
+    },
+    {
+      "title": "Hon Hai Wins NVIDIA Inference Cabinet Orders - Exclusive Compute Tray Supply and Groq 3 LPX Assembly",
+      "section": "金融",
+      "date": "2026/04/27 02:07:58",
+      "url": "https://money.udn.com/money/story/5612/9465867?from=edn_maintab_cate",
+      "summary": "NVIDIA's latest AI inference cabinet Groq 3 LPX is reportedly shipping ahead of schedule in Q3, with Hon Hai securing exclusive supply of compute trays and main cabinet assembly responsibilities. Hon Hai's market share in NVIDIA's new Vera Rubin platform is expected to rise to 55-60% from 43% currently, driven by dominant positions with Google (nearly 100%), Amazon AWS and Microsoft (both over 50%). The LPX cabinet will ship approximately 6,000 units in 2026 and 10,000 units in 2027. Hon Hai's weekly AI datacenter cabinet production capacity of over 1,000 units is planned to scale to 2,000 units by year-end, positioning the company to capitalize on the massive AI infrastructure buildout through 2028."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan's First! Nanya Technology Enters Vera Rubin Chain - Gross Margins Target 70%",
+      "section": "金融",
+      "date": "2026/04/27 02:02:26",
+      "url": "https://money.udn.com/money/story/5612/9465874?from=edn_maintab_cate",
+      "summary": "Nanya Technology has become Taiwan's first company to enter NVIDIA's AI server main memory supply chain for the Vera Rubin platform, breaking Korean and US dominance. With TSMC's assistance, Nanya's LPDDR products passed NVIDIA validation for the new platform that uses low-power LPDDR5X memory. The higher specifications and pricing compared to consumer applications should help Nanya's gross margins approach 70%. This represents a milestone for Taiwan's memory industry in penetrating AI server applications."
+    },
+    {
+      "title": "Quanta Enjoys AI Dividends with Upgraded Operations",
+      "section": "金融",
+      "date": "2026/04/26 01:49:38",
+      "url": "https://money.udn.com/money/story/5612/9464489?from=edn_subcatelist_cate",
+      "summary": "Quanta has transformed from traditional PC/notebook ODM to AI server-focused operations, with AI servers expected to comprise two-thirds of revenue this year. The company's 2025 revenue exceeded NT$2 trillion for the first time, with at least half from AI servers. GPU architecture and ASIC server revenue ratios are expected to exceed 50% and potentially reach two-thirds this year. Quanta is investing NT$30 billion in capex, up 70% from last year's NT$17 billion, to expand production across Taiwan, Thailand, and the US."
+    },
+    {
+      "title": "US Big Tech Super Earnings Week Arrives - Taiwan Supply Chain Outlook Strong",
+      "section": "證券",
+      "date": "2026/04/26 01:48:27",
+      "url": "https://money.udn.com/money/story/5607/9464496?from=edn_maintab_cate",
+      "summary": "Major US tech earnings begin April 29 with Microsoft, Alphabet, Meta, and Amazon reporting, followed by Apple on April 30. The market focuses on how the four major cloud service providers monetize their capital expenditures. Google's eighth-generation TPU announcement has boosted MediaTek shares past NT$2,000. AI capex estimates for 2026 have been raised to potentially exceed $600 billion from $520 billion, benefiting Taiwan's AI supply chain including TSMC, Hon Hai, Quanta, and others."
+    },
+    {
+      "title": "AI Effect - Aviation Cargo Welcomes Charter Boom",
+      "section": "金融",
+      "date": "2026/04/27 01:45:30",
+      "url": "https://money.udn.com/money/story/10871/9465797?from=edn_maintab_cate",
+      "summary": "AI server shipments are driving a charter flight boom, with May expected to see up to 50 charter flights versus the usual 20 per month. Taiwan controls over 90% of global AI server assembly, driving demand. China Airlines with 18 freighters and EVA Air with nine are the main beneficiaries. The high-volume, high-value, high-weight characteristics of AI servers require dedicated freighter capacity, supporting \"price and volume\" growth in aviation cargo."
+    },
+    {
+      "title": "TSMC Advanced Process Volume Growth Drives Equipment Material Partners",
+      "section": "金融",
+      "date": "2026/04/27 02:09:33",
+      "url": "https://money.udn.com/money/story/5612/9465866?from=edn_subcatelist_cate",
+      "summary": "TSMC's continued 3nm and 2nm advanced process ramp is driving synchronous growth at materials partners including Topco Scientific, Sinic-Tek, Gudeng, and others. Companies are expanding capacity to meet surging customer demand. Topco's Kaohsiung facility Phase 1 will reach full utilization this year, with Phase 2 expected to start production in H1 2027. The Longtan facility targeting 2028 completion will focus on DUV photoresist production."
+    }
+  ],
+  "not_relevant": []
+}
