@@ -1,27 +1,54 @@
 {
-  "date": "2026-04-26",
-  "update_time": "2026-04-26 08:23:35",
-  "total_articles": 5,
+  "date": "2026-04-27",
+  "update_time": "2026-04-27 09:11:08",
+  "total_articles": 9,
   "high": [
     {
-      "title": "Ibovespa Rally Doesn't Eliminate 'Invisible Risk': Empiricus Launches New Global Allocation Portfolio to 'Shield' Portfolios",
+      "title": "Economists Adjust Inflation Projection for 2026; See This Monday's Focus Survey (27)",
       "source": "MoneyTimes",
-      "date": "2026-04-26",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-em-alta-nao-elimina-risco-invisivel-conheca-a-nova-carteira-de-alocacao-global-da-empiricus-para-buscar-blindar-o-seu-portfolio-lbrdis575/",
-      "summary": "The Ibovespa has surged 20% year-to-date, recently touching a new all-time high of 198,000 points despite geopolitical uncertainties. Key drivers include robust foreign capital inflows of R$50 billion into B3 in Q1 alone, expectations for Selic rate cuts, and potential political changes that could sustain the rally through 2026. This represents a significant shift in foreign investor sentiment toward Brazilian equities, with the strong capital inflows providing crucial support for the index's historic performance. The combination of monetary easing expectations and improved political outlook creates a favorable backdrop for Brazilian assets. However, analysts warn of \"invisible risks\" for investors going all-in on domestic equities, suggesting portfolio diversification remains critical. For FX traders, the sustained foreign inflows should provide structural support for BRL, while bond investors should monitor the Selic cut timeline as it will directly impact yield curves and duration strategies."
+      "date": "2026-04-27",
+      "url": "https://www.moneytimes.com.br/economistas-ajustam-projecao-para-inflacao-em-2026-veja-o-focus-desta-segunda-feira-27/",
+      "summary": "Market economists surveyed by the Central Bank have revised their key macro projections in the latest Focus bulletin. IPCA inflation expectations for 2026 increased from 4.80% to 4.86%, now exceeding the Central Bank's tolerance band around the inflation target. This upward revision extends through 2027-2028, with projections rising to 4.00% and 3.61% respectively. Selic rate expectations remain unchanged at 13% for 2026, 11% for 2027, and 10% for 2028, suggesting economists see no immediate need for additional monetary tightening despite higher inflation forecasts. USD/BRL projections show slight improvement, with year-end 2026 expectations declining to R$5.25, though medium-term forecasts remain elevated at R$5.35-5.41 through 2029. The persistence of above-target inflation expectations combined with high Selic projections suggests continued monetary policy challenges, with potential implications for fixed income yields and BRL performance."
+    },
+    {
+      "title": "Why Loan Interest Rates Haven't Fallen? The Answer Lies in the Selic Rate",
+      "source": "MoneyTimes",
+      "date": "2026-04-27",
+      "url": "https://www.moneytimes.com.br/por-que-os-juros-dos-emprestimos-nao-cairam-a-resposta-esta-na-selic-ceci/",
+      "summary": "Analysis of Central Bank data confirms that credit costs remain stubbornly high despite periods of Selic rate relief, primarily due to the structurally elevated level of Brazil's benchmark rate. The Central Bank's Credit Cost Indicator (ICC), which measures the effective average cost of the entire credit stock in the financial system, reveals the average margin banks obtain over funding costs. This comprehensive metric reflects not just new loan originations but all existing contracts, providing insight into why consumers haven't experienced meaningful relief in borrowing costs. The structural elevation of the Selic rate creates distortions throughout the economy that prevent the normal transmission of monetary policy easing to end-user credit rates. This analysis is crucial for understanding the limitations of monetary policy transmission in Brazil and suggests that even with future Selic cuts, credit costs may remain elevated, impacting economic growth prospects and the effectiveness of monetary stimulus."
     }
   ],
   "medium": [
     {
-      "title": "Weekly Recommended Portfolio: 5 Stocks for Weekly Portfolio, According to Terra Investimentos",
+      "title": "Weekly Recommended Portfolio: 5 Stocks for Weekly Portfolio According to Terra Investimentos",
       "source": "MoneyTimes",
       "date": "2026-04-26",
       "url": "https://www.moneytimes.com.br/carteira-recomendada-5-acoes-para-ter-na-carteira-semanal-segundo-terra-investimentos-lmrs/",
-      "summary": "Terra Investimentos maintained their weekly stock selection including Azzas 2154 (AZZA3), MBRF (MBRF3), Suzano (SUZB3), Hypera (HYPE3) and Iguatemi (IGTI11). The portfolio underperformed with a -3.07% decline versus Ibovespa's -2.76% drop, with MBRF leading losses at -6.97%. However, the 12-month accumulated return shows strong outperformance at +80.54% versus Ibovespa's +44.75%, indicating solid stock-picking despite recent volatility."
+      "summary": "Terra Investimentos maintained its weekly stock selection for April 24-30, including Azzas 2154 (AZZA3), MBRF (MBRF3), Suzano (SUZB3), Hypera (HYPE3), and Iguatemi (IGTI11). The portfolio underperformed with a -3.07% weekly decline versus Ibovespa's -2.76% drop, though it maintains a strong 12-month return of 80.54% compared to the index's 44.75% gain."
+    },
+    {
+      "title": "Rising Ibovespa Doesn't Eliminate 'Invisible Risk': Meet Empiricus's New Global Allocation Portfolio to 'Shield' Your Portfolio",
+      "source": "MoneyTimes",
+      "date": "2026-04-27",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-em-alta-nao-elimina-risco-invisivel-conheca-a-nova-carteira-de-alocacao-global-da-empiricus-para-buscar-blindar-o-seu-portfolio-lbrdis575/",
+      "summary": "Despite geopolitical uncertainties, Brazilian markets show positive momentum with Ibovespa up 20% YTD, reaching new highs near 198,000 points. Strong foreign capital inflows of R$50 billion in Q1 2026, expectations of Selic cuts, and potential political changes support the rally. However, Empiricus warns of \"invisible risks\" for concentrated domestic exposure and launched a global allocation portfolio for diversification."
+    },
+    {
+      "title": "Petrobras (PETR4) Surges 60%, But It's Not Alone: See Stocks That Could Surprise This Week on Money Picks",
+      "source": "MoneyTimes",
+      "date": "2026-04-27",
+      "url": "https://www.moneytimes.com.br/petrobras-petr4-dispara-60-mas-nao-e-a-unica-veja-as-acoes-que-podem-surpreender-nesta-semana-no-money-picks/",
+      "summary": "Petrobras emerged as a major Q1 winner with approximately 60% gains, driven by oil price appreciation amid Iran tensions and strong dividend payments. XP maintains a buy recommendation with R$47 price target, noting that each $10 Brent increase significantly impacts cash flow, though domestic fuel price parity remains incomplete."
+    },
+    {
+      "title": "Raízen (RAIZ4), Sabesp (SBSP3), Oncoclínicas (ONCO3) and Other Monday (27) Highlights",
+      "source": "MoneyTimes",
+      "date": "2026-04-27",
+      "url": "https://www.moneytimes.com.br/radar-do-mercado-destaques-corporativos-hoje-raizen-sabesp-oncoclinicas-27-04-2026-lmrs/",
+      "summary": "Raízen (RAIZ4) submitted an alternative proposal to creditors while negotiating a R$65 billion debt restructuring, seeking R$2.5-5 billion in new capital beyond R$4 billion already committed by Shell and Rubens Ometto. Sabesp (SBSP3) made an offer to acquire EMAE shares, while Oncoclínicas (ONCO3) saw its CFO resign."
     }
   ],
   "not_relevant": [
-    "Tomorrow (22): Learn How to Access 'Memebot Flash Million', Tool That Seeks High Potential Opportunities in Cryptocurrencies",
-    "This List of 5 Cryptocurrencies Can Change Investors' Financial Level, According to Specialist Who Already Delivered 130,000% Appreciation in the Past"
+    "This List of 5 Cryptocurrencies Could Change Investors' Financial Level, According to Specialist Who Already Delivered 130,000% Appreciation in the Past"
   ]
 }
