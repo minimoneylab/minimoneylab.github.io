@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-28",
+  "update_time": "2026-04-27 23:32:43",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "Hon Hai Secures NVIDIA Groq 3 LPX Inference Cabinet Orders - Exclusive Supply and Assembly",
+      "section": "金融",
+      "date": "2026/04/27 02:07:58",
+      "url": "https://money.udn.com/money/story/5612/9465867?from=edn_maintab_cate",
+      "summary": "Hon Hai (2317) has secured exclusive supply of compute trays for NVIDIA's latest AI inference cabinet Groq 3 LPX, which is expected to ship ahead of schedule in Q3 2026. The company will also serve as the main cabinet assembly supplier. Supply chain sources indicate that LPX cabinets with LP30 and LP35 chips will ship 1.5 million and 2.5 million units respectively in 2026-2027, with initial shipments of 6,000 cabinets in Q3 2026 and 10,000 cabinets in 2027. For the upcoming NVIDIA VR200 NVL72 platform, Hon Hai's market share is expected to increase from 43% to 55-60%, driven by major clients including Google, Amazon AWS, and Microsoft. The company is aggressively expanding production capacity, targeting 2,000 AI datacenter cabinets per week by year-end, up from the current 1,000+. This positions Hon Hai as a key beneficiary of the AI inference market boom."
+    },
+    {
+      "title": "Taiwan's First! Nanya Technology Enters NVIDIA Memory Supply Chain",
+      "section": "產經",
+      "date": "2026/04/26 23:11:32",
+      "url": "https://money.udn.com/money/story/5612/9465844",
+      "summary": "Nanya Technology (2408) has become Taiwan's first company to enter NVIDIA's AI server main memory supply chain for the new Vera Rubin platform, breaking the Korean and US dominance. With TSMC's assistance, Nanya's LPDDR products have passed NVIDIA's verification for the Vera Rubin platform, which will extensively adopt low-power LPDDR5X/LPDDR series to reduce server power consumption and mainboard space. This high-spec product commands premium pricing compared to consumer applications, potentially pushing Nanya's gross margin toward 70%. The breakthrough represents a significant milestone for Taiwan's memory industry, as local manufacturers previously focused on consumer markets and struggled to meet AI applications' stringent requirements for chip flatness and warpage control. TSMC provided direct technical guidance to help optimize manufacturing processes, enabling Nanya to successfully enter this lucrative supply chain."
+    },
+    {
+      "title": "Foreign Investors Dump NT$51.2B as Taiwan Stock Index Breaks 40,000 Points",
+      "section": "產經",
+      "date": "2026/04/27 15:24:27",
+      "url": "https://money.udn.com/money/story/5607/9467114",
+      "summary": "Taiwan's stock market experienced a divergent pattern on April 27, with the TAIEX briefly breaking 40,000 points to reach 40,194.92 intraday while three major institutional investors collectively sold NT$48.2 billion. Foreign investors led the selling with NT$51.2 billion in net sales, while domestic investment trust companies bought NT$13.5 billion and proprietary trading desks sold NT$10.5 billion. TSMC drove the rally, contributing nearly 665 points to the index gains after hitting an intraday high of NT$2,330 before closing at NT$2,265. However, market breadth was negative with only 531 stocks advancing versus 1,385 declining, indicating concentrated buying in heavyweight and thematic stocks while most mid and small-cap stocks faced selling pressure. This suggests potential structural divergence in the market despite the headline index gains."
+    },
+    {
+      "title": "New Taiwan Dollar Strengthens 4.9 Cents to 31.467 Against USD",
+      "section": "證券",
+      "date": "2026/04/27 18:07:18",
+      "url": "https://money.udn.com/money/story/12509/9467464?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar closed at 31.467 against the US Dollar on April 27, appreciating 4.9 cents from the previous trading day's close of 31.516. The currency traded in a range between a high of 31.388 and a low of 31.500, with total trading volume reaching US$1.735 billion. The strengthening reflects continued foreign capital inflows and Taiwan's strong economic fundamentals driven by semiconductor and AI-related industries."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC Advanced Process Drives Equipment Supplier Growth",
+      "section": "金融",
+      "date": "2026/04/27 02:09:33",
+      "url": "https://money.udn.com/money/story/5612/9465866?from=edn_subcatelist_cate",
+      "summary": "TSMC's 3nm and 2nm advanced process ramp is driving strong growth for materials and consumables suppliers including Topco Scientific, Kinik, Gudeng Precision, and others. Companies are expanding capacity to meet surging demand from the foundry leader's advanced node production increases."
+    },
+    {
+      "title": "MediaTek and Qualcomm Reportedly Collaborating with OpenAI on Mobile Processors",
+      "section": "金融",
+      "date": "2026/04/28 00:56:02",
+      "url": "https://money.udn.com/money/story/5612/9467932?from=edn_maintab_cate",
+      "summary": "Chinese analysts report that OpenAI is working with MediaTek (2454) and Qualcomm to develop processors for its first smartphone targeting 2028 mass production. The phone aims to provide comprehensive AI agent services rather than traditional app-based functionality. TSMC would benefit regardless of which processor wins the design."
+    },
+    {
+      "title": "Taiwan Stock Index Hits 40K Milestone with Record Trading Volume",
+      "section": "證券",
+      "date": "2026/04/28 01:34:08",
+      "url": "https://money.udn.com/money/story/5607/9467987?from=edn_maintab_cate",
+      "summary": "Taiwan's TAIEX briefly touched 40,194 points before closing at 39,616 points on April 27, with TSMC reaching NT$2,330 intraday. Trading volume hit NT$1.24 trillion, the second-highest on record. The index set five historical records including market capitalization and futures prices."
+    },
+    {
+      "title": "Investment Trust \"TSMC Clause\" Expected to Attract NT$200B in Funds",
+      "section": "證券",
+      "date": "2026/04/28 01:27:16",
+      "url": "https://money.udn.com/money/story/5607/9467969?from=edn_maintab_cate",
+      "summary": "Following FSC's relaxation allowing domestic equity funds and active ETFs to hold up to 25% in a single stock, analysts estimate NT$150-200 billion could flow into TSMC. Investment trusts increased TSMC holdings to 3.11%, the highest on record, though full implementation requires 1-3 months for regulatory procedures."
+    }
+  ],
+  "not_relevant": []
+}
