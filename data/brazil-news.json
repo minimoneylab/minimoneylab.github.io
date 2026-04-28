@@ -1,54 +1,42 @@
 {
-  "date": "2026-04-27",
-  "update_time": "2026-04-27 09:11:08",
+  "date": "2026-04-28",
+  "update_time": "2026-04-28 09:14:46",
   "total_articles": 9,
   "high": [
     {
-      "title": "Economists Adjust Inflation Projection for 2026; See This Monday's Focus Survey (27)",
-      "source": "MoneyTimes",
-      "date": "2026-04-27",
-      "url": "https://www.moneytimes.com.br/economistas-ajustam-projecao-para-inflacao-em-2026-veja-o-focus-desta-segunda-feira-27/",
-      "summary": "Market economists surveyed by the Central Bank have revised their key macro projections in the latest Focus bulletin. IPCA inflation expectations for 2026 increased from 4.80% to 4.86%, now exceeding the Central Bank's tolerance band around the inflation target. This upward revision extends through 2027-2028, with projections rising to 4.00% and 3.61% respectively. Selic rate expectations remain unchanged at 13% for 2026, 11% for 2027, and 10% for 2028, suggesting economists see no immediate need for additional monetary tightening despite higher inflation forecasts. USD/BRL projections show slight improvement, with year-end 2026 expectations declining to R$5.25, though medium-term forecasts remain elevated at R$5.35-5.41 through 2029. The persistence of above-target inflation expectations combined with high Selic projections suggests continued monetary policy challenges, with potential implications for fixed income yields and BRL performance."
-    },
-    {
-      "title": "Why Loan Interest Rates Haven't Fallen? The Answer Lies in the Selic Rate",
+      "title": "Why Loan Interest Rates Haven't Fallen? The Answer Lies in the Selic",
       "source": "MoneyTimes",
       "date": "2026-04-27",
       "url": "https://www.moneytimes.com.br/por-que-os-juros-dos-emprestimos-nao-cairam-a-resposta-esta-na-selic-ceci/",
-      "summary": "Analysis of Central Bank data confirms that credit costs remain stubbornly high despite periods of Selic rate relief, primarily due to the structurally elevated level of Brazil's benchmark rate. The Central Bank's Credit Cost Indicator (ICC), which measures the effective average cost of the entire credit stock in the financial system, reveals the average margin banks obtain over funding costs. This comprehensive metric reflects not just new loan originations but all existing contracts, providing insight into why consumers haven't experienced meaningful relief in borrowing costs. The structural elevation of the Selic rate creates distortions throughout the economy that prevent the normal transmission of monetary policy easing to end-user credit rates. This analysis is crucial for understanding the limitations of monetary policy transmission in Brazil and suggests that even with future Selic cuts, credit costs may remain elevated, impacting economic growth prospects and the effectiveness of monetary stimulus."
+      "summary": "The Central Bank's analysis reveals why credit remains expensive in Brazil despite monetary policy easing, pointing to structurally high Selic rates as the primary culprit rather than fiscal imbalances alone. The BCB's Credit Cost Indicator (ICC) shows the effective average cost of the entire National Financial System's credit stock, reflecting banks' average margins over funding costs across all outstanding contracts, not just new loans. This comprehensive metric demonstrates how elevated Selic levels create economic distortions that prevent credit cost reductions from reaching consumers and businesses. For BRL traders, this analysis is crucial as it suggests monetary policy transmission mechanisms remain impaired, potentially limiting the effectiveness of rate cuts in stimulating economic activity. Bond investors should note that persistent high credit spreads may signal continued monetary policy challenges, while the structural nature of these issues could keep the BCB more hawkish for longer than markets expect."
+    },
+    {
+      "title": "Economists Adjust 2026 Inflation Projection; See Monday's Focus (27th)",
+      "source": "MoneyTimes",
+      "date": "2026-04-27",
+      "url": "https://www.moneytimes.com.br/economistas-ajustam-projecao-para-inflacao-em-2026-veja-o-focus-desta-segunda-feira-27/",
+      "summary": "The Central Bank's Focus survey shows economists raising 2026 IPCA inflation forecasts from 4.80% to 4.86%, now above the BCB's tolerance range, signaling persistent inflationary pressures. Selic rate expectations remain unchanged at 13% for 2026 and 11% for 2027, while USD/BRL forecasts improved slightly to R$5.25 by year-end from previous projections. The upward inflation revision beyond the target ceiling suggests markets expect the BCB to maintain a restrictive monetary stance longer, supporting BRL bonds but potentially limiting equity upside. FX traders should note the modest dollar forecast improvement despite inflation concerns, indicating expectations that monetary tightness will eventually contain price pressures while supporting the Real."
     }
   ],
   "medium": [
     {
-      "title": "Weekly Recommended Portfolio: 5 Stocks for Weekly Portfolio According to Terra Investimentos",
-      "source": "MoneyTimes",
-      "date": "2026-04-26",
-      "url": "https://www.moneytimes.com.br/carteira-recomendada-5-acoes-para-ter-na-carteira-semanal-segundo-terra-investimentos-lmrs/",
-      "summary": "Terra Investimentos maintained its weekly stock selection for April 24-30, including Azzas 2154 (AZZA3), MBRF (MBRF3), Suzano (SUZB3), Hypera (HYPE3), and Iguatemi (IGTI11). The portfolio underperformed with a -3.07% weekly decline versus Ibovespa's -2.76% drop, though it maintains a strong 12-month return of 80.54% compared to the index's 44.75% gain."
-    },
-    {
-      "title": "Rising Ibovespa Doesn't Eliminate 'Invisible Risk': Meet Empiricus's New Global Allocation Portfolio to 'Shield' Your Portfolio",
+      "title": "Ibovespa Rally Doesn't Eliminate 'Invisible Risk': Meet Empiricus' New Global Allocation Portfolio to 'Shield' Your Portfolio",
       "source": "MoneyTimes",
       "date": "2026-04-27",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-em-alta-nao-elimina-risco-invisivel-conheca-a-nova-carteira-de-alocacao-global-da-empiricus-para-buscar-blindar-o-seu-portfolio-lbrdis575/",
-      "summary": "Despite geopolitical uncertainties, Brazilian markets show positive momentum with Ibovespa up 20% YTD, reaching new highs near 198,000 points. Strong foreign capital inflows of R$50 billion in Q1 2026, expectations of Selic cuts, and potential political changes support the rally. However, Empiricus warns of \"invisible risks\" for concentrated domestic exposure and launched a global allocation portfolio for diversification."
+      "summary": "The Ibovespa has surged 20% year-to-date, reaching new highs near 198,000 points, driven by R$50 billion in foreign capital inflows during Q1 and expectations of Selic rate cuts. Despite the bullish momentum supported by potential political changes, market analysts warn of \"invisible risks\" from concentrated domestic exposure, prompting recommendations for global diversification strategies."
     },
     {
-      "title": "Petrobras (PETR4) Surges 60%, But It's Not Alone: See Stocks That Could Surprise This Week on Money Picks",
+      "title": "Petrobras (PETR4) Soars 60%, But It's Not the Only One: See Stocks That Could Surprise This Week in Money Picks",
       "source": "MoneyTimes",
       "date": "2026-04-27",
       "url": "https://www.moneytimes.com.br/petrobras-petr4-dispara-60-mas-nao-e-a-unica-veja-as-acoes-que-podem-surpreender-nesta-semana-no-money-picks/",
-      "summary": "Petrobras emerged as a major Q1 winner with approximately 60% gains, driven by oil price appreciation amid Iran tensions and strong dividend payments. XP maintains a buy recommendation with R$47 price target, noting that each $10 Brent increase significantly impacts cash flow, though domestic fuel price parity remains incomplete."
-    },
-    {
-      "title": "Raízen (RAIZ4), Sabesp (SBSP3), Oncoclínicas (ONCO3) and Other Monday (27) Highlights",
-      "source": "MoneyTimes",
-      "date": "2026-04-27",
-      "url": "https://www.moneytimes.com.br/radar-do-mercado-destaques-corporativos-hoje-raizen-sabesp-oncoclinicas-27-04-2026-lmrs/",
-      "summary": "Raízen (RAIZ4) submitted an alternative proposal to creditors while negotiating a R$65 billion debt restructuring, seeking R$2.5-5 billion in new capital beyond R$4 billion already committed by Shell and Rubens Ometto. Sabesp (SBSP3) made an offer to acquire EMAE shares, while Oncoclínicas (ONCO3) saw its CFO resign."
+      "summary": "Petrobras emerged as a major Q1 winner with 60% gains, boosted by oil price rallies amid Iran tensions and strong dividend payments. XP maintains a buy recommendation with R$47 target, noting that each $10 Brent increase significantly impacts cash flow, though domestic fuel pricing policies that don't fully follow international parity could limit upside potential."
     }
   ],
   "not_relevant": [
-    "This List of 5 Cryptocurrencies Could Change Investors' Financial Level, According to Specialist Who Already Delivered 130,000% Appreciation in the Past"
+    "Raízen (RAIZ4), Sabesp (SBSP3), Oncoclínicas (ONCO3) and Other Highlights This Monday (27th)",
+    "This List of 5 Cryptocurrencies Could Change Investors' Financial Level, According to Specialist Who Already Delivered 130,000% Appreciation in the Past",
+    "The Devil Wears Prada 2: Meet Anna Wintour, the Real-Life Miranda Priestly"
   ]
 }
