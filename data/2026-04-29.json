@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-29",
+  "update_time": "2026-04-28 23:33:51",
+  "total_articles": 36,
+  "high": [
+    {
+      "title": "TSMC Hits 2,330 NT$ Sky-High Price as Taiwan Stock Index First Touches 40,000",
+      "section": "證券",
+      "date": "2026/04/28 01:34:08",
+      "url": "https://money.udn.com/money/story/5607/9467987?from=edn_maintab_cate",
+      "summary": "Taiwan stock market achieved historic milestones on April 27th with five new records: the weighted index hit an intraday high of 40,194 points and closed at 39,616 points; total market capitalization reached 139.43 trillion NT$; TSMC stock price peaked at 2,330 NT$ with market value of 58.73 trillion NT$; electronics index hit 2,603.45 points; and Taiwan futures touched 40,458 points. Despite these achievements, market breadth was poor with 1,346 listed companies declining. Foreign investors sold 511.9 billion NT$ and increased net short futures positions by 3,590 contracts to 44,223 contracts, while domestic institutions continued strong buying. Trading volume reached 1.24 trillion NT$, the second-highest in history. Analysts maintain that \"there's no ceiling for the index\" and any pullbacks remain buying opportunities, targeting potential advances to 43,000 points after consolidation."
+    },
+    {
+      "title": "Taiwan Stock Fund and Active ETF Investment Limit Raised Could Attract 200 Billion NT$ to TSMC",
+      "section": "證券",
+      "date": "2026/04/28 01:27:16",
+      "url": "https://money.udn.com/money/story/5607/9467969?from=edn_maintab_cate",
+      "summary": "The FSC's decision to raise investment limits for domestic equity funds and active ETFs from 10% to 25% for single stocks could bring 150-200 billion NT$ in fresh investment trust capital to TSMC (2330). Investment trusts currently manage over 6.5 trillion NT$ in Taiwan stocks, with about 1.46 trillion NT$ in active funds and ETFs eligible for the new limits. TSMC is currently the only stock qualifying under the new rules (requiring >10% market cap weight). Investment trusts bought 4,992 TSMC shares on April 27th, the highest single-day purchase since November 2025, pushing their holding ratio to 3.11%, a statistical high. However, the actual implementation will take 1-3 months as fund companies must complete internal procedures, obtain custodian and legal opinions, and gain regulatory approval. This regulatory change represents a significant structural shift that could provide sustained buying pressure for TSMC while offering fund managers greater operational flexibility."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC ADR Continues to Hit New Highs, Philadelphia Semiconductor Index Falls Back",
+      "section": "產經",
+      "date": "2026/04/28 07:27:44",
+      "url": "https://money.udn.com/money/story/5599/9468244",
+      "summary": "TSMC ADR rose 0.63% to $404.98 with an intraday peak of $414.50, trading at a 12.49% premium to Taipei shares. Philadelphia Semiconductor Index fell 1%, ending an 18-day winning streak, with UMC ADR down 4.8% and ASE Group declining over 3%. The divergence reflects sector-wide profit-taking despite TSMC's continued strength."
+    },
+    {
+      "title": "MediaTek and World Advanced Semiconductors: Options with Over 60 Days to Expiry",
+      "section": "證券",
+      "date": "2026/04/28 00:44:03",
+      "url": "https://money.udn.com/money/story/5739/9467636?from=edn_subcatelist_cate",
+      "summary": "MediaTek (2454) hit a new high of 2,575 NT$ as major cloud service providers continue investing in custom ASIC chips, with Google's new TPU generation boosting MediaTek's prospects. World Advanced (3661) also benefits from new-generation ASIC production for US clients. Analysts expect ASIC revenue to potentially exceed smartphone SoC revenue by 2028, repositioning MediaTek as an AI semiconductor company rather than just a mobile chip maker."
+    },
+    {
+      "title": "Hon Hai and Pegatron: Four Warrant Options Look Promising",
+      "section": "證券",
+      "date": "2026/04/29 00:14:25",
+      "url": "https://money.udn.com/money/story/5739/9470101?from=edn_subcatelist_cate",
+      "summary": "Apple supply chain companies Hon Hai (2317) and Pegatron (4938) are attracting attention ahead of WWDC 2026, which may introduce iOS 27 with enhanced Apple Intelligence and new hardware including M5-series Mac products. Analysts expect Apple to outperform competitors due to flexible memory procurement strategies and cross-device component sharing advantages amid rising memory prices."
+    }
+  ],
+  "not_relevant": []
+}
