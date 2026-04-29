@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-30",
+  "update_time": "2026-04-29 23:32:59",
+  "total_articles": 28,
+  "high": [
+    {
+      "title": "US Stocks Close: AI Bubble Concerns Return! OpenAI Revenue Shortfall Drags Down Large Caps and Chip Stocks",
+      "section": "金融",
+      "date": "2026/04/29 07:05:12",
+      "url": "https://money.udn.com/money/story/123398/9470650",
+      "summary": "US markets closed lower Tuesday as AI anxieties swept Wall Street again. Reports indicated OpenAI failed to meet revenue and user growth targets, raising investor doubts about whether tech giants' hundreds of billions in investments will yield proportionate returns. Oracle, SoftBank, and chip stocks fell on the news. Geopolitical risks intensified with UAE announcing OPEC exit and Trump expressing dissatisfaction with US-Iran peace proposals, driving oil prices to post-ceasefire highs. Philadelphia Semiconductor Index plunged 3.6%, with Micron down 3.9%, AMD down 3.4%, TSMC ADR down 3.1%, and Nvidia down 1.6%. This creates significant market implications for Taiwan's tech sector, particularly affecting companies in AI supply chains and semiconductor manufacturing."
+    },
+    {
+      "title": "OpenAI Shock Wave Doesn't Shake Taiwan Chain Confidence; Quanta: Another Year of High Growth Ahead",
+      "section": "金融",
+      "date": "2026/04/29 00:55:30",
+      "url": "https://money.udn.com/money/story/5612/9470408?from=edn_maintab_cate",
+      "summary": "Despite OpenAI's reported difficulties in fulfilling AI data center procurement contracts worth hundreds of billions, Quanta (2382) Chairman Barry Lam remains optimistic about prospects in the annual shareholders' report. He emphasized this year will again be one of high growth, with Quanta fully prepared and high-end AI server capacity running at full speed. The company views the shift toward Physical AI and edge applications as core to its \"Smart X\" strategy, focusing on providing \"silicon-brain\" solutions for smart healthcare, manufacturing, and mobility. This demonstrates Taiwan's supply chain resilience despite global AI market uncertainties, with implications for investor confidence in Taiwan's AI infrastructure plays."
+    },
+    {
+      "title": "OpenAI's Hundred Billion Dollar Computing Purchase May Face Changes, Affecting Quanta, Wistron Follow-up Orders",
+      "section": "金融",
+      "date": "2026/04/29 01:26:44",
+      "url": "https://money.udn.com/money/story/5612/9470402?from=edn_maintab_cate",
+      "summary": "OpenAI's slowing revenue growth has raised concerns about fulfilling massive AI data center procurement contracts, potentially affecting hundreds of billions in computing purchases from Taiwan ODM manufacturers including Quanta (2382) and Wistron (3231). The news triggered market concerns about tech companies' high AI capital expenditure outlooks. OpenAI's current AI server procurement supply chain is primarily divided among Hon Hai (2317), Quanta, and Wistron. The company also plans to diversify from Microsoft Azure to include Amazon AWS and Google Cloud services. If OpenAI's procurement plans change, the impact on Taiwan's ODM sector would be substantial, affecting major revenue streams for these key technology suppliers."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MediaTek Targets AI New Generation Technology to Capture Data Center Growth Opportunities",
+      "section": "金融",
+      "date": "2026/04/29 00:24:34",
+      "url": "https://money.udn.com/money/story/11162/9470323?from=edn_subcatelist_cate",
+      "summary": "MediaTek (2454) Chairman Tsai Ming-kai highlighted the company's five major developments in 2025, including maintaining the top smartphone chipset market share and completing 2nm flagship SoC design with TSMC. The company is actively investing in next-generation AI technologies and advanced IP development to capture rapidly growing data center opportunities, positioning itself advantageously in both edge and cloud computing."
+    },
+    {
+      "title": "MediaTek Chairman Tsai Ming-kai Increases Holdings",
+      "section": "金融",
+      "date": "2026/04/29 00:22:27",
+      "url": "https://money.udn.com/money/story/11162/9470327?from=edn_subcatelist_cate",
+      "summary": "MediaTek's stock hit a historic high of NT$2,675 with strong momentum. Chairman Tsai Ming-kai increased holdings by 35.8 shares to approximately 41,798 shares worth NT$109.3 billion. The company expects non-handset business to offset smartphone headwinds, with data center ASIC revenue targeting over $1 billion this year and reaching tens of billions by 2027."
+    },
+    {
+      "title": "Memory Module Leaders Profit Explosion; Bullish on Continued Price Increases Driving Operations",
+      "section": "金融",
+      "date": "2026/04/29 00:28:32",
+      "url": "https://money.udn.com/money/story/5612/9470322?from=edn_maintab_cate",
+      "summary": "ADATA (3260) and Team Group (4967) reported explosive Q1 earnings due to DRAM and NAND Flash shortages and price surges. ADATA earned nearly NT$10 billion in one quarter, exceeding last year's full-year profit with EPS of NT$30.05. Team Group achieved EPS of NT$27. Both companies are actively building inventory expecting continued memory price increases, with second quarter contract prices expected to rise at least 40%."
+    },
+    {
+      "title": "TSMC Takes a Break! Industry Benchmark Stocks Support the Market; MediaTek, Delta Electronics Take Over Bull Market Leadership",
+      "section": "證券",
+      "date": "2026/04/29 00:52:33",
+      "url": "https://money.udn.com/money/story/5607/9470412?from=edn_maintab_cate",
+      "summary": "While TSMC pulled back from highs, MediaTek (2454), Delta Electronics, Accton, and memory sector stocks surged, effectively supporting the market. MediaTek has gained 78% in 15 trading days, reaching a new high of NT$2,615 on Google's new TPU developments. Taiwan's market structure is diversifying beyond TSMC dominance, with various sector leaders taking turns leading the bull market."
+    },
+    {
+      "title": "Advanced Semiconductor Packaging (ASE) Makes Major Leap; Second Capital Expenditure Increase to NT$260 Billion",
+      "section": "金融",
+      "date": "2026/04/30 00:25:58",
+      "url": "https://money.udn.com/money/story/5612/9472877?from=edn_maintab_cate",
+      "summary": "ASE Group (3711) raised 2026 advanced packaging revenue forecast to over $3.5 billion (NT$110 billion), approximately doubling from last year. The company increased capital expenditure for the second time to $8.5 billion (NT$260 billion), up over 20% from original plans. This reflects strong AI and HPC demand driving advanced packaging requirements and positions ASE for significant growth in the AI supply chain."
+    },
+    {
+      "title": "Fed Powell's Last Dance! Interest Rates Frozen for Third Consecutive Time, But Four Officials Dissent",
+      "section": "產經",
+      "date": "2026/04/30 02:12:40",
+      "url": "https://money.udn.com/money/story/5599/9473074",
+      "summary": "The Federal Reserve held rates steady at 3.5%-3.75% in Powell's final meeting as chairman, but four FOMC members dissented - the most since October 1992. One member favored cutting rates while three opposed the easing bias in the statement, reflecting concerns about persistent inflation. This creates uncertainty for Taiwan's export-dependent economy and could affect foreign investment flows into Taiwan markets."
+    }
+  ],
+  "not_relevant": []
+}
