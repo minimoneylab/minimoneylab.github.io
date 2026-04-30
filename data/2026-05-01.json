@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-01",
+  "update_time": "2026-04-30 23:32:10",
+  "total_articles": 27,
+  "high": [
+    {
+      "title": "Fed Decision / Powell's Stance on Continuing as Board Member, Fed Maintains Rate Freeze for Third Consecutive Time",
+      "section": "產經",
+      "date": "2026/04/30 02:12:40",
+      "url": "https://money.udn.com/money/story/5599/9473074",
+      "summary": "The Federal Reserve maintained the federal funds rate at 3.5%-3.75% in Chairman Powell's final rate decision meeting, marking the third consecutive hold. However, this decision saw unprecedented dissent with four out of 12 FOMC voting members objecting - the most since October 1992. Board member Miran advocated for a 25bp cut, while three regional Fed presidents (Hammack, Kashkari, Logan) supported holding rates but opposed including dovish language in the statement. The statement noted Middle East developments have \"significantly deepened economic outlook uncertainty\" and inflation remains \"elevated, partly reflecting recent global energy price increases.\" Powell announced he will continue serving as a board member with tenure \"to be determined.\" Market implications are significant as futures reflect no hope for rate cuts this year, with traders pricing nearly 90% probability of no cuts. The strong dollar and rising bond yields following the decision will likely pressure Taiwan's export competitiveness and foreign investment flows into Taiwan markets."
+    },
+    {
+      "title": "US Stock Close / Philadelphia Semiconductor Index Surges 2.4% Led by NXP, Taiwan Semiconductor ADR Up 0.4%",
+      "section": "金融",
+      "date": "2026/04/30 07:11:51",
+      "url": "https://money.udn.com/money/story/123398/9473188",
+      "summary": "US markets showed mixed performance with the Philadelphia Semiconductor Index rallying 2.4% led by NXP's 25.5% surge on strong earnings. Taiwan Semiconductor ADR gained 0.4% to close at $392.83, trading at a 14% premium to Taipei. The semiconductor strength comes amid continued AI infrastructure investment, though broader markets were pressured by rising oil prices and Fed uncertainty. NXP's exceptional results and outlook surprised markets, while Intel rebounded 12% after recent selling. For Taiwan investors, the semiconductor rally and TSMC's ADR outperformance suggests continued foreign appetite for Taiwan tech exposure, though the broader market volatility from geopolitical tensions and Fed policy uncertainty poses risks to sustained rallies."
+    },
+    {
+      "title": "Taiwan Stock Market Rotation - Foreign Investors Sell NT$48.1 Billion as Buying Shifts from Large to Small Caps",
+      "section": "證券",
+      "date": "2026/04/30 00:49:58",
+      "url": "https://money.udn.com/money/story/5607/9472868?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index fell 218 points to 39,303, maintaining above the 5-day moving average despite heavy foreign selling of NT$48.1 billion. Market dynamics showed capital rotation from large-cap tech stocks to smaller names, with the OTC index outperforming by gaining 0.69 points. Government funds stepped up support with NT$65.3 billion in purchases, buying TSMC (NT$33.8 billion) and MediaTek (NT$10.2 billion) heavily. The rotation pattern suggests institutional rebalancing as valuations in mega-caps like TSMC appear stretched. Investment trusts continued their seventh consecutive day of buying with NT$21.3 billion, indicating domestic institutional support remains strong. This capital rotation could provide opportunities in mid-cap stocks while large-cap tech faces profit-taking pressure, particularly important for fund managers considering portfolio rebalancing amid stretched valuations."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MediaTek AI ASIC Revenue Target Doubles, Q1 EPS NT$15.17",
+      "section": "金融",
+      "date": "2026/05/01 00:18:17",
+      "url": "https://money.udn.com/money/story/5612/9475393?from=edn_maintab_cate",
+      "summary": "MediaTek raised its 2026 AI ASIC revenue target to $2 billion, doubling the original $1 billion estimate. CEO Tsai Li-hang expects 2026 overall USD revenue to grow mid-to-high single digits (4-9%). The company's first AI accelerator ASIC project for a major US cloud service provider is progressing well toward commercial production. MediaTek also raised its 2027 data center ASIC market outlook to $70-80 billion, up from previous estimates, targeting 10-15% market share. Q1 net income rose 5.6% QoQ to NT$24.4 billion with EPS of NT$15.17."
+    },
+    {
+      "title": "UMC Legal Conference Releases Six Major Surprises, Announces NT$5.475 Billion Share Buyback",
+      "section": "金融",
+      "date": "2026/04/30 00:28:17",
+      "url": "https://money.udn.com/money/story/5612/9472870?from=edn_maintab_cate",
+      "summary": "UMC announced six positive developments including Q2 wafer shipment growth of 7-9%, revenue growth of 1-3%, and capacity utilization of 81-83%. The company announced its first share buyback since 2020, purchasing up to 50,000 shares at NT$52.5-109.5 per share, potentially worth NT$5.475 billion. UMC's collaboration with Intel on 12nm process is progressing toward initial commercial production in 2026, with meaningful revenue contribution expected in 2027. The company also advanced in silicon photonics and advanced packaging with over 10 customer collaborations."
+    },
+    {
+      "title": "ASE Group Advanced Packaging Leap Forward, Raises Capex to NT$260 Billion for Second Time",
+      "section": "金融",
+      "date": "2026/04/30 00:25:58",
+      "url": "https://money.udn.com/money/story/5612/9472877?from=edn_maintab_cate",
+      "summary": "ASE Group raised its advanced packaging revenue outlook to over $3.5 billion (NT$110+ billion), representing ~10% growth and doubling from previous year. The company increased 2026 capex for the second time to $8.5 billion (NT$260+ billion), up over 20% from the original $7 billion plan. CFO Tien Hung-szu noted AI demand significantly exceeds expectations, with 75% of advanced packaging from packaging services and 25% from testing. The company's CoWoS full-process revenue target is ~$300 million this year, with panel-level packaging entering customer verification phase for 2027 small-volume production."
+    },
+    {
+      "title": "Cloud Giants' Investment Surge - Infrastructure Demand Expected to Continue Through Next Year, Taiwan Supply Chain Benefits",
+      "section": "金融",
+      "date": "2026/05/01 00:22:42",
+      "url": "https://money.udn.com/money/story/5612/9475383?from=edn_maintab_cate",
+      "summary": "North American cloud giants Google, Microsoft, Meta, and Amazon raised their combined 2026 capex to $725 billion (NT$22.8 trillion), up 12% from February estimates. Amazon maintains $200 billion capex, Google raised guidance to $180-190 billion, Meta increased to $125-145 billion, and Microsoft boosted spending to $190 billion. All companies indicated 2027 capex will remain high, ensuring continued AI infrastructure demand benefiting Taiwan suppliers like Hon Hai, Quanta, and Wistron. The surge reflects confidence in AI monetization despite higher component costs."
+    },
+    {
+      "title": "Taiwan Stock April Review - Index Surges 7,203 Points in Epic Rally",
+      "section": "證券",
+      "date": "2026/05/01 00:14:04",
+      "url": "https://money.udn.com/money/story/5607/9475395?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index recorded its strongest month in 25 years, surging 7,203 points (22.7%) in April and briefly touching 40,000. The rally created five historical records including largest single-month point gain, highest monthly trading volume of NT$19 trillion, and total market cap reaching NT$137.7 trillion. TSMC contributed over 3,000 index points, hitting NT$2,330 before closing April at NT$2,135. Foreign investors bought NT$248.1 billion net in April despite recent selling pressure. The dramatic rally raises valuation concerns heading into May.\n\n---"
+    }
+  ],
+  "not_relevant": []
+}
