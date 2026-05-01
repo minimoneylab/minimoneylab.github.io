@@ -1,66 +1,44 @@
 {
-  "date": "2026-04-30",
-  "update_time": "2026-04-30 09:03:18",
-  "total_articles": 15,
+  "date": "2026-05-01",
+  "update_time": "2026-05-01 08:42:10",
+  "total_articles": 11,
   "high": [
     {
-      "title": "Investors React to Vale (VALE3), Santander (SANB11) Earnings and Selic Cut; Ibovespa in Dollar Terms Rises Today (29)",
-      "source": "MoneyTimes",
-      "date": "2026-04-29",
-      "url": "https://www.moneytimes.com.br/copom-deve-cortar-selic-ibovespa-em-dolar-sobem-hoje-29-jals/",
-      "summary": "Super Wednesday arrives with dual monetary policy decisions from Brazil's COPOM and the US Federal Reserve, both pressured by Middle East conflict and rising oil prices. Brazilian markets expect a 0.25pp Selic cut from 14.75% to 14.50%, continuing the monetary easing cycle initiated in the last meeting. The US FOMC is expected to hold rates between 3.50%-3.75%. The meeting gains additional significance as it may be Jerome Powell's final session before his mandate expires May 15th. Investors are also digesting earnings results, with Vale (VALE3) reporting Q1 net profit of US$1.9 billion, up 36% year-over-year. The dual rate decisions are critical for BRL positioning and capital flows, as Brazil's easing cycle contrasts with US policy pause. Markets will watch for COPOM's forward guidance and any signals about the pace of future cuts, which could significantly impact Brazilian bonds and currency dynamics."
-    },
-    {
-      "title": "Former Central Bank Official Diogo Guillen Takes Position as Chief Economist at Itaú Unibanco",
-      "source": "MoneyTimes",
-      "date": "2026-04-29",
-      "url": "https://www.moneytimes.com.br/ex-bc-diogo-guillen-assume-a-posicao-de-economista-chefe-no-itau-unibanco-jcav/",
-      "summary": "Itaú Unibanco announced a significant change in its Economic Research leadership. Starting July 1st, Diogo Guillen will assume the role of chief economist after completing his quarantine period. Guillen brings recent experience from Brazil's Central Bank, where he served as Economic Policy Director from 2022-2025, and previously worked in Itaú's asset management economic area from 2015-2021. He holds a PhD from Princeton University. Guillen replaces Mário Mesquita, who leaves at the end of April after nearly a decade leading Macroeconomics and Research since July 2016. This transition is significant for markets as the chief economist role at Brazil's largest private bank carries substantial influence over market expectations and monetary policy interpretation. Guillen's Central Bank background provides valuable insight into BCB thinking, which could enhance Itaú's research credibility during a crucial period of monetary policy transition."
-    },
-    {
-      "title": "Central Bank (BC) Decrees Extrajudicial Liquidation of Currency Broker for 'Serious Irregularities'",
+      "title": "Central Bank Decrees Extrajudicial Liquidation of Foreign Exchange Broker Due to 'Serious Irregularities'",
       "source": "MoneyTimes",
       "date": "2026-04-30",
       "url": "https://www.moneytimes.com.br/banco-central-bc-decreta-liquidacao-extrajudicial-de-corretora-de-cambio-por-irregularidades-graves-igdl/",
-      "summary": "The Central Bank of Brazil decreed the extrajudicial liquidation of Frente Corretora de Câmbio S.A., a São Paulo-based currency broker, due to compromised financial situation and serious violations of legal and regulatory norms. The institution is classified in the \"S4\" segment of prudential regulation and has low relevance in the National Financial System. In the BC's currency ranking, the broker occupied 78th position, representing only 0.021% of financial volume and 0.054% of transactions in the SFN during 2025. While this specific case has minimal systemic impact, it demonstrates the Central Bank's continued vigilance over FX market participants during a period of currency volatility and reflects ongoing regulatory enforcement in Brazil's foreign exchange sector."
+      "summary": "The Central Bank of Brazil (BCB) decreed the extrajudicial liquidation of Frente Corretora de Câmbio S.A., a São Paulo-based foreign exchange broker, citing compromised financial situation and serious violations of regulatory norms. The institution ranked 78th in BCB's FX ranking, representing only 0.021% of financial volume and 0.054% of transactions in the National Financial System during 2025. While the broker has low systemic relevance, this enforcement action signals BCB's continued vigilance over FX market participants amid ongoing currency volatility. For BRL traders, this demonstrates regulatory oversight remains strict, which could support confidence in the broader FX market structure. The BCB stated it will continue investigating responsibilities within its legal competencies. This action reinforces the central bank's commitment to maintaining orderly FX markets, particularly important given recent BRL pressures and capital flow dynamics."
+    },
+    {
+      "title": "Petrobras (PETR4): Brazil's Oil Production Advances 16.3% in Q1 2026; Exports Surge 61%",
+      "source": "MoneyTimes",
+      "date": "2026-05-01",
+      "url": "https://www.moneytimes.com.br/petrobras-petr4-producao-de-petroleo-da-no-brasil-avanca-163-no-1t26-exportacao-dispara-61/",
+      "summary": "Petrobras reported strong Q1 2026 results with average production of 3.197 million barrels of oil equivalent per day (boed), up 16.4% year-over-year. Oil production specifically rose 16.3% to 2.583 million bpd, while oil exports surged 61.2% to 888,000 bpd. The production gains stem primarily from ramp-up of FPSOs P-78 at Búzios field, Alexandre de Gusmão at Mero field, and Anna Nery and Anita Garibaldi at Marlim and Voador fields. This strong operational performance is highly relevant for BRL traders as Petrobras is Brazil's largest exporter and a key source of USD inflows. The 61% export surge should provide significant support to Brazil's trade balance and help strengthen BRL fundamentals. For equity investors, these production numbers exceed expectations and should support PETR4's valuation. The strong export performance also benefits government revenues through taxes and dividends, supporting fiscal dynamics."
     }
   ],
   "medium": [
     {
-      "title": "Banco do Brasil (BBAS3) Diagnosis for Agribusiness: 'If Selic Falls, the Sector Reacts Quickly'",
-      "source": "MoneyTimes",
-      "date": "2026-04-29",
-      "url": "https://www.moneytimes.com.br/o-diagnostico-do-banco-do-brasil-bbas3-para-agronegocio-se-a-selic-for-caindo-o-setor-reage-rapido-pads/",
-      "summary": "Banco do Brasil's VP of Agribusiness believes the sector will respond quickly to continued Selic rate cuts. With a R$406 billion agribusiness portfolio, the bank expects stability in 2026. The executive noted that part of delinquency is concentrated in large machinery and input industries, and lower interest rates would favor new investments and financial problem solutions. BB projects R$3 billion in business at Agrishow fair."
-    },
-    {
-      "title": "Braskem (BRKM5) Receives Indications from Novonor and Petrobras (PETR4) for Board, Including Magda Chambriard",
-      "source": "MoneyTimes",
-      "date": "2026-04-29",
-      "url": "https://www.moneytimes.com.br/braskem-brkm5-recebe-indicacoes-da-novonor-e-petrobras-petr4-para-conselho-incluindo-magda-chambriard-lmrs/",
-      "summary": "Braskem received new board nominations from shareholders Novonor and Petrobras for the Ordinary General Meeting. Notable appointments include Magda Chambriard, current Petrobras president, as board chairman, and Héctor Nuñez, Novonor's CEO, as vice-chairman. This comes after Novonor signed a contract to sell control to Shine I FIP fund, representing approximately 50.1% of ordinary shares and 34.3% of total capital."
-    },
-    {
-      "title": "Bank of England Maintains Interest Rates and Assesses Iran War Risks for Inflation",
-      "source": "MoneyTimes",
-      "date": "2026-04-30",
-      "url": "https://www.moneytimes.com.br/banco-da-inglaterra-mantem-juros-e-avalia-riscos-da-guerra-do-ira-para-a-inflacao/",
-      "summary": "The Bank of England held rates at 3.75% with an 8-1 vote, with only chief economist Huw Pill seeking a 4.0% increase. The committee is monitoring Middle East developments closely and defined scenarios for Iran war's economic impact, including potential \"vigorous\" rate increases. This follows Fed and precedes ECB decisions, highlighting global central bank coordination during geopolitical tensions that could affect commodity prices and inflation expectations."
-    },
-    {
-      "title": "Nubank (ROXO34) and Mercado Livre (MELI34) Enter List of Most Influential Financial Sector Companies",
+      "title": "Nubank (ROXO34) and Mercado Libre (MELI34) Enter List of Most Influential Financial Sector Companies",
       "source": "MoneyTimes",
       "date": "2026-04-30",
       "url": "https://www.moneytimes.com.br/nubank-roxo34-e-mercado-livre-meli34-entram-em-lista-de-companhias-mais-influentes-do-setor-financeiro-entenda-igdl/",
-      "summary": "Nubank and Mercado Livre were included in TIME's first TIME100 Companies: Industry Leaders ranking for most influential financial sector companies in 2026. Their inclusion reflects the advancement of digital models in financial services beyond traditional banks, particularly in a region historically marked by low banking inclusion. Mercado Pago has 78 million monthly active users and generated $12.6 billion net revenue in 2025."
+      "summary": "Both Nubank and Mercado Libre were included in TIME's first Industry Leaders ranking for most influential financial companies globally. Mercado Libre's inclusion reflects the advancement of Mercado Pago, which serves 78 million monthly active users and generated $12.6 billion in net revenue in 2025. This recognition highlights the continued strength of Brazil's fintech sector and digital financial inclusion trends, potentially supporting investor sentiment toward Brazilian financial technology stocks."
+    },
+    {
+      "title": "Weak Cattle Cycle and Domestic Consumption Mark \"Uninspiring\" Q1 2026 for Food Sector, Says Itaú BBA",
+      "source": "MoneyTimes",
+      "date": "2026-04-30",
+      "url": "https://www.moneytimes.com.br/ciclo-do-gado-pior-e-consumo-domestico-fraco-marcam-1t26-pouco-inspirador-para-setor-alimenticio-diz-itau-bba-jvka/",
+      "summary": "Itaú BBA describes Q1 2026 as \"uninspiring\" for meat packers and food companies, citing deteriorating cattle cycles and headwinds in China exports. The bank notes weaker domestic consumption in Brazil for 2026, with the sector increasingly dependent on Brazilian poultry operations. JBS (JBSS3) faces potential negative consensus revisions due to US weather-related disruptions and reduced cattle availability. This reflects broader economic weakness that could impact inflation dynamics and consumer spending patterns."
     }
   ],
   "not_relevant": [
-    "BTG Real Estate Fund Delivers Largest BTS Warehouse in Latin America for Mercado Livre",
+    "Bank of England Maintains Interest Rates and Assesses Iran War Risks for Inflation",
     "Polymarket: Futures Contracts Expose Market Skepticism and Maintain Geopolitical Premium 'on the Table'",
-    "Bitcoin (BTC) Retakes $77,000 Before US Interest Rate Decision",
-    "This List of 5 Cryptocurrencies Can Change Investors' Financial Level",
-    "Ibovespa Rise Doesn't Eliminate 'Invisible Risk': Meet Empiricus' New Global Allocation Portfolio",
-    "Cattle Cycle Worsens and Weak Domestic Consumption Mark Q1 2026 as \"Uninspiring\" for Food Sector"
+    "This List of 5 Cryptocurrencies Can Change Investors' Financial Status, According to Specialist",
+    "Tokyo and Sydney Stock Exchanges Close Higher After Records in NY",
+    "Bolsa Família Calendar for May 2026: See When Payments Begin and Who Can Receive"
   ]
 }
