@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-02",
+  "update_time": "2026-05-01 23:32:06",
+  "total_articles": 23,
+  "high": [
+    {
+      "title": "MediaTek Doubles AI ASIC Revenue Outlook, Q1 EPS Reaches NT$15.17",
+      "section": "金融",
+      "date": "2026/05/01 00:18:17",
+      "url": "https://money.udn.com/money/story/5612/9475393?from=edn_maintab_cate",
+      "summary": "MediaTek (2454) reported Q1 2026 net income per share of NT$15.17, a 5% quarter-on-quarter increase, while dramatically raising its AI ASIC chip revenue target for 2026 to US$20 billion (over NT$620 billion), doubling the original estimate of US$10 billion. CEO Tsai Li-hsing expects MediaTek's total USD revenue to grow at mid-to-high single digits (approximately 4%-9%) this year. The company confirmed its first AI accelerator ASIC project for a major US cloud service provider is progressing smoothly and will enter mass production as scheduled, dismissing industry rumors of delays. MediaTek raised its 2027 datacenter ASIC total addressable market forecast to US$700-800 billion (previously 2028), maintaining a 10-15% market share target. This suggests MediaTek's 2027 ASIC revenue could exceed US$70 billion. The company is also working on a second-generation AI accelerator ASIC targeting 2027 production, while actively pursuing multiple new datacenter ASIC opportunities. This massive revenue upgrade significantly strengthens MediaTek's AI transformation story and positions it as a major beneficiary of the datacenter AI boom."
+    },
+    {
+      "title": "Hon Hai Benefits from Apple's Dual Success - iPhone 17 and MacBook Neo Drive Q2 Growth",
+      "section": "金融",
+      "date": "2026/05/02 01:52:22",
+      "url": "https://money.udn.com/money/story/5612/9476890?from=edn_maintab_cate",
+      "summary": "Apple's earnings showed strong performance across two key products: iPhone 17 series and new MacBook Neo selling out due to high demand. Hon Hai (2317), as the largest iPhone supplier and one of two main MacBook Neo suppliers (alongside Quanta), stands to benefit most from this momentum into Q2. Reports indicate Apple plans to launch a premium MacBook Ultra product line in H1 2027, with Hon Hai and Quanta expected to begin stocking and production in H2, providing additional growth drivers. The MacBook Ultra will use TSMC's 2nm M6 Pro and M6 Max chips with thinner designs and OLED displays. CEO Tim Cook noted Mac Mini and Mac Studio will face supply shortages in coming months due to AI-driven demand, with Hon Hai being the primary supplier for both products. Hon Hai Chairman Liu Young-way emphasized the company's advantages in new product introduction (NPI), massive production capacity, component supply, and cost efficiency as key competitive moats built over 50 years."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Cloud Giants Investment Surge - Infrastructure Demand to Continue Through Next Year",
+      "section": "金融",
+      "date": "2026/05/01 00:22:42",
+      "url": "https://money.udn.com/money/story/5612/9475383?from=edn_maintab_cate",
+      "summary": "North American cloud giants Google, Microsoft, Meta, and Amazon have raised their 2026 capex to a combined US$725 billion (NT$22.8 trillion), 12% higher than February projections. The spending surge, driven by AI infrastructure needs, is expected to continue through 2027, benefiting Taiwan suppliers like Hon Hai (2317), Quanta, and Wistron. Google raised guidance to US$180-190 billion, Meta increased to US$125-145 billion, while Microsoft boosted spending to US$190 billion."
+    },
+    {
+      "title": "Taiwan Stock Market April Review - Historic 7,203 Point Rally",
+      "section": "證券",
+      "date": "2026/05/01 00:14:04",
+      "url": "https://money.udn.com/money/story/5607/9475395?from=edn_maintab_cate",
+      "summary": "Taiwan stocks closed April with a dramatic 376-point drop to 38,926 but still recorded historic gains for the month. The TAIEX surged 7,203 points (22.7%) in April, the largest monthly point gain in history and biggest monthly percentage gain in 25 years. Market capitalization reached NT$137.7 trillion, adding NT$25.6 trillion in one month. TSMC contributed over 3,000 points to the rally, reaching a high of NT$2,330. Foreign investors bought a net NT$248.11 billion in April despite recent selling."
+    },
+    {
+      "title": "Taiwan Stock Five Bullish Factors Support May Rally Toward 40,000 Points",
+      "section": "證券",
+      "date": "2026/05/01 00:46:39",
+      "url": "https://money.udn.com/money/story/5607/9475366?from=edn_maintab_cate",
+      "summary": "Investment advisors identify five positive factors supporting Taiwan stocks in May: 1) Listed company earnings potentially reaching NT$1.5 trillion in Q1, targeting NT$6 trillion for full year; 2) Davis Double Play effect from earnings growth and P/E expansion; 3) Passive ETF and fund inflows providing support; 4) Historical 80% probability of May gains; 5) Computex technology exhibition momentum in June. However, risks include high margin financing, foreign investor caution, and international uncertainties including oil prices and Fed policy changes."
+    },
+    {
+      "title": "Yageo Positions for AI High Ground, Promises More Surprises for Small Shareholders",
+      "section": "金融",
+      "date": "2026/05/01 01:37:34",
+      "url": "https://money.udn.com/money/story/11162/9475324?from=edn_maintab_cate",
+      "summary": "Passive component giant Yageo (2327) Chairman Pierre Chen announced automotive market recovery signals and successful positioning in AI server supply chains at the company's AI summit. Chen revealed three strategic advantages: customer shift toward total solution providers, AI-era speed requirements driving closer collaboration with chip designers, and Taiwan's core position in global AI supply chains. The company promises additional surprises for small shareholders at the May 27 shareholder meeting."
+    },
+    {
+      "title": "Delta Electronics Launches Global Expansion, Chairman Notes Tight Capacity",
+      "section": "金融",
+      "date": "2026/04/30 23:50:48",
+      "url": "https://money.udn.com/money/story/5612/9475249?from=edn_maintab_cate",
+      "summary": "Delta Electronics (2308) Chairman Yancey Hai announced global capacity expansion across the US, China, Thailand, and Taiwan due to strong AI demand. The company expects to add new production sites this year, with capex potentially exceeding NT$50 billion for the first time. AI datacenters have become the largest growth driver, with liquid cooling systems contributing 9% of Q1 revenue and power solutions reaching 30%. The stock hit a new high of NT$2,280 during trading."
+    }
+  ],
+  "not_relevant": []
+}
