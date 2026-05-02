@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-03",
+  "update_time": "2026-05-02 23:14:55",
+  "total_articles": 21,
+  "high": [
+    {
+      "title": "Apple Financial Report Double Good News - Hon Hai Big Winner, Q2 Performance Adds Fuel",
+      "section": "金融",
+      "date": "2026/05/02 01:52:22",
+      "url": "https://money.udn.com/money/story/5612/9476890?from=edn_maintab_cate",
+      "summary": "Apple's financial report shows dual benefits: iPhone 17 series hot sales and new MacBook Neo selling out. Hon Hai (2317), as iPhone's largest supplier, benefits most from this trend. Apple's affordable MacBook Neo has received enthusiastic market response, riding the AI agent wave. External reports indicate Apple plans to launch a premium MacBook Ultra product line in H1 2027, with Hon Hai and Quanta expected to start preparation and mass production in H2, becoming a key growth driver for H2 laptop shipments. MacBook Ultra will use TSMC's 2nm M6 Pro and M6 Max chips with lighter design and high-end OLED displays. Apple CEO Cook noted Mac Mini and Mac Studio will face supply shortages in coming months due to unexpectedly strong AI agent platform demand. Hon Hai Chairman Liu Yang-wei emphasized the company's advantages in new product introduction cooperation, massive production capacity, component supply, and cost efficiency. Hon Hai's March revenue reached NT$803.7 billion, up 34.9% MoM, with both computer terminal and consumer smart products showing strong growth."
+    },
+    {
+      "title": "Taiwan Stock Four Positives Ignite 520 Rally - Striving for 40,000 Points",
+      "section": "證券",
+      "date": "2026/05/02 02:13:46",
+      "url": "https://money.udn.com/money/story/5607/9476943?from=edn_maintab_cate",
+      "summary": "Taiwan stocks show consolidation at high levels, but market experts identify four major advantages for the 520 rally targeting 40,000 points: fundamentals (profit upgrades), capital flows, policy support, and thematic momentum. Taiwan's March export orders hit a record NT$911.2 billion, Q1 GDP growth of 13.69% exceeded expectations, and AI infrastructure continues driving US-Taiwan tech stock profit upgrades. Despite \"high valuations being the biggest risk\" and foreign selling pressure, capital momentum remains strong from ETF inflows providing downside support. Policy-wise, FSC announced relaxation of single stock limits for Taiwan stock funds and active ETFs to 25%, signaling pro-market stance. The probability of Taiwan stocks rising in the five days before and 20 days after 520 ranges from 70-100% based on 10-year historical data."
+    }
+  ],
+  "medium": [
+    {
+      "title": "US Stock Early Session - Iran's New Response Drives Oil Price Drop, Three Major Indices Rise, Apple Up 4%",
+      "section": "產經",
+      "date": "2026/05/01 21:50:40",
+      "url": "https://money.udn.com/money/story/123398/9476787",
+      "summary": "US stocks opened higher on May 1st with S&P 500 up 0.5%, Dow up 115 points (0.2%), and Nasdaq up 0.7%. Apple surged 4% after Q1 revenue grew 16.6% YoY to $111.18 billion, exceeding expectations across all products. Philadelphia Semiconductor Index traded flat while TSMC ADR rose 1% and Nvidia gained 0.4%. Oil prices retreated as Iran reportedly responded to revised ceasefire proposals through Pakistani intermediaries."
+    },
+    {
+      "title": "Believes AI ASIC Outlook Brightens - Morgan Stanley Calls NT$20,000 Target for ASPEED",
+      "section": "證券",
+      "date": "2026/05/02 01:56:01",
+      "url": "https://money.udn.com/money/story/5607/9476887?from=edn_maintab_cate",
+      "summary": "Morgan Stanley upgraded ASPEED's (5274) target price from NT$15,555 to NT$20,000 (+28.6%) citing the transition from generative AI to agentic AI driving new BMC (Baseboard Management Controller) growth. The firm expects ASPEED to benefit from product spec upgrades and market share expansion as AI systems become more complex, shifting computing focus from accelerators to overall systems. ASPEED maintains ~70% market share in CPU server BMC with customers including Meta, AWS, Alibaba and Microsoft."
+    },
+    {
+      "title": "Benefits from Cloud Giants' Self-Developed Chips and Strong Data Center Demand - MediaTek, Global Unichip, GUC Welcome Harvest Year",
+      "section": "金融",
+      "date": "2026/05/03 02:16:29",
+      "url": "https://money.udn.com/money/story/5612/9478193?from=edn_maintab_cate",
+      "summary": "AI data center applications drive strong demand for Taiwan ASIC companies. Global Unichip (3661) has next-gen chip orders from AWS, MediaTek and GUC (3443) have Google TPU and CPU orders respectively, while GUC also has Microsoft AI inference chip orders. Research shows AI server shipments to grow ~28% YoY with ASIC-based AI servers growing faster than Nvidia GPU servers, though Nvidia remains dominant with ~73% market share."
+    },
+    {
+      "title": "US Tech Giants Report Good News as Investment Opportunity - TSMC, Hon Hai, Quanta Have Room to Perform",
+      "section": "證券",
+      "date": "2026/05/03 02:44:52",
+      "url": "https://money.udn.com/money/story/5607/9478189?from=edn_maintab_cate",
+      "summary": "Strong US tech earnings from Apple, Amazon and others boosted semiconductor and Nasdaq indices, benefiting related Taiwan stocks. TSMC (2330) leads with multiple brokerages setting \"3-digit\" target prices above NT$2,500-3,000. ABF substrate trio Unimicron, Kinsus, and Nan Ya PCB benefit from AI demand and material shortages driving price increases. AI server assembly companies Hon Hai, Quanta, and Wistron benefit from 28%+ AI server shipment growth driven by North American CSP demand."
+    }
+  ],
+  "not_relevant": []
+}
