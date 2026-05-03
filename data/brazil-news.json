@@ -1,42 +1,33 @@
 {
-  "date": "2026-05-02",
-  "update_time": "2026-05-02 08:25:23",
-  "total_articles": 9,
+  "date": "2026-05-03",
+  "update_time": "2026-05-03 08:22:52",
+  "total_articles": 5,
   "high": [
     {
-      "title": "Petrobras (PETR4): Oil Production in Brazil Advances 16.3% in Q1 2026; Exports Surge 61%",
+      "title": "Gold Closes Higher Amid Uncertainties Over US-Iran Negotiations Resumption",
       "source": "MoneyTimes",
-      "date": "2026-05-01",
-      "url": "https://www.moneytimes.com.br/petrobras-petr4-producao-de-petroleo-da-no-brasil-avanca-163-no-1t26-exportacao-dispara-61/",
-      "summary": "Petrobras (PETR4) reported strong Q1 2026 results with average production reaching 3.197 million barrels of oil equivalent per day (boed), a 16.4% increase year-over-year. Oil production specifically jumped 16.3% to 2.583 million bpd, while oil exports surged 61.2% to 888,000 bpd. The production gains were primarily driven by ramp-up activities at several FPSOs including P-78 at Búzios field, Alexandre de Gusmão at Mero field, and Anna Nery and Anita Garibaldi at Marlim and Voador fields. Natural gas production also increased 16.5% to 613,000 boed. This robust operational performance is highly bullish for PETR4 shares and should support dividend expectations. The massive export increase (61%) is particularly positive for Brazil's trade balance and could provide modest BRL support. For equity investors, these results suggest strong cash flow generation and potential for higher shareholder returns. The production growth trajectory indicates Petrobras is successfully executing its deepwater expansion strategy in the pre-salt basins."
+      "date": "2026-05-02",
+      "url": "https://www.moneytimes.com.br/ouro-fecha-em-alta-com-incertezas-sobre-retomada-de-negociacoes-entre-eua-e-ira-vtra/",
+      "summary": "Gold futures closed higher on Friday as investors weighed new signals from Iran regarding resumption of negotiations with the US for an agreement to end the Middle East war, amid prolonged uncertainties. The market also evaluated comments from Federal Reserve officials about interest rate trajectory. On Comex, June gold closed up 0.32% at $4,644.50 per troy ounce, while silver rose 3.29% to $75.951 per ounce. However, for the week, metals fell 2% and 0.6% respectively. Iran's Foreign Minister Abbas Araghchi stated that Tehran remains open to diplomacy with the US, provided Washington changes its \"expansionist stance\" and \"threatening rhetoric.\" This geopolitical premium remains crucial for emerging markets like Brazil, as risk-on/risk-off sentiment directly impacts BRL flows and Brazilian asset prices. Higher gold prices typically signal continued safe-haven demand, which could pressure risk assets including Brazilian equities and bonds while supporting USD strength against BRL."
     }
   ],
   "medium": [
     {
-      "title": "Tokyo and Sydney Stock Exchanges Close Higher After Records in NY",
-      "source": "MoneyTimes",
-      "date": "2026-05-01",
-      "url": "https://www.moneytimes.com.br/bolsas-de-toquio-e-sydney-fecham-em-alta-apos-recordes-em-ny/",
-      "summary": "Asian markets followed Wall Street's record highs with Tokyo's Nikkei rising 0.38% to 59,513.12 points and Sydney's S&P/ASX 200 advancing 0.74% to 8,729.80 points. The positive sentiment was driven by strong tech earnings from Alphabet and Qualcomm amid AI enthusiasm. However, risk appetite remained limited due to ongoing US-Iran tensions. This global risk-on sentiment could provide supportive flows for Brazilian equities if sustained."
-    },
-    {
-      "title": "Gold Closes Higher with Uncertainties About US-Iran Negotiations Resumption",
+      "title": "Polymarket: Futures Contracts Expose Market Skepticism and Keep Geopolitical Premium 'On the Table'; See How to Position",
       "source": "MoneyTimes",
       "date": "2026-05-02",
-      "url": "https://www.moneytimes.com.br/ouro-fecha-em-alta-com-incertezas-sobre-retomada-de-negociacoes-entre-eua-e-ira-vtra/",
-      "summary": "Gold futures closed 0.32% higher at $4,644.50 per troy ounce as investors weighed Iranian signals about resuming negotiations with the US. Iran's Foreign Minister Abbas Araghchi stated Tehran remains open to diplomacy if Washington changes its \"expansionist posture.\" The continued geopolitical uncertainty supports safe-haven demand for gold, which could limit risk appetite for emerging market assets including Brazilian equities and potentially strengthen demand for Brazilian government bonds as investors seek yield with some safety."
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/polymarket-contratos-futuros-expoe-ceticismo-do-mercado-e-mantem-premio-geopolitico-na-mesa-veja-como-se-posicionar-lbrdis577/",
+      "summary": "Despite Iran's new proposal to the US including reopening the Strait of Hormuz, Polymarket futures contracts show extreme skepticism with less than 1% probability assigned to reopening by April 30, with over $31 million at stake. Contracts for definitive peace and nuclear agreements also show 1% probability with $66 million and $2 million in bets respectively. This persistent geopolitical risk premium continues to influence global risk appetite, maintaining pressure on emerging market assets including Brazilian bonds and equities."
     },
     {
       "title": "Trump Says He's Not Satisfied with Iran: 'We'll See What Happens with Negotiations'",
       "source": "MoneyTimes",
       "date": "2026-05-02",
       "url": "https://www.moneytimes.com.br/trump-diz-que-nao-esta-satisfeito-com-o-ira-veremos-o-que-acontece-com-as-negociacoes-vtra/",
-      "summary": "President Trump expressed dissatisfaction with Iran's fragmented leadership, stating negotiations have stalled after progress was made earlier. He noted that while all Iranian factions want a deal, they have conflicting demands that complicate reaching consensus. This ongoing uncertainty maintains geopolitical risk premiums in global markets, which could continue to support oil prices (beneficial for Petrobras) while potentially limiting risk appetite for emerging market assets including BRL and Brazilian equities."
+      "summary": "President Trump expressed dissatisfaction with Iran after phone conversations with Persian leadership, stating Iran's government is fragmented and leadership is confused with tremendous disagreement. He mentioned they were close to an agreement but nuclear weapons supporters derailed talks. This continued geopolitical uncertainty maintains risk-off sentiment that typically pressures emerging market currencies like BRL and supports safe-haven assets over Brazilian bonds and equities."
     }
   ],
   "not_relevant": [
-    "Bolsa Família Calendar for May 2026: See When Payments Begin and Who Can Receive",
-    "This List of 5 Cryptocurrencies Could Change Investors' Financial Status, According to Expert Who Already Delivered 130,000% Appreciation",
-    "Polymarket: Futures Contracts Expose Market Skepticism and Keep Geopolitical Premium 'On the Table'; See How to Position (appears twice - geopolitical analysis but not directly relevant to Brazilian markets)"
+    "This List of 5 Cryptocurrencies Can Change Investors' Financial Level, According to Specialist Who Already Delivered 130,000% Appreciation"
   ]
 }
