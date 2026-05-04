@@ -1,33 +1,26 @@
 {
-  "date": "2026-05-03",
-  "update_time": "2026-05-03 08:22:52",
-  "total_articles": 5,
+  "date": "2026-05-04",
+  "update_time": "2026-05-04 09:13:01",
+  "total_articles": 3,
   "high": [
     {
-      "title": "Gold Closes Higher Amid Uncertainties Over US-Iran Negotiations Resumption",
+      "title": "Economists Adjust Inflation Projections for 8th Consecutive Week; See This Monday's (4th) Focus Survey",
       "source": "MoneyTimes",
-      "date": "2026-05-02",
-      "url": "https://www.moneytimes.com.br/ouro-fecha-em-alta-com-incertezas-sobre-retomada-de-negociacoes-entre-eua-e-ira-vtra/",
-      "summary": "Gold futures closed higher on Friday as investors weighed new signals from Iran regarding resumption of negotiations with the US for an agreement to end the Middle East war, amid prolonged uncertainties. The market also evaluated comments from Federal Reserve officials about interest rate trajectory. On Comex, June gold closed up 0.32% at $4,644.50 per troy ounce, while silver rose 3.29% to $75.951 per ounce. However, for the week, metals fell 2% and 0.6% respectively. Iran's Foreign Minister Abbas Araghchi stated that Tehran remains open to diplomacy with the US, provided Washington changes its \"expansionist stance\" and \"threatening rhetoric.\" This geopolitical premium remains crucial for emerging markets like Brazil, as risk-on/risk-off sentiment directly impacts BRL flows and Brazilian asset prices. Higher gold prices typically signal continued safe-haven demand, which could pressure risk assets including Brazilian equities and bonds while supporting USD strength against BRL."
+      "date": "2026-05-04",
+      "url": "https://www.moneytimes.com.br/economistas-ajustam-inflacao-pela-8a-semana-consecutiva-veja-o-focus-desta-segunda-feira-4-jcav/",
+      "summary": "Economists surveyed by Brazil's Central Bank have adjusted inflation projections for the eighth consecutive week, according to the Focus Bulletin released Monday morning. IPCA expectations for 2026 rose from 4.86% to 4.89%, moving outside the Central Bank's inflation target tolerance band. Projections for 2027 and 2029 remained at 4% and 3.50% respectively, while 2028 estimates increased from 3.61% to 3.64%.\n\nSelic rate forecasts remained unchanged at 13% for this year and 11% for 2027, staying at 10% for 2028. However, 2029 expectations rose from 9.75% to 10%. USD/BRL exchange rate projections point to R$5.25 at year-end, with subsequent years forecasted at R$5.30 (2027), R$5.39 (2028), and R$5.40 (2029).\n\nThis marks a concerning trend of persistent upward inflation revisions, suggesting the market sees structural price pressures that could force the Central Bank to maintain restrictive monetary policy longer than previously anticipated. The inflation projections breaching the target tolerance band signals potential policy tightening ahead."
     }
   ],
   "medium": [
     {
-      "title": "Polymarket: Futures Contracts Expose Market Skepticism and Keep Geopolitical Premium 'On the Table'; See How to Position",
+      "title": "Mother's Day Approaching: Know Whether It's Time to Buy or Sell Retail Stocks in the Season When 'Everything Shines'",
       "source": "MoneyTimes",
-      "date": "2026-05-02",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/polymarket-contratos-futuros-expoe-ceticismo-do-mercado-e-mantem-premio-geopolitico-na-mesa-veja-como-se-posicionar-lbrdis577/",
-      "summary": "Despite Iran's new proposal to the US including reopening the Strait of Hormuz, Polymarket futures contracts show extreme skepticism with less than 1% probability assigned to reopening by April 30, with over $31 million at stake. Contracts for definitive peace and nuclear agreements also show 1% probability with $66 million and $2 million in bets respectively. This persistent geopolitical risk premium continues to influence global risk appetite, maintaining pressure on emerging market assets including Brazilian bonds and equities."
-    },
-    {
-      "title": "Trump Says He's Not Satisfied with Iran: 'We'll See What Happens with Negotiations'",
-      "source": "MoneyTimes",
-      "date": "2026-05-02",
-      "url": "https://www.moneytimes.com.br/trump-diz-que-nao-esta-satisfeito-com-o-ira-veremos-o-que-acontece-com-as-negociacoes-vtra/",
-      "summary": "President Trump expressed dissatisfaction with Iran after phone conversations with Persian leadership, stating Iran's government is fragmented and leadership is confused with tremendous disagreement. He mentioned they were close to an agreement but nuclear weapons supporters derailed talks. This continued geopolitical uncertainty maintains risk-off sentiment that typically pressures emerging market currencies like BRL and supports safe-haven assets over Brazilian bonds and equities."
+      "date": "2026-05-04",
+      "url": "https://www.moneytimes.com.br/dias-das-maes-em-breve-saiba-se-e-hora-de-comprar-ou-vender-acoes-do-varejo-na-epoca-em-que-tudo-brilha-jvka/",
+      "summary": "The article discusses retail sector performance ahead of Mother's Day, noting that despite Selic rate cuts from 14.75% to 14.50%, consumption still feels the effects of high interest rates. The market has become more selective with retail investments, requiring companies to not just sell more but sell profitably. UBS BB downgraded fashion retailer Azzas (AZZA3) from buy to neutral, cutting the target price from R$33 to R$25, though still showing 16% upside potential."
     }
   ],
   "not_relevant": [
-    "This List of 5 Cryptocurrencies Can Change Investors' Financial Level, According to Specialist Who Already Delivered 130,000% Appreciation"
+    "Polymarket: Futures Contracts Expose Market Skepticism and Keep Geopolitical Premium 'On the Table'; See How to Position"
   ]
 }
