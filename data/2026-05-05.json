@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-05",
+  "update_time": "2026-05-04 23:32:02",
+  "total_articles": 29,
+  "high": [
+    {
+      "title": "Goldman Sachs Raises MediaTek Target Price to NT$5,000, Reiterates 'Buy' Rating",
+      "section": "證券",
+      "date": "2026/05/04 02:20:13",
+      "url": "https://money.udn.com/money/story/5607/9479526?from=edn_maintab_cate",
+      "summary": "Goldman Sachs significantly raised MediaTek's (2454) target price 103% from NT$2,454 to NT$5,000, marking the highest target among foreign brokers, while reiterating its \"Buy\" rating. This is Goldman's third target price increase this year, jumping from NT$1,400 at year-start to the current level. The revision is based on MediaTek's AI ASIC business being in early stages of an upcycle with significant profit potential through 2028. Goldman dramatically increased 2028 AI ASIC revenue estimates from $19 billion to $48 billion, expecting it to account for 66% of total revenue. The firm raised 2028 EPS forecast from NT$177.38 to NT$406.51, applying a 25x P/E ratio. This upgrade reflects growing confidence in MediaTek's AI chip design capabilities and next-generation projects with substantially higher ASPs. The move signals strong institutional support for Taiwan's semiconductor sector beyond TSMC, with implications for the broader AI supply chain ecosystem."
+    },
+    {
+      "title": "TSMC Returns to Longtan Science Park for Advanced Packaging Facility, Supply Chain Points to CoPoS Focus",
+      "section": "金融",
+      "date": "2026/05/04 18:53:07",
+      "url": "https://money.udn.com/money/story/5612/9481224?from=edn_maintab_cate",
+      "summary": "TSMC has applied to build an advanced packaging facility at Longtan Science Park, marking its return after abandoning 1.4nm fab plans in 2023 due to local opposition. The Hsinchu Science Park Administration confirmed the application, with supply chain sources estimating investment in three panel-level advanced packaging (CoPoS) fabs based on the designated area. Unlike previous CoWoS expansion at Chiayi (AP7) and the acquired Innolux facility (AP8), the Longtan facility is expected to focus on CoPoS technology for large-size AI chips. TSMC is currently establishing its first CoPoS experimental production line at a leased facility from subsidiary Chipbond in Longtan, with equipment expected in H1 2026. This development is strategically significant as it represents TSMC's evolution from wafer-level to panel-level packaging to handle increasingly large AI chip requirements, potentially offering better economics and technical capabilities for next-generation AI applications."
+    },
+    {
+      "title": "Taiwan Stock Market Breaks 40,000 Points, Sets Ten New Records",
+      "section": "證券",
+      "date": "2026/05/05 01:26:59",
+      "url": "https://money.udn.com/money/story/5607/9481657?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market made history by surging 1,778 points to close at 40,705 points, breaking through 40,000 for the first time and setting ten new records including largest single-day point gain, highest market capitalization of NT$143.56 trillion, and new highs for semiconductor and electronics indices. Foreign investors bought a net NT$67 billion, the sixth-largest single-day purchase in history, with TSMC receiving NT$20.5 billion alone. Market analysts maintain bullish outlook with targets raised to 45,000-50,000 points, citing strong AI demand visibility through 2027-2028 and CSP capex growth. However, concerns emerge over market overheating with record-high margin financing of NT$461 billion and elevated technical indicators. The breakthrough represents Taiwan's dominant position in global AI supply chains, but also raises questions about market sustainability and potential for technical correction from these elevated levels."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Intel Advanced Packaging Makes Major Progress, UMC Benefits from Strong Shipment Demand",
+      "section": "金融",
+      "date": "2026/05/04 02:29:50",
+      "url": "https://money.udn.com/money/story/5612/9479516?from=edn_maintab_cate",
+      "summary": "Intel's advanced packaging business is gaining significant traction with major chip companies placing orders, benefiting UMC (2303) through their collaboration in advanced packaging and process technologies. UMC is manufacturing silicon interposers at its Singapore and Taiwan 12-inch fabs for Intel's EMIB technology, targeting AI and HPC markets. The companies are jointly developing 12nm FinFET process expected to complete development in 2026 and enter mass production in 2027."
+    },
+    {
+      "title": "Container Shipping Rates Expected to Rise in Two Waves During May",
+      "section": "金融",
+      "date": "2026/05/04 02:35:49",
+      "url": "https://money.udn.com/money/story/5612/9479529?from=edn_maintab_cate",
+      "summary": "Container shipping rates are set to continue rising in May driven by high oil costs from US-Iran conflicts, reduced global capacity, and early customer orders. Industry expects two waves of rate increases, with trans-Pacific rates already confirmed higher and second wave anticipated mid-May. This should benefit Evergreen (2603), Yang Ming (2609), and Wan Hai (2615) revenue recovery, with about 1.5% of global capacity (50,000 TEU across 140 vessels) affected by Strait of Hormuz disruptions."
+    },
+    {
+      "title": "OpenAI's Codex Evolution Creates Digital Assistant, Benefiting Hon Hai, Quanta, and Wistron",
+      "section": "金融",
+      "date": "2026/05/04 02:24:07",
+      "url": "https://money.udn.com/money/story/11162/9479521?from=edn_subcatelist_cate",
+      "summary": "OpenAI's major Codex upgrade expands beyond code generation to become a comprehensive digital assistant integrating Slack, Gmail, Google Calendar, and Docs. CEO Altman declared Codex is experiencing its \"ChatGPT moment.\" NVIDIA granted early access to over 10,000 employees across nine departments, signaling strong enterprise adoption potential. This development should benefit AI server suppliers including Hon Hai (2317), Quanta (2382), and Wistron (3231)."
+    },
+    {
+      "title": "TSMC ADR Rises 1% Against Broader Semiconductor Decline",
+      "section": "產經",
+      "date": "2026/05/05 07:21:53",
+      "url": "https://money.udn.com/money/story/123398/9481914",
+      "summary": "TSMC ADR gained 1% to $401.61 despite Philadelphia Semiconductor Index falling 0.6% and broader US market weakness from Middle East geopolitical tensions. The ADR trades at 11.7% premium to Taipei shares, reflecting continued investor confidence in TSMC's AI positioning amid market volatility driven by oil price spikes and regional conflicts."
+    }
+  ],
+  "not_relevant": []
+}
