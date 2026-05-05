@@ -1,26 +1,25 @@
 {
-  "date": "2026-05-04",
-  "update_time": "2026-05-04 09:13:01",
+  "date": "2026-05-05",
+  "update_time": "2026-05-05 08:51:35",
   "total_articles": 3,
   "high": [
     {
-      "title": "Economists Adjust Inflation Projections for 8th Consecutive Week; See This Monday's (4th) Focus Survey",
+      "title": "Economists Adjust Inflation Forecasts for 8th Consecutive Week; See Focus Report for Monday (4th)",
       "source": "MoneyTimes",
       "date": "2026-05-04",
       "url": "https://www.moneytimes.com.br/economistas-ajustam-inflacao-pela-8a-semana-consecutiva-veja-o-focus-desta-segunda-feira-4-jcav/",
-      "summary": "Economists surveyed by Brazil's Central Bank have adjusted inflation projections for the eighth consecutive week, according to the Focus Bulletin released Monday morning. IPCA expectations for 2026 rose from 4.86% to 4.89%, moving outside the Central Bank's inflation target tolerance band. Projections for 2027 and 2029 remained at 4% and 3.50% respectively, while 2028 estimates increased from 3.61% to 3.64%.\n\nSelic rate forecasts remained unchanged at 13% for this year and 11% for 2027, staying at 10% for 2028. However, 2029 expectations rose from 9.75% to 10%. USD/BRL exchange rate projections point to R$5.25 at year-end, with subsequent years forecasted at R$5.30 (2027), R$5.39 (2028), and R$5.40 (2029).\n\nThis marks a concerning trend of persistent upward inflation revisions, suggesting the market sees structural price pressures that could force the Central Bank to maintain restrictive monetary policy longer than previously anticipated. The inflation projections breaching the target tolerance band signals potential policy tightening ahead."
-    }
-  ],
-  "medium": [
+      "summary": "Economists surveyed by the Central Bank have adjusted inflation projections for the eighth consecutive week, according to the Focus Bulletin released Monday morning. IPCA inflation expectations for 2026 increased from 4.86% to 4.89%, now outside the Central Bank's tolerance range for the inflation target. For 2027 and 2029, estimates remained at 4% and 3.50% respectively, while 2028 projections rose from 3.61% to 3.64%. Selic rate forecasts remained unchanged at 13% for this year and 11% for 2027, with 2028 staying at 10%. However, 2029 expectations increased from 9.75% to 10%. USD/BRL exchange rate projections point to R$5.25 by year-end, with forecasts for 2027-2029 at R$5.30, R$5.39, and R$5.40 respectively. This persistent upward revision of inflation expectations signals growing concern about price pressures and suggests the BCB may need to maintain higher rates for longer, supporting BRL in the near term but potentially pressuring growth-sensitive assets."
+    },
     {
-      "title": "Mother's Day Approaching: Know Whether It's Time to Buy or Sell Retail Stocks in the Season When 'Everything Shines'",
+      "title": "Market Awaits Itaú (ITUB4); Ibovespa in Dollar Terms Up More Than 1% Today (05)",
       "source": "MoneyTimes",
-      "date": "2026-05-04",
-      "url": "https://www.moneytimes.com.br/dias-das-maes-em-breve-saiba-se-e-hora-de-comprar-ou-vender-acoes-do-varejo-na-epoca-em-que-tudo-brilha-jvka/",
-      "summary": "The article discusses retail sector performance ahead of Mother's Day, noting that despite Selic rate cuts from 14.75% to 14.50%, consumption still feels the effects of high interest rates. The market has become more selective with retail investments, requiring companies to not just sell more but sell profitably. UBS BB downgraded fashion retailer Azzas (AZZA3) from buy to neutral, cutting the target price from R$33 to R$25, though still showing 16% upside potential."
+      "date": "2026-05-05",
+      "url": "https://www.moneytimes.com.br/mercado-aguarda-itau-itub4-ibovespa-em-dolar-sobe-mais-de-1-hoje-05/",
+      "summary": "Brazilian markets are having an active day with Q1 2026 earnings season, with Itaú (ITUB4) results as the main highlight. The bank is expected to report weaker results pressured by seasonality, reduced credit activity, and the impact of early dividend payments that reduced available capital. Despite these headwinds, profit is expected between R$12-12.7 billion with annual growth and elevated ROE near 24%. The general assessment remains positive with the bank well-positioned to maintain high profitability and strong dividend distribution."
     }
   ],
+  "medium": [],
   "not_relevant": [
-    "Polymarket: Futures Contracts Expose Market Skepticism and Keep Geopolitical Premium 'On the Table'; See How to Position"
+    "Mother's Day Soon: Know If It's Time to Buy or Sell Retail Stocks in the Season When 'Everything Shines'"
   ]
 }
