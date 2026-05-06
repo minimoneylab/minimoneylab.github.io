@@ -1,0 +1,96 @@
+{
+  "date": "2026-05-07",
+  "update_time": "2026-05-06 23:31:49",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "TSMC to Invest Over NT$100 Billion in Major Taichung Fab Upgrade, Converting 15A Plant from Mature Process to 4nm",
+      "section": "金融",
+      "date": "2026/05/06 02:01:12",
+      "url": "https://money.udn.com/money/story/5612/9484129?from=edn_maintab_cate",
+      "summary": "TSMC (2330) is launching a massive NT$100 billion-plus upgrade plan for its Taichung Science Park facilities, driving simultaneous expansion across its supply chain. The company is upgrading its Fab 15A from 28-22nm mature processes to 4nm advanced technology, involving comprehensive equipment relocation and installation of new manufacturing systems. This strategic move aims to significantly boost advanced process manufacturing capacity. The upgrade coincides with accelerated development of TSMC's 1.4nm fab in Taichung Phase II and support for NVIDIA AI chip supply requirements. Supply chain partners including ASE Group are also launching expansion plans, further strengthening central Taiwan's semiconductor ecosystem. Market implications include enhanced competitive positioning in advanced nodes and stronger support for AI chip demand growth."
+    },
+    {
+      "title": "Hon Hai Achieves Strongest April Revenue Record, Analysts Expect Sequential Growth Through 2026",
+      "section": "金融",
+      "date": "2026/05/06 01:19:33",
+      "url": "https://money.udn.com/money/story/5612/9484039?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317) reported April revenue of NT$832 billion and cumulative four-month revenue of NT$2.96 trillion, both setting record highs for the respective periods. The strong performance is driven by robust AI cloud product demand, with Q2 expected to outperform Q1 despite seasonal PC/smartphone transitions. The second half outlook remains bullish supported by NVIDIA's new Vera Rubin products and Apple's iPhone 18 series. Chairman Liu Yang-wei indicated weekly AI datacenter cabinet production exceeds 1,000 units, with plans to scale to 2,000 units by year-end. The company's North American and European capacity expansions will drive global ASIC server supply growth. Analysts project sequential quarterly growth throughout 2026, with AI cabinet shipments providing key momentum for record-breaking performance."
+    },
+    {
+      "title": "Foreign Investors Pour Record NT$835.8 Billion into Taiwan Stocks in April",
+      "section": "產經",
+      "date": "2026/05/06 19:31:48",
+      "url": "https://money.udn.com/money/story/5613/9486250",
+      "summary": "Foreign investors achieved historic net inflows of US$26.4 billion (NT$835.8 billion) in April, smashing all previous monthly records and more than doubling the previous high of US$12.7 billion. This marks the first time monthly inflows exceeded US$20 billion, with cumulative January-April inflows reaching US$44.27 billion - also a record for the period. Foreign investor assets in Taiwan now total US$364.3 billion (NT$11.5+ trillion), providing substantial firepower for continued market participation. The unprecedented inflows reflect three key drivers: sustained AI sector momentum boosting Taiwan export performance, expanding market capitalization requiring larger capital deployment, and continued confidence despite Middle East geopolitical tensions. This liquidity tsunami provides critical support for Taiwan's continued market rally."
+    },
+    {
+      "title": "Taiwan Stock Index Hits New High at 41,138 Points with Record NT$1.52 Trillion Trading Volume",
+      "section": "證券",
+      "date": "2026/05/07 01:42:28",
+      "url": "https://money.udn.com/money/story/5607/9486716?from=edn_maintab_cate",
+      "summary": "Taiwan stocks surged to another record high, closing up 369 points at 41,138 with historically unprecedented trading volume of NT$1.52 trillion. Foreign investors continued their buying spree for the third consecutive day, purchasing NT$146.07 billion over the period, pushing the market above the psychologically important 41,000 level. The rally was led by technology giants including MediaTek, Hon Hai, and memory sector leaders benefiting from AI demand and catch-up trades. Market analysts project the next target at 45,000 points, though technical indicators show overheating with the index trading nearly 50% above its annual moving average. Fund managers recommend focusing on companies with solid earnings backing and institutional support, particularly in advanced semiconductor packaging, high-speed transmission, and power management sectors."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MediaTek Secures Exclusive OpenAI Smartphone Processor Orders, Production Expected H1 2027",
+      "section": "金融",
+      "date": "2026/05/06 01:56:39",
+      "url": "https://money.udn.com/money/story/5612/9484146?from=edn_maintab_cate",
+      "summary": "Renowned analyst Ming-Chi Kuo reports MediaTek (2454) will exclusively supply processors for OpenAI's smartphone venture, targeting H1 2027 production with an estimated 30 million units over 2027-2028. The custom Dimensity 9600 chip will use TSMC's N2P process, focusing on enhanced AI agent capabilities rather than traditional smartphone functions."
+    },
+    {
+      "title": "UMC Hits 26-Year High with 12 Advanced R&D Projects, Stock Reaches NT$91.4",
+      "section": "金融",
+      "date": "2026/05/07 01:36:17",
+      "url": "https://money.udn.com/money/story/5612/9486678?from=edn_maintab_cate",
+      "summary": "UMC (2303) stock surged to a limit-up close at NT$91.4, marking a 26-year high since June 2000. The company revealed 12 key R&D initiatives in its annual report, including collaboration with Intel on 12nm FinFET platform development. The technology roadmap targets AI, high-speed transmission, automotive, and HPC applications."
+    },
+    {
+      "title": "TSMC ADR Soars 6.4% to New High with 17.4% Premium Over Taipei Trading",
+      "section": "產經",
+      "date": "2026/05/07 07:19:01",
+      "url": "https://money.udn.com/money/story/5599/9486980",
+      "summary": "TSMC ADR jumped 6.4% to US$419.50 amid a broad semiconductor rally led by AMD's strong earnings. The Philadelphia Semiconductor Index gained 4.5% to hit new records, while Taiwan's TSMC (2330) closed flat at NT$2,250. The significant ADR premium suggests strong overseas investor appetite for Taiwan semiconductor exposure."
+    },
+    {
+      "title": "Memory Module Leader ADATA Expects Shortages to Continue Through 2027",
+      "section": "金融",
+      "date": "2026/05/07 01:38:48",
+      "url": "https://money.udn.com/money/story/11162/9486668?from=edn_maintab_cate",
+      "summary": "ADATA (3260) held an investor conference projecting memory shortages will persist through 2027 as AI model inference demand explodes. The company's inventory reached NT$40+ billion in April, positioning it to capitalize on expected significant NAND flash price increases in H2 2026. Management sees both quantity and pricing advantages from direct supplier relationships."
+    },
+    {
+      "title": "Stock King Faraday Technology Q1 Profit Hits Record NT$1.414 Billion",
+      "section": "金融",
+      "date": "2026/05/06 01:52:16",
+      "url": "https://money.udn.com/money/story/5612/9484162?from=edn_maintab_cate",
+      "summary": "Faraday (5274) reported Q1 net profit of NT$1.414 billion, up 18% QoQ and 59.4% YoY, with EPS of NT$37.41 setting new records. Foreign analysts highlight the transition to agent AI driving increased system-level coordination needs, boosting BMC (Baseboard Management Controller) demand and supporting multi-year growth prospects for the company."
+    },
+    {
+      "title": "Advanced Semiconductor Engineering Q2 Gross Margin Expected to Return Above 30%",
+      "section": "證券",
+      "date": "2026/05/06 00:42:04",
+      "url": "https://money.udn.com/money/story/11074/9483747?from=edn_maintab_cate",
+      "summary": "ASE Group (5347) guidance shows Q2 shipments rising 11-13% QoQ with ASPs up 2-4%, driving gross margins back above 30% for the first time in four quarters. The recovery is attributed to AI server-related power management IC demand growth and successful price negotiations with customers."
+    }
+  ],
+  "not_relevant": [
+    "US Stock Market Closes with Three Major Indices at Record Highs, Philadelphia Semiconductor Index Surges Over 4%",
+    "Trump and Xi Meeting to Discuss Taiwan, Rubio Says Taiwan Stability is Common US-China Interest",
+    "\"Shrimp Farming Trend\" Expands to Trigger NAND Chip Rush",
+    "Chang Yung-fa Foundation Files \"Death Gift\" Lawsuit Adding Variables to Evergreen Family Inheritance Dispute",
+    "AI Agent Market Becomes Battleground for Major Players",
+    "Apple Releases iOS 26.5 Candidate Version with Three New Features Including Message Encryption",
+    "Taiwan Index Futures Night Session Surges Nearly 90 Degrees Creating New Highs",
+    "Trump Halts \"Freedom Project\" Claiming Progress in Iran Negotiations",
+    "Taiwan Stocks Bull Market Warms Up 520 Rally",
+    "\"Stock Queen\" Formosa Advanced Technologies Target Price Called to 15K by Goldman Sachs",
+    "Winbond Electronics Profit Explosion Q1 Net Income Over NT$10 Billion",
+    "Hon Hai, Wistron Call Options Heat Up",
+    "US Stock Close: AMD Drives AI Trading Surge",
+    "Trump-Xi Meeting Imminent, Trump Says Possible to Reach Iran Agreement Before China Visit",
+    "US-Iran War Triggers Transportation Chain \"Sea-to-Air\" Effect"
+  ]
+}
