@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-08",
+  "update_time": "2026-05-07 23:32:30",
+  "total_articles": 29,
+  "high": [
+    {
+      "title": "Taiwan Dollar Strengthens to 31.409 Against USD, Up 7.9 Cents",
+      "section": "證券",
+      "date": "2026/05/07 16:16:59",
+      "url": "https://money.udn.com/money/story/12509/9488308?from=edn_subcatelist_cate",
+      "summary": "The Taiwan dollar closed at 31.409 against the US dollar, appreciating 7.9 cents from the previous trading day's close of 31.488. The intraday high was 31.338, low was 31.450, with an opening price of 31.450. Total trading volume reached US$2.122 billion. This strengthening reflects continued foreign capital inflows and positive sentiment toward Taiwan's technology sector amid the AI boom."
+    },
+    {
+      "title": "Taiwan Stocks Hit New Highs with Record NT$1.5 Trillion Volume as Foreign Investors Admit Error, Buy NT$146 Billion Over Three Days",
+      "section": "證券",
+      "date": "2026/05/07 01:42:28",
+      "url": "https://money.udn.com/money/story/5607/9486716?from=edn_maintab_cate",
+      "summary": "Taiwan stocks continued their historic rally with the TAIEX gaining 369 points to close at 41,138, breaking above the 41,000 level for three consecutive record-breaking sessions. Trading volume exploded to NT$1.52 trillion, setting a new historical record. Foreign investors have been aggressively covering positions with cumulative net buying of NT$146.07 billion over three days, driving the relentless index gains. Fund managers predict the next target is 45,000 points. The rally is driven by three key factors: AI supply chain momentum, major tech conferences including Google I/O and Computex, and strong ETF inflows providing downside support. However, technical indicators show overheating with the index-to-annual-moving-average deviation approaching 50%, while foreign futures net short positions have increased to 50,000 contracts, suggesting potential short-term volatility ahead."
+    },
+    {
+      "title": "TSMC Goes Wild: Stock Price and Market Cap Hit New Highs, Subsidiaries Greatek and Global Unichip Hit Limit Up",
+      "section": "證券",
+      "date": "2026/05/08 00:18:34",
+      "url": "https://money.udn.com/money/story/5607/9489233?from=edn_maintab_cate",
+      "summary": "TSMC surged past its stock code \"2330\" during trading, reaching an intraday high of NT$2,345 before closing up NT$60 at NT$2,310, setting a new closing high. Market capitalization reached NT$59.9 trillion, also a new record. Subsidiaries Global Unichip and Greatek both hit limit up, with the \"TSMC family\" leading Taiwan's bull market. Foreign investors bought 3,885 shares net, driving the gains alongside institutional support. The surge reflects strong fundamentals and geopolitical factors, including potential US-Iran peace talks boosting global markets. TSMC's aggressive expansion plans, building nine fabs globally this year (matching last year's record), demonstrate continued capacity constraints in advanced processes. The company's Q2 revenue guidance of US$39-40.2 billion suggests continued growth momentum, with gross margin guidance of 65.5-67.5% indicating strong profitability sustainability."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC ADR Surges 6.4% to New High, Trading at 17.4% Premium to Taipei",
+      "section": "產經",
+      "date": "2026/05/07 07:19:01",
+      "url": "https://money.udn.com/money/story/5599/9486980",
+      "summary": "TSMC ADR jumped 6.4% to close at US$419.50, trading at a significant 17.4% premium to Taipei trading. This surge came amid broader semiconductor strength, with the Philadelphia Semiconductor Index gaining 4.5% and AMD soaring 18.9% on strong data center chip demand forecasts. The premium indicates strong US investor appetite for Taiwan semiconductor exposure."
+    },
+    {
+      "title": "UMC Surges to 26-Year High as 12 R&D Projects Progress",
+      "section": "金融",
+      "date": "2026/05/07 01:36:17",
+      "url": "https://money.udn.com/money/story/5612/9486678?from=edn_maintab_cate",
+      "summary": "UMC hit limit up at NT$91.4, reaching its highest level since June 2000. Chairman Hung Jia-tsong outlined 12 key R&D initiatives focusing on specialty processes for AI, high-speed transmission, automotive, and HPC applications. The 12nm FinFET platform collaboration with Intel is progressing well, with verification underway at Intel's Arizona facility. UMC is transitioning from PC/notebook applications to higher value-added markets including 5G, AI, IoT, and automotive electronics."
+    },
+    {
+      "title": "MediaTek Breaks New Ground with Google TPU Orders Worth NT$6.28 Trillion",
+      "section": "金融",
+      "date": "2026/05/07 01:22:02",
+      "url": "https://money.udn.com/money/story/5612/9486705?from=edn_maintab_cate",
+      "summary": "Google secured a massive five-year, US$200 billion contract from AI startup Anthropic, signaling increased AI infrastructure investment and boosting demand for TPU chips and servers. MediaTek has secured orders for Google's 8th generation TPU compute chips using TSMC's 3nm process, with production expected in the second half. The 9th generation TPU is also assigned to MediaTek, providing significant revenue growth momentum alongside server ODM partners Foxconn and Quanta."
+    },
+    {
+      "title": "Wiwynn Reports Record Q1 with NT$14.1 Billion Profit, EPS of NT$75.95",
+      "section": "金融",
+      "date": "2026/05/07 23:48:09",
+      "url": "https://money.udn.com/money/story/5612/9489221?from=edn_maintab_cate",
+      "summary": "AI server specialist Wiwynn posted its strongest first quarter ever with net profit of NT$14.114 billion, up 2.3% QoQ and 44.1% YoY, generating EPS of NT$75.95. The company's board approved a US$500 million capital injection into its international subsidiary to support growing North American CSP demand. Fund managers expect Wiwynn to earn over 15 times its share capital in the first half of 2026."
+    }
+  ],
+  "not_relevant": []
+}
