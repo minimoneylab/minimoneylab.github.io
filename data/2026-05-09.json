@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-09",
+  "update_time": "2026-05-08 23:33:34",
+  "total_articles": 26,
+  "high": [
+    {
+      "title": "TSMC April Revenue Hits Record High at NT$410.7 Billion, Q1-Q4 Revenue Surges 29%",
+      "section": "金融",
+      "date": "2026/05/09 00:21:24",
+      "url": "https://money.udn.com/money/story/5612/9491507?from=edn_maintab_cate",
+      "summary": "TSMC reported record April revenue of NT$410.7 billion, down 1.1% month-on-month but up 17.5% year-on-year, marking the highest April revenue in company history. Cumulative revenue for the first four months reached approximately NT$1.54 trillion, up 29.9% year-on-year - a new record for the same period. The company previously guided Q2 USD revenue between $39-40.2 billion, potentially setting new quarterly highs. This translates to approximately 10% sequential growth with an average monthly revenue of NT$420 billion for May-June, suggesting continued momentum. TSMC raised its full-year USD revenue growth guidance to over 30%, reflecting strong AI-driven demand and robust fundamentals across advanced processes and packaging."
+    },
+    {
+      "title": "Taiwan Stock Index Soars 4,000 Points in Four Days, Hits Record High of 41,933 Points",
+      "section": "證券",
+      "date": "2026/05/08 00:27:02",
+      "url": "https://money.udn.com/money/story/5607/9489250?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index surged 794 points to close at a record 41,933 points, with intraday trading reaching 42,156 points - the first time crossing the 42K threshold. Over four trading days in May, the index has accumulated gains of 3,007 points (7.7%). Foreign investors bought NT$46.41 billion, marking four consecutive days of net buying with cumulative purchases of NT$192.48 billion. However, Taiwan futures net short positions increased to 51,132 contracts, the highest since July 2025. The TAIEX counter index also hit record highs with year-to-date gains of 50.7%, outperforming the main index's 44.7% gain. This rapid appreciation raises questions about market sustainability and potential volatility ahead of key events including US-Iran negotiations and Nvidia earnings."
+    },
+    {
+      "title": "TSMC Stock Hits New High at NT$2,345, Market Cap Reaches NT$59.9 Trillion",
+      "section": "證券",
+      "date": "2026/05/08 00:18:34",
+      "url": "https://money.udn.com/money/story/5607/9489233?from=edn_maintab_cate",
+      "summary": "TSMC's share price surged to an intraday high of NT$2,345, surpassing its stock code number, before closing at NT$2,310 (+NT$60), a record closing price. Market capitalization reached NT$59.9 trillion, also setting new records. Foreign investors net bought 3,885 shares, while institutional investors collectively purchased 5,466 shares. TSMC alone contributed over 480 points to the index gains. The rally reflects strong fundamentals with the company building nine new fabs globally this year, matching last year's record in quantity while exceeding in scale. Advanced process and packaging capacity remains supply-constrained, supporting the aggressive expansion. TSMC's affiliated companies World Advanced and GUC also hit daily limits, demonstrating the \"TSMC family\" leadership in the bull market."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Dollar Closes at 31.429 Yuan, Down 2 Points",
+      "section": "證券",
+      "date": "2026/05/08 17:18:26",
+      "url": "https://money.udn.com/money/story/12509/9490872?from=edn_subcatelist_cate",
+      "summary": "The Taiwan dollar weakened slightly by 2 points to close at 31.429 against the US dollar on May 8th. Trading volume was $1.83 billion with the currency trading in a narrow range between 31.365-31.465. The minor depreciation follows the previous day's appreciation and suggests continued central bank intervention to manage currency volatility."
+    },
+    {
+      "title": "TSMC ADR Falls 1.28%, Trading at 12.60% Premium to Taipei",
+      "section": "產經",
+      "date": "2026/05/08 07:26:48",
+      "url": "https://money.udn.com/money/story/5599/9489518",
+      "summary": "TSMC's ADR declined 1.28% to $414.15, maintaining a significant 12.60% premium over Taipei trading. The Philadelphia Semiconductor Index fell 2.72% on the same day. This premium suggests continued strong US investor appetite for Taiwan semiconductor exposure despite some profit-taking in US markets."
+    },
+    {
+      "title": "Phison Q1 EPS Reaches NT$68.8, Expects Continued NAND Price Increases",
+      "section": "金融",
+      "date": "2026/05/09 01:28:14",
+      "url": "https://money.udn.com/money/story/11162/9491419?from=edn_subcatelist_cate",
+      "summary": "Memory controller specialist Phison reported record Q1 results with revenue of NT$40.97 billion (+196% YoY) and EPS of NT$68.8. The company expects continued NAND price increases due to supply constraints and AI-driven storage demand. Inventory reached NT$72.2 billion with 315 days of coverage as the company builds stock for anticipated Q4 VR platform launches."
+    },
+    {
+      "title": "World Advanced Confirms Price Increases for H2 2026",
+      "section": "金融",
+      "date": "2026/05/09 01:25:01",
+      "url": "https://money.udn.com/money/story/5612/9491420?from=edn_subcatelist_cate",
+      "summary": "World Advanced confirmed earlier announced price increases have been largely accepted by customers, with H2 2026 pricing expected to remain supported. The company cited rising costs from materials, labor, and continued investments. Singapore 12-inch fab phase one is expected to complete capacity buildup ahead of schedule by 2028, with all capacity secured by customer contracts."
+    },
+    {
+      "title": "Container Shipping Trio Reports Strong April Performance",
+      "section": "金融",
+      "date": "2026/05/08 23:45:44",
+      "url": "https://money.udn.com/money/story/5612/9491517?from=edn_maintab_cate",
+      "summary": "Evergreen, Yang Ming, and Wan Hai reported strong April revenues with both monthly and annual growth after nearly a year. Evergreen's April revenue reached NT$31.35 billion (+14.1% MoM, +4.5% YoY). The improvement reflects post-Lunar New Year demand recovery and Middle East conflict supporting freight rates."
+    }
+  ],
+  "not_relevant": []
+}
