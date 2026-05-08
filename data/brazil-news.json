@@ -1,10 +1,40 @@
 {
-  "date": "2026-05-07",
-  "update_time": "2026-05-07 09:19:04",
-  "total_articles": 2,
-  "high": [],
-  "medium": [],
+  "date": "2026-05-08",
+  "update_time": "2026-05-08 08:55:56",
+  "total_articles": 5,
+  "high": [
+    {
+      "title": "No Clear Direction: COPOM Minutes Generate Divergent Market Readings and Keep IPCA+ 10.6% Annual Opportunities on the Radar",
+      "source": "MoneyTimes",
+      "date": "2026-05-08",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/sem-direcao-clara-ata-do-copom-gera-leituras-divergentes-no-mercado-e-mantem-oportunidades-de-ipca-106-ao-ano-no-radar-lbrdis580/",
+      "summary": "The Central Bank released COPOM minutes detailing the rationale behind another 0.25 percentage point Selic rate cut to 14.50% annually. However, the minutes generated conflicting interpretations among market participants regarding future monetary policy direction. Some investors read the tone as dovish, suggesting continued confidence in economic deceleration to support the cutting cycle. Conversely, others, including Empiricus Research's Lais Costa, interpreted the communication as more hawkish. This divergence creates uncertainty for BRL traders and bond investors who typically rely on COPOM minutes for policy guidance. The mixed signals could lead to increased volatility in Brazilian government bonds and FX markets as traders position for different monetary policy scenarios. With inflation-linked bonds (IPCA+) offering 10.6% annual returns, the unclear central bank communication keeps fixed income opportunities attractive while adding policy uncertainty premium to yields."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Market Reacts to Magazine Luiza (MGLU3) Loss and New B3 Company; Dollar-Denominated Ibovespa Rises Today (08)",
+      "source": "MoneyTimes",
+      "date": "2026-05-08",
+      "url": "https://www.moneytimes.com.br/mercado-repercute-prejuizo-do-magazine-luiza-mglu3-e-nova-empresa-da-b3-ibovespa-em-dolar-sobe-hoje-08/",
+      "summary": "Brazilian investors continue monitoring Q1 2026 earnings season, with Magazine Luiza (MGLU3) reporting adjusted net loss of R$ 33.9 million versus R$ 11.2 million profit in Q1 2025. The dollar-denominated Ibovespa showed gains, indicating potential BRL weakness or foreign capital flows. The earnings season performance could influence broader Ibovespa sentiment and individual stock weightings in the index."
+    },
+    {
+      "title": "Totvs (TOTS3) Enters BTG Recommended Portfolio and Replaces Itaú (ITUB4)",
+      "source": "MoneyTimes",
+      "date": "2026-05-08",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/totvs-tots3-entra-na-carteira-recomendada-do-btg-e-substitui-itau-itub4-lbrdgm056/",
+      "summary": "BTG Pactual updated its 10SIM monthly stock portfolio, replacing banking giant Itaú (ITUB4) with software company Totvs (TOTS3). This reduces exposure to traditional large banks and reflects sector rotation within Brazilian equities. Totvs shares fell over 30% from January peaks due to AI disruption fears, now trading at attractive 15x 2027 P/E ratios."
+    },
+    {
+      "title": "Asian Stocks Interrupt Rally and Close Mixed After Exchange of Attacks Between US and Iran",
+      "source": "MoneyTimes",
+      "date": "2026-05-08",
+      "url": "https://www.moneytimes.com.br/bolsas-da-asia-interrompem-rali-e-fecham-mistas-apos-troca-de-ataques-entre-eua-e-ira-fets/",
+      "summary": "Asian markets closed mixed as US-Iran tensions escalated with attacks in the Strait of Hormuz, reducing risk appetite and supporting oil prices. This geopolitical development could impact emerging market sentiment including Brazilian assets through risk-off flows and commodity price effects."
+    }
+  ],
   "not_relevant": [
-    "Cryptocurrencies: Empiricus Opens Access to Portfolio That Rose 750% Between 2021 and 2025; Check Out"
+    "Cryptocurrencies: Empiricus Opens Access to Portfolio That Appreciated 750% Between 2021 and 2025"
   ]
 }
