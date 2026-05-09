@@ -1,40 +1,42 @@
 {
-  "date": "2026-05-08",
-  "update_time": "2026-05-08 08:55:56",
-  "total_articles": 5,
+  "date": "2026-05-09",
+  "update_time": "2026-05-09 08:29:31",
+  "total_articles": 8,
   "high": [
     {
-      "title": "No Clear Direction: COPOM Minutes Generate Divergent Market Readings and Keep IPCA+ 10.6% Annual Opportunities on the Radar",
+      "title": "No Clear Direction, Copom Minutes Generate Divergent Market Readings and Keep IPCA+ 10.6% Annual Opportunities on Radar",
       "source": "MoneyTimes",
-      "date": "2026-05-08",
+      "date": "2026-05-08/2026-05-09",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/sem-direcao-clara-ata-do-copom-gera-leituras-divergentes-no-mercado-e-mantem-oportunidades-de-ipca-106-ao-ano-no-radar-lbrdis580/",
-      "summary": "The Central Bank released COPOM minutes detailing the rationale behind another 0.25 percentage point Selic rate cut to 14.50% annually. However, the minutes generated conflicting interpretations among market participants regarding future monetary policy direction. Some investors read the tone as dovish, suggesting continued confidence in economic deceleration to support the cutting cycle. Conversely, others, including Empiricus Research's Lais Costa, interpreted the communication as more hawkish. This divergence creates uncertainty for BRL traders and bond investors who typically rely on COPOM minutes for policy guidance. The mixed signals could lead to increased volatility in Brazilian government bonds and FX markets as traders position for different monetary policy scenarios. With inflation-linked bonds (IPCA+) offering 10.6% annual returns, the unclear central bank communication keeps fixed income opportunities attractive while adding policy uncertainty premium to yields."
+      "summary": "The Brazilian Central Bank released Copom minutes detailing factors behind another 0.25 percentage point Selic rate cut to 14.50% annually. Unlike typical meetings, these minutes generated conflicting interpretations among investors regarding future monetary policy direction. Some market participants view the tone as dovish, suggesting BCB maintains confidence in economic deceleration to sustain the cutting cycle. However, others including Empiricus Research's Lais Costa interpret the communication as more hawkish. This divergence creates uncertainty for BRL traders and fixed income investors regarding the pace of future rate cuts. The mixed signals could maintain volatility in Brazilian government bond yields and impact carry trade strategies. For fund managers, this ambiguity suggests maintaining flexible positioning in BRL assets while monitoring inflation data and economic activity indicators that will influence BCB's next moves. The mention of IPCA+ 10.6% opportunities indicates attractive real yields remain available for investors willing to navigate the monetary policy uncertainty."
+    },
+    {
+      "title": "Dollar Falls and Closes Below R$4.90 for First Time Since January 2024",
+      "source": "MoneyTimes",
+      "date": "2026-05-09",
+      "url": "https://www.moneytimes.com.br/dolar-8-5-26-lils/",
+      "summary": "USD/BRL hit significant technical level, closing at R$4.8939 (-0.60%), marking the lowest level since January 15, 2024. The Real strengthened on strong US employment data reinforcing expectations of prolonged elevated US rates and investor optimism over Middle East peace negotiations. The DXY fell 0.16% to 97.910 points, supporting broader USD weakness. For the week, the dollar accumulated 1.19% depreciation against the Real. This BRL strengthening creates important implications for international fund managers: it suggests improving risk sentiment toward Brazilian assets and potential capital inflow acceleration. However, geopolitical monitoring continues as markets await developments in US-Iran negotiations. The breakthrough below R$4.90 could trigger further technical selling of USD/BRL, potentially targeting lower levels. Fund managers should consider this as a possible inflection point for BRL positioning, especially given the combination of supportive external factors and domestic monetary policy normalization."
     }
   ],
   "medium": [
     {
-      "title": "Market Reacts to Magazine Luiza (MGLU3) Loss and New B3 Company; Dollar-Denominated Ibovespa Rises Today (08)",
+      "title": "Market Reacts to Magazine Luiza Loss and New B3 Company; Dollar-Denominated Ibovespa Rises Today",
       "source": "MoneyTimes",
       "date": "2026-05-08",
       "url": "https://www.moneytimes.com.br/mercado-repercute-prejuizo-do-magazine-luiza-mglu3-e-nova-empresa-da-b3-ibovespa-em-dolar-sobe-hoje-08/",
-      "summary": "Brazilian investors continue monitoring Q1 2026 earnings season, with Magazine Luiza (MGLU3) reporting adjusted net loss of R$ 33.9 million versus R$ 11.2 million profit in Q1 2025. The dollar-denominated Ibovespa showed gains, indicating potential BRL weakness or foreign capital flows. The earnings season performance could influence broader Ibovespa sentiment and individual stock weightings in the index."
+      "summary": "Brazilian investors continued monitoring Q1 2026 earnings season, with Magazine Luiza reporting adjusted net loss of R$33.9 million versus R$11.2 million profit in Q1 2025. The article mentions dollar-denominated Ibovespa gains, suggesting BRL weakness was supporting equity valuations for international investors. This reflects the currency-equity dynamic important for fund managers trading Brazilian stocks with FX hedging considerations."
     },
     {
-      "title": "Totvs (TOTS3) Enters BTG Recommended Portfolio and Replaces Itaú (ITUB4)",
+      "title": "Petrobras: Abreu e Lima Hits Diesel Production Record in April",
       "source": "MoneyTimes",
-      "date": "2026-05-08",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/totvs-tots3-entra-na-carteira-recomendada-do-btg-e-substitui-itau-itub4-lbrdgm056/",
-      "summary": "BTG Pactual updated its 10SIM monthly stock portfolio, replacing banking giant Itaú (ITUB4) with software company Totvs (TOTS3). This reduces exposure to traditional large banks and reflects sector rotation within Brazilian equities. Totvs shares fell over 30% from January peaks due to AI disruption fears, now trading at attractive 15x 2027 P/E ratios."
-    },
-    {
-      "title": "Asian Stocks Interrupt Rally and Close Mixed After Exchange of Attacks Between US and Iran",
-      "source": "MoneyTimes",
-      "date": "2026-05-08",
-      "url": "https://www.moneytimes.com.br/bolsas-da-asia-interrompem-rali-e-fecham-mistas-apos-troca-de-ataques-entre-eua-e-ira-fets/",
-      "summary": "Asian markets closed mixed as US-Iran tensions escalated with attacks in the Strait of Hormuz, reducing risk appetite and supporting oil prices. This geopolitical development could impact emerging market sentiment including Brazilian assets through risk-off flows and commodity price effects."
+      "date": "2026-05-09",
+      "url": "https://www.moneytimes.com.br/petrobras-abreu-e-lima-bate-recorde-de-producao-de-diesel-em-abril-vtra/",
+      "summary": "Petrobras' Abreu e Lima refinery achieved record diesel S-10 production of 385 million liters in April, surpassing the previous 2016 record. The increase resulted from expanded processing capacity to mitigate global geopolitical tensions' impacts. For PETR4 investors, this operational improvement supports the company's refining margins and strategic positioning amid global energy market volatility."
     }
   ],
   "not_relevant": [
-    "Cryptocurrencies: Empiricus Opens Access to Portfolio That Appreciated 750% Between 2021 and 2025"
+    "Totvs Enters BTG's Recommended Portfolio and Replaces Itaú",
+    "Asian Stock Markets Interrupt Rally and Close Mixed After US-Iran Attack Exchange",
+    "Wall Street Advances with Strong Payroll and AI-Related Stocks; S&P 500 and Nasdaq Hit New Records"
   ]
 }
