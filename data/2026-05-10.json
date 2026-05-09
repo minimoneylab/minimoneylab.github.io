@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-10",
+  "update_time": "2026-05-09 23:29:05",
+  "total_articles": 21,
+  "high": [
+    {
+      "title": "TSMC April Revenue Hits Record 410.7 Billion, Strong Q4 Performance Expected",
+      "section": "金融",
+      "date": "2026/05/09 00:21:24",
+      "url": "https://money.udn.com/money/story/5612/9491507?from=edn_maintab_cate",
+      "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) reported April consolidated revenue of NT$410.726 billion, down 1.1% month-on-month but up 17.5% year-on-year, marking the highest April revenue on record and second-highest monthly revenue ever. Cumulative revenue for the first four months reached approximately NT$1.5448 trillion, up 29.9% year-on-year, setting a new record for the period. TSMC previously guided Q2 USD revenue between $39-40.2 billion, potentially challenging new highs. The company's technology forum Taiwan session is scheduled for May 14 in Hsinchu, where it will outline capacity expansion plans. TSMC is simultaneously expanding capacity in Taiwan and overseas, planning to build nine fabs globally this year, matching last year's record while reflecting continued supply shortages in advanced processes and packaging."
+    },
+    {
+      "title": "Apple Reportedly Signs Chip Foundry Deal with Intel, Ending TSMC Monopoly",
+      "section": "產經",
+      "date": "2026/05/09 10:46:28",
+      "url": "https://money.udn.com/money/story/5599/9491937",
+      "summary": "Apple has reportedly reached a preliminary agreement with Intel for chip production, marking a potential end to Apple's complete reliance on TSMC. The Wall Street Journal reports the companies have been in intensive negotiations for over a year, with formal contracts finalized in recent months. This would represent Intel's most significant foundry endorsement to date. Intel's Arizona fab is now in production using advanced 18A process technology, targeting competition with TSMC's 2nm process. Analysts suggest Apple may wait for Intel's next-generation 18A-P process before placing orders, potentially beginning mass production next year. The deal was reportedly facilitated by US Commerce Secretary Lutnick's efforts to encourage major tech companies to partner with Intel for national security reasons."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Container Shipping Lines Report April Revenue Growth - Evergreen, Yang Ming, Wan Hai Show Double Growth",
+      "section": "金融",
+      "date": "2026/05/08 23:45:44",
+      "url": "https://money.udn.com/money/story/5612/9491517?from=edn_maintab_cate",
+      "summary": "Taiwan's major container shipping companies reported their first year-on-year and month-on-month double growth in nearly a year for April. Evergreen Marine posted consolidated revenue of NT$31.35 billion (up 14.1% MoM, 4.5% YoY), Yang Ming NT$14.22 billion (up 14.2% MoM, 13.8% YoY), and Wan Hai NT$12.93 billion (up 22.8% MoM, 13% YoY). The improvement reflects rising container freight rates due to ongoing Middle East conflicts and post-Lunar New Year inventory restocking demand."
+    },
+    {
+      "title": "Hon Hai and Other AI Server Suppliers Boost Capital Expenditure for Capacity Expansion",
+      "section": "金融",
+      "date": "2026/05/10 02:36:08",
+      "url": "https://money.udn.com/money/story/5612/9492838?from=edn_maintab_cate",
+      "summary": "Major Taiwan AI server manufacturers are significantly increasing capital expenditure to capture growth opportunities. Hon Hai expects 2026 capex to rise over 30% from 2025's NT$173.76 billion record, investing in global regional manufacturing and automation. Quanta plans to increase capex to around NT$30 billion from NT$17-20 billion last year, aiming to double AI server capacity by year-end. The companies are expanding production lines in Thailand, US, and other locations to meet surging AI infrastructure demand."
+    },
+    {
+      "title": "Container Shipping Financial Results Week Begins - Wan Hai, Yang Ming, Evergreen in Focus",
+      "section": "金融",
+      "date": "2026/05/10 01:30:33",
+      "url": "https://money.udn.com/money/story/5612/9492703?from=edn_maintab_cate",
+      "summary": "This week marks a crucial earnings period for Taiwan's container shipping sector. Wan Hai will announce Q1 results on May 12, followed by Yang Ming on May 13, and Evergreen and TA Tong on May 14. While Q1 performance may be weaker due to lower freight rates and volumes compared to last year, analysts expect Q2 improvement following the US-Iran conflict's impact on shipping rates and supply chain disruptions."
+    },
+    {
+      "title": "Phison Reports Record Q1 EPS of NT$68.8, Expects Continued NAND Price Increases",
+      "section": "金融",
+      "date": "2026/05/09 01:28:14",
+      "url": "https://money.udn.com/money/story/11162/9491419?from=edn_subcatelist_cate",
+      "summary": "Memory controller specialist Phison Electronics reported record Q1 results with revenue of NT$40.967 billion (up 79.7% QoQ, 196% YoY) and net income of NT$15.175 billion, generating EPS of NT$68.8. The company expects continued NAND flash price increases due to tight global supply and surging AI-driven storage demand, with no clear signs of relief in the short to medium term."
+    }
+  ],
+  "not_relevant": []
+}
