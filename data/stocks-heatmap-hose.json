@@ -10,7 +10,7 @@
       "market_cap": 4838558661.0,
       "pe_ratio": 13.83,
       "pb_ratio": 4.15,
-      "dividend_yield": 8.7,
+      "dividend_yield": 8.78,
       "pct_from_high": -19.34
     },
     {
@@ -20,9 +20,9 @@
       "change": 400.0,
       "change_pct": 0.66,
       "market_cap": 19281104990.0,
-      "pe_ratio": 15.39,
+      "pe_ratio": 15.38,
       "pb_ratio": 2.26,
-      "dividend_yield": 75.0,
+      "dividend_yield": 74.0,
       "pct_from_high": -22.97
     },
     {
@@ -32,7 +32,7 @@
       "change": 2500.0,
       "change_pct": 1.55,
       "market_cap": 25607890407.0,
-      "pe_ratio": 29.43,
+      "pe_ratio": 29.41,
       "pb_ratio": 2.83,
       "dividend_yield": null,
       "pct_from_high": null
@@ -44,7 +44,7 @@
       "change": 2000.0,
       "change_pct": 0.89,
       "market_cap": 64425596244.0,
-      "pe_ratio": 160.15,
+      "pe_ratio": 161.29,
       "pb_ratio": 11.51,
       "dividend_yield": null,
       "pct_from_high": -2.16
@@ -68,9 +68,9 @@
       "change": -1300.0,
       "change_pct": -1.71,
       "market_cap": 6852208534.0,
-      "pe_ratio": 15.93,
+      "pe_ratio": 15.92,
       "pb_ratio": 2.72,
-      "dividend_yield": 2.76,
+      "dividend_yield": 2.81,
       "pct_from_high": -43.19
     },
     {
@@ -82,7 +82,7 @@
       "market_cap": 9118769278.0,
       "pe_ratio": 9.22,
       "pb_ratio": 1.41,
-      "dividend_yield": 2.08,
+      "dividend_yield": 2.07,
       "pct_from_high": -20.35
     },
     {
@@ -94,7 +94,7 @@
       "market_cap": 11734452375.0,
       "pe_ratio": 10.94,
       "pb_ratio": 1.67,
-      "dividend_yield": 1.1,
+      "dividend_yield": 1.06,
       "pct_from_high": -25.09
     },
     {
@@ -106,7 +106,7 @@
       "market_cap": 10688591790.0,
       "pe_ratio": 7.38,
       "pb_ratio": 1.5,
-      "dividend_yield": 87.0,
+      "dividend_yield": 86.0,
       "pct_from_high": -16.78
     },
     {
@@ -116,7 +116,7 @@
       "change": 50.0,
       "change_pct": 0.19,
       "market_cap": 8007536547.0,
-      "pe_ratio": 7.6,
+      "pe_ratio": 7.59,
       "pb_ratio": 1.55,
       "dividend_yield": 1.15,
       "pct_from_high": -11.36
@@ -128,9 +128,9 @@
       "change": -200.0,
       "change_pct": -0.71,
       "market_cap": 8430076839.0,
-      "pe_ratio": 8.44,
+      "pe_ratio": 8.43,
       "pb_ratio": 1.32,
-      "dividend_yield": 1.78,
+      "dividend_yield": 1.79,
       "pct_from_high": -28.15
     },
     {
@@ -140,7 +140,7 @@
       "change": -100.0,
       "change_pct": -0.27,
       "market_cap": 1816166797.0,
-      "pe_ratio": 43.55,
+      "pe_ratio": 43.48,
       "pb_ratio": 1.82,
       "dividend_yield": 3.06,
       "pct_from_high": -46.59
@@ -164,9 +164,9 @@
       "change": -50.0,
       "change_pct": -0.18,
       "market_cap": 2680025522.0,
-      "pe_ratio": 13.73,
+      "pe_ratio": 13.74,
       "pb_ratio": 1.84,
-      "dividend_yield": 3.21,
+      "dividend_yield": 3.22,
       "pct_from_high": -35.9
     },
     {
@@ -188,7 +188,7 @@
       "change": -350.0,
       "change_pct": -2.44,
       "market_cap": 1632763381.0,
-      "pe_ratio": 13.06,
+      "pe_ratio": 13.05,
       "pb_ratio": 1.14,
       "dividend_yield": null,
       "pct_from_high": -16.91
@@ -200,9 +200,9 @@
       "change": -400.0,
       "change_pct": -0.86,
       "market_cap": 2255027962.0,
-      "pe_ratio": 12.66,
+      "pe_ratio": 12.67,
       "pb_ratio": 2.8,
-      "dividend_yield": 10.72,
+      "dividend_yield": 10.81,
       "pct_from_high": -19.0
     },
     {
@@ -226,7 +226,7 @@
       "market_cap": 1687316599.0,
       "pe_ratio": 6.08,
       "pb_ratio": 1.0,
-      "dividend_yield": 5.93,
+      "dividend_yield": 5.95,
       "pct_from_high": -26.32
     },
     {
@@ -235,12 +235,12 @@
       "price": 22850.0,
       "change": -50.0,
       "change_pct": -0.22,
-      "market_cap": 4461988133.0,
+      "market_cap": 1000000000,
       "pe_ratio": 7.26,
       "pb_ratio": 1.19,
-      "dividend_yield": 4.37,
+      "dividend_yield": 4.38,
       "pct_from_high": -22.54
     }
   ],
-  "update_time": "2026-05-09 06:31:02"
+  "update_time": "2026-05-10 06:09:13"
 }
