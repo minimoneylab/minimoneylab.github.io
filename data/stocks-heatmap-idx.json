@@ -28,14 +28,14 @@
     {
       "symbol": "BMRI.JK",
       "name": "Bank Mandiri",
-      "price": 4630.0,
-      "change": -10.0,
+      "price": 4253.04,
+      "change": -9.19,
       "change_pct": -0.22,
       "market_cap": 24878142556.0,
       "pe_ratio": 7.67,
       "pb_ratio": 1.42,
       "dividend_yield": 10.3,
-      "pct_from_high": -16.95
+      "pct_from_high": -23.71
     },
     {
       "symbol": "TLKM.JK",
@@ -202,7 +202,7 @@
       "market_cap": 806559105.0,
       "pe_ratio": 61.36,
       "pb_ratio": 0.32,
-      "dividend_yield": 4.81,
+      "dividend_yield": 4.63,
       "pct_from_high": -36.2
     },
     {
@@ -242,5 +242,5 @@
       "pct_from_high": -16.53
     }
   ],
-  "update_time": "2026-05-10 06:09:13"
+  "update_time": "2026-05-11 06:11:37"
 }
