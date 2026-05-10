@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-11",
+  "update_time": "2026-05-10 23:31:17",
+  "total_articles": 17,
+  "high": [
+    {
+      "title": "Apple reportedly reaches chip manufacturing agreement with Intel, ending TSMC's exclusive status",
+      "section": "金融",
+      "date": "2026/05/10 03:20:10",
+      "url": "https://money.udn.com/money/story/5612/9492817?from=edn_maintab_cate",
+      "summary": "Intel has reportedly reached a preliminary agreement with Apple to manufacture chips for Apple products, which would mark the most significant endorsement for Intel's foundry business to date. For Apple, this breaks its complete dependence on TSMC (2330). Intel shares surged nearly 14% following the news, with year-to-date gains exceeding 200%. According to WSJ sources, the companies have been in intensive negotiations for over a year and finalized formal contracts in recent months. Creative Strategies analyst Ben Bajarin believes Intel is \"the only option that can scale capacity and become a viable second source supplier.\" Intel is rapidly expanding capacity with its Arizona Chandler fab now in production using 18A process technology, targeting TSMC's 2nm process. This development represents a strategic shift for Apple's supply chain diversification and could impact TSMC's market dominance in advanced chip manufacturing."
+    },
+    {
+      "title": "Taiwan AI hardware chain outlook positive, JP Morgan highlights growth prospects",
+      "section": "證券",
+      "date": "2026/05/11 02:13:31",
+      "url": "https://money.udn.com/money/story/5607/9494073?from=edn_maintab_cate",
+      "summary": "JP Morgan strategists maintain that Taiwan's stock market remains the most effective indicator for AI hardware themes, with hardware continuing as the profit pillar of AI investment themes. Taiwan and South Korea stock markets have posted the world's top two performance this month at 6.9% and 13.6% respectively, driven by tech giants like TSMC (2330), Samsung, and SK Hynix benefiting from AI demand. Year-to-date, these markets have surged 44% and 78% respectively. JP Morgan expects Taiwan's semiconductor ecosystem to continue outperforming under favorable AI policies, macro backdrop, and strong fundamentals. The upcoming Trump-Xi meeting this week may address AI policies as a key topic, with options strategists recommending bullish positions on emerging market ETFs."
+    },
+    {
+      "title": "TSMC secures Apple's 5G modem chip manufacturing order, Ardentec benefits",
+      "section": "金融",
+      "date": "2026/05/11 02:22:07",
+      "url": "https://money.udn.com/money/story/5612/9494061?from=edn_subcatelist_cate",
+      "summary": "Despite reports of Apple diversifying chip orders to Intel, TSMC (2330) has secured the entire manufacturing order for Apple's self-developed 5G modem chips using 2nm process technology. Apple plans to use its internally developed 5G modem chip C2 across iPhone, iPad, and Apple Watch starting next year, replacing Qualcomm modems. The chip volume is estimated at over 100 million units. TSMC has outsourced backend testing to its affiliate Ardentec (3374), which is urgently procuring 600 testing machines to handle the massive order. The new capacity will gradually come online next year. This development reinforces TSMC's critical role in Apple's supply chain despite potential diversification efforts."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC Technology Forum scheduled for May 14 in Hsinchu, to outline capacity expansion plans",
+      "section": "金融",
+      "date": "2026/05/10 01:33:20",
+      "url": "https://money.udn.com/money/story/11162/9492702?from=edn_maintab_cate",
+      "summary": "TSMC (2330) will hold its Taiwan Technology Forum on May 14 in Hsinchu, continuing the \"Expanding AI with Leadership Silicon\" theme. The event will showcase advanced logic technologies including 3nm, 2nm, A16, A14 processes, advanced packaging developments, and capacity expansion plans. TSMC is building nine fabs this year, nearly half for advanced packaging, representing double the historical construction pace."
+    },
+    {
+      "title": "Contract manufacturers boost AI capex, Hon Hai and others position for server infrastructure growth",
+      "section": "金融",
+      "date": "2026/05/10 02:36:08",
+      "url": "https://money.udn.com/money/story/5612/9492838?from=edn_maintab_cate",
+      "summary": "Major Taiwan contract manufacturers including Hon Hai (2317), Quanta (2382), Wistron (3231), Wiwynn (6669), and Inventec (2356) are significantly increasing capital expenditure to capture AI server growth. Hon Hai's capex is expected to rise over 30% this year, while Quanta plans to increase from NT$17-20 billion to NT$30 billion. These companies are investing in global manufacturing facilities and automation to support triple-digit growth in AI-related products."
+    },
+    {
+      "title": "Shipping container lines announce Q1 earnings this week, focus on Wan Hai, Yang Ming, Evergreen",
+      "section": "金融",
+      "date": "2026/05/10 01:30:33",
+      "url": "https://money.udn.com/money/story/5612/9492703?from=edn_maintab_cate",
+      "summary": "Container shipping companies will report Q1 earnings this week, with Wan Hai (2615) leading on May 12, followed by Yang Ming (2609) on May 13, and Evergreen (2603) and Taiwan High Speed Rail (2636) on May 14. All four companies reported year-over-year and month-over-month revenue growth in April for the first time in nearly a year, driven by supply chain instability and early ordering ahead of peak season."
+    },
+    {
+      "title": "Insurance industry recommends policy health checks for Mother's Day, highlighting two key risks",
+      "section": "金融",
+      "date": "2026/05/10 15:54:33",
+      "url": "https://money.udn.com/money/story/11162/9493544?from=edn_subcatelist_cate",
+      "summary": "Insurance brokers recommend comprehensive policy reviews focusing on long-term care and longevity risks as Taiwan's average lifespan exceeds 80 years with 8.4 years requiring long-term care. Medical inflation reached 4.47% in March 2024, necessitating adequate coverage for advanced medical procedures and premium healthcare services."
+    }
+  ],
+  "not_relevant": []
+}
