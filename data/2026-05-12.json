@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-12",
+  "update_time": "2026-05-11 23:35:04",
+  "total_articles": 23,
+  "high": [
+    {
+      "title": "Taiwan Dollar Closes at 31.415, Appreciates 1.4 Cents",
+      "section": "證券",
+      "date": "2026/05/11 16:28:09",
+      "url": "https://money.udn.com/money/story/12509/9495494?from=edn_subcatelist_cate",
+      "summary": "The Taiwan dollar closed at 31.415 against the US dollar on May 11, appreciating 1.4 cents from the previous trading day's close of 31.429. The currency traded in a narrow range with an intraday high of 31.35 and low of 31.43, opening at 31.41. Total turnover reached $1.54 billion. This modest appreciation reflects continued foreign interest in Taiwan assets despite recent volatility. The TWD's strength comes amid robust export performance and sustained semiconductor demand, though central bank intervention policies continue to moderate excessive volatility. For fund managers, the stable TWD environment supports export-oriented tech companies' earnings predictability while maintaining Taiwan's export competitiveness in global markets."
+    },
+    {
+      "title": "TSMC Secures Apple's Modem Chip Orders",
+      "section": "金融",
+      "date": "2026/05/11 02:22:07",
+      "url": "https://money.udn.com/money/story/5612/9494061?from=edn_subcatelist_cate",
+      "summary": "Despite media reports of Intel potentially securing some Apple orders, TSMC (2330) has reportedly won the entire contract for Apple's self-developed 5G modem chips using 2nm process technology. Industry sources indicate Apple plans to phase out Qualcomm modems across iPhone, iPad, and Apple Watch, with self-developed C2 chips supporting both millimeter wave and satellite communications. The order volume is estimated at over 100 million chips annually. TSMC's subsidiary Advanced Semiconductor Engineering (ASE) is reportedly purchasing 600 test machines to handle backend testing, with new capacity coming online next year. This reinforces TSMC's dominant position in Apple's supply chain despite competitive pressures from Intel, securing long-term revenue streams from Apple's most critical components."
+    },
+    {
+      "title": "Taiwan Stock Index Closes at 41,790 Points, Up 186 Points",
+      "section": "證券",
+      "date": "2026/05/11 15:08:09",
+      "url": "https://money.udn.com/money/story/12509/9495306?from=edn_subcatelist_cate",
+      "summary": "Taiwan stocks closed higher on May 11, with the TAIEX gaining 186.12 points (0.44%) to 41,790.06, reaching an intraday high of 42,021.78 points. Despite TSMC's 2.4% decline to NT$2,235 due to Intel competition concerns, MediaTek (2454) surged 6.88% to lead the rally. Market breadth was positive with 616 advancing stocks versus 486 decliners. Trading volume reached NT$1.11 trillion. The rally was broad-based with strong performance in electronic components and networking stocks, including Accton (2345) up 9.05% and Qorvo (3017) up 4.49%. Financial stocks underperformed with Fubon Financial (2881) down 1.24%. The index remains near historical highs, supported by continued AI sector momentum and strong semiconductor demand despite individual stock rotations."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MediaTek Leads Taiwan Stock Rally as Mid-Cap Stocks Bloom, OTC Index Hits Record High",
+      "section": "證券",
+      "date": "2026/05/12 01:40:18",
+      "url": "https://money.udn.com/money/story/5607/9496271?from=edn_maintab_cate",
+      "summary": "With TSMC taking a breather, MediaTek led Taiwan stocks higher as mid-cap stocks continued their rally. The OTC index reached a record high of 422.01 points, up 3.07%. Investment advisory firms suggest the market remains bullish with support around 40,500-43,500 points. Key upcoming catalysts include Q1 earnings reports, Nvidia's May 20 results, and Computex 2026 on June 2. Foreign investors sold NT$10.98 billion while domestic institutions bought NT$12.48 billion for the 14th consecutive session."
+    },
+    {
+      "title": "J.P. Morgan Bullish on Taiwan's AI Hardware Chain",
+      "section": "證券",
+      "date": "2026/05/11 02:13:31",
+      "url": "https://money.udn.com/money/story/5607/9494073?from=edn_maintab_cate",
+      "summary": "J.P. Morgan strategists highlight that hardware remains the profit pillar of AI themes, with Taiwan stocks serving as the most effective benchmark for this trend. South Korean and Taiwan markets led global gains this month, up 13.6% and 6.9% respectively, driven by Samsung, SK Hynix, and TSMC's dominance in AI hardware. The bank recommends bullish positioning ahead of the Trump-Xi summit, expecting continued outperformance from emerging market ETFs with AI exposure."
+    },
+    {
+      "title": "China Steel Expected to Raise June Prices for Sixth Consecutive Month",
+      "section": "金融",
+      "date": "2026/05/11 02:04:08",
+      "url": "https://money.udn.com/money/story/10871/9494007?from=edn_maintab_cate",
+      "summary": "China Steel (2002) is expected to announce its sixth consecutive monthly price increase for June, potentially marking the longest rally since 2020. Hot-rolled steel prices may rise by over NT$1,000 for the third straight month, driven by high raw material costs and strong Asian steel market conditions. Iron ore prices remain above $110/ton while coking coal stays elevated due to geopolitical factors. The steel sector recovery is supported by inventory restocking and seasonal demand upturn."
+    }
+  ],
+  "not_relevant": []
+}
