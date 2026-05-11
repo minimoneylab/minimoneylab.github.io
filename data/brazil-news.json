@@ -1,42 +1,35 @@
 {
-  "date": "2026-05-10",
-  "update_time": "2026-05-10 08:30:16",
+  "date": "2026-05-11",
+  "update_time": "2026-05-11 10:27:15",
   "total_articles": 7,
   "high": [
     {
-      "title": "USD Falls and Closes Below R$ 4.90 for First Time Since January 2024",
+      "title": "Economists Raise Inflation for 2026; See This Monday's (11th) Focus Report",
       "source": "MoneyTimes",
-      "date": "2026-05-09",
-      "url": "https://www.moneytimes.com.br/dolar-8-5-26-lils/",
-      "summary": "The USD/BRL closed at R$ 4.8939 on Friday, falling 0.60% and marking the lowest level since January 15, 2024. The Brazilian real strengthened following strong U.S. employment data that reinforced expectations of higher U.S. interest rates for longer, and investor optimism about progress in Middle East peace negotiations. The dollar's weakness was broad-based, with the DXY index down 0.16% to 97.910 points. For the week, the dollar accumulated a 1.19% decline against the real. Markets continue monitoring geopolitical developments, particularly U.S.-Iran negotiations despite recent attacks between the two countries. This BRL strength is significant for international investors as it breaks through a key technical level and suggests potential for further real appreciation if global risk sentiment improves and Brazil maintains its monetary policy trajectory."
+      "date": "2026-05-11",
+      "url": "https://www.moneytimes.com.br/economistas-elevam-inflacao-novamente-veja-o-focus-desta-segunda-feira-11-jals/",
+      "summary": "Economists surveyed by the Central Bank adjusted their inflation projections for the ninth consecutive time, according to the Focus Bulletin released Monday morning. IPCA expectations for 2026 increased from 4.89% to 4.91%, exceeding the Central Bank's inflation target tolerance band. For 2027-2029, estimates remained at 4%, 3.64%, and 3.50% respectively. Selic rate forecasts stayed at 13% for this year, while 2027 projections rose to 11.25%. USD/BRL forecasts point to R$5.20 by year-end 2026, with subsequent years at R$5.30, R$5.35, and R$5.40. GDP growth is expected at 1.85% for 2026. This persistent upward revision in inflation expectations signals continued pressure on BCB monetary policy, suggesting the current restrictive stance may need to be maintained longer than previously anticipated. The breach of the inflation target tolerance band reinforces concerns about Brazil's fiscal sustainability and its impact on price stability, which could keep BRL under pressure and government bond yields elevated."
     },
     {
-      "title": "Lack of Clear Direction: COPOM Minutes Generate Divergent Market Readings and Keep IPCA+ 10.6% Annual Opportunities in Focus",
+      "title": "New Desenrola: How High Interest Rates Pressure Household Debt? Check It Out",
       "source": "MoneyTimes",
-      "date": "2026-05-09",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/sem-direcao-clara-ata-do-copom-gera-leituras-divergentes-no-mercado-e-mantem-oportunidades-de-ipca-106-ao-ano-no-radar-lbrdis580/",
-      "summary": "The Central Bank released COPOM meeting minutes detailing the decision to cut the Selic rate by 0.25 percentage points to 14.50% annually. However, the minutes generated divergent interpretations among investors regarding future monetary policy direction. Some market participants interpreted the tone as dovish, suggesting confidence in economic deceleration to sustain the cutting cycle. Others, including Empiricus Research's Lais Costa, viewed it as more hawkish. This uncertainty creates opportunities in inflation-linked bonds (IPCA+) yielding 10.6% annually, as markets remain unclear about the pace and extent of future rate cuts. The mixed signals are crucial for fixed income investors positioning for the next phase of Brazil's monetary cycle."
+      "date": "2026-05-10",
+      "url": "https://www.moneytimes.com.br/novo-desenrola-como-os-juros-altos-pressionam-endividamento-das-familias-entenda-apsa/",
+      "summary": "Economists assess that Brazil's elevated Selic rate combined with high banking spreads have contributed to increased household debt, prompting the government to launch the new \"Desenrola\" debt relief program. Banking spreads reached 34.6 percentage points in March versus 29.7 p.p. in March 2025, compared to the World Bank's global average of around 6 p.p. This elevated cost of credit directly impacts household finances and economic activity, highlighting the transmission mechanism of BCB's restrictive monetary policy on the real economy and creating fiscal pressures that may influence future rate decisions."
     }
   ],
   "medium": [
     {
-      "title": "Petrobras: Abreu e Lima Breaks Diesel Production Record in April",
+      "title": "Compass Debuts Today on B3, First IPO in Five Years; At Start, Potential Reaches 57%, Says Analyst",
       "source": "MoneyTimes",
-      "date": "2026-05-09",
-      "url": "https://www.moneytimes.com.br/petrobras-abreu-e-lima-bate-recorde-de-producao-de-diesel-em-abril-vtra/",
-      "summary": "Petrobras' Abreu e Lima refinery in Pernambuco set a new diesel S-10 production record in April with 385 million liters, surpassing the previous record from 2016. The increase follows a capacity expansion project completed in 2025 that boosted refinery capacity to 130,000 barrels/day, resulting in approximately 60% higher diesel production compared to the same period last year. This operational improvement supports Petrobras' 2026-2030 business plan and helps mitigate impacts from global geopolitical tensions."
-    },
-    {
-      "title": "New Desenrola: How High Interest Rates Pressure Family Debt?",
-      "source": "MoneyTimes",
-      "date": "2026-05-10",
-      "url": "https://www.moneytimes.com.br/novo-desenrola-como-os-juros-altos-pressionam-endividamento-das-familias-entenda-apsa/",
-      "summary": "Economists highlight that Brazil's elevated Selic rate combined with high banking spreads contributes to increased household debt, prompting the government to launch the \"Novo Desenrola\" program. Brazil's banking spread reached 34.6 percentage points in March, compared to a global average of around 6 p.p. according to the World Bank. The high Selic rate directly affects lending rates to families, pressuring household finances and economic activity."
+      "date": "2026-05-11",
+      "url": "https://www.moneytimes.com.br/compass-estreia-hoje-na-b3-em-primeiro-ipo-em-quatro-anos-de-largada-analista-ve-potencial-de-ate-57-rnda/",
+      "summary": "Compass, a gas distribution company from Cosan group, breaks Brazil's four-year IPO drought with its B3 debut. The company priced its offering at R$28, at the bottom of the range, raising R$3.2 billion and achieving a R$20 billion valuation. While pricing at the floor reflects weak market conditions amid Iran war uncertainties, EQI analysts see potential upside to R$42-44, representing up to 57% gains. This marks a significant milestone for Brazilian capital markets."
     }
   ],
   "not_relevant": [
-    "Wall Street Advances with Strong Payroll and AI-Related Stocks; S&P 500 and Nasdaq Hit New Records",
-    "Dividend Stocks, Small Caps, Real Estate Funds and More Recommendations for May Investing",
-    "Delta AI: Learn About the New Software Launching This Monday (11) and See How to Seek Automated Crypto Profits"
+    "Dividend Stocks, Small Caps, Real Estate Funds and More Investment Recommendations for May",
+    "Delta AI: Meet the New Software Launching This Monday (11th) and See How to Seek Automated Profits with Cryptocurrencies",
+    "Bitcoin (BTC) Starts Week Higher and Encourages Cryptocurrency Market; See What to Expect"
   ]
 }
