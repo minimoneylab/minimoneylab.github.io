@@ -1,35 +1,58 @@
 {
-  "date": "2026-05-11",
-  "update_time": "2026-05-11 10:27:15",
-  "total_articles": 7,
+  "date": "2026-05-12",
+  "update_time": "2026-05-12 09:26:55",
+  "total_articles": 11,
   "high": [
     {
-      "title": "Economists Raise Inflation for 2026; See This Monday's (11th) Focus Report",
+      "title": "Economists Raise 2026 Inflation Again; See Monday's Focus (11)",
       "source": "MoneyTimes",
       "date": "2026-05-11",
       "url": "https://www.moneytimes.com.br/economistas-elevam-inflacao-novamente-veja-o-focus-desta-segunda-feira-11-jals/",
-      "summary": "Economists surveyed by the Central Bank adjusted their inflation projections for the ninth consecutive time, according to the Focus Bulletin released Monday morning. IPCA expectations for 2026 increased from 4.89% to 4.91%, exceeding the Central Bank's inflation target tolerance band. For 2027-2029, estimates remained at 4%, 3.64%, and 3.50% respectively. Selic rate forecasts stayed at 13% for this year, while 2027 projections rose to 11.25%. USD/BRL forecasts point to R$5.20 by year-end 2026, with subsequent years at R$5.30, R$5.35, and R$5.40. GDP growth is expected at 1.85% for 2026. This persistent upward revision in inflation expectations signals continued pressure on BCB monetary policy, suggesting the current restrictive stance may need to be maintained longer than previously anticipated. The breach of the inflation target tolerance band reinforces concerns about Brazil's fiscal sustainability and its impact on price stability, which could keep BRL under pressure and government bond yields elevated."
+      "summary": "Economists surveyed by the Central Bank adjusted inflation projections for the ninth consecutive time according to the Focus Bulletin. IPCA expectations for 2026 rose from 4.89% to 4.91%, above the Central Bank's tolerance range for the inflation target. For 2027-2029, estimates remained at 4%, 3.64%, and 3.50% respectively. Selic rate forecasts held at 13% for this year but rose to 11.25% for 2027, staying at 10% for 2028-2029. USD/BRL is expected at R$ 5.20 by year-end, with projections of R$ 5.30, R$ 5.35, and R$ 5.40 for 2027-2029. This persistent inflation overshoot signals continued hawkish Central Bank stance and prolonged high real rates, supporting BRL but weighing on equities. The sticky inflation above target despite tight monetary policy suggests structural pressures that could delay the easing cycle, keeping Brazilian assets in a high-carry environment."
     },
     {
-      "title": "New Desenrola: How High Interest Rates Pressure Household Debt? Check It Out",
+      "title": "April IPCA Rises 0.67% and Accumulates 4.39% Increase, Within Expectations",
       "source": "MoneyTimes",
-      "date": "2026-05-10",
-      "url": "https://www.moneytimes.com.br/novo-desenrola-como-os-juros-altos-pressionam-endividamento-das-familias-entenda-apsa/",
-      "summary": "Economists assess that Brazil's elevated Selic rate combined with high banking spreads have contributed to increased household debt, prompting the government to launch the new \"Desenrola\" debt relief program. Banking spreads reached 34.6 percentage points in March versus 29.7 p.p. in March 2025, compared to the World Bank's global average of around 6 p.p. This elevated cost of credit directly impacts household finances and economic activity, highlighting the transmission mechanism of BCB's restrictive monetary policy on the real economy and creating fiscal pressures that may influence future rate decisions."
+      "date": "2026-05-12",
+      "url": "https://www.moneytimes.com.br/ipca-de-abril-sobe-067-e-acumula-alta-de-439-dentro-das-expectativas-jcav/",
+      "summary": "Brazil's official inflation accelerated with IPCA rising 0.67% in April, matching market expectations exactly. The 12-month accumulated inflation reached 4.39%, still within the Central Bank's tolerance range of 3% ±1.5pp but approaching the upper limit. This compares to 0.88% in March and 0.43% in April 2025. Food and beverages led the increase with 1.34% monthly rise, contributing 0.29pp to the index, followed by health and personal care. The result confirms inflation persistence near the tolerance ceiling, supporting the Central Bank's hawkish stance and high Selic rates. With inflation expectations consistently above target in the Focus survey, this data reinforces market views that aggressive monetary tightening will continue, benefiting BRL carry trades while pressuring interest-sensitive sectors. Bond yields likely to remain elevated as real rates stay restrictive."
+    },
+    {
+      "title": "Market Reacts to Petrobras' R$ 9 Billion JCP and IPCA; Ibovespa in Dollars Falls",
+      "source": "MoneyTimes",
+      "date": "2026-05-12",
+      "url": "https://www.moneytimes.com.br/mercado-repercute-jcp-de-r-9-bilhoes-da-petrobras-petr4-e-ipca-ibovespa-em-dolar-sobe-hoje-12/",
+      "summary": "Brazilian markets are digesting Petrobras' Q1 2026 results showing net profit of R$ 32.7 billion, down 7.2% year-over-year. The company approved R$ 9 billion in shareholder remuneration (R$ 0.70 per share) as an advance on 2026 payments, to be distributed in two equal tranches via interest on equity (JCP) in August and September. Ex-dividend date is June 2nd. The substantial dividend payout supports Petrobras as a defensive play amid market volatility, though the profit decline reflects challenging operational conditions. Combined with today's IPCA release showing inflation at 4.39% (near target ceiling), markets face mixed signals. High oil prices from Middle East conflict support Petrobras fundamentals while persistent inflation reinforces Central Bank hawkishness, benefiting BRL but creating headwinds for broader equity valuations."
     }
   ],
   "medium": [
     {
-      "title": "Compass Debuts Today on B3, First IPO in Five Years; At Start, Potential Reaches 57%, Says Analyst",
+      "title": "Compass Debuts Today on B3, First IPO in Five Years; Analyst Sees Up to 57% Potential from Start",
       "source": "MoneyTimes",
       "date": "2026-05-11",
       "url": "https://www.moneytimes.com.br/compass-estreia-hoje-na-b3-em-primeiro-ipo-em-quatro-anos-de-largada-analista-ve-potencial-de-ate-57-rnda/",
-      "summary": "Compass, a gas distribution company from Cosan group, breaks Brazil's four-year IPO drought with its B3 debut. The company priced its offering at R$28, at the bottom of the range, raising R$3.2 billion and achieving a R$20 billion valuation. While pricing at the floor reflects weak market conditions amid Iran war uncertainties, EQI analysts see potential upside to R$42-44, representing up to 57% gains. This marks a significant milestone for Brazilian capital markets."
+      "summary": "Compass (PASS3), Cosan's gas distribution unit, breaks Brazil's four-year IPO drought with its B3 debut. The company priced at R$ 28 (bottom of range), raising R$ 3.2 billion and achieving R$ 20 billion valuation. EQI analysts set price target of R$ 42-44, implying up to 57% upside potential. The bottom-range pricing reflects weak market conditions amid Middle East war uncertainties but may create opportunities for investors in this established, solid company."
+    },
+    {
+      "title": "Itaúsa (ITSA4), Petrobras (PETR4), Raízen (RAIZ4) and Other Highlights This Tuesday (12)",
+      "source": "MoneyTimes",
+      "date": "2026-05-12",
+      "url": "https://www.moneytimes.com.br/radar-do-mercado-destaques-corporativos-hoje-petrobras-itausa-raizen-12-05-2026-lmrs/",
+      "summary": "Itaúsa (ITSA4) reported Q1 2026 recurring net profit of R$ 4.49 billion, up 17% year-over-year, with ROE reaching 20.1% vs 17.4% previously. Results were driven by Itaú Unibanco's 11% improvement and 76% surge in non-financial investments. Administrative expenses rose 10.8% to R$ 44 million. The strong performance reflects the resilience of Brazil's banking sector amid high interest rate environment."
+    },
+    {
+      "title": "Petrobras (PETR4): Company ADRs Oscillate in New York Despite R$ 9 Billion JCP and Oil Price Rise",
+      "source": "MoneyTimes",
+      "date": "2026-05-12",
+      "url": "https://www.moneytimes.com.br/petrobras-petr4-adrs-da-estatal-oscilam-em-nova-york-apesar-de-r-9-bilhoes-em-jcp-e-alta-do-petroleo-jals/",
+      "summary": "Petrobras ADRs trade mixed in NY pre-market despite announcing R$ 9 billion JCP payment and rising oil prices from Middle East conflict. PBR fell 0.24% to $20.70 while PBRa gained 0.11% to $18.95. Brent crude surged 3.55% to $107.89 and WTI rose 3.79% to $101.80. Q1 net profit was R$ 32.7 billion, down 7.2% year-over-year, with revenues of R$ 123.7 billion."
     }
   ],
   "not_relevant": [
-    "Dividend Stocks, Small Caps, Real Estate Funds and More Investment Recommendations for May",
-    "Delta AI: Meet the New Software Launching This Monday (11th) and See How to Seek Automated Profits with Cryptocurrencies",
-    "Bitcoin (BTC) Starts Week Higher and Encourages Cryptocurrency Market; See What to Expect"
+    "Dividend Stocks, Small Caps, Real Estate Funds and More Recommendations for Investing in May",
+    "Bitcoin (BTC) Starts Week Higher and Encourages Cryptocurrency Market; See What to Expect",
+    "Up to R$ 1 Million with Memecoin AI? Learn About Automation That Daily Searches for the Best Cryptocurrency Investments",
+    "Bitcoin (BTC) Falls Before US Inflation and Trump-China Meeting; See Tuesday Cryptocurrency Prices (12)",
+    "US Consumer Inflation Expected to Have Increased Further in April Amid Iran War"
   ]
 }
