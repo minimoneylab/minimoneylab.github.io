@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-13",
+  "update_time": "2026-05-12 23:40:56",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "TSMC Raises Q1 2026 Quarterly Dividend to 7 TWD, Benefiting Over 2.55 Million Shareholders",
+      "section": "證券",
+      "date": "2026/05/13 01:30:05",
+      "url": "https://money.udn.com/money/story/5607/9498782?from=edn_maintab_cate",
+      "summary": "TSMC's board approved raising its Q1 2026 quarterly dividend to 7 TWD per share, a record high for quarterly dividends and a 16.7% increase from the previous 6 TWD. This will distribute 181.53 billion TWD in cash to 2.553 million shareholders. The ex-dividend date is set for September 16, with payment on October 8. The National Development Fund will receive 11.58 billion TWD, marking the first time dividend income exceeds 10 billion TWD. Analysts expect TSMC's annual cash dividend to exceed 28 TWD based on strong free cash flow, with the company maintaining a 70% cash flow payout ratio while aiming for steady increases."
+    },
+    {
+      "title": "Taiwan Index Futures Night Session Shows Volatility with 466-Point Intraday Decline",
+      "section": "產經",
+      "date": "2026/05/12 21:10:50",
+      "url": "https://money.udn.com/money/story/11112/9498526",
+      "summary": "Taiwan index futures night session opened down 104 points at 41,600, then plunged to an intraday low of 41,238, representing a 466-point (-1%) decline amid suspected large sell orders. The drop initially exceeded US tech stock electronic trading declines but recovered after the US April CPI release, narrowing to around 290 points down by 21:00. The volatility was attributed to Middle East tensions pushing oil prices above $100 and US inflation data showing 3.8% year-over-year growth, the highest since September 2025. Foreign institutional investors held net short positions of 53,072 contracts in Taiwan index futures."
+    }
+  ],
+  "medium": [
+    {
+      "title": "US Markets Close: S&P 500 and Nasdaq Hit New Highs, AI Stock Rally Continues, Philadelphia Semiconductor Index Surges 2.6%",
+      "section": "金融",
+      "date": "2026/05/12 07:14:46",
+      "url": "https://money.udn.com/money/story/123398/9496525",
+      "summary": "US markets closed higher on Monday with S&P 500, Nasdaq, and Philadelphia Semiconductor Index reaching new closing highs. The Philadelphia Semiconductor Index gained 2.59%, driven by AI-related optimism despite inflation concerns from rising oil prices amid stalled US-Iran peace talks."
+    },
+    {
+      "title": "TSMC CoWoS Supply Shortage: Intel Reportedly Securing Advanced Packaging Orders",
+      "section": "金融",
+      "date": "2026/05/12 01:33:10",
+      "url": "https://money.udn.com/money/story/5612/9496256?from=edn_maintab_cate",
+      "summary": "Korean media reports SK Hynix is considering Intel's EMIB advanced packaging technology as an alternative to TSMC's CoWoS due to supply constraints. This follows reports of Intel potentially securing some Apple chip orders, intensifying competition in both advanced manufacturing and packaging segments."
+    },
+    {
+      "title": "MediaTek Leads Rally as TSMC Takes Break; Taiwan Stock Index Hits Historical Second High",
+      "section": "證券",
+      "date": "2026/05/12 01:40:18",
+      "url": "https://money.udn.com/money/story/5607/9496271?from=edn_maintab_cate",
+      "summary": "With TSMC declining, MediaTek led the market higher, reaching a new historical high of 3,880 TWD (+250 TWD). The weighted index briefly surpassed 42,000 points, closing at 41,790 points for a historical second high. The OTC index hit a new record at 422.01 points."
+    },
+    {
+      "title": "Hon Hai's CPO Switch Cabinets Reportedly Shipped Early to NVIDIA",
+      "section": "金融",
+      "date": "2026/05/13 00:10:43",
+      "url": "https://money.udn.com/money/story/5612/9498697?from=edn_maintab_cate",
+      "summary": "Market sources indicate Hon Hai's all-optical CPO switch cabinets have been shipped early to NVIDIA, with shipment targets revised upward from 10,000 units to over 50,000 units for 2026-2027. The high-margin CPO business is expected to contribute over 15% of Industrial Fulian's revenue."
+    }
+  ],
+  "not_relevant": []
+}
