@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-14",
+  "update_time": "2026-05-13 23:41:21",
+  "total_articles": 29,
+  "high": [
+    {
+      "title": "US Stocks Close: Chip Stocks Plunge Dragging Down US Markets, High Inflation and Rising Oil Prices Eliminate Rate Cut Hopes",
+      "section": "金融",
+      "date": "2026/05/13 07:04:51",
+      "url": "https://money.udn.com/money/story/123398/9499070",
+      "summary": "US markets closed lower Tuesday as chip stocks led the decline, dragging down major indices. April CPI surged to 3.8% year-over-year, exceeding expectations, driven by gasoline and food prices. Oil prices broke above $100 with Brent crude up 3.4% to $107.77/barrel. The Philadelphia Semiconductor Index plummeted 3%, with constituents including Qualcomm down 11%, Broadcom, Intel and Micron all ranking among the top five decliners. TSMC ADR fell 1.8%. The 10-year Treasury yield rose to 4.462%, the highest closing level since May 2025. Market expectations for Fed rate cuts this year have virtually evaporated, with rate hike probabilities rising instead. CME FedWatch shows December rate hike odds increased from 21.5% Monday to 30.5%. This has significant implications for Taiwan's monetary policy expectations and capital flows into emerging markets including Taiwan."
+    },
+    {
+      "title": "Hon Hai's Second Growth Curve Takes Shape: Full-Optical CPO Switch Cabinets Reportedly Ship Early to Nvidia",
+      "section": "金融",
+      "date": "2026/05/13 00:10:43",
+      "url": "https://money.udn.com/money/story/5612/9498697?from=edn_maintab_cate",
+      "summary": "Market sources report Hon Hai's full-optical CPO switch cabinets have shipped early to major customer Nvidia, with shipment forecasts upgraded from over 10,000 units in 2026 to over 50,000 units in 2026-2027. CPO products deliver double-digit gross margins and high ASP, expected to contribute over 15% of Foxconn Industrial Internet's revenue, bringing structural transformation to Hon Hai's profitability as the second growth curve. Hon Hai is Nvidia's sole ODM and design manufacturer for full-optical CPO, directly benefiting from global AI computing expansion. Traditional server manufacturing gross margins are only 5-8%, while CPO switches achieve double-digit margins. This represents a critical technological shift in AI infrastructure, with CPO technology significantly improving transmission efficiency while reducing power consumption."
+    },
+    {
+      "title": "TSMC Partners with Applied Materials to Accelerate Advanced Process Development, Targeting AI Scaling",
+      "section": "金融",
+      "date": "2026/05/13 01:54:36",
+      "url": "https://money.udn.com/money/story/5612/9498779?from=edn_subcatelist_cate",
+      "summary": "TSMC has launched a new collaboration with Applied Materials to develop next-generation semiconductor device scaling materials, equipment and process technologies, targeting AI scaling acceleration. The partnership will be conducted at Applied's new EPIC center in Silicon Valley, focusing on advanced logic node improvements for AI and HPC demands, new materials for next-generation manufacturing equipment, and advanced process integration methods for vertical stacking architectures. This collaboration breaks traditional \"supplier-customer\" models by involving equipment makers in early R&D phases. The partnership addresses unprecedented complexity challenges in semiconductor manufacturing blueprints and leverages full solar energy potential through AI. This strategic alliance strengthens TSMC's advanced process development capabilities and competitive positioning in AI markets."
+    },
+    {
+      "title": "TSMC Raises Q1 2026 Quarterly Dividend to NT$7, Over 2.55 Million Shareholders Benefit",
+      "section": "證券",
+      "date": "2026/05/13 01:30:05",
+      "url": "https://money.udn.com/money/story/5607/9498782?from=edn_maintab_cate",
+      "summary": "TSMC's board approved raising Q1 2026 quarterly dividend to NT$7 per share, a new record high, representing a 16.7% increase from the previous NT$6. The company will distribute NT$181.526 billion in cash to 2.553 million shareholders. Ex-dividend date is September 16 with payment on October 8. TSMC typically raises quarterly dividends every two quarters, with analysts expecting 2026 annual cash dividends to reach NT$28 or higher. The board also approved a capital budget of approximately US$31.284 billion (NT$984.8 billion) for advanced process capacity, facility construction and utility infrastructure, plus up to US$20 billion for TSMC Arizona subsidiary capitalization. This demonstrates TSMC's strong cash flow generation and commitment to aggressive capacity expansion supporting AI demand growth."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Samsung Labor Negotiations Break Down, New Wave of Memory Price Increases Looming, Taiwan Companies Like Nanya Tech and Winbond Benefit",
+      "section": "金融",
+      "date": "2026/05/14 01:12:52",
+      "url": "https://money.udn.com/money/story/5612/9501230?from=edn_maintab_cate",
+      "summary": "Samsung's labor negotiations collapsed, with over 40,000 union members planning an 18-day strike starting May 21. The potential strike could tighten memory supply further and trigger new price increases, benefiting Taiwan memory manufacturers like Nanya Tech and Winbond who could capture additional orders and higher pricing power."
+    },
+    {
+      "title": "Hon Hai Expands Territory: Attacks African Sovereign AI to Build Localized Computing Capabilities",
+      "section": "金融",
+      "date": "2026/05/14 01:22:09",
+      "url": "https://money.udn.com/money/story/11162/9501313?from=edn_maintab_cate",
+      "summary": "African sovereign AI infrastructure company Amini announced strategic cooperation with Hon Hai and French AI/quantum computing company Bull to promote sovereign AI development in Africa and the Global South. This marks Hon Hai's first foray into African sovereign AI infrastructure, with modular AI data centers designed for African conditions."
+    },
+    {
+      "title": "US 30-Year Treasury Yield Breaks 5% for First Time Since 2007 as Inflation Erodes Bond Values",
+      "section": "金融",
+      "date": "2026/05/14 07:04:38",
+      "url": "https://money.udn.com/money/story/5599/9501588",
+      "summary": "The US 30-year Treasury auction yielded 5.046%, breaking above 5% for the first time since 2007. Rising inflation expectations from Iran war effects have pushed long-term yields up about 0.4 percentage points since the conflict began. April PPI surged to 6% year-over-year, the highest since December 2022, raising concerns about escalating government financing costs."
+    },
+    {
+      "title": "MSCI Weight Adjustments: Taiwan Stocks Achieve \"Triple Upgrade\" Grand Slam, Market Welcomes NT$250 Billion Inflow",
+      "section": "證券",
+      "date": "2026/05/14 01:16:25",
+      "url": "https://money.udn.com/money/story/5607/9501296?from=edn_maintab_cate",
+      "summary": "MSCI announced Taiwan's weight increases across three key indices effective May 29: Global Market Index weight rose 0.01 percentage points, Emerging Markets Index weight up 0.3 percentage points (highest among emerging markets), and Asia ex-Japan Index weight up 0.37 percentage points. Fund managers estimate NT$150-250 billion in passive fund inflows."
+    },
+    {
+      "title": "Asus: Server Business Revenue to Double This Year, High Order Visibility for This Quarter and Second Half",
+      "section": "金融",
+      "date": "2026/05/13 02:11:46",
+      "url": "https://money.udn.com/money/story/11162/9498700?from=edn_subcatelist_cate",
+      "summary": "Asus upgraded its server business full-year outlook, expressing confidence in achieving 100% revenue growth from the previous 50-100% target range. The company has high order visibility for Q2 and second half, driven by Neo Cloud customer demand and enterprise AI inference requirements."
+    }
+  ],
+  "not_relevant": []
+}
