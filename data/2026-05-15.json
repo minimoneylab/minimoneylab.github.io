@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-15",
+  "update_time": "2026-05-14 23:33:13",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "US 30-Year Treasury Yield Breaks 5% for First Time Since 2007 as Inflation Erodes Bond Value",
+      "section": "金融",
+      "date": "2026/05/14 07:04:38",
+      "url": "https://money.udn.com/money/story/5599/9501588",
+      "summary": "The US 30-year Treasury auction yielded 5.046%, breaking the 5% threshold for the first time since 2007. Rising oil prices from the Iran conflict have pushed inflation expectations higher, with long-term yields climbing 0.4 percentage points since the war began. April PPI surged to 6% year-over-year, the highest since December 2022, while consumer prices hit 3.8%, a three-year high. This inflationary pressure is raising expectations for potential Fed rate hikes, with markets now pricing an 80% probability of additional tightening by April 2027, up from 56% earlier this week. For Taiwan's life insurers, this presents both challenges and opportunities - while higher yields could benefit new investments, existing bond portfolios face valuation pressures. The rising US yields may also influence Taiwan's monetary policy decisions and impact foreign investment flows into Taiwan's financial markets."
+    },
+    {
+      "title": "TSMC to Issue NT$18.4 Billion Green Bonds for Green Building and Environmental Projects",
+      "section": "金融",
+      "date": "2026/05/14 00:50:59",
+      "url": "https://money.udn.com/money/story/5612/9501251?from=edn_maintab_cate",
+      "summary": "TSMC announced the issuance of NT$18.4 billion in green bonds, split into 5-year (NT$13.7 billion at 1.8% rate) and 10-year (NT$4.7 billion at 1.85% rate) tranches. The proceeds will fund green building and environmental projects. This represents TSMC's continued commitment to ESG financing, following previous green bond issuances totaling over NT$1.5 trillion in recent years. The relatively low coupon rates reflect strong investor demand for TSMC paper and the company's strong credit profile. This issuance supports TSMC's massive capital expenditure program of $52-56 billion for 2026, approaching the upper end due to strong AI demand. For institutional investors and life insurers, these bonds offer stable, ESG-compliant investment opportunities with the backing of Taiwan's most valuable company."
+    },
+    {
+      "title": "Hon Hai Expands AI Infrastructure with Nearly NT$60 Billion Investment in Computing Centers",
+      "section": "金融",
+      "date": "2026/05/14 23:51:25",
+      "url": "https://money.udn.com/money/story/11162/9503768?from=edn_subcatelist_cate",
+      "summary": "Hon Hai announced major capital investments totaling nearly NT$60 billion to strengthen AI infrastructure and computing centers. This includes NT$30 billion additional investment in Asia Bay Supercomputing, US$537 million in Foxconn Assembly Holding Corporation, and US$407 million in Foxconn Singapore. Asia Bay Supercomputing is developing Taiwan's largest GPU cluster and the first facility to deploy NVIDIA GB300 NVL72 systems. The investments underscore Hon Hai's aggressive expansion in AI infrastructure as global AI investment is expected to exceed $1 trillion next year. This positions Hon Hai as a key beneficiary of the AI infrastructure boom and represents significant capital commitment to capture the AI opportunity across multiple regions."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MSCI Increases Taiwan Weights Across Three Major Indices, Bringing NT$150-250 Billion Inflows",
+      "section": "證券",
+      "date": "2026/05/14 01:16:25",
+      "url": "https://money.udn.com/money/story/5607/9501296?from=edn_maintab_cate",
+      "summary": "MSCI raised Taiwan's weight in three key indices: Global Emerging Markets (+0.3pp to 23.76%), Asia ex-Japan (+0.37pp to 27.16%), and Global Markets (+0.01pp to 2.80%). The adjustments take effect May 29th and are expected to bring NT$150-250 billion in passive fund inflows, reflecting Taiwan's strategic position in the global AI supply chain."
+    },
+    {
+      "title": "Taiwan Stock Market Rallies 377 Points as Foreign Investors Return, TSMC Leads Gains",
+      "section": "證券",
+      "date": "2026/05/15 01:17:53",
+      "url": "https://money.udn.com/money/story/5607/9503863?from=edn_maintab_cate",
+      "summary": "Taiwan stocks surged 377 points to 41,751 as foreign investors turned buyers (+NT$4.54 billion) after TSMC's technology forum. TSMC rose NT$50 to NT$2,270, helping the index recover above the 5-day moving average. However, the market left a 454-point upper shadow, indicating selling pressure at highs."
+    },
+    {
+      "title": "Hon Hai Reports Record Q1 Profit of NT$49.9 Billion, Expects Strong Growth Driven by AI",
+      "section": "金融",
+      "date": "2026/05/14 23:50:43",
+      "url": "https://money.udn.com/money/story/11162/9503770?from=edn_subcatelist_cate",
+      "summary": "Hon Hai posted record Q1 net income of NT$49.9 billion (+19% YoY, +10% QoQ) with EPS of NT$3.56. All three profitability ratios improved sequentially. CEO expects strong growth for 2026 with AI cabinet shipments to grow by multiples, and CPO switches to grow several-fold in 2027."
+    },
+    {
+      "title": "TSMC Unveils AI Three-Layer Cake Concept and COUPE Technology for Next-Gen Computing",
+      "section": "金融",
+      "date": "2026/05/15 00:48:37",
+      "url": "https://money.udn.com/money/story/5612/9503788?from=edn_maintab_cate",
+      "summary": "TSMC introduced its \"AI Three-Layer Cake\" concept focusing on Compute, 3D Integration, and Photonics. The company revealed 25 confirmed 2nm product designs with over 70 customer projects in planning. TSMC expects global semiconductor revenue to exceed $1 trillion this year, reaching $1.5 trillion by 2030, with AI/HPC contributing 55%."
+    },
+    {
+      "title": "New Taiwan Dollar Closes at 31.51 vs USD, Down 0.4 Cents",
+      "section": "證券",
+      "date": "2026/05/14 16:33:37",
+      "url": "https://money.udn.com/money/story/12509/9503049?from=edn_subcatelist_cate",
+      "summary": "The Taiwan dollar closed at 31.510 against the US dollar, weakening 0.4 cents from the previous session. Trading volume reached $1.367 billion with an intraday range of 31.485-31.531, reflecting continued pressure on Asian currencies amid rising US yields."
+    }
+  ],
+  "not_relevant": []
+}
