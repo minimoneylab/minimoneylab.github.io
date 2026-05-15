@@ -1,27 +1,28 @@
 {
-  "date": "2026-05-14",
-  "update_time": "2026-05-14 09:13:19",
-  "total_articles": 4,
+  "date": "2026-05-15",
+  "update_time": "2026-05-15 09:19:34",
+  "total_articles": 6,
   "high": [
     {
-      "title": "The 4 pillars supporting Vale (VALE3) in Empiricus' dividend portfolio",
+      "title": "Ibovespa Below 180,000 Points: Is There Still Room for Gains in the Stock Market?",
       "source": "MoneyTimes",
-      "date": "2026-05-13",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/os-4-pilares-que-sustentam-a-vale-vale3-na-carteira-de-dividendos-da-empiricus-alog-lbrdjr241/",
-      "summary": "Vale (VALE3) has returned to Empiricus' automated dividend portfolio in May, replacing SLC Agrícola (SLCE3) in a portfolio that has already delivered 28.7% returns in 2026 through April. Vale's inclusion is driven by consistent results evolution, particularly in its base metals division, which analysts call the \"crown jewel.\" The company reported Q1 2026 net profit of R$ 1.9 billion, up 29% year-over-year. This is significant for BRL markets as Vale is a major component of the Ibovespa and a key export revenue generator for Brazil. Strong Vale performance typically supports BRL strength through improved trade balance dynamics and increased foreign investment flows. The base metals division's outperformance suggests resilient demand for Brazil's mining exports, which could provide continued support for the Real and government revenues. International fund managers should monitor Vale's performance as a bellwether for broader Brazilian equity market sentiment and currency stability."
+      "date": "2026-05-15",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-abaixo-dos-180-mil-pontos-ainda-ha-espaco-para-ganhos-na-bolsa-alog-lbrdis583/",
+      "summary": "The Ibovespa has experienced a significant correction in early May, falling 4% in the first seven trading sessions and dropping below 180,000 points on Tuesday (12th) - a level not seen since March. This represents a notable reversal from April's strong performance, when the index closed with 16% gains year-to-date and nearly reached 200,000 points. According to Empiricus Research equity analyst Ruy Hungria, the recent decline reflects a more challenging macroeconomic environment driven by reduced risk appetite in the local market. A key factor behind the selloff is rising global inflation expectations, with higher inflation in the US and other major economies pressuring central banks toward more aggressive monetary tightening. This environment creates headwinds for Brazilian equities as investors reassess risk positions. The correction raises important questions about the sustainability of the Brazilian stock market rally and what investors should expect going forward."
     }
   ],
   "medium": [
     {
-      "title": "Bitcoin (BTC) loses $80,000 support amid inflation deterioration; see cryptocurrency prices this Thursday (14)",
+      "title": "Bitcoin (BTC) Loses $80,000 Support with Deteriorating Inflation; See Crypto Prices This Thursday (14)",
       "source": "MoneyTimes",
       "date": "2026-05-14",
       "url": "https://www.moneytimes.com.br/bom-dia-bitcoin-btc-criptomoedas-precos-hoje-rens-140526/",
-      "summary": "Bitcoin trades around $79,000 with a 1.5% decline in 24 hours as global crypto markets retreat following new US inflation data. The US PPI rose 1.4% quarterly and 6% annually in April - the largest increase since 2022, signaling corporate cost pressures are being passed to consumers amid the Iran conflict. This inflationary pressure could influence Federal Reserve policy, indirectly affecting emerging market flows including Brazil. Higher US rates typically strengthen the dollar against emerging market currencies like the BRL."
+      "summary": "Bitcoin fell below $80,000 support, trading around $79,000 with a 1.5% decline in 24 hours. The broader crypto market retreated as investors reacted to worsening US inflation data, with the Producer Price Index rising 1.4% quarterly and 6% annually - the highest since 2022. This signals corporate cost pressures are being passed to consumers amid geopolitical tensions. The inflation data reinforces expectations for more aggressive central bank policies globally, creating headwinds for risk assets including cryptocurrencies."
     }
   ],
   "not_relevant": [
-    "Real estate funds gained strength with Mercado Livre, Amazon, Shein and Shopee; see 3 REITs that can take advantage of the scenario",
-    "Microsoft (MSFT34) is among the 7 magnificent favorites of international equity analyst; check portfolio"
+    "Real Estate Investment Funds Gained Strength with Mercado Livre, Amazon, Shein and Shopee; See 3 REITs That Can Take Advantage of the Scenario (x2 articles)",
+    "Microsoft (MSFT34) Is Among the 7 Magnificent Favorites of International Stock Analyst; Check Portfolio",
+    "With End of 'Blouses Tax', Shopee and a REIT Segment Have Much to Celebrate; See 3 Recommendations to Invest in This Scenario"
   ]
 }
