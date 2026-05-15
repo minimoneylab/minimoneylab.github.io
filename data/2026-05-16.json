@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-16",
+  "update_time": "2026-05-15 23:33:18",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "Taiwan Dollar Depreciates 4.1 Cents to 31.551 Against USD",
+      "section": "證券",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/12509/9505248?from=edn_subcatelist_cate",
+      "summary": "The Taiwan Dollar depreciated 4.1 cents to close at 31.551 against the US dollar on May 15th, down from the previous session's close of 31.510. The currency traded in a range from a high of 31.450 to a low of 31.565, opening at 31.530. Daily turnover was $14.35 billion. This depreciation reflects ongoing pressure on the TWD amid regional geopolitical tensions and US dollar strength. For Taiwan's export-oriented economy, the weaker currency could provide some support to exporters but may pressure import costs. The depreciation trend warrants monitoring given Taiwan's significant role in global technology supply chains."
+    },
+    {
+      "title": "TSMC Announces Sale of 8.1% Stake in Vanguard International Semiconductor",
+      "section": "產經",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/5607/9505096",
+      "summary": "TSMC announced plans to sell up to 152 million shares of Vanguard International Semiconductor (VIS), representing 8.1% of VIS's outstanding shares, through block trading to financial investment institutions. The transaction value is estimated at NT$24.15-29.51 billion. After the sale, TSMC's stake in VIS will decrease from 27.1% to approximately 19%. TSMC emphasized this move reflects its long-term investment planning strategy and focus on core business. The sale will not affect strategic cooperation between the companies, including VIS's silicon interposer production for TSMC and GaN process technology licensing. This divestment signals TSMC's portfolio optimization as it concentrates resources on advanced semiconductor manufacturing."
+    },
+    {
+      "title": "Taiwan Stock Index Falls 579 Points to 41,173 After Brief Touch of 42,409",
+      "section": "證券",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/12509/9504908?from=edn_subcatelist_cate",
+      "summary": "Taiwan's stock market experienced extreme volatility on May 15th, initially surging 656 points to a new high of 42,408 before reversing sharply to close down 579 points at 41,173. The 1,391-point intraday range reflected profit-taking after the brief euphoria and concerns over Russia-Ukraine tensions. Trading volume expanded to NT$1.31 trillion. TSMC fell just 0.22% to NT$2,265, showing relative resilience. The market's performance was better than South Korea (down 7.5%) and Japan (down 2.3%). Foreign investors sold NT$104.2 billion while retail and institutional investors also turned sellers. The correction breaks the 5-day and 10-day moving averages, suggesting near-term consolidation despite strong AI fundamentals."
+    },
+    {
+      "title": "TSMC Unveils \"AI Three-Layer Cake\" Concept, Targets Smart Glasses as Key AI Device",
+      "section": "金融",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/5612/9503788?from=edn_maintab_cate",
+      "summary": "TSMC introduced its \"AI Three-Layer Cake\" concept at its 2026 Technology Forum, emphasizing future AI chip integration across three areas: Compute (logic operations), 3D Integration (3D stacking), and Photonics (optical transmission). Senior VP Chang Shih-chung highlighted smart glasses as the most promising AI device, stating they could bring data center intelligence directly to users' eyes through real-time connectivity. TSMC disclosed receiving approximately 25 2nm product design wins with over 70 customer designs in planning or development. The company projects global semiconductor revenue to exceed $1 trillion this year, four years ahead of schedule, reaching $1.5 trillion by 2030 with AI contributing 55%. This positions TSMC at the center of the AI hardware revolution."
+    },
+    {
+      "title": "Foreign Investors Turn Buyers, Purchase NT$45.4 Billion Led by TSMC Technology Forum",
+      "section": "證券",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/5607/9503863?from=edn_maintab_cate",
+      "summary": "Foreign investors ended their four-day selling streak, turning net buyers with NT$45.4 billion in purchases on May 14th, primarily driven by positive sentiment from TSMC's technology forum. Combined with domestic institutional buying of NT$142.9 billion, total foreign and institutional net buying reached NT$175.7 billion. TSMC rose NT$50 to NT$2,270, helping the index recover the 5-day moving average. However, foreign investors maintain 51,068 short contracts in TAIEX futures, posing potential headwinds ahead of the May 20th settlement. The reversal in foreign sentiment, while positive, comes amid concerns over high margin financing levels and extended technical indicators. Investment advisors recommend cautious positioning given the market's strong rally and potential for profit-taking pressure."
+    }
+  ],
+  "medium": [
+    {
+      "title": "US Stocks Rise as S&P 500 Breaks 7,500, AI Chip IPO Boosts Sentiment",
+      "section": "金融",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/5599/9504107",
+      "summary": "US markets rallied with the S&P 500 and Nasdaq hitting new highs as AI trading momentum continued. The Dow gained 370 points (0.75%), S&P 500 rose 57 points (0.77%) to 7,501, and Nasdaq climbed 233 points (0.88%) to 26,635. Nvidia surged 4.4% after the US approved H200 chip sales to Chinese companies. Trump-Xi summit developments and strong Cisco earnings provided additional support."
+    },
+    {
+      "title": "TSMC Advances Silicon Photonics with COUPE Technology for 200Gbps Production",
+      "section": "金融",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/5612/9503790?from=edn_maintab_cate",
+      "summary": "TSMC announced the world's first 200Gbps micro-ring modulator using its Compact Universal Photonic Engine (COUPE) technology will enter production this year. The company predicts COUPE will become as recognized as CoWoS in the semiconductor industry, supporting next-generation low-power, high-speed AI data transmission."
+    },
+    {
+      "title": "Listed Companies Achieve Record Q1 Profit of NT$1.56 Trillion",
+      "section": "證券",
+      "date": "2026/05/16",
+      "url": "https://money.udn.com/money/story/5607/9505969?from=edn_maintab_cate",
+      "summary": "Taiwan's listed companies reported record Q1 combined profit of NT$1.56 trillion, up 21.2% quarter-over-quarter and 48.4% year-over-year. A record 130 companies achieved new quarterly EPS highs, led by AI demand. Analysts expect Q2 profits could exceed NT$1.6 trillion with TSMC's projected 9-12% revenue growth."
+    },
+    {
+      "title": "Shanghai Container Freight Index Rises for Third Consecutive Week",
+      "section": "金融",
+      "date": "2026/05/15",
+      "url": "https://money.udn.com/money/story/10871/9505906?from=edn_maintab_cate",
+      "summary": "The Shanghai Container Freight Index gained 9.5% to 2,140.66 points, marking the third consecutive weekly increase. Far East to Mediterranean routes surged 27.7% due to European port congestion. Rising freight rates benefit Taiwan's major shipping companies including Evergreen, Yang Ming, and Wan Hai."
+    }
+  ],
+  "not_relevant": []
+}
