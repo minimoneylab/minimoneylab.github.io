@@ -1,28 +1,35 @@
 {
-  "date": "2026-05-15",
-  "update_time": "2026-05-15 09:19:34",
-  "total_articles": 6,
+  "date": "2026-05-16",
+  "update_time": "2026-05-16 08:34:47",
+  "total_articles": 7,
   "high": [
+    {
+      "title": "Dollar Jumps to R$ 5.06 and Accumulates Gains of More Than 3% with 'Flávio Risk' and Middle East in Focus",
+      "source": "MoneyTimes",
+      "date": "2026-05-16",
+      "url": "https://www.moneytimes.com.br/dolar-15-5-26-lils/",
+      "summary": "The USD/BRL exchange rate surged to R$ 5.0678 on Friday, marking a 1.63% daily gain amid increased risk aversion driven by geopolitical tensions and domestic electoral risk pricing. The dollar reached an intraday high of R$ 5.0818 (+1.92%), the highest level in nearly a month. For the week, USD/BRL accumulated a significant 3.55% appreciation against the real. The move followed broader dollar strength globally, with the DXY index gaining 0.47% to 99.292 points. Domestic political risks are back in focus as markets digest electoral uncertainties, particularly around Senator Flávio Bolsonaro's presidential candidacy and his connections to Banco Master's owner Daniel Vor. This political risk premium is overshadowing the typically BRL-positive impact of rising oil prices, given Brazil's commodity exporter status. FX traders should monitor political developments closely as electoral uncertainty could drive further volatility in the real, potentially testing the R$ 5.10 resistance level if risk-off sentiment persists."
+    }
+  ],
+  "medium": [
     {
       "title": "Ibovespa Below 180,000 Points: Is There Still Room for Gains in the Stock Market?",
       "source": "MoneyTimes",
       "date": "2026-05-15",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-abaixo-dos-180-mil-pontos-ainda-ha-espaco-para-ganhos-na-bolsa-alog-lbrdis583/",
-      "summary": "The Ibovespa has experienced a significant correction in early May, falling 4% in the first seven trading sessions and dropping below 180,000 points on Tuesday (12th) - a level not seen since March. This represents a notable reversal from April's strong performance, when the index closed with 16% gains year-to-date and nearly reached 200,000 points. According to Empiricus Research equity analyst Ruy Hungria, the recent decline reflects a more challenging macroeconomic environment driven by reduced risk appetite in the local market. A key factor behind the selloff is rising global inflation expectations, with higher inflation in the US and other major economies pressuring central banks toward more aggressive monetary tightening. This environment creates headwinds for Brazilian equities as investors reassess risk positions. The correction raises important questions about the sustainability of the Brazilian stock market rally and what investors should expect going forward."
-    }
-  ],
-  "medium": [
+      "summary": "The Ibovespa has retreated from its April highs near 200,000 points, falling 4% in the first seven trading sessions of May and dropping below 180,000 points on Tuesday for the first time since March. Despite accumulating 16% gains year-to-date through April, analysts cite a more challenging macroeconomic environment reducing risk appetite for Brazilian equities. Global inflation expectations and potential impacts from US monetary policy are key concerns affecting the local market's performance outlook."
+    },
     {
-      "title": "Bitcoin (BTC) Loses $80,000 Support with Deteriorating Inflation; See Crypto Prices This Thursday (14)",
+      "title": "Real Estate Investment Funds Gained Strength with Mercado Livre, Amazon, Shein and Shopee; See 3 REITs That Can Take Advantage of the Scenario",
       "source": "MoneyTimes",
-      "date": "2026-05-14",
-      "url": "https://www.moneytimes.com.br/bom-dia-bitcoin-btc-criptomoedas-precos-hoje-rens-140526/",
-      "summary": "Bitcoin fell below $80,000 support, trading around $79,000 with a 1.5% decline in 24 hours. The broader crypto market retreated as investors reacted to worsening US inflation data, with the Producer Price Index rising 1.4% quarterly and 6% annually - the highest since 2022. This signals corporate cost pressures are being passed to consumers amid geopolitical tensions. The inflation data reinforces expectations for more aggressive central bank policies globally, creating headwinds for risk assets including cryptocurrencies."
+      "date": "2026-05-15",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/fundos-imobiliarios-ganharam-forca-com-mercado-livre-amazon-shein-e-shopee-veja-3-fiis-que-podem-aproveitar-o-cenario-cbco-lbrdis582/",
+      "summary": "The IFIX real estate fund index gained 1.53% in April, outperforming the Ibovespa, driven primarily by logistics REITs benefiting from e-commerce expansion. Major tenants including Mercado Livre, Amazon, Shein, and Shopee are driving demand for warehouse space across Brazil. With e-commerce revenue surpassing R$ 235 billion in 2025 and expected 33% growth through 2028, logistics real estate remains a beneficiary of structural digital commerce trends."
     }
   ],
   "not_relevant": [
-    "Real Estate Investment Funds Gained Strength with Mercado Livre, Amazon, Shein and Shopee; See 3 REITs That Can Take Advantage of the Scenario (x2 articles)",
-    "Microsoft (MSFT34) Is Among the 7 Magnificent Favorites of International Stock Analyst; Check Portfolio",
-    "With End of 'Blouses Tax', Shopee and a REIT Segment Have Much to Celebrate; See 3 Recommendations to Invest in This Scenario"
+    "With End of 'Small Clothes Tax', Shopee and a REIT Segment Have Much to Celebrate; See 3 Investment Recommendations for This Scenario",
+    "Last Call to Learn About Automation That Can Multiply Cryptocurrency Investments by Up to 300x",
+    "In Search of the 'Star Player' Worth Up to R$ 1 Million: How Investing in Cryptocurrencies Can Be Similar to Football"
   ]
 }
