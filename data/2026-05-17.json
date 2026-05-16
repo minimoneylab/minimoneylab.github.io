@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-17",
+  "update_time": "2026-05-16 23:31:59",
+  "total_articles": 26,
+  "high": [
+    {
+      "title": "Q1 Listed Company Profits Hit Record NT$1.56 Trillion, 130 Companies Achieve Record EPS",
+      "section": "證券",
+      "date": "2026/05/16 00:44:49",
+      "url": "https://money.udn.com/money/story/5607/9505969?from=edn_maintab_cate",
+      "summary": "Taiwan's listed companies delivered exceptional Q1 performance with total profits reaching NT$1.56 trillion, up 48.4% year-over-year and 21.2% quarter-over-quarter, setting a new quarterly record. Led by TSMC and AI-related demand, 130 companies achieved record quarterly EPS, the highest number since Q3 2022. Wiwynn led with EPS of NT$75.95, followed by Phison (NT$68.8) and Apacer (NT$57.49). The strong performance reflects robust AI infrastructure investment by major cloud service providers, favorable FX conditions, and broad-based growth across sectors including technology, retail, and biotechnology. Fund managers expect Q2 profits could exceed NT$1.6 trillion as AI applications expand from generative to agentic AI, with cloud giants planning over $700 billion in AI capex for 2026."
+    },
+    {
+      "title": "Taiwan Stock Index Volatility: Hits 42K High Then Plunges 579 Points",
+      "section": "證券",
+      "date": "2026/05/16 00:41:26",
+      "url": "https://money.udn.com/money/story/5607/9505974?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market experienced extreme volatility, initially surging 656 points to a historic high of 42,408 before reversing sharply to close down 579 points at 41,172. The dramatic 1,391-point intraday range reflected four key factors: escalated Russia-Ukraine conflict driving US 10-year yields above 4.5%, profit-taking following underwhelming US-China summit results, overextended technical conditions with 18% deviation from quarterly moving average, and heavy day-trading activity creating unstable market dynamics. Despite the 1.3% decline, Taiwan's performance was relatively resilient compared to South Korea's 7.5% plunge and Japan's 2.3% drop. Foreign investors sold NT$10.42 billion while domestic institutions and proprietary trading desks also reduced positions significantly."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Hon Hai Chairman: US-China Relations Not So Tense, First TEEMA Park Likely in Mexico",
+      "section": "金融",
+      "date": "2026/05/16 00:03:14",
+      "url": "https://money.udn.com/money/story/5612/9505915?from=edn_maintab_cate",
+      "summary": "Hon Hai Chairman and TEEMA President Terry Liu stated that US-China relations appear \"not so tense\" based on recent developments. TEEMA's first overseas science park will likely be established in Mexico's Sonora state, with active site selection also proceeding in Arizona, Texas, India, and Poland to help member companies navigate geopolitical risks."
+    },
+    {
+      "title": "Power Management IC Price Increases Taking Effect, Benefiting Richtek, Silergy",
+      "section": "金融",
+      "date": "2026/05/17 02:26:08",
+      "url": "https://money.udn.com/money/story/5612/9507366?from=edn_maintab_cate",
+      "summary": "Power management IC manufacturers including Richtek, Silergy, and MediaTek's subsidiary Anpec are implementing price increases of 0-15% starting in July to reflect rising foundry and packaging costs. The price adjustments, driven by cost pressures rather than demand, are expected to benefit second-half performance."
+    },
+    {
+      "title": "JP Morgan Raises Taiwan Stock Index Target to 50,000 in Bull Case",
+      "section": "證券",
+      "date": "2026/05/16 01:05:23",
+      "url": "https://money.udn.com/money/story/5607/9505928?from=edn_maintab_cate",
+      "summary": "Morgan Stanley upgraded Taiwan stock index targets across all scenarios, with the bull case reaching 50,000 points (20% upside potential). The firm views Taiwan as the purest AI beneficiary market, citing reduced concerns about AI monetization and foreign institutional underweighting creating room for further inflows."
+    }
+  ],
+  "not_relevant": []
+}
