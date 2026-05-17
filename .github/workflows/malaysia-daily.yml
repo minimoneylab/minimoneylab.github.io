@@ -1,0 +1,59 @@
+name: Malaysia Daily News
+
+on:
+  schedule:
+    # Run at 10:30 UTC daily (6:30 PM Malaysia time)
+    - cron: '30 10 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  malaysia-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --break-system-packages requests beautifulsoup4 anthropic gspread oauth2client
+      
+      - name: Create credentials file
+        run: |
+          echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
+      
+      - name: Scrape Malaysia news
+        run: |
+          python scrape_daily_malaysia_fmt.py
+        continue-on-error: true
+      
+      - name: Analyze with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python analyze_news_malaysia.py
+        continue-on-error: true
+      
+      - name: Generate data file
+        run: |
+          mkdir -p data
+          python generate_data_malaysia.py
+        continue-on-error: true
+      
+      - name: Commit and push data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/malaysia-news.json
+          git diff --staged --quiet || git commit -m "Update Malaysia news data - $(date +'%Y-%m-%d')"
+          git push
+        continue-on-error: true
+      
+      - name: Cleanup
+        run: |
+          rm -f credentials.json
