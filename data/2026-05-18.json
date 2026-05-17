@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-18",
+  "update_time": "2026-05-17 23:35:13",
+  "total_articles": 26,
+  "high": [
+    {
+      "title": "Power Management IC Price Increases Ring Out, Motech, Silergy, Richtek to Benefit in Second Half",
+      "section": "金融",
+      "date": "2026/05/17 02:26:08",
+      "url": "https://money.udn.com/money/story/5612/9507366?from=edn_maintab_cate",
+      "summary": "The IC price hike wave is spreading to power management ICs as foundry and packaging costs continue rising since early this year. While this price adjustment is not driven by end-market demand, it still has significant momentum. Companies including Motech (6138), Silergy (6415), and MediaTek's (2454) subsidiary Richtek are expected to benefit from the second half. Industry sources report that major international players like Texas Instruments, MPS, and Richtek plan to raise prices starting June or July, with domestic power management IC manufacturers already seeing price increase momentum in Q1. Motech's chairman revealed cost pressures will impact from July, with the company negotiating price increases of 0-15% with customers. This reflects broader semiconductor supply chain cost pressures that could impact margins across Taiwan's IC design sector, particularly affecting companies with significant exposure to mature process nodes."
+    },
+    {
+      "title": "English Dareda Optimistic About AI and General Server Growth Trends, Foreign Investors Rush to Buy",
+      "section": "證券",
+      "date": "2026/05/17 00:29:08",
+      "url": "https://money.udn.com/money/story/5710/9507198?from=edn_maintab_cate",
+      "summary": "Server ODM giant Inventec (2356) held an investor conference expressing optimism about both AI and general-purpose server growth trends for this year, with management maintaining a positive outlook for Q2 performance. The company expects both AI and general server shipments to maintain growth momentum, with server business potentially exceeding 50% of total revenue this year. Foreign investors have strongly backed the stock with net buying over the past three days in May, purchasing 82,000 shares over the past five days. Legal entities expect Q2 financial performance to outperform Q1, driven by stable AI server shipments and strong general server demand. Inventec is reportedly negotiating AI server L6 business with two major US clients, which could significantly contribute to second-half and next-year revenues if successful. The company's board card shipments are expected to grow faster than L10 products, though rising L10 volumes may impact gross margins."
+    },
+    {
+      "title": "Hon Hai, Quanta, Inventec Welcome Infrastructure Opportunities as Google's Most Powerful Gemini Arrives",
+      "section": "金融",
+      "date": "2026/05/18 02:19:53",
+      "url": "https://money.udn.com/money/story/5612/9508743?from=edn_maintab_cate",
+      "summary": "Google's annual I/O developer conference on May 19 (US time) is expected to unveil the \"most powerful Gemini ever\" - Gemini 4.0 - with significantly enhanced computing power and integrated AI agent functions. This development could trigger a new wave of computing infrastructure demand, benefiting Hon Hai (2317), Quanta (2382), and Inventec (2356). The conference theme focuses on \"comprehensive AI transformation,\" with market attention on how AI enters daily life and whether Gemini's ecosystem expands beyond Gmail and Maps into more core services. Foreign research indicates Google Cloud's backlog orders nearly doubled year-over-year to $462 billion, while UCP is transforming commerce. The introduction of the most powerful Gemini model will likely require substantial computing power support, driving more aggressive order momentum for AI server partners like Hon Hai, Quanta, and Inventec."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Power Management IC Reflects Costs, Industry: Adjustment Range to be Determined by End of Month",
+      "section": "金融",
+      "date": "2026/05/17 02:24:12",
+      "url": "https://money.udn.com/money/story/5612/9507370?from=edn_subcatelist_cate",
+      "summary": "Power management IC manufacturers face cost pressures from rising foundry and packaging prices, forcing negotiations with customers to reflect increased costs. Industry players expect pricing adjustments to be finalized by end-May, with foundry costs having a higher impact on IC production than packaging costs."
+    },
+    {
+      "title": "AI Demand Drives ABF Substrate Supply Tightness, Morgan Stanley Bullish on Unimicron and Nan Ya PCB",
+      "section": "證券",
+      "date": "2026/05/17 02:29:59",
+      "url": "https://money.udn.com/money/story/5607/9507372?from=edn_maintab_cate",
+      "summary": "Continued AI demand is tightening ABF substrate supply-demand dynamics, with foreign investors seeing a new long-term growth cycle. Ajinomoto's ABF price increases are expected to allow substrate manufacturers to pass through costs and expand profit margins, benefiting Unimicron (3037) and Nan Ya PCB (8046)."
+    },
+    {
+      "title": "SK Hynix Group Bets on New Technology, Panel-Level Packaging Triangle Takes Shape",
+      "section": "金融",
+      "date": "2026/05/18 02:31:43",
+      "url": "https://money.udn.com/money/story/5612/9508733?from=edn_maintab_cate",
+      "summary": "SK Group announced a 1.17 trillion KRW investment in glass substrates for panel-level packaging, signaling optimism about this becoming mainstream technology. Industry expects TSMC (2330), Innolux (3481), and SK Hynix to form a panel-level packaging iron triangle collaboration."
+    },
+    {
+      "title": "Taiwan Stock Market Faces Five Challenges, Bulls Under Short-term Pressure but Medium-term 45K Target Unchanged",
+      "section": "證券",
+      "date": "2026/05/18 02:34:52",
+      "url": "https://money.udn.com/money/story/5607/9508701?from=edn_maintab_cate",
+      "summary": "Taiwan stocks face five challenges including failed Trump-Xi summit dividend, rising US-Japan long-term bond yields, Middle East tensions, US stock decline, and weak Taiwan index futures and TSMC ADR performance. However, analysts maintain medium-term 45K target based on strong corporate earnings fundamentals."
+    }
+  ],
+  "not_relevant": []
+}
