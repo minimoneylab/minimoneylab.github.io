@@ -1,35 +1,34 @@
 {
-  "date": "2026-05-16",
-  "update_time": "2026-05-16 08:34:47",
+  "date": "2026-05-17",
+  "update_time": "2026-05-17 08:40:13",
   "total_articles": 7,
   "high": [
     {
-      "title": "Dollar Jumps to R$ 5.06 and Accumulates Gains of More Than 3% with 'Flávio Risk' and Middle East in Focus",
+      "title": "Dollar jumps to R$ 5.06 and accumulates gains of over 3% with 'Flávio risk' and Middle East in focus",
       "source": "MoneyTimes",
       "date": "2026-05-16",
       "url": "https://www.moneytimes.com.br/dolar-15-5-26-lils/",
-      "summary": "The USD/BRL exchange rate surged to R$ 5.0678 on Friday, marking a 1.63% daily gain amid increased risk aversion driven by geopolitical tensions and domestic electoral risk pricing. The dollar reached an intraday high of R$ 5.0818 (+1.92%), the highest level in nearly a month. For the week, USD/BRL accumulated a significant 3.55% appreciation against the real. The move followed broader dollar strength globally, with the DXY index gaining 0.47% to 99.292 points. Domestic political risks are back in focus as markets digest electoral uncertainties, particularly around Senator Flávio Bolsonaro's presidential candidacy and his connections to Banco Master's owner Daniel Vor. This political risk premium is overshadowing the typically BRL-positive impact of rising oil prices, given Brazil's commodity exporter status. FX traders should monitor political developments closely as electoral uncertainty could drive further volatility in the real, potentially testing the R$ 5.10 resistance level if risk-off sentiment persists."
+      "summary": "The Brazilian Real weakened significantly as the USD/BRL pair closed at R$ 5.0678, up 1.63% on the day and reaching an intraday high of R$ 5.0818 - the strongest level in nearly a month. The Real accumulated a substantial 3.55% depreciation for the week, driven by increased risk aversion stemming from two key factors: geopolitical tensions in the Middle East and domestic political risk dubbed \"Flávio risk.\" The latter relates to leaked audio involving Senator Flávio Bolsonaro and Banco Master owner Daniel Vorcaro, creating political uncertainty ahead of presidential elections. The Dollar Index (DXY) also strengthened 0.47% to 99.292, indicating broader USD strength. Despite oil price gains that typically benefit Brazil as a commodity exporter, political risk overshadowed this positive factor. For FX traders, this represents a clear risk-off sentiment affecting emerging market currencies, with BRL particularly vulnerable to political noise. Watch for further developments in the political scandal and any central bank intervention signals."
+    },
+    {
+      "title": "Braskem (BRKM5) leads Ibovespa gains and CSAN3 worst performer; see weekly highlights",
+      "source": "MoneyTimes",
+      "date": "2026-05-17",
+      "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-20-lils/",
+      "summary": "The Ibovespa extended losses for a fifth consecutive week, falling 3.71% to close at 177,283.83 points amid Middle East conflicts and domestic political risk. The market focused on political noise during earnings season, particularly the leaked audio between Senator Flávio Bolsonaro and Banco Master's Daniel Vorcaro involving alleged US$ 24 million (approximately R$ 134 million) negotiations. This political uncertainty, combined with geopolitical tensions, created a risk-off environment that weighed heavily on Brazilian equities. The sustained five-week decline indicates persistent selling pressure and deteriorating investor sentiment toward Brazilian assets."
     }
   ],
   "medium": [
     {
-      "title": "Ibovespa Below 180,000 Points: Is There Still Room for Gains in the Stock Market?",
+      "title": "With end of 'little blouse tax', Shopee and a FII segment have much to celebrate; see 3 recommendations to invest in this scenario",
       "source": "MoneyTimes",
-      "date": "2026-05-15",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ibovespa-abaixo-dos-180-mil-pontos-ainda-ha-espaco-para-ganhos-na-bolsa-alog-lbrdis583/",
-      "summary": "The Ibovespa has retreated from its April highs near 200,000 points, falling 4% in the first seven trading sessions of May and dropping below 180,000 points on Tuesday for the first time since March. Despite accumulating 16% gains year-to-date through April, analysts cite a more challenging macroeconomic environment reducing risk appetite for Brazilian equities. Global inflation expectations and potential impacts from US monetary policy are key concerns affecting the local market's performance outlook."
-    },
-    {
-      "title": "Real Estate Investment Funds Gained Strength with Mercado Livre, Amazon, Shein and Shopee; See 3 REITs That Can Take Advantage of the Scenario",
-      "source": "MoneyTimes",
-      "date": "2026-05-15",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/fundos-imobiliarios-ganharam-forca-com-mercado-livre-amazon-shein-e-shopee-veja-3-fiis-que-podem-aproveitar-o-cenario-cbco-lbrdis582/",
-      "summary": "The IFIX real estate fund index gained 1.53% in April, outperforming the Ibovespa, driven primarily by logistics REITs benefiting from e-commerce expansion. Major tenants including Mercado Livre, Amazon, Shein, and Shopee are driving demand for warehouse space across Brazil. With e-commerce revenue surpassing R$ 235 billion in 2025 and expected 33% growth through 2028, logistics real estate remains a beneficiary of structural digital commerce trends."
+      "date": "2026-05-16",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/com-fim-da-taxa-das-blusinhas-shopee-e-um-segmento-de-fiis-tem-muito-a-comemorar-veja-3-recomendacoes-para-investir-neste-cenario-cbco-lbrdcp136/",
+      "summary": "The elimination of the 20% import tax on international purchases up to US$ 50 was confirmed in the Official Gazette, potentially boosting e-commerce in Brazil. Companies like Mercado Livre, Amazon, and especially Shopee are expected to benefit from increased order flows and price competitiveness. The analyst highlights logistics real estate investment funds (FIIs) as beneficiaries, as Shopee holds significant warehouse space in Brazil. This policy change could drive increased demand for logistics infrastructure and benefit related REITs."
     }
   ],
   "not_relevant": [
-    "With End of 'Small Clothes Tax', Shopee and a REIT Segment Have Much to Celebrate; See 3 Investment Recommendations for This Scenario",
-    "Last Call to Learn About Automation That Can Multiply Cryptocurrency Investments by Up to 300x",
-    "In Search of the 'Star Player' Worth Up to R$ 1 Million: How Investing in Cryptocurrencies Can Be Similar to Football"
+    "Last call to learn about automation that can multiply cryptocurrency investments by up to 300x",
+    "In search of the 'ace' worth up to R$ 1 million: how investing in cryptocurrencies can be similar to football"
   ]
 }
