@@ -538,7 +538,6 @@
                 <button class="country-button" onclick="switchCountry('malaysia')">
                     <span class="country-flag">MY</span>
                     <span class="country-name">Malaysia</span>
-                    <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('vietnam')">
@@ -697,7 +696,7 @@
                 headerImgOther.alt = country.charAt(0).toUpperCase() + country.slice(1) + ' Illustration';
             }
             
-            if (country === 'taiwan' || country === 'vietnam' || country === 'brazil') {
+            if (country === 'taiwan' || country === 'vietnam' || country === 'brazil' || country === 'malaysia') {
                 document.getElementById('taiwan-content').style.display = 'block';
                 document.getElementById('other-content').style.display = 'none';
                 const today = new Date().toISOString().split('T')[0];
@@ -749,6 +748,7 @@
             try {
                 const dataPath = currentCountry === 'vietnam' ? `vietnam/data/${dateStr}.json` : 
                  currentCountry === 'brazil' ? `data/brazil-news.json` : 
+                 currentCountry === 'malaysia' ? `data/malaysia-news.json` : 
                  `data/${dateStr}.json`;
                 
                 const response = await fetch(dataPath);
