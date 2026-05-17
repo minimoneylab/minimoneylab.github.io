@@ -1,0 +1,32 @@
+{
+  "update_time": "2026-05-17 09:19:32 UTC",
+  "country": "Malaysia",
+  "source": "Malay Mail",
+  "total_articles": 3,
+  "high": [
+    {
+      "title": "Ringgit closes mostly higher on strong GDP data, except against US dollar",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/05/15/ringgit-closes-mostly-higher-on-strong-gdp-data-except-against-us-dollar",
+      "summary": "Malaysia's Q1 GDP data showed strong performance, boosting the ringgit against most currencies except the US dollar. The currency's mixed performance reflects both domestic economic strength and continued US Federal Reserve policy expectations impacting regional markets.",
+      "source": "Malay Mail",
+      "date": "2026/05/15"
+    },
+    {
+      "title": "Bursa ends lower, tracking weak regional sentiment",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/05/15/bursa-ends-lower-tracking-weak-regional-sentiment",
+      "summary": "The FBM KLCI fell 0.30% to close at 1,740.22 points, declining despite strong GDP data due to broader regional market weakness. This market movement indicates that external factors are currently outweighing positive domestic economic fundamentals.",
+      "source": "Malay Mail",
+      "date": "2026/05/15"
+    }
+  ],
+  "medium": [
+    {
+      "title": "Sime, BYD open flagship showroom in Penang",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/05/15/sime-byd-open-flagship-showroom-in-penang",
+      "summary": "Sime Darby and BYD opened a flagship EV showroom in Penang, marking Malaysia's accelerating transition to electric vehicles. This partnership represents significant investment in Malaysia's automotive sector transformation and could boost both companies' market presence in the region.",
+      "source": "Malay Mail",
+      "date": "2026/05/15"
+    }
+  ],
+  "not_relevant": []
+}
