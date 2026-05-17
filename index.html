@@ -10,18 +10,16 @@
         
         body {
             font-family: 'Inter', sans-serif;
-            background: #FAFAF5; /* Your perfect gray! */
+            background: #FAFAF5;
             color: #2B2B2B;
             -webkit-font-smoothing: antialiased;
         }
         
-        /* Layout */
         .page-wrapper { display: flex; min-height: 100vh; }
         
-        /* Sidebar - Now with gray background */
         .sidebar {
             width: 240px;
-            background: #FAFAF5; /* Same as body */
+            background: #FAFAF5;
             border-right: 1px solid #E5E5E5;
             position: fixed;
             height: 100vh;
@@ -110,19 +108,17 @@
             border-radius: 10px;
         }
         
-        /* Main Content */
         .main-content { flex: 1; margin-left: 240px; }
         
-        /* Header */
         .header {
             background: white;
             border-bottom: 1px solid #E5E5E5;
         }
         
         .header-illustration {
-            max-width: 480px; /* 60% of 800px */
+            max-width: 480px;
             margin: 0 auto;
-            padding: 40px 40px 30px; /* Reduced padding */
+            padding: 40px 40px 30px;
         }
         
         .header-illustration img {
@@ -133,7 +129,7 @@
         
         .header-content {
             text-align: center;
-            padding: 20px 40px 40px; /* Reduced top padding */
+            padding: 20px 40px 40px;
         }
         
         .main-title {
@@ -148,7 +144,6 @@
             color: #6B6B6B;
         }
         
-        /* Stats */
         .stats {
             background: white;
             border-bottom: 1px solid #E5E5E5;
@@ -179,7 +174,6 @@
             text-transform: uppercase;
         }
         
-        /* Archive Nav */
         .archive-nav {
             max-width: 1000px;
             margin: 0 auto;
@@ -222,14 +216,12 @@
         .date-button:hover { background: #E5E5E5; }
         .date-button.active { background: #2B2B2B; color: white; }
         
-        /* Container */
         .container {
             max-width: 1000px;
             margin: 0 auto;
             padding: 0 40px 100px;
         }
         
-        /* Sections */
         .section {
             background: white;
             border-radius: 12px;
@@ -267,7 +259,6 @@
             text-transform: uppercase;
         }
         
-        /* Articles */
         .article {
             padding-bottom: 40px;
             margin-bottom: 40px;
@@ -322,7 +313,6 @@
             border-color: #D4D4D4;
         }
         
-        /* Under Construction */
         .under-construction {
             text-align: center;
             padding: 100px 40px;
@@ -345,14 +335,12 @@
             color: #9B9B9B;
         }
         
-        /* Loading */
         .loading {
             text-align: center;
             padding: 100px 20px;
             color: #9B9B9B;
         }
         
-        /* Footer */
         .footer {
             background: white;
             border-top: 1px solid #E5E5E5;
@@ -376,7 +364,6 @@
             margin-top: 16px;
         }
         
-        /* Mobile Menu Button */
         .mobile-menu-button {
             display: none;
             position: fixed;
@@ -400,7 +387,6 @@
             transition: 0.3s;
         }
         
-        /* Responsive */
         @media (max-width: 768px) {
             .mobile-menu-button { display: block; }
             
@@ -485,7 +471,6 @@
             }
         }
         
-        /* Mobile overlay */
         .mobile-overlay {
             display: none;
             position: fixed;
@@ -503,18 +488,15 @@
     </style>
 </head>
 <body>
-    <!-- Mobile Menu Button -->
     <button class="mobile-menu-button" onclick="toggleMobileMenu()">
         <span></span>
         <span></span>
         <span></span>
     </button>
     
-    <!-- Mobile Overlay -->
     <div class="mobile-overlay" onclick="toggleMobileMenu()"></div>
     
     <div class="page-wrapper">
-        <!-- Sidebar -->
         <nav class="sidebar">
             <div class="sidebar-header">
                 <div class="sidebar-logo">MiniMoneyLab</div>
@@ -564,14 +546,14 @@
                     <span class="country-name">Vietnam</span>
                 </button>
 
-		<button class="country-button" onclick="switchCountry('brazil')">
-		    <span class="country-flag">BR</span>
-		    <span class="country-name">Brazil</span>
-		</button>
+                <button class="country-button" onclick="switchCountry('brazil')">
+                    <span class="country-flag">BR</span>
+                    <span class="country-name">Brazil</span>
+                </button>
 
             </div>
             
-            <!-- Tools Section -->
+            <!-- Tools Section - Only Overnight Indicator and Stock Heatmap -->
             <div style="padding: 24px 24px 16px; border-top: 1px solid #E8E8E8; margin-top: 16px;">
                 <div style="font-size: 0.75rem; color: #9B9B9B; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">
                     Tools
@@ -584,7 +566,7 @@
                     <span style="font-size: 0.9rem;">Overnight Indicator</span>
                 </a>
                 
-                <a href="stock-heatmap.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; text-decoration: none; color: #2B2B2B; transition: all 0.2s; border-radius: 8px; margin-bottom: 8px;">
+                <a href="stock-heatmap.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; text-decoration: none; color: #2B2B2B; transition: all 0.2s; border-radius: 8px;">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="3" y="3" width="7" height="7"></rect>
                         <rect x="14" y="3" width="7" height="7"></rect>
@@ -593,28 +575,10 @@
                     </svg>
                     <span style="font-size: 0.9rem;">Stock Heatmap</span>
                 </a>
-                
-                <a href="polymarket-trends.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; text-decoration: none; color: #2B2B2B; transition: all 0.2s; border-radius: 8px; margin-bottom: 8px;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                        <circle cx="15.5" cy="15.5" r="1.5"></circle>
-                    </svg>
-                    <span style="font-size: 0.9rem;">Polymarket Trends</span>
-                </a>
-                
-                <a href="twitter-monitor.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; text-decoration: none; color: #2B2B2B; transition: all 0.2s; border-radius: 8px;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                    </svg>
-                    <span style="font-size: 0.9rem;">Twitter Monitor</span>
-                </a>
             </div>
         </nav>
         
-        <!-- Main Content -->
         <div class="main-content">
-            <!-- Taiwan Content -->
             <div id="taiwan-content">
                 <div id="loading" class="loading">
                     <div style="font-size: 2rem; margin-bottom: 16px;">📰</div>
@@ -674,7 +638,6 @@
                 </div>
             </div>
             
-            <!-- Other Countries -->
             <div id="other-content" style="display: none;">
                 <div class="header">
                     <div class="header-illustration">
@@ -697,7 +660,6 @@
         let currentDate = new Date().toISOString().split('T')[0];
         let currentCountry = 'taiwan';
         
-        // Mobile menu toggle
         function toggleMobileMenu() {
             const sidebar = document.querySelector('.sidebar');
             const overlay = document.querySelector('.mobile-overlay');
@@ -708,13 +670,11 @@
         function switchCountry(country) {
             currentCountry = country;
             
-            // Update active button
             document.querySelectorAll('.country-button').forEach(btn => {
                 btn.classList.remove('active');
             });
             event.target.closest('.country-button').classList.add('active');
             
-            // Change header illustration based on country
             const headerImg = document.getElementById('country-illustration');
             const headerImgOther = document.getElementById('country-illustration-other');
             const imageFiles = {
@@ -725,10 +685,9 @@
                 'india': 'india.png',
                 'malaysia': 'malaysia.png',
                 'vietnam': 'vietnam.png',
-		'brazil': 'brazil.png'
+                'brazil': 'brazil.png'
             };
             
-            // Update both images
             if (headerImg && imageFiles[country]) {
                 headerImg.src = imageFiles[country];
                 headerImg.alt = country.charAt(0).toUpperCase() + country.slice(1) + ' Illustration';
@@ -738,19 +697,16 @@
                 headerImgOther.alt = country.charAt(0).toUpperCase() + country.slice(1) + ' Illustration';
             }
             
-            // Show/hide content
             if (country === 'taiwan' || country === 'vietnam' || country === 'brazil') {
                 document.getElementById('taiwan-content').style.display = 'block';
                 document.getElementById('other-content').style.display = 'none';
-                // Reload dates and data for the selected country
                 const today = new Date().toISOString().split('T')[0];
-                loadData(today);  // Load today's data for the new country
+                loadData(today);
             } else {
                 document.getElementById('taiwan-content').style.display = 'none';
                 document.getElementById('other-content').style.display = 'block';
             }
             
-            // Close mobile menu after selection
             const sidebar = document.querySelector('.sidebar');
             const overlay = document.querySelector('.mobile-overlay');
             if (sidebar.classList.contains('mobile-open')) {
@@ -766,8 +722,6 @@
         
         function loadAvailableDates() {
             const archiveContainer = document.getElementById('archive-dates');
-            
-            // Clear existing buttons first!
             archiveContainer.innerHTML = '';
             
             const dates = [];
@@ -793,7 +747,6 @@
         
         async function loadData(dateStr) {
             try {
-                // Determine data path based on current country
                 const dataPath = currentCountry === 'vietnam' ? `vietnam/data/${dateStr}.json` : 
                  currentCountry === 'brazil' ? `data/brazil-news.json` : 
                  `data/${dateStr}.json`;
@@ -804,7 +757,6 @@
                 const data = await response.json();
                 renderData(data, dateStr);
                 
-                // Update active button
                 document.querySelectorAll('.date-button').forEach(btn => btn.classList.remove('active'));
                 document.querySelectorAll('.date-button').forEach(btn => {
                     const btnDate = new Date(btn.textContent + ' ' + new Date().getFullYear());
@@ -818,23 +770,19 @@
             } catch (error) {
                 console.log('No data for ' + dateStr);
                 
-                // Show page structure but clear content
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('main-content').style.display = 'block';
                 
                 const date = new Date(dateStr);
                 const formattedDate = date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
                 
-                // Update date display
                 document.getElementById('current-date').textContent = formattedDate;
                 
-                // Clear stats
                 document.getElementById('stat-total').textContent = '0';
                 document.getElementById('stat-high').textContent = '0';
                 document.getElementById('stat-medium').textContent = '0';
                 document.getElementById('stat-low').textContent = '0';
                 
-                // Show "no data" message in content area
                 const container = document.getElementById('content-sections');
                 container.innerHTML = `
                     <div style="text-align: center; padding: 100px 40px; color: #9B9B9B;">
@@ -844,10 +792,8 @@
                     </div>
                 `;
                 
-                // Clear update time
                 document.getElementById('update-time').textContent = '';
                 
-                // Update active button
                 document.querySelectorAll('.date-button').forEach(btn => btn.classList.remove('active'));
                 document.querySelectorAll('.date-button').forEach(btn => {
                     const btnDate = new Date(btn.textContent + ' ' + new Date().getFullYear());
