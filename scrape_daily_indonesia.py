@@ -197,10 +197,9 @@ class NewsAutomation:
         except Exception as e:
             return True  # Include if can't parse
 
-    async def get_article_links(self, page, section_url):
-        """Get article links from section page"""
-        await page.goto(section_url, wait_until='domcontentloaded')
-        await page.wait_for_timeout(3000)
+    async def get_article_links(self, page):
+        """Get article links from current page"""
+        # Page is already loaded, just extract links
         
         # Detik uses links with /d- in the URL
         articles = await page.evaluate("""
@@ -274,14 +273,19 @@ class NewsAutomation:
         async with async_playwright() as p:
             browser = await p.chromium.launch(
                 headless=True,
-                args=['--disable-blink-features=AutomationControlled']
+                args=[
+                    '--disable-blink-features=AutomationControlled',
+                    '--disable-dev-shm-usage',
+                    '--no-sandbox'
+                ]
             )
             context = await browser.new_context(
                 viewport={'width': 1920, 'height': 1080},
-                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+                locale='id-ID'
             )
             page = await context.new_page()
-            page.set_default_timeout(self.config['page_timeout'])
+            page.set_default_timeout(90000)  # 90 seconds
 
             try:
                 for section in self.config['sections']:
@@ -293,7 +297,18 @@ class NewsAutomation:
                     print(f"Section: {section_name}")
                     print("-" * 60)
 
-                    articles_with_titles = await self.get_article_links(page, section_url)
+                    try:
+                        print(f"Loading: {section_url}")
+                        await page.goto(section_url, wait_until='domcontentloaded', timeout=90000)
+                        await page.wait_for_timeout(5000)  # Wait longer
+                        print("Page loaded!")
+                        
+                    except Exception as load_error:
+                        print(f"Could not load section: {load_error}")
+                        print("Skipping this section...")
+                        continue
+
+                    articles_with_titles = await self.get_article_links(page)
                     print(f"Found {len(articles_with_titles)} total articles")
                     print()
 
