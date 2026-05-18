@@ -109,7 +109,7 @@ def save_articles_to_sheet(sheet, articles, existing_urls):
             if article['url'] not in existing_urls:
                 row = [
                     datetime.now(timezone.utc).strftime('%Y-%m-%d'),
-                    'ANTARA News',
+                    'Tempo.co',
                     article['title'],
                     article['date'],
                     article['url'],
@@ -130,7 +130,150 @@ def save_articles_to_sheet(sheet, articles, existing_urls):
     except Exception as e:
         print(f"✗ Error saving articles: {e}")
 
-def scrape_antara_ekonomi():
+def scrape_tempo_ekonomi():
+    """Scrape Indonesian economic news from Tempo.co"""
+    
+    print("=" * 70)
+    print("INDONESIA NEWS SCRAPER - Tempo.co Ekonomi & Bisnis")
+    print(datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'))
+    print("=" * 70)
+    print()
+    
+    # Tempo.co Ekonomi and Bisnis sections
+    sections = [
+        {"name": "Ekonomi", "url": "https://www.tempo.co/ekonomi"},
+        {"name": "Bisnis", "url": "https://www.tempo.co/ekonomi/bisnis"}
+    ]
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Referer': 'https://www.google.com/',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+    }
+    
+    all_articles = []
+    seen_urls = set()
+    
+    for section in sections:
+        section_name = section["name"]
+        url = section["url"]
+        
+        try:
+            print(f"Fetching {section_name}: {url}")
+            response = requests.get(url, headers=headers, timeout=30)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # Find article links - Tempo uses tempo.co/ekonomi/[article-slug]-[ID]
+            all_links = soup.find_all('a', href=True)
+            
+            article_count = 0
+            for link in all_links:
+                href = link.get('href', '')
+                
+                if not href:
+                    continue
+                
+                # Tempo articles have format: /ekonomi/article-title-1234567
+                if '/ekonomi/' in href and href not in seen_urls:
+                    # Make full URL
+                    if href.startswith('/'):
+                        article_url = 'https://www.tempo.co' + href
+                    elif href.startswith('http'):
+                        article_url = href
+                    else:
+                        continue
+                    
+                    # Skip if not a proper article (no ID number at end)
+                    if not any(char.isdigit() for char in article_url[-10:]):
+                        continue
+                    
+                    seen_urls.add(article_url)
+                    
+                    # Get title from link text
+                    title = link.get_text(strip=True)
+                    
+                    if not title or len(title) < 15:
+                        continue
+                    
+                    print(f"  [{len(all_articles)+1}] {title[:70]}...")
+                    
+                    # Try to get article content
+                    try:
+                        article_response = requests.get(article_url, headers=headers, timeout=15)
+                        article_soup = BeautifulSoup(article_response.content, 'html.parser')
+                        
+                        # Get category
+                        category = section_name
+                        
+                        # Get article text
+                        paragraphs = article_soup.find_all('p')
+                        summary = ' '.join([p.get_text(strip=True) for p in paragraphs[:3] if len(p.get_text(strip=True)) > 20])[:500]
+                        
+                        if not summary:
+                            summary = title
+                        
+                        # Get date
+                        date_elem = article_soup.find('time') or article_soup.find('span', class_='date')
+                        if date_elem:
+                            date_str = date_elem.get('datetime', '') or date_elem.get_text(strip=True)
+                        else:
+                            date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+                        
+                        article_data = {
+                            'title': title,
+                            'url': article_url,
+                            'summary': summary,
+                            'date': date_str,
+                            'category': category
+                        }
+                        
+                        all_articles.append(article_data)
+                        print(f"      ✓ OK ({category})")
+                        
+                        article_count += 1
+                        
+                        # Get up to 10 per section
+                        if article_count >= 10:
+                            break
+                        
+                        time.sleep(1)
+                        
+                    except Exception as e:
+                        print(f"      ⚠ Could not fetch content: {e}")
+                        # Still save with basic info
+                        article_data = {
+                            'title': title,
+                            'url': article_url,
+                            'summary': title,
+                            'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
+                            'category': section_name
+                        }
+                        all_articles.append(article_data)
+                        article_count += 1
+                        
+                        if article_count >= 10:
+                            break
+            
+            print(f"Got {article_count} articles from {section_name}")
+            print()
+            
+        except Exception as e:
+            print(f"✗ Error scraping {section_name}: {e}")
+            print()
+            continue
+    
+    print()
+    print(f"✓ Successfully scraped {len(all_articles)} Indonesian articles from Tempo.co")
+    print()
+    
+    return all_articles
     """Scrape Indonesian economic news from ANTARA News"""
     
     print("=" * 70)
@@ -296,7 +439,7 @@ def scrape_antara_ekonomi():
 def main():
     try:
         # Scrape articles
-        articles = scrape_antara_ekonomi()
+        articles = scrape_tempo_ekonomi()
         
         if not articles:
             print("No articles found!")
