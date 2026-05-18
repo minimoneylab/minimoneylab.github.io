@@ -1,34 +1,57 @@
 {
-  "date": "2026-05-17",
-  "update_time": "2026-05-17 08:40:13",
-  "total_articles": 7,
+  "date": "2026-05-18",
+  "update_time": "2026-05-18 11:09:03",
+  "total_articles": 12,
   "high": [
     {
-      "title": "Dollar jumps to R$ 5.06 and accumulates gains of over 3% with 'Flávio risk' and Middle East in focus",
-      "source": "MoneyTimes",
-      "date": "2026-05-16",
-      "url": "https://www.moneytimes.com.br/dolar-15-5-26-lils/",
-      "summary": "The Brazilian Real weakened significantly as the USD/BRL pair closed at R$ 5.0678, up 1.63% on the day and reaching an intraday high of R$ 5.0818 - the strongest level in nearly a month. The Real accumulated a substantial 3.55% depreciation for the week, driven by increased risk aversion stemming from two key factors: geopolitical tensions in the Middle East and domestic political risk dubbed \"Flávio risk.\" The latter relates to leaked audio involving Senator Flávio Bolsonaro and Banco Master owner Daniel Vorcaro, creating political uncertainty ahead of presidential elections. The Dollar Index (DXY) also strengthened 0.47% to 99.292, indicating broader USD strength. Despite oil price gains that typically benefit Brazil as a commodity exporter, political risk overshadowed this positive factor. For FX traders, this represents a clear risk-off sentiment affecting emerging market currencies, with BRL particularly vulnerable to political noise. Watch for further developments in the political scandal and any central bank intervention signals."
-    },
-    {
-      "title": "Braskem (BRKM5) leads Ibovespa gains and CSAN3 worst performer; see weekly highlights",
+      "title": "Braskem (BRKM5) Leads Ibovespa Gains and CSAN3 is Worst Performing Stock; See the Week's Highlights",
       "source": "MoneyTimes",
       "date": "2026-05-17",
       "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-20-lils/",
-      "summary": "The Ibovespa extended losses for a fifth consecutive week, falling 3.71% to close at 177,283.83 points amid Middle East conflicts and domestic political risk. The market focused on political noise during earnings season, particularly the leaked audio between Senator Flávio Bolsonaro and Banco Master's Daniel Vorcaro involving alleged US$ 24 million (approximately R$ 134 million) negotiations. This political uncertainty, combined with geopolitical tensions, created a risk-off environment that weighed heavily on Brazilian equities. The sustained five-week decline indicates persistent selling pressure and deteriorating investor sentiment toward Brazilian assets."
+      "summary": "The Ibovespa extended its losing streak to five consecutive weeks amid uncertainties over Middle East conflicts and domestic political risks. Brazil's main stock index accumulated a 3.71% loss for the week, closing at 177,283.83 points. The USD/BRL spot rate finished at R$ 5.0678, up 1.63% on the day and 3.55% for the week. Political noise dominated investor attention during earnings season's final stretch. On Wednesday (13th), markets reacted to leaked audio of Senator and presidential pre-candidate Flávio Bolsonaro discussing with Banco Master owner Daniel Vorcaro about a potential US$ 24 million transfer (approximately R$ 134 million). This political uncertainty, combined with geopolitical tensions, pressured Brazilian assets significantly, with the real weakening substantially against the dollar as risk-off sentiment prevailed."
+    },
+    {
+      "title": "Treasury Direct: Rates Decline with External Improvement and Domestic Scenario on Radar",
+      "source": "MoneyTimes",
+      "date": "2026-05-18",
+      "url": "https://www.moneytimes.com.br/tesouro-direto-taxas-recuam-com-melhora-externa-e-cenario-domestico-no-radar/",
+      "summary": "Brazilian government bond rates showed mixed performance on Monday (18th) after last week's sharp curve steepening, with geopolitics still in focus alongside the Focus Report and IBC-Br data. Fixed-rate bonds declined slightly while inflation-linked papers remained pressured in longer maturities, reflecting continued market caution about external scenarios and domestic risks. The partial relief in fixed-rate bonds came after recent rate escalation, as investors appeared to lock in returns at higher levels. However, rates remain near yearly highs as markets monitor international developments. Externally, focus was on Tasnim agency news that the US accepted suspending oil sanctions against Iran, signaling temporary flexibility on Iranian commodity restrictions that could ease oil prices and reduce inflationary pressures globally."
+    },
+    {
+      "title": "Ibovespa Opens Lower After IBC-Br and Petrobras (PETR4) Drop; 5 Things to Know Before Investing Today (18)",
+      "source": "MoneyTimes",
+      "date": "2026-05-18",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-18-5-26-apsa/",
+      "summary": "The Ibovespa started the week with declines, diverging from overseas markets that operated mostly higher after oil prices turned negative. Petrobras (PETR4) fell over 1%, following the commodity's movement. Around 10:16 AM (Brasília time), Brazil's main stock index operated down 0.44% at 176,500.80 points. The spot dollar weakened against the real, following the currency's overseas performance, declining to R$ 5.0168 (-1.01%), while the DXY fell 0.25% to 99.035 points. The Central Bank's Economic Activity Index (IBC-Br), considered a GDP proxy, showed a 0.7% monthly decline in March (seasonally adjusted) - the first monthly drop this year and the steepest since May 2025, worse than market expectations. This economic activity contraction adds to concerns about Brazil's growth trajectory and monetary policy outlook."
     }
   ],
   "medium": [
     {
-      "title": "With end of 'little blouse tax', Shopee and a FII segment have much to celebrate; see 3 recommendations to invest in this scenario",
+      "title": "Wall Street Opens Slightly Higher with Expectations of US-Iran Negotiation Progress and Falling Oil Prices",
       "source": "MoneyTimes",
-      "date": "2026-05-16",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/com-fim-da-taxa-das-blusinhas-shopee-e-um-segmento-de-fiis-tem-muito-a-comemorar-veja-3-recomendacoes-para-investir-neste-cenario-cbco-lbrdcp136/",
-      "summary": "The elimination of the 20% import tax on international purchases up to US$ 50 was confirmed in the Official Gazette, potentially boosting e-commerce in Brazil. Companies like Mercado Livre, Amazon, and especially Shopee are expected to benefit from increased order flows and price competitiveness. The analyst highlights logistics real estate investment funds (FIIs) as beneficiaries, as Shopee holds significant warehouse space in Brazil. This policy change could drive increased demand for logistics infrastructure and benefit related REITs."
+      "date": "2026-05-18",
+      "url": "https://www.moneytimes.com.br/wall-street-abertura-18-5-26-lils/",
+      "summary": "US stock indices began Monday's session positively with US-Iran negotiations in focus. Trump threatened new attacks against Iran over the weekend, but Pakistan mediated a new Iranian proposal to the US. Tasnim agency reported US acceptance of suspending oil sanctions against Iran, providing temporary relief and potentially easing oil prices, which benefits emerging market currencies like the BRL through reduced inflationary pressures."
+    },
+    {
+      "title": "Day Trade: Buy PetroRio (PRIO3) and Sell Ambev (ABEV3) to Gain Up to 1.46% Today (18), According to Ágora",
+      "source": "MoneyTimes",
+      "date": "2026-05-18",
+      "url": "https://www.moneytimes.com.br/day-trade-compre-petrorio-prio3-e-venda-ambev-abev3-para-ganhar-ate-146-hoje-18-segundo-a-agora/",
+      "summary": "Ágora Investimentos recommends buying PetroRio (PRIO3) in day trading with 1.46% potential gain (stop at R$ 68.46) and selling Ambev (ABEV3) with up to 1.41% returns (stop at R$ 15.77). These are technical analysis-based short-term trading recommendations for Brazilian equity day traders."
+    },
+    {
+      "title": "Survey Points to Favorite Agribusiness Stocks in May; See Which Leads",
+      "source": "MoneyTimes",
+      "date": "2026-05-18",
+      "url": "https://www.moneytimes.com.br/levantamento-aponta-as-acoes-favoritas-do-agro-em-maio-veja-qual-lidera-ceci/",
+      "summary": "Cosan (CSAN3) leads as the favorite agribusiness stock in May according to Money Times survey, receiving three recommendations among 17 analyzed portfolios. Suzano (SUZB3) and Klabin (KLBN11) tied for second place. The main driver for Cosan was debt reduction expectations and operational improvements at Raízen, though sugar/ethanol price volatility and climate risks remain concerns."
     }
   ],
   "not_relevant": [
-    "Last call to learn about automation that can multiply cryptocurrency investments by up to 300x",
-    "In search of the 'ace' worth up to R$ 1 million: how investing in cryptocurrencies can be similar to football"
+    "Last Call to Learn About Automation That Can Multiply Cryptocurrency Investments by Up to 300x (appears twice - promotional content)",
+    "In Search of the 'Star Player' Worth Up to R$ 1 Million: How Cryptocurrency Investment Can Be Similar to Football (appears twice - promotional content)",
+    "Optimism Breaks: Cryptocurrency Funds Record Withdrawals of Over US$ 1 Billion After Three Weeks of Inflows (crypto ETF flows, not directly relevant to Brazilian markets)",
+    "Smart Fit (SMFT3): The Founder's Alert for the Gym Market (individual company focus, not macro-relevant)"
   ]
 }
