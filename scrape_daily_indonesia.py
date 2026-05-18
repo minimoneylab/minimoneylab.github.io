@@ -70,8 +70,13 @@ class GoogleSheetsManager:
     def authenticate(self):
         creds = None
         if os.path.exists(self.token_file):
-            with open(self.token_file, 'rb') as token:
-                creds = pickle.load(token)
+            try:
+                with open(self.token_file, 'rb') as token:
+                    creds = pickle.load(token)
+            except (EOFError, pickle.UnpicklingError) as e:
+                print(f"Warning: Token file corrupted ({e}), will try to use anyway")
+                creds = None
+        
         if not creds or not creds.valid:
             if creds and creds.expired and creds.refresh_token:
                 creds.refresh(Request())
