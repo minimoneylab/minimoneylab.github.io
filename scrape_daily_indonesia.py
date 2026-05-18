@@ -112,7 +112,7 @@ def save_articles_to_sheet(sheet, articles, existing_urls):
             if article['url'] not in existing_urls:
                 row = [
                     datetime.now(timezone.utc).strftime('%Y-%m-%d'),
-                    'CNN Indonesia',
+                    'ANTARA News',
                     article['title'],
                     article['date'],
                     article['url'],
@@ -133,7 +133,154 @@ def save_articles_to_sheet(sheet, articles, existing_urls):
     except Exception as e:
         print(f"✗ Error saving articles: {e}")
 
-def scrape_cnn_indonesia_ekonomi():
+def scrape_antara_ekonomi():
+    """Scrape Indonesian economic news from ANTARA News"""
+    
+    print("=" * 70)
+    print("INDONESIA NEWS SCRAPER - ANTARA News Ekonomi")
+    print(datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'))
+    print("=" * 70)
+    print()
+    
+    # ANTARA News Ekonomi section
+    url = "https://www.antaranews.com/ekonomi"
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+    }
+    
+    try:
+        print(f"Fetching: {url}")
+        response = requests.get(url, headers=headers, timeout=30)
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        articles = []
+        
+        # Find article links
+        # ANTARA uses links like: https://www.antaranews.com/berita/...
+        article_links = soup.find_all('a', href=lambda x: x and '/berita/' in x)
+        
+        print(f"Found {len(article_links)} article links")
+        print()
+        
+        seen_urls = set()
+        
+        for idx, elem in enumerate(article_links[:40], 1):  # Check first 40 links
+            try:
+                article_url = elem.get('href', '')
+                
+                # Skip if already seen
+                if article_url in seen_urls:
+                    continue
+                
+                # Make full URL if needed
+                if not article_url.startswith('http'):
+                    article_url = 'https://www.antaranews.com' + article_url
+                
+                # Only get articles from antaranews.com/berita
+                if 'antaranews.com/berita/' not in article_url:
+                    continue
+                
+                seen_urls.add(article_url)
+                
+                # Get article title
+                # Try to find title in heading tags first
+                title_elem = elem.find(['h1', 'h2', 'h3', 'h4'])
+                if title_elem:
+                    title = title_elem.get_text(strip=True)
+                else:
+                    title = elem.get_text(strip=True)
+                
+                if not title or len(title) < 15:
+                    continue
+                
+                print(f"  [{len(articles)+1}] {title[:70]}...")
+                
+                # Try to get article content
+                try:
+                    article_response = requests.get(article_url, headers=headers, timeout=15)
+                    article_soup = BeautifulSoup(article_response.content, 'html.parser')
+                    
+                    # Get category from URL or page
+                    # Check URL path: /ekonomi/finansial, /ekonomi/bisnis, /ekonomi/bursa
+                    category = 'Ekonomi'
+                    if '/finansial' in article_url:
+                        category = 'Finansial'
+                    elif '/bisnis' in article_url:
+                        category = 'Bisnis'
+                    elif '/bursa' in article_url:
+                        category = 'Bursa'
+                    
+                    # Get article text/summary
+                    # ANTARA uses <p> tags in article body
+                    paragraphs = article_soup.find_all('p')
+                    summary = ' '.join([p.get_text(strip=True) for p in paragraphs[:3] if len(p.get_text(strip=True)) > 20])[:500]
+                    
+                    if not summary:
+                        summary = title
+                    
+                    # Get date
+                    date_elem = article_soup.find('time') or article_soup.find('span', class_='simple-share-date')
+                    if date_elem:
+                        date_str = date_elem.get('datetime', '') or date_elem.get_text(strip=True)
+                    else:
+                        date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+                    
+                    article_data = {
+                        'title': title,
+                        'url': article_url,
+                        'summary': summary,
+                        'date': date_str,
+                        'category': category
+                    }
+                    
+                    articles.append(article_data)
+                    print(f"      ✓ OK ({category})")
+                    
+                    # Get up to 20 articles
+                    if len(articles) >= 20:
+                        break
+                    
+                    time.sleep(1)
+                    
+                except Exception as e:
+                    print(f"      ⚠ Could not fetch content: {e}")
+                    # Still save the article with basic info
+                    article_data = {
+                        'title': title,
+                        'url': article_url,
+                        'summary': title,
+                        'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
+                        'category': 'Ekonomi'
+                    }
+                    articles.append(article_data)
+                    
+                    if len(articles) >= 20:
+                        break
+                
+            except Exception as e:
+                print(f"  ✗ Error processing article {idx}: {e}")
+                continue
+        
+        print()
+        print(f"✓ Successfully scraped {len(articles)} Indonesian economic articles")
+        print()
+        
+        return articles
+        
+    except Exception as e:
+        print(f"✗ Error scraping ANTARA News: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
     """Scrape Indonesian economic news from CNN Indonesia"""
     
     print("=" * 70)
@@ -573,7 +720,7 @@ def scrape_cnn_indonesia_ekonomi():
 def main():
     try:
         # Scrape articles
-        articles = scrape_cnn_indonesia_ekonomi()
+        articles = scrape_antara_ekonomi()
         
         if not articles:
             print("No articles found!")
