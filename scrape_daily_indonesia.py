@@ -1,479 +1,440 @@
 #!/usr/bin/env python3
 """
-Daily News Scraper for Indonesia - Bisnis.com Market
-Scrapes Indonesian business/finance news in Bahasa Indonesia
-Uses OAuth authentication (same as Vietnam/Malaysia)
+Daily News Scraper for Indonesia - Detik Finance
+Scrapes Indonesian business/finance news using Playwright
+Simple approach like Vietnam
 """
 
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime, timezone, timedelta
+import asyncio
+from playwright.async_api import async_playwright
+import json
+from datetime import datetime, timedelta, timezone
+import os
 import gspread
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import pickle
-import os
-import time
 
-# Google Sheets setup
+# Indonesia timezone (UTC+7)
+ID_TIMEZONE = timezone(timedelta(hours=7))
+
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+
+CONFIG = {
+    "site_name": "Detik Finance",
+    
+    # News sections to scrape
+    "sections": [
+        {"name": "Berita Ekonomi", "url": "https://finance.detik.com/berita-ekonomi-bisnis"},
+        {"name": "Bursa & Valas", "url": "https://finance.detik.com/bursa-dan-valas"},
+    ],
+    
+    "articles_per_section": 10,  # Get 10 per section = 20 total
+    
+    # Time filter: only articles from past 36 hours
+    "filter_hours": 36,
+    
+    # Google Sheets settings
+    "credentials_file": "credentials.json",
+    "token_file": "token.pickle",
+    "sheet_name": "News Scraper Database",
+    "raw_articles_tab": "Indonesia Raw Articles",
+    
+    # Local backup
+    "output_dir": "./news_output",
+    "page_timeout": 60000,
+}
+
 SCOPES = [
     'https://www.googleapis.com/auth/spreadsheets',
     'https://www.googleapis.com/auth/drive.file'
 ]
 
-CONFIG = {
-    "credentials_file": "credentials.json",
-    "token_file": "token.pickle",
-    "sheet_name": "News Scraper Database",
-    "raw_articles_tab": "Indonesia Raw Articles",
-}
 
-def authenticate_google_sheets():
-    """Authenticate using OAuth (exact same as Vietnam)"""
-    creds = None
-    if os.path.exists(CONFIG["token_file"]):
-        with open(CONFIG["token_file"], 'rb') as token:
-            creds = pickle.load(token)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                CONFIG["credentials_file"], SCOPES
+# ============================================================================
+# GOOGLE SHEETS MANAGER
+# ============================================================================
+
+class GoogleSheetsManager:
+    def __init__(self, credentials_file, token_file, sheet_name, tab_name):
+        self.credentials_file = credentials_file
+        self.token_file = token_file
+        self.sheet_name = sheet_name
+        self.tab_name = tab_name
+        self.client = None
+        self.spreadsheet = None
+        self.existing_urls = set()
+
+    def authenticate(self):
+        creds = None
+        if os.path.exists(self.token_file):
+            with open(self.token_file, 'rb') as token:
+                creds = pickle.load(token)
+        if not creds or not creds.valid:
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(Request())
+            else:
+                flow = InstalledAppFlow.from_client_secrets_file(
+                    self.credentials_file, SCOPES
+                )
+                creds = flow.run_local_server(port=0)
+            with open(self.token_file, 'wb') as token:
+                pickle.dump(creds, token)
+        return creds
+
+    def connect(self):
+        try:
+            print("Connecting to Google Sheets...")
+            creds = self.authenticate()
+            self.client = gspread.authorize(creds)
+            self.spreadsheet = self.client.open(self.sheet_name)
+            print(f"Connected to: {self.sheet_name}")
+            print()
+            return True
+        except Exception as e:
+            print(f"Connection error: {e}")
+            return False
+
+    def setup_headers(self):
+        try:
+            sheet = self.spreadsheet.worksheet(self.tab_name)
+        except gspread.exceptions.WorksheetNotFound:
+            sheet = self.spreadsheet.add_worksheet(
+                title=self.tab_name,
+                rows=1000,
+                cols=8
             )
-            creds = flow.run_local_server(port=0)
-        with open(CONFIG["token_file"], 'wb') as token:
-            pickle.dump(creds, token)
-    return creds
+            headers = ['Scraped Date', 'Source', 'Section', 'Title', 'Date', 'URL', 'Content', 'Status']
+            sheet.update([headers], 'A1:H1')
+            sheet.format('A1:H1', {
+                'textFormat': {'bold': True},
+                'backgroundColor': {'red': 0.2, 'green': 0.5, 'blue': 0.9}
+            })
 
-def setup_google_sheets():
-    """Setup Google Sheets connection"""
-    try:
-        print("Connecting to Google Sheets...")
-        creds = authenticate_google_sheets()
-        client = gspread.authorize(creds)
-        spreadsheet = client.open(CONFIG["sheet_name"])
-        print(f"Connected to: {CONFIG['sheet_name']}")
-        print()
-        return client, spreadsheet
-    except Exception as e:
-        print(f"Connection error: {e}")
-        print(f"Error type: {type(e)}")
-        import traceback
-        traceback.print_exc()
-        return None, None
+    def load_existing_urls(self):
+        try:
+            sheet = self.spreadsheet.worksheet(self.tab_name)
+            all_values = sheet.get_all_values()
+            if len(all_values) > 1:
+                for row in all_values[1:]:
+                    if len(row) >= 6:
+                        self.existing_urls.add(row[5])
+            print(f"Loaded {len(self.existing_urls)} existing URLs")
+        except Exception as e:
+            print(f"Warning: Could not load existing URLs: {e}")
 
-def setup_worksheet(spreadsheet):
-    """Setup worksheet with headers"""
-    try:
-        sheet = spreadsheet.worksheet(CONFIG["raw_articles_tab"])
-    except gspread.exceptions.WorksheetNotFound:
-        sheet = spreadsheet.add_worksheet(
-            title=CONFIG["raw_articles_tab"],
-            rows=1000,
-            cols=7
-        )
-        headers = ['Scraped Date', 'Source', 'Title', 'Date', 'URL', 'Summary', 'Category']
-        sheet.update([headers], 'A1:G1')
-        sheet.format('A1:G1', {
-            'textFormat': {'bold': True},
-            'backgroundColor': {'red': 0.2, 'green': 0.5, 'blue': 0.9}
-        })
-    
-    return sheet
-
-def get_existing_urls(sheet):
-    """Load existing URLs to avoid duplicates"""
-    try:
-        all_values = sheet.get_all_values()
-        existing_urls = set()
-        if len(all_values) > 1:
-            for row in all_values[1:]:
-                if len(row) >= 5:
-                    existing_urls.add(row[4])  # URL column
-        print(f"Loaded {len(existing_urls)} existing URLs")
-        return existing_urls
-    except Exception as e:
-        print(f"Warning: Could not load existing URLs: {e}")
-        return set()
-
-def save_articles_to_sheet(sheet, articles, existing_urls):
-    """Save new articles to Google Sheets"""
-    if not articles:
-        print("No articles to save")
-        return
-    
-    try:
-        new_articles = []
-        for article in articles:
-            if article['url'] not in existing_urls:
-                row = [
-                    datetime.now(timezone.utc).strftime('%Y-%m-%d'),
-                    'Tempo.co',
-                    article['title'],
-                    article['date'],
-                    article['url'],
-                    article['summary'],
-                    article['category']
-                ]
-                new_articles.append(row)
-        
-        if new_articles:
-            sheet.append_rows(new_articles)
-            print(f"✓ Added {len(new_articles)} new articles")
-            print(f"  Skipped {len(articles) - len(new_articles)} duplicates")
-        else:
-            print("All articles are duplicates")
-        
-        print()
-        
-    except Exception as e:
-        print(f"✗ Error saving articles: {e}")
-
-def scrape_tempo_ekonomi():
-    """Scrape Indonesian economic news from Tempo.co"""
-    
-    print("=" * 70)
-    print("INDONESIA NEWS SCRAPER - Tempo.co Ekonomi & Bisnis")
-    print(datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'))
-    print("=" * 70)
-    print()
-    
-    # Tempo.co Ekonomi and Bisnis sections
-    sections = [
-        {"name": "Ekonomi", "url": "https://www.tempo.co/ekonomi"},
-        {"name": "Bisnis", "url": "https://www.tempo.co/ekonomi/bisnis"}
-    ]
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Referer': 'https://www.google.com/',
-        'DNT': '1',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-    }
-    
-    all_articles = []
-    seen_urls = set()
-    
-    for section in sections:
-        section_name = section["name"]
-        url = section["url"]
+    def add_articles(self, articles, source_name):
+        if not articles:
+            print("No articles to add")
+            return
         
         try:
-            print(f"Fetching {section_name}: {url}")
-            response = requests.get(url, headers=headers, timeout=30)
-            response.raise_for_status()
+            sheet = self.spreadsheet.worksheet(self.tab_name)
             
-            soup = BeautifulSoup(response.content, 'html.parser')
+            new_articles = []
+            for article in articles:
+                if article['url'] not in self.existing_urls:
+                    row = [
+                        article.get('scraped_at', datetime.now().isoformat()).split('T')[0],
+                        source_name,
+                        article.get('section', ''),
+                        article.get('title', ''),
+                        article.get('date', ''),
+                        article.get('url', ''),
+                        article.get('content', ''),
+                        'New'
+                    ]
+                    new_articles.append(row)
             
-            # Find article links - Tempo uses tempo.co/ekonomi/[article-slug]-[ID]
-            all_links = soup.find_all('a', href=True)
+            if new_articles:
+                sheet.append_rows(new_articles)
+                print(f"Added {len(new_articles)} new articles")
+                print(f"Skipped {len(articles) - len(new_articles)} duplicates")
+            else:
+                print("All articles are duplicates")
             
-            article_count = 0
-            for link in all_links:
-                href = link.get('href', '')
-                
-                if not href:
-                    continue
-                
-                # Tempo articles have format: /ekonomi/article-title-1234567
-                if '/ekonomi/' in href and href not in seen_urls:
-                    # Make full URL
-                    if href.startswith('/'):
-                        article_url = 'https://www.tempo.co' + href
-                    elif href.startswith('http'):
-                        article_url = href
-                    else:
-                        continue
-                    
-                    # Skip if not a proper article (no ID number at end)
-                    if not any(char.isdigit() for char in article_url[-10:]):
-                        continue
-                    
-                    seen_urls.add(article_url)
-                    
-                    # Get title from link text
-                    title = link.get_text(strip=True)
-                    
-                    if not title or len(title) < 15:
-                        continue
-                    
-                    print(f"  [{len(all_articles)+1}] {title[:70]}...")
-                    
-                    # Try to get article content
-                    try:
-                        article_response = requests.get(article_url, headers=headers, timeout=15)
-                        article_soup = BeautifulSoup(article_response.content, 'html.parser')
-                        
-                        # Get category
-                        category = section_name
-                        
-                        # Get article text
-                        paragraphs = article_soup.find_all('p')
-                        summary = ' '.join([p.get_text(strip=True) for p in paragraphs[:3] if len(p.get_text(strip=True)) > 20])[:500]
-                        
-                        if not summary:
-                            summary = title
-                        
-                        # Get date
-                        date_elem = article_soup.find('time') or article_soup.find('span', class_='date')
-                        if date_elem:
-                            date_str = date_elem.get('datetime', '') or date_elem.get_text(strip=True)
-                        else:
-                            date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-                        
-                        article_data = {
-                            'title': title,
-                            'url': article_url,
-                            'summary': summary,
-                            'date': date_str,
-                            'category': category
-                        }
-                        
-                        all_articles.append(article_data)
-                        print(f"      ✓ OK ({category})")
-                        
-                        article_count += 1
-                        
-                        # Get up to 10 per section
-                        if article_count >= 10:
-                            break
-                        
-                        time.sleep(1)
-                        
-                    except Exception as e:
-                        print(f"      ⚠ Could not fetch content: {e}")
-                        # Still save with basic info
-                        article_data = {
-                            'title': title,
-                            'url': article_url,
-                            'summary': title,
-                            'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
-                            'category': section_name
-                        }
-                        all_articles.append(article_data)
-                        article_count += 1
-                        
-                        if article_count >= 10:
-                            break
-            
-            print(f"Got {article_count} articles from {section_name}")
             print()
             
         except Exception as e:
-            print(f"✗ Error scraping {section_name}: {e}")
-            print()
-            continue
-    
-    print()
-    print(f"✓ Successfully scraped {len(all_articles)} Indonesian articles from Tempo.co")
-    print()
-    
-    return all_articles
-    """Scrape Indonesian economic news from ANTARA News"""
-    
-    print("=" * 70)
-    print("INDONESIA NEWS SCRAPER - ANTARA News Ekonomi")
-    print(datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'))
-    print("=" * 70)
-    print()
-    
-    # ANTARA News Ekonomi section
-    url = "https://www.antaranews.com/ekonomi"
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'DNT': '1',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-    }
-    
-    try:
-        print(f"Fetching: {url}")
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        articles = []
-        
-        # Find article links
-        # ANTARA uses links like: https://www.antaranews.com/berita/...
-        # Try multiple selectors
-        article_links = []
-        
-        # Method 1: Find all links with /berita/ in href
-        all_links = soup.find_all('a', href=True)
-        for link in all_links:
-            href = link.get('href', '')
-            if '/berita/' in href:
-                article_links.append(link)
-        
-        print(f"Found {len(article_links)} article links")
-        print()
-        
-        seen_urls = set()
-        
-        for idx, elem in enumerate(article_links[:50], 1):  # Check first 50 links
-            try:
-                article_url = elem.get('href', '')
-                
-                if not article_url:
-                    continue
-                
-                # Make full URL if needed
-                if article_url.startswith('/'):
-                    article_url = 'https://www.antaranews.com' + article_url
-                elif not article_url.startswith('http'):
-                    continue
-                
-                # Skip if already seen
-                if article_url in seen_urls:
-                    continue
-                
-                # Only ekonomi section articles
-                if '/berita/' not in article_url or 'antaranews.com' not in article_url:
-                    continue
-                
-                seen_urls.add(article_url)
-                
-                # Get article title
-                # Try to find title in heading tags first
-                title_elem = elem.find(['h1', 'h2', 'h3', 'h4'])
-                if title_elem:
-                    title = title_elem.get_text(strip=True)
-                else:
-                    title = elem.get_text(strip=True)
-                
-                if not title or len(title) < 15:
-                    continue
-                
-                print(f"  [{len(articles)+1}] {title[:70]}...")
-                
-                # Try to get article content
-                try:
-                    article_response = requests.get(article_url, headers=headers, timeout=15)
-                    article_soup = BeautifulSoup(article_response.content, 'html.parser')
-                    
-                    # Get category from URL or page
-                    # Check URL path: /ekonomi/finansial, /ekonomi/bisnis, /ekonomi/bursa
-                    category = 'Ekonomi'
-                    if '/finansial' in article_url:
-                        category = 'Finansial'
-                    elif '/bisnis' in article_url:
-                        category = 'Bisnis'
-                    elif '/bursa' in article_url:
-                        category = 'Bursa'
-                    
-                    # Get article text/summary
-                    # ANTARA uses <p> tags in article body
-                    paragraphs = article_soup.find_all('p')
-                    summary = ' '.join([p.get_text(strip=True) for p in paragraphs[:3] if len(p.get_text(strip=True)) > 20])[:500]
-                    
-                    if not summary:
-                        summary = title
-                    
-                    # Get date
-                    date_elem = article_soup.find('time') or article_soup.find('span', class_='simple-share-date')
-                    if date_elem:
-                        date_str = date_elem.get('datetime', '') or date_elem.get_text(strip=True)
-                    else:
-                        date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-                    
-                    article_data = {
-                        'title': title,
-                        'url': article_url,
-                        'summary': summary,
-                        'date': date_str,
-                        'category': category
-                    }
-                    
-                    articles.append(article_data)
-                    print(f"      ✓ OK ({category})")
-                    
-                    # Get up to 20 articles
-                    if len(articles) >= 20:
-                        break
-                    
-                    time.sleep(1)
-                    
-                except Exception as e:
-                    print(f"      ⚠ Could not fetch content: {e}")
-                    # Still save the article with basic info
-                    article_data = {
-                        'title': title,
-                        'url': article_url,
-                        'summary': title,
-                        'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
-                        'category': 'Ekonomi'
-                    }
-                    articles.append(article_data)
-                    
-                    if len(articles) >= 20:
-                        break
-                
-            except Exception as e:
-                print(f"  ✗ Error processing article {idx}: {e}")
-                continue
-        
-        print()
-        print(f"✓ Successfully scraped {len(articles)} Indonesian economic articles")
-        print()
-        
-        return articles
-        
-    except Exception as e:
-        print(f"✗ Error scraping ANTARA News: {e}")
-        import traceback
-        traceback.print_exc()
-        return []
-        return []
+            print(f"Error adding articles: {e}")
 
-def main():
-    try:
-        # Scrape articles
-        articles = scrape_tempo_ekonomi()
+
+# ============================================================================
+# NEWS SCRAPER
+# ============================================================================
+
+class NewsAutomation:
+    def __init__(self, config):
+        self.config = config
+        self.articles = []
+        self.scrape_time = datetime.now(ID_TIMEZONE)
+        self.cutoff_time = self.scrape_time - timedelta(hours=config.get('filter_hours', 0))
+    
+    def is_article_recent(self, article_date_str):
+        """Check if article is within the time window"""
+        if self.config.get('filter_hours', 0) == 0:
+            return True
         
-        if not articles:
-            print("No articles found!")
-            return
+        try:
+            # Detik date format varies - try to parse
+            # Try common formats
+            for fmt in ['%A, %d %b %Y %H:%M', '%d %b %Y %H:%M', '%d %b %Y']:
+                try:
+                    article_dt = datetime.strptime(article_date_str.strip(), fmt)
+                    article_dt = article_dt.replace(tzinfo=ID_TIMEZONE)
+                    break
+                except:
+                    continue
+            else:
+                # If parsing fails, include the article
+                return True
+            
+            is_recent = article_dt >= self.cutoff_time
+            return is_recent
+            
+        except Exception as e:
+            return True  # Include if can't parse
+
+    async def get_article_links(self, page, section_url):
+        """Get article links from section page"""
+        await page.goto(section_url, wait_until='domcontentloaded')
+        await page.wait_for_timeout(3000)
         
-        # Setup Google Sheets
-        client, spreadsheet = setup_google_sheets()
+        # Detik uses links with /d- in the URL
+        articles = await page.evaluate("""
+            (function() {
+                var articles = [];
+                var allLinks = document.querySelectorAll('a[href]');
+                for (var i = 0; i < allLinks.length; i++) {
+                    var href = allLinks[i].href;
+                    // Detik article URLs contain /d-
+                    if (href.indexOf('/d-') !== -1 && href.indexOf('finance.detik.com') !== -1) {
+                        var title = allLinks[i].textContent.trim();
+                        if (title && title.length > 15) {
+                            // Check if URL already exists
+                            var found = false;
+                            for (var j = 0; j < articles.length; j++) {
+                                if (articles[j].url === href) { 
+                                    found = true; 
+                                    break; 
+                                }
+                            }
+                            if (!found) {
+                                articles.push({url: href, title: title});
+                            }
+                        }
+                    }
+                }
+                return articles;
+            })()
+        """)
+        return articles
+
+    async def scrape_article(self, page, url):
+        """Scrape individual article"""
+        title = await page.evaluate("""
+            (function() {
+                var el = document.querySelector('h1');
+                return el ? el.textContent.trim() : 'No title';
+            })()
+        """)
         
-        if not client or not spreadsheet:
-            print("Could not connect to Google Sheets!")
-            return
+        date = await page.evaluate("""
+            (function() {
+                var el = document.querySelector('.detail__date');
+                if (!el) el = document.querySelector('time');
+                if (!el) el = document.querySelector('.date');
+                return el ? el.textContent.trim() : '';
+            })()
+        """)
         
-        # Setup worksheet
-        sheet = setup_worksheet(spreadsheet)
+        content = await page.evaluate("""
+            (function() {
+                var elements = document.querySelectorAll('.detail__body-text p, article p, .content p');
+                var texts = [];
+                for (var i = 0; i < elements.length && i < 5; i++) {
+                    var text = elements[i].textContent.trim();
+                    if (text.length > 20) texts.push(text);
+                }
+                return texts.join('\\n\\n');
+            })()
+        """)
         
-        # Load existing URLs
-        existing_urls = get_existing_urls(sheet)
+        return {'title': title, 'date': date, 'content': content}
+
+    async def scrape_news(self):
+        print()
+        print("=" * 70)
+        print("SCRAPING NEWS FROM DETIK FINANCE")
+        print("=" * 70)
+        print()
+
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(
+                headless=True,
+                args=['--disable-blink-features=AutomationControlled']
+            )
+            context = await browser.new_context(
+                viewport={'width': 1920, 'height': 1080},
+                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            )
+            page = await context.new_page()
+            page.set_default_timeout(self.config['page_timeout'])
+
+            try:
+                for section in self.config['sections']:
+                    section_name = section['name']
+                    section_url = section['url']
+                    limit = self.config['articles_per_section']
+
+                    print("-" * 60)
+                    print(f"Section: {section_name}")
+                    print("-" * 60)
+
+                    articles_with_titles = await self.get_article_links(page, section_url)
+                    print(f"Found {len(articles_with_titles)} total articles")
+                    print()
+
+                    section_count = 0
+                    limit = min(len(articles_with_titles), limit)
+                    
+                    for i, article in enumerate(articles_with_titles[:limit], 1):
+                        link = article['url']
+                        title_preview = article['title']
+                        try:
+                            print(f"[{i}/{limit}] Scraping: {title_preview[:50]}...")
+                            
+                            try:
+                                await page.goto(link, wait_until='domcontentloaded', timeout=30000)
+                                await page.wait_for_timeout(2000)
+
+                                article_data = await self.scrape_article(page, link)
+
+                                if article_data['content'] and len(article_data['content']) > 100:
+                                    if self.is_article_recent(article_data['date']):
+                                        self.articles.append({
+                                            'url': link,
+                                            'section': section_name,
+                                            'title': article_data['title'],
+                                            'date': article_data['date'],
+                                            'content': article_data['content'],
+                                            'scraped_at': self.scrape_time.isoformat()
+                                        })
+                                        section_count += 1
+                                        print(f"   OK: {article_data['title'][:55]}")
+                                    else:
+                                        print(f"   Too old")
+                                else:
+                                    print("   No content")
+                            except Exception as article_error:
+                                print(f"   Skipped: {str(article_error)[:50]}")
+                                continue
+
+                            print()
+                            await page.wait_for_timeout(2000)
+
+                        except Exception as e:
+                            print(f"   Error: {str(e)[:80]}")
+                            print()
+                            continue
+
+                    print(f"Scraped {section_count} from {section_name}")
+                    print()
+
+            except Exception as e:
+                print(f"Fatal error: {e}")
+            finally:
+                try:
+                    await browser.close()
+                except:
+                    pass
+
+        print("=" * 70)
+        filter_hours = self.config.get('filter_hours', 0)
+        if filter_hours > 0:
+            print(f"Time window: Past {filter_hours} hours")
+            print(f"Cutoff: {self.cutoff_time.strftime('%Y-%m-%d %H:%M')} ID")
+        print(f"Total articles scraped: {len(self.articles)}")
+        print("=" * 70)
+        print()
+        return self.articles
+
+    def save_local_backup(self):
+        """Save JSON backup locally"""
+        if not self.articles:
+            return None
         
-        # Save articles
-        save_articles_to_sheet(sheet, articles, existing_urls)
+        try:
+            os.makedirs(self.config["output_dir"], exist_ok=True)
+            
+            filename = os.path.join(
+                self.config["output_dir"],
+                "indonesia_" + datetime.now().strftime('%Y%m%d_%H%M%S') + ".json"
+            )
+            
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(self.articles, f, ensure_ascii=False, indent=2)
+            
+            print(f"Local backup: {filename}")
+            print()
+            return filename
+        except Exception as e:
+            print(f"Warning: Could not save local backup: {e}")
+            print()
+            return None
+
+
+# ============================================================================
+# MAIN
+# ============================================================================
+
+async def main():
+    print()
+    print("=" * 70)
+    print("INDONESIA NEWS SCRAPER (DETIK FINANCE)")
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    print("=" * 70)
+
+    # Scrape news
+    automation = NewsAutomation(CONFIG)
+    await automation.scrape_news()
+
+    if not automation.articles:
+        print("No articles scraped.")
+        return
+
+    # Save local backup
+    automation.save_local_backup()
+
+    # Save to Google Sheets
+    sheets = GoogleSheetsManager(
+        CONFIG["credentials_file"],
+        CONFIG["token_file"],
+        CONFIG["sheet_name"],
+        CONFIG["raw_articles_tab"]
+    )
+
+    if sheets.connect():
+        sheets.setup_headers()
+        sheets.load_existing_urls()
+        sheets.add_articles(automation.articles, CONFIG["site_name"])
         
         print()
         print("=" * 70)
         print("SUCCESS!")
         print("=" * 70)
-        print(f"Google Sheet: {spreadsheet.url}")
-        print(f"Tab: {CONFIG['raw_articles_tab']}")
-        print(f"Total articles scraped: {len(articles)}")
+        print(f"Total articles saved: {len(automation.articles)}")
         print("=" * 70)
-        
+
+
+if __name__ == "__main__":
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("\nStopped")
     except Exception as e:
         print(f"Error: {e}")
         import traceback
         traceback.print_exc()
-
-if __name__ == "__main__":
-    main()
