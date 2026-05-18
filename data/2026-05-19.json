@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-19",
+  "update_time": "2026-05-18 23:40:53",
+  "total_articles": 32,
+  "high": [
+    {
+      "title": "Hon Hai, Quanta and Others Welcome Infrastructure Opportunities as Google Unveils Strongest Gemini at Developer Conference",
+      "section": "金融",
+      "date": "2026/05/18 02:19:53",
+      "url": "https://money.udn.com/money/story/5612/9508743?from=edn_maintab_cate",
+      "summary": "Google's annual I/O developer conference on May 19 (US time) is expected to unveil the \"strongest Gemini ever\" - Gemini 4.0, with significantly enhanced computing power and integrated AI agent functions. This will trigger new demand for computing infrastructure, benefiting Hon Hai (2317), Quanta (2382), and Inventec (2356). The conference focuses on \"comprehensive AI integration,\" with market attention on how Gemini ecosystem expansion will drive commercial growth. External research indicates Google Cloud's backlog orders nearly doubled to $462 billion. The enhanced Gemini will require more computing power support, accelerating orders for AI server partners. Hon Hai noted strong demand for both GPU and ASIC cabinets, while Quanta expects AI server shipments to maintain double-digit growth with order visibility extending to 2027-2028. This development is crucial for Taiwan's AI infrastructure suppliers as Google's AI advancement directly translates to hardware demand."
+    },
+    {
+      "title": "Taiwan Stock Market Faces Five Challenges as Bulls Face Short-term Pressure, but Mid-term 45K Target Unchanged",
+      "section": "證券",
+      "date": "2026/05/18 02:34:52",
+      "url": "https://money.udn.com/money/story/5607/9508701?from=edn_maintab_cate",
+      "summary": "Taiwan stocks face five major challenges: failed Trump-Xi summit dividend, rising US-Japan long-term bond yields, renewed Middle East tensions, US stock decline on Friday (15th), and synchronized pullback in Taiwan index futures night session and TSMC ADR. Despite short-term pressure, the mid-term target of 45K remains unchanged. During the Trump-Xi summit, while the US allowed ten Chinese companies including Alibaba and Tencent to purchase Nvidia H200 chips, no procurement agreements were reached. US 20-year and 30-year bond yields both surpassed 5.1%, while Japan's 30-year yield hit 4%, reaching highs since 1999. Taiwan index futures night session dropped 487 points to 40,511, with TSMC ADR falling over 3%. However, experts maintain that as long as the May 6 low of 40,616 points holds, the overall bull structure may continue. The real test will come at the June Fed meeting under new Chairman Wash's leadership."
+    },
+    {
+      "title": "TSMC Rapidly Sells 152,000 Shares of Vanguard at NT$160.6 Per Share, Total Amount Exceeds NT$24.4 Billion",
+      "section": "證券",
+      "date": "2026/05/19 00:47:08",
+      "url": "https://money.udn.com/money/story/5607/9510736?from=edn_maintab_cate",
+      "summary": "TSMC (2330) completed the disposal of 152,000 shares of Vanguard International Semiconductor (5347) at NT$160.6 per share, totaling NT$24.411 billion. The disposal gain, including benefits from revaluing remaining holdings at fair value, amounts to approximately NT$63.202 billion, expected to boost TSMC's non-operating income this quarter. The transaction was conducted through after-hours block trading, with foreign investors appearing to be the main buyers. After disposal, TSMC retains approximately 19% stake in Vanguard. This move aligns with TSMC's strategy to focus resources on core business while maintaining strategic cooperation including silicon interposer production and GaN process technology licensing. The substantial disposal gain will significantly impact TSMC's Q2 financial performance and demonstrates management's portfolio optimization amid AI expansion."
+    }
+  ],
+  "medium": [
+    {
+      "title": "MediaTek, Qualcomm Consolidate Mobile Chip Territory",
+      "section": "金融",
+      "date": "2026/05/19 00:50:24",
+      "url": "https://money.udn.com/money/story/11162/9510796?from=edn_subcatelist_cate",
+      "summary": "Despite overall smartphone market decline, chip leaders Qualcomm and MediaTek (2454) continue launching new products across different segments. Qualcomm announced mid-range Snapdragon 6 Gen 5 (manufactured by TSMC) and entry-level Snapdragon 4 Gen 5 (by Samsung), while MediaTek counters with Dimensity 6360 and 7450. Both companies maintain competitive positioning in the evolving mobile chip landscape."
+    },
+    {
+      "title": "Foreign Exchange: New Taiwan Dollar Closes at 31.545, Up 0.6 Cents",
+      "section": "證券",
+      "date": "2026/05/18 16:24:29",
+      "url": "https://money.udn.com/money/story/12509/9510090?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar closed at 31.545 against the US Dollar on May 18, appreciating 0.6 cents or 0.02%. Trading volume reached $1.175 billion. The currency opened at 31.57, with intraday high at 31.545 and low at 31.645 before closing at 31.545."
+    },
+    {
+      "title": "Trump Postpones Iran Attack: Middle East Countries Plead for 2-3 Day Delay",
+      "section": "產經",
+      "date": "2026/05/19 07:25:09",
+      "url": "https://money.udn.com/money/story/5599/9511059",
+      "summary": "President Trump announced postponement of planned May 19 attack on Iran following pleas from Middle Eastern countries. Qatar, Saudi Arabia, and UAE leaders requested a 2-3 day delay, believing they can reach a peace agreement with Iran shortly. This development affects global oil prices and market stability, particularly relevant for Taiwan's energy-sensitive industries."
+    },
+    {
+      "title": "Taiwan Index Futures Night Session Surges Over 600 Points as US-Iran Relations Show Signs of Improvement",
+      "section": "產經",
+      "date": "2026/05/18 21:05:41",
+      "url": "https://money.udn.com/money/story/11112/9510591",
+      "summary": "Taiwan index futures night session rallied 622 points to 41,419 by 9 PM on reports that the US may temporarily exempt Iranian oil sanctions. TSMC futures gained 30 NT$ to 2,270, with electronics and semiconductor futures posting solid gains. This overnight strength suggests potential recovery for Taiwan stocks following Monday's sharp decline."
+    }
+  ],
+  "not_relevant": []
+}
