@@ -29,12 +29,11 @@ CONFIG = {
 }
 
 def authenticate_google_sheets():
-    """Authenticate using OAuth (same method as Vietnam)"""
+    """Authenticate using OAuth (exact same as Vietnam)"""
     creds = None
     if os.path.exists(CONFIG["token_file"]):
         with open(CONFIG["token_file"], 'rb') as token:
             creds = pickle.load(token)
-    
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
@@ -43,10 +42,8 @@ def authenticate_google_sheets():
                 CONFIG["credentials_file"], SCOPES
             )
             creds = flow.run_local_server(port=0)
-        
         with open(CONFIG["token_file"], 'wb') as token:
             pickle.dump(creds, token)
-    
     return creds
 
 def setup_google_sheets():
