@@ -21,7 +21,9 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install --break-system-packages requests beautifulsoup4 anthropic gspread google-auth-oauthlib google-auth
+          pip install --break-system-packages requests beautifulsoup4 anthropic gspread google-auth-oauthlib google-auth playwright
+          playwright install chromium
+          playwright install-deps
       
       - name: Create credentials file
         run: |
