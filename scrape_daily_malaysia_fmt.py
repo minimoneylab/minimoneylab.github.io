@@ -32,8 +32,14 @@ def authenticate_google_sheets():
     """Authenticate using OAuth (exact same as Vietnam)"""
     creds = None
     if os.path.exists(CONFIG["token_file"]):
-        with open(CONFIG["token_file"], 'rb') as token:
-            creds = pickle.load(token)
+        try:
+            with open(CONFIG["token_file"], 'rb') as token:
+                creds = pickle.load(token)
+        except (EOFError, pickle.UnpicklingError) as e:
+            print(f"Warning: Token file corrupted ({e}), will try to use anyway")
+            # File is empty or corrupted, continue without creds
+            creds = None
+    
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
