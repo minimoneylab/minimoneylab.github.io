@@ -163,27 +163,40 @@ def scrape_antara_ekonomi():
         
         # Find article links
         # ANTARA uses links like: https://www.antaranews.com/berita/...
-        article_links = soup.find_all('a', href=lambda x: x and '/berita/' in x)
+        # Try multiple selectors
+        article_links = []
+        
+        # Method 1: Find all links with /berita/ in href
+        all_links = soup.find_all('a', href=True)
+        for link in all_links:
+            href = link.get('href', '')
+            if '/berita/' in href:
+                article_links.append(link)
         
         print(f"Found {len(article_links)} article links")
         print()
         
         seen_urls = set()
         
-        for idx, elem in enumerate(article_links[:40], 1):  # Check first 40 links
+        for idx, elem in enumerate(article_links[:50], 1):  # Check first 50 links
             try:
                 article_url = elem.get('href', '')
+                
+                if not article_url:
+                    continue
+                
+                # Make full URL if needed
+                if article_url.startswith('/'):
+                    article_url = 'https://www.antaranews.com' + article_url
+                elif not article_url.startswith('http'):
+                    continue
                 
                 # Skip if already seen
                 if article_url in seen_urls:
                     continue
                 
-                # Make full URL if needed
-                if not article_url.startswith('http'):
-                    article_url = 'https://www.antaranews.com' + article_url
-                
-                # Only get articles from antaranews.com/berita
-                if 'antaranews.com/berita/' not in article_url:
+                # Only ekonomi section articles
+                if '/berita/' not in article_url or 'antaranews.com' not in article_url:
                     continue
                 
                 seen_urls.add(article_url)
