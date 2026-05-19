@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-20",
+  "update_time": "2026-05-19 23:45:35",
+  "total_articles": 33,
+  "high": [
+    {
+      "title": "US Stock Market Mixed Close: S&P 500 Declines, Semiconductor Index Falls Over 2% as Rising Yields Hit Tech Stocks",
+      "section": "金融",
+      "date": "2026/05/19 07:16:16",
+      "url": "https://money.udn.com/money/story/5599/9511054",
+      "summary": "US markets showed mixed performance on Monday with the S&P 500 declining slightly and the Philadelphia Semiconductor Index plummeting 2.47%. The selloff was driven by profit-taking in tech stocks as bond yields surged to their highest levels since February 2025. The 10-year Treasury yield climbed to 4.625%, raising concerns about persistent inflation and higher-for-longer interest rates. This has significant implications for Taiwan's tech sector, particularly semiconductor companies like TSMC and MediaTek, as US markets often set the tone for Asian tech stocks. The weakness in the semiconductor index could pressure Taiwan's tech-heavy market."
+    },
+    {
+      "title": "TSMC Sells 152,000 Shares of VIS at NT$160.6 Per Share, Generating NT$24.4 Billion",
+      "section": "證券",
+      "date": "2026/05/19 00:47:08",
+      "url": "https://money.udn.com/money/story/5607/9510736?from=edn_maintab_cate",
+      "summary": "TSMC completed the disposal of 152,000 shares in Vanguard International Semiconductor (VIS) at NT$160.6 per share, generating NT$24.411 billion in proceeds. The total disposal gain, including fair value adjustments on remaining holdings, amounts to approximately NT$63.2 billion, which will boost TSMC's non-operating income this quarter. After the sale, TSMC still retains about 19% stake in VIS. The transaction was conducted through block trading to financial institutions. TSMC emphasized this disposal is part of focusing resources on core business operations, and there are no plans for further VIS share sales in the foreseeable future. This strategic move allows TSMC to optimize capital allocation while maintaining technological cooperation with VIS."
+    },
+    {
+      "title": "Taiwan Dollar Closes at 31.65, Down 1.05 Cents in Heavy Selling",
+      "section": "證券",
+      "date": "2026/05/19 16:25:17",
+      "url": "https://money.udn.com/money/story/12509/9512448?from=edn_subcatelist_cate",
+      "summary": "The Taiwan dollar weakened significantly against the US dollar, closing at 31.65, down 1.05 cents or 0.33%. Trading volume was heavy at US$2.156 billion. The currency opened at 31.57 and traded in a range of 31.53 to 31.674. This substantial depreciation reflects broader risk-off sentiment and capital outflows as foreign investors sold NT$63.2 billion of Taiwan stocks. The weakening currency could benefit Taiwan's export-oriented companies but may increase imported inflation pressures for the Central Bank of Taiwan to consider."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges 716 Points on Foreign Selling Spree, Breaking Below Monthly Support",
+      "section": "證券",
+      "date": "2026/05/20 01:19:13",
+      "url": "https://money.udn.com/money/story/5607/9513170?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market suffered a severe selloff, plunging 716 points (1.7%) to close at 40,175 points, breaking below monthly moving average support. Foreign investors dumped NT$63.2 billion worth of stocks for the third consecutive day, bringing total outflows to NT$118.9 billion over three sessions. The index has now fallen 2,233 points (5.2%) from recent highs. Key tech stocks led the decline with TSMC down NT$35 and MediaTek falling NT$245. Trading volume expanded to NT$1.15 trillion, indicating capitulation selling. The National Stabilization Fund (government banks) stepped in with NT$19.1 billion in purchases to stem the decline. Technical analysis suggests the next support level is at 40,000 points, with potential further weakness toward the quarterly moving average at 36,129 points."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Foreign Capital Flight Intensifies: NT$63.2 Billion Outflow as Funds Shift to Defensive Sectors",
+      "section": "產經",
+      "date": "2026/05/19 16:56:36",
+      "url": "https://money.udn.com/money/story/5607/9512530",
+      "summary": "Foreign investors sold NT$63.2 billion of Taiwan stocks while rotating into defensive sectors. Eight of the top ten foreign purchases were financial stocks, with telecommunications also attracting buying. Memory stocks including Winbond, Nanya Tech, and Macronix faced heavy selling pressure. This defensive rotation suggests foreign investors are becoming more risk-averse amid market volatility."
+    },
+    {
+      "title": "MediaTek and Qualcomm Strengthen Mobile Chip Market Position with New Mid-Range Processors",
+      "section": "金融",
+      "date": "2026/05/19 00:50:24",
+      "url": "https://money.udn.com/money/story/11162/9510796?from=edn_subcatelist_cate",
+      "summary": "Despite overall smartphone market weakness, MediaTek and Qualcomm continue launching new products to defend market share. Qualcomm introduced Snapdragon 6 Gen 5 and 4 Gen 5 processors manufactured by TSMC and Samsung respectively, while MediaTek countered with Dimensity 6360 and 7450 chips. Both companies are focusing on mid-range segments as flagship demand remains pressured by component cost inflation."
+    },
+    {
+      "title": "Kuoyang Achieves NT$1 Trillion Market Cap Milestone on AI Server MLCC Demand",
+      "section": "金融",
+      "date": "2026/05/19 01:26:36",
+      "url": "https://money.udn.com/money/story/5612/9510775?from=edn_maintab_cate",
+      "summary": "Passive component manufacturer Kuoyang hit the daily limit at NT$501, reaching a market capitalization of NT$1.03 trillion for the first time. The surge is driven by AI server demand for high-end multi-layer ceramic capacitors (MLCCs). TrendForce data shows NVIDIA's GB200 AI servers require 6,500 MLCCs per board, with next-generation Rubin platforms needing up to 12,000 units due to higher power requirements."
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang Predicts AI Golden Decade, Infrastructure Still in Early Stages",
+      "section": "金融",
+      "date": "2026/05/20 01:41:22",
+      "url": "https://money.udn.com/money/story/5612/9513173?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang stated AI infrastructure development is still in its \"earliest stages\" with demand expected to continue for the next decade. He emphasized that memory and advanced chip shortages remain the biggest bottlenecks for AI development and will persist for years. This outlook supports continued demand for Taiwan suppliers including TSMC, Nanya Tech, and Winbond Electronics."
+    }
+  ],
+  "not_relevant": []
+}
