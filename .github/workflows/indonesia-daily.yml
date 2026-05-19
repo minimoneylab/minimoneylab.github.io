@@ -28,7 +28,7 @@ jobs:
       - name: Create credentials file
         run: |
           echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
-          echo '${{ secrets.GOOGLE_TOKEN_PICKLE }}' | base64 -d > token.pickle
+          echo '${{ secrets.GOOGLE_TOKEN }}' | base64 -d > token.pickle
       
       - name: Scrape Indonesia news
         run: |
