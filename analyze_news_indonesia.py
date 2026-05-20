@@ -104,36 +104,43 @@ def analyze_with_claude(articles):
         articles_text += f"   Summary: {article['summary'][:200]}...\n"
         articles_text += f"   Category: {article['category']}\n"
     
-    prompt = f"""You are analyzing Indonesian business and finance news. Here are today's articles from Bisnis.com:
+    prompt = f"""You are analyzing Indonesian business and finance news. Here are today's articles from Detik Finance:
 
 {articles_text}
 
+IMPORTANT: The articles are in INDONESIAN (Bahasa Indonesia). You MUST:
+- Translate article titles to ENGLISH
+- Write all summaries in ENGLISH
+- Translate all content for international investors
+
 Categorize each article as:
-- HIGH: Critical market-moving news (major economic policy, significant corporate events, market crashes/rallies)
+- HIGH: Critical market-moving news (major economic policy, significant corporate events, market crashes/rallies, Bank Indonesia decisions, Rupiah movements)
 - MEDIUM: Important but not urgent (notable business deals, sector trends, regulatory changes)
 - NOT_RELEVANT: Non-financial news, minor updates, or irrelevant content
 
 For each HIGH and MEDIUM article, provide:
-1. Title (original)
+1. Title (TRANSLATED TO ENGLISH)
 2. URL (original)  
-3. Brief summary (2-3 sentences explaining why it matters to Indonesian investors/businesses)
-4. Source: "Bisnis.com"
+3. Brief summary (2-3 sentences IN ENGLISH explaining why it matters to Indonesian investors/businesses)
+4. Source: "Detik Finance"
 5. Date (original)
 
 Return ONLY a JSON object with this structure:
 {{
   "high": [
-    {{"title": "...", "url": "...", "summary": "...", "source": "Bisnis.com", "date": "..."}}
+    {{"title": "...", "url": "...", "summary": "...", "source": "Detik Finance", "date": "..."}}
   ],
   "medium": [
-    {{"title": "...", "url": "...", "summary": "...", "source": "Bisnis.com", "date": "..."}}
+    {{"title": "...", "url": "...", "summary": "...", "source": "Detik Finance", "date": "..."}}
   ],
   "not_relevant": [
     {{"title": "...", "url": "..."}}
   ]
 }}
 
-CRITICAL: Return ONLY the JSON object, no other text."""
+CRITICAL: 
+- Translate ALL titles and summaries to ENGLISH
+- Return ONLY the JSON object, no other text."""
 
     print("Sending to Claude API for analysis...")
     
@@ -188,7 +195,7 @@ def save_digest_to_sheet(client, digest):
                 article.get('title', ''),
                 article.get('url', ''),
                 article.get('summary', ''),
-                article.get('source', 'Bisnis.com'),
+                article.get('source', 'Tempo.co'),
                 article.get('date', ''),
                 generated_time
             ]
@@ -201,7 +208,7 @@ def save_digest_to_sheet(client, digest):
                 article.get('title', ''),
                 article.get('url', ''),
                 article.get('summary', ''),
-                article.get('source', 'Bisnis.com'),
+                article.get('source', 'Tempo.co'),
                 article.get('date', ''),
                 generated_time
             ]
@@ -217,7 +224,7 @@ def save_digest_to_sheet(client, digest):
 
 def main():
     print("=" * 70)
-    print("MALAYSIA NEWS ANALYZER - Claude API")
+    print("INDONESIA NEWS ANALYZER - Claude API")
     print(datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'))
     print("=" * 70)
     print()
