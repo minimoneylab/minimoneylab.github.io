@@ -14,8 +14,8 @@ import json
 import re
 import glob
 
-# Korea timezone (UTC+7)
-VN_TIMEZONE = timezone(timedelta(hours=7))
+# Korea timezone (UTC+9)
+KR_TIMEZONE = timezone(timedelta(hours=9))
 
 # Time filter: DISABLED - include all articles from today's digest
 FILTER_HOURS = None  # Disabled
@@ -32,8 +32,8 @@ CONFIG = {
     "digest_tab": "Korea Daily Digest",
     
     # Output
-    "output_dir": "./korea/data",
-    "days_to_keep": 7,
+    "output_dir": "./data",
+    "output_file": "korea-news.json",
 }
 
 SCOPES = [
@@ -208,49 +208,26 @@ class JsonGenerator:
         
         return json_data
     
-    def save_json(self, json_data, output_dir, days_to_keep=7):
-        """Save JSON file and manage archive"""
+    def save_json(self, json_data, output_dir, output_file):
+        """Save JSON file"""
         
         os.makedirs(output_dir, exist_ok=True)
         
-        # Use Korea time for filename
-        vn_now = datetime.now(VN_TIMEZONE)
-        date_str = vn_now.strftime('%Y-%m-%d')
-        filename = f"{date_str}.json"
-        filepath = os.path.join(output_dir, filename)
+        # Use Korea time for date
+        kr_now = datetime.now(KR_TIMEZONE)
+        date_str = kr_now.strftime('%Y-%m-%d')
         
-        # Update json_data with correct VN date
+        # Update json_data with correct date
         json_data['date'] = date_str
+        
+        filepath = os.path.join(output_dir, output_file)
         
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=2)
         
-        print(f"Saved: {filepath}")
-        
-        # Cleanup old files
-        self._cleanup_old_files(output_dir, days_to_keep)
+        print(f"✓ Generated {filepath}")
         
         return filepath
-    
-    def _cleanup_old_files(self, output_dir, days_to_keep):
-        """Delete JSON files older than specified days"""
-        try:
-            vn_now = datetime.now(VN_TIMEZONE)
-            cutoff_date = vn_now - timedelta(days=days_to_keep)
-            
-            for filepath in glob.glob(os.path.join(output_dir, '*.json')):
-                filename = os.path.basename(filepath)
-                try:
-                    file_date_str = filename.replace('.json', '')
-                    file_date = datetime.strptime(file_date_str, '%Y-%m-%d')
-                    
-                    if file_date < cutoff_date.replace(tzinfo=None):
-                        os.remove(filepath)
-                        print(f"Deleted old file: {filename}")
-                except:
-                    pass
-        except Exception as e:
-            print(f"Cleanup warning: {e}")
 
 
 # ============================================================================
@@ -260,9 +237,9 @@ class JsonGenerator:
 def main():
     print()
     print("=" * 70)
-    print("VIETNAM DATA GENERATOR")
-    vn_now = datetime.now(VN_TIMEZONE)
-    print(f"{vn_now.strftime('%Y-%m-%d %H:%M:%S')} VN Time")
+    print("KOREA DATA GENERATOR")
+    kr_now = datetime.now(KR_TIMEZONE)
+    print(f"{kr_now.strftime('%Y-%m-%d %H:%M:%S')} KR Time")
     print("=" * 70)
     print()
 
@@ -293,7 +270,7 @@ def main():
     filepath = generator.save_json(
         json_data,
         CONFIG["output_dir"],
-        CONFIG["days_to_keep"]
+        CONFIG["output_file"]
     )
 
     print()
@@ -301,9 +278,6 @@ def main():
     print("DATA READY!")
     print("=" * 70)
     print(f"JSON file: {filepath}")
-    print(f"Open website: /korea/index.html")
-    print()
-    print("The smart template will automatically load and display this data!")
     print("=" * 70)
 
 
