@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-21",
+  "update_time": "2026-05-20 23:52:48",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "Taiwan stock index battles to defend 40,000 level amid capital flight",
+      "section": "證券",
+      "date": "2026/05/20 01:19:13",
+      "url": "https://money.udn.com/money/story/5607/9513170?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market experienced severe selling pressure on May 19, falling 716 points to close at 40,175, breaking below monthly moving average support. Foreign investors sold NT$63.2 billion in a three-day selling streak totaling NT$118.9 billion. The market has now declined 2,233 points (5.2%) from recent highs, triggering algorithmic stop-loss orders and forcing major players to cut positions. The index has fallen for three consecutive days with expanding volume reaching NT$1.15 trillion, indicating price decline with volume expansion. Taiwan Index Futures night trading briefly broke below 40,000, adding to bearish sentiment. Technology blue chips including TSMC, MediaTek, Hon Hai, and Delta Electronics all declined significantly, while funds rotated into low-base defensive sectors including financials, traditional industries, and telecom stocks."
+    }
+  ],
+  "medium": [
+    {
+      "title": "NVIDIA Vera CPU ships to major AI companies, Hon Hai and Quanta benefit",
+      "section": "金融",
+      "date": "2026/05/20 01:06:49",
+      "url": "https://money.udn.com/money/story/5612/9513254?from=edn_maintab_cate",
+      "summary": "NVIDIA announced first shipments of Vera CPU to major clients including Anthropic, OpenAI, SpaceX AI, and Oracle. Quanta announced a new US facility lease worth US$61.71 million for AI server expansion. The Vera CPU features 88 computing cores and uses TSMC's 3nm process, positioning Hon Hai, Quanta, and Wistron for new server orders."
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang forecasts AI golden decade",
+      "section": "金融",
+      "date": "2026/05/20 01:41:22",
+      "url": "https://money.udn.com/money/story/5612/9513173?from=edn_maintab_cate",
+      "summary": "Jensen Huang stated AI infrastructure development is still in \"early stages\" with demand extending over the next decade. He highlighted severe shortages in memory and advanced chips lasting several years, benefiting suppliers like Nanya Tech, Winbond, and TSMC. The AI industry is transitioning from generative AI to agentic AI era."
+    },
+    {
+      "title": "Memory giants raise over NT$100 billion overseas for expansion",
+      "section": "金融",
+      "date": "2026/05/20 00:38:50",
+      "url": "https://money.udn.com/money/story/5612/9513120?from=edn_subcatelist_cate",
+      "summary": "Phison completed US$800 million convertible bond issuance while Nanya Tech raised NT$78.7 billion through private placement. Combined overseas fundraising exceeds NT$100 billion, representing Taiwan memory industry's largest capital raising ever. Funds will be used for material procurement and capacity expansion amid AI-driven memory demand surge."
+    },
+    {
+      "title": "Taiwan stock index barely holds 40,000 as volume shrinks to NT$1.02 trillion",
+      "section": "證券",
+      "date": "2026/05/21 00:35:44",
+      "url": "https://money.udn.com/money/story/5607/9515790?from=edn_maintab_cate",
+      "summary": "Taiwan stocks closed at 40,020 points, down 154 points, barely defending the 40,000 level with reduced volume at NT$1.02 trillion. Foreign investors sold NT$46.6 billion for the fourth consecutive day. Market focus remains on NVIDIA earnings ahead, with defensive rotation continuing into financials and telecom stocks."
+    },
+    {
+      "title": "Far EasTone secures Amazon Leo Taiwan distribution rights",
+      "section": "金融",
+      "date": "2026/05/20 00:43:45",
+      "url": "https://money.udn.com/money/story/11162/9513119?from=edn_maintab_cate",
+      "summary": "Far EasTone announced partnership with Amazon Leo as Taiwan authorized distributor for low-earth orbit satellite services. Amazon Leo expects commercial launch in H1 2027 globally including Taiwan. Far EasTone leverages its 28GHz spectrum advantage, though exclusivity wasn't confirmed as Chunghwa Telecom continues pursuit of direct Amazon Leo cooperation."
+    }
+  ],
+  "not_relevant": []
+}
