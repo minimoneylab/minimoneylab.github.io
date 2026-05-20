@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Korea News Analyzer
-Reads Koreaese articles from Google Sheets and uses Claude to analyze
+Reads Korean articles from Google Sheets and uses Claude to analyze
 Focuses on FX market, yields, and capital flows
 Outputs in ENGLISH
 """
@@ -62,30 +62,29 @@ def build_prompt(articles):
     prompt = f"""You are a senior emerging markets analyst specializing in Korea's 
 financial markets, FX dynamics, and monetary policy.
 
-Your job is to review Koreaese financial news and produce a professional daily 
-briefing for an international fund manager who trades Koreaese Dong (VND), 
-Koreaese government bonds, and Koreaese equities.
+Your job is to review Korean financial news and produce a professional daily 
+briefing for an international fund manager who trades Korean Won (KRW), 
+Korean government bonds, and Korean equities.
 
 IMPORTANT: 
-- The articles are in VIETNAMESE but you MUST write ALL summaries in ENGLISH
-- Translate Koreaese article titles to English
+- The articles are in ENGLISH already
 - All analysis and commentary must be in ENGLISH
 
-Below are {len(articles)} news articles from CafeF.vn.
+Below are {len(articles)} news articles from KEDGlobal and InfomaxAI.
 
 CRITICAL RULES:
 - Use ONLY the exact URLs provided in the article data above
 - DO NOT modify, shorten, or make up URLs
 - Copy the URL exactly as it appears for each article
 - Filter articles based on relevance to the topics below
-- Write ALL content in ENGLISH (translate titles and summaries from Koreaese)
+- Write ALL content in ENGLISH
 
 RELEVANT TOPICS (ONLY summarize articles about these):
-- **VND/USD exchange rate** and FX market dynamics
-- **State Bank of Korea (SBV)** monetary policy, intervention, reserve management
+- **KRW/USD exchange rate** and FX market dynamics
+- **Bank of Korea (BOK)** monetary policy, intervention, reserve management
 - **Interest rates** (policy rate, deposit rates, lending rates)
-- **Koreaese government bond yields** and bond market
-- **Capital flows** (foreign investment inflows/outflows, remittances)
+- **Korean government bond yields** and bond market
+- **Capital flows** (foreign investment inflows/outflows)
 - **Inflation** and its impact on FX and rates
 - **Trade balance** and current account
 - **VN-Index** and Ho Chi Minh Stock Exchange
@@ -333,7 +332,7 @@ class ClaudeAnalyzer:
         print()
         
         total_articles = len(articles)
-        print(f"Analyzing {total_articles} Koreaese articles...")
+        print(f"Analyzing {total_articles} Korean articles...")
         
         # If more than 75 articles, split into batches to avoid rate limits
         # Rate limit: 30,000 tokens/min ≈ 75 articles per batch
@@ -423,7 +422,7 @@ class ClaudeAnalyzer:
 def main():
     print()
     print("=" * 70)
-    print("VIETNAM NEWS ANALYZER")
+    print("KOREA NEWS ANALYZER")
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
     print("=" * 70)
     print()
