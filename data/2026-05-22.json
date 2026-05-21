@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-22",
+  "update_time": "2026-05-21 23:38:58",
+  "total_articles": 29,
+  "high": [
+    {
+      "title": "US Stock Market Closes Higher: US-Iran Negotiations Show Promise, Oil Prices Plunge, Three Major Indices Rise Over 1%, Philadelphia Semiconductor Index Surges 4.5%",
+      "section": "金融",
+      "date": "2026/05/21 06:50:52",
+      "url": "https://money.udn.com/money/story/5599/9516038",
+      "summary": "US stocks rallied strongly on Wednesday with all three major indices gaining over 1%. The Dow Jones recovered the 50,000 point level, rising 645.47 points (1.3%) to close at 50,009.35. The S&P 500 gained 79.36 points (1.1%) to 7,432.97, while the Nasdaq surged 399.64 points (1.5%) to 26,270.36. The Philadelphia Semiconductor Index jumped 4.5%, led by Astera Labs (+17.7%) and ARM (+15%). NVIDIA rose 1.3% during regular trading but showed volatile after-hours movement following its Q2 revenue forecast that exceeded Wall Street expectations and announcement of an $80 billion share buyback program. TSMC ADR gained 2.3%. This rally was driven by optimism over US-Iran negotiations and falling oil prices (-5.7% to ~$98/barrel), which reduced inflation concerns and provided support for equity markets. The market implications are significant for Taiwan's semiconductor supply chain, particularly given the strong performance of AI-related stocks."
+    },
+    {
+      "title": "TrendForce: 2026 AI Server Shipments Expected to Grow 28%, Driving Manufacturing Plans for Hon Hai, Quanta and Others",
+      "section": "金融",
+      "date": "2026/05/21 01:42:04",
+      "url": "https://money.udn.com/money/story/11162/9515786?from=edn_maintab_cate",
+      "summary": "TrendForce forecasts AI server shipments will grow over 28% in 2026, driven by North America's top five cloud service providers expanding AI training and inference deployments. Total AI training computing power is expected to grow over 56% annually, while AI inference computing power could surge 122%. The five major CSPs (Google, Amazon, Microsoft, Meta, Oracle) are projected to have combined capex exceeding $770 billion in 2026, up nearly 87% year-over-year. This growth is driving Taiwan ODM manufacturers including Hon Hai (2317), Quanta, and Wistron to accelerate factory construction plans, with the US market becoming the primary region for capacity expansion over the next three years. The report suggests AI training servers will account for about 55% of shipments in 2026, though AI inference servers are expected to dominate in the medium to long term as CSPs accelerate commercial AI cloud services."
+    },
+    {
+      "title": "Taiwan Stock Market Multi-Directional Tug-of-War, Narrowly Holds 40,000 Points, Trading Volume Shrinks to 1.02 Trillion",
+      "section": "證券",
+      "date": "2026/05/21 00:35:44",
+      "url": "https://money.udn.com/money/story/5607/9515790?from=edn_maintab_cate",
+      "summary": "Taiwan stocks experienced volatile trading on May 20, ultimately closing down 154 points at 40,020, narrowly holding the 40,000-point level with trading volume declining to 1.02 trillion. The market faced headwinds from inflation concerns impacting global markets, a stronger US dollar, and continued foreign investor selling ahead of Taiwan index futures settlement. The intraday range was 471 points (high: 40,439, low: 39,967). Both the weighted index and TSMC have fallen below their monthly moving averages for two consecutive days, facing technical downward pressure. Foreign investors sold 466.2 billion, extending their selling streak to four days with cumulative outflows of 1.655 trillion. However, domestic institutional investors provided some support, with government funds buying 113.3 billion. Market strategists suggest focusing on defensive, high-dividend, and undervalued stocks that outperform the broader market if the index fails to reclaim its monthly average this week."
+    },
+    {
+      "title": "Taiwan Stock Market Reports Retaliatory Rebound, Foreign Investors Turn Buyers, AI Stocks Surge",
+      "section": "證券",
+      "date": "2026/05/22 01:12:09",
+      "url": "https://money.udn.com/money/story/5607/9518203?from=edn_maintab_cate",
+      "summary": "Taiwan stocks staged a dramatic reversal on May 21, surging 1,347 points to close at 41,368 following strong NVIDIA earnings and foreign investors turning net buyers with 60.3 billion in purchases. The intraday gain reached 1,586 points, marking the third-largest single-day point gain in history. TSMC led the rally, jumping NT$45 to NT$2,230, while MediaTek resumed normal trading after a 10-day trade suspension and hit the daily limit at NT$3,550. AI stocks across the board surged, with 11 out of 49 stocks priced above NT$1,000 hitting daily limits. All three major institutional investor groups turned net buyers, combining for NT$85.31 billion in purchases. Foreign investors' massive buying reversal marked their largest daily purchase since May 6. The technical recovery above monthly moving averages suggests potential for further upside, though sustained momentum above 42,000 points will be crucial for confirming whether this represents a lasting trend reversal or temporary rebound."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Google's \"Crawfish\" Version Debuts, Taiwan Supply Chain Including Hon Hai and Quanta See Promising Orders",
+      "section": "金融",
+      "date": "2026/05/21 01:20:49",
+      "url": "https://money.udn.com/money/story/5612/9515779?from=edn_maintab_cate",
+      "summary": "Google CEO Sundar Pichai announced the dawn of AI agents with \"Gemini Spark,\" the first AI agent technology designed primarily for personal use. Operating on Google cloud virtual machines, it can work 24/7 even when devices are shut down, driving continued AI computing demand growth. Market analysts are optimistic about Taiwan ODM manufacturers in Google's supply chain including Hon Hai (2317), Quanta, and Inventec benefiting from subsequent orders."
+    },
+    {
+      "title": "China Steel April Turns Profitable, Expected to Get Better Month by Month",
+      "section": "證券",
+      "date": "2026/05/20 23:36:59",
+      "url": "https://money.udn.com/money/story/5710/9515472?from=edn_maintab_cate",
+      "summary": "China Steel (2002) reported April pre-tax profit of NT$485 million, marking the highest single-month profit level in 14 months and reversing three consecutive months of losses. The company expects a \"month by month improvement\" outlook. Steel price recovery has begun reflecting in monthly profits, with Q2 expected to be a key turning point. April steel sales volume reached 690,000 tons, with cumulative sales of 2.53 million tons in the first four months."
+    },
+    {
+      "title": "Strong Mao 2026 Revenue Targeting 300 Billion, Chairman Fang Min-zong Aims for Market Cap of 100 Billion",
+      "section": "證券",
+      "date": "2026/05/21 00:18:47",
+      "url": "https://money.udn.com/money/story/5710/9515468?from=edn_maintab_cate",
+      "summary": "Power semiconductor manufacturer Strong Mao (2481) celebrates its 40th anniversary this year. Chairman Fang Min-zong stated the company aims for annual revenue exceeding NT$30 billion and market cap surpassing NT$100 billion. Automotive applications have become Strong Mao's most important revenue source, approaching 40% of total revenue. The company is also positioning AI as the next key growth driver, not just in data centers but across the entire AI ecosystem including cloud, edge computing, AI PCs, robots and various terminal devices."
+    },
+    {
+      "title": "OTC Center Studies Issuing \"Transition Bonds\"",
+      "section": "證券",
+      "date": "2026/05/21 00:12:28",
+      "url": "https://money.udn.com/money/story/11074/9515438?from=edn_subcatelist_cate",
+      "summary": "GreTai Securities Market Deputy General Manager Li Shu-nuan indicated that sustainable development bonds have issued 14 issues worth NT$23.5 billion this year. The center is also studying new bond types including \"transition bonds.\" Both the GreTai index and OTC securities trading volumes have hit historical highs in May, with applications for OTC/emerging stock listings becoming more active, showing continued market vitality."
+    },
+    {
+      "title": "Shuang Hong 2026 Revenue Targets 70% Growth, Confident in Gross Margin Stabilizing at 30%",
+      "section": "證券",
+      "date": "2026/05/22 00:00:29",
+      "url": "https://money.udn.com/money/story/11074/9517814?from=edn_maintab_cate",
+      "summary": "Shuang Hong (3324) Chairman Lin Yu-shen raised 2026 revenue growth target from 50% to 70%, benefiting from surging ASIC server thermal management orders. The company has become a major thermal solution supplier for Meta and Amazon's ASIC servers and secured Google CDU (Coolant Distribution Unit) orders. Gross margins are expected to stabilize at 30% due to optimized product mix, with business visibility extending through next year."
+    }
+  ],
+  "not_relevant": []
+}
