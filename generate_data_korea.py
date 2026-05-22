@@ -122,7 +122,7 @@ class SheetsReader:
 class DataParser:
     def __init__(self):
         """Initialize with current Korea time"""
-        self.now = datetime.now(VN_TIMEZONE)
+        self.now = datetime.now(KR_TIMEZONE)
     
     def parse_summary(self, summary_text):
         """Parse Claude's summary into structured data"""
