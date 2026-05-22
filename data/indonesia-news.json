@@ -1,66 +1,94 @@
 {
-  "update_time": "2026-05-21 22:25:12 UTC",
+  "update_time": "2026-05-22 22:13:59 UTC",
   "country": "Indonesia",
   "source": "CNN Indonesia",
-  "total_articles": 8,
+  "total_articles": 12,
   "high": [
     {
-      "title": "Komisi XI DPR soal Rupiah Anjlok: Yang Terpengaruh Orang Kaya",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260517142937-78-1359291/komisi-xi-dpr-soal-rupiah-anjlok-yang-terpengaruh-orang-kaya",
-      "summary": "Ketua Komisi XI DPR membahas melemahnya nilai tukar rupiah terhadap dolar AS dan respons Presiden Prabowo. Pelemahan rupiah berdampak signifikan pada pasar keuangan dan daya beli masyarakat Indonesia.",
-      "source": "Bisnis.com",
-      "date": "2026-05-17"
+      "title": "IHSG Plunges Nearly Abandoning 6,000 Level",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8498693/ihsg-anjlok-nyaris-tinggalkan-level-6-000",
+      "summary": "The Jakarta Composite Index (IHSG) closed sharply lower at 6,094 points, down 233 points (3.54%) following market concerns over the new state-owned export monopoly policy. This represents a significant market selloff that could impact investor confidence and portfolio values across Indonesian equities.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 16:29 WIB"
     },
     {
-      "title": "Apa Dampak Rupiah Anjlok Ditekuk Dolar Bagi Masyarakat Desa?",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260517104458-78-1359237/apa-dampak-rupiah-anjlok-ditekuk-dolar-bagi-masyarakat-desa",
-      "summary": "Presiden Prabowo menilai pelemahan rupiah tidak berdampak langsung pada masyarakat desa karena tidak menggunakan dolar dalam transaksi sehari-hari. Analisis ini penting untuk memahami dampak makroekonomi terhadap berbagai segmen masyarakat.",
-      "source": "Bisnis.com",
-      "date": "2026-05-17"
+      "title": "Danantara CEO Responds to IHSG Crash After Export BUMN Formation",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8499064/bos-danantara-buka-suara-soal-ihsg-anjlok-usai-bumn-ekspor-dibentuk",
+      "summary": "The formation of PT Danantara Sumberdaya Indonesia to manage strategic commodity exports triggered significant market volatility, with IHSG falling over 2% during President Prabowo's announcement and continuing to decline 3.54% the following day. This policy change creates uncertainty for commodity exporters and could reshape Indonesia's trade structure.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 19:35 WIB"
     },
     {
-      "title": "AS-China Sepakat Pangkas Tarif Dagang Produk Pertanian",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260517140223-92-1359285/as-china-sepakat-pangkas-tarif-dagang-produk-pertanian",
-      "summary": "China dan AS sepakat mengurangi hambatan non-tarif produk pertanian setelah kunjungan Presiden Trump. Kesepakatan ini berpotensi mempengaruhi perdagangan global dan memberikan peluang bagi eksportir Indonesia di sektor pertanian.",
-      "source": "Bisnis.com",
-      "date": "2026-05-17"
+      "title": "Airlangga to Brief Investors After IHSG Collapse",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8498670/airlangga-bakal-buka-bukaan-bumn-ekspor-ke-investor-usai-ihsg-rontok",
+      "summary": "Coordinating Minister Airlangga Hartarto promises to provide detailed explanations to investors about the new export policy through PT Danantara Sumberdaya Indonesia following severe market turbulence. The government aims to reassure markets before the June 1 implementation date, as investor uncertainty has caused significant stock market losses.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 16:14 WIB"
+    },
+    {
+      "title": "Massive Gas Reserves Discovered in Kutai",
+      "url": "https://finance.detik.com/energi/d-8498438/cadangan-gas-raksasa-ditemukan-di-kutai",
+      "summary": "Indonesia discovers massive gas reserves totaling 7 TCF gas and 375 million barrels oil equivalent condensate in the Kutai Basin, East Kalimantan. This significant energy discovery could boost Indonesia's energy security and export potential, potentially benefiting energy sector companies and the national economy.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 14:26 WIB"
+    },
+    {
+      "title": "Indonesia to Export 500,000 Tons of Fertilizer to Australia Worth Rp7 Trillion",
+      "url": "https://www.cnnindonesia.com/ekonomi/20260517114646-92-1359258/indonesia-bakal-ekspor-500-ribu-ton-pupuk-ke-australia-senilai-rp7-t",
+      "summary": "Agriculture Minister Andi Amran Sulaiman announces a major fertilizer export deal to Australia worth Rp7 trillion, with shipments to be conducted in phases. This substantial export contract could significantly boost Indonesia's agricultural sector revenue and strengthen trade relations with Australia.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026"
     }
   ],
   "medium": [
     {
-      "title": "Pendapatan GBK Capai Rp812 M pada 2025, Tertinggi dalam 63 Tahun",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260517171651-92-1359340/pendapatan-gbk-capai-rp812-m-pada-2025-tertinggi-dalam-63-tahun",
-      "summary": "Gelora Bung Karno mencatat pendapatan tertinggi Rp812 miliar di tahun 2025. Pencapaian ini menunjukkan potensi besar sektor pariwisata dan olahraga dalam mendukung perekonomian Indonesia.",
-      "source": "Bisnis.com",
-      "date": "2026-05-17"
+      "title": "Djarum Group's SUPR Plans Delisting, Offers Rp45,000 Per Share",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8498854/emiten-grup-djarum-supr-mau-delisting-tawarkan-rp-45-000-saham",
+      "summary": "PT Solusi Tunas Pratama Tbk (SUPR), part of the Djarum Group, plans to delist from the Indonesian Stock Exchange and go private, offering Rp45,000 per share to minority shareholders. This delisting could reduce market liquidity and represents a significant corporate restructuring move.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 18:00 WIB"
     },
     {
-      "title": "Kemnaker Berupaya Cegah PHK Akibat Geopolitik Global",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260517154744-92-1359315/kemnaker-berupaya-cegah-phk-akibat-geopolitik-global",
-      "summary": "Pemerintah mengantisipasi potensi PHK akibat dampak geopolitik global, terutama ketegangan di Timur Tengah. Langkah preventif ini penting untuk menjaga stabilitas ketenagakerjaan dan ekonomi nasional.",
-      "source": "Bisnis.com",
-      "date": "2026-05-17"
+      "title": "Government Claims Positive Business Response to Export BUMN DSI",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8499273/pemerintah-klaim-pengusaha-respons-positif-bumn-ekspor-dsi",
+      "summary": "Coordinating Minister Airlangga Hartarto claims businesses respond positively to the formation of export BUMN Danantara Sumberdaya Indonesia, aimed at optimizing commodity prices and strengthening Indonesia's leverage in commodity trading. The policy will be implemented gradually to ensure smooth transition.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 22:40 WIB"
     },
     {
-      "title": "BI Disebut Borong Emas 2 Ton pada Kuartal I 2026",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260513170708-78-1358340/bi-disebut-borong-emas-2-ton-pada-kuartal-i-2026",
-      "summary": "World Gold Council mencatat Bank Indonesia membeli 2 ton emas di kuartal I 2026. Pembelian emas oleh bank sentral ini menunjukkan strategi diversifikasi cadangan devisa dan antisipasi ketidakpastian ekonomi global.",
-      "source": "Bisnis.com",
-      "date": "2026-05-13"
+      "title": "Coal Businesses Still Question Export Rules Through BUMN",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8499266/pengusaha-masih-tanda-tanya-aturan-ekspor-batu-bara-cs-lewat-bumn",
+      "summary": "Coal industry association APBI awaits technical details on natural resource export regulations through Danantara Sumberdaya Indonesia, with many policy details still unclear. The uncertainty around implementation could affect coal mining companies' operational planning and export strategies.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 22:26 WIB"
     },
     {
-      "title": "Indonesia Bakal Ekspor 500 Ribu Ton Pupuk ke Australia Senilai Rp7 T",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260517114646-92-1359258/indonesia-bakal-ekspor-500-ribu-ton-pupuk-ke-australia-senilai-rp7-t",
-      "summary": "Mentan Andi Amran mengungkapkan Indonesia akan mengekspor pupuk urea ke Australia senilai Rp7 triliun. Kontrak ekspor besar ini akan meningkatkan devisa negara dan memperkuat posisi Indonesia sebagai eksportir pupuk global.",
-      "source": "Bisnis.com",
-      "date": "2026-05-17"
+      "title": "OJK Admits Indonesia's Carbon Trading Small Compared to Europe and China",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8498633/ojk-akui-transaksi-bursa-karbon-ri-kecil-kalah-dari-eropa-china",
+      "summary": "OJK acknowledges Indonesia's carbon trading (IDXCarbon) remains small at Rp93.7 billion compared to EU's $700 billion and China's $10-40 billion markets. This highlights the early stage of Indonesia's carbon market development and potential for significant growth in the ESG investment sector.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026 15:59 WIB"
     },
     {
-      "title": "Harga Emas Antam Tertahan di Rp2,769 Juta per Gram Minggu Pagi",
+      "title": "Rupiah Impact on Rural Communities - What Are the Effects?",
+      "url": "https://www.cnnindonesia.com/ekonomi/20260517104458-78-1359237/apa-dampak-rupiah-anjlok-ditekuk-dolar-bagi-masyarakat-desa",
+      "summary": "President Prabowo Subianto believes rupiah weakening against the US dollar won't directly impact rural communities since they don't use dollars in daily transactions. This assessment provides insight into the government's view on currency volatility's economic impact distribution.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026"
+    },
+    {
+      "title": "Antam Gold Price Stays at Rp2.769 Million Per Gram on Sunday Morning",
       "url": "https://www.cnnindonesia.com/ekonomi/20260517095239-92-1359221/harga-emas-antam-tertahan-di-rp2769-juta-per-gram-minggu-pagi",
-      "summary": "Harga emas Antam stagnan di Rp2,769 juta per gram pada perdagangan Minggu. Stabilitas harga emas ini penting bagi investor yang menggunakan emas sebagai safe haven di tengah volatilitas rupiah.",
-      "source": "Bisnis.com",
-      "date": "2026-05-17"
+      "summary": "PT Aneka Tambang's (Antam) gold bar prices remain stagnant at Rp2.769 million per gram, showing no change from previous trading. Gold price stability could indicate market consolidation and provides reference for precious metals investors.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026"
+    },
+    {
+      "title": "Alexey Mordashov: Worker's Son Becomes Russia's Richest Person with Rp647.04 Trillion Wealth",
+      "url": "https://www.cnnindonesia.com/ekonomi/20260516210620-92-1359192/alexey-mordashov-anak-buruh-jadi-orang-terkaya-rusia-harta-rp64704-t",
+      "summary": "Profile of Russian steel boss Alexey Mordashov with wealth of $36.9 billion or Rp647.04 trillion according to Forbes Billionaires, showcasing global wealth concentration trends. This provides context for understanding international business leadership and wealth distribution patterns.",
+      "source": "Detik Finance",
+      "date": "Kamis, 21 Mei 2026"
     }
   ],
   "not_relevant": []
