@@ -37,7 +37,7 @@ jobs:
       
       - name: Analyze with Claude
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: |
           python analyze_news_indonesia.py
         continue-on-error: true
