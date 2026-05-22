@@ -1,1 +1,84 @@
-{"date":"2026-05-19","articles":{"high":[],"medium":[]}}
+{
+  "date": "2026-05-23",
+  "update_time": "2026-05-22 22:02:11",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "Dollar-Won Rises Slightly on Fed Rate Hike Possibility, Closes at 1,517.40 Won",
+      "section": "Bonds/Forex",
+      "date": "2026-05-22",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122055",
+      "summary": "The USD/KRW exchange rate closed at 1,517.40 won, up 11.30 won from the previous session amid renewed Fed rate hike speculation. The won exhibited a \"strong early, weak late\" pattern as initial ceasefire expectations between the US and Iran provided temporary support, before Fed Governor Christopher Waller's hawkish comments reversed sentiment. The 0.20 won intraday rise from the daytime session close demonstrates ongoing volatility as markets balance geopolitical developments against US monetary policy signals. This level represents a significant weakening from previous sessions, indicating continued pressure on the Korean currency. FX traders should monitor Fed communications closely, as any further hawkish rhetoric could push USD/KRW toward the 1,520 level, while genuine progress on Iran ceasefire talks could provide won relief."
+    },
+    {
+      "title": "Warsh Says 'Inflation Can Fall, Growth Can Strengthen' as Trump Emphasizes Independence",
+      "section": "Bonds/Forex",
+      "date": "2026-05-22",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122053",
+      "summary": "New Fed Chairman Kevin Warsh outlined a potentially dovish stance at his inauguration, suggesting inflation can decline while growth strengthens simultaneously. Trump emphasized Warsh's independence, stating \"Don't look at me or anyone else\" and arguing that \"economic growth doesn't mean inflation... could be quite the opposite.\" This represents a significant shift from traditional Fed thinking that often views growth and inflation as positively correlated. Warsh indicated the Fed will move away from \"rigid framework models\" toward more reform-oriented policies. For Korean bond and FX markets, this suggests potential US rate cuts ahead, which could strengthen the won and compress Korean government bond yields. However, the market remains cautious given recent hawkish Fed communications, creating uncertainty about the actual policy direction."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Dollar-Won Reverses Higher on Fading US-Iran Peace Hopes, Closes at 1,508 Won",
+      "section": "Bonds/Forex",
+      "date": "2026-05-22",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=121873",
+      "summary": "USD/KRW reversed course to close at 1,508.00 won, up 1.20 won from the previous session, as Iran's supreme leader reportedly rejected US demands to ship highly enriched uranium abroad. This geopolitical development triggered risk-off sentiment and dollar strength. The 1.90 won increase from the daytime session shows how quickly FX markets respond to Middle East developments."
+    },
+    {
+      "title": "Richmond Fed President - 'Successive Supply Shocks Don't Help Inflation'",
+      "section": "Bonds/Forex",
+      "date": "2026-05-22",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=121879",
+      "summary": "Richmond Fed President Thomas Barkin suggested the Fed may need to respond if inflation shocks persist, questioning the traditional approach of \"looking through\" supply shocks. With inflation above 2% for over five years, he warned about risks to inflation expectations anchoring. This hawkish stance supports dollar strength and could pressure emerging market currencies like the won."
+    },
+    {
+      "title": "Weak Demand for US 10-Year TIPS Pushes Yields Above Expectations",
+      "section": "Bonds/Forex",
+      "date": "2026-05-22",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=121870",
+      "summary": "The US Treasury's $19 billion 10-year TIPS auction settled at 2.169% yield, up 27.3 basis points from March and the highest since May 2024. Despite a decent 2.52x bid-to-cover ratio, the weak demand signals investor concerns about inflation protection. Rising US real yields could attract capital flows away from Korean bonds."
+    },
+    {
+      "title": "Iran Says 'Turning Point Reached With US... But Can't Say Agreement Is Imminent'",
+      "section": "Bonds/Forex",
+      "date": "2026-05-22",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122056",
+      "summary": "Iranian Foreign Ministry spokesman indicated progress in US-Iran talks but cautioned against expecting an imminent agreement. The ongoing uncertainty continues to support safe-haven dollar demand and creates volatility in risk assets and emerging market currencies including the Korean won."
+    },
+    {
+      "title": "Korea Investment & Securities Draws W2.4tr in Bond Bookbuilding, Prices Below Market",
+      "section": "Stocks",
+      "date": "2026-05-22",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=121836",
+      "summary": "Korea Investment & Securities attracted 2.495 trillion won in orders for its 250 billion won corporate bond issuance, with strong demand allowing pricing 7 basis points below benchmarks. The 10x oversubscription demonstrates healthy domestic credit market conditions and investor appetite for quality Korean corporate bonds."
+    }
+  ],
+  "not_relevant": [
+    "[Today's Schedule for Ministry of Finance and Other Economic Ministries]",
+    "Samsung Electronics Employees Hit 600 Million Won Performance Bonus Jackpot - How Much Tax Will They Pay?",
+    "'Including Insults and Defamation' - Ruling Party Proposes Bill to Punish 5·18 Mockery",
+    "President Lee Slams 'Fake News' on Chinese Buyers Sweeping Up Gangnam Properties, Vows Accountability",
+    "NACF Abruptly Accepts Direct Election System One Day After Deferral, Rejects Audit Committee",
+    "Trump Says Iran 'Somewhat Crazy,' Vows to Seize and Destroy Highly Enriched Uranium",
+    "US State Dept. Says 'Made Some Progress' in Iran Talks, 'Good Signs' Emerging (Comprehensive)",
+    "Kim Ki-young, Former South Chungcheong Vice Governor, Named New Chairman of Government Employees Mutual Aid Association",
+    "Shinsegae Draws Trillion Won in Orders as Bond Offering Rides Foreign Tourist Spending Boom",
+    "[Market Close] KOSPI Recovers 7,800 Level for First Time in Four Days - Samsung Electronics Attempts to Touch 300,000 Won",
+    "Mark Zandi - 'Stock Market-Economic Reality Gap Widest in My 36-Year Career'",
+    "Korea's Growth Fund sells out upon debut, driven by retail FOMO; Kosdaq surges 5%",
+    "Presidential Office Launches Inspection of Fire Commissioner, President Lee Orders Probe",
+    "Internet Banks Maintain 30% Mid-to-Low Credit Lending Target - Kakao Bank Leads with 45.6% in New Loans",
+    "DB Insurance Completes Acquisition of US-Based Fortegra, Secures Global Capabilities",
+    "Vice Finance Minister Meets EBRD First Vice President to Discuss AI Hub Follow-up Measures",
+    "KAMCO Discusses Expanded Participation in New Leap Fund with Lending Industry",
+    "Bessent at Warsh Inauguration - 'Will Do Right Thing' on Rate Cuts",
+    "Trump Tells Warsh to Be Independent, 'Don't Look at Me or Anyone Else' (Update)",
+    "Sold Out in 10 Minutes - National Growth Fund Sees Complete Sellout on First Day",
+    "'From Deposits to Investments'...Yonhap Infomax 26th Anniversary Conference Concludes (Comprehensive)",
+    "[Capital Migration] Hana Securities' Lee Jae-man - 'Samsung Electronics, SK Hynix to Lead KOSPI to 10,000 by Year-End'",
+    "[Capital Migration] Hyundai Motor Securities' Roh Geun-chang - 'No Chasm... AI Chip Rally to Continue'",
+    "[Capital Flows] JPMorgan's Park Seok-gil - 'Semiconductor Tailwinds Stronger Than Oil Price Headwinds'"
+  ]
+}
