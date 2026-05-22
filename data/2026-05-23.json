@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-23",
+  "update_time": "2026-05-22 23:42:58",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Surges on Foreign Investment Inflow - AI Stocks Rally",
+      "section": "證券",
+      "date": "2026/05/22 01:12:09",
+      "url": "https://money.udn.com/money/story/5607/9518203?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market staged a dramatic recovery rally yesterday (May 21), with the TAIEX surging 1,347 points to close at 41,368 points, ending a four-day losing streak. Foreign investors reversed course and bought NT$60.3 billion worth of shares, marking the largest foreign buying since May 6. The rally was driven by strong NVIDIA earnings and robust AI demand. TSMC led the charge, rising NT$45 to close at NT$2,230, while MediaTek hit the daily limit up at NT$3,550 after being removed from trading restrictions. The number of stocks priced above NT$1,000 increased to 49, with 11 hitting daily limits. This massive turnaround suggests either a technical rebound or the resumption of the AI bull run, with the key test being whether the index can hold above 42,000 points next week."
+    },
+    {
+      "title": "South Korea's Nanya Technology CEO: Memory Shortage to Continue Until 2027",
+      "section": "金融",
+      "date": "2026/05/21 23:45:54",
+      "url": "https://money.udn.com/money/story/11162/9518134?from=edn_subcatelist_cate",
+      "summary": "Nanya Technology (2408) CEO Lee Pei-ying reported that the company is experiencing \"frantic customer demand for production capacity\" driven by AI applications. He expects memory supply shortages to continue until the end of 2027, with supply-demand remaining tight through 2028. Due to extreme market shortages, customers are seeking long-term contracts up to three years to secure pricing and supply. This structural shift from cyclical to growth-oriented business model represents a fundamental change for the memory industry, with future profitability dependent on mastering advanced technologies."
+    },
+    {
+      "title": "AMD CEO Su Announces $10 Billion Taiwan Investment - Supply Chain Benefits",
+      "section": "金融",
+      "date": "2026/05/22 00:57:14",
+      "url": "https://money.udn.com/money/story/5612/9518198?from=edn_maintab_cate",
+      "summary": "AMD Chairman and CEO Lisa Su announced during her Taiwan visit that AMD will invest over $10 billion (approximately NT$315.9 billion) in Taiwan's industrial ecosystem to expand strategic partnerships. The investment will likely follow a \"capacity booking\" model with prepayments to suppliers over three years. Key beneficiaries include ASE Group, SPIL, ChipMOS, Hon Hai, Wiwynn, Wistron, Inventec, Unimicron, Nan Ya PCB, and Kinsus. Su emphasized that AI infrastructure requires massive investment and ecosystem collaboration, with CPU growth accelerating alongside GPU demand. The investment represents AMD's confidence in Taiwan's advanced technology capabilities and strategic importance in the global AI supply chain."
+    },
+    {
+      "title": "New Taiwan Dollar Strengthens to 31.568 Against USD",
+      "section": "證券",
+      "date": "2026/05/22 16:24:35",
+      "url": "https://money.udn.com/money/story/12509/9519720?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar closed at 31.568 against the US Dollar on May 22, appreciating 2.7 cents from the previous trading day's close of 31.595. This strengthening reflects improved market sentiment and foreign capital inflows into Taiwan's stock market. The currency traded in a range between 31.454 (high) and 31.581 (low), with total trading volume reaching $1.878 billion."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Closes Up 899 Points at 42,267",
+      "section": "證券",
+      "date": "2026/05/22 13:54:23",
+      "url": "https://money.udn.com/money/story/12509/9519313?from=edn_subcatelist_cate",
+      "summary": "Taiwan stocks continued their rally on May 22, with the TAIEX rising 899.76 points (2.17%) to close at 42,267.97 points. TSMC gained 1.12% to NT$2,255, while MediaTek surged 8.73%. Trading volume reached approximately NT$1.19 trillion, marking the 16th consecutive day above NT$1 trillion."
+    },
+    {
+      "title": "Foreign Investors Pour NT$76.13 Billion into Taiwan Stocks - Four Records Set",
+      "section": "證券",
+      "date": "2026/05/23 01:21:36",
+      "url": "https://money.udn.com/money/story/5607/9520383?from=edn_maintab_cate",
+      "summary": "Foreign investors bought a massive NT$76.13 billion worth of Taiwan stocks on May 22, the fourth-largest single-day purchase in history. The market set four new records: highest closing point at 42,267, market capitalization reaching NT$137.8 trillion, electronics index hitting 2,752 points, and the number of trillion-dollar market cap stocks increasing to 17 with Wiwynn joining the club."
+    },
+    {
+      "title": "Hon Hai Expands Mexico Operations with $129 Million Investment",
+      "section": "證券",
+      "date": "2026/05/21 23:39:37",
+      "url": "https://money.udn.com/money/story/5710/9517817?from=edn_subcatelist_cate",
+      "summary": "Hon Hai announced investments totaling $129 million in Mexican subsidiaries of FII and Hongpex Technology. Market speculation suggests this expansion is aimed at increasing AI server production capacity in Mexico, supporting Hon Hai's Americas operations which remain the largest AI production base globally."
+    },
+    {
+      "title": "Samsung Chairman Lee Meets with MediaTek CEO - Foundry Cooperation Speculation",
+      "section": "金融",
+      "date": "2026/05/23 00:35:35",
+      "url": "https://money.udn.com/money/story/5612/9520381?from=edn_maintab_cate",
+      "summary": "Samsung Electronics Chairman Lee Jae-yong met with MediaTek CEO Rick Tsai in Taiwan on May 21 to discuss cooperation opportunities. Industry observers speculate Samsung is seeking to win foundry orders from MediaTek, currently served by TSMC. The meeting comes as Samsung attempts to strengthen its foundry business amid intensifying AI demand competition."
+    },
+    {
+      "title": "Double King of Taiwan Stocks Lead Market Rally",
+      "section": "證券",
+      "date": "2026/05/23 01:21:36",
+      "url": "https://money.udn.com/money/story/5607/9520383?from=edn_maintab_cate",
+      "summary": "TSMC and Novatek led Taiwan's stock market higher, with the index gaining 899 points to 42,267. The rally was supported by news of potential US-Iran peace negotiations, which boosted risk appetite globally and led to significant foreign capital inflows into Taiwan equities."
+    }
+  ],
+  "not_relevant": []
+}
