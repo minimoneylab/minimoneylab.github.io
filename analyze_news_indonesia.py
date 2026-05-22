@@ -90,9 +90,9 @@ def analyze_with_claude(articles):
     """Analyze articles with Claude API"""
     
     # Get API key from environment variable
-    api_key = os.environ.get('ANTHROPIC_API_KEY')
+    api_key = os.environ.get('CLAUDE_API_KEY')
     if not api_key:
-        raise ValueError("ANTHROPIC_API_KEY environment variable not set")
+        raise ValueError("CLAUDE_API_KEY environment variable not set")
     
     client = Anthropic(api_key=api_key)
     
