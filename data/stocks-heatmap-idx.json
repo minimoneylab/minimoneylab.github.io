@@ -11,7 +11,7 @@
       "pe_ratio": 12.53,
       "pb_ratio": 2.8,
       "dividend_yield": 5.69,
-      "pct_from_high": -39.18
+      "pct_from_high": -38.86
     },
     {
       "symbol": "BBRI.JK",
@@ -80,7 +80,7 @@
       "change": 15.0,
       "change_pct": 0.86,
       "market_cap": 3784828205.0,
-      "pe_ratio": 18.21,
+      "pe_ratio": 18.18,
       "pb_ratio": 14.98,
       "dividend_yield": 7.59,
       "pct_from_high": -37.85
@@ -188,7 +188,7 @@
       "change": 850.0,
       "change_pct": 3.81,
       "market_cap": 1458772869.0,
-      "pe_ratio": 7.84,
+      "pe_ratio": 8.14,
       "pb_ratio": null,
       "dividend_yield": 7.46,
       "pct_from_high": -24.51
@@ -242,5 +242,5 @@
       "pct_from_high": -26.73
     }
   ],
-  "update_time": "2026-05-23 06:35:36"
+  "update_time": "2026-05-24 06:26:33"
 }

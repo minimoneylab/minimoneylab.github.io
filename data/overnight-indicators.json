@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-23 06:36:15",
+  "update_time": "2026-05-24 06:27:10",
   "us_indices": [
     {
       "name": "S&P 500",
@@ -37,39 +37,30 @@
       "change_pct": 1.99
     }
   ],
-  "asia_indices": [],
-  "sgx_futures": [
+  "asia_indices": [
     {
-      "name": "SGX FTSE Taiwan",
-      "contract": "TWN K26",
-      "ticker": "TWN-K26.SI",
-      "month": "May 2026",
-      "date": "2026-05-22",
-      "open": 3580.0,
-      "high": 3643.75,
-      "low": 3568.25,
-      "close": 3643.0,
-      "prev_close": null,
-      "change_pct": null,
-      "volume": 38554,
-      "source": "Yahoo Finance"
+      "name": "TWSE Index",
+      "ticker": "^TWII",
+      "close": 42267.97,
+      "change": 899.76,
+      "change_pct": 2.17
     },
     {
-      "name": "SGX FTSE Taiwan",
-      "contract": "TWN M26",
-      "ticker": "TWN-M26.SI",
-      "month": "Jun 2026",
-      "date": "2026-05-22",
-      "open": 3576.75,
-      "high": 3648.0,
-      "low": 3573.0,
-      "close": 3645.75,
-      "prev_close": null,
-      "change_pct": null,
-      "volume": 11478,
-      "source": "Yahoo Finance"
+      "name": "Hang Seng",
+      "ticker": "^HSI",
+      "close": 25606.03,
+      "change": 219.51,
+      "change_pct": 0.86
+    },
+    {
+      "name": "Nikkei 225",
+      "ticker": "^N225",
+      "close": 63339.07,
+      "change": 1654.93,
+      "change_pct": 2.68
     }
   ],
+  "sgx_futures": [],
   "adr_signals": [
     {
       "name": "TSMC",
