@@ -1,58 +1,57 @@
 {
-  "date": "2026-05-22",
-  "update_time": "2026-05-22 09:41:00",
-  "total_articles": 11,
+  "date": "2026-05-23",
+  "update_time": "2026-05-23 08:44:40",
+  "total_articles": 10,
   "high": [
     {
-      "title": "Ibovespa falls with uncertainty over US-Iran negotiations; 5 things to know before investing today (21)",
+      "title": "Analysis: Brasília Pressures, Interest Rates React and the Market Loses Conviction",
       "source": "MoneyTimes",
-      "date": "2026-05-21",
-      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-21-5-26-lils/",
-      "summary": "The Ibovespa follows negative external sentiment amid geopolitical uncertainties, declining 0.64% to 176,228.08 points by 10:10 AM Brasília time. The USD/BRL pair rose 0.25% to R$ 5.0159, tracking broader dollar strength as the DXY gained 0.26% to 99.354 points. Political noise continues affecting markets, with coordination changes in Flávio Bolsonaro's pre-campaign team following controversy over a R$ 134 million request for a film project. The combination of geopolitical tensions from the US-Iran situation and domestic political uncertainty is weighing on Brazilian assets. FX traders should monitor the real's performance against EM peers, while equity investors need to watch for further political developments that could impact market sentiment. The correlation between external risk-off moves and BRL weakness remains intact."
+      "date": "2026-05-23",
+      "url": "https://www.moneytimes.com.br/analise-brasilia-pressiona-juros-reagem-e-o-mercado-perde-conviccao/",
+      "summary": "The Ibovespa closed the week around 175,000 points, pressured by challenging international conditions and deteriorating domestic fiscal expectations amid an increasingly complex electoral scenario. The IBC-Br index for March showed a 0.7% monthly contraction, in line with market expectations, suggesting economic activity moderation. However, this weakness appears insufficient to significantly relieve pressure on the Central Bank. The predominant view is that the BCB seeks to preserve room to continue its rate-cutting cycle, but the combination of persistent inflation, adverse external conditions, and deteriorating fiscal expectations increases the probability of a pause in the easing cycle. This analysis is crucial for BRL traders as it signals potential monetary policy shifts and fiscal concerns that could impact currency stability and government bond yields."
     },
     {
-      "title": "Petrobras (PETR4) adheres to fuel subsidies, eyeing pricing policy",
+      "title": "US Interest Rates: With Focus on Inflation and Iran War, Market Already Prices Rate Hike in October",
       "source": "MoneyTimes",
-      "date": "2026-05-21",
-      "url": "https://www.moneytimes.com.br/petrobras-petr4-adere-a-subvencao-de-combustiveis-de-olho-na-politica-de-precos-veja-lmrs/",
-      "summary": "Petrobras' board approved the company's participation in the economic subsidy program for fuel producers and importers under Provisional Measure 1.358, which provides tax rebates on gasoline and diesel production/imports. This mechanism enables Petrobras to adjust fuel prices with reduced impact at gas stations amid rising oil prices from geopolitical tensions. The decision demonstrates the state-controlled company's alignment with government policy to manage inflation pressures from higher commodity prices. For investors, this reduces Petrobras' pricing flexibility but potentially stabilizes cash flows by minimizing political interference risks. Bond traders should note this could help contain inflationary pressures that might otherwise force more aggressive BCB tightening."
+      "date": "2026-05-23",
+      "url": "https://www.moneytimes.com.br/juros-nos-eua-de-olho-em-inflacao-e-guerra-no-ira-mercado-ja-precifica-alta-nos-juros-em-outubro-lils/",
+      "summary": "The recent impasse in Middle East peace negotiations, oil prices above $100, and inflation concerns have led markets to advance bets on US rate hikes to October 2026. The CME FedWatch tool shows 51.7% probability of the Federal Reserve raising rates at the October FOMC meeting, with 39.9% chance of a 25bp increase, 10.8% for 50bp, and 1% for 75bp. The probability of maintaining current rates at 3.50%-3.75% stands at 48.3%. Previously, monetary tightening was expected from December. This shift is critical for BRL as higher US rates typically strengthen the USD and create headwinds for emerging market currencies and capital flows into Brazil."
     }
   ],
   "medium": [
     {
-      "title": "Market optimistic about US and Iran; Ibovespa in dollars falls today (22)",
+      "title": "Optimistic Market with US and Iran; Dollar-Denominated Ibovespa Falls Today (22)",
       "source": "MoneyTimes",
       "date": "2026-05-22",
       "url": "https://www.moneytimes.com.br/mercado-otimista-com-eua-e-ira-ibovespa-em-dolar-cai-hoje-22-jals/",
-      "summary": "Markets show optimism as investors await updates on US-Iran peace negotiations. Secretary of State Marco Rubio's comments and Iranian press reports indicated progress in talks, boosting equities after a week of pressure from inflation concerns and potential rate hikes. However, Rubio emphasized any deal would be \"unfeasible\" if Iran maintains control over Strait of Ormuz navigation. Domestic political noise continues with Flávio Bolsonaro denying requests for Trump meetings."
+      "summary": "Markets showed optimism as investors awaited updates on US-Iran peace negotiations. Statements from Secretary of State Marco Rubio and Iranian press indicated progress in talks, boosting equity recovery. However, the dollar-denominated Ibovespa fell despite positive sentiment. Domestically, political noise continues to concentrate investor attention regarding upcoming presidential pre-candidate activities."
     },
     {
-      "title": "Iran says 35 vessels crossed Strait of Ormuz in last 24 hours",
+      "title": "In Case of Disruption, Need to Evaluate and Eventually Resume 'Small Package Tax', Says Finance Minister",
       "source": "MoneyTimes",
       "date": "2026-05-22",
-      "url": "https://www.moneytimes.com.br/ira-diz-que-35-embarcacoes-cruzaram-o-estreito-de-ormuz-nas-ultimas-24-horas/",
-      "summary": "Iran's Revolutionary Guard Navy reported 35 commercial vessels crossed the Strait of Ormuz in 24 hours under Iranian coordination and protection, including oil tankers and container ships. The statement reinforces Tehran's attempt to consolidate operational influence over navigation through the strait, which handles about one-fifth of global oil transport. This development impacts oil prices and commodity markets that affect Brazilian trade dynamics."
+      "url": "https://www.moneytimes.com.br/em-caso-de-desarranjo-e-preciso-avaliar-e-eventualmente-retomar-taxa-das-blusinhas-diz-ministro-da-fazenda-fets/",
+      "summary": "Finance Minister Dario Durigan stated that if disruptions occur, authorities must evaluate and potentially resume the \"small package tax\" on imports. The measure is regulatory and was zeroed but left authorization for the Finance Ministry to monitor developments and potentially restore the tax through public debate. This affects trade balance dynamics and fiscal revenue considerations."
     },
     {
-      "title": "Asian stocks close higher, with attention on US-Iran peace efforts",
+      "title": "Asian Stock Markets Close Higher, with Attention to US-Iran Peace Efforts",
       "source": "MoneyTimes",
       "date": "2026-05-22",
       "url": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-alta-com-atencao-a-esforcos-de-paz-entre-eua-e-ira-fets/",
-      "summary": "Asian markets closed higher on Friday as investors monitored diplomatic efforts for a US-Iran peace agreement. Japan's Nikkei led gains with a 2.68% rise to 63,339.07 points, driven by technology and electronics stocks. Reports circulated about preliminary peace agreement progress, though Reuters noted Iran's intention to maintain enriched uranium domestically. The positive external sentiment provides supportive backdrop for emerging market assets including Brazilian equities."
+      "summary": "Asian markets closed higher on Friday, with the Nikkei leading gains up 2.68% to 63,339.07 points, driven by technology and electronics stocks. Other regional indices also advanced as investors monitored US-Iran diplomatic efforts. Reports circulated about a preliminary peace agreement mediated by Pakistan, supporting risk-on sentiment across global markets."
     },
     {
-      "title": "Live: Ibovespa closes week watching American consumer",
+      "title": "Live Updates: Ibovespa Ends Week Watching American Consumer",
       "source": "MoneyTimes",
       "date": "2026-05-22",
       "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-22-05-2026-jals-lils-apsa/",
-      "summary": "The Ibovespa closes the week tracking UK retail sales and US Michigan Consumer Sentiment Index. The summary mentions continued focus on geopolitical developments including Iran's control over Strait of Ormuz shipping and Bitcoin's 5% weekly decline. External economic data remains crucial for Brazilian market direction given correlation with global risk sentiment."
+      "summary": "The Ibovespa closed the week monitoring UK retail sales and the US Michigan Consumer Sentiment Index. The summary indicates ongoing attention to international consumer data and geopolitical developments affecting market sentiment and Brazilian equity performance."
     }
   ],
   "not_relevant": [
-    "B3 opens exception for BradSaúde (SAUB3) in Novo Mercado; know what changes",
-    "US weekly unemployment claims fall amid labor market resilience",
-    "Bitcoin (BTC) falls almost 5% in week with increasing negative prospects; see crypto week highlights",
-    "In case of disruption, need to evaluate and eventually resume 'little blouses tax', says Finance Minister",
-    "Clarity Act could inaugurate new phase for global crypto market, but memecoin investor doesn't need to depend on it"
+    "Iran Says 35 Vessels Crossed Strait of Hormuz in Last 24 Hours",
+    "Bitcoin (BTC) Falls Nearly 5% in Week with Increasing Negative Prospects; See What Was Highlighted in Crypto Week",
+    "Clarity Act Could Inaugurate New Phase for Global Crypto Market, but Memecoin Investor Doesn't Need to Depend on It",
+    "Have You Seen This Sector's Potential? Stock Market May Have 'Hidden' Opportunity"
   ]
 }
