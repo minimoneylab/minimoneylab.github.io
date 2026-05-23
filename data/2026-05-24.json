@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-24",
+  "update_time": "2026-05-23 23:34:17",
+  "total_articles": 21,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Soars 899 Points Led by Foreign Investment Surge - TSMC and Major Tech Stocks Rally",
+      "section": "證券",
+      "date": "2026/05/23 01:21:36",
+      "url": "https://money.udn.com/money/story/5607/9520383?from=edn_maintab_cate",
+      "summary": "Foreign investors unleashed a massive NT$76.13 billion buying spree, driving Taiwan's stock market to four historic records. The TAIEX closed at 42,267 points, up 899 points (+2.17%), with market capitalization reaching NT$137.8 trillion. TSMC rose NT$25 to NT$2,255, while AI server and semiconductor packaging stocks surged on AMD's investment announcement. The market saw 17 companies with market caps exceeding NT$1 trillion, including newcomer Wiwynn. Trading volume hit NT$1.2 trillion for the 16th consecutive day. This massive foreign inflow, the fourth-largest single-day purchase in history, signals strong confidence in Taiwan's AI supply chain dominance and suggests sustained momentum for tech hardware stocks."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Samsung Electronics Chairman Meets MediaTek CEO - Potential Foundry Cooperation",
+      "section": "金融",
+      "date": "2026/05/23 00:35:35",
+      "url": "https://money.udn.com/money/story/5612/9520381?from=edn_maintab_cate",
+      "summary": "Samsung Electronics Chairman Lee Jae-yong met with MediaTek CEO Rick Tsai in Taiwan to discuss potential cooperation, particularly in foundry services as Samsung seeks to strengthen its position against TSMC. The meeting could involve Tesla automotive chips, Samsung mobile phone integration of MediaTek's Dimensity series, or broader supply chain collaboration. This represents Samsung's strategic push to leverage memory supply advantages to win foundry customers."
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang Arrives in Taiwan - Announces Vera Rubin as Largest Product Launch",
+      "section": "金融",
+      "date": "2026/05/24 02:35:45",
+      "url": "https://money.udn.com/money/story/5612/9521685?from=edn_maintab_cate",
+      "summary": "Jensen Huang declared that NVIDIA's new Vera Rubin CPU architecture will be \"the largest-scale product in Taiwan's supply chain history,\" involving 100-150 Taiwanese suppliers. He emphasized Taiwan's supply chain will be \"very busy\" in H2 2026 and predicted continued high growth for NVIDIA next year. Huang also addressed memory price inflation concerns, urging suppliers to expand capacity quickly."
+    },
+    {
+      "title": "Strong US Stock Performance - Dow Jones Hits Record Highs for Second Day",
+      "section": "金融",
+      "date": "2026/05/23 05:36:28",
+      "url": "https://money.udn.com/money/story/123398/9520536",
+      "summary": "US markets rallied strongly amid Iran war negotiation optimism and AI enthusiasm. The Dow gained 294 points (+0.58%) to 50,579, S&P 500 rose 27.75 points (+0.37%) to 7,473, and Philadelphia Semiconductor Index surged 238 points (+1.99%) to 12,202. This positive momentum supports Taiwan tech stocks given their exposure to US demand."
+    },
+    {
+      "title": "Cross-border Investment Surges 97% in First Four Months - US Markets Dominate",
+      "section": "證券",
+      "date": "2026/05/24 02:02:39",
+      "url": "https://money.udn.com/money/story/5607/9521720?from=edn_maintab_cate",
+      "summary": "Taiwan investors' overseas trading via securities firms reached NT$5.8 trillion in Jan-Apr 2026, nearly doubling (+97.4%) year-over-year. US investments dominated at 70.7% (NT$4.13 trillion), followed by UK (10%) and Hong Kong (6.6%). Popular targets include NVIDIA, Micron, Google, and various US ETFs, reflecting Taiwanese investors' strong appetite for global AI leaders."
+    }
+  ],
+  "not_relevant": []
+}
