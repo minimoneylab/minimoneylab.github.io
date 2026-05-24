@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-25",
+  "update_time": "2026-05-24 23:37:05",
+  "total_articles": 17,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Poised to Challenge 43K with Three Major Tailwinds",
+      "section": "證券",
+      "date": "2026/05/25 01:08:13",
+      "url": "https://money.udn.com/money/story/5607/9523068?from=edn_maintab_cate",
+      "summary": "Market analysts project Taiwan stocks could reach new highs around 43K driven by three key catalysts: Jensen Huang and Lisa Su's Taiwan visits, TSMC's potential record May revenue, and the upcoming COMPUTEX exhibition. Investment advisors highlight Huang's planned \"trillion-dollar banquet\" with major suppliers including TSMC, Hon Hai, and Delta Electronics as a key market driver. TSMC's May revenue is expected to exceed NT$420 billion, with Q2 revenue growth potentially reaching 10% quarter-over-quarter. Taiwan's May export orders are estimated at $91.1 billion, while NVIDIA's Q2 revenue guidance of $81.1-92.8 billion implies increased orders to TSMC. Some institutional investors even suggest the index could challenge 45K, though caution is advised for mid-June when the new Fed Chair Walsh leads his first FOMC meeting, potentially creating market volatility."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Jensen Huang: Vera Will Be Taiwan Suppliers' Largest-Scale Product Ever, Taiwan Supply Chain Will Be Very Busy in H2",
+      "section": "金融",
+      "date": "2026/05/24 02:35:45",
+      "url": "https://money.udn.com/money/story/5612/9521685?from=edn_maintab_cate",
+      "summary": "NVIDIA's Jensen Huang announced that despite the company's large scale, it delivered nearly doubled quarterly revenue with continued high growth expected next year. The new CPU architecture Vera will be Taiwan's supply chain's largest-scale product ever, involving 100-150 Taiwanese supplier partners. Taiwan's supply chain will be extremely busy in H2 2026 as AI agents drive CPU upgrades and create massive market demand."
+    },
+    {
+      "title": "NVIDIA VR Shipments: Hon Hai All Hands On Deck, H2 Performance Expected to Surge",
+      "section": "金融",
+      "date": "2026/05/25 02:24:00",
+      "url": "https://money.udn.com/money/story/5612/9523071?from=edn_maintab_cate",
+      "summary": "Hon Hai emerges as the biggest winner for NVIDIA's Vera Rubin platform, securing orders for NVL 72, HGX Rubin NVL8, and MGX modular servers. Sources indicate Hon Hai is \"ready\" and will lead production ramp-up. Morgan Stanley estimates VR200 NVL72 cabinet ASP at $7.8 million, nearly 95% higher than previous generation Blackwell at $3.99 million, suggesting massive revenue potential for Hon Hai in H2."
+    },
+    {
+      "title": "Huang Visits Partners Starting with Quanta, Market Speculates More VR Platform Collaboration",
+      "section": "金融",
+      "date": "2026/05/25 01:51:28",
+      "url": "https://money.udn.com/money/story/5612/9523072?from=edn_subcatelist_cate",
+      "summary": "Jensen Huang's first supply chain visit was to Quanta, meeting Chairman Barry Lam and Vice Chairman CC Leung. This marks the first time Quanta became Huang's first supply chain stop, even ahead of his scheduled TSMC visit. The elevated status suggests deeper collaboration on the Vera Rubin platform, with Quanta's AI server revenue already exceeding 75% of total server revenue."
+    },
+    {
+      "title": "Cross-Border Trading Surges 97% in First Four Months, US Investments Account for 70%",
+      "section": "證券",
+      "date": "2026/05/24 02:02:39",
+      "url": "https://money.udn.com/money/story/5607/9521720?from=edn_maintab_cate",
+      "summary": "Taiwan investors' overseas trading via brokerages hit record NT$1.61 trillion in April, with first four months totaling NT$5.8 trillion, up 97.4% year-over-year. US investments dominated at NT$4.13 trillion (70.7%), followed by UK, Hong Kong, Japan, and Germany. Popular holdings include NVIDIA, Micron, Google, Intel, TSMC ADR, and various US ETFs, reflecting strong appetite for global tech giants."
+    },
+    {
+      "title": "US Forms Quantum National Team: Wafer Works, Quanta Become Key Players",
+      "section": "金融",
+      "date": "2026/05/25 01:58:55",
+      "url": "https://money.udn.com/money/story/5612/9523059?from=edn_maintab_cate",
+      "summary": "The US government invested $2 billion in nine quantum companies, with IBM (Wafer Works' partner) receiving $1 billion and Rigetti (Quanta's investee) getting $100 million. This positions Wafer Works and Quanta as key players in America's quantum computing initiative, potentially benefiting from increased memory and storage demands in the quantum era."
+    }
+  ],
+  "not_relevant": []
+}
