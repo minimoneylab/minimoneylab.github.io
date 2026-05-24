@@ -1,68 +1,61 @@
 {
-  "date": "2026-05-24",
-  "update_time": "2026-05-23 21:48:02",
+  "date": "2026-05-25",
+  "update_time": "2026-05-24 21:49:46",
   "total_articles": 29,
   "high": [
     {
-      "title": "Dollar-Won Rises Slightly on Fed Rate Hike Possibility, Closes at 1,517.40 Won",
-      "section": "Bonds/Forex",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122055",
-      "summary": "The USD/KRW exchange rate closed at 1,517.40, up 11.30 won from the previous Seoul session close, showing a \"strong early, weak late\" pattern during overnight trading. The won initially strengthened on expectations of a US-Iran ceasefire but later weakened after Fed Governor Christopher Waller left the door open for future interest rate hikes. This development is significant for KRW traders as it demonstrates how geopolitical developments and Fed policy signals continue to drive volatility. The 1,517-1,518 level appears to be a key resistance zone, with the pair showing sensitivity to both Middle East developments and US monetary policy expectations. Traders should monitor ceasefire progress and Fed communications for directional cues."
+      "title": "FX market's mystery: Why Korean won fails to strengthen despite AI-driven export boom?",
+      "section": "Markets",
+      "date": "May 24, 2026",
+      "url": "https://www.kedglobal.com/deep-insights/newsView/ked202605240002",
+      "summary": "The Korean won continues to defy economic fundamentals, trading above 1,500 against the USD despite a record-breaking current account surplus and sharp growth upgrades. This persistent weakness challenges traditional currency theory, where strong export performance and current account surpluses typically support currency appreciation. The AI-driven export boom has boosted Korea's trade position significantly, yet the won remains stubbornly weak. Foreign investors have sold over 112 trillion won ($74 billion) of Korean equities year-to-date, creating downward pressure on the currency despite the KOSPI reaching near-record levels around 8,000. This disconnect between fundamentals and FX performance is critical for international fund managers, as it suggests structural factors beyond traditional metrics are driving won weakness. The situation warrants close monitoring of capital flow dynamics and potential BOK intervention signals."
     },
     {
-      "title": "National Growth Fund Sees Record Debut - 87% Subscription Rate on First Day",
-      "section": "Stocks",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122039",
-      "summary": "Korea's National Participation Growth Fund achieved remarkable success on its launch day, with 87.1% of the 600 billion won ($507 million) annual target subscribed and 24 out of 25 institutions exhausting their online allocations within hours. This represents a significant capital flow development that could impact both equity markets and the KRW. The massive retail participation indicates strong domestic investment appetite, potentially reducing reliance on foreign inflows and providing support for Korean assets. The fund's focus on high-tech industries and domestic growth sectors aligns with government policy priorities and could drive sustained domestic demand for Korean equities, offering structural support for the KOSPI's continued rally toward 8,000."
+      "title": "Kim Yong-beom - High Rates, Inflation, Won Weakness Are 'Cost of Success' as Korean Economy Enters New Phase",
+      "section": "Policy/Finance",
+      "date": "May 24, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122115",
+      "summary": "Blue House Chief of Staff for Policy Kim Yong-beom reframed Korea's economic challenges as \"costs of success,\" arguing that high interest rates, inflation, and won weakness reflect the economy's transition to a new dimension rather than crisis signals. This philosophical shift in government messaging comes amid market concerns over Middle East war-driven inflation and exchange rate volatility. Kim emphasized the government \"won't stand idle on currency moves\" and will \"actively manage excessive volatility,\" signaling potential FX intervention readiness. The statement attempts to counter negative market sentiment despite record corporate earnings and surging exports. For FX traders, this indicates the government views current won levels as problematic and may intervene if volatility increases. The messaging suggests authorities are preparing markets for continued elevated rates and FX volatility while promising active management of extreme moves."
     }
   ],
   "medium": [
     {
-      "title": "Internet Banks Maintain 30% Mid-to-Low Credit Lending Target",
-      "section": "Policy/Finance",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122012",
-      "summary": "Korea's three internet banks maintained mid-to-low credit lending ratios above 30% in Q1, with Kakao Bank leading at 45.6% for new loans. This regulatory compliance indicates continued implementation of financial inclusion policies while maintaining credit quality standards. The stable lending patterns suggest manageable credit risk in the digital banking sector."
-    },
-    {
-      "title": "Korea Expected to Post 3.0% Growth Despite Oil Price Headwinds",
-      "section": "Stocks",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122008",
-      "summary": "JPMorgan economist Park Seok-gil forecasts Korea's economy will achieve 3.0% growth this year, with semiconductor export strength offsetting rising oil price pressures. The analysis highlights tech sector tailwinds as the dominant factor, supporting the positive outlook for Korean equities and potentially providing fundamental support for the KRW through improved trade dynamics."
-    },
-    {
-      "title": "US-Iran Close to Ceasefire Deal as Negotiations Progress",
+      "title": "'Structurally Higher Exchange Rates Inevitable, But Downside Bias Remains Valid for H2'",
       "section": "Bonds/Forex",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122088",
-      "summary": "US and Iran are reportedly close to ending hostilities with differences limited to \"wording\" of certain provisions, according to Axios. Trump has scheduled calls with Middle East leaders and will decide on resuming military action by tomorrow. This development could significantly impact global risk sentiment and KRW direction, with successful agreement likely supporting risk-on flows."
+      "date": "May 24, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122097",
+      "summary": "Shinhan Investment forecasts structurally higher USD/KRW levels but maintains a downside bias for H2 2026. They expect 10-15% of total household foreign currency holdings to return domestically through Q3-Q4, potentially providing won support. This suggests current elevated exchange rates may persist but could moderate later in the year due to repatriation flows."
     },
     {
-      "title": "Domestic Equities Expected to Remain Positive in H2 on Corporate Earnings",
-      "section": "Stocks",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122075",
-      "summary": "Mirae Asset Securities projects continued positive momentum for Korean stocks in H2, driven by earnings growth and household fund flows. KOSPI operating profit is forecast at 901 trillion won for 2026 and 1,125 trillion won for 2027, with semiconductors expected to post 30%+ profit growth through 2027."
+      "title": "'Current Fiscal Path Unsustainable - Earlier Structural Reform Means Less Pain'",
+      "section": "Bonds/Forex",
+      "date": "May 24, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122095",
+      "summary": "Professor Kang Dong-ik warns Korea's fiscal structure is unsustainable even without additional expansion, primarily due to demographic challenges. The analysis was presented at a major economic policy forum, highlighting long-term fiscal sustainability concerns. This could influence future government bond yields and fiscal policy decisions, with implications for the won and rates markets."
+    },
+    {
+      "title": "[New York Foreign Exchange Market - Weekly]Can Eurozone Recover If War Ends? Watch for Narrowing Gap with US",
+      "section": "Bonds/Forex",
+      "date": "May 24, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122110",
+      "summary": "The dollar faces potential downward pressure if US-Iran ceasefire is announced, due to expected sharp drop in oil prices. NY markets closed Monday for Memorial Day. Trump indicated a peace MOU is \"largely negotiated\" with final confirmation pending. A ceasefire would benefit eurozone and Japanese economies, potentially narrowing yield differentials with the US and impacting global FX dynamics including KRW positioning."
     }
   ],
   "not_relevant": [
-    "Korea's Growth Fund sells out upon debut, driven by retail FOMO; Kosdaq surges 5%",
-    "Presidential Office Launches Inspection of Fire Commissioner",
-    "DB Insurance Completes Acquisition of US-Based Fortegra",
-    "Vice Finance Minister Meets EBRD First Vice President to Discuss AI Hub Follow-up Measures",
-    "KAMCO Discusses Expanded Participation in New Leap Fund with Lending Industry",
-    "'From Deposits to Investments'...Yonhap Infomax 26th Anniversary Conference Concludes",
-    "Samsung Electronics, SK Hynix to Lead KOSPI to 10,000 by Year-End",
-    "AI Chip Rally to Continue - No Chasm Expected",
-    "President Lee Targets Starbucks Again Over Sewol Ferry Memorial Day Event",
-    "President Lee Meets Former President Moon, Praises Economic Recovery Efforts",
-    "Park Geun-hye Campaigns for Choo Kyung-ho at Daegu Market",
-    "President Lee Delivers First Memorial Address at Bongha Village",
-    "First Weekend of June 3 Election Campaign Coverage",
+    "President Lee Targets Starbucks Again - 'Sewol Ferry Memorial Day Event, Vicious Merchant's Immorality'",
+    "President Lee Meets Former President Moon, Praises Economic Recovery Efforts - 'Missed Out on National Growth Fund'",
+    "Park Geun-hye Campaigns for Choo Kyung-ho at Daegu Market - 'Will Prepare Good Policies'",
+    "President Lee Delivers First Memorial Address at Bongha - 'Will Complete Roh Moo-hyun's Dream'",
+    "First Weekend of June 3 Election Campaign - Jung Chung-rae Stumps in Honam, Jang Dong-hyuk in Chungcheong",
+    "President Lee Tells 'Cabinet Meeting Viewer' Ven. Jinwoo - 'Deep Concerns Over Impact on People's Lives'",
+    "Rival Parties Visit Buddhist Community on Buddha's Birthday - Rep. Chung Campaigns in South Jeolla, Rep. Jang in Incheon",
+    "'Fight AI Attacks with AI' - South Korea to Significantly Ease Network Separation Rules for Financial Firms",
+    "Following Starbucks, Ilbe in Crosshairs - Lee Administration Escalates 'Hate Speech Regulation'",
+    "'Domestic Equities to Remain Positive in H2 on Corporate Profitability, Household Fund Flows'",
+    "Samsung Electronics, SK Hynix Buying Opportunity Emerges - Daishin Securities Says 'Month-End Purchase Strategy for Sharp Gains Remains Valid'",
     "Trump Skips Son's Wedding as Iran Strike Option Looms",
-    "Samsung Electronics, SK Hynix Buying Opportunity Emerges"
+    "Lemon Healthcare Bookbuilding This Week as Peace Piece Studio Begins IPO Subscription",
+    "Hana Ventures Launches First-Half Private Fund-of-Funds Program with 20 Billion Won Allocation",
+    "Gunshots Fired Near White House - Trump Unharmed"
   ]
 }
