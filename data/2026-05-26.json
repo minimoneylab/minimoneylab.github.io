@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-26",
+  "update_time": "2026-05-25 23:44:17",
+  "total_articles": 29,
+  "high": [
+    {
+      "title": "NVIDIA's VR Platform Brings Explosive Growth for Hon Hai - Total Mobilization for Second Half",
+      "section": "金融",
+      "date": "2026/05/25 02:24:00",
+      "url": "https://money.udn.com/money/story/5612/9523071?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang's flash visit to Taiwan focuses on ensuring smooth shipment of the latest AI server platform Vera Rubin. Sources reveal that Hon Hai (2317), the largest supplier for Vera Rubin AI servers, has mobilized all resources and is \"ready to go,\" leading the mass production and shipment. This positions Hon Hai's second-half performance for explosive growth. Huang predicted Vera Rubin will be NVIDIA's largest and fastest product to date, involving 100-150 Taiwan suppliers. Morgan Stanley estimates the average selling price for a single Rubin cabinet could reach $7.8 million, nearly 95% higher than the previous Blackwell generation. This dramatic price increase will significantly boost Hon Hai's second-half revenue. Hon Hai Chairman Liu Yang-wei expressed confidence in the company's market share and shipment volume for Vera Rubin, citing deep integration with suppliers and vertical integration capabilities."
+    },
+    {
+      "title": "Taiwan Stock Market Hits 43K with Three Major Catalysts - AI Leaders Visit Boosts Sentiment",
+      "section": "證券",
+      "date": "2026/05/25 01:08:13",
+      "url": "https://money.udn.com/money/story/5607/9523068?from=edn_maintab_cate",
+      "summary": "Taiwan stocks are poised to challenge 43K and set new records, supported by three major catalysts: Jensen Huang and AMD CEO Lisa Su's Taiwan visits, TSMC's potential May revenue record, and the upcoming COMPUTEX exhibition. Market observers expect TSMC's Q2 revenue to grow approximately 10% quarter-over-quarter, with monthly revenue potentially exceeding NT$420 billion. The visits by AI industry leaders are expected to generate positive industry news and boost market sentiment. TSMC's strong fundamentals, driven by increased orders from NVIDIA's new platform, will serve as the main theme for market rallies. Some institutions suggest Taiwan stocks could challenge 45K after COMPUTEX and May revenue announcements, though potential volatility may emerge after mid-June when new Fed Chair Walsh chairs his first FOMC meeting."
+    },
+    {
+      "title": "Foreign Analyst Shock Prediction: TSMC Target Price 3,000, MediaTek 5,922",
+      "section": "產經",
+      "date": "2026/05/25 16:14:01",
+      "url": "https://money.udn.com/money/story/5607/9524382",
+      "summary": "UBS Securities dramatically raised TSMC's target price to NT$3,000, citing massive growth opportunities in server CPU market. UBS estimates global server CPU shipments will grow from 23 million units in 2025 to 63-70 million units by 2030, representing a 30% CAGR. This growth will require approximately 200,000 wafers per month of advanced foundry capacity by 2030. UBS projects TSMC could generate $44.1 billion revenue opportunity by 2030 from ARM and AMD alone, representing 11% of total sales. Meanwhile, Credit Lyonnais raised MediaTek's target price to NT$5,922 (highest among all analysts), citing Google's strategic shift to position MediaTek at the core of next-generation TPU development rather than just an alternative supplier. Both companies reached record closing highs with TSMC at NT$2,310 and MediaTek at NT$4,245."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Huang Visits Quanta First in Supply Chain Tour - Enhanced Cooperation Expected",
+      "section": "金融",
+      "date": "2026/05/25 01:51:28",
+      "url": "https://money.udn.com/money/story/5612/9523072?from=edn_subcatelist_cate",
+      "summary": "NVIDIA CEO Jensen Huang begins his Taiwan supply chain visits with Quanta (2382) as the first stop, marking the first time Quanta takes precedence over other major suppliers. This elevated status suggests enhanced cooperation in NVIDIA's latest Vera Rubin platform. Quanta has been a key NVIDIA partner across multiple GPU generations and expects AI server revenue to show double-digit quarterly growth."
+    },
+    {
+      "title": "US Forms Quantum National Team - Taiwan's Winbond and Quanta Gain Strategic Positions",
+      "section": "產經",
+      "date": "2026/05/24 22:23:03",
+      "url": "https://money.udn.com/money/story/5612/9522923",
+      "summary": "The US government invested $20 billion in nine quantum computing companies under the CHIPS Act. IBM received $10 billion (half of total funding), benefiting Taiwan's Winbond (2337) through their decade-long partnership in phase-change memory (PCM) technology. Quanta's investment in Rigetti, which received $100 million, positions both companies as key players in the US quantum strategy."
+    },
+    {
+      "title": "Jensen Huang Emphasizes Taiwan Needs More Energy for Economic Growth",
+      "section": "金融",
+      "date": "2026/05/26 01:23:03",
+      "url": "https://money.udn.com/money/story/5612/9525104?from=edn_maintab_cate",
+      "summary": "During his Taiwan visit, Jensen Huang stated that Taiwan needs more energy infrastructure to support growing demand for chips and AI data centers. He emphasized \"no energy, no economic growth\" when asked about power supply for future AI facilities in Taipei's North Science Park. The comments highlight critical infrastructure challenges facing Taiwan's AI development."
+    },
+    {
+      "title": "Taiwan May Export Orders Estimated at $91.1 Billion - Supporting Tech Rally",
+      "section": "金融",
+      "date": "2026/05/25 10:18:57",
+      "url": "https://money.udn.com/money/story/7307/9523521",
+      "summary": "President Lai announced enhanced social benefits including NT$5,000 monthly for housewives through adjusted national pension payments (23.5% increase). The second-half budget allocation is NT$8.49 billion. Additionally, families with children aged 0-18 will receive NT$5,000 monthly growth allowances funded through annual budget appropriations rather than special budgets."
+    }
+  ],
+  "not_relevant": []
+}
