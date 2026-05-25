@@ -1,34 +1,52 @@
 {
-  "date": "2026-05-24",
-  "update_time": "2026-05-24 08:50:45",
-  "total_articles": 5,
+  "date": "2026-05-25",
+  "update_time": "2026-05-25 10:48:17",
+  "total_articles": 12,
   "high": [
     {
-      "title": "Analysis: Brasília Pressures, Interest Rates React and the Market Loses Conviction",
+      "title": "Central Bank Sees Increased Global Uncertainty from Middle East Conflict and Rising Risk in Household Credit",
       "source": "MoneyTimes",
-      "date": "2026-05-23",
-      "url": "https://www.moneytimes.com.br/analise-brasilia-pressiona-juros-reagem-e-o-mercado-perde-conviccao/",
-      "summary": "Brazil ended the week with the Ibovespa hovering around 175,000 points, pressured by a challenging international environment and deteriorating domestic fiscal expectations amid an increasingly complex electoral scenario. The IBC-Br (economic activity index) for March contracted 0.7% month-on-month, in line with market expectations, serving as a GDP preview. Despite weaker economic data suggesting activity moderation, this appears insufficient to significantly relieve pressure on the Central Bank. The prevailing market view is that the monetary authority seeks to preserve space to continue the interest rate cutting cycle, but the combination of persistent inflation, adverse external conditions, and deteriorating fiscal expectations increases the probability of a pause in the cutting cycle. This creates a challenging environment for BRL and Brazilian assets, as fiscal concerns continue to undermine market confidence while the BCB faces limited room for dovish monetary policy."
+      "date": "2026-05-25",
+      "url": "https://www.moneytimes.com.br/bc-ve-aumento-da-incerteza-global-com-conflito-no-oriente-medio-e-alta-do-risco-no-credito-as-familias/",
+      "summary": "The Brazilian Central Bank released its Financial Stability Report (REF) highlighting increased global uncertainty in H2 2025 driven by the US-Israel-Iran conflict. The geopolitical tensions have significantly elevated global risks, particularly impacting the Middle East region and supply chains, including commodity flows through the Strait of Hormuz. Despite these challenges, the BCB notes that external funding supply to Brazil's financial system remains robust and above demand, with no relevant short-term cost pressures. Global growth surprised positively throughout 2025 despite uncertainties about economic policies and rising US tariffs. Domestically, the National Financial System's profitability remained practically stable in H2. This report is crucial for BRL traders as it provides the Central Bank's assessment of external risks that could impact monetary policy decisions and capital flows. The robust external funding situation suggests continued foreign investor appetite for Brazilian assets despite global uncertainties."
+    },
+    {
+      "title": "Ibovespa Rises on Optimism Over US-Iran Agreement; 5 Things to Know Before Investing Today (25)",
+      "source": "MoneyTimes",
+      "date": "2026-05-25",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-25-5-26-apsa/",
+      "summary": "The Ibovespa opened Monday's session higher, tracking international optimism over progress in US-Iran peace negotiations. At 10:10 AM Brasília time, the main Brazilian stock index was up 0.32% to 176,770.98 points. The USD/BRL was trading lower at R$5.0048 (-0.47%) following the dollar's weakness abroad, with the DXY down 0.30% to 98.944 points. A new BTG Pactual/Nexus poll shows President Lula leading Senator Flávio Bolsonaro 47% to 43% in a hypothetical runoff, within the margin of error. The positive market sentiment reflects reduced geopolitical tensions that have been weighing on risk assets. For FX traders, the dollar weakness provides relief for the Real, while the Ibovespa's gains suggest improved risk appetite among investors. The geopolitical developments warrant close monitoring as they could influence capital flows into Brazilian assets."
     }
   ],
   "medium": [
     {
-      "title": "US Interest Rates: Watching Inflation and Iran War, Market Already Prices Rate Hike in October",
+      "title": "CADE Superintendency Recommends Rejection of B3's 60% Purchase of CRDC",
       "source": "MoneyTimes",
-      "date": "2026-05-23",
-      "url": "https://www.moneytimes.com.br/juros-nos-eua-de-olho-em-inflacao-e-guerra-no-ira-mercado-ja-precifica-alta-nos-juros-em-outubro-lils/",
-      "summary": "Recent Middle East peace negotiation impasse and oil prices above $100 have led markets to advance bets on US rate hikes to October 2026. The CME FedWatch tool shows 51.7% probability of Fed rate increases in October, with traders seeing 39.9% chance of 25bp hike. This shift in US monetary policy expectations creates headwinds for Brazilian assets and BRL, as higher US rates typically drive capital flows away from emerging markets."
+      "date": "2026-05-25",
+      "url": "https://www.moneytimes.com.br/superintendencia-do-cade-recomenda-a-rejeicao-da-compra-de-60-da-crdc-pela-b3-lmrs/",
+      "summary": "Brazil's antitrust authority CADE recommends rejecting B3's R$15 million acquisition of 60% of Central de Registro de Direitos Creditórios (CRDC), citing concerns about conglomerate effects and competitive impacts. The case was classified as \"complex\" requiring deeper analysis. This regulatory setback could affect B3's strategic positioning and potentially impact the stock's performance in the near term."
     },
     {
-      "title": "Bitcoin (BTC) Falls to $74,000 with Nearly $1 Billion in Liquidations; See Cryptocurrency Prices This Saturday (23)",
+      "title": "Empiricus Issues 'Alert' on Recommended Stocks for Extra Income: Petrobras (PETR4) and Vale (VALE3) Are Highlights",
       "source": "MoneyTimes",
-      "date": "2026-05-24",
-      "url": "https://www.moneytimes.com.br/bitcoin-btc-criptomoedas-precos-hoje-rens-230526/",
-      "summary": "Bitcoin traded around $74,000 with nearly 3% decline as global crypto markets fell with $940 million in liquidations over 24 hours. While not directly impacting traditional Brazilian markets, crypto volatility can influence risk sentiment and capital flows, particularly as Brazilian investors increasingly participate in digital asset markets."
+      "date": "2026-05-25",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/empiricus-emite-alerta-em-suas-acoes-recomendadas-para-buscar-renda-extra-petrobras-petr4-e-vale-vale3-sao-destaque-lbrdaz234/",
+      "summary": "The Ibovespa has retreated from near 200,000 points in April to around 177,000 currently, while Selic rate expectations for end-2026 have deteriorated to 13.25% according to the latest Focus report. Empiricus Research highlights Petrobras and Vale as income-generating opportunities amid current market challenges, noting that corrections after significant rallies are normal but additional elements are making the scenario more challenging."
+    },
+    {
+      "title": "Day Trade: Buy B3 (B3SA3) and Sell Raia Drogasil (RADL3) for Up to 1.50% Gain Today (25), According to Ágora",
+      "source": "MoneyTimes",
+      "date": "2026-05-25",
+      "url": "https://www.moneytimes.com.br/day-trade-compre-b3-b3sa3-e-venda-raia-drogasil-radl3-para-ganhar-ate-150-hoje-25-segundo-a-agora-jvka/",
+      "summary": "Ágora Investimentos recommends buying B3 (B3SA3) for day trading with 1.50% potential gain and stop at R$16.58, while suggesting selling Raia Drogasil (RADL3) for up to 1.43% returns with stop at R$18.29. These are short-term technical analysis recommendations for intraday trading."
     }
   ],
   "not_relevant": [
-    "Have You Seen This Sector's Potential? Stock Market May Have 'Hidden' Opportunity",
-    "AI That Operates Cryptocurrencies Automatically Will Release New Access on 05/25; See How to Participate"
+    "AI That Operates Cryptocurrencies Automatically Will Release New Access on 05/25; See How to Participate",
+    "Bitcoin (BTC) Falls to $74,000 with Nearly $1 Billion in Liquidations; See Cryptocurrency Prices This Saturday (23)",
+    "Taesa (TAEE11), Automob (AMOB3), Oncoclínicas (ONCO3) and Other Highlights This Monday (25)",
+    "While the World Suffers with High Prices, China Defies Inflation and Exposes Global Fragility",
+    "Automob (AMOB3) Sells Land to Cyrela (CYRE3) Subsidiary for Up to R$93 Million",
+    "IMF Pressures Argentina to Update Inflation Metric — Which May Reveal Worse Picture Than Expected; Understand"
   ]
 }
