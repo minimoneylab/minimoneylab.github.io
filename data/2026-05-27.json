@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-27",
+  "update_time": "2026-05-26 23:46:06",
+  "total_articles": 37,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Becomes World's Fifth Largest, Surpassing India",
+      "section": "證券",
+      "date": "2026/05/27 01:16:07",
+      "url": "https://money.udn.com/money/story/5607/9527565",
+      "summary": "Taiwan's stock market capitalization reached US$4.95 trillion as of May 25, surpassing India's US$4.92 trillion to become the world's fifth-largest stock market, trailing only the US, China, Japan, and Hong Kong. This milestone is primarily driven by TSMC, which comprises 42% of the Taiwan Weighted Index and has surged 49% year-to-date amid the AI boom. The shift highlights two dominant 2026 market themes: energy price impacts from the Iran conflict affecting import-dependent economies like India, and extreme AI optimism benefiting semiconductor manufacturing centers like Taiwan and South Korea. New regulations allowing Taiwan domestic funds to increase single-stock holdings to 25% (from 10%) for companies with over 10% index weighting could attract over US$6 billion in additional inflows, with only TSMC currently qualifying. This regulatory change significantly enhances Taiwan's appeal to institutional investors."
+    },
+    {
+      "title": "Foreign Investors Pour NT$221.4 Billion into Taiwan Stocks in Four Days",
+      "section": "證券",
+      "date": "2026/05/27 01:12:05",
+      "url": "https://money.udn.com/money/story/5607/9527535",
+      "summary": "Foreign investors have net bought NT$221.37 billion worth of Taiwan stocks over four consecutive trading days, demonstrating strong institutional confidence despite market volatility. The Taiwan Weighted Index briefly touched 44,097 points before closing down 119 points at 43,525 on record volume of NT$1.54 trillion. While TSMC declined NT$40 to NT$2,270, MediaTek surged to new highs, gaining NT$20 to NT$4,265. The massive foreign buying in cash markets contrasts with increased futures short positions of 54,391 contracts, indicating hedging strategies rather than bearish sentiment. Investment advisors view this as healthy profit-taking after rapid gains, with the market likely to undergo high-level consolidation before potential further advances. The sustained foreign inflows signal strong international confidence in Taiwan's AI supply chain positioning."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC Chairman to Hold Employee Communication Meeting Amid Bonus Controversy",
+      "section": "金融",
+      "date": "2026/05/27 01:01:04",
+      "url": "https://money.udn.com/money/story/5612/9527540",
+      "summary": "TSMC Chairman and CEO C.C. Wei will personally address employee concerns about bonus allocations today, canceling overseas travel plans. The company clarified that Q1 bonuses increased 30% year-over-year, with full-year bonus growth expected to exceed last year's levels. This internal communication reflects TSMC's efforts to maintain employee morale amid expansion and increased social responsibility investments."
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang Dines with TSMC Senior Management Team",
+      "section": "金融",
+      "date": "2026/05/27 00:56:42",
+      "url": "https://money.udn.com/money/story/5612/9527552",
+      "summary": "NVIDIA CEO Jensen Huang hosted a dinner for TSMC's senior leadership team, including Chairman C.C. Wei and key executives. Huang expressed gratitude for TSMC's contributions to NVIDIA, with Wei responding \"we're trying very hard\" when asked about meeting NVIDIA's capacity needs. The high-level meeting underscores the critical partnership between the AI chip leader and Taiwan's foundry giant."
+    },
+    {
+      "title": "Hon Hai Deepens Integration with Sharp in 3+3+3 Strategic Framework",
+      "section": "金融",
+      "date": "2026/05/27 01:26:19",
+      "url": "https://money.udn.com/money/story/5612/9527477",
+      "summary": "Sharp's new President Tetsuji Kawamura announced deeper integration with Hon Hai, incorporating the latter's 3+3+3 strategy into Sharp's development blueprint. Sharp will develop AI servers, electric vehicles, and robotics businesses while expanding its traditional home appliances and IT products to India and Southeast Asia markets through Hon Hai's global supply chain network."
+    }
+  ],
+  "not_relevant": []
+}
