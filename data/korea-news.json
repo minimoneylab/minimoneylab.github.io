@@ -1,83 +1,90 @@
 {
-  "date": "2026-05-26",
-  "update_time": "2026-05-25 22:06:39",
-  "total_articles": 31,
+  "date": "2026-05-27",
+  "update_time": "2026-05-26 22:19:06",
+  "total_articles": 30,
   "high": [
     {
-      "title": "FX market's mystery: Why Korean won fails to strengthen despite AI-driven export boom?",
-      "section": "Markets",
-      "date": "N/A",
-      "url": "https://www.kedglobal.com/deep-insights/newsView/ked202605240002",
-      "summary": "The Korean won remains stubbornly weak above 1,500 against the USD despite a record-breaking current account surplus and sharp upgrade in growth expectations, defying traditional economic relationships. This presents a critical puzzle for FX traders as the currency fails to strengthen despite positive fundamentals including AI-driven export growth. The disconnect suggests structural factors may be overriding cyclical improvements. Foreign investors have sold over 112 trillion won ($74 billion) of Korean shares this year, creating significant downward pressure on the currency despite the Kospi reaching record territory near 8,000. For traders, this highlights the importance of capital flow dynamics over trade balance improvements. The persistent weakness above 1,500 suggests intervention levels may be tested, making this a key technical and policy threshold to monitor. The divergence between economic fundamentals and FX performance indicates either temporary dislocations that will correct or structural shifts requiring new analytical frameworks."
+      "title": "Bank of Korea May Rate Decision This Week - Monetary Policy Committee Meeting and Press Conference Scheduled",
+      "section": "Policy/Finance",
+      "date": "May 25-31",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122166",
+      "summary": "The Bank of Korea's critical May Monetary Policy Committee meeting is scheduled for Thursday, May 28th at 09:00, followed by Governor's press conference at 11:10. The central bank will release its monetary policy direction immediately after the meeting, along with the May 2026 Economic Outlook at 13:30. This timing is crucial as markets are pricing in potential rate hikes amid rising inflation pressures. The meeting comes as Q1 2026 International Investment Position data will also be released on Wednesday, providing additional context for external balance considerations. June 2026 Monetary Stabilization Bond issuance plans will be announced at 17:00, offering insights into the BOK's liquidity management strategy. FX and bond traders should prepare for significant volatility around these releases, particularly given current market expectations for policy tightening."
     },
     {
-      "title": "[Monetary Policy Committee Interview]ANZ Forecasts 25bp Rate Hike in May on Import Price Risks, Economic Strength",
+      "title": "ANZ Forecasts 25bp BOK Rate Hike in May Citing Import Price Risks and Economic Strength",
       "section": "Bonds/Forex",
-      "date": "N/A",
+      "date": "May 25",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=122159",
-      "summary": "ANZ economists predict the Bank of Korea will implement a 25bp rate hike at the May 28 Monetary Policy Committee meeting, citing escalating import price risks and robust economic conditions. The call is driven by persistent energy price pressures, won weakness intensifying import inflation risks, and inflation exceeding BOK targets with high probability of further increases. Strong semiconductor exports are providing solid economic growth, giving the BOK sufficient room to begin policy tightening. This hawkish view contrasts with market expectations and could trigger significant KRW strength and bond yield movements if realized. The combination of currency weakness and inflation pressures creates a classic policy dilemma requiring preemptive action. For bond traders, a surprise hike would likely steepen the yield curve and strengthen the won significantly. The timing coincides with global uncertainty around Middle East tensions, making the policy decision even more critical for market positioning."
+      "summary": "ANZ economist Crystal Tan predicts the Bank of Korea will implement a 25bp rate hike at the May 28th meeting, driven by escalating import price pressures from persistent energy costs and won weakness. The bank cites inflation exceeding target with high probability of further increases, while solid economic growth from strong semiconductor exports provides policy space for tightening. Growing financial market stability concerns add urgency to preemptive action. This hawkish call from a major international bank reinforces market expectations for the start of a tightening cycle. KRW traders should note the emphasis on currency weakness as an inflation driver, suggesting rate hikes could provide won support. Bond investors face potential yield curve steepening if the central bank begins normalizing policy from current accommodative levels."
     },
     {
-      "title": "[Monetary Policy Committee Interview]Barclays - 'Hawkish Message Expected Despite May Rate Freeze'",
+      "title": "Barclays Expects BOK Rate Freeze with Hawkish Message, Predicts Split Vote",
       "section": "Bonds/Forex",
-      "date": "N/A",
+      "date": "May 25",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=122157",
-      "summary": "Barclays expects the BOK to maintain the policy rate at 2.50% on May 28 while delivering a hawkish message signaling a preemptive rate hike cycle. The forecast anticipates 1-2 dissenting votes, with an extreme scenario of a 3-3 split requiring the governor's casting vote if inflation expectations rise significantly. The six-month dot plot is expected to show 8 dots at 3.00%, 7 at 2.75%, and 6 at 2.50%, with forward guidance suggesting a terminal rate around 3.00%. This hawkish shift would be crucial for KRW and bond positioning, as markets would need to price in a more aggressive tightening cycle than currently expected. The potential for dissenting votes indicates significant internal debate about policy timing, making the accompanying statement and press conference critical for understanding future policy direction. Bond yields would likely rise across the curve if the hawkish message is delivered as expected."
+      "summary": "Barclays economist Son Beom-ki forecasts the Bank of Korea will maintain the base rate at 2.50% while delivering hawkish forward guidance signaling preemptive tightening ahead. The bank projects 1-2 dissenting votes favoring hikes, with potential for a 3-3 split requiring the governor's casting vote in extreme scenarios. The six-month dot plot is expected to show strong bias toward 3.00% terminal rate despite initial freeze. This creates a complex scenario for markets - immediate dovish relief from no hike but hawkish repricing of the forward curve. KRW could face two-way volatility depending on whether markets focus on the near-term pause or medium-term tightening signals. Bond yields may rise on hawkish guidance even without immediate rate action, particularly in the front end of the curve."
+    },
+    {
+      "title": "Dollar-Won Pares Losses to 1,507.20 as US-Iran Ceasefire Talks Spark Military Tensions",
+      "section": "Bonds/Forex",
+      "date": "May 27",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122372",
+      "summary": "USD/KRW closed overnight trading at 1,507.20, down 10.00 won from Seoul market close but recovering 2.90 won from intraday lows. Despite growing expectations for US-Iran ceasefire MOU, continued military brinkmanship triggered market caution and safe-haven demand. The pair had fallen to 1,504.30 during regular trading on peace optimism but found support as negotiations remained incomplete. Weekend talks showed progress but differences persist on Iranian asset unfreezing and other details. This geopolitical volatility creates challenging conditions for KRW positioning, with risk-on moves from peace progress offset by uncertainty over implementation. The 1,505-1,510 range appears to be key technical support/resistance. Bond markets also face conflicting signals from geopolitical resolution versus domestic inflation pressures ahead of Thursday's BOK meeting."
     }
   ],
   "medium": [
     {
-      "title": "Kim Yong-beom - High Rates, Inflation, Won Weakness Are 'Cost of Success' as Korean Economy Enters New Phase",
-      "section": "Policy/Finance",
-      "date": "N/A",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122115",
-      "summary": "Blue House policy chief Kim Yong-beom reframes Korea's economic challenges, describing high interest rates, inflation, and won weakness as \"costs of success\" rather than crisis indicators. He emphasizes record corporate earnings and surging exports, suggesting the economy is transitioning to a new dimension. The messaging appears aimed at managing market concerns over Middle East-driven inflation and FX volatility, with promises of active intervention against excessive currency moves."
+      "title": "BOK Expected to Hike Rates Twice to 3.0% by Year-End, KED Survey Shows",
+      "section": "Markets",
+      "date": "May 26",
+      "url": "https://www.kedglobal.com/central-bank/newsView/ked202605260001",
+      "summary": "Survey results indicate market expectations for two BOK rate hikes bringing the policy rate to 3.0% by year-end, reflecting consensus that the central bank will begin tightening cycle soon. This aligns with inflation pressures from US-Iran conflict driving energy costs and semiconductor export strength supporting growth. The survey reinforces bond market pricing for higher yields and potential KRW support from policy normalization."
     },
     {
-      "title": "'Structurally Higher Exchange Rates Inevitable, But Downside Bias Remains Valid for H2'",
-      "section": "Bonds/Forex",
-      "date": "N/A",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122097",
-      "summary": "Shinhan Investment forecasts structurally higher USD/KRW levels but expects downside bias in H2 2026. The analysis anticipates 10-15% of total household foreign currency holdings to return domestically through Q3-Q4, providing natural support for the won. This suggests current weakness may be temporary despite structural headwinds."
-    },
-    {
-      "title": "South Korean Banks' Won-Denominated Loan Delinquency Rate Falls to 0.56% in March After Three-Month Rise",
+      "title": "South Korean Banks' Won-Denominated Loan Delinquency Rate Falls to 0.56% in March",
       "section": "Policy/Finance",
-      "date": "N/A",
+      "date": "May 26",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=122165",
-      "summary": "Korean banks' won-denominated loan delinquency rate improved to 0.56% in March from 0.62% in February, ending a three-month deterioration. The improvement is attributed to quarter-end effects as banks typically expand disposal of non-performing loans. This suggests banking sector health remains manageable despite ongoing uncertainties."
+      "summary": "Banking sector loan quality improved with delinquency rates declining to 0.56% from 0.62% in February, ending three months of deterioration. The improvement was attributed to quarter-end effects as banks expanded disposal of non-performing loans. This strengthening of financial sector fundamentals supports the case for BOK monetary policy normalization."
     },
     {
-      "title": "[New York Foreign Exchange Market - Weekly]Can Eurozone Recover If War Ends? Watch for Narrowing Gap with US",
+      "title": "Manufacturing Sentiment Turns 'Optimistic' for First Time in 3 Years, 9 Months",
+      "section": "Policy/Finance",
+      "date": "May 27",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122377",
+      "summary": "The all-industry Composite Business Survey Index rose to 98.9 with next month outlook at 97.6, indicating strengthening business confidence. This marks the first optimistic reading in nearly four years, supporting the economic backdrop for potential BOK policy tightening and positive sentiment for Korean assets."
+    },
+    {
+      "title": "US 2-Year Treasury Auction Draws Solid Demand, Yield at 4.071%",
       "section": "Bonds/Forex",
-      "date": "N/A",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122110",
-      "summary": "The dollar faces downward pressure if US-Iran ceasefire agreements materialize, with potential sharp drops in international oil prices. Trump indicated a peace-related MOU with Iran has been \"largely negotiated.\" A ceasefire would be positive for eurozone and Japanese economies, potentially narrowing interest rate differentials with the US and affecting global FX dynamics including KRW positioning."
+      "date": "May 26",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122370",
+      "summary": "US 2-year Treasury auction settled at 4.071%, up 25.9bp from previous month and highest since February 2025, with solid bid-to-cover ratio of 2.64. Rising US yields create headwinds for Korean bonds and support USD strength against KRW, though solid auction demand suggests market appetite for higher yielding paper."
+    },
+    {
+      "title": "Insurers' Loans Shrink While Bad Debts Rise - Soundness Warning",
+      "section": "Policy/Finance",
+      "date": "May 27",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122374",
+      "summary": "Insurance companies' loan balances fell 1.1 trillion won to 264.1 trillion won in Q1, with corporate lending declining while household loans increased. Non-performing loan ratios rose slightly, indicating some stress in the financial system that could influence BOK policy considerations around financial stability versus inflation control."
     }
   ],
   "not_relevant": [
-    "President Lee Tells 'Cabinet Meeting Viewer' Ven. Jinwoo - 'Deep Concerns Over Impact on People's Lives'",
-    "Rival Parties Visit Buddhist Community on Buddha's Birthday",
-    "'Fight AI Attacks with AI' - South Korea to Significantly Ease Network Separation Rules for Financial Firms",
-    "Following Starbucks, Ilbe in Crosshairs - Lee Administration Escalates 'Hate Speech Regulation'",
-    "Lemon Healthcare Bookbuilding This Week as Peace Piece Studio Begins IPO Subscription",
-    "Hana Ventures Launches First-Half Private Fund-of-Funds Program with 20 Billion Won Allocation",
-    "Gunshots Fired Near White House - Trump Unharmed",
-    "[This Week's Schedule of Bank of Korea, Financial Services Commission, and Financial Supervisory Service]",
-    "Park Geun-hye Visits Chungcheong Region",
-    "Korea Institute of Finance - SRT Securitization System Contributes to Productive Finance",
-    "Jeong Cheong-rae Targets Kim Kwan-young",
-    "'Iran Agrees to Restore Pre-War Shipping Levels Through Hormuz, But Not Free Passage'",
-    "Trump Says Iran Deal 'Largely Negotiated,' Announcement Coming Soon",
-    "Iranian Media - 'Hormuz Strait Vessel Traffic to Recover if US Fulfills Commitments'",
-    "'US, Iran Near MOU Including 60-Day Ceasefire Extension'",
-    "'US-Iran Peace Draft Includes Enriched Uranium Disposal, Nuclear Weapons Ban'",
-    "Iran Says 'Significant Progress Made with US on Many Issues'",
-    "Trump Says Iran Negotiations Progressing Smoothly",
-    "Single-Stock Leveraged Products Draw Warning",
-    "Single-Stock Leveraged ETF Market Opens",
-    "National Growth Fund 'KOSDAQ League' Enters Final Showdown",
-    "FSC Accelerates Foreign Investor Direct ETF Trading via Omnibus Accounts",
-    "Securities Firms Issue 37.9 Tln Won in CP, Short-Term Bonds Last Week"
+    "Park Geun-hye Visits Chungcheong Region Conservative Rally Push",
+    "Korea Institute of Finance SRT Securitization System Review",
+    "Political targeting between Jeong Cheong-rae and Kim Kwan-young",
+    "Single-Stock Leveraged Products Warning and Market Launch",
+    "National Growth Fund KOSDAQ League Selection",
+    "FSC Foreign ETF Trading Reforms",
+    "Securities Firms CP and Short-Term Bond Issuance",
+    "Ministry Schedules and Meetings",
+    "Productive Finance Disclosure Requirements",
+    "National Growth Fund Sales Performance",
+    "T+1 Settlement Cycle Consensus Building",
+    "KOSPI 8,000 Breakthrough Celebrations",
+    "Korea Exchange Training Programs",
+    "Political Claims on Stock Market Performance",
+    "US Home Price Data",
+    "US-Iran Peace Draft Details"
   ]
 }
