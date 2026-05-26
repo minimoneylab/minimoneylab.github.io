@@ -1,52 +1,60 @@
 {
-  "date": "2026-05-25",
-  "update_time": "2026-05-25 10:48:17",
-  "total_articles": 12,
+  "date": "2026-05-26",
+  "update_time": "2026-05-26 10:29:41",
+  "total_articles": 14,
   "high": [
     {
-      "title": "Central Bank Sees Increased Global Uncertainty from Middle East Conflict and Rising Risk in Household Credit",
+      "title": "Brazil Records US$1.8 Billion Current Account Deficit in April, More Negative Than Market Expected",
+      "source": "MoneyTimes",
+      "date": "2026-05-26",
+      "url": "https://www.moneytimes.com.br/brasil-registra-deficit-em-conta-corrente-de-us-18-bilhao-em-abril-saldo-mais-negativo-apsa/",
+      "summary": "Brazil posted a current account deficit of US$1.765 billion in April, significantly worse than the Reuters consensus expectation of US$200 million deficit. The 12-month accumulated deficit now represents 2.66% of GDP. The primary income account showed a deficit of US$6.801 billion versus US$5.018 billion in April 2025, while the trade balance posted a surplus of US$9.707 billion. The services account deficit widened to US$5.044 billion from US$4.091 billion year-over-year. However, foreign direct investment exceeded expectations, providing some offset. This larger-than-expected current account deficit could pressure the BRL and reinforce concerns about Brazil's external financing needs, particularly important given the elevated global risk environment and potential capital flow volatility."
+    },
+    {
+      "title": "Central Bank Sees Increased Global Uncertainty from Middle East Conflict and Higher Risk in Household Credit",
       "source": "MoneyTimes",
       "date": "2026-05-25",
       "url": "https://www.moneytimes.com.br/bc-ve-aumento-da-incerteza-global-com-conflito-no-oriente-medio-e-alta-do-risco-no-credito-as-familias/",
-      "summary": "The Brazilian Central Bank released its Financial Stability Report (REF) highlighting increased global uncertainty in H2 2025 driven by the US-Israel-Iran conflict. The geopolitical tensions have significantly elevated global risks, particularly impacting the Middle East region and supply chains, including commodity flows through the Strait of Hormuz. Despite these challenges, the BCB notes that external funding supply to Brazil's financial system remains robust and above demand, with no relevant short-term cost pressures. Global growth surprised positively throughout 2025 despite uncertainties about economic policies and rising US tariffs. Domestically, the National Financial System's profitability remained practically stable in H2. This report is crucial for BRL traders as it provides the Central Bank's assessment of external risks that could impact monetary policy decisions and capital flows. The robust external funding situation suggests continued foreign investor appetite for Brazilian assets despite global uncertainties."
-    },
-    {
-      "title": "Ibovespa Rises on Optimism Over US-Iran Agreement; 5 Things to Know Before Investing Today (25)",
-      "source": "MoneyTimes",
-      "date": "2026-05-25",
-      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-25-5-26-apsa/",
-      "summary": "The Ibovespa opened Monday's session higher, tracking international optimism over progress in US-Iran peace negotiations. At 10:10 AM Brasília time, the main Brazilian stock index was up 0.32% to 176,770.98 points. The USD/BRL was trading lower at R$5.0048 (-0.47%) following the dollar's weakness abroad, with the DXY down 0.30% to 98.944 points. A new BTG Pactual/Nexus poll shows President Lula leading Senator Flávio Bolsonaro 47% to 43% in a hypothetical runoff, within the margin of error. The positive market sentiment reflects reduced geopolitical tensions that have been weighing on risk assets. For FX traders, the dollar weakness provides relief for the Real, while the Ibovespa's gains suggest improved risk appetite among investors. The geopolitical developments warrant close monitoring as they could influence capital flows into Brazilian assets."
+      "summary": "The Central Bank of Brazil released its Financial Stability Report highlighting increased external uncertainty in H2 2025 driven by the US-Israel-Iran conflict. Geopolitical tensions have significantly elevated global risks, particularly impacting the Middle East region and supply chains, including commodity flows through the Strait of Hormuz. Despite this, the BCB notes that global growth in 2025 surprised positively even amid policy uncertainties and rising US tariffs. The report emphasizes that external funding supply to Brazil's financial system remains robust and above demand, with no relevant short-term cost pressures. Domestically, the National Financial System's profitability remained stable in H2. This assessment suggests the BCB is closely monitoring external risks that could impact monetary policy decisions and BRL stability, while domestic financial conditions remain supportive."
     }
   ],
   "medium": [
     {
-      "title": "CADE Superintendency Recommends Rejection of B3's 60% Purchase of CRDC",
+      "title": "Ibovespa Falls with Risk Aversion Focused on Middle East; 5 Things to Know Before Investing Today (26)",
       "source": "MoneyTimes",
-      "date": "2026-05-25",
-      "url": "https://www.moneytimes.com.br/superintendencia-do-cade-recomenda-a-rejeicao-da-compra-de-60-da-crdc-pela-b3-lmrs/",
-      "summary": "Brazil's antitrust authority CADE recommends rejecting B3's R$15 million acquisition of 60% of Central de Registro de Direitos Creditórios (CRDC), citing concerns about conglomerate effects and competitive impacts. The case was classified as \"complex\" requiring deeper analysis. This regulatory setback could affect B3's strategic positioning and potentially impact the stock's performance in the near term."
+      "date": "2026-05-26",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-26-5-26-apsa/",
+      "summary": "The Ibovespa opened Tuesday down 0.93% to 176,154 points due to renewed risk aversion following US attacks on Iran. USD/BRL traded down 0.12% to R$5.0131 while the DXY fell 0.11%. The market is also monitoring progress on the proposal to end the 6x1 work schedule in Congress, with the Chamber of Deputies postponing the vote after a collective review request."
     },
     {
-      "title": "Empiricus Issues 'Alert' on Recommended Stocks for Extra Income: Petrobras (PETR4) and Vale (VALE3) Are Highlights",
+      "title": "Ibovespa Rises with Optimism Over US-Iran Agreement; 5 Things to Know Before Investing Today (25)",
+      "source": "MoneyTimes",
+      "date": "2026-05-25",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-25-5-26-apsa/",
+      "summary": "The Ibovespa opened Monday up 0.32% to 176,770 points, following external optimism over evolving negotiations for a peace agreement between the US and Iran. USD/BRL fell 0.47% to R$5.0048 while the DXY declined 0.30%. A new BTG Pactual/Nexus poll shows President Lula leading Senator Flávio Bolsonaro 47% to 43% in a hypothetical second round, within the margin of error."
+    },
+    {
+      "title": "Empiricus Issues 'Alert' on Its Recommended Stocks to Seek Extra Income: Petrobras (PETR4) and Vale (VALE3) Are Highlighted",
       "source": "MoneyTimes",
       "date": "2026-05-25",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/empiricus-emite-alerta-em-suas-acoes-recomendadas-para-buscar-renda-extra-petrobras-petr4-e-vale-vale3-sao-destaque-lbrdaz234/",
-      "summary": "The Ibovespa has retreated from near 200,000 points in April to around 177,000 currently, while Selic rate expectations for end-2026 have deteriorated to 13.25% according to the latest Focus report. Empiricus Research highlights Petrobras and Vale as income-generating opportunities amid current market challenges, noting that corrections after significant rallies are normal but additional elements are making the scenario more challenging."
+      "summary": "After weeks of optimism, Brazil's domestic market entered a more delicate phase in May, with the Ibovespa falling from near 200,000 points in April to around 177,000 currently. Selic rate expectations also deteriorated, with the market expecting rates to end 2026 at 13.25% annually according to the latest Focus report. Empiricus analysts note that corrections after significant rallies are normal, but additional challenging elements are making the scenario more difficult."
     },
     {
-      "title": "Day Trade: Buy B3 (B3SA3) and Sell Raia Drogasil (RADL3) for Up to 1.50% Gain Today (25), According to Ágora",
+      "title": "CADE Superintendence Recommends Rejection of B3's 60% CRDC Acquisition (B3SA3)",
       "source": "MoneyTimes",
       "date": "2026-05-25",
-      "url": "https://www.moneytimes.com.br/day-trade-compre-b3-b3sa3-e-venda-raia-drogasil-radl3-para-ganhar-ate-150-hoje-25-segundo-a-agora-jvka/",
-      "summary": "Ágora Investimentos recommends buying B3 (B3SA3) for day trading with 1.50% potential gain and stop at R$16.58, while suggesting selling Raia Drogasil (RADL3) for up to 1.43% returns with stop at R$18.29. These are short-term technical analysis recommendations for intraday trading."
+      "url": "https://www.moneytimes.com.br/superintendencia-do-cade-recomenda-a-rejeicao-da-compra-de-60-da-crdc-pela-b3-lmrs/",
+      "summary": "CADE's General Superintendence recommended rejection of B3's R$15 million acquisition of 60% of CRDC (Central de Registro de Direitos Creditórios). The case was classified as \"complex\" in March, requiring deeper analysis of conglomerate effects and rivalry impacts. The recommendation now goes to CADE's tribunal for final decision."
     }
   ],
   "not_relevant": [
-    "AI That Operates Cryptocurrencies Automatically Will Release New Access on 05/25; See How to Participate",
-    "Bitcoin (BTC) Falls to $74,000 with Nearly $1 Billion in Liquidations; See Cryptocurrency Prices This Saturday (23)",
-    "Taesa (TAEE11), Automob (AMOB3), Oncoclínicas (ONCO3) and Other Highlights This Monday (25)",
     "While the World Suffers with High Prices, China Defies Inflation and Exposes Global Fragility",
-    "Automob (AMOB3) Sells Land to Cyrela (CYRE3) Subsidiary for Up to R$93 Million",
-    "IMF Pressures Argentina to Update Inflation Metric — Which May Reveal Worse Picture Than Expected; Understand"
+    "Taesa (TAEE11), Automob (AMOB3), Oncoclínicas (ONCO3) and Other Highlights This Monday (25)",
+    "Automob (AMOB3) Sells Land to Cyrela (CYRE3) Subsidiary for up to R$93 Million",
+    "IMF Pressures Argentina to Update Inflation Metrics — Which May Reveal Worse Picture Than Expected; Understand",
+    "AI That Operates Cryptocurrencies Automatically Will Release New Access on 05/25; See How to Participate",
+    "Day Trade: Buy B3 (B3SA3) and Sell Raia Drogasil (RADL3) to Earn up to 1.50% Today (25), According to Ágora",
+    "Cyrela (CYRE3): Bradesco BBI Cuts Price Target, But Still Sees Nearly 60% Upside Potential; Understand the 'Adjustment'"
   ]
 }
