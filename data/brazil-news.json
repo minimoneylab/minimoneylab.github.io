@@ -1,21 +1,21 @@
 {
-  "date": "2026-05-26",
-  "update_time": "2026-05-26 10:29:41",
-  "total_articles": 14,
+  "date": "2026-05-27",
+  "update_time": "2026-05-27 11:00:36",
+  "total_articles": 13,
   "high": [
     {
-      "title": "Brazil Records US$1.8 Billion Current Account Deficit in April, More Negative Than Market Expected",
+      "title": "IPCA-15: Inflation Preview Advances 0.62% in May, Above Expectations, and Breaks Through BC's 4.5% Target Ceiling",
+      "source": "MoneyTimes",
+      "date": "2026-05-27",
+      "url": "https://www.moneytimes.com.br/ipca-15-maio-apsa/",
+      "summary": "Brazil's inflation preview (IPCA-15) rose 0.62% in May, significantly above market expectations of 0.56%, with 12-month accumulated inflation reaching 4.64% - breaching the Central Bank's 4.5% target ceiling. While monthly inflation decelerated from April's 0.89%, the annual rate accelerated from 4.37% previously. Food and beverages led the increase at 1.38%, followed by Housing (1.03%) and Health/Personal Care (1.05%). This inflation overshoot is critical for FX and bond markets as it increases pressure on the Central Bank to maintain or raise the Selic rate, which markets already expect to reach 13.25% by end-2026. Higher inflation above target supports a hawkish BCB stance, potentially strengthening BRL in the medium term but pressuring government bond prices. The overshoot also complicates the government's fiscal framework adherence and may influence COPOM's next decision."
+    },
+    {
+      "title": "Brazil Registers Current Account Deficit of US$ 1.8 Billion in April, More Negative Balance Than Market Expected",
       "source": "MoneyTimes",
       "date": "2026-05-26",
       "url": "https://www.moneytimes.com.br/brasil-registra-deficit-em-conta-corrente-de-us-18-bilhao-em-abril-saldo-mais-negativo-apsa/",
-      "summary": "Brazil posted a current account deficit of US$1.765 billion in April, significantly worse than the Reuters consensus expectation of US$200 million deficit. The 12-month accumulated deficit now represents 2.66% of GDP. The primary income account showed a deficit of US$6.801 billion versus US$5.018 billion in April 2025, while the trade balance posted a surplus of US$9.707 billion. The services account deficit widened to US$5.044 billion from US$4.091 billion year-over-year. However, foreign direct investment exceeded expectations, providing some offset. This larger-than-expected current account deficit could pressure the BRL and reinforce concerns about Brazil's external financing needs, particularly important given the elevated global risk environment and potential capital flow volatility."
-    },
-    {
-      "title": "Central Bank Sees Increased Global Uncertainty from Middle East Conflict and Higher Risk in Household Credit",
-      "source": "MoneyTimes",
-      "date": "2026-05-25",
-      "url": "https://www.moneytimes.com.br/bc-ve-aumento-da-incerteza-global-com-conflito-no-oriente-medio-e-alta-do-risco-no-credito-as-familias/",
-      "summary": "The Central Bank of Brazil released its Financial Stability Report highlighting increased external uncertainty in H2 2025 driven by the US-Israel-Iran conflict. Geopolitical tensions have significantly elevated global risks, particularly impacting the Middle East region and supply chains, including commodity flows through the Strait of Hormuz. Despite this, the BCB notes that global growth in 2025 surprised positively even amid policy uncertainties and rising US tariffs. The report emphasizes that external funding supply to Brazil's financial system remains robust and above demand, with no relevant short-term cost pressures. Domestically, the National Financial System's profitability remained stable in H2. This assessment suggests the BCB is closely monitoring external risks that could impact monetary policy decisions and BRL stability, while domestic financial conditions remain supportive."
+      "summary": "Brazil's current account deficit reached US$ 1.765 billion in April, substantially wider than Reuters consensus of US$ 200 million, with the 12-month rolling deficit now representing 2.66% of GDP. The primary income account deficit expanded to US$ 6.801 billion from US$ 5.018 billion year-over-year, while the trade surplus improved to US$ 9.707 billion from US$ 6.957 billion in April 2024. The services deficit also widened to US$ 5.044 billion. This larger-than-expected current account deficit puts pressure on BRL funding needs and external financing requirements. However, the Central Bank noted that foreign direct investment exceeded expectations (though specific figures weren't provided in the excerpt), which could help finance the deficit. The deteriorating current account balance is negative for BRL fundamentals and increases Brazil's dependence on portfolio flows to maintain external equilibrium."
     }
   ],
   "medium": [
@@ -24,37 +24,37 @@
       "source": "MoneyTimes",
       "date": "2026-05-26",
       "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-26-5-26-apsa/",
-      "summary": "The Ibovespa opened Tuesday down 0.93% to 176,154 points due to renewed risk aversion following US attacks on Iran. USD/BRL traded down 0.12% to R$5.0131 while the DXY fell 0.11%. The market is also monitoring progress on the proposal to end the 6x1 work schedule in Congress, with the Chamber of Deputies postponing the vote after a collective review request."
+      "summary": "Ibovespa opened down 0.93% to 176,154 points due to renewed risk aversion over US-Iran tensions, while USD/BRL fell 0.12% to R$ 5.0131 following dollar weakness abroad. The Chamber of Deputies postponed voting on the constitutional amendment to end the 6x1 work schedule. Market sentiment was affected by geopolitical tensions impacting risk appetite globally."
     },
     {
-      "title": "Ibovespa Rises with Optimism Over US-Iran Agreement; 5 Things to Know Before Investing Today (25)",
+      "title": "Ibovespa Rises with New Wave of Optimism About Middle East and Ignores Above-Expected IPCA-15; 5 Things to Know Before Investing Today (27)",
       "source": "MoneyTimes",
-      "date": "2026-05-25",
-      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-25-5-26-apsa/",
-      "summary": "The Ibovespa opened Monday up 0.32% to 176,770 points, following external optimism over evolving negotiations for a peace agreement between the US and Iran. USD/BRL fell 0.47% to R$5.0048 while the DXY declined 0.30%. A new BTG Pactual/Nexus poll shows President Lula leading Senator Flávio Bolsonaro 47% to 43% in a hypothetical second round, within the margin of error."
+      "date": "2026-05-27",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-27-5-26-lils/",
+      "summary": "Ibovespa traded up 0.47% to 177,420 points on improved investor sentiment over US-Iran peace negotiation progress, offsetting concerns about higher-than-expected IPCA-15 inflation data. USD/BRL rose 0.53% to R$ 5.0538 despite dollar weakness internationally. The market focused more on geopolitical developments than domestic inflation pressures."
     },
     {
-      "title": "Empiricus Issues 'Alert' on Its Recommended Stocks to Seek Extra Income: Petrobras (PETR4) and Vale (VALE3) Are Highlighted",
+      "title": "Empiricus Issues 'Alert' on Its Recommended Stocks to Seek Extra Income: Petrobras (PETR4) and Vale (VALE3) are Highlighted",
       "source": "MoneyTimes",
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/empiricus-emite-alerta-em-suas-acoes-recomendadas-para-buscar-renda-extra-petrobras-petr4-e-vale-vale3-sao-destaque-lbrdaz234/",
-      "summary": "After weeks of optimism, Brazil's domestic market entered a more delicate phase in May, with the Ibovespa falling from near 200,000 points in April to around 177,000 currently. Selic rate expectations also deteriorated, with the market expecting rates to end 2026 at 13.25% annually according to the latest Focus report. Empiricus analysts note that corrections after significant rallies are normal, but additional challenging elements are making the scenario more difficult."
+      "summary": "Empiricus Research highlighted the challenging domestic market environment, with Ibovespa falling from near 200,000 points in April to around 177,000 currently. The market now expects Selic to end 2026 at 13.25% according to the latest Focus report. The research house issued tactical adjustment alerts for its recommended stocks, particularly focusing on Petrobras and Vale for income generation strategies amid the deteriorating outlook."
     },
     {
-      "title": "CADE Superintendence Recommends Rejection of B3's 60% CRDC Acquisition (B3SA3)",
+      "title": "Raízen (RAIZ4), Petrobras (PETR4), Azul (AZUL3) and Other Highlights This Wednesday (27)",
       "source": "MoneyTimes",
-      "date": "2026-05-25",
-      "url": "https://www.moneytimes.com.br/superintendencia-do-cade-recomenda-a-rejeicao-da-compra-de-60-da-crdc-pela-b3-lmrs/",
-      "summary": "CADE's General Superintendence recommended rejection of B3's R$15 million acquisition of 60% of CRDC (Central de Registro de Direitos Creditórios). The case was classified as \"complex\" in March, requiring deeper analysis of conglomerate effects and rivalry impacts. The recommendation now goes to CADE's tribunal for final decision."
+      "date": "2026-05-27",
+      "url": "https://www.moneytimes.com.br/radar-do-mercado-destaques-corporativos-hoje-raizen-petrobras-azul-27-05-2026-lmrs/",
+      "summary": "Raízen is advancing in negotiations with creditors over its R$ 65 billion debt, with a deadline of June 9 to present a recovery plan requiring 50%+1 creditor approval. The company may already have the necessary quorum from local creditors but still seeks bondholder support, who hold about 40% of the debt. Petrobras responded about interest in Refit's terrain, and Azul debuted on NYSE."
     }
   ],
   "not_relevant": [
-    "While the World Suffers with High Prices, China Defies Inflation and Exposes Global Fragility",
-    "Taesa (TAEE11), Automob (AMOB3), Oncoclínicas (ONCO3) and Other Highlights This Monday (25)",
-    "Automob (AMOB3) Sells Land to Cyrela (CYRE3) Subsidiary for up to R$93 Million",
-    "IMF Pressures Argentina to Update Inflation Metrics — Which May Reveal Worse Picture Than Expected; Understand",
-    "AI That Operates Cryptocurrencies Automatically Will Release New Access on 05/25; See How to Participate",
-    "Day Trade: Buy B3 (B3SA3) and Sell Raia Drogasil (RADL3) to Earn up to 1.50% Today (25), According to Ágora",
-    "Cyrela (CYRE3): Bradesco BBI Cuts Price Target, But Still Sees Nearly 60% Upside Potential; Understand the 'Adjustment'"
+    "Cyrela (CYRE3): Bradesco BBI Cuts Target Price, But Still Sees Nearly 60% Upside Potential; Understand the 'Adjustment'",
+    "Wall Street Operates Without Unified Direction with Decline in Cybersecurity Stocks",
+    "Delta AI: Tool Seeks Profits Every Friday for Cryptocurrency Investors with Antifragile Strategy; See How It Works",
+    "Bolsa Família Will Have Adjustment? See What the Government Says",
+    "Embraer (EMBJ3) Has Buying Window After Market's Exaggerated Reaction, Says Bradesco BBI; Upside Potential is 52%",
+    "Day Trade: Buy B3 (B3SA3) and Sell Marcopolo (POMO4) to Gain Up to 1.47% Today (27), According to Ágora",
+    "Nubank (ROXO34) Shares Haven't Been Following Company's Fundamentals, According to Analyst; Know Which Strategy to Adopt"
   ]
 }
