@@ -1,122 +1,115 @@
 {
-  "update_time": "2026-05-26 22:25:24 UTC",
+  "update_time": "2026-05-27 22:46:54 UTC",
   "country": "Indonesia",
   "source": "CNN Indonesia",
-  "total_articles": 16,
+  "total_articles": 15,
   "high": [
     {
-      "title": "Luhut Gives Strong Signal That Customs Functions Will Be Taken Over by DSI",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8503850/luhut-beri-sinyal-kuat-fungsi-bea-cukai-akan-diambil-alih-dsi...",
-      "summary": "National Economic Council Chairman Luhut signals major restructuring of customs operations as export duties may be transferred from Customs to new state-owned export company DSI using AI-based digital systems. This represents a significant shift in Indonesia's trade infrastructure and could impact export procedures and government revenue collection.",
+      "title": "Luhut Signals Strong Indication Customs Functions Will Be Taken Over by DSI",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8503850/luhut-beri-sinyal-kuat-fungsi-bea-cukai-akan-diambil-alih-dsi",
+      "summary": "Key government official Luhut Pandjaitan indicates that some Customs functions may be transferred to the new state export company DSI, with AI-based digital systems replacing traditional customs processes. This represents a major restructuring of Indonesia's trade infrastructure that could significantly impact export procedures and government revenue collection.",
       "source": "Detik Finance",
       "date": "Senin, 25 Mei 2026 13:10 WIB"
     },
     {
-      "title": "Finance Minister Holds Data on 10 Palm Oil Companies Manipulating Exports, Sold Cheaply to Singapore",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504450/purbaya-kantongi-10-perusahaan-sawit-manipulasi-ekspor-dijual-murah-ke-singapura...",
-      "summary": "Finance Minister discovers all 10 largest palm oil exporters engaged in under-invoicing, causing estimated $84 million in state losses from just a small sample. This massive export manipulation scandal could lead to major regulatory crackdowns and impact Indonesia's palm oil industry.",
+      "title": "Finance Minister Discovers 10 Palm Oil Companies Manipulating Exports, Sold Cheap to Singapore",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504450/purbaya-kantongi-10-perusahaan-sawit-manipulasi-ekspor-dijual-murah-ke-singapura",
+      "summary": "Finance Minister Purbaya reveals that all 10 largest palm oil exporters are conducting under-invoicing practices, causing estimated state losses of US$84 million from just a small sample. This massive tax evasion scheme could result in much larger losses and may trigger major enforcement actions against Indonesia's key export sector.",
       "source": "Detik Finance",
       "date": "Senin, 25 Mei 2026 17:00 WIB"
     },
     {
-      "title": "Danantara Responds to S&P and Moody's on One-Door Export Risk Through DSI",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504865/danantara-jawab-s-p-dan-moodys-soal-risiko-ekspor-satu-pintu-lewat-dsi...",
-      "summary": "Rating agencies S&P and Moody's warn that Indonesia's new centralized export policy through DSI could harm export performance, reduce government revenue, and negatively impact investor sentiment. This could affect Indonesia's credit rating and foreign investment flows.",
+      "title": "US Dollar Nearly Reaches Rp 17,800, Purbaya: 'Doesn't Make Sense'",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8506863/dolar-as-nyaris-rp-17-800-purbaya-nggak-masuk-akal",
+      "summary": "The rupiah weakened to nearly Rp 17,800 per US dollar, with Finance Minister Purbaya calling the decline 'unreasonable' given Indonesia's strong economic fundamentals. This significant currency weakness poses risks to inflation, import costs, and overall economic stability despite positive GDP growth.",
       "source": "Detik Finance",
-      "date": "Senin, 25 Mei 2026 21:47 WIB"
+      "date": "Rabu, 27 Mei 2026 09:35 WIB"
     },
     {
-      "title": "Luhut on Rupiah and IHSG Bleeding: Indonesia Will Not Collapse",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504341/luhut-soal-rupiah-ihsg-berdarah-darah-indonesia-tak-akan-collapse...",
-      "summary": "Despite rupiah weakness and stock market pressures from capital outflows, economic chief Luhut maintains Indonesia's fundamentals remain strong with low fiscal deficit at 0.93% of GDP. His reassurance comes amid significant market volatility and investor concerns about economic stability.",
+      "title": "IHSG Battered, OJK Chief Guarantees Indonesia Investment Prospects Still Good",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8503625/ihsg-babak-belur-bos-ojk-jamin-prospek-investasi-ri-masih-bagus",
+      "summary": "OJK Chairman acknowledges the Jakarta Composite Index is under correction due to global challenges but maintains that Indonesia's long-term investment prospects remain positive. The statement comes amid market volatility and attempts to restore investor confidence in Indonesian capital markets.",
       "source": "Detik Finance",
-      "date": "Senin, 25 Mei 2026 16:25 WIB"
+      "date": "Senin, 25 Mei 2026 11:15 WIB"
     },
     {
-      "title": "FTSE Russell Kicks Out 4 Indonesian Stocks Due to High Shareholding Concentration",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8501968/ftse-russell-tendang-4-saham-ri-ini-pelanggarannya...",
-      "summary": "FTSE Russell removes four Indonesian stocks including DSSA from its Global Equity Index due to high shareholding concentration and insufficient free float. This delisting will trigger foreign selling pressure and negatively impact IHSG performance.",
+      "title": "4 Indonesian Stocks Kicked Out by FTSE Russell, BEI Chief: Consequence of Capital Market Reform",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8503640/4-saham-ri-didepak-ftse-russell-bos-bei-konsekuensi-reformasi-pasar-modal",
+      "summary": "FTSE Russell removes four Indonesian stocks from its Global Equity Index due to high shareholding concentration and insufficient free float. This delisting has triggered foreign investor selling pressure on IHSG but is viewed as a short-term consequence of ongoing capital market reforms.",
       "source": "Detik Finance",
-      "date": "Minggu, 24 Mei 2026 06:30 WIB"
-    },
-    {
-      "title": "27 Countries Queue to Borrow from World Bank Due to Middle East War",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8502195/27-negara-antre-mau-utang-ke-bank-dunia-gegara-perang-timur-tengah...",
-      "summary": "27 countries are seeking emergency funding from World Bank following Middle East conflict that began February 28, 2026, with three countries already approved for crisis instruments. This global financial stress could affect international capital flows and emerging market investments including Indonesia.",
-      "source": "Detik Finance",
-      "date": "Minggu, 24 Mei 2026 10:27 WIB"
-    },
-    {
-      "title": "IHSG Closed Higher at Start of Week",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8504374/ihsg-ditutup-menguat-di-awal-pekan...",
-      "summary": "IHSG closed up 0.72% to 6,206.34 points with trading volume of 27.66 billion shares and turnover reaching Rp 16.95 trillion. The positive close provides some relief after recent market pressures from foreign outflows and index rebalancing.",
-      "source": "Detik Finance",
-      "date": "Senin, 25 Mei 2026 16:40 WIB"
+      "date": "Senin, 25 Mei 2026 11:25 WIB"
     }
   ],
   "medium": [
     {
-      "title": "13th Month Salary for Civil Servants Disbursed in June, Here's the Amount",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8502742/gaji-ke-13-asn-cair-juni-segini-besarannya...",
-      "summary": "Civil servants will receive 13th month salary starting June 2026 as regulated by Government Regulation No. 9/2026 signed by President Prabowo. This bonus aims to boost purchasing power and contribute to national economic growth.",
+      "title": "Danantara Responds to S&P and Moody's About One-Stop Export Risks Through DSI",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504865/danantara-jawab-s-p-dan-moodys-soal-risiko-ekspor-satu-pintu-lewat-dsi",
+      "summary": "Danantara's COO responds to warnings from credit rating agencies S&P and Moody's about risks from the new one-stop export policy through DSI. The rating agencies warn this centralized approach could harm exports, reduce government revenue, and negatively impact Indonesia's credit rating.",
       "source": "Detik Finance",
-      "date": "Minggu, 24 Mei 2026 16:55 WIB"
+      "date": "Senin, 25 Mei 2026 21:47 WIB"
     },
     {
-      "title": "13th Month Salary for Civil Servant Retirees Disbursed Starting June 2",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8502145/gaji-ke-13-pensiunan-asn-cair-mulai-2-juni...",
-      "summary": "PT Taspen will distribute 13th month salary to civil servant retirees starting June 2, 2026 through 46 payment partners nationwide without requiring additional procedures. This reflects government appreciation for retiree contributions and ensures welfare continuity.",
-      "source": "Detik Finance",
-      "date": "Minggu, 24 Mei 2026 08:45 WIB"
-    },
-    {
-      "title": "Prabowo's Message to Danantara Managing Rp 17,000 Trillion: Don't Let It Leak, That's People's Money",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8501974/pesan-prabowo-ke-danantara-kelola-rp-17-000-t-jangan-bocor-itu-uang-rakyat...",
-      "summary": "President Prabowo warns Danantara management to carefully handle state assets worth Rp 17,000 trillion across 1,040 SOEs, emphasizing prevention of fund leakage. This highlights the massive scale of state enterprise assets under centralized management and governance concerns.",
-      "source": "Detik Finance",
-      "date": "Minggu, 24 Mei 2026 08:00 WIB"
-    },
-    {
-      "title": "BEI Welcomes 7 Million New Investors",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8501429/bei-kedatangan-7-juta-investor-baru...",
-      "summary": "Indonesia Stock Exchange records 7.4 million new investors from January to May 20, 2026, bringing total to 27.4 million investors. This strong growth shows continued public confidence in capital markets despite recent volatility.",
-      "source": "Detik Finance",
-      "date": "Sabtu, 23 Mei 2026 15:44 WIB"
-    },
-    {
-      "title": "Prabowo Agrees to Build Family Office in Bali for World Conglomerate Money",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504163/prabowo-setuju-family-office-dibangun-di-bali-tempat-duit-konglomerat-dunia...",
-      "summary": "President Prabowo approves establishment of family office around International Financial Center in Bali, with legislation expected to pass June 4, 2026. This initiative aims to attract wealthy global investors and position Indonesia as a regional financial hub.",
-      "source": "Detik Finance",
-      "date": "Senin, 25 Mei 2026 15:11 WIB"
-    },
-    {
-      "title": "Trade Minister Speaks on Certainty of Trade Tariffs with US",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504716/mendag-buka-bukan-soal-kepastian-tarif-dagang-dengan-as...",
-      "summary": "Trade Minister discusses uncertainty over Agreement on Reciprocal Trade with US after Supreme Court cancellation, with temporary 10% tariff for 150 days while US conducts Section 301 investigation. This trade uncertainty could impact Indonesian exporters and bilateral relations.",
-      "source": "Detik Finance",
-      "date": "Senin, 25 Mei 2026 19:30 WIB"
-    },
-    {
-      "title": "Trade Minister Speaks on Closure of Alfamart and Indomaret in Lombok",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504661/mendag-buka-suara-soal-penutupan-alfamart-indomaret-di-lombok...",
-      "summary": "Trade Minister explains closures of Alfamart and Indomaret stores in Central Lombok are due to licensing issues related to regional spatial planning compliance. This indicates tighter regulatory enforcement on retail operations in certain regions.",
+      "title": "Trade Minister Speaks on Alfamart and Indomaret Closures in Lombok",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504661/mendag-buka-suara-soal-penutupan-alfamart-indomaret-di-lombok",
+      "summary": "Trade Minister clarifies that minimarket closures in Central Lombok are due to licensing issues and spatial planning compliance, not other factors. This indicates ongoing regulatory enforcement that could affect retail expansion strategies in certain regions.",
       "source": "Detik Finance",
       "date": "Senin, 25 Mei 2026 18:35 WIB"
     },
     {
-      "title": "Luhut: Customs Needs Reform",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504891/luhut-bea-cukai-perlu-ada-reformasi...",
-      "summary": "National Economic Council Chairman calls for customs system reform using artificial intelligence as new export company DSI is established. This modernization effort aims to improve efficiency in export-import oversight and reporting systems.",
+      "title": "IHSG Closes Strong at Week's Start",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8504374/ihsg-ditutup-menguat-di-awal-pekan",
+      "summary": "Jakarta Composite Index gained 0.72% to close at 6,206.34 points with trading turnover reaching Rp 16.95 trillion. The positive performance provides some relief amid recent market volatility and reform-related pressures.",
       "source": "Detik Finance",
-      "date": "Senin, 25 Mei 2026 22:16 WIB"
+      "date": "Senin, 25 Mei 2026 16:40 WIB"
     },
     {
-      "title": "BCA UMKM Fest 2026 Enlivens Sabang Merauke Pageant at Indonesia Arena",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8504662/bca-umkm-fest-2026-ramaikan-pagelaran-sabang-merauke-di-indonesia-arena...",
-      "summary": "BCA hosts UMKM Fest 2026 supporting micro, small and medium enterprises through collaboration with Sabang Merauke event at Indonesia Arena, August 20-23, 2026. This initiative supports national economy development and UMKM sector growth.",
+      "title": "BEI Will Meet Global Index Providers Again",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8503749/bei-bakal-temui-penyedia-indeks-global-lagi",
+      "summary": "Indonesia Stock Exchange will hold follow-up meetings with global index providers like MSCI and FTSE Russell as part of ongoing capital market reforms. These discussions are crucial for maintaining Indonesia's position in global indices and attracting foreign investment.",
       "source": "Detik Finance",
-      "date": "Senin, 25 Mei 2026 18:37 WIB"
+      "date": "Senin, 25 Mei 2026 12:27 WIB"
+    },
+    {
+      "title": "Purbaya Dismisses 5.61% Economic Growth as 'Just on Paper', Car Sales Rise, Malls Busy",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8507001/purbaya-tepis-ekonomi-5-61-cuma-di-atas-kertas-penjualan-mobil-naik-mal-ramai",
+      "summary": "Finance Minister defends Q1 2026 economic growth of 5.61% as genuine, citing real indicators like increased car sales and busy shopping centers. The statement addresses skepticism about economic data and reinforces confidence in Indonesia's economic recovery.",
+      "source": "Detik Finance",
+      "date": "Rabu, 27 Mei 2026 14:29 WIB"
+    },
+    {
+      "title": "Beware New Fraud Schemes Offering Profits from Guessing Pictures, Watching Chinese Dramas",
+      "url": "https://finance.detik.com/moneter/d-8507115/waspada-modus-baru-penipuan-tawarkan-cuan-dari-tebak-gambar-nonton-drama-china",
+      "summary": "Financial authorities shut down five entities involved in new investment scam schemes that promise returns from simple daily activities. This highlights the evolving nature of financial fraud targeting Indonesian investors through increasingly creative methods.",
+      "source": "Detik Finance",
+      "date": "Rabu, 27 Mei 2026 13:48 WIB"
+    },
+    {
+      "title": "Antam Gold Price Today Falls Rp 13,000 per Gram",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8506924/harga-emas-hari-ini-turun-rp-13-000-gram",
+      "summary": "Antam 24-karat gold price dropped Rp 13,000 to Rp 2,785,000 per gram, reflecting global gold market movements. This price adjustment affects investment returns for gold investors and indicates shifting precious metals demand.",
+      "source": "Detik Finance",
+      "date": "Rabu, 27 Mei 2026 10:29 WIB"
+    },
+    {
+      "title": "Buying Sacrificial Animals Subject to Tax? Here's What DJP Says",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8506627/beli-hewan-kurban-kena-pajak-nggak-ini-kata-djp",
+      "summary": "Tax authorities confirm that sacrificial animal transactions are exempt from VAT ahead of Eid al-Adha. This tax exemption supports religious practices and reduces costs for consumers during the important Islamic holiday.",
+      "source": "Detik Finance",
+      "date": "Rabu, 27 Mei 2026 08:00 WIB"
+    },
+    {
+      "title": "VKTR Delivers 30 Electric Buses to TransJakarta in Q1",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8507259/vktr-kirim-30-bus-listrik-ke-transjakarta-sepanjang-kuartal-i",
+      "summary": "Electric vehicle company VKTR recorded 823% growth in operating profit and 58% revenue growth, driven by strong demand for commercial electric vehicles. The company's performance reflects Indonesia's transition toward electric transportation and sustainable mobility solutions.",
+      "source": "Detik Finance",
+      "date": "Rabu, 27 Mei 2026 16:00 WIB"
+    },
+    {
+      "title": "Sukuk ST016 Officially Launched, Sharia Investment Starting Rp 1 Million on BRImo",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8506265/sukuk-st016-resmi-hadir-investasi-syariah-mulai-rp-1-juta-di-brimo",
+      "summary": "New Islamic government bonds ST016 launched with minimum investment of Rp 1 million, targeting growing sharia investment demand. With sharia capital market capitalization reaching Rp 8,900 trillion, this expands access to compliant investment instruments for Indonesian Muslims.",
+      "source": "Detik Finance",
+      "date": "Selasa, 26 Mei 2026 18:01 WIB"
     }
   ],
   "not_relevant": []
