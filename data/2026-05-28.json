@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-28",
+  "update_time": "2026-05-27 23:49:08",
+  "total_articles": 32,
+  "high": [
+    {
+      "title": "TSMC Bonus Communication Meeting - Chairman Wei Cheh-chia Addresses Employee Concerns",
+      "section": "金融",
+      "date": "2026/05/27 01:01:04",
+      "url": "https://money.udn.com/money/story/5612/9527540?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) recently faced employee concerns over rumored bonus cuts, prompting Chairman Wei Cheh-chia to personally address the issue in an employee communication meeting. The meeting opened access to 41 auditoriums and conference rooms, with registration limited to TSMC employees only. Wei sent an internal memo explaining that Q1 2026 bonuses increased 30% year-over-year, with individual amounts varying by position, tenure, and performance. He emphasized that annual bonus growth for 2026 would exceed last year's levels and would continue increasing with company growth. Market observers note this is significant for investor sentiment as TSMC's workforce exceeds 84,500 globally, with total employee compensation reaching NT$301.8 billion in 2024. The internal communication issue, while resolved, highlighted the importance of maintaining employee morale at Taiwan's most valuable company, especially as it faces increasing demand for AI chip production."
+    },
+    {
+      "title": "Taiwan Stock Market Becomes World's Fifth Largest, Surpassing India",
+      "section": "證券",
+      "date": "2026/05/27 01:16:07",
+      "url": "https://money.udn.com/money/story/5607/9527565?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market capitalization reached $4.95 trillion as of May 25, surpassing India's $4.92 trillion to become the world's fifth-largest stock market, trailing only the US, China, Japan, and Hong Kong. This milestone was primarily driven by TSMC's (2330) remarkable 49% year-to-date gain amid the AI boom. TSMC now represents approximately 42% of Taiwan's weighted index, highlighting the market's concentrated nature. The surge reflects two key 2026 market themes: Iran-related oil price impacts affecting energy-importing economies like India, and AI optimism benefiting semiconductor manufacturing centers like Taiwan and South Korea. New regulations allowing Taiwan domestic funds to increase single-stock holdings to 25% (from 10%) for companies with >10% index weighting also support TSMC. JPMorgan estimates this could attract over $6 billion in additional inflows. While Taiwan's market cap now exceeds India's, India's economy remains much larger at $4.15 trillion GDP versus Taiwan's $977 billion."
+    },
+    {
+      "title": "Foreign Investors Pour NT$221.37 Billion into Taiwan Stocks in Four Days",
+      "section": "證券",
+      "date": "2026/05/27 01:12:05",
+      "url": "https://money.udn.com/money/story/5607/9527535?from=edn_maintab_cate",
+      "summary": "Taiwan stocks surged with foreign investors net buying NT$221.37 billion over four consecutive days, despite the index closing lower on May 26 due to US-Iran conflict concerns and rising US inflation expectations. The TAIEX briefly touched 44,097 points intraday, setting a new record, before closing down 119 points at 43,525 points on massive turnover of NT$1.54 trillion - a new daily record. TSMC (2330) declined NT$40 to NT$2,270, while MediaTek (2454) hit new highs at NT$4,265, up NT$20. Foreign investors bought NT$35.43 billion in cash markets while increasing net short futures positions by 2,933 contracts to 54,391 contracts - interpreted as hedging rather than bearish sentiment. The combination of strong foreign cash inflows with futures hedging suggests institutional confidence in Taiwan's AI supply chain momentum, despite short-term volatility from geopolitical tensions."
+    }
+  ],
+  "medium": [
+    {
+      "title": "NVIDIA CEO Jensen Huang Proposes Investment in Taiwan Companies",
+      "section": "金融",
+      "date": "2026/05/28 01:49:02",
+      "url": "https://money.udn.com/money/story/5612/9529933?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang expressed willingness to invest in Taiwan companies during a dinner with Quanta executives. He indicated that while NVIDIA has no specific plans currently, they would be honored to hold stakes in excellent Taiwan companies if opportunities arise. Industry observers suggest NVIDIA might target component suppliers facing capacity constraints or long-term strategic partners in manufacturing."
+    },
+    {
+      "title": "NVIDIA Announces Massive Taiwan Investment Increase to $150 Billion",
+      "section": "金融",
+      "date": "2026/05/28 01:21:54",
+      "url": "https://money.udn.com/money/story/5612/9529993?from=edn_maintab_cate",
+      "summary": "Jensen Huang announced NVIDIA's annual Taiwan investment has reached $100 billion and aims to increase to $150 billion (approximately NT$4.7 trillion). He called Taiwan \"the epicenter of the AI revolution\" and emphasized the need for more electricity infrastructure. This follows AMD's recent announcement of $10 billion Taiwan investment, highlighting fierce competition between AI chip leaders."
+    },
+    {
+      "title": "Hon Hai and Sharp Deepen Integration with 3+3+3 Strategy",
+      "section": "金融",
+      "date": "2026/05/27 01:26:19",
+      "url": "https://money.udn.com/money/story/5612/9527477?from=edn_maintab_cate",
+      "summary": "Sharp's new president Tetsuji Kawamura announced deeper integration with Hon Hai (2317), adopting Hon Hai's 3+3+3 strategic framework. Sharp will develop AI servers, electric vehicles, and robotics while leveraging Hon Hai's global supply chain to expand in India and Southeast Asia. This strategic alignment strengthens Hon Hai's comprehensive ecosystem approach."
+    },
+    {
+      "title": "Formosa Petrochemical Implements Three Strategies Amid Middle East Crisis",
+      "section": "金融",
+      "date": "2026/05/27 00:48:43",
+      "url": "https://money.udn.com/money/story/10871/9527454?from=edn_maintab_cate",
+      "summary": "Formosa Petrochemical (6505) Chairman Tsao Ming outlined three strategies to address US-Iran war impacts: diversifying crude oil procurement from Brazil, Africa, and US; adjusting Middle East transportation routes; and optimizing production processes. The company expects better performance in 2026 than 2025, with ethane cracking project completion by year-end to reduce costs by $150-200 per ton."
+    },
+    {
+      "title": "Powertech Technology Expects Very Busy Second Half with Strong AI Demand",
+      "section": "金融",
+      "date": "2026/05/27 00:10:51",
+      "url": "https://money.udn.com/money/story/11162/9527468?from=edn_maintab_cate",
+      "summary": "Powertech Technology (6515) reports order visibility extending 5-6 months ahead due to AI-driven semiconductor demand exceeding expectations. Chairman Wang Chia-huang described current customer orders as severely backlogged, with the company's new Renwu factory breaking ground on May 29. Q1 2026 revenue reached NT$29.8 billion with EPS of NT$19.54, both historical records."
+    }
+  ],
+  "not_relevant": []
+}
