@@ -1,90 +1,82 @@
 {
-  "date": "2026-05-28",
-  "update_time": "2026-05-27 22:29:15",
-  "total_articles": 31,
+  "date": "2026-05-29",
+  "update_time": "2026-05-28 22:30:42",
+  "total_articles": 33,
   "high": [
     {
-      "title": "BOK Expected to Hike Rates Twice to 3.0% by Year-End, KED Survey Shows",
+      "title": "Bank of Korea Holds Policy Rate Steady at 2.50%, Signals Rate Hikes Ahead as Inflation Pressure Mounts",
       "section": "Markets",
-      "date": "Not specified",
-      "url": "https://www.kedglobal.com/central-bank/newsView/ked202605260001",
-      "summary": "This article appears to discuss Korean monetary policy expectations, with survey results indicating the Bank of Korea may implement two rate hikes to bring the policy rate to 3.0% by year-end. The content mentions accelerating inflation in April (fastest pace in 21 months) driven by petroleum price surges following US-Iran conflict, which is reinforcing expectations for monetary policy tightening. Deputy Governor Yoo Sang-dae's remarks reportedly jolted bond markets and heightened expectations of a policy turning point. This is highly significant for KRW/USD dynamics, bond yields, and monetary policy positioning. Rate hike expectations typically strengthen currency and push bond yields higher. The geopolitical backdrop from Middle East tensions adds complexity to the policy outlook."
+      "date": "",
+      "url": "https://www.kedglobal.com/central-bank/newsView/ked202605280001",
+      "summary": "The Bank of Korea maintained its benchmark rate at 2.50% on May 28th under new Governor Shin Hyun-song's leadership, but signaled a hawkish shift with rate hikes expected ahead. The central bank upgraded its 2026 growth outlook to 2.6% while facing mounting inflation pressures that accelerated to the fastest pace in 21 months in April. Markets are pricing in at least two rate increases to 3.0% this year as policymakers gain scope to combat rising inflation amid resilient economic growth. The decision comes as South Korea enjoys record current account surpluses yet sees the won persistently weakening above 1,500 per dollar, defying traditional economic relationships. For bond investors, the hawkish pivot suggests upward pressure on yields across the curve, while FX traders should monitor how aggressive BOK rhetoric becomes in upcoming meetings. The central bank's ability to raise rates without derailing growth will be crucial for KRW strength and government bond performance."
     },
     {
-      "title": "Dollar-Won Pares Losses as US-Iran Ceasefire Talks Spark Military Tensions",
+      "title": "Dollar-Won Falls Below 1,500 on US-Iran Ceasefire Progress, Closes at 1,494.00",
       "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122372",
-      "summary": "The USD/KRW exchange rate closed at 1,507.20 won, down 10.00 won from the previous Seoul session close but up 2.90 won from daytime trading at 1,504.30 won. Despite growing expectations that the US and Iran are nearing a ceasefire MOU, continued military brinkmanship between the two countries triggered market caution and risk-off sentiment. The geopolitical situation is creating volatility in KRW as markets oscillate between hopes for peace (KRW strengthening) and fears of escalation (KRW weakening). This dynamic is critical for FX traders as Middle East tensions continue to be a major driver of global risk sentiment and emerging market currency performance."
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122878",
+      "summary": "The USD/KRW exchange rate broke below the psychologically important 1,500 level in overnight trading, closing at 1,494.00 won after falling 7.20 won from the Seoul market close. The sharp move came on reports that the US and Iran agreed to a ceasefire memorandum of understanding, with only President Trump's approval remaining. However, Iranian semi-official media later disputed claims of a finalized agreement, suggesting volatility could continue. This represents a significant technical break for the won, which had traded above 1,500 for six consecutive sessions despite Korea's record current account surplus. For FX traders, the 1,500 level had become a key resistance turned support - the break below signals potential for further won strength if geopolitical tensions continue to ease. Oil price impacts from Middle East developments will also influence Korea's import costs and inflation outlook, making this a key variable for BOK policy timing."
     },
     {
-      "title": "Dollar-Won Holds Steady as US-Iran Ceasefire Talks Stall - Closes at 1,500.20 Won",
-      "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122583",
-      "summary": "USD/KRW extended its decline slightly in overnight trading, closing at 1,500.20 won, down 4.10 won from the previous Seoul session and 1.00 won below the day session close of 1,501.20 won. The stalling of US-Iran ceasefire negotiations led to limited movement during the New York session. The rate has now moved meaningfully stronger for the won, falling from 1,507+ levels to the 1,500 handle, indicating reduced risk premium from geopolitical concerns. This trend suggests markets are becoming more comfortable with the Middle East situation, which is positive for risk assets and EM currencies like KRW."
+      "title": "South Korean Banks' BIS Capital Ratio Falls to 15.64% in Q1 on Currency Impact",
+      "section": "Policy/Finance",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122586",
+      "summary": "Korean banks' capital adequacy ratios declined in Q1 as the BIS ratio fell to 15.64% from 15.83% at year-end, driven by increased lending assets and rising exchange rates. The common equity tier 1 (CET1) ratio dropped to 13.41% from 13.50%. The Financial Supervisory Service attributed the decline to risk-weighted assets growing faster than common equity capital, with currency fluctuations playing a significant role. While ratios remain well above regulatory minimums, the downward trend reflects both credit growth and FX volatility impacts on bank balance sheets. This data is crucial for investors as it indicates potential constraints on bank lending capacity and dividend policies if the trend continues. Combined with rising NPL ratios that hit 0.6% as household and corporate bad debt increased, the banking sector faces headwinds that could influence BOK monetary policy deliberations and Korean financial sector performance."
     }
   ],
   "medium": [
     {
-      "title": "South Korean Banks' BIS Ratio Falls to 15.64% in Q1 on Currency Impact",
-      "section": "Policy/Finance",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122586",
-      "summary": "Domestic banks' BIS capital ratio declined to 15.64% in Q1 from 15.83% at year-end, primarily due to increased lending assets and rising exchange rates. The decline in capital adequacy ratios, while still well above regulatory minimums, reflects the impact of KRW weakness and credit growth on bank balance sheets, which could influence monetary policy considerations."
+      "title": "Foreign Investors Offload $3 Billion in Korean Stocks in April, Extending Four-Month Selling Streak",
+      "section": "Stocks",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122890",
+      "summary": "Foreign investors net sold 4.046 trillion won ($3 billion) in Korean equities during April, marking four consecutive months of outflows. The selling was concentrated in KOSPI (3.638 trillion won) with additional KOSDAQ outflows of 408 billion won. However, foreign bond holdings shifted to net buying, suggesting a rotation rather than complete Korean asset rejection. This continued equity outflow pressure explains persistent won weakness despite strong fundamentals."
     },
     {
-      "title": "Bank of Korea Builds 'Project Agora' Prototype, to Participate in Live Transaction Tests",
+      "title": "National Pension Service Raises Domestic Stock Target to 20.8% by Year-End",
+      "section": "Stocks",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122839",
+      "summary": "The National Pension Service increased its domestic equity target allocation from 14.9% to 20.8% by year-end, effective from June when the rebalancing moratorium expires. Officials cited \"Korean market rerating\" and structural changes following Commercial Act revisions. NPS Chairman Kim Seong-joo denied this was meant to prop up stocks, emphasizing long-term investment objectives. This could provide significant buying support for Korean equities in coming months."
+    },
+    {
+      "title": "Bank of Korea Joins 'Project Agora' Cross-Border Payment Initiative",
       "section": "Bonds/Forex",
-      "date": "Not specified",
+      "date": "",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=122567",
-      "summary": "BOK has jointly built a 'Project Agora' prototype with BIS and other institutions for live transaction tests. This public-private initiative explores cross-border payment efficiency using tokenized bank deposits and wholesale CBDC, involving central banks from six countries and over 40 global financial institutions. This signals BOK's active participation in global payment system innovation."
+      "summary": "The BOK announced participation in Project Agora, a BIS-led initiative exploring tokenized bank deposits and wholesale CBDCs for cross-border payments. The project includes central banks from six major economies and over 40 global financial institutions. Live transaction tests are planned ahead, potentially modernizing Korea's international payment infrastructure and supporting won internationalization efforts."
     },
     {
-      "title": "Manufacturing Sentiment Turns 'Optimistic' for First Time in 3 Years, 9 Months",
+      "title": "US Treasury Auctions Show Solid Demand Despite Higher Yields",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122877",
+      "summary": "US 5-year notes auctioned at 4.182% (up 22.7bp from previous month) and 7-year notes at 4.290% (up 11.5bp), both showing solid demand metrics. Foreign participation in the 7-year auction hit highest since December 2024. Rising US yields create headwinds for Korean government bonds and may influence BOK policy timing as rate differentials narrow."
+    },
+    {
+      "title": "BOK Analysis: Korea's Non-IT Export Market Share Resilient Despite US-China Tariffs",
       "section": "Policy/Finance",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122377",
-      "summary": "The all-industry Composite Business Survey Index rose 4.0 points to 98.9 in May, with manufacturing sentiment shifting from pessimistic to optimistic for the first time since August 2022. This improvement in business confidence supports the case for continued economic recovery and could influence BOK policy decisions."
-    },
-    {
-      "title": "US 2-Year Treasury Auction Draws Solid Demand, Yield Meets Expectations",
-      "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122370",
-      "summary": "US 2-year Treasury auction settled at 4.071% yield, up 25.9 bps from previous month and highest since February 2025. Bid-to-cover ratio of 2.64 showed solid demand. Rising US yields provide context for global rate expectations and KRW dynamics."
-    },
-    {
-      "title": "US 5-Year Treasury Auction Draws Solid Demand - Yield Slightly Above Forecast",
-      "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122577",
-      "summary": "US 5-year note auction concluded with 4.182% yield, up 22.7 bps month-over-month to highest level since January 2025. Bid-to-cover ratio improved to 2.34x. Continued strength in US Treasury yields maintains pressure on Korean bond yields and influences KRW through interest rate differentials."
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122885",
+      "summary": "Bank of Korea research shows Korean non-IT exports fell 12.8% to the US following tariffs on China, but market share loss was limited to 0.4 percentage points—outperforming China, Japan, and Germany. This export resilience supports Korea's current account strength and provides fundamental backing for won stability despite recent weakness."
     }
   ],
   "not_relevant": [
-    "Today's Schedule for Ministry of Economy and Finance and Other Economic Ministries",
-    "Insurers' Loans Shrink While Bad Debts Rise - Soundness Warning",
-    "Kwon Dae-young Calls for Productive Finance Disclosure in Annual Reports, KPI Integration",
-    "National Growth Fund 97.5% Sold Out in Two Days - Additional Supply Under Review",
-    "Dollar-Won Trades in 1,505 Won Range in New York Session",
-    "US Home Prices Rise 0.7% in March - Chicago Surges 6.1%",
-    "Consensus Builds on T+1 Settlement Cycle for Stocks - 'Thorough Preparation More Important Than Speed'",
-    "Chung Eun-bo - 'KOSPI 8,000 Marks More Than Just a Number, Signals Global Premium Valuation'",
-    "Korea Exchange Conducts Unfair Trading Prevention Training for 60 Listed Company Executives",
-    "Democratic Party Leader Jeong Cheong-rae Touts KOSPI 8,000 Breakthrough - 'Stocks Tripled Under Lee's Government'",
-    "[Market Close] KOSPI Settles Above 8,000, Surges Over 2% to Record High",
     "Samsung, SK Hynix jump as Korea's first single-stock leverage ETFs debut",
-    "Today's Schedule - Ministry of Economy and Finance and Other Economic Ministries",
-    "Lee Kyu-yeon - 'President Lee Relentlessly Monitors Real Estate... SNS Common Trait of Beloved Leaders'",
-    "President Lee Slams 'Price Gouging' Accommodation During BTS Concert in Busan - 'Disclose List of Offenders'",
+    "President Lee Slams 'Price Gouging' Accommodation During BTS Concert in Busan",
     "President Lee Praises Tax Agency, Asks 'Local Governments Should Follow After Elections, Right?'",
-    "Trump 'Not Satisfied With Iran Deal...No One Can Control Hormuz'",
     "JPMorgan's Dimon Says Bank Could Spend Up to $20 Billion on M&A in Coming Years",
     "'Never Posted Annual Loss'...Timefolio's 'The Time' Fund Marks 10th Anniversary",
     "National Growth Fund Indirect Investment GPs Selected - 11 Firms Begin Fundraising",
     "Single-Stock Leverage ETF Debut - KODEX Defends Top Spot Amid Fierce Competition",
-    "[Market Close] KOSPI Hits Record High on 'SamNik' Concentration; KOSDAQ Plunges Over 3%",
-    "Uber Struggles to Justify AI Token-Maxing Costs"
+    "KOSPI Hits Record High on 'SamNik' Concentration; KOSDAQ Plunges Over 3%",
+    "Uber Struggles to Justify AI Token-Maxing Costs",
+    "National Growth Fund Invests 800 Billion Won in Furiosa AI",
+    "S&P Upgrades Hanwha Life, Hanwha General Insurance to 'A+'",
+    "Huons Global to Put Subsidiary Merger to Shareholder Vote",
+    "Health Ministry Cites Korea Market Rerating as Reason for Raising Domestic Stock Target Weight",
+    "National Pension Service Chief Denies Stock Market Support Role",
+    "Today's Schedule articles (Ministry of Economy and Finance meetings)"
   ]
 }
