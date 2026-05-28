@@ -1,0 +1,80 @@
+{
+  "date": "2026-05-29",
+  "update_time": "2026-05-28 23:55:09",
+  "total_articles": 33,
+  "high": [
+    {
+      "title": "NVIDIA CEO Announces Major Investment Increase in Taiwan - From Annual $100B to $150B USD",
+      "section": "金融",
+      "date": "2026/05/28 01:21:54",
+      "url": "https://money.udn.com/money/story/5612/9529993?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang announced Taiwan is the epicenter of the AI revolution and committed to increasing annual investment from current $100 billion USD (NT$3.2 trillion) to $150 billion USD (NT$4.7 trillion). This follows AMD CEO's $10 billion investment pledge last week. Huang emphasized Taiwan's critical strategic position in global AI markets, with the island serving as the source of chips, packaging location, and birthplace of AI supercomputers. He stressed Taiwan needs more electricity to support future AI infrastructure development, calling energy growth \"the fundamental cornerstone of Taiwan's GDP development.\" This massive investment pledge underscores Taiwan's irreplaceable role in the AI supply chain and signals sustained demand for Taiwan's semiconductor ecosystem."
+    },
+    {
+      "title": "TSMC ADR Hits New High with 2.5% Gain, Trading at 15.4% Premium to Taipei",
+      "section": "產經",
+      "date": "2026/05/28 07:25:31",
+      "url": "https://money.udn.com/money/story/123398/9530237",
+      "summary": "TSMC ADR closed at record high $422.73, up 2.5% with intraday gains reaching 4.4%. The ADR is trading at a significant 15.4% premium to Taipei shares, indicating strong overseas demand. While most semiconductor stocks retreated after recent gains, with Intel down 1.4% and Qualcomm plunging 6%, TSMC continued its upward trajectory alongside Taiwan's weighted index gaining 731 points to 44,256.80. This performance divergence suggests sustained confidence in TSMC's AI chip leadership and advanced manufacturing capabilities, particularly as the company benefits from strong demand for its 3nm and CoWoS packaging services."
+    },
+    {
+      "title": "Taiwan Stock Market Experiences Dramatic 1,717-Point Swing, National Team Intervenes",
+      "section": "證券",
+      "date": "2026/05/29 01:20:20",
+      "url": "https://money.udn.com/money/story/5607/9532262?from=edn_maintab_cate",
+      "summary": "Taiwan stocks experienced extreme volatility with a record 1,717-point intraday range, hitting new high of 44,954 before plunging on Iran-US military escalation fears. The index closed down 620 points at 43,636 with record trading volume of NT$1.67 trillion. Foreign investors turned sellers after five consecutive buying days, offloading NT$38.13 billion, while their index futures net short position increased to 58,196 contracts - third highest in history. The National Team (eight government-linked banks) intervened with NT$11.46 billion in purchases to support the market. This extreme volatility reflects the market's sensitivity to geopolitical risks despite strong AI-driven fundamentals, highlighting the challenge of managing such rapid gains in an uncertain global environment."
+    },
+    {
+      "title": "US Fed Chairman Warsh Takes Office, Signals Independent Monetary Policy Approach",
+      "section": "金融",
+      "date": "2026/05/29 05:59:41",
+      "url": "https://money.udn.com/money/story/5599/9532543",
+      "summary": "New Federal Reserve Chairman Kevin Warsh was sworn in at the White House, becoming the first Fed chair since Greenspan to take oath there. Treasury Secretary Bessent expressed confidence that Warsh will properly balance inflation and economic growth considerations. Despite Trump's continued calls for rate cuts, markets generally expect rates to remain unchanged under the new leadership. Warsh emphasized the Fed's independence and reform agenda, while Bessent noted his regular breakfast meetings with Fed chairs, maintaining that he has never pressured them on rate decisions. This leadership transition introduces uncertainty about future monetary policy direction, particularly regarding potential rate cuts that could affect Taiwan's export competitiveness and capital flows."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Yageo Chairman: Second Half Will Be Very Busy, AI Industry in \"Second Inning First Half\"",
+      "section": "金融",
+      "date": "2026/05/28 01:39:38",
+      "url": "https://money.udn.com/money/story/5612/9529935?from=edn_maintab_cate",
+      "summary": "Yageo Chairman Chen Tai-ming stated current customer demand indicates \"second half will be very busy\" with AI industry progression from \"first inning first half\" two years ago to \"second inning first half\" now. The company's book-to-bill ratio reached 1.3 overall and 1.4 for AI products, with capacity utilization expected to rise to 80%+ for general products and 90%+ for specialty items. Chen hinted at potential price increases following Japanese and Korean competitors."
+    },
+    {
+      "title": "Hon Hai Chairman Expected to Announce Strong AI Developments at Friday Shareholder Meeting",
+      "section": "證券",
+      "date": "2026/05/28 18:24:17",
+      "url": "https://money.udn.com/money/story/5607/9531813?from=edn_maintab_cate",
+      "summary": "Investment analysts expect Hon Hai Chairman Liu Yang-wei to announce significant AI-related developments at Friday's shareholder meeting, including NVIDIA's new Vera Rubin platform mass production timeline and potential doubling of ASIC server business. The company faces market cap pressure, having fallen to fourth place behind MediaTek and Delta Electronics. This creates motivation for strong positive announcements to boost investor confidence."
+    },
+    {
+      "title": "SpaceX Wins $2.29B US Space Force Contract, Benefits Taiwan Zero Red Chain Suppliers",
+      "section": "金融",
+      "date": "2026/05/28 01:55:14",
+      "url": "https://money.udn.com/money/story/5612/9529932?from=edn_maintab_cate",
+      "summary": "SpaceX secured largest-ever US government satellite communications contract worth $2.29 billion for Space Data Network backbone infrastructure. The \"zero red chain\" requirement benefits Taiwan suppliers including Unimicron, Chipbond, Auden Technology, and Wistron NeWeb. Unimicron, the global satellite PCB leader with 10+ years SpaceX cooperation, expects significant revenue contribution from high-margin aerospace products."
+    },
+    {
+      "title": "Formosa Plastics Announces Five Technology Transformation Strategies Targeting Semiconductors",
+      "section": "金融",
+      "date": "2026/05/29 00:18:27",
+      "url": "https://money.udn.com/money/story/5612/9532245?from=edn_maintab_cate",
+      "summary": "Formosa Plastics unveiled five-pillar technology transformation focusing on high-value composites, semiconductor fine chemicals, electronic-grade hydrogen, green energy services, and AI data center energy supply. Total investment of NT$29.2 billion targeting 27 products with annual production value increase of NT$30 billion. The company aims to raise differentiated product sales ratio from 50% to 60% by 2026."
+    },
+    {
+      "title": "Marvell Raises Long-term Outlook Reflecting Strong AI Demand, Benefits TSMC",
+      "section": "金融",
+      "date": "2026/05/29 00:53:31",
+      "url": "https://money.udn.com/money/story/5612/9532281?from=edn_maintab_cate",
+      "summary": "NVIDIA-backed ASIC and optical communications giant Marvell reported better-than-expected quarterly results and raised medium-term guidance. Q1 FY2027 revenue grew 28% to $2.42 billion, with full-year revenue growth estimate raised to ~40% reaching $11.5 billion. The company expects FY2028 revenue of $16.5 billion, up from previous $15 billion forecast. Strong performance benefits TSMC as Marvell relies heavily on advanced process and CoWoS packaging capacity."
+    },
+    {
+      "title": "Taiwan Stock Market Hits New Record High and Trading Volume of NT$1.63 Trillion",
+      "section": "證券",
+      "date": "2026/05/28 01:32:36",
+      "url": "https://money.udn.com/money/story/5607/9529924?from=edn_maintab_cate",
+      "summary": "Taiwan's weighted index surged 731 points to close at new high of 44,256 with record trading volume of NT$1.63 trillion. Foreign investors bought net NT$38.12 billion for fifth consecutive session, primarily purchasing TSMC, MediaTek, and Delta Electronics. The rally was driven by shareholder meeting optimism and upcoming Computex exhibition themes, with technical indicators supporting further gains."
+    }
+  ],
+  "not_relevant": []
+}
