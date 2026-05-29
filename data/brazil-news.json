@@ -1,64 +1,59 @@
 {
-  "date": "2026-05-28",
-  "update_time": "2026-05-28 11:12:36",
-  "total_articles": 18,
+  "date": "2026-05-29",
+  "update_time": "2026-05-29 10:44:57",
+  "total_articles": 14,
   "high": [
     {
-      "title": "IPCA-15: Inflation Preview Advances 0.62% in May, Above Expectations, and Breaches Central Bank's 4.5% Ceiling Target",
+      "title": "IPCA-15: 'We Have No Reason to Celebrate the Inflation Data', Says Analyst After May Numbers",
       "source": "MoneyTimes",
-      "date": "2026-05-27",
-      "url": "https://www.moneytimes.com.br/ipca-15-maio-apsa/",
-      "summary": "Brazil's inflation preview (IPCA-15) rose 0.62% in May, exceeding market expectations of 0.56% and pushing the 12-month accumulated rate to 4.64%, breaching the Central Bank's 4.5% ceiling target. The monthly reading decelerated from April's 0.89% but accelerated on an annual basis from 4.37%. Food and beverages led with 1.38% variation, followed by Housing (1.03%) and Health/Personal Care (1.05%). This above-target inflation reading increases pressure on BCB to maintain or potentially raise the Selic rate at upcoming COPOM meetings. For BRL traders, higher inflation typically supports BRL strength through expectations of tighter monetary policy, though fiscal concerns may limit this effect. Bond investors should expect higher yields as markets price in extended restrictive monetary policy. The breach of the inflation target ceiling is particularly significant as it may force BCB to adopt a more hawkish stance, impacting both FX and fixed income markets."
+      "date": "2026-05-29",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ipca-15-nao-temos-nenhuma-razao-para-comemorar-o-dado-de-inflacao-afirma-analista-apos-numeros-de-maio-eplu-lbrdcp148/",
+      "summary": "Brazil's IPCA-15 inflation preview came in at 0.62% in May, above analyst expectations of 0.57%. Empiricus fixed income analyst Laís Costa emphasized that not only did the headline number exceed forecasts, but \"the composition came worse than expected.\" The result represents a 0.27 percentage point decline from April's 0.89% but still shows concerning trends. Year-to-date IPCA-15 accumulates 3.02%, with 12-month inflation at 4.64%. Food prices led the surge with 1.38% growth, while services and labor costs also showed worrying acceleration. This inflation overshoot raises concerns about BCB's ability to meet its inflation target and could influence future Selic rate decisions. For bond investors, higher-than-expected inflation typically pressures yields upward and may force more aggressive monetary policy. FX traders should watch for potential BRL weakness as inflation persistence could undermine Brazil's real interest rate advantage."
     },
     {
-      "title": "Ibovespa Rises with New Wave of Middle East Optimism and Ignores Above-Expected IPCA-15; 5 Things to Know Before Investing Today (27)",
+      "title": "Ibovespa Loses Strength Amid Geopolitical Uncertainties and Data Batch; 5 Things to Know Before Investing Today (28)",
       "source": "MoneyTimes",
-      "date": "2026-05-27",
-      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-27-5-26-lils/",
-      "summary": "The Ibovespa tracked improving international sentiment with news of progress in US-Iran peace negotiations, with optimism overshadowing reactions to above-expected IPCA-15 inflation. By 10:10 AM, the index was up 0.47% at 177,420 points. USD/BRL moved against the grain of global dollar weakness, rising 0.53% to R$ 5.0538, while DXY fell 0.10%. The inflation preview breaching the 4.5% ceiling target creates a complex scenario for markets - while geopolitical optimism supported equities, the BRL weakened despite inflation above target, suggesting market focus on external factors over domestic monetary policy implications. This divergence between strong inflation data and BRL weakness indicates investors may be pricing in other concerns such as fiscal policy or global risk appetite. For equity investors, the Ibovespa's resilience despite inflation concerns suggests continued foreign interest, while FX traders should monitor whether domestic fundamentals reassert dominance over external sentiment."
+      "date": "2026-05-28",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-28-5-26-lils/",
+      "summary": "The Ibovespa opened with modest gains but quickly reversed to negative territory, falling 0.36% to 175,112 points by 10:30 AM amid mixed signals from oil prices and geopolitical tensions between the US and Iran. USD/BRL traded lower at R$ 5.0543 (-0.13%) as the dollar weakened globally, with the DXY down 0.05%. Brazil's unemployment rate hit a historic low of 5.8% for the April quarter, down from 6.1% in March - the lowest rate for an April period since the series began in 2012. The strong employment data contrasts with market weakness, as the Ibovespa faces potential losses amid ongoing geopolitical uncertainties. For equity investors, the employment strength supports domestic consumption but geopolitical risks remain a headwind. Currency traders should monitor how Brazil's positive labor market data affects BRL positioning relative to external volatility."
+    },
+    {
+      "title": "Unemployment Rate Hits 5.8% in Quarter Through April 2026, Lowest for Period in Historical Series",
+      "source": "MoneyTimes",
+      "date": "2026-05-28",
+      "url": "https://www.moneytimes.com.br/taxa-de-desemprego-abril-26-apsa/",
+      "summary": "Brazil's unemployment rate fell to 5.8% in the quarter ending April 2026, down from 6.1% in March, marking the lowest rate for an April quarter since the PNAD series began in 2012. The rate declined 0.8 percentage points year-over-year from 6.6% in April 2025, beating the median forecast of 5.9%. Informality affected 37.2% of the workforce (38.1 million workers), down from 37.5% in the previous quarter. This historically low unemployment rate strengthens Brazil's domestic demand outlook and supports consumer spending, which is positive for retail and services sectors. For monetary policy, the tight labor market could add inflationary pressures through wage growth, potentially influencing BCB decisions. The strong employment data supports BRL fundamentals by indicating robust economic activity, though it may also signal the economy is running hot, which could complicate inflation control efforts."
     }
   ],
   "medium": [
     {
-      "title": "Ibovespa Loses Strength Amid Geopolitical Uncertainties and Data Battery; 5 Things to Know Before Investing Today (28)",
+      "title": "Ibovespa Falls with GDP and US Decision on Criminal Factions in Focus; 5 Things to Know Before Investing Today (29)",
       "source": "MoneyTimes",
-      "date": "2026-05-28",
-      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-28-5-26-lils/",
-      "summary": "The Ibovespa attempted to recover previous session losses with rising oil prices amid renewed US-Iran uncertainties. The index oscillated from +0.21% to -0.36% by 10:30 AM. USD/BRL fell 0.13% to R$ 5.0543, aligning with global dollar weakness as DXY dropped 0.05%. Brazil's unemployment rate hit a record low of 5.8% for the April quarter, supporting the economic outlook but potentially adding to inflation pressures through tight labor markets."
+      "date": "2026-05-29",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-29-5-26-lils/",
+      "summary": "The Ibovespa declined 0.35% to 174,443 points on the final May session, with investors assessing potential impacts of US classification of criminal factions as 'terrorist' organizations on Brazilian financial markets. The index accumulates a 6.5% loss in May and heads for its seventh consecutive week of declines. USD/BRL strengthened to R$ 5.0556 (+0.47%) while Brazil's Q1 2026 GDP grew 1.1% quarterly and 1.8% annually."
     },
     {
-      "title": "Unemployment Rate Reaches 5.8% in Quarter Through April 2026, Lowest for Period in Historical Series",
-      "source": "MoneyTimes",
-      "date": "2026-05-28",
-      "url": "https://www.moneytimes.com.br/taxa-de-desemprego-abril-26-apsa/",
-      "summary": "Brazil's unemployment rate fell to 5.8% in the quarter through April, down from 6.1% in March and marking the lowest rate for an April quarter since the series began in 2012. The rate dropped 0.8 percentage points year-over-year from 6.6%. Market expectations were for 5.9%. The tight labor market supports economic growth but may fuel wage inflation, potentially complicating BCB's inflation targeting efforts."
-    },
-    {
-      "title": "Raízen (RAIZ4), Petrobras (PETR4), Azul (AZUL3) and Other Highlights for Wednesday (27)",
-      "source": "MoneyTimes",
-      "date": "2026-05-27",
-      "url": "https://www.moneytimes.com.br/radar-do-mercado-destaques-corporativos-hoje-raizen-petrobras-azul-27-05-2026-lmrs/",
-      "summary": "Raízen advances debt restructuring talks for R$ 65 billion obligations, with creditors demanding new funding for sustainable recovery. Agreement deadline is June 9, requiring 50%+1 creditor approval. Petrobras responded about interest in Refit land, while Azul debuted on NYSE. These corporate developments affect major Ibovespa components, with Raízen's debt resolution particularly important for energy sector stability."
-    },
-    {
-      "title": "US GDP Slows to 1.6% in Q1 2026, While Consumer Inflation Remains Elevated",
+      "title": "US GDP Slows to 1.6% in Q1 2026 While Consumer Inflation Remains Elevated",
       "source": "MoneyTimes",
       "date": "2026-05-28",
       "url": "https://www.moneytimes.com.br/pib-dos-eua-desacelera-para-16-no-1t26-enquanto-inflacao-ao-consumidor-se-mantem-elevada/",
-      "summary": "US GDP was revised down to 1.6% annualized in Q1 2026 from initial 2% reading, though improving from Q4 2025's 0.5%. The slowdown was driven by exports, investment, consumer spending, and government expenditure, partially offset by higher imports. This US economic deceleration may affect global risk sentiment and impact Brazilian asset flows, particularly if it influences Federal Reserve policy expectations."
+      "summary": "US GDP was revised down to 1.6% annualized in Q1 2026 from an initial 2% reading, though improving from Q4 2025's 0.5% growth. The deceleration was driven by exports, investments, consumer spending and government expenditure, while imports also increased. This US economic softening could influence Federal Reserve policy and global risk sentiment, affecting Brazilian asset flows and BRL performance."
+    },
+    {
+      "title": "JBS (JBSS32), MBRF (MBRF3) and Minerva (BEEF3): Meatpacker Fixed Income Securities Pay More and Reflect Sector Turnaround; Time to Invest?",
+      "source": "MoneyTimes",
+      "date": "2026-05-28",
+      "url": "https://www.moneytimes.com.br/jbs-mbrf-e-minerva-taxas-dos-titulos-de-renda-fixa-de-frigorificos-aumentam-e-refletem-virada-no-setor-de-proteinas-ceci/",
+      "summary": "Credit spreads on Agribusiness Receivables Certificates (CRAs) from major Brazilian meatpackers JBS, MBRF and Minerva have widened by approximately 1.2 percentage points over two months. According to Itaú BBA, these companies' spread levels now exceed the average 0.7 pp opening observed in the asset class. This credit tightening reflects investors demanding higher risk premiums from protein sector companies, indicating potential stress in the agricultural value chain."
     }
   ],
   "not_relevant": [
-    "Wall Street Operates Without Unified Direction with Cybersecurity Stock Decline",
-    "Delta AI: Tool Seeks Weekly Profits for Cryptocurrency Investors with Antifragile Strategy; See How It Works",
-    "Will Bolsa Família Have Readjustment? See What Government Says",
-    "Embraer (EMBJ3) Has Buy Window After Market Overreaction, Sees Bradesco BBI; Upside Potential is 52%",
-    "Day Trade: Buy B3 (B3SA3) and Sell Marcopolo (POMO4) to Gain Up to 1.47% Today (27), According to Ágora",
-    "Nubank (ROXO34) Shares Haven't Been Following Company Fundamentals, According to Analyst; Know Which Strategy to Adopt",
     "Copasa (CSMG3) Adjusts Share Offering Schedule and Includes Minimum Price of R$ 47.23",
-    "Polymarket and Kalshi Blocked: Regulated Strategy on B3 Generated Profit of Up to 248%",
-    "IPCA-15: 'We Have No Reason to Celebrate Inflation Data', Says Analyst After May Numbers",
-    "JBS (JBSS32), MBRF (MBRF3) and Minerva (BEEF3): Meatpacker Fixed Income Securities Pay More and Reflect Sector Turnaround; Time to Invest?",
-    "World's Largest Bitcoin (BTC) ETF, IBIT Has $1.3 Billion Dark Pool Trading and Crashes Market"
+    "Polymarket and Kalshi Blocked: Regulated Strategy on B3 Generated Profits of Up to 248%",
+    "Delta AI: Tool Seeks Profits Every Friday for Cryptocurrency Investors with Antifragile Strategy; See How It Works",
+    "World's Largest Bitcoin (BTC) ETF, IBIT Has $1.3 Billion Dark Pool Trading and Crashes Market",
+    "Cryptocurrencies, Pyramids and Money Laundering: What Changed in Brazil's Digital Assets Market",
+    "Day Trade: Buy B3 (B3SA3) and Sell AZZAS 2154 (AZZA3) to Gain Up to 1.51% Today (29), According to Ágora"
   ]
 }
