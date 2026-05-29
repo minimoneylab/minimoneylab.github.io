@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-30",
+  "update_time": "2026-05-29 23:53:44",
+  "total_articles": 29,
+  "high": [
+    {
+      "title": "New Fed Chairman Breakfasts with Treasury Secretary: Trusted to Balance Inflation and Growth",
+      "section": "金融",
+      "date": "2026/05/29 05:59:41",
+      "url": "https://money.udn.com/money/story/5599/9532543",
+      "summary": "New Federal Reserve Chairman Kevin Warsh was sworn in at the White House, marking the first Fed Chair to take oath there since Greenspan in 1987. Treasury Secretary Bessent expressed confidence that Warsh would do the right thing to balance inflation and economic growth after their first breakfast meeting. This development is significant for Taiwan markets as Fed policy directly impacts global monetary conditions and Taiwan's export economy. Trump predicted rates would fall \"very soon,\" though markets expect the Fed to remain mostly unchanged. The transition in Fed leadership creates uncertainty for global monetary policy, which could affect Taiwan's interest rate environment and currency stability."
+    },
+    {
+      "title": "US Stocks Hit New Highs on Reports of US-Iran 60-Day Ceasefire Extension",
+      "section": "金融",
+      "date": "2026/05/29 06:51:17",
+      "url": "https://money.udn.com/money/story/123398/9532592",
+      "summary": "US markets reached new record highs as reports emerged of a draft agreement for a 60-day ceasefire extension between the US and Iran. The S&P 500 rose 0.6% to 7,563.63 points, marking its sixth consecutive daily gain. Philadelphia Semiconductor Index gained 1% with AMD up 4.6% and TSMC ADR rising 0.5%. Lower-than-expected PCE inflation data provided additional support. For Taiwan investors, this development is crucial as reduced Middle East tensions could stabilize global markets and maintain the current AI investment momentum that has benefited Taiwan semiconductor companies. The sustained US market rally supports continued foreign investment flows into Taiwan tech stocks."
+    },
+    {
+      "title": "Taiwan Stock Market Experiences \"Roller Coaster\" with National Team Intervention",
+      "section": "證券",
+      "date": "2026/05/29 01:20:20",
+      "url": "https://money.udn.com/money/story/5607/9532262?from=edn_maintab_cate",
+      "summary": "Taiwan stocks experienced dramatic volatility, rising to a new high of 44,954 points before plunging 1,020 points due to Iran-US military tensions. The index closed down 620 points with record trading volume of NT$1.67 trillion. Foreign investors turned sellers after five consecutive buying days, selling NT$38.13 billion, while the national team (eight government banks) stepped in with NT$11.46 billion in purchases. This represents a classic intervention pattern where government funds stabilize markets during geopolitical shocks. The massive volume and volatility indicate strong underlying demand despite the selloff, suggesting the bull market remains intact. The national team's intervention demonstrates authorities' commitment to market stability."
+    },
+    {
+      "title": "MediaTek Considers Price Increases Due to AI Component Shortages",
+      "section": "金融",
+      "date": "2026/05/30 00:01:55",
+      "url": "https://money.udn.com/money/story/5612/9534521?from=edn_maintab_cate",
+      "summary": "MediaTek Chairman Tsai Ming-kai announced the company may adjust product prices as AI demand surge causes shortages and price increases across key components. The company has completed its edge-to-cloud AI positioning and expects massive growth opportunities. MediaTek reaffirmed TSMC as its most important foundry partner while investing heavily in advanced packaging, high-speed SerDes, and HBM technologies. This pricing power indicates MediaTek's strong market position and the structural supply-demand imbalance in AI semiconductors. For investors, this signals sustained margin expansion potential and reinforces the bullish outlook for Taiwan's IC design sector amid the AI boom."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Formosa Plastics Transforms with Semiconductor Focus, Investing NT$29.2 Billion",
+      "section": "金融",
+      "date": "2026/05/29 00:18:27",
+      "url": "https://money.udn.com/money/story/5612/9532245?from=edn_maintab_cate",
+      "summary": "Formosa Plastics announced transformation into semiconductor, green energy, and healthcare sectors with 27 products requiring NT$29.2 billion investment. The company targets increasing differentiated products from 50% to 60% of sales by 2026. Subsidiary Taiwan Semiconductor has started 12-inch wafer production, while Formosa Daikin holds over 55% domestic market share in electronic-grade hydrofluoric acid."
+    },
+    {
+      "title": "Marvell Raises Outlook Reflecting Strong AI Demand, Benefiting TSMC",
+      "section": "金融",
+      "date": "2026/05/29 00:53:31",
+      "url": "https://money.udn.com/money/story/5612/9532281?from=edn_maintab_cate",
+      "summary": "Marvell reported Q1 revenue growth of 28% to $2.42 billion and raised full-year revenue guidance to ~$11.5 billion. The company expects 2028 revenue to reach ~$16.5 billion, up from previous forecast of $15 billion. Custom chip department revenue is expected to double in 2028 and exceed $10 billion in 2029. This benefits TSMC as Marvell is a major customer relying on advanced processes and CoWoS packaging."
+    },
+    {
+      "title": "NVIDIA's Jensen Huang: \"Taiwan's Growth is Inevitable\" at NT$1 Trillion Dinner",
+      "section": "金融",
+      "date": "2026/05/29 00:48:55",
+      "url": "https://money.udn.com/money/story/5612/9532295?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang held his fifth \"trillion-dollar dinner\" in Taiwan, attended by industry leaders including TSMC's Mark Liu and Foxconn's Liu Yang-wei. Huang emphasized that Taiwan's growth is inevitable under the AI wave, but the key challenge is \"needing more energy.\" He discussed \"token is business\" as a major theme, representing new business opportunities in the AI ecosystem."
+    },
+    {
+      "title": "World Advanced Semiconductor Reports Full Capacity, Considering Price Increases",
+      "section": "證券",
+      "date": "2026/05/29 00:12:26",
+      "url": "https://money.udn.com/money/story/11074/9531968?from=edn_maintab_cate",
+      "summary": "World Advanced Chairman indicated the company is operating at full capacity with supply shortage, currently reviewing pricing adjustments with customers. The company expects second-half industry conditions to be better than first half, driven by AI demand trends and mature process node supply constraints."
+    }
+  ],
+  "not_relevant": []
+}
