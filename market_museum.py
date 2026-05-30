@@ -32,7 +32,6 @@ def get_random_style():
 
 # ====================== MARKET SUMMARY ======================
 def get_market_summary():
-    """之後會改成自動抓真實新聞"""
     return """
     On May 29, 2026, the US stock market closed at record highs. 
     The Dow Jones rose 0.7% and crossed 51,000 for the first time. 
@@ -40,7 +39,7 @@ def get_market_summary():
     AI and technology stocks led the rally with strong investor optimism.
     """
 
-# ====================== PROMPT (優化版) ======================
+# ====================== PROMPT ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
     return f"""
@@ -50,7 +49,7 @@ Market situation: {market_summary}
 
 Create an elegant, emotionally resonant and visually powerful vertical painting. 
 Use clear symbolic elements such as rising golden energy, bull, blooming flowers, light from sky. 
-Not too abstract, beautiful and inspiring composition.
+Beautiful and inspiring composition.
 
 {style}, masterpiece, ultra detailed, sharp focus, rich vibrant colors, professional art, best quality, clean edges, full image composition, vertical orientation
 """
@@ -68,20 +67,18 @@ async def main():
         response = client.images.generate(
             model="gpt-image-1",
             prompt=prompt,
-            size="1024x1536",      # Vertical 4:5
-            quality="standard",
+            size="1024x1536",
+            quality="high",        # ← 已修正
             n=1
         )
 
         image_url = response.data[0].url
         image_path = "market_museum_today.jpg"
 
-        # 下載圖片
         img_data = requests.get(image_url).content
         with open(image_path, "wb") as f:
             f.write(img_data)
 
-        # Caption
         caption = f"""🌸 Market Museum Daily • {datetime.now().strftime('%B %d, %Y')}
 
 {market_summary.strip()}
@@ -99,7 +96,7 @@ async def main():
     except Exception as e:
         print(f"❌ Error: {str(e)}")
         try:
-            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Market Museum Error: {str(e)[:400]}")
+            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Error: {str(e)[:400]}")
         except:
             pass
 
