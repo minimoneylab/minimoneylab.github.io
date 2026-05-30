@@ -20,28 +20,22 @@ bot = Bot(token=TELEGRAM_TOKEN)
 
 # ====================== ART STYLES ======================
 ART_STYLES = [
-    # Japanese Contemporary
     "in the style of Yoshitomo Nara, big-eyed curious figures, soft pastel with dark undertones",
     "in the style of Yusuke Hanai, clean lines, vibrant modern street art",
     "in the style of Nagaba Yuma, delicate emotional character illustration",
     "in the style of Takashi Murakami, superflat, vibrant pop art",
     "in the style of Yayoi Kusama, infinity dot patterns, bold repetitive motifs",
-    # Inoue Takehiko 水墨
     "in the style of Inoue Takehiko, expressive sumi-e ink wash painting, bold brushstrokes, dramatic black ink on white, high contrast, fluid motion, zen minimalism",
     "Inoue Takehiko Vagabond manga style, loose sumi-e ink wash, gestural brushwork, monochrome with ink splatter, deeply emotional and raw",
-    # JoJo
     "in the style of JoJo no Kimyou na Bouken by Araki Hirohiko, bold dramatic poses, heavy crosshatching, intense expressions, baroque ornamentation, surreal color gradients, fashion-forward character design",
-    # Street Art
     "in the style of Banksy, bold stencil street art, stark black and white with one accent color, satirical and thought-provoking",
     "in the style of Van Gogh, swirling expressive impasto brushstrokes, vivid emotional color palette",
-    # Western Classical Masters
     "in the style of Leonardo da Vinci, Renaissance sfumato technique, soft diffused light, detailed anatomical precision, warm golden tones, chiaroscuro",
     "in the style of Rembrandt, dramatic chiaroscuro, deep shadow and warm candlelight, rich oil painting texture, baroque emotional depth",
     "in the style of Johannes Vermeer, soft diffused natural light, intimate domestic atmosphere, pearl-like luminous quality, Dutch Golden Age",
     "in the style of Michelangelo, powerful muscular figures, Sistine Chapel grandeur, divine light, Renaissance fresco style",
     "in the style of Claude Monet, soft impressionist brushwork, dappled light, pastel water reflections, dreamy atmospheric perspective",
     "in the style of Gustav Klimt, Art Nouveau gold leaf patterns, ornate decorative motifs, sensual flowing figures, mosaic-like details",
-    # Traditional Asian
     "classic ukiyo-e woodblock print style inspired by Hokusai, bold outlines, flat color areas, Mount Fuji grandeur",
     "traditional Chinese ink brush painting, elegant sparse composition, misty mountain landscape, Song Dynasty style",
 ]
@@ -82,7 +76,6 @@ def get_core_market_data():
     return results
 
 def extract_tickers_from_news(news_items):
-    """Use Gemini to extract company names and tickers mentioned in news."""
     try:
         news_text = "\n".join(f"- {n}" for n in news_items)
         prompt = f"""From the following financial news headlines, extract all companies or assets mentioned.
@@ -102,11 +95,8 @@ Example output:
             model="gemini-2.5-flash",
             contents=prompt,
         )
-        raw = response.text.strip()
-        # Clean up in case Gemini adds markdown
-        raw = raw.replace("```json", "").replace("```", "").strip()
-        extracted = json.loads(raw)
-        return extracted
+        raw = response.text.strip().replace("```json", "").replace("```", "").strip()
+        return json.loads(raw)
     except Exception as e:
         print(f"⚠️ Ticker extraction failed: {e}")
         return []
@@ -128,7 +118,6 @@ def get_dynamic_stock_data(extracted_tickers):
 
 def format_market_data(core_data, dynamic_data):
     lines = []
-
     lines.append("📊 Major Indices:")
     for name, d in core_data.items():
         arrow = "▲" if d['change_pct'] > 0 else "▼"
@@ -144,7 +133,7 @@ def format_market_data(core_data, dynamic_data):
 
     return "\n".join(lines)
 
-# ====================== NEWS SCRAPING ======================
+# ====================== NEWS ======================
 def get_market_news():
     news_items = []
     watch = ["^GSPC", "^IXIC", "NVDA", "AAPL", "MSFT", "TSLA", "META", "AMZN", "GOOGL"]
@@ -167,23 +156,29 @@ def get_market_news():
 
     return news_items[:20]
 
-# ====================== GEMINI: STORY + IMAGE PROMPT ======================
+# ====================== GEMINI: STORY + PROMPTS ======================
 def generate_story_and_image_prompt(core_data, dynamic_data, news_items, art_style):
     try:
         market_data_str = format_market_data(core_data, dynamic_data)
         news_text = "\n".join(f"- {n}" for n in news_items) if news_items else "No major news."
 
-        prompt = f"""You are a creative financial art director for a daily market storytelling project.
+        prompt = f"""You are a creative financial art director for a viral daily market storytelling project.
 
 Your job:
 1. Read today's market data and news headlines.
 2. Identify the single most interesting, dramatic, funny, or important story of the day.
 3. Write a SHORT punchy market recap (3-5 sentences, flowing prose, no bullet points).
-4. Then create a vivid, creative, sometimes exaggerated image description that captures this story visually.
-   - The image should be symbolic, funny, dramatic, or surprising — NOT a literal chart or graph.
-   - Include real people or brand names if they are central to the story (e.g. Trump holding a Dell laptop, a crying trader, a bull stomping on a bear).
-   - The mood should match the market: euphoric, panicked, boring, chaotic, triumphant, etc.
-   - Be creative and bold. This image will go viral on social media.
+4. Create a vivid, creative, exaggerated image description capturing this story visually.
+   - Symbolic, funny, dramatic, or surprising. NOT a literal chart or graph.
+   - Include real people or brands if central to the story (e.g. Trump hugging a Dell laptop, a crying trader, a bull stomping on bears).
+   - Mood matches the market: euphoric, panicked, boring, chaotic, triumphant, absurd, etc.
+   - Be bold and creative. This image should stop people scrolling on Instagram.
+5. Write a punchy Instagram caption:
+   - 2-3 short sentences max, conversational and witty
+   - 1 strong hook line at the start
+   - End with 5-8 relevant hashtags on a new line
+   - No more than 150 words total
+   - Make people want to save or share it
 
 Market Data:
 {market_data_str}
@@ -191,29 +186,29 @@ Market Data:
 News Headlines:
 {news_text}
 
-Art Style to use: {art_style}
+Art Style: {art_style}
 
-Return ONLY valid JSON in this exact format, no markdown, no explanation:
+Return ONLY valid JSON, no markdown, no explanation:
 {{
-  "recap": "Your 3-5 sentence market recap here.",
-  "image_prompt": "Your detailed visual image description here, incorporating the art style."
+  "recap": "3-5 sentence market recap here.",
+  "image_prompt": "Detailed visual image description incorporating the art style.",
+  "ig_caption": "Punchy IG caption with hook + hashtags."
 }}"""
 
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=prompt,
         )
-        raw = response.text.strip()
-        raw = raw.replace("```json", "").replace("```", "").strip()
+        raw = response.text.strip().replace("```json", "").replace("```", "").strip()
         result = json.loads(raw)
-        return result.get("recap", ""), result.get("image_prompt", "")
+        return result.get("recap", ""), result.get("image_prompt", ""), result.get("ig_caption", "")
 
     except Exception as e:
         print(f"⚠️ Story generation failed: {e}")
-        # Fallback
         recap = "Markets moved today with notable activity across major indices and key stocks."
         image_prompt = f"A dramatic stock market scene, {art_style}, masterpiece, ultra detailed."
-        return recap, image_prompt
+        ig_caption = "The market never sleeps. 📈\n#StockMarket #WallStreet #Investing"
+        return recap, image_prompt, ig_caption
 
 # ====================== GENERATE IMAGE ======================
 async def generate_image(image_prompt):
@@ -248,34 +243,35 @@ async def main():
     try:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M')}] 🚀 Market Museum Started")
 
-        # 1. Fetch core indices
+        # 1. Core indices
         print("📈 Fetching core market data...")
         core_data = get_core_market_data()
 
-        # 2. Fetch news
+        # 2. News
         print("📰 Fetching market news...")
         news_items = get_market_news()
         print(f"  Got {len(news_items)} headlines")
 
-        # 3. Extract mentioned tickers from news
+        # 3. Extract tickers from news
         print("🔍 Extracting tickers from news...")
         extracted_tickers = extract_tickers_from_news(news_items)
         print(f"  Found {len(extracted_tickers)} companies in news")
 
-        # 4. Fetch dynamic stock data
+        # 4. Dynamic stock data
         print("📊 Fetching dynamic stock data...")
         dynamic_data = get_dynamic_stock_data(extracted_tickers)
 
-        # 5. Pick random art style
+        # 5. Random art style
         art_style = get_random_style()
         print(f"🎨 Art style: {art_style[:60]}...")
 
-        # 6. Generate story + image prompt via Gemini
-        print("✍️ Generating story and image concept...")
-        recap, image_prompt = generate_story_and_image_prompt(
+        # 6. Generate story + image prompt + IG caption
+        print("✍️ Generating story, image concept and IG caption...")
+        recap, image_prompt, ig_caption = generate_story_and_image_prompt(
             core_data, dynamic_data, news_items, art_style
         )
         print(f"  Recap: {recap[:100]}...")
+        print(f"  IG Caption: {ig_caption[:80]}...")
 
         # 7. Generate image
         image_path = await generate_image(image_prompt)
@@ -284,28 +280,35 @@ async def main():
             await bot.send_message(chat_id=CHAT_ID, text="⚠️ No image generated today.")
             return
 
-        # 8. Build caption
+        # 8. Telegram: photo + market data caption
         market_data_str = format_market_data(core_data, dynamic_data)
         date_str = datetime.now().strftime('%B %d, %Y')
 
-        caption = f"""🎨 Market Museum Daily • {date_str}
+        tg_caption = f"""🎨 Market Museum Daily • {date_str}
 
 {recap}
 
 {market_data_str}
 
-#MarketMuseum #StockMarket #WallStreet #USStocks"""
+#MarketMuseum #StockMarket #WallStreet"""
 
-        if len(caption) > 1024:
-            caption = caption[:1020] + "..."
+        if len(tg_caption) > 1024:
+            tg_caption = tg_caption[:1020] + "..."
 
-        # 9. Send to Telegram
         await bot.send_photo(
             chat_id=CHAT_ID,
             photo=open(image_path, 'rb'),
-            caption=caption
+            caption=tg_caption
         )
-        print("✅ Success! Sent to Telegram.")
+
+        # 9. Telegram: separate IG caption message
+        await bot.send_message(
+            chat_id=CHAT_ID,
+            text=f"📱 *IG Caption — copy & paste ready:*\n\n{ig_caption}",
+            parse_mode="Markdown"
+        )
+
+        print("✅ Success! Photo + IG caption sent to Telegram.")
 
     except Exception as e:
         print(f"❌ Error: {str(e)}")
