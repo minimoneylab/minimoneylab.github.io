@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install google-genai python-telegram-bot   # ← 改返呢個
+          pip install google-genai python-telegram-bot Pillow   # ← 改返呢個
 
       - name: Run Market Museum Script
         env:
