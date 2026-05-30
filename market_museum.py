@@ -15,15 +15,14 @@ bot = Bot(token=TELEGRAM_TOKEN)
 
 # ====================== ART STYLES ======================
 ART_STYLES = [
-    "in the style of Yoshitomo Nara, big-eyed curious figures, soft pastel with dark undertones, minimalist yet emotionally powerful",
-    "in the style of Yusuke Hanai, clean lines, vibrant modern street art with warmth",
+    "in the style of Yoshitomo Nara, big-eyed curious figures, soft pastel with dark undertones",
+    "in the style of Yusuke Hanai, clean lines, vibrant modern street art",
     "in the style of Nagaba Yuma, delicate emotional character illustration",
-    "in the style of Takashi Murakami, superflat, vibrant pop art with flowers",
-    "in the style of Yayoi Kusama, infinity dots and patterns",
+    "in the style of Takashi Murakami, superflat, vibrant pop art",
+    "in the style of Yayoi Kusama, infinity patterns",
     "in the style of Banksy, bold stencil street art",
-    "in the style of Van Gogh, expressive emotional brush strokes",
-    "in the style of Claude Monet, soft impressionist colors and light",
-    "classic ukiyo-e woodblock print style, bold lines, dramatic waves inspired by Hokusai",
+    "in the style of Van Gogh, expressive brush strokes",
+    "classic ukiyo-e woodblock print style inspired by Hokusai",
 ]
 
 def get_random_style():
@@ -31,28 +30,26 @@ def get_random_style():
 
 # ====================== MARKET SUMMARY ======================
 def get_market_summary():
-    """之後會改成自動抓真實新聞"""
     return """
     On May 29, 2026, the US stock market closed at record highs. 
-    The Dow Jones Industrial Average rose 0.7% and crossed 51,000 for the first time. 
-    S&P 500 and Nasdaq also hit new records. 
-    AI and technology stocks led the rally amid strong investor optimism.
+    The Dow Jones rose 0.7% crossing 51,000 for the first time. 
+    S&P 500 and Nasdaq hit new records. 
+    AI and technology stocks led the rally with strong optimism.
     """
 
-# ====================== IMPROVED PROMPT (重點加強) ======================
+# ====================== PROMPT (加強版) ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
-    
     prompt = f"""
-A high-resolution, museum-quality vertical artwork in 4:5 aspect ratio, full bleed image with no white borders, no frames, no edges.
+A high-resolution vertical museum-quality artwork, 4:5 aspect ratio, full bleed image, no borders, no frames, no white edges.
 
-Today's US stock market summary: {market_summary}
+Market summary: {market_summary}
 
-Create a visually powerful, emotionally resonant vertical painting. 
-Use clear symbolic elements such as rising golden bull, light beams, blooming flowers, soaring birds, or energetic sky. 
-Elegant and inspiring composition, not too abstract, easy to understand, high aesthetic appeal.
+Create an emotionally powerful and visually clear vertical painting. 
+Use symbolic elements like rising golden energy, bull, light from sky, blooming flowers. 
+Elegant, inspiring, high aesthetic quality.
 
-{style}, masterpiece, ultra detailed, sharp focus, rich colors, professional composition, best quality, clean edges, full image composition, no border, no frame, high resolution, vertical orientation --ar 4:5 --stylize 850 --v 6
+{style}, masterpiece, ultra detailed, sharp focus, rich vibrant colors, professional composition, clean edges, full image, no border, no frame, best quality, vertical orientation --ar 4:5 --stylize 850
 """
     return prompt.strip()
 
@@ -66,18 +63,26 @@ async def main():
 
         print("Generating image with Gemini...")
 
-        # 使用較穩定 model
         model = genai.GenerativeModel('gemini-2.5-flash')
 
         response = model.generate_content(prompt)
 
         image_path = "market_museum_today.jpg"
+        image_saved = False
+
         for part in response.parts:
             if part.inline_data:
                 with open(image_path, "wb") as f:
                     f.write(part.inline_data.data)
+                image_saved = True
                 break
 
+        if not image_saved:
+            print("❌ Gemini did not return an image.")
+            await bot.send_message(chat_id=CHAT_ID, text="⚠️ Market Museum: Image generation failed today.")
+            return
+
+        # Send to Telegram
         caption = f"""🌸 Market Museum Daily • {datetime.now().strftime('%B %d, %Y')}
 
 {market_summary.strip()}
@@ -94,6 +99,10 @@ async def main():
 
     except Exception as e:
         print(f"❌ Error: {str(e)}")
+        try:
+            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Market Museum Error: {str(e)[:200]}")
+        except:
+            pass
 
 if __name__ == "__main__":
     asyncio.run(main())
