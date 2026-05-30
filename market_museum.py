@@ -1,28 +1,29 @@
 import os
-import google.generativeai as genai
+import random
+from openai import OpenAI
 from telegram import Bot
 from datetime import datetime
 import asyncio
-import random
 
 # ====================== CONFIG ======================
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-genai.configure(api_key=GEMINI_API_KEY)
+client = OpenAI(api_key=OPENAI_API_KEY)
 bot = Bot(token=TELEGRAM_TOKEN)
 
 # ====================== ART STYLES ======================
 ART_STYLES = [
-    "in the style of Yoshitomo Nara, big-eyed curious figures, soft pastel with dark undertones",
-    "in the style of Yusuke Hanai, clean lines, vibrant modern street art",
-    "in the style of Nagaba Yuma, delicate emotional character illustration",
-    "in the style of Takashi Murakami, superflat, vibrant pop art",
-    "in the style of Yayoi Kusama, infinity patterns",
-    "in the style of Banksy, bold stencil street art",
-    "in the style of Van Gogh, expressive brush strokes",
-    "classic ukiyo-e woodblock print style inspired by Hokusai",
+    "in the style of Yoshitomo Nara",
+    "in the style of Yusuke Hanai",
+    "in the style of Nagaba Yuma",
+    "in the style of Takashi Murakami",
+    "in the style of Yayoi Kusama",
+    "in the style of Banksy",
+    "in the style of Van Gogh",
+    "in the style of Claude Monet",
+    "classic Japanese ukiyo-e woodblock print style, Hokusai influence",
 ]
 
 def get_random_style():
@@ -31,27 +32,26 @@ def get_random_style():
 # ====================== MARKET SUMMARY ======================
 def get_market_summary():
     return """
-    On May 29, 2026, the US stock market closed at record highs. 
-    The Dow Jones rose 0.7% crossing 51,000 for the first time. 
-    S&P 500 and Nasdaq hit new records. 
+    On May 29, 2026, the US stock market closed strongly at record highs. 
+    The Dow Jones rose 0.7% and crossed 51,000 for the first time. 
+    S&P 500 and Nasdaq also hit new records. 
     AI and technology stocks led the rally with strong optimism.
     """
 
-# ====================== PROMPT (加強版) ======================
+# ====================== PROMPT (DALL·E 3 優化版) ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
-    prompt = f"""
-A high-resolution vertical museum-quality artwork, 4:5 aspect ratio, full bleed image, no borders, no frames, no white edges.
+    return f"""
+A beautiful, high-resolution vertical museum-quality artwork in 4:5 aspect ratio.
 
-Market summary: {market_summary}
+Today's US stock market: {market_summary}
 
-Create an emotionally powerful and visually clear vertical painting. 
-Use symbolic elements like rising golden energy, bull, light from sky, blooming flowers. 
-Elegant, inspiring, high aesthetic quality.
+Create an elegant, emotionally resonant vertical painting. 
+Use clear symbolic storytelling with rising energy, golden light, bull, blooming flowers or soaring birds. 
+Clean composition, no text, no border, no frame, full bleed image.
 
-{style}, masterpiece, ultra detailed, sharp focus, rich vibrant colors, professional composition, clean edges, full image, no border, no frame, best quality, vertical orientation --ar 4:5 --stylize 850
+{style}, masterpiece, highly detailed, sharp focus, rich colors, professional art, best quality, vertical composition
 """
-    return prompt.strip()
 
 # ====================== MAIN ======================
 async def main():
@@ -61,28 +61,26 @@ async def main():
         market_summary = get_market_summary()
         prompt = create_art_prompt(market_summary)
 
-        print("Generating image with Gemini...")
+        print("Generating image with DALL·E 3...")
 
-        model = genai.GenerativeModel('gemini-2.5-flash')
+        response = client.images.generate(
+            model="dall-e-3",
+            prompt=prompt,
+            size="1024x1536",      # 垂直 4:5 高解像度
+            quality="standard",    # 可改 "hd" 如果想更高質
+            n=1
+        )
 
-        response = model.generate_content(prompt)
-
+        image_url = response.data[0].url
         image_path = "market_museum_today.jpg"
-        image_saved = False
 
-        for part in response.parts:
-            if part.inline_data:
-                with open(image_path, "wb") as f:
-                    f.write(part.inline_data.data)
-                image_saved = True
-                break
+        # 下載圖片
+        import requests
+        img_data = requests.get(image_url).content
+        with open(image_path, "wb") as f:
+            f.write(img_data)
 
-        if not image_saved:
-            print("❌ Gemini did not return an image.")
-            await bot.send_message(chat_id=CHAT_ID, text="⚠️ Market Museum: Image generation failed today.")
-            return
-
-        # Send to Telegram
+        # 發送到 Telegram
         caption = f"""🌸 Market Museum Daily • {datetime.now().strftime('%B %d, %Y')}
 
 {market_summary.strip()}
@@ -95,12 +93,12 @@ async def main():
             caption=caption
         )
 
-        print("✅ Success! Image sent to Telegram.")
+        print("✅ Success! DALL·E 3 Image sent to Telegram.")
 
     except Exception as e:
         print(f"❌ Error: {str(e)}")
         try:
-            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Market Museum Error: {str(e)[:200]}")
+            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Error: {str(e)[:300]}")
         except:
             pass
 
