@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-31",
+  "update_time": "2026-05-30 23:37:48",
+  "total_articles": 19,
+  "high": [
+    {
+      "title": "Central Bank Warns of Overheated AI Industry Valuations; Asustek Chairman: Taiwan Market at 25x P/E Not Overheated",
+      "section": "證券",
+      "date": "2026/05/30 10:38:00",
+      "url": "https://money.udn.com/money/story/5607/9535015?from=edn_maintab_cate",
+      "summary": "The Central Bank of Taiwan issued its annual Financial Stability Report highlighting five major financial risks, including overheated AI industry valuations and opaque cyclical trading mechanisms that may increase systemic risks. However, Asustek Group Chairman Jonney Shih countered that Taiwan's stock market P/E ratio of around 25x is not overheated. Taiwan's Q1 listed company profits reached NT$1.6 trillion, up over 40% year-on-year, with full-year profits estimated at NT$6-6.5 trillion. With Taiwan's market cap now exceeding India and France at nearly $5 trillion, the P/E ratio remains reasonable. This represents a key divergence between monetary policy makers and tech industry leaders on market valuation concerns, which could influence future regulatory actions and market sentiment toward Taiwan's tech-heavy equity market."
+    },
+    {
+      "title": "MediaTek Products May Face Price Increases as AI Wave Creates Component Shortages",
+      "section": "金融",
+      "date": "2026/05/30 00:01:55",
+      "url": "https://money.udn.com/money/story/5612/9534521?from=edn_maintab_cate",
+      "summary": "MediaTek (2454) Chairman Rick Tsai announced at the company's AGM that the firm may adjust product pricing due to AI-driven component shortages and price increases. The AI boom has created structural supply-demand imbalances in advanced processes, packaging, and high-end memory, making price increases a long-term trend rather than short-term phenomenon. MediaTek has completed its Edge-to-Cloud AI strategy and sees massive growth opportunities as AI applications expand from smartphones and PCs to automotive, data centers, and satellite communications. CEO David Ku reaffirmed TSMC as MediaTek's most important foundry partner despite rumors of Samsung courting the company. This pricing power reflects MediaTek's strengthened market position in the AI era and should support margin expansion for Taiwan's second-largest semiconductor company."
+    },
+    {
+      "title": "TSMC Annual General Meeting Set for June 4 with Focus on Four Key Topics",
+      "section": "金融",
+      "date": "2026/05/31 00:33:23",
+      "url": "https://money.udn.com/money/story/11162/9535785?from=edn_maintab_cate",
+      "summary": "TSMC (2330) will hold its AGM on June 4 with shareholder numbers reaching a record 2.67 million. Key discussion topics are expected to include AI-driven semiconductor demand changes, global expansion progress, quarterly dividend increases, and pricing strategy. The meeting includes proposals to amend the company charter to expand board size from 7-10 directors to 9-12 directors, facilitating recruitment of international talent as independent directors. Chairman and CEO C.C. Wei's shareholder letter emphasized confidence in continued outperformance driven by strong demand for advanced processes, specialty technologies, and advanced packaging. The timing coincides with Nvidia CEO Jensen Huang's Taiwan visit, highlighting TSMC's critical role in the global AI supply chain. Any strategic announcements could significantly impact semiconductor sector valuations and Taiwan's broader technology ecosystem."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Optimistic Expectations of US-Iran Extended Ceasefire Agreement Lead to US Stock Market Gains",
+      "section": "金融",
+      "date": "2026/05/30 06:30:24",
+      "url": "https://money.udn.com/money/story/123398/9534776",
+      "summary": "US stocks closed higher on expectations of an extended US-Iran ceasefire agreement. The Dow gained 0.72% to 51,032.46, S&P 500 rose 0.22% to 7,580.06, and Nasdaq increased 0.20% to 26,972.62. The Philadelphia Semiconductor Index edged up slightly to 12,829.383 points. This geopolitical development could reduce risk premiums and benefit Taiwan's export-oriented technology companies."
+    },
+    {
+      "title": "AI Agentic Trend Gains Momentum - Tech Giants Endorse, Hon Hai, Quanta, MediaTek Bullish on Prospects",
+      "section": "金融",
+      "date": "2026/05/31 02:09:53",
+      "url": "https://money.udn.com/money/story/5612/9535887?from=edn_maintab_cate",
+      "summary": "AI development is rapidly progressing from \"training\" to \"inference,\" with Agentic AI representing the ultimate goal. Taiwan tech leaders are highly optimistic about this trend. Hon Hai Chairman Young Liu sees robots as important carriers for AI transitioning from cloud to edge devices. Quanta's Vice Chairman sees sustained AI demand growth, while Asustek's Chairman emphasized Agentic AI could make \"one person equivalent to 100 people.\" This trend benefits Hon Hai (2317), Quanta (2382), Asustek (2357), MediaTek (2454), and other Taiwan tech companies positioned in the AI infrastructure and edge computing markets."
+    },
+    {
+      "title": "Steel Industry to Welcome Boom Next Month - China Steel, CSC and Others Raise Domestic and Export Prices",
+      "section": "金融",
+      "date": "2026/05/31 01:47:43",
+      "url": "https://money.udn.com/money/story/5612/9535889?from=edn_maintab_cate",
+      "summary": "Taiwan's steel industry faces a promising June with major producers including China Steel (2002), China Steel Corporation (2014), and Yieh United Steel (2023) raising both domestic and export prices by around NT$1,200 per ton. The price increases reflect six consecutive months of gains, driven by low downstream inventory levels and short-term urgent orders. Global crude steel production declined 1.9% year-on-year in April, with China down 2.8%, indicating continued capacity reduction policies supporting healthier steel prices."
+    }
+  ],
+  "not_relevant": []
+}
