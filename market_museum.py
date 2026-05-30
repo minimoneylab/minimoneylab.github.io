@@ -13,7 +13,7 @@ CHAT_ID = os.getenv("CHAT_ID")
 genai.configure(api_key=GEMINI_API_KEY)
 bot = Bot(token=TELEGRAM_TOKEN)
 
-# ====================== ART STYLES (你鍾意嘅藝術家) ======================
+# ====================== ART STYLES ======================
 ART_STYLES = [
     "in the style of Yoshitomo Nara, big-eyed curious figures, soft pastel with dark undertones, minimalist yet emotionally powerful",
     "in the style of Yusuke Hanai, clean lines, vibrant modern street art with warmth",
@@ -29,7 +29,7 @@ ART_STYLES = [
 def get_random_style():
     return random.choice(ART_STYLES)
 
-# ====================== MARKET SUMMARY (暫用模板) ======================
+# ====================== MARKET SUMMARY ======================
 def get_market_summary():
     """之後會改成自動抓真實新聞"""
     return """
@@ -39,20 +39,20 @@ def get_market_summary():
     AI and technology stocks led the rally amid strong investor optimism.
     """
 
-# ====================== PROMPT ======================
+# ====================== IMPROVED PROMPT (重點加強) ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
     
     prompt = f"""
-A beautiful vertical museum-quality painting capturing the spirit of today's US stock market.
+A high-resolution, museum-quality vertical artwork in 4:5 aspect ratio, full bleed image with no white borders, no frames, no edges.
 
-Market situation: {market_summary}
+Today's US stock market summary: {market_summary}
 
-Create a clear, emotionally resonant vertical painting. 
-Use symbolic but understandable elements (rising bull, light, sky, flowers, energy etc). 
-Not too abstract. Should be visually appealing and easy to understand.
+Create a visually powerful, emotionally resonant vertical painting. 
+Use clear symbolic elements such as rising golden bull, light beams, blooming flowers, soaring birds, or energetic sky. 
+Elegant and inspiring composition, not too abstract, easy to understand, high aesthetic appeal.
 
-{style}, masterpiece, highly detailed, excellent composition, vertical orientation, museum quality --ar 4:5 --stylize 650
+{style}, masterpiece, ultra detailed, sharp focus, rich colors, professional composition, best quality, clean edges, full image composition, no border, no frame, high resolution, vertical orientation --ar 4:5 --stylize 850 --v 6
 """
     return prompt.strip()
 
@@ -66,7 +66,9 @@ async def main():
 
         print("Generating image with Gemini...")
 
-        model = genai.GenerativeModel('gemini-2.5-flash-image')
+        # 使用較穩定 model
+        model = genai.GenerativeModel('gemini-2.5-flash')
+
         response = model.generate_content(prompt)
 
         image_path = "market_museum_today.jpg"
