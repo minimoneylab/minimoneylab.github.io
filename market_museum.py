@@ -4,6 +4,8 @@ from google import genai
 from google.genai import types
 from telegram import Bot
 from datetime import datetime
+from PIL import Image
+from io import BytesIO
 import asyncio
 
 # ====================== CONFIG ======================
@@ -41,13 +43,13 @@ def get_market_summary():
 # ====================== PROMPT ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
-    return f"""Create a clean, high-quality vertical digital painting in 4:5 ratio. 
-No borders, no frames, no white edges, full image.
+    return f"""Create a stunning high-resolution vertical digital painting, edge-to-edge, no white borders, no padding, no frames, full bleed.
+Aspect ratio: 3:4 vertical portrait orientation.
 Market situation: {market_summary}
-Elegant and inspiring vertical composition with rising momentum. 
-Use symbolic but clear elements like golden light, rising bull, blooming flowers or soaring birds. 
-Beautiful, emotional, not too abstract.
-{style}, masterpiece, highly detailed, sharp focus, rich colors, professional composition."""
+Elegant and inspiring vertical composition with rising momentum.
+Use symbolic but clear elements like golden light, rising bull, blooming flowers or soaring birds.
+Beautiful, emotional, vivid, not too abstract.
+{style}, masterpiece, ultra detailed, sharp focus, rich saturated colors, professional composition, best quality."""
 
 # ====================== MAIN ======================
 async def main():
@@ -56,28 +58,28 @@ async def main():
         market_summary = get_market_summary()
         prompt = create_art_prompt(market_summary)
 
-        print("Generating image with Imagen...")
-        response = client.models.generate_images(
-            model="imagen-4.0-generate-001",
-            prompt=prompt,
-            config=types.GenerateImagesConfig(
-                number_of_images=1,
-                aspect_ratio="3:4",
-                output_mime_type="image/jpeg",
+        print("Generating image with Gemini Flash Image...")
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-image-preview",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_modalities=["IMAGE", "TEXT"],
             ),
         )
 
         image_path = "market_museum_today.jpg"
         image_saved = False
 
-        if response.generated_images:
-            image_data = response.generated_images[0].image.image_bytes
-            with open(image_path, "wb") as f:
-                f.write(image_data)
-            image_saved = True
+        for part in response.candidates[0].content.parts:
+            if part.inline_data is not None:
+                image = Image.open(BytesIO(part.inline_data.data))
+                image.save(image_path, "JPEG", quality=95)
+                image_saved = True
+                print(f"✅ Image size: {image.size}")
+                break
 
         if not image_saved:
-            print("❌ No image returned")
+            print("❌ No image returned from Gemini")
             await bot.send_message(chat_id=CHAT_ID, text="⚠️ No image generated today.")
             return
 
