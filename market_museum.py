@@ -4,6 +4,7 @@ from openai import OpenAI
 from telegram import Bot
 from datetime import datetime
 import asyncio
+import requests
 
 # ====================== CONFIG ======================
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -15,15 +16,15 @@ bot = Bot(token=TELEGRAM_TOKEN)
 
 # ====================== ART STYLES ======================
 ART_STYLES = [
-    "in the style of Yoshitomo Nara",
-    "in the style of Yusuke Hanai",
-    "in the style of Nagaba Yuma",
-    "in the style of Takashi Murakami",
-    "in the style of Yayoi Kusama",
-    "in the style of Banksy",
-    "in the style of Van Gogh",
-    "in the style of Claude Monet",
-    "classic Japanese ukiyo-e woodblock print style, Hokusai influence",
+    "in the style of Yoshitomo Nara, big-eyed curious figures, soft pastel with dark undertones",
+    "in the style of Yusuke Hanai, clean lines, vibrant modern street art",
+    "in the style of Nagaba Yuma, delicate emotional character illustration",
+    "in the style of Takashi Murakami, superflat, vibrant pop art with flowers",
+    "in the style of Yayoi Kusama, infinity patterns and dots",
+    "in the style of Banksy, bold stencil street art",
+    "in the style of Van Gogh, expressive emotional brush strokes",
+    "in the style of Claude Monet, soft impressionist colors and light",
+    "classic Japanese ukiyo-e woodblock print style inspired by Hokusai",
 ]
 
 def get_random_style():
@@ -31,26 +32,27 @@ def get_random_style():
 
 # ====================== MARKET SUMMARY ======================
 def get_market_summary():
+    """之後會改成自動抓真實新聞"""
     return """
-    On May 29, 2026, the US stock market closed strongly at record highs. 
+    On May 29, 2026, the US stock market closed at record highs. 
     The Dow Jones rose 0.7% and crossed 51,000 for the first time. 
     S&P 500 and Nasdaq also hit new records. 
-    AI and technology stocks led the rally with strong optimism.
+    AI and technology stocks led the rally with strong investor optimism.
     """
 
-# ====================== PROMPT (DALL·E 3 優化版) ======================
+# ====================== PROMPT (優化版) ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
     return f"""
-A beautiful, high-resolution vertical museum-quality artwork in 4:5 aspect ratio.
+A high-resolution, museum-quality vertical artwork in 4:5 aspect ratio, full bleed image, no borders, no frames, no white edges.
 
-Today's US stock market: {market_summary}
+Market situation: {market_summary}
 
-Create an elegant, emotionally resonant vertical painting. 
-Use clear symbolic storytelling with rising energy, golden light, bull, blooming flowers or soaring birds. 
-Clean composition, no text, no border, no frame, full bleed image.
+Create an elegant, emotionally resonant and visually powerful vertical painting. 
+Use clear symbolic elements such as rising golden energy, bull, blooming flowers, light from sky. 
+Not too abstract, beautiful and inspiring composition.
 
-{style}, masterpiece, highly detailed, sharp focus, rich colors, professional art, best quality, vertical composition
+{style}, masterpiece, ultra detailed, sharp focus, rich vibrant colors, professional art, best quality, clean edges, full image composition, vertical orientation
 """
 
 # ====================== MAIN ======================
@@ -61,13 +63,13 @@ async def main():
         market_summary = get_market_summary()
         prompt = create_art_prompt(market_summary)
 
-        print("Generating image with DALL·E 3...")
+        print("Generating image with GPT-Image-1...")
 
         response = client.images.generate(
-            model="dall-e-3",
+            model="gpt-image-1",
             prompt=prompt,
-            size="1024x1536",      # 垂直 4:5 高解像度
-            quality="standard",    # 可改 "hd" 如果想更高質
+            size="1024x1536",      # Vertical 4:5
+            quality="standard",
             n=1
         )
 
@@ -75,12 +77,11 @@ async def main():
         image_path = "market_museum_today.jpg"
 
         # 下載圖片
-        import requests
         img_data = requests.get(image_url).content
         with open(image_path, "wb") as f:
             f.write(img_data)
 
-        # 發送到 Telegram
+        # Caption
         caption = f"""🌸 Market Museum Daily • {datetime.now().strftime('%B %d, %Y')}
 
 {market_summary.strip()}
@@ -93,12 +94,12 @@ async def main():
             caption=caption
         )
 
-        print("✅ Success! DALL·E 3 Image sent to Telegram.")
+        print("✅ Success! Image sent to Telegram.")
 
     except Exception as e:
         print(f"❌ Error: {str(e)}")
         try:
-            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Error: {str(e)[:300]}")
+            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Market Museum Error: {str(e)[:400]}")
         except:
             pass
 
