@@ -1,6 +1,6 @@
 import os
 import random
-import google.genai as genai   # 新版 SDK
+import google.generativeai as genai
 from telegram import Bot
 from datetime import datetime
 import asyncio
