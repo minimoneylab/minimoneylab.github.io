@@ -8,10 +8,10 @@
       "change": -275.0,
       "change_pct": -4.6,
       "market_cap": 39176336505.0,
-      "pe_ratio": 12.69,
+      "pe_ratio": 12.11,
       "pb_ratio": 2.7,
       "dividend_yield": 5.89,
-      "pct_from_high": -39.36
+      "pct_from_high": -37.87
     },
     {
       "symbol": "BBRI.JK",
@@ -23,7 +23,7 @@
       "pe_ratio": 7.58,
       "pb_ratio": 1.31,
       "dividend_yield": 14.17,
-      "pct_from_high": -33.71
+      "pct_from_high": -32.8
     },
     {
       "symbol": "BMRI.JK",
@@ -80,7 +80,7 @@
       "change": -50.0,
       "change_pct": -2.84,
       "market_cap": 3632839705.0,
-      "pe_ratio": 17.63,
+      "pe_ratio": 17.64,
       "pb_ratio": 14.51,
       "dividend_yield": 7.84,
       "pct_from_high": -39.79
@@ -212,7 +212,7 @@
       "change": -2.0,
       "change_pct": -0.68,
       "market_cap": 781199501.0,
-      "pe_ratio": 5.73,
+      "pe_ratio": 5.74,
       "pb_ratio": 0.61,
       "dividend_yield": 4.48,
       "pct_from_high": -34.09
@@ -242,5 +242,5 @@
       "pct_from_high": -30.16
     }
   ],
-  "update_time": "2026-05-30 06:51:48"
+  "update_time": "2026-05-31 06:32:03"
 }
