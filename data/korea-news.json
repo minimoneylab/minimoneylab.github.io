@@ -1,85 +1,83 @@
 {
-  "date": "2026-05-30",
-  "update_time": "2026-05-29 22:28:03",
-  "total_articles": 32,
+  "date": "2026-05-31",
+  "update_time": "2026-05-30 21:55:43",
+  "total_articles": 30,
   "high": [
     {
-      "title": "Bank of Korea holds policy rate steady at 2.50%, ups 2026 growth outlook to 2.6%",
-      "section": "Markets",
-      "date": "May 28, 2026",
-      "url": "https://www.kedglobal.com/central-bank/newsView/ked202605280001",
-      "summary": "The Bank of Korea kept its benchmark rate unchanged at 2.50% in Governor Shin Hyun-song's first policy meeting, but signaled hawkish intentions with markets pricing at least two rate hikes to 3.0% this year. The central bank upgraded its 2026 growth outlook to 2.6%, reflecting Korea's resilient economic performance. Despite this positive growth trajectory and record current account surpluses, the Korean won remains stubbornly weak above 1,500 per dollar - defying typical economic fundamentals. This divergence between strong economic data and currency weakness creates a complex backdrop for BOK policy. The combination of rising inflation pressures (accelerating to 21-month highs in April due to petroleum price surges from US-Iran conflict) and persistent won weakness suggests the BOK faces challenging trade-offs between supporting the currency through rate hikes while managing growth momentum. Foreign investors should monitor upcoming BOK communications for clearer rate hike timing, as the policy trajectory will significantly impact KRW dynamics and government bond yields."
-    },
-    {
-      "title": "Dollar-Won Falls Below 1,500 on U.S.-Iran Ceasefire MOU Agreement, Closes at 1,494.00",
+      "title": "Dollar-Won Pares Gains as Trump Prepares Final Decision on Iran Deal, Closes at 1,504.70 Won",
       "section": "Bonds/Forex",
-      "date": "May 29, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122878",
-      "summary": "The KRW experienced dramatic overnight volatility as geopolitical developments drove the dollar-won rate below the psychologically important 1,500 level to 1,494.00, down 8.80 won from daytime close. Risk appetite surged on reports that the US and Iran agreed to a ceasefire MOU pending Trump's approval. However, subsequent articles revealed contradictory information about the deal's finalization, with Iranian sources denying a \"tentative agreement\" and US officials confirming ongoing negotiations. This geopolitical whipsaw highlights the KRW's sensitivity to global risk sentiment, particularly given Korea's export-dependent economy and the won's recent persistent weakness above 1,500 despite strong fundamentals. The overnight move demonstrates how quickly the won can reverse when risk sentiment improves, but traders should prepare for continued volatility as the Iran situation remains fluid. The dramatic intraday range underscores the importance of geopolitical monitoring for KRW positioning."
-    },
-    {
-      "title": "Bank of Korea signals rate hikes ahead as inflation pressure mounts",
-      "section": "Markets",
-      "date": "May 28, 2026",
-      "url": "https://www.kedglobal.com/central-bank/newsView/ked202605280003",
-      "summary": "The BOK's inaugural policy meeting under Governor Shin Hyun-song delivered a hawkish signal despite keeping rates unchanged at 2.50%. Korea's inflation surged to 21-month highs in April, driven by petroleum price increases from the US-Iran conflict affecting transport, travel, and household costs. This inflationary pressure, combined with resilient economic growth, provides the BOK with justification for monetary tightening. Markets are pricing at least two rate hikes to 3.0% this year, representing a significant tightening cycle that could provide support for the won and pressure government bond prices. The timing coincides with the won trading persistently above 1,500 per dollar despite record current account surpluses, suggesting currency weakness may influence BOK policy decisions. Bond investors should prepare for a rising rate environment, while FX traders should monitor BOK communications for hike timing and magnitude signals."
-    }
-  ],
-  "medium": [
-    {
-      "title": "Foreign Investors Offload $3 Billion in Korean Stocks in April, Extending Four-Month Selling Streak",
-      "section": "Stocks",
-      "date": "April 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122890",
-      "summary": "Foreign investors net sold 4.046 trillion won ($3 billion) in Korean stocks during April, marking their fourth consecutive month of selling. The outflows were concentrated in the main KOSPI market (3.638 trillion won) with additional selling in KOSDAQ (408 billion won). However, foreign bond holdings shifted to net buying, suggesting a rotation from equities to fixed income amid changing market conditions."
-    },
-    {
-      "title": "South Korean Banks' NPL Ratio Hits 0.6% at End-March as Household, Corporate Bad Loans Rise",
-      "section": "Policy/Finance",
-      "date": "March 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=122883",
-      "summary": "Korean banks' non-performing loan ratio increased to 0.6% at end-March from 0.57% in the previous quarter, with deterioration in both household and corporate sectors. While still at historically low levels, the uptick reflects emerging credit stress and bears monitoring as the BOK contemplates rate hikes that could further pressure borrowers' debt servicing capacity."
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123083",
+      "summary": "The USD/KRW exchange rate declined in New York trading to close at 1,504.70 won, up only 1.90 won from Seoul's close but down 3.20 won from intraday highs around 1,507.90 won. The pullback occurred after President Trump announced he would make a final decision on an Iran war agreement MOU and lifted the naval blockade against Iran. This geopolitical development reduced safe-haven demand for the dollar. For KRW traders, this represents significant intraday volatility driven by geopolitical risk sentiment. The ability to hold below 1,505 levels suggests some stabilization, but ongoing Iran negotiations remain a key volatility driver. Watch for further developments in U.S.-Iran talks and any Federal Reserve commentary that could influence dollar direction."
     },
     {
       "title": "Five Major Banks' Loan-Deposit Rate Spread Narrows to 1.388% After One Month",
       "section": "Policy/Finance",
-      "date": "April 2026",
+      "date": "N/A",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=123044",
-      "summary": "Korean banks' loan-deposit spreads contracted to 1.388% in April as deposit rates rose faster than lending rates. One-year fixed deposit rates climbed to 2.95% while household loan rates fell to 4.26%. This compression in banking margins reflects changing interest rate dynamics and competitive pressures in the financial sector."
+      "summary": "South Korean banks' net interest margins showed the first contraction in a month, with the loan-deposit spread narrowing to 1.388% in April, down 0.124bp from March. This occurred as household deposit rates rose to 2.95% (+3.2bp) while loan rates fell to 4.26% (-4.2bp). The margin compression reflects both competitive pressure on deposit rates and potentially softer loan demand. For bond investors, rising deposit rates signal continued competition for funding and potential upward pressure on bank funding costs. This trend could pressure bank profitability if it continues, making bank bonds potentially less attractive. Monitor whether this represents a temporary adjustment or the start of a sustained margin compression cycle."
     },
     {
-      "title": "Dollar-Won Pares Gains as Trump Prepares Final Decision on Iran Deal, Closes at 1,504.70 Won",
+      "title": "Shinhan Bank Sees Dollar-Won at 1,490-1,530 in June - 'Neither War Nor Peace, Status Quo Prevails'",
       "section": "Bonds/Forex",
-      "date": "May 30, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123083",
-      "summary": "The dollar-won rate closed at 1,504.70 won in New York trading, up 1.90 won from Seoul close but down from intraday highs as Trump announced his final decision on the Iran MOU. The volatile trading reflects ongoing uncertainty over geopolitical developments and their impact on risk sentiment and Korean asset flows."
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123104",
+      "summary": "Shinhan Bank forecasts USD/KRW will trade in a 1,490-1,530 won range in June, expecting limited downside despite ongoing U.S.-Iran negotiations. The bank cites difficulty reaching substantive agreements and potential market overreaction ahead of new Fed Chairman Kevin Warsh's first FOMC meeting as key risks. They note the provisional ceasefire extension and nuclear negotiations remain fragile due to disagreements over Strait of Hormuz passage rights. For FX traders, this suggests a rangebound market with 1,490 as key support and 1,530 as resistance. The wide 40-won range reflects high uncertainty around geopolitical outcomes and new Fed leadership. Position sizing should account for elevated volatility around these events."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Busan Bank Sees Dollar-Won at 1,460-1,530 in June - Foreign Capital Flows to Determine Direction",
+      "section": "Bonds/Forex",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123102",
+      "summary": "Busan Bank forecasts USD/KRW in 1,460-1,530 won range for June, identifying foreign capital flows as the key directional driver. The bank notes upward pressure from delayed U.S.-Iran talks, reduced Fed cut expectations, and continued foreign stock selling, while seeing downward factors accumulating. This wider range suggests greater uncertainty than Shinhan Bank's forecast."
+    },
+    {
+      "title": "NDF at 1,506.30/1,506.70 Won - Down 0.35 Won",
+      "section": "Bonds/Forex",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123099",
+      "summary": "The one-month USD/KRW NDF declined 0.35 won to 1,506.50 won (mid) in New York trading overnight. The dollar weakened after Trump mentioned making a \"final decision\" on Iran peace talks. NDF positioning suggests modest dollar weakness expectations near-term."
+    },
+    {
+      "title": "San Francisco Fed President Says Monetary Policy Stance Appropriate, Opposes Harmful Tightening",
+      "section": "Bonds/Forex",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123086",
+      "summary": "San Francisco Fed President Mary Daly stated current monetary policy is appropriately positioned and emphasized avoiding harmful tightening while restoring price stability. Her dovish stance contrasts with hawkish sentiment elsewhere and could influence dollar direction if it signals broader Fed thinking."
+    },
+    {
+      "title": "Philadelphia Fed President Says Monetary Policy 'Moderately Restrictive, in Appropriate Position'",
+      "section": "Bonds/Forex",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123077",
+      "summary": "Philadelphia Fed President Anna Paulson described current policy as \"moderately restrictive\" and appropriately positioned to combat high inflation. She noted inflation was elevated before Iran tensions and attributed it to multiple shocks rather than structural changes, with long-term expectations remaining stable."
     }
   ],
   "not_relevant": [
-    "Today's Schedule - Ministry of Economy and Finance and Other Economic Ministries",
-    "BOK - South Korea's Non-IT Export Market Share Holds Up Despite US Tariffs, Outperforming China, Japan, Germany",
-    "National Growth Fund Invests 800 Billion Won in Furiosa AI - Continues AI Ecosystem Expansion",
-    "S&P Upgrades Hanwha Life, Hanwha General Insurance to 'A+', Expects Restrained Shareholder Returns",
-    "Global Chart US Supercore PCE Inflation Momentum Eases — Is Consumer Spending Power Weakening?",
-    "Iran Semi-Official Media - 'No 'Tentative Agreement' on Armistice MOU... Text Not Finalized'",
-    "US Treasury - 'Ongoing Negotiations with Iran... Oman Has No Plans to Impose Hormuz Toll'",
-    "US 7-Year Treasury Auction Draws Solid Demand - Yield Marginally Below Expectations",
-    "Huons Global to Put Subsidiary Merger to Shareholder Vote, Considers '3% Rule' at July Extraordinary Meeting",
-    "Health Ministry Cites Korea Market Rerating as Reason for Raising Domestic Stock Target Weight Beyond Allowable Range",
-    "National Pension Service Chief Denies Stock Market Support Role - 'No Additional Investment Planned'",
-    "National Pension Service Raises Domestic Stock Target to 20.8% by Year-End - 'Temporary Realization'",
     "30,000 Investors Subscribe to National Growth Fund, Averaging 20 Million Won Each",
     "Savings Bank Profit Landscape Shifts - Korea Investment Savings Bank Takes Top Spot with 98 Billion Won",
     "Early Voting Turnout Reaches 8.15% as of 3 PM - South Jeolla Province Leads at 16.66%",
     "Insurers Partner with GAs - Fubon Hyundai Life Signs Strategic Investment Deal with Leaders Asset",
-    "San Francisco Fed President Says Monetary Policy Stance Appropriate, Opposes Harmful Tightening",
     "Iran Says 'Message Exchanges with US Continue, But No Final Agreement Reached'",
-    "Philadelphia Fed President Says Monetary Policy 'Moderately Restrictive, in Appropriate Position'",
     "Dollar-Won Breaches 1,500 Won Mark in New York Trading",
     "FSC Opens Applications for 6th Batch of SME-Specialized Securities Firms - Deadline Feb. 12",
     "Same Semiconductor ETFs, Polar Opposite Returns - Leveraged Products Lag Despite Samsung Rally",
     "Coinone Welcomes Korea Investment & Securities, OKX as Joint Third-Largest Shareholders",
-    "Market Close KOSPI Closes Above 8,470 on Institutional Buying - Hits All-Time High",
-    "KOSPI Closes at 8,470 on Institutional Buying, Hits All-Time High"
+    "KOSPI Closes Above 8,470 on Institutional Buying - Hits All-Time High",
+    "KOSPI Closes at 8,470 on Institutional Buying, Hits All-Time High",
+    "Early Voting Turnout Hits Record 23.51% for Local Elections",
+    "Ruling Party Files Election Law Complaint Against President Lee Over Ballot Exposure Controversy",
+    "Park Hong-geun - 'Bold Investment in Future Growth Engines Needed... Fiscal Capacity Sufficient'",
+    "President Lee Urges Early Voting Participation - 'Voting is Democracy's Lifeline'",
+    "Next Week's Schedule of Bank of Korea, Financial Services Commission, and Financial Supervisory Service",
+    "Iran Supreme Leader's Military Adviser - 'Trump Betrays Diplomacy Again With Excessive Demands'",
+    "Shin Hyun-song's Necktie",
+    "Lara Trump - 'We Expect Iran Solution Within Hours'",
+    "FSC Chairman Lee Eok-won - 'Second National Growth Fund in Works... KOSPI 8,000 Opens New Chapter'",
+    "Koo Yun-chul Dismisses Stock Market Overheating Concerns - 'Bubbles Emerge When There's No Innovation'",
+    "US Defense Chief Says America Has Sufficient Capability to Resume Iran War, Adequate Weapons Stockpiles",
+    "Dan Loeb Says AI Boom Unlike Dot-Com Bubble, Still in Early Stages"
   ]
 }
