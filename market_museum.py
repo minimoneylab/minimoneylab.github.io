@@ -58,9 +58,9 @@ async def main():
         market_summary = get_market_summary()
         prompt = create_art_prompt(market_summary)
 
-        print("Generating image with Gemini Flash Image...")
+        print("Generating image with Gemini...")
         response = client.models.generate_content(
-            model="gemini-2.5-flash-image-preview",
+            model="gemini-3.1-flash-image",
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_modalities=["IMAGE", "TEXT"],
@@ -70,7 +70,7 @@ async def main():
         image_path = "market_museum_today.jpg"
         image_saved = False
 
-        for part in response.candidates[0].content.parts:
+        for part in response.parts:
             if part.inline_data is not None:
                 image = Image.open(BytesIO(part.inline_data.data))
                 image.save(image_path, "JPEG", quality=95)
