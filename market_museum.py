@@ -21,7 +21,7 @@ ART_STYLES = [
     "in the style of Takashi Murakami, superflat, vibrant pop art",
     "in the style of Yayoi Kusama, infinity patterns",
     "in the style of Banksy, bold stencil street art",
-    "in the style of Van Gogh, expressive brush strokes",
+    "in the style of Van Gogh, expressive emotional brush strokes",
     "classic ukiyo-e woodblock print style inspired by Hokusai",
 ]
 
@@ -37,19 +37,20 @@ def get_market_summary():
     AI and technology stocks led the rally with strong optimism.
     """
 
-# ====================== PROMPT (加強防白邊版) ======================
+# ====================== PROMPT (最後優化版) ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
     return f"""
-A high-resolution museum-quality vertical artwork, 4:5 aspect ratio, full bleed image, no white borders, no frames, no edges at all.
+Create a clean, high-quality vertical digital painting in 4:5 ratio. 
+No borders, no frames, no white edges, full image.
 
 Market situation: {market_summary}
 
-Create an elegant, emotionally powerful vertical painting. 
-Use clear symbolic elements like rising golden bull, blooming flowers, light beams, soaring doves. 
-Beautiful composition, inspiring atmosphere, not too abstract.
+Elegant and inspiring vertical composition with rising momentum. 
+Use symbolic but clear elements like golden light, rising bull, blooming flowers or soaring birds. 
+Beautiful, emotional, not too abstract.
 
-{style}, masterpiece, ultra detailed, sharp focus, rich colors, professional art, best quality, clean edges, full composition, no border, no frame, vertical orientation --ar 4:5 --stylize 800
+{style}, masterpiece, highly detailed, sharp focus, rich colors, professional composition, best quality, vertical orientation --ar 4:5 --stylize 700
 """
 
 # ====================== MAIN ======================
@@ -62,7 +63,7 @@ async def main():
 
         print("Generating image with Gemini...")
 
-        model = genai.GenerativeModel('gemini-2.5-flash')   # 較穩定 model
+        model = genai.GenerativeModel('gemini-2.5-flash')
 
         response = model.generate_content(prompt)
 
@@ -77,8 +78,8 @@ async def main():
                 break
 
         if not image_saved:
-            print("❌ No image returned from Gemini")
-            await bot.send_message(chat_id=CHAT_ID, text="⚠️ Gemini did not generate image today.")
+            print("❌ No image returned")
+            await bot.send_message(chat_id=CHAT_ID, text="⚠️ No image generated today.")
             return
 
         caption = f"""🌸 Market Museum Daily • {datetime.now().strftime('%B %d, %Y')}
