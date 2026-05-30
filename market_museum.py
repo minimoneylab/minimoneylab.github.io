@@ -1,6 +1,7 @@
 import os
 import random
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from telegram import Bot
 from datetime import datetime
 import asyncio
@@ -10,7 +11,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-genai.configure(api_key=GEMINI_API_KEY)
+client = genai.Client(api_key=GEMINI_API_KEY)
 bot = Bot(token=TELEGRAM_TOKEN)
 
 # ====================== ART STYLES ======================
@@ -37,45 +38,43 @@ def get_market_summary():
     AI and technology stocks led the rally with strong optimism.
     """
 
-# ====================== PROMPT (最後優化版) ======================
+# ====================== PROMPT ======================
 def create_art_prompt(market_summary):
     style = get_random_style()
-    return f"""
-Create a clean, high-quality vertical digital painting in 4:5 ratio. 
+    return f"""Create a clean, high-quality vertical digital painting in 4:5 ratio. 
 No borders, no frames, no white edges, full image.
-
 Market situation: {market_summary}
-
 Elegant and inspiring vertical composition with rising momentum. 
 Use symbolic but clear elements like golden light, rising bull, blooming flowers or soaring birds. 
 Beautiful, emotional, not too abstract.
-
-{style}, masterpiece, highly detailed, sharp focus, rich colors, professional composition, best quality, vertical orientation --ar 4:5 --stylize 700
-"""
+{style}, masterpiece, highly detailed, sharp focus, rich colors, professional composition."""
 
 # ====================== MAIN ======================
 async def main():
     try:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M')}] Market Museum Started")
-
         market_summary = get_market_summary()
         prompt = create_art_prompt(market_summary)
 
-        print("Generating image with Gemini...")
-
-        model = genai.GenerativeModel('gemini-2.5-flash')
-
-        response = model.generate_content(prompt)
+        print("Generating image with Imagen...")
+        response = client.models.generate_images(
+            model="imagen-3.0-generate-002",
+            prompt=prompt,
+            config=types.GenerateImagesConfig(
+                number_of_images=1,
+                aspect_ratio="4:5",
+                output_mime_type="image/jpeg",
+            ),
+        )
 
         image_path = "market_museum_today.jpg"
         image_saved = False
 
-        for part in response.parts:
-            if part.inline_data:
-                with open(image_path, "wb") as f:
-                    f.write(part.inline_data.data)
-                image_saved = True
-                break
+        if response.generated_images:
+            image_data = response.generated_images[0].image.image_bytes
+            with open(image_path, "wb") as f:
+                f.write(image_data)
+            image_saved = True
 
         if not image_saved:
             print("❌ No image returned")
@@ -83,9 +82,7 @@ async def main():
             return
 
         caption = f"""🌸 Market Museum Daily • {datetime.now().strftime('%B %d, %Y')}
-
 {market_summary.strip()}
-
 #MarketMuseum #StockMarketArt"""
 
         await bot.send_photo(
@@ -93,7 +90,6 @@ async def main():
             photo=open(image_path, 'rb'),
             caption=caption
         )
-
         print("✅ Success! Image sent to Telegram.")
 
     except Exception as e:
