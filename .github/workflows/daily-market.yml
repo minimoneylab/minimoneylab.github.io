@@ -1,0 +1,30 @@
+name: Daily Market Museum Art
+
+on:
+  schedule:
+    - cron: '0 22 * * *'      # 每日香港時間早上 6:00 運行
+  workflow_dispatch:          # 允許手動測試
+
+jobs:
+  generate-art:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install google-generativeai python-telegram-bot
+
+      - name: Run Market Museum Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python market_museum.py
