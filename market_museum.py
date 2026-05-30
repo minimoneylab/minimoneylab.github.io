@@ -62,7 +62,7 @@ async def main():
             prompt=prompt,
             config=types.GenerateImagesConfig(
                 number_of_images=1,
-                aspect_ratio="4:5",
+                aspect_ratio="3:4",
                 output_mime_type="image/jpeg",
             ),
         )
