@@ -2,8 +2,8 @@ name: Daily Market Museum Art
 
 on:
   schedule:
-    - cron: '0 22 * * *'      # 每日香港時間早上 6:00 運行
-  workflow_dispatch:          # 允許手動測試
+    - cron: '0 22 * * *'      
+  workflow_dispatch:          
 
 jobs:
   generate-art:
@@ -20,11 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install google-generativeai python-telegram-bot
+          pip install openai python-telegram-bot requests
 
       - name: Run Market Museum Script
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: python market_museum.py
+        run: python daily_market_museum.py
