@@ -155,7 +155,7 @@
       "pe_ratio": 22.83,
       "pb_ratio": 2.95,
       "dividend_yield": null,
-      "pct_from_high": -16.07
+      "pct_from_high": -20.53
     },
     {
       "symbol": "SSI.VN",
@@ -242,5 +242,5 @@
       "pct_from_high": -15.59
     }
   ],
-  "update_time": "2026-05-31 06:32:03"
+  "update_time": "2026-06-01 06:33:58"
 }

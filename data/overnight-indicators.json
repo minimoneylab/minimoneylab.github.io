@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-05-31 06:32:40",
+  "update_time": "2026-06-01 06:34:37",
   "us_indices": [
     {
       "name": "S&P 500",
@@ -75,58 +75,58 @@
         {
           "adr_date": "May 21",
           "adr_close": 407.15,
-          "fx_rate": 31.55,
+          "fx_rate": 31.44,
           "tw_open_next": 2275.0,
-          "adr_fx": 12845.91,
+          "adr_fx": 12800.39,
           "tw_x_ratio": 11375.0,
-          "basis": 1.1293,
-          "premium_pct": 12.93
+          "basis": 1.1253,
+          "premium_pct": 12.53
         },
         {
           "adr_date": "May 22",
           "adr_close": 404.52,
-          "fx_rate": 31.44,
+          "fx_rate": 31.45,
           "tw_open_next": 2320.0,
-          "adr_fx": 12717.7,
+          "adr_fx": 12721.51,
           "tw_x_ratio": 11600.0,
-          "basis": 1.0964,
-          "premium_pct": 9.64
+          "basis": 1.0967,
+          "premium_pct": 9.67
         },
         {
           "adr_date": "May 26",
           "adr_close": 412.32,
           "fx_rate": 31.45,
           "tw_open_next": 2310.0,
-          "adr_fx": 12966.8,
+          "adr_fx": 12965.77,
           "tw_x_ratio": 11550.0,
-          "basis": 1.1227,
-          "premium_pct": 12.27
+          "basis": 1.1226,
+          "premium_pct": 12.26
         },
         {
           "adr_date": "May 27",
           "adr_close": 422.73,
-          "fx_rate": 31.45,
+          "fx_rate": 31.47,
           "tw_open_next": 2350.0,
-          "adr_fx": 13293.13,
+          "adr_fx": 13301.58,
           "tw_x_ratio": 11750.0,
-          "basis": 1.1313,
-          "premium_pct": 13.13
+          "basis": 1.132,
+          "premium_pct": 13.2
         },
         {
           "adr_date": "May 28",
           "adr_close": 424.86,
-          "fx_rate": 31.47,
+          "fx_rate": 31.42,
           "tw_open_next": 2340.0,
-          "adr_fx": 13368.6,
+          "adr_fx": 13350.8,
           "tw_x_ratio": 11700.0,
-          "basis": 1.1426,
-          "premium_pct": 14.26
+          "basis": 1.1411,
+          "premium_pct": 14.11
         }
       ],
-      "avg_basis": 1.1245,
-      "avg_premium_pct": 12.45,
-      "predicted_open": 2337.74,
-      "gap_pct": -0.73,
+      "avg_basis": 1.1235,
+      "avg_premium_pct": 12.35,
+      "predicted_open": 2339.82,
+      "gap_pct": -0.64,
       "signal": "NEUTRAL",
       "signal_icon": "⚪",
       "signal_text": "Minor adjustment expected"
@@ -144,29 +144,29 @@
         {
           "adr_date": "May 21",
           "adr_close": 18.35,
-          "fx_rate": 31.55,
+          "fx_rate": 31.44,
           "tw_open_next": 115.0,
-          "adr_fx": 578.96,
+          "adr_fx": 576.91,
           "tw_x_ratio": 575.0,
-          "basis": 1.0069,
-          "premium_pct": 0.69
+          "basis": 1.0033,
+          "premium_pct": 0.33
         },
         {
           "adr_date": "May 22",
           "adr_close": 18.22,
-          "fx_rate": 31.44,
+          "fx_rate": 31.45,
           "tw_open_next": 129.0,
-          "adr_fx": 572.82,
+          "adr_fx": 572.99,
           "tw_x_ratio": 645.0,
-          "basis": 0.8881,
-          "premium_pct": -11.19
+          "basis": 0.8884,
+          "premium_pct": -11.16
         },
         {
           "adr_date": "May 26",
           "adr_close": 21.08,
           "fx_rate": 31.45,
           "tw_open_next": 139.5,
-          "adr_fx": 662.93,
+          "adr_fx": 662.88,
           "tw_x_ratio": 697.5,
           "basis": 0.9504,
           "premium_pct": -4.96
@@ -174,28 +174,28 @@
         {
           "adr_date": "May 27",
           "adr_close": 22.22,
-          "fx_rate": 31.45,
+          "fx_rate": 31.47,
           "tw_open_next": 145.0,
-          "adr_fx": 698.73,
+          "adr_fx": 699.17,
           "tw_x_ratio": 725.0,
-          "basis": 0.9638,
-          "premium_pct": -3.62
+          "basis": 0.9644,
+          "premium_pct": -3.56
         },
         {
           "adr_date": "May 28",
           "adr_close": 22.68,
-          "fx_rate": 31.47,
+          "fx_rate": 31.42,
           "tw_open_next": 149.0,
-          "adr_fx": 713.65,
+          "adr_fx": 712.7,
           "tw_x_ratio": 745.0,
-          "basis": 0.9579,
-          "premium_pct": -4.21
+          "basis": 0.9566,
+          "premium_pct": -4.34
         }
       ],
-      "avg_basis": 0.9534,
-      "avg_premium_pct": -4.66,
-      "predicted_open": 146.15,
-      "gap_pct": 1.14,
+      "avg_basis": 0.9526,
+      "avg_premium_pct": -4.74,
+      "predicted_open": 146.27,
+      "gap_pct": 1.23,
       "signal": "NEUTRAL",
       "signal_icon": "⚪",
       "signal_text": "Minor adjustment expected"
@@ -213,58 +213,58 @@
         {
           "adr_date": "May 21",
           "adr_close": 32.64,
-          "fx_rate": 31.55,
+          "fx_rate": 31.44,
           "tw_open_next": 598.0,
-          "adr_fx": 1029.82,
+          "adr_fx": 1026.17,
           "tw_x_ratio": 1196.0,
-          "basis": 0.8611,
-          "premium_pct": -13.89
+          "basis": 0.858,
+          "premium_pct": -14.2
         },
         {
           "adr_date": "May 22",
           "adr_close": 34.81,
-          "fx_rate": 31.44,
+          "fx_rate": 31.45,
           "tw_open_next": 636.0,
-          "adr_fx": 1094.39,
+          "adr_fx": 1094.72,
           "tw_x_ratio": 1272.0,
-          "basis": 0.8604,
-          "premium_pct": -13.96
+          "basis": 0.8606,
+          "premium_pct": -13.94
         },
         {
           "adr_date": "May 26",
           "adr_close": 38.95,
           "fx_rate": 31.45,
           "tw_open_next": 641.0,
-          "adr_fx": 1224.92,
+          "adr_fx": 1224.82,
           "tw_x_ratio": 1282.0,
-          "basis": 0.9555,
-          "premium_pct": -4.45
+          "basis": 0.9554,
+          "premium_pct": -4.46
         },
         {
           "adr_date": "May 27",
           "adr_close": 39.07,
-          "fx_rate": 31.45,
+          "fx_rate": 31.47,
           "tw_open_next": 626.0,
-          "adr_fx": 1228.59,
+          "adr_fx": 1229.37,
           "tw_x_ratio": 1252.0,
-          "basis": 0.9813,
-          "premium_pct": -1.87
+          "basis": 0.9819,
+          "premium_pct": -1.81
         },
         {
           "adr_date": "May 28",
           "adr_close": 40.6,
-          "fx_rate": 31.47,
+          "fx_rate": 31.42,
           "tw_open_next": 642.0,
-          "adr_fx": 1277.52,
+          "adr_fx": 1275.81,
           "tw_x_ratio": 1284.0,
-          "basis": 0.9949,
-          "premium_pct": -0.51
+          "basis": 0.9936,
+          "premium_pct": -0.64
         }
       ],
-      "avg_basis": 0.9306,
-      "avg_premium_pct": -6.94,
-      "predicted_open": 647.22,
-      "gap_pct": 5.93,
+      "avg_basis": 0.9299,
+      "avg_premium_pct": -7.01,
+      "predicted_open": 647.71,
+      "gap_pct": 6.01,
       "signal": "BULLISH",
       "signal_icon": "🟢",
       "signal_text": "Strong catch-up rally expected"
