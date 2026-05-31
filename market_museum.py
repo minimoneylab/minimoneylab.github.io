@@ -264,4 +264,4 @@ Return ONLY valid JSON, no markdown:
         )
         raw = response.text.strip().replace("```json", "").replace("```", "").strip()
         result = json.loads(raw)
-        return result.get("recap", ""), result.get("im
+        return result.get("recap", ""), result.get("image_prompt", ""), result.get("ig_caption", "")
