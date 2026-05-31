@@ -4,7 +4,7 @@ import json
 from google import genai
 from google.genai import types
 from telegram import Bot
-from datetime import datetime
+from datetime import datetime, timedelta
 from PIL import Image
 from io import BytesIO
 import asyncio
@@ -43,6 +43,14 @@ ART_STYLES = [
 def get_random_style():
     return random.choice(ART_STYLES)
 
+# ====================== HELPERS ======================
+def is_sunday_hk():
+    hk_time = datetime.utcnow() + timedelta(hours=8)
+    return hk_time.weekday() == 6  # 6 = Sunday
+
+def get_hk_time():
+    return datetime.utcnow() + timedelta(hours=8)
+
 # ====================== MARKET DATA ======================
 CORE_TICKERS = {
     "S&P 500":   "^GSPC",
@@ -51,12 +59,12 @@ CORE_TICKERS = {
     "VIX":       "^VIX",
 }
 
-def fetch_ticker_data(symbol):
+def fetch_ticker_data(symbol, period="2d"):
     try:
         ticker = yf.Ticker(symbol)
-        hist = ticker.history(period="2d")
+        hist = ticker.history(period=period)
         if len(hist) >= 2:
-            prev_close = hist['Close'].iloc[-2]
+            prev_close = hist['Close'].iloc[0]
             last_close = hist['Close'].iloc[-1]
             change_pct = ((last_close - prev_close) / prev_close) * 100
             return {
@@ -67,10 +75,11 @@ def fetch_ticker_data(symbol):
         pass
     return None
 
-def get_core_market_data():
+def get_core_market_data(weekly=False):
+    period = "5d" if weekly else "2d"
     results = {}
     for name, symbol in CORE_TICKERS.items():
-        data = fetch_ticker_data(symbol)
+        data = fetch_ticker_data(symbol, period=period)
         if data:
             results[name] = data
     return results
@@ -101,14 +110,15 @@ Example output:
         print(f"⚠️ Ticker extraction failed: {e}")
         return []
 
-def get_dynamic_stock_data(extracted_tickers):
+def get_dynamic_stock_data(extracted_tickers, weekly=False):
+    period = "5d" if weekly else "2d"
     results = {}
     for item in extracted_tickers:
         name = item.get("name")
         symbol = item.get("ticker")
         if not name or not symbol:
             continue
-        data = fetch_ticker_data(symbol)
+        data = fetch_ticker_data(symbol, period=period)
         if data:
             results[name] = data
             print(f"  ✅ {name} ({symbol}): {data['change_pct']:+.2f}%")
@@ -116,9 +126,10 @@ def get_dynamic_stock_data(extracted_tickers):
             print(f"  ⚠️ Skipped {name} ({symbol})")
     return results
 
-def format_market_data(core_data, dynamic_data):
+def format_market_data(core_data, dynamic_data, weekly=False):
+    label = "Weekly Change" if weekly else "Daily Change"
     lines = []
-    lines.append("📊 Major Indices:")
+    lines.append(f"📊 Major Indices ({label}):")
     for name, d in core_data.items():
         arrow = "▲" if d['change_pct'] > 0 else "▼"
         lines.append(f"  {arrow} {name}: {d['price']:,}  ({d['change_pct']:+.2f}%)")
@@ -134,7 +145,7 @@ def format_market_data(core_data, dynamic_data):
     return "\n".join(lines)
 
 # ====================== NEWS ======================
-def get_market_news():
+def get_daily_news():
     news_items = []
     watch = ["^GSPC", "^IXIC", "NVDA", "AAPL", "MSFT", "TSLA", "META", "AMZN", "GOOGL"]
     seen_titles = set()
@@ -156,29 +167,56 @@ def get_market_news():
 
     return news_items[:20]
 
-# ====================== GEMINI: STORY + PROMPTS ======================
-def generate_story_and_image_prompt(core_data, dynamic_data, news_items, art_style):
+def get_weekly_news():
+    """Get broader news for weekly recap using more tickers."""
+    news_items = []
+    # Cast wider net for weekly
+    watch = [
+        "^GSPC", "^IXIC", "^DJI",
+        "NVDA", "AAPL", "MSFT", "TSLA", "META", "AMZN", "GOOGL",
+        "JPM", "GS", "BRK-B", "IBIT", "AMD", "NFLX", "DIS"
+    ]
+    seen_titles = set()
+
+    for symbol in watch:
+        try:
+            ticker = yf.Ticker(symbol)
+            news = ticker.news
+            if news:
+                for item in news[:5]:
+                    title = item.get('content', {}).get('title', '')
+                    if title and title not in seen_titles:
+                        seen_titles.add(title)
+                        news_items.append(title)
+        except Exception as e:
+            print(f"⚠️ News fetch failed for {symbol}: {e}")
+        if len(news_items) >= 30:
+            break
+
+    return news_items[:30]
+
+# ====================== GEMINI: DAILY STORY ======================
+def generate_daily_story(core_data, dynamic_data, news_items, art_style):
     try:
-        market_data_str = format_market_data(core_data, dynamic_data)
+        market_data_str = format_market_data(core_data, dynamic_data, weekly=False)
         news_text = "\n".join(f"- {n}" for n in news_items) if news_items else "No major news."
 
         prompt = f"""You are a creative financial art director for a viral daily market storytelling project.
+Today is {get_hk_time().strftime('%A, %B %d, %Y')} (Hong Kong Time). This is a DAILY recap.
 
 Your job:
-1. Read today's market data and news headlines.
-2. Identify the single most interesting, dramatic, funny, or important story of the day.
-3. Write a SHORT punchy market recap (3-5 sentences, flowing prose, no bullet points).
-4. Create a vivid, creative, exaggerated image description capturing this story visually.
+1. Identify the single most interesting, dramatic, funny, or important story of the day.
+2. Write a SHORT punchy market recap (3-5 sentences, flowing prose, no bullet points).
+3. Create a vivid, creative, exaggerated image description capturing this story visually.
    - Symbolic, funny, dramatic, or surprising. NOT a literal chart or graph.
-   - Include real people or brands if central to the story (e.g. Trump hugging a Dell laptop, a crying trader, a bull stomping on bears).
-   - Mood matches the market: euphoric, panicked, boring, chaotic, triumphant, absurd, etc.
-   - Be bold and creative. This image should stop people scrolling on Instagram.
-5. Write a punchy Instagram caption:
-   - 2-3 short sentences max, conversational and witty
-   - 1 strong hook line at the start
+   - Include real people or brands if central to the story.
+   - Mood matches the market: euphoric, panicked, boring, chaotic, triumphant, absurd.
+   - Bold and creative. This image should stop people scrolling on Instagram.
+4. Write a punchy Instagram caption:
+   - Strong hook line at the start
+   - 2-3 short witty sentences
    - End with 5-8 relevant hashtags on a new line
-   - No more than 150 words total
-   - Make people want to save or share it
+   - Max 150 words total
 
 Market Data:
 {market_data_str}
@@ -188,10 +226,10 @@ News Headlines:
 
 Art Style: {art_style}
 
-Return ONLY valid JSON, no markdown, no explanation:
+Return ONLY valid JSON, no markdown:
 {{
-  "recap": "3-5 sentence market recap here.",
-  "image_prompt": "Detailed visual image description incorporating the art style.",
+  "recap": "3-5 sentence daily market recap.",
+  "image_prompt": "Detailed visual image description with art style.",
   "ig_caption": "Punchy IG caption with hook + hashtags."
 }}"""
 
@@ -204,10 +242,68 @@ Return ONLY valid JSON, no markdown, no explanation:
         return result.get("recap", ""), result.get("image_prompt", ""), result.get("ig_caption", "")
 
     except Exception as e:
-        print(f"⚠️ Story generation failed: {e}")
-        recap = "Markets moved today with notable activity across major indices and key stocks."
+        print(f"⚠️ Daily story generation failed: {e}")
+        recap = "Markets moved today with notable activity across major indices."
         image_prompt = f"A dramatic stock market scene, {art_style}, masterpiece, ultra detailed."
         ig_caption = "The market never sleeps. 📈\n#StockMarket #WallStreet #Investing"
+        return recap, image_prompt, ig_caption
+
+# ====================== GEMINI: WEEKLY STORY ======================
+def generate_weekly_story(core_data, dynamic_data, news_items, art_style):
+    try:
+        market_data_str = format_market_data(core_data, dynamic_data, weekly=True)
+        news_text = "\n".join(f"- {n}" for n in news_items) if news_items else "No major news."
+
+        # Calculate week date range
+        hk_now = get_hk_time()
+        week_start = (hk_now - timedelta(days=6)).strftime('%B %d')
+        week_end = hk_now.strftime('%B %d, %Y')
+
+        prompt = f"""You are a creative financial art director for a viral weekly market storytelling project.
+This is the WEEKLY RECAP for the week of {week_start} - {week_end} (Hong Kong Time).
+
+Your job:
+1. Identify the 2-3 biggest themes or stories that defined this week in markets.
+2. Write a punchy weekly market narrative (5-7 sentences, flowing prose, no bullet points).
+   Capture the arc of the week — how did it start, what happened, how did it end?
+3. Create a vivid, creative, exaggerated image description capturing the essence of this week.
+   - Think of it as a "weekly movie poster" — bold, symbolic, dramatic.
+   - Include real people, companies, or events that defined the week.
+   - Be creative, funny, or dramatic. Make it shareable.
+4. Write a punchy Instagram caption for the weekly recap:
+   - Open with a strong "Week in Review" hook
+   - 3-4 short witty sentences summarising the week
+   - End with 6-10 relevant hashtags on a new line
+   - Max 200 words total
+
+Weekly Market Data (Mon-Fri performance):
+{market_data_str}
+
+This Week's Key Headlines:
+{news_text}
+
+Art Style: {art_style}
+
+Return ONLY valid JSON, no markdown:
+{{
+  "recap": "5-7 sentence weekly market narrative.",
+  "image_prompt": "Detailed weekly movie poster visual description with art style.",
+  "ig_caption": "Weekly recap IG caption with hook + hashtags."
+}}"""
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        raw = response.text.strip().replace("```json", "").replace("```", "").strip()
+        result = json.loads(raw)
+        return result.get("recap", ""), result.get("image_prompt", ""), result.get("ig_caption", "")
+
+    except Exception as e:
+        print(f"⚠️ Weekly story generation failed: {e}")
+        recap = "It was an eventful week on Wall Street with significant moves across major indices."
+        image_prompt = f"A dramatic weekly stock market scene, {art_style}, masterpiece, ultra detailed."
+        ig_caption = "Another week on Wall Street in the books. 📊\n#WeeklyRecap #StockMarket #WallStreet"
         return recap, image_prompt, ig_caption
 
 # ====================== GENERATE IMAGE ======================
@@ -241,35 +337,43 @@ Masterpiece, ultra detailed, sharp focus, rich saturated colors, professional co
 # ====================== MAIN ======================
 async def main():
     try:
-        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M')}] 🚀 Market Museum Started")
+        hk_time = get_hk_time()
+        sunday = is_sunday_hk()
+        mode = "📅 WEEKLY RECAP" if sunday else "📰 DAILY RECAP"
+        print(f"[{hk_time.strftime('%Y-%m-%d %H:%M')} HKT] 🚀 Market Museum Started — {mode}")
 
-        # 1. Core indices
+        # 1. Core market data
         print("📈 Fetching core market data...")
-        core_data = get_core_market_data()
+        core_data = get_core_market_data(weekly=sunday)
 
         # 2. News
-        print("📰 Fetching market news...")
-        news_items = get_market_news()
+        print("📰 Fetching news...")
+        news_items = get_weekly_news() if sunday else get_daily_news()
         print(f"  Got {len(news_items)} headlines")
 
-        # 3. Extract tickers from news
+        # 3. Extract tickers
         print("🔍 Extracting tickers from news...")
         extracted_tickers = extract_tickers_from_news(news_items)
         print(f"  Found {len(extracted_tickers)} companies in news")
 
         # 4. Dynamic stock data
         print("📊 Fetching dynamic stock data...")
-        dynamic_data = get_dynamic_stock_data(extracted_tickers)
+        dynamic_data = get_dynamic_stock_data(extracted_tickers, weekly=sunday)
 
         # 5. Random art style
         art_style = get_random_style()
         print(f"🎨 Art style: {art_style[:60]}...")
 
-        # 6. Generate story + image prompt + IG caption
-        print("✍️ Generating story, image concept and IG caption...")
-        recap, image_prompt, ig_caption = generate_story_and_image_prompt(
-            core_data, dynamic_data, news_items, art_style
-        )
+        # 6. Generate story
+        print("✍️ Generating story...")
+        if sunday:
+            recap, image_prompt, ig_caption = generate_weekly_story(
+                core_data, dynamic_data, news_items, art_style
+            )
+        else:
+            recap, image_prompt, ig_caption = generate_daily_story(
+                core_data, dynamic_data, news_items, art_style
+            )
         print(f"  Recap: {recap[:100]}...")
         print(f"  IG Caption: {ig_caption[:80]}...")
 
@@ -280,11 +384,12 @@ async def main():
             await bot.send_message(chat_id=CHAT_ID, text="⚠️ No image generated today.")
             return
 
-        # 8. Telegram: photo + market data caption
-        market_data_str = format_market_data(core_data, dynamic_data)
-        date_str = datetime.now().strftime('%B %d, %Y')
+        # 8. Build Telegram caption
+        market_data_str = format_market_data(core_data, dynamic_data, weekly=sunday)
+        date_str = hk_time.strftime('%B %d, %Y')
+        header = f"🗓 Weekly Recap • {date_str}" if sunday else f"🎨 Market Museum Daily • {date_str}"
 
-        tg_caption = f"""🎨 Market Museum Daily • {date_str}
+        tg_caption = f"""{header}
 
 {recap}
 
@@ -295,20 +400,22 @@ async def main():
         if len(tg_caption) > 1024:
             tg_caption = tg_caption[:1020] + "..."
 
+        # 9. Send photo
         await bot.send_photo(
             chat_id=CHAT_ID,
             photo=open(image_path, 'rb'),
             caption=tg_caption
         )
 
-        # 9. Telegram: separate IG caption message
+        # 10. Send IG caption as separate message
+        ig_label = "📱 *IG Caption (Weekly) — copy & paste ready:*" if sunday else "📱 *IG Caption — copy & paste ready:*"
         await bot.send_message(
             chat_id=CHAT_ID,
-            text=f"📱 *IG Caption — copy & paste ready:*\n\n{ig_caption}",
+            text=f"{ig_label}\n\n{ig_caption}",
             parse_mode="Markdown"
         )
 
-        print("✅ Success! Photo + IG caption sent to Telegram.")
+        print(f"✅ Success! {mode} sent to Telegram.")
 
     except Exception as e:
         print(f"❌ Error: {str(e)}")
