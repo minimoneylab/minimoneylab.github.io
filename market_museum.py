@@ -46,10 +46,37 @@ def get_random_style():
 # ====================== HELPERS ======================
 def is_sunday_hk():
     hk_time = datetime.utcnow() + timedelta(hours=8)
-    return hk_time.weekday() == 6  # 6 = Sunday
+    return hk_time.weekday() == 6
 
 def get_hk_time():
     return datetime.utcnow() + timedelta(hours=8)
+
+def fix_hashtags(caption):
+    """Auto-fix missing # symbols in hashtag lines."""
+    lines = caption.strip().split('\n')
+    fixed_lines = []
+    for line in lines:
+        words = line.split()
+        # Check if this line contains any hashtags at all
+        has_hashtag = any(w.startswith('#') for w in words)
+        if not has_hashtag:
+            fixed_lines.append(line)
+            continue
+        fixed_words = []
+        for word in words:
+            clean = word.strip('.,!?')
+            if (
+                len(clean) > 1
+                and not clean.startswith('#')
+                and not clean.startswith('@')
+                and clean[0].isupper()
+                and clean.isalnum()
+            ):
+                fixed_words.append('#' + word)
+            else:
+                fixed_words.append(word)
+        fixed_lines.append(' '.join(fixed_words))
+    return '\n'.join(fixed_lines)
 
 # ====================== MARKET DATA ======================
 CORE_TICKERS = {
@@ -168,9 +195,7 @@ def get_daily_news():
     return news_items[:20]
 
 def get_weekly_news():
-    """Get broader news for weekly recap using more tickers."""
     news_items = []
-    # Cast wider net for weekly
     watch = [
         "^GSPC", "^IXIC", "^DJI",
         "NVDA", "AAPL", "MSFT", "TSLA", "META", "AMZN", "GOOGL",
@@ -215,7 +240,7 @@ Your job:
 4. Write a punchy Instagram caption:
    - Strong hook line at the start
    - 2-3 short witty sentences
-   - End with 5-8 relevant hashtags on a new line
+   - End with 5-8 hashtags on a new line, EVERY hashtag MUST start with #
    - Max 150 words total
 
 Market Data:
@@ -239,190 +264,4 @@ Return ONLY valid JSON, no markdown:
         )
         raw = response.text.strip().replace("```json", "").replace("```", "").strip()
         result = json.loads(raw)
-        return result.get("recap", ""), result.get("image_prompt", ""), result.get("ig_caption", "")
-
-    except Exception as e:
-        print(f"⚠️ Daily story generation failed: {e}")
-        recap = "Markets moved today with notable activity across major indices."
-        image_prompt = f"A dramatic stock market scene, {art_style}, masterpiece, ultra detailed."
-        ig_caption = "The market never sleeps. 📈\n#StockMarket #WallStreet #Investing"
-        return recap, image_prompt, ig_caption
-
-# ====================== GEMINI: WEEKLY STORY ======================
-def generate_weekly_story(core_data, dynamic_data, news_items, art_style):
-    try:
-        market_data_str = format_market_data(core_data, dynamic_data, weekly=True)
-        news_text = "\n".join(f"- {n}" for n in news_items) if news_items else "No major news."
-
-        # Calculate week date range
-        hk_now = get_hk_time()
-        week_start = (hk_now - timedelta(days=6)).strftime('%B %d')
-        week_end = hk_now.strftime('%B %d, %Y')
-
-        prompt = f"""You are a creative financial art director for a viral weekly market storytelling project.
-This is the WEEKLY RECAP for the week of {week_start} - {week_end} (Hong Kong Time).
-
-Your job:
-1. Identify the 2-3 biggest themes or stories that defined this week in markets.
-2. Write a punchy weekly market narrative (5-7 sentences, flowing prose, no bullet points).
-   Capture the arc of the week — how did it start, what happened, how did it end?
-3. Create a vivid, creative, exaggerated image description capturing the essence of this week.
-   - Think of it as a "weekly movie poster" — bold, symbolic, dramatic.
-   - Include real people, companies, or events that defined the week.
-   - Be creative, funny, or dramatic. Make it shareable.
-4. Write a punchy Instagram caption for the weekly recap:
-   - Open with a strong "Week in Review" hook
-   - 3-4 short witty sentences summarising the week
-   - End with 6-10 relevant hashtags on a new line
-   - Max 200 words total
-
-Weekly Market Data (Mon-Fri performance):
-{market_data_str}
-
-This Week's Key Headlines:
-{news_text}
-
-Art Style: {art_style}
-
-Return ONLY valid JSON, no markdown:
-{{
-  "recap": "5-7 sentence weekly market narrative.",
-  "image_prompt": "Detailed weekly movie poster visual description with art style.",
-  "ig_caption": "Weekly recap IG caption with hook + hashtags."
-}}"""
-
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-        )
-        raw = response.text.strip().replace("```json", "").replace("```", "").strip()
-        result = json.loads(raw)
-        return result.get("recap", ""), result.get("image_prompt", ""), result.get("ig_caption", "")
-
-    except Exception as e:
-        print(f"⚠️ Weekly story generation failed: {e}")
-        recap = "It was an eventful week on Wall Street with significant moves across major indices."
-        image_prompt = f"A dramatic weekly stock market scene, {art_style}, masterpiece, ultra detailed."
-        ig_caption = "Another week on Wall Street in the books. 📊\n#WeeklyRecap #StockMarket #WallStreet"
-        return recap, image_prompt, ig_caption
-
-# ====================== GENERATE IMAGE ======================
-async def generate_image(image_prompt):
-    print(f"🎨 Image prompt: {image_prompt[:150]}...")
-
-    full_prompt = f"""Create a stunning high-resolution vertical digital painting.
-Edge-to-edge, no white borders, no padding, no frames, full bleed.
-Vertical 3:4 portrait orientation.
-{image_prompt}
-Masterpiece, ultra detailed, sharp focus, rich saturated colors, professional composition, best quality."""
-
-    response = client.models.generate_content(
-        model="gemini-3.1-flash-image",
-        contents=full_prompt,
-        config=types.GenerateContentConfig(
-            response_modalities=["IMAGE", "TEXT"],
-        ),
-    )
-
-    image_path = "market_museum_today.jpg"
-    for part in response.parts:
-        if part.inline_data is not None:
-            image = Image.open(BytesIO(part.inline_data.data))
-            image.save(image_path, "JPEG", quality=95)
-            print(f"✅ Image saved: {image.size}")
-            return image_path
-
-    return None
-
-# ====================== MAIN ======================
-async def main():
-    try:
-        hk_time = get_hk_time()
-        sunday = is_sunday_hk()
-        mode = "📅 WEEKLY RECAP" if sunday else "📰 DAILY RECAP"
-        print(f"[{hk_time.strftime('%Y-%m-%d %H:%M')} HKT] 🚀 Market Museum Started — {mode}")
-
-        # 1. Core market data
-        print("📈 Fetching core market data...")
-        core_data = get_core_market_data(weekly=sunday)
-
-        # 2. News
-        print("📰 Fetching news...")
-        news_items = get_weekly_news() if sunday else get_daily_news()
-        print(f"  Got {len(news_items)} headlines")
-
-        # 3. Extract tickers
-        print("🔍 Extracting tickers from news...")
-        extracted_tickers = extract_tickers_from_news(news_items)
-        print(f"  Found {len(extracted_tickers)} companies in news")
-
-        # 4. Dynamic stock data
-        print("📊 Fetching dynamic stock data...")
-        dynamic_data = get_dynamic_stock_data(extracted_tickers, weekly=sunday)
-
-        # 5. Random art style
-        art_style = get_random_style()
-        print(f"🎨 Art style: {art_style[:60]}...")
-
-        # 6. Generate story
-        print("✍️ Generating story...")
-        if sunday:
-            recap, image_prompt, ig_caption = generate_weekly_story(
-                core_data, dynamic_data, news_items, art_style
-            )
-        else:
-            recap, image_prompt, ig_caption = generate_daily_story(
-                core_data, dynamic_data, news_items, art_style
-            )
-        print(f"  Recap: {recap[:100]}...")
-        print(f"  IG Caption: {ig_caption[:80]}...")
-
-        # 7. Generate image
-        image_path = await generate_image(image_prompt)
-        if not image_path:
-            print("❌ No image returned")
-            await bot.send_message(chat_id=CHAT_ID, text="⚠️ No image generated today.")
-            return
-
-        # 8. Build Telegram caption
-        market_data_str = format_market_data(core_data, dynamic_data, weekly=sunday)
-        date_str = hk_time.strftime('%B %d, %Y')
-        header = f"🗓 Weekly Recap • {date_str}" if sunday else f"🎨 Market Museum Daily • {date_str}"
-
-        tg_caption = f"""{header}
-
-{recap}
-
-{market_data_str}
-
-#MarketMuseum #StockMarket #WallStreet"""
-
-        if len(tg_caption) > 1024:
-            tg_caption = tg_caption[:1020] + "..."
-
-        # 9. Send photo
-        await bot.send_photo(
-            chat_id=CHAT_ID,
-            photo=open(image_path, 'rb'),
-            caption=tg_caption
-        )
-
-        # 10. Send IG caption as separate message
-        ig_label = "📱 *IG Caption (Weekly) — copy & paste ready:*" if sunday else "📱 *IG Caption — copy & paste ready:*"
-        await bot.send_message(
-            chat_id=CHAT_ID,
-            text=f"{ig_label}\n\n{ig_caption}",
-            parse_mode="Markdown"
-        )
-
-        print(f"✅ Success! {mode} sent to Telegram.")
-
-    except Exception as e:
-        print(f"❌ Error: {str(e)}")
-        try:
-            await bot.send_message(chat_id=CHAT_ID, text=f"⚠️ Error: {str(e)[:300]}")
-        except:
-            pass
-
-if __name__ == "__main__":
-    asyncio.run(main())
+        return result.get("recap", ""), result.get("im
