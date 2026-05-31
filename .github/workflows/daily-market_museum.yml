@@ -1,27 +1,22 @@
 name: Daily Market Museum Art
-
 on:
   schedule:
-    - cron: '0 22 * * *'      
-  workflow_dispatch:          
-
+    - cron: '0 22 * * 0-5'   # Mon-Sat UTC 22:00 = HK 6am (daily)
+    - cron: '0 22 * * 6'     # Sun UTC 22:00 = HK 6am (weekly recap)
+  workflow_dispatch:
 jobs:
   generate-art:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: |
-          pip install google-genai python-telegram-bot Pillow yfinance requests   # ← 改返呢個
-
+          pip install google-genai python-telegram-bot Pillow yfinance requests
       - name: Run Market Museum Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
