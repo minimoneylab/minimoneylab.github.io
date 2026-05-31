@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-01",
+  "update_time": "2026-05-31 23:42:37",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "TSMC Shareholder Meeting to Focus on Four Key Issues Including AI Boom",
+      "section": "金融",
+      "date": "2026/05/31 00:33:23",
+      "url": "https://money.udn.com/money/story/11162/9535785?from=edn_maintab_cate",
+      "summary": "TSMC's annual shareholder meeting on June 4 will address four critical topics: AI-driven semiconductor demand changes, domestic and overseas expansion progress, quarterly dividend increase plans, and pricing strategies. With TSMC's record-high shareholding of over 2.67 million accounts, attendance is expected to surge. Key agenda items include expanding board size from 7-10 to 9-12 directors to attract international talent. Chairman Mark Liu expressed confidence in continued strong AI demand and TSMC's outperformance versus industry growth. The meeting comes amid employee compensation controversies, which Liu addressed in internal communications. For Taiwan equity investors, TSMC's guidance on AI demand sustainability and capacity expansion timeline will be crucial market indicators, especially given the company's 19% revenue contribution to Taiwan's benchmark index."
+    },
+    {
+      "title": "NVIDIA New Products Drive TSMC's 'NVIDIA Revenue' Above 20%",
+      "section": "金融",
+      "date": "2026/06/01 02:13:01",
+      "url": "https://money.udn.com/money/story/11162/9537262?from=edn_maintab_cate",
+      "summary": "NVIDIA's next-generation AI chip platform Vera Rubin begins mass production in H2 2026, with CEO Jensen Huang predicting Taiwan will be \"very busy\" in the second half. Market expectations suggest NVIDIA's revenue contribution to TSMC will exceed 20% this year, making it the primary growth engine. NVIDIA has become TSMC's largest customer, overtaking Apple, driven by explosive AI demand. TSMC projects the semiconductor market will reach $1 trillion this year (earlier than the 2030 forecast) and $1.5 trillion by 2030, with HPC/AI accounting for 55% of growth. Customer demand for AI accelerators is expected to grow 11-fold from 2022-2026, while large die wafer demand will increase 6-fold. This shift represents a fundamental change in TSMC's customer mix and revenue drivers, with significant implications for Taiwan's export-dependent economy and tech sector performance."
+    }
+  ],
+  "medium": [
+    {
+      "title": "AI Agent Boom Drives Server Demand Surge for Taiwan ODMs",
+      "section": "金融",
+      "date": "2026/06/01 02:09:47",
+      "url": "https://money.udn.com/money/story/5612/9537265?from=edn_maintab_cate",
+      "summary": "AI agent applications are driving unexpected demand for general-purpose servers, breaking earlier forecasts of flat growth. ODM manufacturers including Hon Hai, Quanta, Wistron, Compal, and Inventec are ramping capacity to meet double-digit growth in general server orders. The shift from AI training to inference applications requires different computing architectures, boosting CPU-based servers alongside GPU systems."
+    },
+    {
+      "title": "AI Agent Trend Accelerates Physical AI Development",
+      "section": "金融",
+      "date": "2026/05/31 02:09:53",
+      "url": "https://money.udn.com/money/story/5612/9535887?from=edn_maintab_cate",
+      "summary": "Major Taiwan tech companies including Hon Hai, Quanta, ASUS, and MediaTek are positioning for the agentic AI boom. Company executives see AI agents as the next growth phase, moving from cloud to edge devices through robotics and smart assistants. This trend is expected to drive sustained demand for AI infrastructure and edge computing solutions."
+    },
+    {
+      "title": "Hon Hai and MediaTek Highlight AI Agent Opportunities",
+      "section": "金融",
+      "date": "2026/05/31 02:09:53",
+      "url": "https://money.udn.com/money/story/5612/9535887?from=edn_maintab_cate",
+      "summary": "Taiwan technology leaders are bullish on AI agent development as the next major growth driver. Hon Hai Chairman Liu Yang-wei emphasized robots as key carriers for AI transition from cloud to edge devices. MediaTek's management sees rapid evolution from generative AI to agentic AI, predicting comprehensive ecosystem development within 1-2 years."
+    },
+    {
+      "title": "Taiwan Stock Market Eyes 46,000 Point Target on Tech Rally",
+      "section": "證券",
+      "date": "2026/06/01 02:42:27",
+      "url": "https://money.udn.com/money/story/5607/9537229?from=edn_maintab_cate",
+      "summary": "Major brokerages forecast Taiwan stocks could reach 46,000 points in June, driven by COMPUTEX tech exhibition, Apple's WWDC conference, and expected record-high May revenue for TSMC. However, foreign institutional investors hold record net short positions of 60,000 contracts, potentially creating volatility around June 17 futures settlement."
+    }
+  ],
+  "not_relevant": []
+}
