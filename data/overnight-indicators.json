@@ -1,87 +1,86 @@
 {
-  "update_time": "2026-06-01 06:34:37",
+  "update_time": "2026-06-02 07:13:58",
   "us_indices": [
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "close": 7580.06,
-      "change": 16.43,
-      "change_pct": 0.22
+      "close": 7599.96,
+      "change": 19.9,
+      "change_pct": 0.26
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "close": 26972.62,
-      "change": 55.15,
-      "change_pct": 0.2
+      "close": 27086.81,
+      "change": 114.19,
+      "change_pct": 0.42
     },
     {
       "name": "Dow Jones",
       "ticker": "^DJI",
-      "close": 51032.46,
-      "change": 363.49,
-      "change_pct": 0.72
+      "close": 51078.88,
+      "change": 46.42,
+      "change_pct": 0.09
     },
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "close": 15.32,
-      "change": -0.42,
-      "change_pct": -2.67
+      "close": 16.05,
+      "change": 0.73,
+      "change_pct": 4.77
     },
     {
       "name": "SOX (Semiconductors)",
       "ticker": "^SOX",
-      "close": 12829.38,
-      "change": 0.24,
-      "change_pct": 0.0
+      "close": 12965.65,
+      "change": 136.27,
+      "change_pct": 1.06
     }
   ],
-  "asia_indices": [
+  "asia_indices": [],
+  "sgx_futures": [
     {
-      "name": "TWSE Index",
-      "ticker": "^TWII",
-      "close": 44732.94,
-      "change": 1096.5,
-      "change_pct": 2.51
+      "name": "SGX FTSE Taiwan",
+      "contract": "TWN M26",
+      "ticker": "TWN-M26.SI",
+      "month": "Jun 2026",
+      "date": "2026-06-01",
+      "open": 3958.75,
+      "high": 4052.75,
+      "low": 3934.25,
+      "close": 4024.25,
+      "prev_close": null,
+      "change_pct": null,
+      "volume": 42262,
+      "source": "Yahoo Finance"
     },
     {
-      "name": "Hang Seng",
-      "ticker": "^HSI",
-      "close": 25182.39,
-      "change": 176.23,
-      "change_pct": 0.7
-    },
-    {
-      "name": "Nikkei 225",
-      "ticker": "^N225",
-      "close": 66329.5,
-      "change": 1636.38,
-      "change_pct": 2.53
+      "name": "SGX FTSE Taiwan",
+      "contract": "TWN N26",
+      "ticker": "TWN-N26.SI",
+      "month": "Jul 2026",
+      "date": "2026-06-01",
+      "open": 4008.0,
+      "high": 4009.0,
+      "low": 4008.0,
+      "close": 4008.25,
+      "prev_close": null,
+      "change_pct": null,
+      "volume": 19,
+      "source": "Yahoo Finance"
     }
   ],
-  "sgx_futures": [],
   "adr_signals": [
     {
       "name": "TSMC",
       "tw_ticker": "2330.TW",
       "adr_ticker": "TSM",
       "tw_close": 2355.0,
-      "tw_change_pct": 2.61,
-      "adr_close": 418.45,
-      "adr_change_pct": -1.51,
-      "fx_rate": 31.41,
+      "tw_change_pct": 0.0,
+      "adr_close": 435.63,
+      "adr_change_pct": 4.11,
+      "fx_rate": 31.32,
       "basis_table": [
-        {
-          "adr_date": "May 21",
-          "adr_close": 407.15,
-          "fx_rate": 31.44,
-          "tw_open_next": 2275.0,
-          "adr_fx": 12800.39,
-          "tw_x_ratio": 11375.0,
-          "basis": 1.1253,
-          "premium_pct": 12.53
-        },
         {
           "adr_date": "May 22",
           "adr_close": 404.52,
@@ -121,36 +120,36 @@
           "tw_x_ratio": 11700.0,
           "basis": 1.1411,
           "premium_pct": 14.11
+        },
+        {
+          "adr_date": "May 29",
+          "adr_close": 418.45,
+          "fx_rate": 31.41,
+          "tw_open_next": 2355.0,
+          "adr_fx": 13144.73,
+          "tw_x_ratio": 11775.0,
+          "basis": 1.1163,
+          "premium_pct": 11.63
         }
       ],
-      "avg_basis": 1.1235,
-      "avg_premium_pct": 12.35,
-      "predicted_open": 2339.82,
-      "gap_pct": -0.64,
-      "signal": "NEUTRAL",
-      "signal_icon": "⚪",
-      "signal_text": "Minor adjustment expected"
+      "avg_basis": 1.1217,
+      "avg_premium_pct": 12.17,
+      "predicted_open": 2433.03,
+      "gap_pct": 3.31,
+      "signal": "BULLISH",
+      "signal_icon": "🟢",
+      "signal_text": "Strong catch-up rally expected"
     },
     {
       "name": "UMC",
       "tw_ticker": "2303.TW",
       "adr_ticker": "UMC",
-      "tw_close": 144.5,
-      "tw_change_pct": 1.76,
-      "adr_close": 22.18,
-      "adr_change_pct": -2.2,
-      "fx_rate": 31.41,
+      "tw_close": 146.0,
+      "tw_change_pct": 1.04,
+      "adr_close": 22.89,
+      "adr_change_pct": 3.2,
+      "fx_rate": 31.32,
       "basis_table": [
-        {
-          "adr_date": "May 21",
-          "adr_close": 18.35,
-          "fx_rate": 31.44,
-          "tw_open_next": 115.0,
-          "adr_fx": 576.91,
-          "tw_x_ratio": 575.0,
-          "basis": 1.0033,
-          "premium_pct": 0.33
-        },
         {
           "adr_date": "May 22",
           "adr_close": 18.22,
@@ -190,36 +189,36 @@
           "tw_x_ratio": 745.0,
           "basis": 0.9566,
           "premium_pct": -4.34
+        },
+        {
+          "adr_date": "May 29",
+          "adr_close": 22.18,
+          "fx_rate": 31.41,
+          "tw_open_next": 143.0,
+          "adr_fx": 696.74,
+          "tw_x_ratio": 715.0,
+          "basis": 0.9745,
+          "premium_pct": -2.55
         }
       ],
-      "avg_basis": 0.9526,
-      "avg_premium_pct": -4.74,
-      "predicted_open": 146.27,
-      "gap_pct": 1.23,
-      "signal": "NEUTRAL",
-      "signal_icon": "⚪",
-      "signal_text": "Minor adjustment expected"
+      "avg_basis": 0.9469,
+      "avg_premium_pct": -5.31,
+      "predicted_open": 151.44,
+      "gap_pct": 3.73,
+      "signal": "BULLISH",
+      "signal_icon": "🟢",
+      "signal_text": "Strong catch-up rally expected"
     },
     {
       "name": "ASE",
       "tw_ticker": "3711.TW",
       "adr_ticker": "ASX",
-      "tw_close": 611.0,
-      "tw_change_pct": -2.55,
-      "adr_close": 38.35,
-      "adr_change_pct": -5.54,
-      "fx_rate": 31.41,
+      "tw_close": 601.0,
+      "tw_change_pct": -1.64,
+      "adr_close": 38.17,
+      "adr_change_pct": -0.47,
+      "fx_rate": 31.32,
       "basis_table": [
-        {
-          "adr_date": "May 21",
-          "adr_close": 32.64,
-          "fx_rate": 31.44,
-          "tw_open_next": 598.0,
-          "adr_fx": 1026.17,
-          "tw_x_ratio": 1196.0,
-          "basis": 0.858,
-          "premium_pct": -14.2
-        },
         {
           "adr_date": "May 22",
           "adr_close": 34.81,
@@ -259,12 +258,22 @@
           "tw_x_ratio": 1284.0,
           "basis": 0.9936,
           "premium_pct": -0.64
+        },
+        {
+          "adr_date": "May 29",
+          "adr_close": 38.35,
+          "fx_rate": 31.41,
+          "tw_open_next": 603.0,
+          "adr_fx": 1204.68,
+          "tw_x_ratio": 1206.0,
+          "basis": 0.9989,
+          "premium_pct": -0.11
         }
       ],
-      "avg_basis": 0.9299,
-      "avg_premium_pct": -7.01,
-      "predicted_open": 647.71,
-      "gap_pct": 6.01,
+      "avg_basis": 0.9581,
+      "avg_premium_pct": -4.19,
+      "predicted_open": 623.96,
+      "gap_pct": 3.82,
       "signal": "BULLISH",
       "signal_icon": "🟢",
       "signal_text": "Strong catch-up rally expected"
