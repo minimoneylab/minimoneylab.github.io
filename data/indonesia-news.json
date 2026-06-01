@@ -1,136 +1,122 @@
 {
-  "update_time": "2026-05-31 22:06:41 UTC",
+  "update_time": "2026-06-01 23:07:37 UTC",
   "country": "Indonesia",
   "source": "CNN Indonesia",
-  "total_articles": 18,
+  "total_articles": 16,
   "high": [
     {
-      "title": "Rupiah Battered Against Singapore Dollar, Touches Rp 14,000",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8509191/rupiah-babak-belur-dolar-singapura-sentuh-rp-14-000",
-      "summary": "The Indonesian Rupiah weakened significantly against the Singapore Dollar, touching the Rp 14,000 level, with SGD strengthening 7.34% year-to-date in 2026. This indicates broad-based Rupiah weakness against regional currencies beyond just the USD.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 10:58 WIB"
-    },
-    {
-      "title": "US Dollar Strengthens to Rp 17,900",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8509626/dolar-as-menguat-ke-rp-17-900",
-      "summary": "The US Dollar continued strengthening against the Rupiah, reaching Rp 17,902 during Friday trading. The Rupiah has weakened 7.33% year-to-date in 2026, creating significant pressure on import costs and inflation.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 14:47 WIB"
-    },
-    {
-      "title": "These Are the Series of Bad Impacts if USD Breaks Rp 18,200",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8509523/ini-sederet-dampak-buruk-dolar-as-tembus-rp-18-200",
-      "summary": "Currency analyst warns USD could reach Rp 18,000-18,200 next week, which would trigger psychological effects causing investors to abandon Rupiah assets. This could create a domino effect of capital outflows and further currency weakness.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 14:12 WIB"
-    },
-    {
-      "title": "IHSG Suddenly Free Falls, Big Bank Stocks Collapse",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8509896/ihsg-tiba-tiba-terjun-bebas-saham-big-bank-rontok",
-      "summary": "The Jakarta Composite Index closed weak at 6,127 after falling from daily highs of 6,230, with major banking stocks leading the decline. Trading volume reached Rp 49.94 trillion, indicating significant market volatility.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 16:54 WIB"
-    },
-    {
-      "title": "IHSG Predicted to Be Volatile Ahead of MSCI Rebalancing Determination",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8509186/ihsg-diprediksi-bergejolak-jelang-penetapan-rebalancing-msci",
-      "summary": "Indonesian stock market faces high volatility as MSCI removes 18 Indonesian stocks from its index on May 29, 2026. Passive fund managers are expected to rebalance portfolios, potentially causing significant selling pressure on affected stocks.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 10:54 WIB"
-    },
-    {
-      "title": "Coal and Palm Oil Exports Must Report to DSI Starting Tomorrow",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8511978/ekspor-batu-bara-sawit-wajib-lapor-dsi-mulai-besok",
-      "summary": "Major policy change as natural resource exports including coal, palm oil, and ferroalloy must be reported through state-owned PT Danantara Sumberdaya Indonesia starting June 1, 2026. This represents significant government control over key export sectors.",
-      "source": "Detik Finance",
-      "date": "Minggu, 31 Mei 2026 14:17 WIB"
-    },
-    {
-      "title": "Natural Resource Export Forex Must Park in State Banks Starting Tomorrow, Compliant Exporters Get Rewards",
+      "title": "New DHE Natural Resources Must Be Parked at State Banks Starting Tomorrow, Compliant Exporters Get Rewards",
       "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8512178/dhe-sda-wajib-parkir-di-bank-bumn-mulai-besok-eksportir-patuh-dapat-hadiah",
-      "summary": "New regulation requires natural resource export proceeds to be placed in three state banks (Mandiri, BRI, BNI) with 100% compliance required starting June 1, 2026. Tax incentives will be provided for compliant exporters, significantly impacting forex flows.",
+      "summary": "New regulation requiring natural resource export proceeds to be placed in three state banks (Mandiri, BRI, BNI) takes effect June 1, 2026. Finance Minister announces 100% compliance required with tax incentives for compliant exporters, significantly impacting foreign exchange management.",
       "source": "Detik Finance",
       "date": "Minggu, 31 Mei 2026 20:00 WIB"
     },
     {
-      "title": "New Pertamina Fuel Prices: Pertamax Turbo Rises",
+      "title": "Coal and Palm Oil Exports Must Report to DSI Starting Tomorrow",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8511978/ekspor-batu-bara-sawit-wajib-lapor-dsi-mulai-besok",
+      "summary": "One-gate export policy for natural resources through PT DSI begins June 1, 2026 as transition period. All coal, palm oil, and ferroalloy exporters must report activities through DSI while continuing normal operations, marking major shift in export governance.",
+      "source": "Detik Finance",
+      "date": "Minggu, 31 Mei 2026 14:17 WIB"
+    },
+    {
+      "title": "Prabowo Reveals Reason for One-Gate Natural Resource Exports Through DSI",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8513531/prabowo-ungkap-alasan-ekspor-sumber-daya-alam-satu-pintu-lewat-dsi",
+      "summary": "President Prabowo explains new export policy aims to prevent foreign control of Indonesian commodity pricing and stop profit leakage abroad. Policy seeks to ensure more economic value from natural resources stays domestically and reduce state revenue losses.",
+      "source": "Detik Finance",
+      "date": "Senin, 01 Jun 2026 18:01 WIB"
+    },
+    {
+      "title": "Indonesia's Strategy to Reduce USD Dependence After Dollar Hits Rp 17,900",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8511595/jurus-ri-tak-kecanduan-dolar-as-yang-sempat-tembus-rp-17-900",
+      "summary": "Government implements fiscal strategy to reduce USD dependence through non-USD debt issuance after dollar reached Rp 17,900. Deputy Finance Minister highlights Indonesia's economic resilience amid global uncertainty through energy mix and prudent fiscal policy.",
+      "source": "Detik Finance",
+      "date": "Minggu, 31 Mei 2026 08:58 WIB"
+    },
+    {
+      "title": "Warning for Middle Class as US Dollar Weakens Rupiah",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8511405/wanti-wanti-buat-kelas-menengah-saat-dolar-as-tekuk-rupiah",
+      "summary": "Rupiah weakens to Rp 17,881/USD with potential to breach Rp 18,000 next week. Economist warns of significant impact on import prices, electronics, and food commodities, creating import inflation concerns for consumers and businesses.",
+      "source": "Detik Finance",
+      "date": "Minggu, 31 Mei 2026 07:25 WIB"
+    },
+    {
+      "title": "New Pertamina Fuel Prices: Pertamax Turbo Increases",
       "url": "https://finance.detik.com/energi/d-8512563/harga-baru-bbm-pertamina-pertamax-turbo-naik",
-      "summary": "Pertamina increases Pertamax Turbo price by Rp 850 to Rp 20,750/liter starting June 1, 2026, while Dexlite and Pertamina Dex prices decrease significantly. This affects transportation and logistics costs across Indonesia.",
+      "summary": "Pertamina raises Pertamax Turbo price by Rp 850 to Rp 20,750/liter starting June 1, while Dexlite and Pertamina Dex prices decrease by Rp 3,000 and Rp 3,100 respectively. Price adjustments reflect market conditions and impact consumer costs.",
       "source": "Detik Finance",
       "date": "Minggu, 31 Mei 2026 22:30 WIB"
     }
   ],
   "medium": [
     {
-      "title": "European Union Worried About Being Flooded with Chinese Products",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8510230/uni-eropa-waswas-kebanjiran-produk-china",
-      "summary": "EU faces €360 billion trade deficit with China and considers measures to rebalance trade relations. This global trade tension could affect Indonesia's export competitiveness and trade relationships.",
+      "title": "Danantara to Announce DSI Executive Names Next Week",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8512034/danantara-umumkan-nama-nama-petinggi-dsi-minggu-depan",
+      "summary": "Danantara COO announces new executive appointments for PT DSI next week beyond current CEO Luke Thomas Mahony. Company emphasizes strict selection process and transparency development for the new state export entity.",
       "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 22:05 WIB"
+      "date": "Minggu, 31 Mei 2026 19:00 WIB"
     },
     {
-      "title": "Major Oil Giant BP Boss Suddenly Fired, What Happened?",
-      "url": "https://finance.detik.com/energi/d-8508943/bos-besar-raksasa-migas-bp-tiba-tiba-dipecat-ada-apa",
-      "summary": "British Petroleum fired Chairman Albert Manifold after less than a year for governance and ethics violations, causing BP shares to fall 4% in London. This corporate governance issue affects global energy sector confidence.",
+      "title": "Deputy Agriculture Minister Guarantees State Enterprise PT DSI Won't Seek Profit, Asks Businesses Not to Worry",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8510318/wamentan-jamin-bumn-pt-dsi-tak-cari-untung-pengusaha-diminta-jangan-cemas",
+      "summary": "Deputy Agriculture Minister assures that DSI will operate as transparent manager and supervisor without taking profits. Aims to address palm industry concerns following TBS price drops and minimize state losses from dubious export practices.",
       "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 08:00 WIB"
+      "date": "Sabtu, 30 Mei 2026 08:00 WIB"
     },
     {
-      "title": "Wilmar Does Not Deny Allegations of Palm Oil Export Price Manipulation",
-      "url": "https://finance.detik.com/energi/d-8508748/wilmar-tak-bantah-dugaan-manipulasi-harga-ekspor-sawit",
-      "summary": "Major palm oil company Wilmar doesn't deny allegations of crude palm oil export price manipulation, being one of 10 companies accused by Finance Minister of under-invoicing. This could impact Indonesia's palm oil export revenues.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 06:25 WIB"
-    },
-    {
-      "title": "IHSG Soars in Session I, Prajogo Pangestu's Stocks Celebrate",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8509444/ihsg-terbang-di-sesi-i-saham-prajogo-pangestu-pesta-pora",
-      "summary": "Jakarta Composite Index strengthened 1.43% to 6,217.87 in first session, led by conglomerate stocks particularly those owned by Prajogo Pangestu. Strong morning performance showed market resilience despite volatility concerns.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 13:29 WIB"
-    },
-    {
-      "title": "Purbaya Targets USD to Rp 15,000, Is It Reasonable?",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8509436/purbaya-targetkan-dolar-as-ke-rp-15-000-masuk-akal",
-      "summary": "Finance Minister Purbaya targets strengthening Rupiah to Rp 15,000/USD while current rate is Rp 17,853. Economic experts express skepticism about achieving such significant appreciation given historical trends since 2008.",
-      "source": "Detik Finance",
-      "date": "Jumat, 29 Mei 2026 13:23 WIB"
-    },
-    {
-      "title": "Danantara Still Hasn't Announced Financial Reports, Here's the Reason",
+      "title": "Danantara Delays Financial Report Announcement, Here's the Reason",
       "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8512420/danantara-tak-kunjung-umumkan-laporan-keuangan-ini-alasannya",
-      "summary": "State holding company Danantara explains delay in financial reporting due to complex consolidation of all SOE financial statements and ongoing cleanup of problematic assets. Final reports expected by mid-2026.",
+      "summary": "Danantara COO explains delayed financial reporting due to complex consolidation of all state enterprises under management. Major governance cleanup and asset impairment resolution ongoing, with report expected mid-2026.",
       "source": "Detik Finance",
       "date": "Minggu, 31 Mei 2026 20:57 WIB"
     },
     {
-      "title": "Viral News of Indomaret Mass Closure, What's Happening?",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8511943/viral-kabar-indomaret-kompak-tutup-ada-apa",
-      "summary": "Major retail chain Indomaret closes operations on May 31 and June 1, 2026, across multiple areas including Jakarta to Kediri, reportedly related to labor disputes over overtime pay. This affects retail sector operations nationwide.",
+      "title": "13th Month Salary for Civil Servants to Retirees Disbursed Starting Tomorrow",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8513236/gaji-ke-13-asn-hingga-pensiunan-cair-mulai-besok",
+      "summary": "TASPEN begins distributing 13th month salary and holiday allowances for civil servants and retirees starting June 2, 2026. Policy follows Presidential Regulation No. 9/2026 providing additional income support for government employees.",
       "source": "Detik Finance",
-      "date": "Minggu, 31 Mei 2026 13:30 WIB"
+      "date": "Senin, 01 Jun 2026 14:37 WIB"
     },
     {
-      "title": "Indonesia's Strategy to Avoid USD Addiction After Dollar Broke Rp 17,900",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8511595/jurus-ri-tak-kecanduan-dolar-as-yang-sempat-tembus-rp-17-900",
-      "summary": "Government implements fiscal strategy to reduce USD dependency by issuing debt securities in non-USD currencies. This diversification aims to strengthen Indonesia's resilience against dollar volatility and global economic uncertainty.",
+      "title": "Prabowo Discusses Economic Growth, Calls for Honest Assessment of Reality",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8513122/prabowo-bicara-pertumbuhan-ekonomi-ajak-jujur-melihat-kenyataan",
+      "summary": "President questions whether economic growth benefits are distributed fairly across all Indonesians. Calls for honest evaluation of economic development aligned with Pancasila values and acknowledgment of existing challenges.",
       "source": "Detik Finance",
-      "date": "Minggu, 31 Mei 2026 08:58 WIB"
+      "date": "Senin, 01 Jun 2026 13:04 WIB"
     },
     {
-      "title": "Warning for Middle Class When USD Defeats Rupiah",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8511405/wanti-wanti-buat-kelas-menengah-saat-dolar-as-tekuk-rupiah",
-      "summary": "Economist warns middle class about Rupiah weakness impact on imported goods prices, particularly electronics and food commodities like soybeans. Import inflation expected to significantly affect household purchasing power and living costs.",
+      "title": "Indonesia's Gold Export Benchmark Price Falls",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8513437/harga-patokan-ekspor-emas-ri-turun",
+      "summary": "Trade Ministry sets new gold export benchmark price down 1.43% to $148,396.49/kg for first half of June 2026. Decline reflects global gold correction as investors shift to yield-bearing instruments over non-yielding gold assets.",
       "source": "Detik Finance",
-      "date": "Minggu, 31 Mei 2026 07:25 WIB"
+      "date": "Senin, 01 Jun 2026 16:47 WIB"
     },
     {
-      "title": "3 Strategies to Maintain Indonesia's Economic Growth",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8511242/3-jurus-jaga-pertumbuhan-ekonomi-indonesia",
-      "summary": "Deputy Finance Minister outlines three strategies to maintain economic growth amid global uncertainty: prudent fiscal execution, good energy mix utilization, and maintaining macroeconomic stability. Indonesia shows resilience due to diversified energy sources.",
+      "title": "Prabowo Entrusts Fast Train Affairs to AHY",
+      "url": "https://finance.detik.com/infrastruktur/d-8513489/prabowo-percayakan-urusan-kereta-cepat-ke-ahy",
+      "summary": "President appoints Coordinating Minister for Infrastructure AHY as Chairman of Jakarta-Bandung High Speed Rail Committee, replacing Luhut Pandjaitan. Change reflects cabinet restructuring for improved effectiveness in infrastructure projects.",
       "source": "Detik Finance",
-      "date": "Sabtu, 30 Mei 2026 20:17 WIB"
+      "date": "Senin, 01 Jun 2026 17:31 WIB"
+    },
+    {
+      "title": "US Closes Loopholes for Advanced Chip Exports to Chinese Companies",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8513778/as-tutup-celah-ekspor-chip-canggih-ke-perusahaan-china",
+      "summary": "US Commerce Department closes regulatory gaps allowing advanced AI chips to reach Chinese companies through overseas subsidiaries. New rules require licensing for China-headquartered companies to obtain advanced US AI chips globally.",
+      "source": "Detik Finance",
+      "date": "Senin, 01 Jun 2026 22:27 WIB"
+    },
+    {
+      "title": "Danantara CEO Meets French Corporate Giants, Here's What Was Discussed",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8513740/ceo-danantara-bertemu-bos-perusahaan-raksasa-prancis-ini-yang-dibahas",
+      "summary": "Investment Minister and Danantara CEO Rosan Roeslani meets with major French companies including Amundi, Eramet, and JCDecaux in Paris. Discussions cover investment, asset management, strategic industry development, and urban infrastructure innovation partnerships.",
+      "source": "Detik Finance",
+      "date": "Senin, 01 Jun 2026 21:28 WIB"
+    },
+    {
+      "title": "Civil Servants WFH Once a Week Saves Government Budget Rp 1.95 Trillion",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8508948/asn-wfh-seminggu-sekali-anggaran-dinas-hemat-rp-1-95-t",
+      "summary": "PANRB Ministry reports weekly work-from-home policy for civil servants saves Rp 1.95 trillion in official travel costs plus Rp 65.6 billion in utilities. Policy also accelerates digital transformation with 100,817 additional electronic signature documents.",
+      "source": "Detik Finance",
+      "date": "Jumat, 29 Mei 2026 08:30 WIB"
     }
   ],
   "not_relevant": []
