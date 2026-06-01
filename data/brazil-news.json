@@ -1,35 +1,50 @@
 {
-  "date": "2026-05-31",
-  "update_time": "2026-05-31 09:01:44",
-  "total_articles": 7,
+  "date": "2026-06-01",
+  "update_time": "2026-06-01 13:24:02",
+  "total_articles": 9,
   "high": [
     {
-      "title": "Central Bank Should Make Maximum Two 25-Point Cuts to Selic in 2026, Says Matheus Spiess from Empiricus Research",
+      "title": "Foreign Capital Flight from B3: May Sees First Monthly Outflow from International Investors",
       "source": "MoneyTimes",
-      "date": "2026-05-30",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/bc-deve-fazer-no-maximo-dois-cortes-de-25-pontos-na-selic-em-2026-afirma-matheus-spiess-da-empiricus-research-lbrdbb076/",
-      "summary": "The Central Bank should implement at most one or two 25 basis point cuts to the Selic rate before pausing the easing cycle, according to Empiricus Research strategist Matheus Spiess. This dovish outlook comes as IPCA-15 inflation data for May came in above expectations at 0.62% monthly (vs. 0.57% expected), with the 12-month accumulated rate reaching 4.64% - above the BCB's 4.5% inflation target ceiling. Spiess noted that the composition of recent inflation prints is concerning, particularly the 1.36% monthly increase in food and beverages prices. The above-target inflation reading reduces room for aggressive monetary easing and supports a more cautious approach from COPOM. For BRL traders, this suggests the BCB may pause rate cuts sooner than expected, which could provide some support for the Real. Bond investors should expect limited duration gains as the easing cycle appears to be nearing its end, with yields likely to stabilize at current levels if inflation remains persistently above target."
+      "date": "2026-06-01",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/adeus-gringos-saiba-o-que-fez-maio-registrar-fuga-de-estrangeiros-da-b3-e-se-e-hora-de-seguir-a-manada-lbrdjr245/",
+      "summary": "Foreign investors withdrew R$13.8 billion from B3 in May, marking the first monthly net outflow after four consecutive months of positive inflows that totaled over R$26.5 billion in January alone. This dramatic reversal from the strong foreign appetite earlier in 2026 reflects deteriorating domestic conditions combined with external pressures from Middle East conflicts affecting global inflation expectations and interest rate trajectories. The capital flight represents a significant shift in investor sentiment toward Brazilian assets, with analysts pointing to persistent geopolitical tensions and worsening domestic environment as key drivers. For BRL traders, this outflow trend signals potential continued pressure on the Real, while bond investors should monitor whether this capital flight accelerates, potentially forcing BCB intervention or affecting government bond yields. The magnitude of the reversal—from R$26.5B inflow in January to R$13.8B outflow in May—suggests a fundamental reassessment of Brazil risk premium."
     },
     {
-      "title": "Ibovespa Has Longest Weekly Losing Streak Since 2004 and Braskem (BRKM5) Leads Negative Side",
+      "title": "Petrobras and Prio Lead Ibovespa Higher on Middle East War Impact",
       "source": "MoneyTimes",
-      "date": "2026-05-31",
-      "url": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-22-lils/",
-      "summary": "The Ibovespa extended its losing streak to seven consecutive weeks, the longest decline since 2004, falling 1.37% for the week to close at 173,787.49 points. The prolonged selloff reflects uncertainties over Middle East conflicts and domestic political risks weighing on Brazilian equities. USD/BRL gained 0.29% for the week, closing at R$5.0429, indicating continued pressure on the Real amid risk-off sentiment. The above-target IPCA-15 inflation reading of 4.64% annually (vs. 4.5% target ceiling) added to concerns about monetary policy constraints. Political uncertainty remains central to investor concerns, contributing to the sustained equity outflows. The seven-week decline matches the longest streak seen in April-May 2004, highlighting the severity of current market pessimism. For international fund managers, this presents both risks from continued political volatility and potential opportunities as valuations become more attractive."
+      "date": "2026-06-01",
+      "url": "https://www.moneytimes.com.br/como-a-guerra-no-oriente-medio-afeta-prio-prio3-e-petrobras-petr3petr4-acoes-lideram-ibovespa-nesta-segunda-1o-veja-apsa/",
+      "summary": "Petrobras (PETR3/PETR4) and Prio (PRIO3) shares surged as oil companies led Ibovespa gains following escalating US-Iran tensions. Brent crude futures jumped 7.11% to $97.57/barrel while WTI soared 8.36% to $94.61/barrel after US attacks on Iranian military installations over the weekend. This geopolitical premium in oil prices directly benefits Brazilian oil producers and could provide some support to the Real through improved trade balance dynamics, though the broader market impact remains mixed given simultaneous foreign capital outflows from Brazilian equities."
     }
   ],
   "medium": [
     {
-      "title": "Durigan Says US Designation of Criminal Factions as Terrorists Could Affect Economy",
+      "title": "Vale Falls Over 2% as Metal Commodities Weaken",
       "source": "MoneyTimes",
-      "date": "2026-05-30",
-      "url": "https://www.moneytimes.com.br/durigan-diz-que-designacao-de-faccoes-criminosas-como-terroristas-pelos-eua-pode-afetar-economia/",
-      "summary": "Finance Minister Dario Durigan warned that the US designation of Brazil's two largest criminal factions as terrorist organizations could impact the economy and put foreign investments at risk. Durigan also defended Brazil's PIX payment system, calling it \"the greatest symbol of Brazil's financial sovereignty,\" amid concerns it could be targeted as potentially facilitating organized crime. This geopolitical development could create additional headwinds for BRL and Brazilian assets if it affects investor sentiment about security and regulatory risks."
+      "date": "2026-06-01",
+      "url": "https://www.moneytimes.com.br/vale-vale3-cai-mais-de-2-nesta-segunda-feira-1o/",
+      "summary": "Vale (VALE3) dropped 2.63% to R$80.64, dragging down the Ibovespa as iron ore futures declined in Dalian (-0.19%) and Singapore (-0.80%). The mining sector selloff, led by CSN's 7.45% plunge, reflects both commodity weakness and foreign investor flight from Brazilian equities amid rising global risk aversion."
+    },
+    {
+      "title": "\"Sell in May\": Ibovespa Posts Worst Monthly Performance in 3 Years",
+      "source": "MoneyTimes",
+      "date": "2026-06-01",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/sell-in-may-maio-e-o-pior-mes-do-ano-do-ibovespa-em-3-anos-mas-sera-que-e-hora-de-ir-embora-eplu-lbrdcp149/",
+      "summary": "The Ibovespa fell approximately 6% in May, marking its worst monthly decline since 2023. The selloff was driven by persistent inflation concerns, political noise, and adverse external conditions, validating the \"sell in May\" market adage for Brazilian equities."
+    },
+    {
+      "title": "Japan's Massive FX Intervention Fails to Sustainably Weaken Dollar vs Yen, Says ING",
+      "source": "MoneyTimes",
+      "date": "2026-06-01",
+      "url": "https://www.moneytimes.com.br/maior-intervencao-cambial-desde-2004-nao-deve-frear-alta-do-dolar-contra-o-iene-diz-ing-lils/",
+      "summary": "Japan spent $73.5 billion in April-May FX intervention, the largest since 2004, temporarily pushing USD/JPY from above 160 to below 156, though the pair has since rebounded to 159.71. This highlights challenges faced by central banks attempting to counter strong dollar trends, with potential implications for other emerging market central banks including Brazil's BCB."
     }
   ],
   "not_relevant": [
-    "Sabesp (SBSP3) Concludes Auction of Share Fractions and Will Pay Holders in June",
+    "Switch Nubank (ROXO34) for Itaú (ITUB4): 10 Stocks to Invest in June and Beat Ibovespa, According to BTG",
+    "Is Embraer (EMBJ3) Still Worth Buying? See Safra and XP Evaluation",
     "Axia Energia (AXIA6) and Isa Energia (ISAE4): Worth Investing After Court Decision?",
-    "Russia and Ukraine Conduct New Exchange of Attacks on Oil and Military Installations"
+    "10 Stocks to Beat Ibovespa in June, According to BB Investimentos"
   ]
 }
