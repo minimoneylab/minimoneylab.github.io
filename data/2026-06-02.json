@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-02",
+  "update_time": "2026-06-01 23:55:41",
+  "total_articles": 33,
+  "high": [
+    {
+      "title": "AI Agent Boom Drives General Server Demand Surge, Taiwan Supply Chain Benefits from Additional Orders",
+      "section": "金融",
+      "date": "2026/06/01 02:09:47",
+      "url": "https://money.udn.com/money/story/5612/9537265?from=edn_maintab_cate",
+      "summary": "The AI agent boom is driving strong inference demand, breaking earlier supply chain expectations of flat general server demand this year. ODM manufacturers are significantly increasing general server shipment forecasts for 2026. Hon Hai (2317), Quanta (2382), Wistron (3231), Compal (2324), and Inventec (2356) are all preparing for unexpected additional orders. AI agent applications are creating new inference requirements beyond training workloads, requiring CPU and ASIC-based general servers rather than GPU-heavy AI servers. Industry projections suggest double-digit growth in general server shipments for major ODM firms, reversing previous conservative flat forecasts. This shift indicates AI market evolution from pure training to inference applications, creating sustained demand through the second half of 2026."
+    },
+    {
+      "title": "NVIDIA CEO Huang Jensen: Useful AI is Here, Tokens Become Profit Units",
+      "section": "金融",
+      "date": "2026/06/02 01:24:24",
+      "url": "https://money.udn.com/money/story/5612/9539462?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Huang Jensen declared at GTC Taipei that \"useful AI\" has arrived, with tokens becoming revenue-generating profit units and AI serving as a GDP generator. He emphasized the era of agentic AI has begun, dismissing claims that AI will cause job losses as \"nonsense.\" Huang explained that the computing model has fundamentally changed, with tokens experiencing massive demand and becoming profitable units. This drives AI companies to generate more tokens and build more AI factories, explaining Taiwan's surging compute demand. He described agents as large language models plus control frameworks capable of understanding, reasoning, acting, and using tools. Rather than replacing software companies, this will create a golden age for software firms that adapt their offerings for AI agent use."
+    },
+    {
+      "title": "NVIDIA Announces RTX Spark with MediaTek, First Windows PC Chip for AI Agents",
+      "section": "金融",
+      "date": "2026/06/02 01:17:43",
+      "url": "https://money.udn.com/money/story/5612/9539496?from=edn_maintab_cate",
+      "summary": "NVIDIA unveiled its first Windows PC super chip \"RTX Spark,\" featuring CPU co-developed with MediaTek (2454) codenamed \"N1X.\" Huang Jensen called N1X \"the world's most amazing chip,\" with related devices launching this fall. Built on ARM architecture for Windows on ARM market, challenging Intel and AMD's x86 dominance. RTX Spark integrates NVIDIA's CUDA, RTX, and AI platforms into one super chip, enabling local agents, edge models, creative workflows, and RTX gaming on a single laptop. The chip uses TSMC's (2330) 3nm process, combining Blackwell RTX GPU with 20-core Grace CPU. Over 30 laptop and 10 desktop models planned for autumn launch, with pricing expected to start at $2,000-3,000. This marks NVIDIA and Microsoft's collaboration to completely redesign PC architecture after 40 years."
+    },
+    {
+      "title": "VR Platform Enters Full Production, Orders in Hand - TSMC, Hon Hai Benefit",
+      "section": "金融",
+      "date": "2026/06/02 01:11:54",
+      "url": "https://money.udn.com/money/story/5612/9539499?from=edn_subcatelist_cate",
+      "summary": "NVIDIA CEO confirmed the new-generation AI platform Vera Rubin has entered full production with orders in hand, becoming NVIDIA's most successful new product launch. Supply chain scale for Vera Rubin is twice that of Grace Blackwell, with assembly time reduced from two hours to five minutes per rack. Vera Rubin is designed specifically for the AI agent era, supporting model thinking, tool invocation, memory management, data access, and low-latency interaction. The platform integrates Rubin GPU, Vera CPU, BlueField storage and security systems, Mellanox networking, and CPO technologies. This benefits TSMC (2330), Hon Hai (2317), Quanta (2382), and Wistron (3231) in the supply chain, with visibility extending to 2030."
+    },
+    {
+      "title": "Taiwan Stock Market June Opening Surge Reaches Five New Highs",
+      "section": "證券",
+      "date": "2026/06/02 01:56:16",
+      "url": "https://money.udn.com/money/story/5607/9539466?from=edn_maintab_cate",
+      "summary": "Taiwan stocks opened June with strong gains, achieving five new highs: TAIEX intraday peak at 45,931 points and close at 45,337 points; combined market cap reaching NT$160.04 trillion; TSMC (2330) hitting NT$2,415 per share; electronics index reaching 3,014.29 points; and Taiwan Index Futures hitting 46,465 points. Foreign investors bought NT$36.81 billion in cash market while increasing net short futures positions to 64,673 contracts - a new record. Fund managers expect continued upside momentum through mid-June driven by NVIDIA GTC, COMPUTEX, TSMC shareholder meeting, and May revenue announcements. However, risks increase after mid-June including G7 summit, Fed's first rate decision under new Chairman Walsh, and June 10 CPI data. Analysts suggest not setting index ceiling targets with potential for further record highs."
+    }
+  ],
+  "medium": [
+    {
+      "title": "NVIDIA Revenue Growth Will Push TSMC's 'NVIDIA Content' Above 20%",
+      "section": "金融",
+      "date": "2026/06/01 02:13:01",
+      "url": "https://money.udn.com/money/story/11162/9537262?from=edn_maintab_cate",
+      "summary": "With NVIDIA's new AI platform Vera Rubin entering mass production in H2 2026, NVIDIA's revenue contribution to TSMC (2330) is expected to exceed 20%, making it the largest customer. TSMC sees semiconductor market reaching $1 trillion this year, earlier than predicted 2030 milestone, with HPC/AI accounting for 55% of market growth."
+    },
+    {
+      "title": "GTC Taipei: TSMC Partners with Delta Electronics for AI Infrastructure",
+      "section": "金融",
+      "date": "2026/06/02 01:45:10",
+      "url": "https://money.udn.com/money/story/5612/9539465?from=edn_maintab_cate",
+      "summary": "TSMC (2330) EVP confirmed collaboration with Delta Electronics (2308) for AI datacenter power and cooling solutions. This marks the first public confirmation of their partnership, focusing on immersion cooling technology that reduces HPC facility power consumption by 30% and improves chip performance by 10%."
+    },
+    {
+      "title": "Hon Hai Expands to European Sovereign AI Market with French Partner Bull",
+      "section": "金融",
+      "date": "2026/06/02 01:40:17",
+      "url": "https://money.udn.com/money/story/11162/9539368?from=edn_maintab_cate",
+      "summary": "Hon Hai (2317) announced partnership with French company Bull to produce AI servers in France and Czech Republic, marking entry into European sovereign AI market. Initial investment exceeds 120 million euros (NT$44.11 billion), following similar initiatives in US, Japan, Middle East, and Africa."
+    },
+    {
+      "title": "Container Shipping Rates Surge Over 40% in May Across Major Routes",
+      "section": "金融",
+      "date": "2026/06/01 01:54:09",
+      "url": "https://money.udn.com/money/story/10871/9537185?from=edn_maintab_cate",
+      "summary": "Global shipping rates continue surging as Asian exporters rush shipments ahead of July 24 deadline for US 10% temporary tariff expiration. Shanghai Containerized Freight Index rose 15.94% weekly, with Far East-US West coast rates up 52% monthly and Far East-Europe rates up 62%. Shipping companies implementing additional GRI charges of $1,000-2,000 per container."
+    },
+    {
+      "title": "Foreign Investors Report: Mature Memory Segment to See Windfall Profits",
+      "section": "產經",
+      "date": "2026/06/01 16:30:30",
+      "url": "https://money.udn.com/money/story/5607/9538703",
+      "summary": "Morgan Stanley upgraded memory stocks citing DDR4 supply shortage expanding to 19-20% in H2 2026 versus previous 14% estimate, as major manufacturers shift capacity to DDR5. Winbond (2344) target price raised to NT$222 from NT$100, rating upgraded to Overweight. Nanya Technology (2408) target price raised to NT$380 from NT$278. Silicon capacitor technology provides additional re-rating catalyst for niche memory companies."
+    }
+  ],
+  "not_relevant": []
+}
