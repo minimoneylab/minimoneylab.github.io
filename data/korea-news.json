@@ -1,77 +1,74 @@
 {
-  "date": "2026-06-03",
-  "update_time": "2026-06-02 22:58:33",
+  "date": "2026-06-04",
+  "update_time": "2026-06-03 23:02:22",
   "total_articles": 30,
   "high": [
     {
       "title": "Dollar-Won Edges Closer to 1,520 Mark as Iran Peace Talks Falter",
       "section": "Bonds/Forex",
-      "date": "June 3rd",
+      "date": "Not specified",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=123586",
-      "summary": "The USD/KRW exchange rate surged dramatically to 1,519.00 won, jumping 14.70 won from the previous Seoul market close and approaching the critical 1,520 level. This represents significant won weakness driven by heightened geopolitical risk aversion as doubts emerged over US-Iran peace negotiations. Despite a rally in US equities, the Korean won reflected safe-haven demand for dollars amid Middle East tensions. The sharp overnight move suggests potential BOK intervention risks if the rate breaks above 1,520. For traders, this marks a key inflection point where currency authorities may step in to defend the won. The rapid 14.70 won move overnight indicates high volatility and thin liquidity conditions that could persist until geopolitical tensions ease."
+      "summary": "The USD/KRW exchange rate surged to 1,519.00 won in overnight trading, gaining 14.70 won from Seoul's close, reflecting heightened risk-averse sentiment despite a U.S. equity rally. The move higher came amid uncertainty over U.S.-Iran peace negotiations, with markets positioning defensively despite President Trump's denial of stalled talks. The won's weakness to near the psychologically important 1,520 level signals continued pressure on the Korean currency as geopolitical tensions weigh on risk assets. For KRW traders, this move represents a significant test of the 1,520 resistance level, with a break potentially opening the door to further won weakness. The disconnect between positive U.S. equity performance and won depreciation suggests Korea-specific or regional risk factors are driving FX flows, warranting close monitoring of intervention signals from Korean authorities."
     },
     {
-      "title": "Dollar-Won Rises to 1,512.90 on Risk Aversion as Iran Considers 'Expanding Front'",
-      "section": "Bonds/Forex",
-      "date": "June 2nd",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123382",
-      "summary": "The USD/KRW broke above 1,510 won to close at 1,512.90, up 5.00 won from the previous Seoul close and 8.60 won from the day session. Risk-off sentiment dominated as Iran threatened to completely blockade the Strait of Hormuz and expand the Middle East conflict in response to Israeli attacks on Lebanon. Iran also suspended US dialogue, escalating regional tensions and driving safe-haven demand for dollars. This geopolitical premium is putting significant pressure on the Korean won, with traders watching for potential BOK intervention signals. The 8.60 won intraday surge indicates heightened volatility that could challenge Korean monetary authorities' FX stability objectives."
+      "title": "[BOK Conference] BOK Board Member Lee Su-hyung - 'Monetary Policy Transmission Channels Critical in Digital Economy'",
+      "section": "Policy/Finance",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123549",
+      "summary": "Bank of Korea Monetary Policy Board member Lee Su-hyung highlighted concerns about weakening monetary policy transmission channels in the digital economy era. Speaking at the BOK International Conference, Lee warned that as non-bank institutions expand their role alongside traditional commercial banks, central bank policy effectiveness could diminish. Specifically, he raised concerns about stablecoins operating outside central bank monetary policy scope, potentially undermining policy transmission if their usage spreads. This signals the BOK's growing awareness of digital finance challenges to conventional monetary policy frameworks. For bond and FX markets, this suggests the central bank is actively studying how digital financial innovation might affect interest rate policy effectiveness, potentially influencing future policy calibration and financial stability measures."
     }
   ],
   "medium": [
     {
-      "title": "[BOK Conference] BOK Board Member Lee Su-hyung - 'Monetary Policy Transmission Channels Critical in Digital Economy'",
-      "section": "Policy/Finance",
-      "date": "June 2nd",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123549",
-      "summary": "BOK Monetary Policy Board member Lee Su-hyung highlighted concerns that digital currencies and non-bank institutions could weaken traditional monetary policy transmission channels. He warned that stablecoins operating outside central bank scope could reduce monetary policy effectiveness if their usage expands, signaling potential regulatory scrutiny ahead."
+      "title": "[Global Chart]US Job Openings Ratio Tops 1.0 Again, Highest in 15 Months",
+      "section": "Bonds/Forex",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123584",
+      "summary": "The US job openings ratio climbed to 1.033 in April from 0.951 previously, marking the first time above 1.0 since June last year. This indicates job openings now exceed unemployed workers, suggesting labor market tightening. The data could influence Federal Reserve policy considerations and impact global risk sentiment, potentially affecting KRW and Korean bond markets through capital flow channels."
     },
     {
-      "title": "[BOK Conference] Kashkari - Tokenization is This Year's 'Buzzword'... Stablecoins Also Need Regulation",
-      "section": "Policy/Finance",
-      "date": "June 2nd",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123543",
-      "summary": "Minneapolis Fed President Kashkari expressed skepticism about financial tokenization trends and argued stablecoins should face bank-level regulation. His comments at the BOK conference suggest international central bank alignment on digital currency oversight, potentially influencing Korean regulatory approaches."
+      "title": "Trump Says Iran Talks 'Going Very Well,' Deal Possible This Weekend",
+      "section": "Bonds/Forex",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123669",
+      "summary": "President Trump indicated Iran negotiations are progressing well with potential results possible over the weekend, though he cautioned deals might not materialize. This geopolitical development could reduce risk-off sentiment that has been pressuring emerging market currencies like the KRW. A successful Iran deal could support risk-on flows and potentially strengthen the won against the dollar."
     },
     {
-      "title": "Korean Air Bond Sale Draws Strong Demand on Positive Outlook, 2-Year Notes Price Below Double-Digit Spread",
-      "section": "Policy/Finance",
-      "date": "June 1st",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123341",
-      "summary": "Korean Air successfully raised 200 billion won in corporate bonds with total orders reaching 1.114 trillion won. The strong demand allowed 2-year notes to price with single-digit spreads over benchmarks, indicating healthy domestic credit markets and investor appetite for quality Korean corporate debt."
+      "title": "Warsh's First Beige Book Upgrades Economic, Inflation Outlook",
+      "section": "Bonds/Forex",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123658",
+      "summary": "The Federal Reserve's Beige Book showed 10 of 12 districts experienced slight to moderate economic growth, with most regions seeing higher inflation. This suggests continued US economic momentum and persistent price pressures, potentially supporting dollar strength and affecting Korean assets through global monetary policy expectations and capital flows."
     },
     {
       "title": "[Market Close] KOSPI Hits 8,800 High Amid Wild Swings - 'Leveraged ETFs Amplify Volatility'",
       "section": "Stocks",
-      "date": "June 2nd",
+      "date": "Not specified",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=123539",
-      "summary": "The KOSPI reached a record high above 8,800 but experienced heightened volatility attributed to new leveraged ETFs tracking individual stocks. Samsung Electronics gained 3.30% while market swings were amplified by the new leveraged products, suggesting structural changes in Korean equity market dynamics."
+      "summary": "The KOSPI closed at a record high of 8,801.49, up 0.15%, despite volatile trading amplified by new leveraged ETFs tracking Samsung Electronics and SK Hynix. Samsung gained 3.30% while SK Hynix reversed early gains to close slightly lower. The introduction of leveraged ETFs is creating new market dynamics and increased volatility in Korean equities."
     }
   ],
   "not_relevant": [
-    "S.Korea eyes $1 trillion export mark as May shipments hit fresh record",
-    "[Today's Schedule - Ministry of Finance and Economy and Other Economic Ministries]",
-    "Toss to Advance 2.14 Billion Won to 15,000 Users Hit by Duplicate Auto-Payment Error",
-    "KDB Life Preliminary Bid Draws Samsung Life, Kyobo, Taekwang - Sale Prospects Brighten",
-    "Trump, Xi's Gifts to Be Unveiled - Blue House Hosts First Anniversary Exhibition",
-    "Atlanta Fed's GDPNow Slashes Q2 Growth Forecast to 3.0%, Lowest Since Tracking Began",
-    "'Hezbollah Ready to Sign Full Ceasefire with Israel'",
-    "Trump Says Israel Halts Lebanon Attack, 'Negotiating with Iran at Rapid Pace'",
-    "SoftBank's Son Says AI Revolution '50 Times Bigger' Than Dot-Com Boom",
-    "BofA - Invest in Semiconductor, Hardware Firms Benefiting from AI Spending",
-    "Alphabet to Raise $80 Billion for AI Investment with Berkshire Contributing $10 Billion",
-    "'Samsung Is Back' - Why Market Cap Gap with SK Hynix Is Widening Again",
-    "'Korean Investors Join In'...Goldman Sachs Raises $3 Billion for Infrastructure Fund",
     "Two-track market emerges in S.Korea: AI winners and laggards",
     "Jeong Cheong-rae - 'Voting for Number 1 Will Empower Lee Government – Time to Judge Regressive PPP'",
     "President Lee Tells Prosecutors to 'Apologize and Withdraw When Wrong'",
     "Song Eon-seok - 'President Lee Publicly Threatens 'Indictment Dismissal' at Cabinet Meeting'",
-    "[Global Chart]US Job Openings Ratio Tops 1.0 Again, Highest in 15 Months",
-    "US State Department Says Iran Deal Could Come 'Today, Tomorrow, or Next Week'",
-    "Trump Denies Reports of Halted Iran Talks - 'Dialogue Ongoing Yesterday and Today'",
-    "BOE Governor - Raising Inflation Target to 3% Is Not the Answer",
+    "[BOK Conference] Kashkari - Tokenization is This Year's 'Buzzword'",
     "Wall Street Closes Higher as Semiconductors Rally Despite Alphabet's Capital Raise",
     "NH Investment & Securities Raises 400 Billion Won in Capital Increase",
-    "McDonald's Unveils New Growth Strategy to Win Back Low-Income Customers"
+    "McDonald's Unveils New Growth Strategy to Win Back Low-Income Customers",
+    "Ruling Party Leads in 13 of 16 Races - Reclaims Local Power After 4 Years",
+    "[Today's Schedule - Ministry of Economy and Finance and Other Economic Ministries]",
+    "Presidential Office Calls for NEC Accountability Over Ballot Shortage Crisis",
+    "Ruling Party Dismisses Opposition's Call to Halt Vote Count as 'Worthless'",
+    "PPP Demands Immediate Halt to Seoul Vote Count",
+    "Iran Foreign Minister - 'No Substantial Progress in US Talks'",
+    "Iranian Media - 'US-Iran Negotiations Still Ongoing'",
+    "US May ISM Services PMI Hits 54.5",
+    "GameStop Shares Surge in After-Hours Trading on Strong Earnings",
+    "S&P 500 Hits 23 Record Highs This Year - Bubble or Beast?",
+    "Morningstar Values SpaceX at $780 Billion",
+    "Palo Alto Networks Shares Fall on Net Loss Report",
+    "Marvell Technology Surges 30% After Jensen Huang Endorsement"
   ]
 }
