@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-03",
+  "update_time": "2026-06-03 00:15:47",
+  "total_articles": 36,
+  "high": [
+    {
+      "title": "Hon Hai Advances into European Sovereign AI Market with French Partner Bull",
+      "section": "金融",
+      "date": "2026/06/02 01:40:17",
+      "url": "https://money.udn.com/money/story/11162/9539368?from=edn_maintab_cate",
+      "summary": "Hon Hai (2317) announced a strategic partnership with French AI leader Bull to jointly produce AI servers and infrastructure in France and Czech Republic, marking its first entry into Europe's sovereign AI market. The initial investment exceeds 120 million euros (approximately NT$4.41 billion). This expansion follows Hon Hai's sovereign AI market penetrations in the US, Japan, Middle East, and Africa. Manufacturing and initial testing will occur at Hon Hai's Pardubice facility in Czech Republic, while final assembly, integration and system-level verification will take place at Bull's Angers facility in France. The collaboration combines Bull's expertise in AI system design and deployment with Hon Hai's global manufacturing scale and supply chain capabilities, targeting European AI factories and infrastructure with sovereign AI strategic vision."
+    },
+    {
+      "title": "TSMC Confirms Collaboration with Delta Electronics for AI Era Challenges",
+      "section": "金融",
+      "date": "2026/06/02 01:45:10",
+      "url": "https://money.udn.com/money/story/5612/9539465?from=edn_maintab_cate",
+      "summary": "TSMC (2330) Executive VP and Co-COO CC Wei publicly confirmed close cooperation with Delta Electronics (2308) for the first time at NVIDIA's GTC Taipei warm-up event. The collaboration focuses on understanding system-level deficiencies in heat dissipation and power supply to address escalating AI computational demands. This partnership represents a strategic alliance between the world's leading foundry and power supply leader. TSMC has previously implemented Delta's \"immersion cooling high-performance computing server rooms\" at its 12B fab, achieving 30% reduction in total energy consumption, 50% waste reduction, and approximately 10% improvement in chip computing performance. The collaboration is critical as AI server power consumption continues rising, making liquid cooling technology essential for next-generation data centers."
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang Declares \"Useful AI\" Has Arrived at GTC Taipei",
+      "section": "金融",
+      "date": "2026/06/02 01:24:24",
+      "url": "https://money.udn.com/money/story/5612/9539462?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang proclaimed \"useful AI\" has arrived at GTC Taipei, emphasizing that tokens have become revenue-generating profit units and AI is now a \"GDP generator.\" Huang declared the era of agentic AI has commenced, dismissing concerns about AI causing unemployment as \"nonsense.\" He highlighted that tokens are experiencing tremendous demand and have become profitable units, driving AI companies to generate more tokens and build more AI factories. This explains Taiwan's soaring computational power demand and the thriving business of related companies. Huang emphasized that agentic AI represents a new computing paradigm beyond large language models, incorporating control frameworks for understanding, reasoning, action, and tool usage. The presentation generated significant market enthusiasm, with multiple Hon Hai supply chain companies hitting daily limit ups."
+    },
+    {
+      "title": "NVIDIA Partners with MediaTek to Launch RTX Spark for Windows PCs",
+      "section": "金融",
+      "date": "2026/06/02 01:17:43",
+      "url": "https://money.udn.com/money/story/5612/9539496?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang announced RTX Spark, NVIDIA's first PC system super chip for Windows OS, featuring CPU co-developed with MediaTek (2454) codenamed \"N1X.\" Huang proclaimed N1X as \"the world's most amazing chip,\" with related devices expected to launch in autumn. This marks NVIDIA's entry into Windows on Arm (WoA) PC market, challenging Intel and AMD's x86 dominance. The chip uses Arm architecture and TSMC's (2330) 3nm process, featuring NVIDIA's Blackwell RTX GPU connected to high-performance 20-core Grace CPU. Huang declared this the first complete PC redesign in 40 years, with over 30 laptops and 10 desktop products planned for initial launch. Pricing is estimated to start from $2,000-3,000, potentially exceeding NT$100,000 depending on configuration. MediaTek officially enters Windows PC market as technology supplier through this collaboration."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Hits New Highs with Five Major Records",
+      "section": "證券",
+      "date": "2026/06/02 01:56:16",
+      "url": "https://money.udn.com/money/story/5607/9539466?from=edn_maintab_cate",
+      "summary": "Taiwan stocks opened June with strong gains, rising 604 points to close at 45,337, surpassing 45K milestone and setting five new records including market cap reaching NT$160.04 trillion. Foreign investors bought NT$36.8 billion while maintaining record-high 64,673 net short positions in index futures, suggesting continued hedging strategies."
+    },
+    {
+      "title": "Foreign Investors Hold Record 67,000 Short Positions in Taiwan Index Futures",
+      "section": "證券",
+      "date": "2026/06/02 18:34:20",
+      "url": "https://money.udn.com/money/story/5607/9541414?from=edn_maintab_cate",
+      "summary": "Foreign investors' unprecedented 67,000 short positions in Taiwan index futures likely reflect arbitrage trading due to extreme positive spread exceeding 600 points between futures and spot markets, rather than bearish sentiment. This arbitrage strategy involves shorting overpriced futures while buying equivalent cash positions to lock in the spread differential."
+    },
+    {
+      "title": "Taiwan Stock Market Experiences 1,046-Point Intraday Range",
+      "section": "證券",
+      "date": "2026/06/03 01:24:09",
+      "url": "https://money.udn.com/money/story/5607/9541875?from=edn_maintab_cate",
+      "summary": "Taiwan stocks showed extreme volatility with 1,046-point intraday range amid COMPUTEX opening and ETF rebalancing. Index closed up 219 points at 45,557 despite massive swings. Foreign exchange market saw explosive NT$35.56 billion trading volume as USD strengthened against TWD."
+    },
+    {
+      "title": "US Stocks Hit New Highs Led by AI Momentum",
+      "section": "金融",
+      "date": "2026/06/03 06:43:02",
+      "url": "https://money.udn.com/money/story/123398/9542211",
+      "summary": "US markets achieved fifth consecutive day of record closes with S&P 500 extending winning streak to nine sessions. Semiconductor stocks surged 5.9% with Marvell jumping 32.5% after Jensen Huang's endorsement. AI infrastructure theme continues driving market performance despite Middle East tensions affecting oil prices."
+    },
+    {
+      "title": "Goldman Sachs Recommends Five Taiwan Semiconductor Companies",
+      "section": "證券",
+      "date": "2026/06/03 02:14:58",
+      "url": "https://money.udn.com/money/story/5607/9541945?from=edn_maintab_cate",
+      "summary": "Goldman Sachs issued \"buy\" ratings for MediaTek, Aspeed, and three other Taiwan tech companies, citing structural demand explosion in semiconductor supply chain driven by AI infrastructure and generative AI complexity increases. Analyst highlights MediaTek's enterprise ASIC progress exceeding expectations with ASP doubling potential."
+    },
+    {
+      "title": "00919 ETF Rebalancing: 18 Stocks In, 18 Stocks Out",
+      "section": "產經",
+      "date": "2026/06/02 17:18:01",
+      "url": "https://money.udn.com/money/story/5618/9541228",
+      "summary": "Popular high-dividend ETF 00919 completed portfolio rebalancing with additions including major financials, AI beneficiaries, and high-yield stocks. New holdings include all five major life insurance groups and NVIDIA ecosystem partners, while deletions included stocks with price gains outpacing dividend growth."
+    }
+  ],
+  "not_relevant": []
+}
