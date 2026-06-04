@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-05",
+  "update_time": "2026-06-04 23:50:08",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "TSMC Shareholder Meeting: Visibility Extends to 2030, Chairman Wei Confident in AI Mega-Trend",
+      "section": "金融",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5612/9546881?from=edn_maintab_cate",
+      "summary": "TSMC Chairman Mark Liu expressed strong confidence in the AI mega-trend during yesterday's shareholder meeting, stating the company has visibility extending to 2030. He confirmed TSMC is targeting 30% USD revenue growth this year and emphasized the company's commitment to not missing any AI business opportunities. Liu acknowledged supply chain bottlenecks across the semiconductor industry, noting that sudden AI development has caught all suppliers off-guard. When asked about competition, he dismissed Samsung's 10-year catch-up timeline as \"dreaming,\" pointing to Taiwan's complete ecosystem advantage built over decades. However, he expressed concern about Taiwan's low birth rate as a potential long-term threat to maintaining technological competitiveness, noting TSMC employees have a birth rate five times the national average."
+    },
+    {
+      "title": "TSMC Chairman on Advanced Packaging: Always World Number One, Reveals New CoPoS Pilot Line",
+      "section": "金融",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5612/9546889?from=edn_maintab_cate",
+      "summary": "TSMC has built a new CoPoS (Chip on Panel on Substrate) pilot production line, but commercial mass production is still 2-3 years away, Chairman Mark Liu revealed at the shareholder meeting. CoPoS represents TSMC's next-generation advanced packaging platform, integrating CoWoS and panel-level packaging advantages with glass substrates to support larger AI and HPC chip packaging needs. Liu emphasized TSMC's commitment to maintaining world leadership in advanced packaging technology, stating \"as long as this technology exists, TSMC will always be world number one.\" The delay from original 2027 expectations reflects ongoing challenges with glass substrate warpage, yield, and production efficiency. Executive VP J.K. Lin stressed that in high-end packaging, TSMC remains the best and largest player, unafraid of competition including from Intel."
+    },
+    {
+      "title": "Broadcom Confirms Loss of Google Orders to MediaTek in ASIC Market",
+      "section": "金融",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5612/9546870?from=edn_maintab_cate",
+      "summary": "Broadcom CEO confirmed during its earnings call that major customer Google is \"seeking other suppliers,\" breaking Broadcom's monopoly on Google's TPU (Tensor Processing Unit) design orders. Industry sources directly identify MediaTek as the beneficiary, having secured Google TPU v8 and likely TPU v9 orders, with market share potentially reaching over 50%. Broadcom's stock plunged over 15% following the admission and disappointing quarterly outlook. CEO Hock Tan acknowledged the diversification is acceptable given AI computing consumption and growth rates, though he emphasized Broadcom maintains \"very, very strong agreements\" with Google involving \"very, very large\" commitment amounts. MediaTek's success in this space aligns with its previous guidance of $2 billion AI ASIC revenue in Q4 2026, representing a significant shift in the AI chip supply chain dynamics."
+    },
+    {
+      "title": "Hon Hai Strengthens AI Push with US and Korean Partnerships",
+      "section": "金融",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5612/9546874?from=edn_maintab_cate",
+      "summary": "Hon Hai announced strategic partnerships with Intel and South Korea's SK Group to advance AI initiatives. The Intel collaboration will leverage Intel's processor, silicon photonics, and software ecosystem advantages combined with Hon Hai's global manufacturing and system integration capabilities. Together they will develop comprehensive AI solutions from chips to cabinets, systems, and applications, accelerating AI-driven edge computing and Physical AI applications. The partnership includes developing commercial AI cabinet-level infrastructure solutions based on Intel Xeon processors and AI accelerators. With SK Group, Hon Hai will collaborate on AI servers, AI data centers, and energy solutions. Chairman Liu personally met with SK Group Chairman Chey Tae-won to discuss large-scale AI data center construction and market cooperation models across Asia. These partnerships position Hon Hai as a key player in next-generation AI infrastructure development."
+    }
+  ],
+  "medium": [
+    {
+      "title": "TSMC June 4 Important Financial Calendar and Shareholder Meeting",
+      "section": "金融",
+      "date": "2026/06/04",
+      "url": "https://money.udn.com/money/story/5607/9544706",
+      "summary": "Multiple companies held shareholder meetings on June 4, with TSMC being the key focus among major Taiwan listed companies. The calendar included numerous other firms across various sectors including technology, biotech, and financial services."
+    },
+    {
+      "title": "Taiwan Stocks Hit 46K as Electronics and Financials Rally",
+      "section": "證券",
+      "date": "2026/06/04",
+      "url": "https://money.udn.com/money/story/5607/9544412?from=edn_maintab_cate",
+      "summary": "Taiwan stocks surged 901 points to close at 46,459, setting five new records including intraday and closing highs. TSMC reached a new high of NT$2,425 ahead of its shareholder meeting. Foreign investors bought NT$433.9 billion, marking four consecutive days of net buying. Over 1,000 stocks rose, with 52 stocks trading above NT$1,000."
+    },
+    {
+      "title": "Nanya Technology May Revenue Surges 7.3 Times Year-on-Year",
+      "section": "金融",
+      "date": "2026/06/04",
+      "url": "https://money.udn.com/money/story/5612/9544342?from=edn_subcatelist_cate",
+      "summary": "Nanya Technology reported May revenue of NT$27.67 billion, up 7.3 times year-on-year and marking seven consecutive months of record highs. First-five-month revenue exceeded NT$100 billion for the first time. CEO expects memory shortage to continue through 2027, with some customer contracts extending to three years."
+    },
+    {
+      "title": "Quanta AI Server Business Enters Explosive Growth Phase",
+      "section": "金融",
+      "date": "2026/06/04",
+      "url": "https://money.udn.com/money/story/11162/9544321?from=edn_maintab_cate",
+      "summary": "Quanta's AI server revenue ratio is expected to double from 5% at year-start to over 10% by year-end. The company is expanding US and Vietnam AI server capacity, with Texas facilities coming online in H2. Management expects triple-digit growth in AI server business for 2027."
+    },
+    {
+      "title": "Taiwan Stocks Face Foreign Selling Pressure, Electronics Sector Powers Down",
+      "section": "證券",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5607/9546885?from=edn_maintab_cate",
+      "summary": "Taiwan stocks fell 781 points to 45,677 as foreign investors sold NT$75.68 billion worth of shares. Electronics index dropped 2.1% below 3,000 points. However, analysts view this as healthy correction since multi-day moving averages remain intact."
+    }
+  ],
+  "not_relevant": []
+}
