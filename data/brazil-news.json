@@ -1,25 +1,48 @@
 {
-  "date": "2026-06-03",
-  "update_time": "2026-06-03 12:21:20",
-  "total_articles": 2,
+  "date": "2026-06-04",
+  "update_time": "2026-06-04 10:42:43",
+  "total_articles": 7,
   "high": [
     {
       "title": "Safra Downgrades PRIO (PRIO3) and Brava (BRAV3) After Rally and Sees Petrobras (PETR4) as Best Sector Bet",
       "source": "MoneyTimes",
       "date": "2026-06-03",
       "url": "https://www.moneytimes.com.br/safra-rebaixa-prio-prio3-e-brava-brav3-apos-rali-e-ve-petrobras-petr4-como-melhor-aposta-do-setor-vtra/",
-      "summary": "Safra revised its recommendations for Brazil's oil exploration and production sector, adopting a more selective stance among listed companies. The bank maintained its buy recommendation for Petrobras (PETR4) but downgraded PRIO (PRIO3) and Brava Energia (BRAV3) to neutral, citing limited upside potential after recent stock rallies driven by higher oil prices. Analysts Conrado Vegner and Vinícius Andrade noted that persistent Middle East conflicts have kept oil prices significantly above consensus expectations, prompting a sector reassessment. Safra raised Petrobras' price target from R$43 to R$57 per share, seeing 37% appreciation potential and 49% total return including dividends. This is highly relevant for equity traders as Petrobras is the largest component of the Ibovespa index and a major driver of Brazilian market performance. The upgrade reflects both oil price dynamics and Petrobras' strategic position, which could support broader market sentiment and attract foreign capital flows into Brazilian equities."
+      "summary": "Safra revised its recommendations for Brazil's oil exploration and production sector, adopting a more selective stance. The bank maintained a buy recommendation for Petrobras (PETR4) but downgraded PRIO (PRIO3) and Brava Energia (BRAV3) to neutral, citing limited upside potential after recent rallies driven by oil price gains. With persistent Middle East conflicts keeping oil prices significantly above consensus expectations, Safra raised Petrobras' target price from R$43 to R$57 per share, seeing 37% appreciation potential and 49% total return including dividends. This development is significant for equity investors as Petrobras represents a major Ibovespa component and the energy sector's performance directly impacts the broader Brazilian market. The bank's selective approach reflects oil price volatility concerns and suggests defensive positioning within the energy space."
     },
     {
-      "title": "Petrobras (PETR4) Increases Gasoline Prices; See What This Reveals to the Market",
+      "title": "Petrobras (PETR4) Increases Gasoline Prices; Here's What This Reveals to the Market",
       "source": "MoneyTimes",
       "date": "2026-06-03",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/petrobras-petr4-aumenta-os-precos-da-gasolina-veja-o-que-isso-revela-ao-mercado-lbrdgm063/",
-      "summary": "Petrobras implemented a R$0.48 per liter increase in Type A gasoline prices to distributors, effective May 29th, following earlier warnings from CEO Magda Chambriard about impending adjustments due to rising international oil prices amid Middle East conflicts. The decision comes after Petrobras adhered to an economic subsidy established by Provisional Measure No. 1,358 on May 20th, creating a commercial policy with the government that avoids full pass-through of international oil volatility to Brazilian consumers. This pricing adjustment is significant for inflation expectations and monetary policy, as fuel prices are a key IPCA component that could influence BCB's Selic rate decisions. The subsidy mechanism shows government intervention to control inflation pressures, which is crucial for BRL stability and bond yields, as it may help contain inflationary pressures while supporting Petrobras' margins and dividends."
+      "summary": "Petrobras implemented a R$0.48 per liter gasoline price increase effective May 29, following CEO Magda Chambriard's earlier warning amid rising international oil prices driven by Iran War escalation. The state oil company had previously adhered to economic subsidies established by Provisional Measure 1,358, creating a commercial policy with the government to avoid fully passing through international oil volatility to Brazilian consumers. This price adjustment reflects the challenge of balancing global commodity exposure with domestic price stability. For investors, this signals potential inflationary pressure that could influence BCB monetary policy decisions and impact both BRL weakness and fixed income markets, as energy costs are a key IPCA component."
     }
   ],
-  "medium": [],
+  "medium": [
+    {
+      "title": "Nubank (ROXO34) Announces Share Buyback Program Worth US$ 1 Billion",
+      "source": "MoneyTimes",
+      "date": "2026-06-04",
+      "url": "https://www.moneytimes.com.br/nubank-roxo34-anuncia-recompra-de-acoes-no-valor-de-us-1-bilhao-igdl/",
+      "summary": "Nubank's board approved a US$1 billion (approximately R$5.08 billion) share buyback program starting immediately with 12-month duration. This represents significant capital deployment by Brazil's largest fintech and reflects confidence in the banking sector. The buyback could support Ibovespa performance given Nubank's weight in the index and signals positive sentiment in Brazilian financial services."
+    },
+    {
+      "title": "Recommended Portfolio: 10 Stocks to Invest in June, According to Safra",
+      "source": "MoneyTimes",
+      "date": "2026-06-04",
+      "url": "https://www.moneytimes.com.br/carteira-recomendada-10-acoes-para-ter-em-junho-segundo-o-safra-lmrs/",
+      "summary": "Safra adjusted its June stock portfolio, replacing RD Saúde (RADL3) with Porto (PSSA3) in a defensive move toward value names with lower multiples. The portfolio includes major Ibovespa components: Petrobras (PETR4), Bradesco (BBDC4), Vale (VALE3), plus Direcional, Multiplan, Equatorial, Motiva, Copel, and slightly reduced Itaúsa (ITSA4). This positioning reflects defensive strategy amid market volatility."
+    },
+    {
+      "title": "Raízen (RAIZ4) Sells Argentina Operations for R$ 7.2 Billion",
+      "source": "MoneyTimes",
+      "date": "2026-06-04",
+      "url": "https://www.moneytimes.com.br/em-meio-a-reestruturacao-raizen-raiz4-vende-operacoes-na-argentina-por-r-72-bilhoes-igdl/",
+      "summary": "Raízen sold its Argentine downstream operations to Mercuria-controlled entities for US$1.42 billion (R$7.21 billion), including cash payment and debt assumption. The transaction covers distribution, marketing, and logistics assets, with proceeds earmarked for capital structure management and debt reduction. This represents significant capital optimization for the major Brazilian energy company."
+    }
+  ],
   "not_relevant": [
-    "[No irrelevant articles - both articles relate to Petrobras, a major SOE affecting Brazilian markets]"
+    "Solution for Faster Credit with Lower Interest Rates May Be in Your Garage",
+    "European Stock Markets Trade Mixed with Israel-Lebanon Truce and US-Iran Expectations"
   ]
 }
