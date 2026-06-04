@@ -401,11 +401,9 @@ def make_infographic(core_data, dynamic_data, date_str, one_liner="", weekly=Fal
 
             draw.rounded_rectangle([PAD, y, W-PAD, y+66], radius=10, fill=PANEL, outline=BORDER, width=1)
 
-            # Tinted fill bar using palette accent
-            r = int(ACCENT[0] * 0.35) if pct >= 0 else 10
-            g = int(ACCENT[1] * 0.12) if pct >= 0 else 30
-            b = int(ACCENT[2] * 0.12) if pct >= 0 else 70
-            draw.rounded_rectangle([PAD, y, PAD+bar_w+60, y+66], radius=10, fill=(r, g, b))
+            # Tinted fill bar — always red=up, blue=down (Japan convention)
+            bar_fill = (80, 20, 20) if pct >= 0 else (10, 30, 70)
+            draw.rounded_rectangle([PAD, y, PAD+bar_w+60, y+66], radius=10, fill=bar_fill)
 
             short_name = name[:18] + ("…" if len(name) > 18 else "")
             draw.text((PAD+18, y+10), short_name, font=f28b, fill=WHITE)
@@ -422,7 +420,6 @@ def make_infographic(core_data, dynamic_data, date_str, one_liner="", weekly=Fal
 
     # Watermark
     f26b = font(26, bold=True)
-    f20  = font(20)
     draw.text((cx("@mini_money.lab", f26b), H-56), "@mini_money.lab", font=f26b, fill=MUTED)
 
     path = "market_museum_japan_infographic.jpg"
