@@ -1,0 +1,32 @@
+name: Market Museum Japan
+
+on:
+  schedule:
+    - cron: '30 6 * * 1-5'  # Daily: Mon-Fri, TSE close (3:30pm JST = 06:30 UTC)
+    - cron: '0 7 * * 0'     # Weekly recap: Sunday (7:00 UTC = 3:00pm HKT)
+  workflow_dispatch:         # Manual trigger for testing
+
+jobs:
+  run-japan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install google-genai pillow python-telegram-bot yfinance
+
+      - name: Run Japan Market Museum
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python market_museum_japan.py
