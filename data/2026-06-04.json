@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-04",
+  "update_time": "2026-06-04 00:17:54",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "TSMC Shareholder Meeting Begins on June 4",
+      "section": "金融",
+      "date": "2026/06/04 06:43:33",
+      "url": "https://money.udn.com/money/story/5607/9544706",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) will hold its shareholder meeting on June 4, which is expected to be a major market catalyst. Market analysts anticipate TSMC may announce increased capital expenditure beyond the current $52-56 billion range and potentially raise 2026 revenue growth guidance above the current 30% target. Given the intense AI infrastructure competition with Google's $80 billion fundraising and downstream expansion, TSMC may need to accelerate capacity expansion. The company has already indicated that capital expenditure will increase significantly through 2029, with revenue CAGR targets of 25% and AI-related revenue growing at over 54% annually. This meeting could trigger substantial market movements, potentially driving Taiwan's stock index toward the 47,000-48,000 point range."
+    },
+    {
+      "title": "Taiwan Stock Index Surges 901 Points to Cross 46,000 Milestone",
+      "section": "證券",
+      "date": "2026/06/04 01:46:40",
+      "url": "https://money.udn.com/money/story/5607/9544412?from=edn_maintab_cate",
+      "summary": "Taiwan's stock index soared 901 points to close at 46,459, crossing the 46,000 milestone for the first time. The rally was driven by both electronics and financial sectors, setting multiple records including intraday and closing highs, total market capitalization, electronics index, and financial index. TSMC reached a new high of NT$2,425 ahead of its shareholder meeting. Foreign investors bought NT$43.39 billion worth of stocks for the fourth consecutive day, with cumulative purchases reaching NT$171.18 billion over four days. The number of stocks trading above NT$1,000 returned to 52, matching historical records. Market momentum remains strong with upcoming catalysts including Apple's WWDC, SpaceX IPO, and the World Cup."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Goldman Sachs Recommends Five Taiwan Semiconductor Companies as \"Buy\"",
+      "section": "證券",
+      "date": "2026/06/03 02:14:58",
+      "url": "https://money.udn.com/money/story/5607/9541945?from=edn_maintab_cate",
+      "summary": "Goldman Sachs upgraded five Taiwan tech companies including MediaTek and Aspeed to \"buy\" ratings, citing a \"structural demand explosion period\" driven by AI infrastructure. MediaTek's enterprise ASIC progress exceeds expectations with next-generation chips requiring advanced packaging, targeting Q4 2027 production with doubled ASP. Aspeed benefits from AI server management chip demand surge with new AST2700 pricing at $22-25 versus $16 for previous generation."
+    },
+    {
+      "title": "Nanya Technology Reports Record May Revenue of NT$27.67 Billion",
+      "section": "金融",
+      "date": "2026/06/04 00:56:13",
+      "url": "https://money.udn.com/money/story/5612/9544342?from=edn_subcatelist_cate",
+      "summary": "Nanya Technology posted record May revenue of NT$27.67 billion, up 8.55% monthly and 730% yearly, marking seven consecutive months of record highs. The DRAM manufacturer benefits from severe memory shortages and AI-driven demand, with management expecting supply-demand imbalance to persist through 2027. Customer contracts now extend up to three years, reflecting desperate capacity securing efforts."
+    },
+    {
+      "title": "Quanta's AI Server Business Enters Explosive Growth Phase",
+      "section": "金融",
+      "date": "2026/06/04 01:07:08",
+      "url": "https://money.udn.com/money/story/11162/9544321?from=edn_subcatelist_cate",
+      "summary": "Quanta Computer expects AI server revenue share to double to over 10% by year-end from 5% early this year. The company targets triple-digit AI server revenue growth in 2027 as US Texas facilities reach full capacity. Engineering headcount expanded from 600 to 1,000 focused on AI server power, thermal, and mechanical design capabilities."
+    },
+    {
+      "title": "Aspeed: Strong Order Flow Exceeds Expectations This Year",
+      "section": "金融",
+      "date": "2026/06/04 01:41:51",
+      "url": "https://money.udn.com/money/story/5612/9544420?from=edn_maintab_cate",
+      "summary": "Aspeed chairman indicates 2026 orders significantly exceed expectations with both AI and general server demand surging. Some customers already planning 2027 requirements, though substrate supply bottlenecks may not ease until Q4. The company maintains optimistic outlook for 2027 with massive order visibility for both AI and general servers."
+    },
+    {
+      "title": "Hon Hai Receives Praise from NVIDIA CEO for Vera Rubin Cabinet Design",
+      "section": "金融",
+      "date": "2026/06/04 01:36:06",
+      "url": "https://money.udn.com/money/story/5612/9544431?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang praised Hon Hai's Vera Rubin cabinet design as \"very elegant\" during COMPUTEX visit. Hon Hai is ramping full production of Vera Rubin cabinets with shipments starting second half 2026. The 100% automated factory can produce one unit per minute, supporting strong market response for the high-end AI infrastructure product."
+    },
+    {
+      "title": "US Commerce Department Recommends 10% Tariffs on Taiwan Over Forced Labor Concerns",
+      "section": "產經",
+      "date": "2026/06/03 11:33:50",
+      "url": "https://money.udn.com/money/story/5599/9542802",
+      "summary": "The US Trade Representative's office proposed 10% tariffs on imports from Taiwan and other trading partners including Canada, Mexico, EU, and UK, citing forced labor concerns. China, India, Japan, and South Korea face higher 12.5% proposed rates. This represents Trump's effort to rebuild comprehensive tariff barriers using Section 301 trade law authority after previous measures were struck down by the Supreme Court."
+    }
+  ],
+  "not_relevant": []
+}
