@@ -1,74 +1,84 @@
 {
-  "date": "2026-06-04",
-  "update_time": "2026-06-03 23:02:22",
-  "total_articles": 30,
+  "date": "2026-06-05",
+  "update_time": "2026-06-04 22:19:47",
+  "total_articles": 31,
   "high": [
     {
-      "title": "Dollar-Won Edges Closer to 1,520 Mark as Iran Peace Talks Falter",
-      "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123586",
-      "summary": "The USD/KRW exchange rate surged to 1,519.00 won in overnight trading, gaining 14.70 won from Seoul's close, reflecting heightened risk-averse sentiment despite a U.S. equity rally. The move higher came amid uncertainty over U.S.-Iran peace negotiations, with markets positioning defensively despite President Trump's denial of stalled talks. The won's weakness to near the psychologically important 1,520 level signals continued pressure on the Korean currency as geopolitical tensions weigh on risk assets. For KRW traders, this move represents a significant test of the 1,520 resistance level, with a break potentially opening the door to further won weakness. The disconnect between positive U.S. equity performance and won depreciation suggests Korea-specific or regional risk factors are driving FX flows, warranting close monitoring of intervention signals from Korean authorities."
+      "title": "Korean won worst performer among Asian peers, tests new crisis-era low of 1,550",
+      "section": "Markets",
+      "date": "2026-06-04",
+      "url": "https://www.kedglobal.com/foreign-exchange/newsView/ked202606040005",
+      "summary": "The Korean won has become the worst performing Asian currency, trading above the psychologically critical 1,500 level against the USD despite South Korea posting a record current account surplus and upgraded growth forecasts. This defies conventional economic theory where strong fundamentals should support currency strength. The Bank of Korea is expected to raise policy rates at least twice to 3.0% this year as Governor Shin Hyun-song's administration gains scope to combat rising inflation thanks to resilient economic growth. Deputy Governor Yoo Sang-dae's recent comments have jolted bond markets and heightened expectations of a monetary policy turning point. The won's persistent weakness at these levels raises concerns about potential BOK intervention and suggests deeper structural issues in FX markets. International fund managers should monitor for any verbal or actual intervention signals from the BOK, particularly if USD/KRW approaches the 1,550 crisis-era resistance level mentioned in the headline."
     },
     {
-      "title": "[BOK Conference] BOK Board Member Lee Su-hyung - 'Monetary Policy Transmission Channels Critical in Digital Economy'",
-      "section": "Policy/Finance",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123549",
-      "summary": "Bank of Korea Monetary Policy Board member Lee Su-hyung highlighted concerns about weakening monetary policy transmission channels in the digital economy era. Speaking at the BOK International Conference, Lee warned that as non-bank institutions expand their role alongside traditional commercial banks, central bank policy effectiveness could diminish. Specifically, he raised concerns about stablecoins operating outside central bank monetary policy scope, potentially undermining policy transmission if their usage spreads. This signals the BOK's growing awareness of digital finance challenges to conventional monetary policy frameworks. For bond and FX markets, this suggests the central bank is actively studying how digital financial innovation might affect interest rate policy effectiveness, potentially influencing future policy calibration and financial stability measures."
+      "title": "Dollar-Won Trades in Early 1,530s in New York Session",
+      "section": "Bonds/Forex",
+      "date": "2026-06-04",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123853",
+      "summary": "USD/KRW continued its upward trajectory, trading at 1,532.00 won during the New York session, up 15.60 won from the previous day. This represents further weakness in the Korean currency, approaching the critical 1,550 level highlighted in market analysis. The won's decline occurred despite global USD weakness from Israel-Lebanon ceasefire developments, suggesting Korea-specific factors are driving the currency lower. For KRW traders, this level represents a critical juncture where BOK intervention becomes increasingly likely, making risk management essential for any KRW long positions."
+    },
+    {
+      "title": "Foreigners Stage W7 Trillion 'Exit' from KOSPI - Largest Single-Day Selloff This Year",
+      "section": "Stocks",
+      "date": "2026-06-04",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123810",
+      "summary": "Foreign investors executed the largest single-day selloff of 2026, dumping 6.95 trillion won ($5.87 billion) worth of KOSPI shares on June 4th. This massive outflow represents the largest selling volume since May 7th's 6.6 trillion won exodus and brings total foreign net selling to 115.97 trillion won year-to-date. The unprecedented capital flight directly explains the Korean won's weakness and suggests deteriorating foreign investor sentiment toward Korean assets. This exodus creates a dual pressure on both KRW and Korean equities, potentially forcing the BOK into more aggressive policy responses. Fund managers should expect continued volatility in both FX and equity markets as this selling pressure may persist."
     }
   ],
   "medium": [
     {
-      "title": "[Global Chart]US Job Openings Ratio Tops 1.0 Again, Highest in 15 Months",
+      "title": "US Q1 Unit Labor Costs Rise 1.8%, Below Market Expectations",
       "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123584",
-      "summary": "The US job openings ratio climbed to 1.033 in April from 0.951 previously, marking the first time above 1.0 since June last year. This indicates job openings now exceed unemployed workers, suggesting labor market tightening. The data could influence Federal Reserve policy considerations and impact global risk sentiment, potentially affecting KRW and Korean bond markets through capital flow channels."
+      "date": "2026-06-04",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123858",
+      "summary": "US first-quarter unit labor costs increased 1.8% seasonally adjusted, falling short of the 2.5% market expectation. This below-forecast reading suggests moderating wage pressures, which could influence Fed policy decisions and impact USD strength against emerging market currencies like the KRW. Lower labor cost inflation provides more room for Fed policy flexibility."
     },
     {
-      "title": "Trump Says Iran Talks 'Going Very Well,' Deal Possible This Weekend",
+      "title": "US Treasuries Rally on Israel-Lebanon Ceasefire Agreement",
       "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123669",
-      "summary": "President Trump indicated Iran negotiations are progressing well with potential results possible over the weekend, though he cautioned deals might not materialize. This geopolitical development could reduce risk-off sentiment that has been pressuring emerging market currencies like the KRW. A successful Iran deal could support risk-on flows and potentially strengthen the won against the dollar."
+      "date": "2026-06-04",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123857",
+      "summary": "US Treasury prices strengthened as Israel-Lebanon ceasefire news sparked expectations for broader regional peace, with 10-year yields falling 3.40bp to 4.457%. The risk-off unwind typically supports safe haven flows, though Korean bonds may not benefit given domestic pressures. This global yield decline could provide some relief for Korean government bond markets if sustained."
     },
     {
-      "title": "Warsh's First Beige Book Upgrades Economic, Inflation Outlook",
+      "title": "Dollar Weakens as Israel, Lebanon Agree to Implement Ceasefire",
       "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123658",
-      "summary": "The Federal Reserve's Beige Book showed 10 of 12 districts experienced slight to moderate economic growth, with most regions seeing higher inflation. This suggests continued US economic momentum and persistent price pressures, potentially supporting dollar strength and affecting Korean assets through global monetary policy expectations and capital flows."
+      "date": "2026-06-04",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123852",
+      "summary": "The USD declined broadly as Israel-Lebanon ceasefire agreement and falling oil prices reduced geopolitical risk premiums. However, KRW failed to benefit from general USD weakness, highlighting Korea-specific pressures driving the currency lower. This divergence underscores the severity of capital outflow pressures facing Korean markets."
     },
     {
-      "title": "[Market Close] KOSPI Hits 8,800 High Amid Wild Swings - 'Leveraged ETFs Amplify Volatility'",
-      "section": "Stocks",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123539",
-      "summary": "The KOSPI closed at a record high of 8,801.49, up 0.15%, despite volatile trading amplified by new leveraged ETFs tracking Samsung Electronics and SK Hynix. Samsung gained 3.30% while SK Hynix reversed early gains to close slightly lower. The introduction of leveraged ETFs is creating new market dynamics and increased volatility in Korean equities."
+      "title": "Lebanon's Hezbollah Calls Israel Negotiations 'Shameful,' Effectively Rejects Ceasefire",
+      "section": "Bonds/Forex",
+      "date": "2026-06-04",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=123856",
+      "summary": "Hezbollah leader rejected the Lebanon-Israel ceasefire as \"meaningless, humiliating, and shameful,\" creating uncertainty about the durability of peace efforts. This development could reverse earlier safe-haven unwinding and support USD strength, adding pressure to emerging market currencies including KRW."
     }
   ],
   "not_relevant": [
-    "Two-track market emerges in S.Korea: AI winners and laggards",
-    "Jeong Cheong-rae - 'Voting for Number 1 Will Empower Lee Government – Time to Judge Regressive PPP'",
-    "President Lee Tells Prosecutors to 'Apologize and Withdraw When Wrong'",
-    "Song Eon-seok - 'President Lee Publicly Threatens 'Indictment Dismissal' at Cabinet Meeting'",
-    "[BOK Conference] Kashkari - Tokenization is This Year's 'Buzzword'",
-    "Wall Street Closes Higher as Semiconductors Rally Despite Alphabet's Capital Raise",
-    "NH Investment & Securities Raises 400 Billion Won in Capital Increase",
-    "McDonald's Unveils New Growth Strategy to Win Back Low-Income Customers",
     "Ruling Party Leads in 13 of 16 Races - Reclaims Local Power After 4 Years",
-    "[Today's Schedule - Ministry of Economy and Finance and Other Economic Ministries]",
+    "Today's Schedule - Ministry of Economy and Finance and Other Economic Ministries",
     "Presidential Office Calls for NEC Accountability Over Ballot Shortage Crisis",
     "Ruling Party Dismisses Opposition's Call to Halt Vote Count as 'Worthless'",
-    "PPP Demands Immediate Halt to Seoul Vote Count",
-    "Iran Foreign Minister - 'No Substantial Progress in US Talks'",
-    "Iranian Media - 'US-Iran Negotiations Still Ongoing'",
-    "US May ISM Services PMI Hits 54.5",
+    "PPP Demands Immediate Halt to Seoul Vote Count, Formally Requests Election Postponement",
+    "Trump Says Iran Talks 'Going Very Well,' Deal Possible This Weekend",
+    "Iran Foreign Minister - 'No Substantial Progress in US Talks... But Contact Remains Open'",
+    "Warsh's First Beige Book Upgrades Economic, Inflation Outlook",
+    "Iranian Media - 'US-Iran Negotiations Still Ongoing... Four-Phase Implementation to Follow MOU Agreement'",
+    "US May ISM Services PMI Hits 54.5, Beating Expectations for 23rd Consecutive Month of Expansion",
     "GameStop Shares Surge in After-Hours Trading on Strong Earnings",
     "S&P 500 Hits 23 Record Highs This Year - Bubble or Beast?",
-    "Morningstar Values SpaceX at $780 Billion",
+    "Morningstar Values SpaceX at $780 Billion - 'Avoid This IPO'",
     "Palo Alto Networks Shares Fall on Net Loss Report",
-    "Marvell Technology Surges 30% After Jensen Huang Endorsement"
+    "Marvell Technology Surges 30% After Jensen Huang Touts as Next Trillion-Dollar Company",
+    "Cho Kuk Resigns as Rebuilding Korea Party Leader Over Local Election Defeat",
+    "Former KB Kookmin Card CEO Lee Dong-chul Tapped as Next Credit Finance Association Chief",
+    "Private Sector Professionals Dominate Financial Industry Association Leadership Appointments",
+    "Oh Se-hoon Clinches Dramatic Comeback Victory in Seoul Mayoral Race",
+    "South Korea Seeks to Revitalize Duty-Free Industry, Hears Proposals on License Fee Cuts",
+    "Korea Investment & Securities Partners with Coinone to Build Proprietary STO Platform",
+    "Global No. 4 Crypto Exchange OKX Vows to Share 13 Years of Expertise for Mutual Growth with Coinone",
+    "National Pension-Samsung Second Hearing Ends Inconclusively",
+    "TSMC Chairman Wishes Musk's 'Terafab' Plan 'Good Luck'"
   ]
 }
