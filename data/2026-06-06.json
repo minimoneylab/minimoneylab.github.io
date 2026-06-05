@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-06",
+  "update_time": "2026-06-05 23:49:47",
+  "total_articles": 33,
+  "high": [
+    {
+      "title": "Foreign Investors Sell Over NT$826 Billion, Taiwan Stock Market Plunges 606 Points Despite National Team Rescue",
+      "section": "證券",
+      "date": "2026/06/06",
+      "url": "https://money.udn.com/money/story/5607/9549055?from=edn_maintab_cate",
+      "summary": "Taiwan's stock market experienced severe selling pressure yesterday, with the index plummeting to an intraday low of 44,209 points (down 1,467 points) before recovering to close at 45,070 points, down 606 points. Foreign investors led the massive selloff with NT$826.3 billion in net sales, marking the sixth-largest foreign outflow this year. The \"national team\" of eight major state-owned banks immediately stepped in with NT$230.6 billion in purchases, their second consecutive day of buying over NT$200 billion. TSMC alone received NT$61 billion in support from state banks. Despite the intervention, this represents a critical test of market stability as foreign sentiment turns negative amid global semiconductor sector concerns and rising US interest rate expectations."
+    },
+    {
+      "title": "TSMC Delays Advanced CoPoS Packaging Timeline to 2028-2029",
+      "section": "金融",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5612/9546889?from=edn_maintab_cate",
+      "summary": "TSMC revealed it has established a new-generation CoPoS pilot production line but estimates it will take 2-3 years before entering large-scale production, pushing the timeline to 2028-2029. CoPoS represents TSMC's next-generation advanced packaging platform that integrates CoWoS advantages with panel-level packaging using glass substrates for larger AI and HPC chip packaging needs. The delay reflects challenges in glass substrate manufacturing processes including warping, yield rates, and production efficiency. This timeline extension has significant implications for AI infrastructure development and competitive positioning in advanced packaging, as Intel and other competitors are also developing high-end packaging technologies."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Broadcom Confirms Loss of Google's Exclusive TPU Orders to MediaTek",
+      "section": "金融",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5612/9546870?from=edn_maintab_cate",
+      "summary": "Broadcom officially acknowledged that major customer Google is \"seeking other suppliers\" for its Tensor Processing Unit (TPU) designs, ending Broadcom's exclusive supply position. Industry sources confirm MediaTek is winning these orders, potentially capturing over 50% market share in Google's TPU business. MediaTek has secured Google TPU v8 contracts and is expected to win TPU v9 projects, with AI ASIC revenue projected to reach $20 billion in Q4 2026."
+    },
+    {
+      "title": "Hon Hai Forms Strategic Alliances with Intel and SK Group for AI Infrastructure",
+      "section": "金融",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/5612/9546874?from=edn_maintab_cate",
+      "summary": "Hon Hai announced strategic partnerships with Intel and South Korea's SK Group to accelerate AI platform development. The Intel collaboration focuses on comprehensive AI solutions from chips to applications, while the SK Group partnership targets AI servers, data centers, and energy solutions. Chairman Liu Young-way met with SK Group Chairman Chey Tae-won to discuss large-scale AI infrastructure construction and market cooperation models across Asia."
+    },
+    {
+      "title": "New Taiwan Dollar Closes at 31.475, Down 0.05%",
+      "section": "證券",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/12509/9548502?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar closed at 31.475 against the US dollar, depreciating 1.5 cents or 0.05%. The currency opened at 31.48, traded in a range of 31.44-31.526, with total turnover of $1.936 billion. The slight weakening reflects broader regional currency pressures amid rising US interest rate expectations."
+    },
+    {
+      "title": "Taiwan Stock Futures Plunge Over 500 Points Following Strong US Jobs Data",
+      "section": "產經",
+      "date": "2026/06/05",
+      "url": "https://money.udn.com/money/story/11112/9548866",
+      "summary": "Taiwan stock index futures dropped sharply in night trading, falling over 500 points to around 44,700 after stronger-than-expected US May non-farm payrolls data raised Fed rate hike expectations. The jobs report showed 172,000 jobs added versus 85,000 expected, pushing 10-year Treasury yields above 4.5% and pressuring global equity markets including Taiwan's technology sector."
+    }
+  ],
+  "not_relevant": []
+}
