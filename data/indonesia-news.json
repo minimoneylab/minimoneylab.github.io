@@ -1,108 +1,122 @@
 {
-  "update_time": "2026-06-04 22:26:59 UTC",
+  "update_time": "2026-06-05 22:19:58 UTC",
   "country": "Indonesia",
   "source": "CNN Indonesia",
-  "total_articles": 14,
+  "total_articles": 16,
   "high": [
     {
       "title": "USD Nearly Reaches IDR 18,000, Purbaya Says Many Negative Issues in Market",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8516731/dolar-nyaris-rp-18-000-purbaya-sebut-banyak-isu-negatif-di-pasar...",
-      "summary": "Finance Minister Purbaya addresses the sharp weakening of rupiah against USD, attributing it to market rumors and negative sentiment. The currency has approached the critical IDR 18,000 level, causing significant concern for Indonesian markets.",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8516731/dolar-nyaris-rp-18-000-purbaya-sebut-banyak-isu-negatif-di-pasar...",
+      "summary": "Finance Minister Purbaya addresses the significant rupiah weakening against USD, attributing it to various negative rumors circulating in financial markets. The USD has approached IDR 18,000 level, representing a critical threshold for Indonesian currency stability.",
       "source": "Detik Finance",
       "date": "Rabu, 03 Jun 2026 19:56 WIB"
     },
     {
-      "title": "IHSG Suddenly Plunges 4-5% to 5,946 Level",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8515695/ihsg-tiba-tiba-anjlok-4-ke-5-946...",
-      "summary": "Indonesian stock index IHSG experienced a dramatic sell-off, falling over 4% from 6,200 levels to below 6,000. This represents a significant market correction driven by rupiah weakness and economic concerns.",
+      "title": "IHSG Suddenly Plunges 4% to 5,946",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8515695/ihsg-tiba-tiba-anjlok-4-ke-5-946...",
+      "summary": "Indonesian stock index (IHSG) experienced sudden dramatic fall of over 4% during trading session, dropping from 6,200+ level to below 6,000. This represents significant market volatility affecting investor portfolios.",
       "source": "Detik Finance",
       "date": "Rabu, 03 Jun 2026 11:18 WIB"
     },
     {
-      "title": "Behind IHSG's Sudden Collapse to Nearly 5%",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8515972/ada-apa-di-balik-rontoknya-ihsg-nyaris-5...",
-      "summary": "Market analysts explain the root causes of IHSG's sharp decline, primarily driven by rupiah weakening against USD and deteriorating Indonesian economic indicators. The currency fell 0.55% to IDR 17,936.5 per dollar.",
-      "source": "Detik Finance",
-      "date": "Rabu, 03 Jun 2026 13:41 WIB"
-    },
-    {
-      "title": "Purbaya Speaks on USD Breaking IDR 18,000: I Leave It to BI",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8517612/purbaya-buka-suara-dolar-as-tembus-rp-18-000-saya-serahkan-ke-bi...",
-      "summary": "Finance Minister confirms USD has breached the IDR 18,000 psychological barrier, reaching IDR 18,044. He delegates currency stability management to Bank Indonesia, indicating confidence in BI's ability to handle the crisis.",
-      "source": "Detik Finance",
-      "date": "Kamis, 04 Jun 2026 13:37 WIB"
-    },
-    {
-      "title": "The Culprit Behind IHSG's Sudden Collapse to 5,900 Level",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8516780/biang-kerok-ihsg-tiba-tiba-keok-ke-5-900...",
-      "summary": "IHSG closed down 4.11% at 5,941.06 with intraday lows reaching 5,841.99, a decline of over 5%. The massive sell-off was triggered by continued rupiah weakness and slowing Indonesian economic indicators.",
+      "title": "Root Cause of IHSG Sudden Collapse to 5,900",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8516780/biang-kerok-ihsg-tiba-tiba-keok-ke-5-900...",
+      "summary": "IHSG closed down nearly 5% due to pressure on rupiah exchange rate and several Indonesian economic indicators showing slowdown. The index hit lowest level at 5,841.99 during trading, representing major market correction.",
       "source": "Detik Finance",
       "date": "Kamis, 04 Jun 2026 05:55 WIB"
     },
     {
-      "title": "Rupiah and IHSG Weaken, Palace Says Economic Fundamentals Remain Strong",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8518539/rupiah-ihsg-melemah-istana-fundamental-ekonomi-kita-kuat...",
-      "summary": "Government maintains confidence in Indonesia's economic fundamentals despite IHSG falling 32.46% year-to-date and rupiah hitting IDR 18,049. Officials cite controlled inflation and economic growth as supporting factors.",
+      "title": "Purbaya Opens Up: USD Breaks IDR 18,000, I Leave It to BI",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8517612/purbaya-buka-suara-dolar-as-tembus-rp-18-000-saya-serahkan-ke-bi...",
+      "summary": "Finance Minister confirms USD has breached IDR 18,000 level but delegates exchange rate management to Bank Indonesia. This represents a psychological threshold breach that could impact import costs and inflation expectations.",
+      "source": "Detik Finance",
+      "date": "Kamis, 04 Jun 2026 13:37 WIB"
+    },
+    {
+      "title": "Rupiah Falls, IHSG Weakens - Palace: Our Economic Fundamentals Are Strong",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8518539/rupiah-ihsg-melemah-istana-fundamental-ekonomi-kita-kuat...",
+      "summary": "Government maintains confidence in strong economic fundamentals despite significant weakening in both rupiah and stock market. IHSG has corrected 32.46% year-to-date while USD reached IDR 18,049 level.",
       "source": "Detik Finance",
       "date": "Kamis, 04 Jun 2026 22:28 WIB"
+    },
+    {
+      "title": "What's Behind IHSG's Nearly 5% Collapse",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8515972/ada-apa-di-balik-rontoknya-ihsg-nyaris-5...",
+      "summary": "Market analysts attribute IHSG's dramatic decline to rupiah weakening and deteriorating Indonesian economic data. The currency weakness is creating significant pressure on Indonesian equities and investor sentiment.",
+      "source": "Detik Finance",
+      "date": "Rabu, 03 Jun 2026 13:41 WIB"
+    },
+    {
+      "title": "Rupiah Collapse Threatens Thousands of Workers with Layoffs, Mostly from This Sector",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8510314/rupiah-jeblok-bikin-ribuan-buruh-terancam-phk-terbanyak-dari-sektor-ini...",
+      "summary": "CORE Indonesia projects additional 15,300-20,300 workers could face layoffs due to rupiah weakness increasing import costs and disrupting business operations. Manufacturing sector expected to be most affected with potential 8,700-12,100 job losses.",
+      "source": "Detik Finance",
+      "date": "Sabtu, 30 Mei 2026 06:30 WIB"
     }
   ],
   "medium": [
     {
       "title": "Following Orient Express Model, KAI Launches Luxury Train Nusantara Explorer July 1",
       "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8516860/tiru-orient-express-kai-luncurkan-kereta-mewah-nusantara-explorer-1-juli...",
-      "summary": "State railway company KAI introduces premium tourism service Nusantara Explorer, inspired by Europe's Orient Express. The luxury train will serve Jakarta-Yogyakarta-Semarang-Banyuwangi route targeting niche tourism market.",
+      "summary": "State railway company KAI launches premium tourism train service inspired by Europe's Orient Express, connecting Jakarta, Yogyakarta, Semarang, and Banyuwangi. This targets niche luxury tourism market with premium pricing strategy.",
       "source": "Detik Finance",
       "date": "Rabu, 03 Jun 2026 21:50 WIB"
     },
     {
       "title": "KAI-INKA Merger to Complete This Year",
       "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8516182/merger-kai-inka-rampung-tahun-ini...",
-      "summary": "Merger between railway operator KAI and train manufacturer INKA will be finalized in 2026 under Danantara's directive. KAI will become the holding company with INKA as subsidiary, part of government's SOE rationalization program.",
+      "summary": "State-owned railway companies KAI and INKA will complete merger this year under government directive for SOE efficiency. KAI will serve as holding company while INKA becomes sub-holding in the restructured entity.",
       "source": "Detik Finance",
       "date": "Rabu, 03 Jun 2026 15:40 WIB"
     },
     {
       "title": "Kimia Farma Turns Loss into Profit of IDR 123.63 Billion",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8516849/kimia-farma-balikkan-rugi-jadi-laba-rp-123-63-m...",
-      "summary": "State pharmaceutical company Kimia Farma achieved remarkable turnaround in Q1 2026, posting IDR 123.63 billion profit versus IDR 443.35 billion loss in 2025. Revenue reached IDR 2.03 trillion with improved cost management.",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8516849/kimia-farma-balikkan-rugi-jadi-laba-rp-123-63-m...",
+      "summary": "State pharmaceutical company Kimia Farma reports strong Q1 2026 turnaround with IDR 123.63 billion net profit after previous year losses of IDR 443.35 billion. Company achieved IDR 2.03 trillion in net revenue showing operational recovery.",
       "source": "Detik Finance",
       "date": "Rabu, 03 Jun 2026 21:37 WIB"
     },
     {
-      "title": "New BGN Head Announces 4 Initiatives for Free Nutritious Meal Budget Efficiency",
+      "title": "Asuransi Astra Confident Performance Will Continue Growing - Here's Why",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8516744/asuransi-astra-pede-kinerja-tetap-tumbuh-ini-alasannya...",
+      "summary": "Asuransi Astra remains optimistic about growth prospects despite rupiah pressure and rising interest rates. Company's limited USD exposure and diversified portfolio provide resilience against current market volatility.",
+      "source": "Detik Finance",
+      "date": "Rabu, 03 Jun 2026 20:07 WIB"
+    },
+    {
+      "title": "New BGN Head's 4 Breakthrough Moves for MBG Budget Efficiency",
       "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8518160/4-gebrakan-bos-baru-bgn-untuk-efisiensi-anggaran-mbg...",
-      "summary": "New National Nutrition Agency head implements budget cuts from IDR 335 trillion to IDR 268 trillion for Free Nutritious Meal program while maintaining beneficiary targets. Focus on efficiency through better targeting and management.",
+      "summary": "New National Nutrition Agency head implements budget efficiency measures, cutting allocation from IDR 335 trillion to IDR 268 trillion while maintaining program beneficiary targets. Focus on refocusing beneficiaries and improving management systems.",
       "source": "Detik Finance",
       "date": "Kamis, 04 Jun 2026 17:55 WIB"
     },
     {
-      "title": "Deputy Immigration Minister Silmy Karim Becomes KPK Suspect, Owns IDR 234 Million in Assets",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8517197/jadi-tersangka-kpk-wamen-imipas-silmy-karim-punya-harta-rp-234-m...",
-      "summary": "Deputy Minister of Immigration Silmy Karim surrenders to anti-corruption commission KPK following sting operation. His wealth declaration shows IDR 234.59 billion in assets, mostly Jakarta real estate holdings.",
-      "source": "Detik Finance",
-      "date": "Kamis, 04 Jun 2026 09:52 WIB"
-    },
-    {
-      "title": "Rupiah Collapse Threatens Thousands of Workers with Layoffs, Manufacturing Sector Most Affected",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8510314/rupiah-jeblok-bikin-ribuan-buruh-terancam-phk-terbanyak-dari-sektor-ini...",
-      "summary": "CORE Indonesia projects 15,300-20,300 additional job losses due to rising import costs from rupiah weakness and global supply chain disruptions. Manufacturing sector faces highest risk with 8,700-12,100 potential layoffs.",
-      "source": "Detik Finance",
-      "date": "Sabtu, 30 Mei 2026 06:30 WIB"
-    },
-    {
-      "title": "Unilever Distributes IDR 4.32 Trillion Dividend at End of June",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8518179/unilever-tebar-dividen-rp-4-32-t-akhir-juni...",
-      "summary": "Unilever Indonesia announces final dividend of IDR 4.32 trillion for 2025, bringing total dividend to IDR 7.63 trillion. The decision follows strong 2025 performance with IDR 31.9 trillion in sales and IDR 3.5 trillion net profit.",
+      "title": "Unilever Distributes IDR 4.32 Trillion Dividend End of June",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8518179/unilever-tebar-dividen-rp-4-32-t-akhir-juni...",
+      "summary": "Unilever Indonesia announces final dividend distribution of IDR 4.32 trillion for 2025, part of total IDR 7.63 trillion dividend package. Company reported net sales of IDR 31.9 trillion and net profit of IDR 3.5 trillion in 2025.",
       "source": "Detik Finance",
       "date": "Kamis, 04 Jun 2026 20:00 WIB"
     },
     {
-      "title": "Multiple Aspects Show Growth, Alfamart Distributes IDR 1.7 Trillion Dividend",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8518166/sejumlah-aspek-alami-pertumbuhan-alfamart-bagikan-dividen-rp-1-7-triliun...",
-      "summary": "Retail chain Alfamart approves IDR 1.7 trillion dividend distribution (IDR 41.5 per share) following strong 2025 performance. The decision reflects the company's solid financial performance across multiple business aspects.",
+      "title": "Several Aspects Experience Growth, Alfamart Distributes IDR 1.7 Trillion Dividend",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8518166/sejumlah-aspek-alami-pertumbuhan-alfamart-bagikan-dividen-rp-1-7-triliun...",
+      "summary": "Alfamart approves dividend distribution of approximately IDR 1.7 trillion or IDR 41.5 per share based on strong 2025 performance. The retail chain reports growth across multiple business aspects supporting dividend decision.",
       "source": "Detik Finance",
       "date": "Kamis, 04 Jun 2026 17:58 WIB"
+    },
+    {
+      "title": "Indonesian Government Bonds Resilient Amid Global Turmoil - Here Are the Factors",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8518293/obligasi-ri-tahan-banting-di-tengah-gejolak-global-ini-faktornya...",
+      "summary": "Deputy Finance Minister claims Indonesian government bond market remains resilient despite global volatility, supported by policy credibility and stable domestic investor base. Government maintains 3% fiscal deficit limit commitment.",
+      "source": "Detik Finance",
+      "date": "Kamis, 04 Jun 2026 22:00 WIB"
+    },
+    {
+      "title": "Painful to See Red Portfolio, What Should Investors Do",
+      "url": "https://finance.detik.com/bursa-and-valas/d-8517987/pedih-lihat-portofolio-saham-merah-merah-investor-mesti-gimana...",
+      "summary": "Market analysts advise investors not to panic during IHSG decline, recommending focus on fundamental analysis rather than emotional selling. Investors urged to remain disciplined and selective during market correction.",
+      "source": "Detik Finance",
+      "date": "Kamis, 04 Jun 2026 16:45 WIB"
     }
   ],
   "not_relevant": []
