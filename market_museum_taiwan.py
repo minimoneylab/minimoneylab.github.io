@@ -308,11 +308,18 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
     draw = ImageDraw.Draw(img)
 
     def font(size, bold=False):
+        # CJK fonts first (for Chinese characters), then Latin fallbacks
         candidates = (
-            ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+            ["/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+             "/usr/share/fonts/opentype/noto/NotoSansCJKtc-Bold.otf",
+             "/usr/share/fonts/truetype/noto/NotoSansCJK-Bold.ttc",
+             "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
              "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"]
             if bold else
-            ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            ["/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+             "/usr/share/fonts/opentype/noto/NotoSansCJKtc-Regular.otf",
+             "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc",
+             "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
              "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"]
         )
         for path in candidates:
@@ -468,7 +475,6 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
 # ====================== MARKET DATA ======================
 CORE_TICKERS = {
     "TAIEX 加權指數":  "^TWII",
-    "USD/TWD":         "TWD=X",
 }
 
 TAIWAN_FALLBACK_TICKERS = [
