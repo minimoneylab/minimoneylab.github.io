@@ -432,7 +432,7 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
         )[:6]
 
         max_abs = max(abs(d['change_pct']) for _, d in sorted_stocks) or 1
-        f26b = font(26, bold=True)
+        f24b = font(24, bold=True)
         f20  = font(20)
         bar_max = W - PAD*2 - 200
 
@@ -447,13 +447,14 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
             bar_fill = (10, 50, 20) if pct >= 0 else (50, 10, 10)
             draw.rounded_rectangle([PAD, y, PAD+bar_w+60, y+66], radius=10, fill=bar_fill)
 
-            # English name + Chinese name
+            # Line 1: English name (bold)
+            draw.text((PAD+18, y+8), name, font=f24b, fill=WHITE)
+            # Line 2: Chinese name + price
             zh_name = STOCK_NAMES_ZH.get(name, "")
-            display_name = f"{name} {zh_name}" if zh_name else name
-            short = display_name[:22] + ("…" if len(display_name) > 22 else "")
-            draw.text((PAD+18, y+10), short, font=f26b, fill=WHITE)
-            draw.text((PAD+18, y+40), f"NT${d['price']:,.0f}", font=f20, fill=MUTED)
-            draw.text((rx(pct_str, f26b, W-PAD-18), y+20), pct_str, font=f26b, fill=color)
+            sub_text = f"{zh_name}  NT${d['price']:,.0f}" if zh_name else f"NT${d['price']:,.0f}"
+            draw.text((PAD+18, y+38), sub_text, font=f20, fill=MUTED)
+            # Pct right-aligned
+            draw.text((rx(pct_str, f24b, W-PAD-18), y+20), pct_str, font=f24b, fill=color)
             y += 72
 
     # ── Wave strip ────────────────────────────────────────────────
