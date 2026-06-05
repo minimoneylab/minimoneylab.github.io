@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 import asyncio
+import time
 import yfinance as yf
 
 # ====================== CONFIG ======================
@@ -587,30 +588,52 @@ def get_core_market_data(weekly=False):
         if (data := fetch_ticker_data(sym, period))
     }
 
+def _twse_session():
+    """Create a requests session that mimics a browser for TWSE."""
+    s = requests.Session()
+    s.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/125.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Referer": "https://www.twse.com.tw/zh/trading/foreign/bfi82u.html",
+        "X-Requested-With": "XMLHttpRequest",
+    })
+    # Visit the page first to get cookies
+    try:
+        s.get("https://www.twse.com.tw/zh/trading/foreign/bfi82u.html", timeout=10)
+    except Exception:
+        pass
+    return s
+
 def get_foreign_flow():
     """Get aggregate 外資 (FINI only) buy/sell from TWSE BFI82U."""
     today = get_hk_time()
     date_str = today.strftime("%Y%m%d")
+    session = _twse_session()
 
-    # Try multiple URL formats (TWSE changes these occasionally)
     urls = [
         ("https://www.twse.com.tw/rwd/zh/fund/BFI82U", {"response": "json", "date": date_str}),
-        ("https://www.twse.com.tw/en/fund/BFI82U", {"response": "json", "dayDate": date_str}),
         ("https://www.twse.com.tw/fund/BFI82U", {"response": "json", "dayDate": date_str}),
+        ("https://www.twse.com.tw/en/fund/BFI82U", {"response": "json", "dayDate": date_str}),
     ]
     for url, params in urls:
         try:
-            r = requests.get(url, params=params, timeout=10,
-                             headers={"User-Agent": "Mozilla/5.0"})
+            r = session.get(url, params=params, timeout=15)
+            print(f"  → {url} status={r.status_code}")
             data = r.json()
             if data.get("stat") != "OK" or not data.get("data"):
+                print(f"    stat={data.get('stat')}, data rows={len(data.get('data', []))}")
                 continue
             for row in data["data"]:
                 cell = row[0] if row else ""
-                # Match 外資 row — various label formats across endpoints
-                if any(kw in cell for kw in ["外資及陸資", "Foreign", "foreign", "外資"]):
-                    # Skip the "外資自營商" sub-row, we want the main 外資 row
-                    if "自營商" in cell or "Dealer" in cell:
+                # Match 外資 row only — skip 外資自營商 sub-row
+                if any(kw in cell for kw in ["外資及陸資(不含外資自營商)", "外資及陸資",
+                                              "Foreign Investors", "foreign"]):
+                    if "自營商" in cell and "不含" not in cell:
+                        continue
+                    if "Dealer" in cell:
                         continue
                     buy = int(row[1].replace(",", ""))
                     sell = int(row[2].replace(",", ""))
@@ -627,23 +650,25 @@ def get_foreign_flow():
     return ""
 
 def get_fini_top_stocks(top_n=5):
-    """
-    Get per-stock 外資 buy/sell from TWSE T86.
-    Returns: {"top_buy": [(name, zh, net_shares), ...], "top_sell": [(name, zh, net_shares), ...]}
-    """
+    """Get per-stock 外資 buy/sell from TWSE T86."""
     today = get_hk_time()
     date_str = today.strftime("%Y%m%d")
+    session = _twse_session()
 
     urls = [
-        ("https://www.twse.com.tw/rwd/zh/fund/T86", {"response": "json", "date": date_str, "selectType": "ALL"}),
-        ("https://www.twse.com.tw/fund/T86", {"response": "json", "date": date_str, "selectType": "ALL"}),
+        ("https://www.twse.com.tw/rwd/zh/fund/T86",
+         {"response": "json", "date": date_str, "selectType": "ALL"}),
+        ("https://www.twse.com.tw/fund/T86",
+         {"response": "json", "date": date_str, "selectType": "ALL"}),
     ]
     for url, params in urls:
         try:
-            r = requests.get(url, params=params, timeout=15,
-                             headers={"User-Agent": "Mozilla/5.0"})
+            time.sleep(3)  # TWSE rate-limits rapid requests
+            r = session.get(url, params=params, timeout=15)
+            print(f"  → {url} status={r.status_code}")
             data = r.json()
             if data.get("stat") != "OK" or not data.get("data"):
+                print(f"    stat={data.get('stat')}, data rows={len(data.get('data', []))}")
                 continue
 
             stocks = []
@@ -651,8 +676,7 @@ def get_fini_top_stocks(top_n=5):
                 try:
                     code = row[0].strip()
                     name_zh = row[1].strip()
-                    # 外陸資買賣超股數 (FINI net buy/sell shares) — typically column index 4
-                    # Column order: code, name, FINI_buy, FINI_sell, FINI_net, ...
+                    # FINI net buy/sell shares — column index 4
                     net_str = row[4].replace(",", "").strip()
                     net_shares = int(net_str)
                     stocks.append((code, name_zh, net_shares))
@@ -662,7 +686,6 @@ def get_fini_top_stocks(top_n=5):
             if not stocks:
                 continue
 
-            # Sort by net shares
             stocks.sort(key=lambda x: x[2], reverse=True)
             top_buy = stocks[:top_n]
             stocks.sort(key=lambda x: x[2])
@@ -674,9 +697,7 @@ def get_fini_top_stocks(top_n=5):
                 "top_sell": [(name, get_zh_name_by_code(code, name), shares)
                              for code, name, shares in top_sell if shares < 0],
             }
-            buy_count = len(result['top_buy'])
-            sell_count = len(result['top_sell'])
-            print(f"  ✅ FINI stock flow: {buy_count} top buys, {sell_count} top sells")
+            print(f"  ✅ FINI stock flow: {len(result['top_buy'])} buys, {len(result['top_sell'])} sells")
             return result
         except Exception as e:
             print(f"  ⚠️ T86 failed ({url}): {e}")
