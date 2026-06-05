@@ -254,20 +254,29 @@ TEXTURES = [_texture_chipboard, _texture_wave, _texture_hex, _texture_rain]
 # Common Taiwan stocks — English + Chinese names for display
 STOCK_NAMES_ZH = {
     "TSMC": "台積電",
+    "Taiwan Semiconductor": "台積電",
     "Hon Hai": "鴻海",
+    "Foxconn": "鴻海",
     "MediaTek": "聯發科",
     "Delta Electronics": "台達電",
+    "Delta": "台達電",
     "Cathay Financial": "國泰金",
+    "Cathay": "國泰金",
     "Fubon Financial": "富邦金",
+    "Fubon": "富邦金",
     "CTBC Financial": "中信金",
+    "CTBC": "中信金",
     "Mega Financial": "兆豐金",
     "Uni-President": "統一",
     "Formosa Plastics": "台塑",
     "Nan Ya Plastics": "南亞",
     "ASE Technology": "日月光",
+    "ASE": "日月光",
     "Quanta Computer": "廣達",
+    "Quanta": "廣達",
     "Pegatron": "和碩",
     "Largan Precision": "大立光",
+    "Largan": "大立光",
     "Novatek": "聯詠",
     "Realtek": "瑞昱",
     "Wistron": "緯創",
@@ -276,14 +285,37 @@ STOCK_NAMES_ZH = {
     "Acer": "宏碁",
     "ASUS": "華碩",
     "Evergreen Marine": "長榮海運",
+    "Evergreen": "長榮海運",
     "China Steel": "中鋼",
     "UMC": "聯電",
     "Powerchip": "力積電",
     "Nanya Technology": "南亞科",
+    "Nanya": "南亞科",
     "Winbond": "華邦電",
     "E.SUN Financial": "玉山金",
+    "E.SUN": "玉山金",
     "SinoPac Financial": "永豐金",
+    "SinoPac": "永豐金",
+    "Chunghwa Telecom": "中華電",
+    "Far EasTone": "遠傳",
+    "Taiwan Mobile": "台灣大",
+    "Shin Kong Financial": "新光金",
+    "Yuanta Financial": "元大金",
+    "First Financial": "第一金",
+    "Hua Nan Financial": "華南金",
+    "Taishin Financial": "台新金",
 }
+
+def get_zh_name(name):
+    """Fuzzy lookup — check if any dict key appears inside the stock name."""
+    # Exact match first
+    if name in STOCK_NAMES_ZH:
+        return STOCK_NAMES_ZH[name]
+    # Check if stock name contains any key (longest match first)
+    for key in sorted(STOCK_NAMES_ZH.keys(), key=len, reverse=True):
+        if key.lower() in name.lower():
+            return STOCK_NAMES_ZH[key]
+    return ""
 
 def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_liner="", weekly=False):
     W, H = 1080, 1440
@@ -450,7 +482,7 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
             # Line 1: English name (bold)
             draw.text((PAD+18, y+8), name, font=f24b, fill=WHITE)
             # Line 2: Chinese name + price
-            zh_name = STOCK_NAMES_ZH.get(name, "")
+            zh_name = get_zh_name(name)
             sub_text = f"{zh_name}  NT${d['price']:,.0f}" if zh_name else f"NT${d['price']:,.0f}"
             draw.text((PAD+18, y+38), sub_text, font=f20, fill=MUTED)
             # Pct right-aligned
@@ -617,7 +649,7 @@ def format_market_data(core_data, dynamic_data, foreign_flow_str="", weekly=Fals
         lines.append("🏢 Stocks In The News (TWSE):")
         for name, d in sorted(dynamic_data.items(), key=lambda x: abs(x[1]['change_pct']), reverse=True):
             arrow = "▲" if d['change_pct'] > 0 else "▼"
-            zh = STOCK_NAMES_ZH.get(name, "")
+            zh = get_zh_name(name)
             label = f"{name} {zh}" if zh else name
             lines.append(f"  {arrow} {label}: NT${d['price']:,.0f}  ({d['change_pct']:+.2f}%)")
     return "\n".join(lines)
