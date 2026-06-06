@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-07",
+  "update_time": "2026-06-06 23:39:42",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "Taiwan Stock Market National Team Rescue: Guards 45K Level as Public Banks Buy Over 20 Billion for Second Consecutive Day",
+      "section": "證券",
+      "date": "2026/06/06 00:49:44",
+      "url": "https://money.udn.com/money/story/5607/9549055?from=edn_maintab_cate",
+      "summary": "Taiwan stocks faced severe selling pressure on June 5th, with the index plunging to an intraday low of 44,209 points (down 1,467 points) before recovering to close down 606 points at 45,070. The eight major state-owned banks led a \"national team\" rescue operation, purchasing NT$23.06 billion worth of shares, marking the second consecutive day of over NT$20 billion in purchases. Foreign investors dumped NT$82.63 billion, primarily targeting TSMC, Quanta, Winbond, Delta Electronics, and Nanya Technology. This represents the sixth-largest foreign selloff this year. The public banks' intervention helped defend the 10-day moving average and the critical 45,000 level. TSMC alone received NT$6.1 billion in support from state banks. The coordinated buying demonstrated the government's commitment to market stability during this correction phase, which analysts view as healthy profit-taking after recent gains."
+    },
+    {
+      "title": "US Stocks Plunge as Tech Selling Pressure Emerges, Taiwan Index Futures Night Session Drops Over 3,000 Points Creating Record",
+      "section": "產經",
+      "date": "2026/06/06 11:49:29",
+      "url": "https://money.udn.com/money/story/5607/9549667",
+      "summary": "Taiwan index futures experienced historic carnage in overnight trading, plummeting 3,006 points to close at 42,220 (-6.6%), setting both the largest single-day point drop and percentage decline on record. The collapse followed a devastating US market session where the Philadelphia Semiconductor Index crashed 10.2% and the Nasdaq fell 4.1%. Strong US May employment data exceeded expectations, raising concerns about Federal Reserve rate hikes, turning good economic news into market negativity. TSMC futures dropped 145 points to 2,225. Market analysts note that while Taiwan stocks have strong fundamentals, the extreme rally had pushed valuations to unsustainable levels. The correction is viewed as healthy for long-term market stability, though Monday's Taiwan session faces significant downside pressure. This development signals the potential start of the first major correction of 2026."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stocks Face Five Major Selling Pressures Monday, Could Test 40,000 if Monthly Line Breaks",
+      "section": "證券",
+      "date": "2026/06/07 02:18:17",
+      "url": "https://money.udn.com/money/story/5607/9550402?from=edn_maintab_cate",
+      "summary": "Market analysts predict Taiwan stocks will face five major selling pressures Monday: stop-loss selling, panic selling, margin call liquidations, algorithmic trading, and ETF redemptions. If the monthly support line at 43,030 points fails, the market could test the 40,000 level. The correction is attributed to overheated conditions rather than fundamental deterioration."
+    },
+    {
+      "title": "TSMC's Thursday Ex-Dividend Becomes Key Indicator for Bull Market Sentiment",
+      "section": "證券",
+      "date": "2026/06/07 01:42:58",
+      "url": "https://money.udn.com/money/story/5607/9550392?from=edn_maintab_cate",
+      "summary": "TSMC will go ex-dividend on Thursday (June 11) for its NT$6 quarterly dividend distribution. The company's ability to achieve same-day dividend recovery amid current market turmoil will serve as a critical indicator for market sentiment. TSMC has successfully achieved same-day dividend recovery in 21 of its past 27 quarterly distributions since 2019."
+    },
+    {
+      "title": "Jensen Huang Promises AI Chip Supply to Double, Taiwan at Core of Computing Revolution",
+      "section": "金融",
+      "date": "2026/06/06 01:09:22",
+      "url": "https://money.udn.com/money/story/5612/9549079?from=edn_maintab_cate",
+      "summary": "NVIDIA CEO Jensen Huang announced before departing Taiwan that second-half chip supply will double compared to original projections. He emphasized Taiwan's central role in the AI revolution, with NVIDIA maintaining 120 supply chain partners in Taiwan. The entire supply chain remains tight due to overwhelming demand, with NVIDIA growing at nearly 100% annually."
+    },
+    {
+      "title": "AI Stock King Aspeed's Revenue Hits Seven-Month High Reflecting Strong AI Infrastructure Demand",
+      "section": "金融",
+      "date": "2026/06/06 00:55:37",
+      "url": "https://money.udn.com/money/story/5612/9549050?from=edn_maintab_cate",
+      "summary": "Aspeed Technology reported May revenue of NT$1.282 billion, marking seven consecutive months of record highs with 68.7% year-over-year growth. The BMC chip specialist benefits from robust AI infrastructure demand, though supply chain constraints, particularly substrate shortages, are limiting shipments."
+    }
+  ],
+  "not_relevant": []
+}
