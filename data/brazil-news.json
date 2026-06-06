@@ -1,48 +1,18 @@
 {
-  "date": "2026-06-05",
-  "update_time": "2026-06-05 10:39:53",
-  "total_articles": 7,
+  "date": "2026-06-06",
+  "update_time": "2026-06-06 08:58:14",
+  "total_articles": 2,
   "high": [
     {
-      "title": "Nubank (ROXO34) announces share buyback worth US$ 1 billion",
-      "source": "MoneyTimes",
-      "date": "2026-06-04",
-      "url": "https://www.moneytimes.com.br/nubank-roxo34-anuncia-recompra-de-acoes-no-valor-de-us-1-bilhao-igdl/",
-      "summary": "Nubank announced that its board of directors approved a US$ 1 billion share buyback program (approximately R$ 5.08 billion at current exchange rates). The program begins immediately with an expected duration of 12 months. This is significant for BRL markets as it represents substantial capital deployment by Brazil's largest fintech, demonstrating confidence in the company's fundamentals and the Brazilian financial sector. The buyback program could provide support for ROXO34 shares while also indicating strong cash generation capabilities. For equity investors, this signals positive management outlook and efficient capital allocation. The timing amid Brazil's high interest rate environment suggests Nubank views its shares as undervalued relative to alternatives."
-    },
-    {
-      "title": "US Payroll: creates 172,000 jobs in May, above expectations; unemployment rate at 4.3%",
+      "title": "US Payroll: US Creates 172,000 Jobs in May, Above Expectations; Unemployment Rate at 4.3%",
       "source": "MoneyTimes",
       "date": "2026-06-05",
       "url": "https://www.moneytimes.com.br/payroll-eua-maio-2026/",
-      "summary": "The US economy created 172,000 jobs in May, significantly beating the expected 85,000 according to Reuters consensus. The unemployment rate held steady at 4.3%. March and April data were revised upward, with March rising from 185k to 214k jobs and April from 115k to 179k. Average hourly wages increased 0.32% monthly and 3.45% annually. This strong labor market data has crucial implications for BRL/USD as it suggests the Federal Reserve may maintain higher rates for longer, potentially strengthening the dollar and pressuring emerging market currencies including the Real. Brazilian bond yields could face upward pressure as US Treasury yields rise, and capital flows may favor dollar assets over Brazilian markets."
+      "summary": "The US economy added 172,000 jobs in May, significantly exceeding economists' expectations of 85,000 new positions according to Reuters consensus. The unemployment rate held steady at 4.3% as expected, while average hourly earnings rose 0.32% month-over-month to $37.53, representing a 3.45% annual increase. Previous employment data was also revised upward, with March jobs creation revised from 185,000 to 214,000 and April from 115,000 to 179,000.\n\nThis robust employment data is critical for Brazilian markets as it suggests the Federal Reserve may maintain a more hawkish stance on interest rates, potentially keeping US yields elevated for longer. Strong US labor market conditions typically support USD strength against emerging market currencies including the BRL, as higher US rates increase the dollar's yield advantage. Brazilian traders should watch for potential BRL weakness and outflows from Brazilian bonds as investors may prefer higher-yielding US assets. The data also reduces expectations for Fed rate cuts, which historically benefits the dollar at the expense of risk assets and emerging market currencies."
     }
   ],
-  "medium": [
-    {
-      "title": "Recommended portfolio: 10 stocks to invest in June, according to Safra",
-      "source": "MoneyTimes",
-      "date": "2026-06-04",
-      "url": "https://www.moneytimes.com.br/carteira-recomendada-10-acoes-para-ter-em-junho-segundo-o-safra-lmrs/",
-      "summary": "Safra Bank adjusted its recommended stock portfolio for June, removing RD Saúde (RADL3) and adding Porto (PSSA3) in a defensive move toward value stocks. The portfolio includes major names like Petrobras (PETR4), Vale (VALE3), Bradesco (BBDC4), and Itaúsa (ITSA4). This reflects institutional positioning in key Brazilian equity sectors including banking and commodities."
-    },
-    {
-      "title": "Raízen (RAIZ4) sells Argentina operations for R$ 7.2 billion",
-      "source": "MoneyTimes",
-      "date": "2026-06-04",
-      "url": "https://www.moneytimes.com.br/em-meio-a-reestruturacao-raizen-raiz4-vende-operacoes-na-argentina-por-r-72-bilhoes-igdl/",
-      "summary": "Raízen announced the sale of its downstream operations in Argentina for US$ 1.42 billion (approximately R$ 7.21 billion) to Mercuria-controlled companies. The proceeds will be used for capital structure management and debt reduction. This represents a significant cash inflow for the Brazilian energy company and demonstrates capital optimization in the sector."
-    },
-    {
-      "title": "European stocks trade mixed amid Israel-Lebanon truce and US-Iran expectations",
-      "source": "MoneyTimes",
-      "date": "2026-06-04",
-      "url": "https://www.moneytimes.com.br/bolsas-da-europa-operam-mistas-com-tregua-israel-libano-e-expectativa-sobre-eua-ira/",
-      "summary": "European markets showed mixed performance as geopolitical tensions ease with Israel-Lebanon ceasefire, causing Brent crude to fall over 2%. The European Central Bank may consider preventive rate hikes next week due to energy price volatility. This global risk environment affects Brazilian asset flows and BRL positioning."
-    }
-  ],
+  "medium": [],
   "not_relevant": [
-    "Solution for faster credit with lower interest rates may be in your garage",
-    "Magazine Luiza (MGLU3): What made Citi raise its recommendation for the stocks?"
+    "Magazine Luiza (MGLU3): What Made Citi Raise Its Recommendation for the Stock?"
   ]
 }
