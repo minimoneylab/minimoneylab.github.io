@@ -1,81 +1,88 @@
 {
-  "date": "2026-06-07",
-  "update_time": "2026-06-06 22:00:51",
-  "total_articles": 31,
+  "date": "2026-06-08",
+  "update_time": "2026-06-07 22:01:53",
+  "total_articles": 29,
   "high": [
     {
-      "title": "Dollar-Won Breaches 1,560 Mark as Fear Contagion Spreads from US Chip Stock Rout",
+      "title": "South Korea Unveils Emergency Measures as Won Breaches 1,560 Per Dollar",
       "section": "Bonds/Forex",
-      "date": "June 6, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124048",
-      "summary": "The USD-KRW exchange rate surged dramatically in overnight trading, approaching 1,560 won - a 17-year high since the global financial crisis. At 2:00 AM Korean time, the rate closed at 1,559.00 won, surging 29.30 won from the previous Seoul session close. This massive move was triggered by panic selling of the won amid fears that Korean semiconductor stocks would collapse following a US chip stock rout. The currency weakness is particularly concerning given Korea's record current account surplus and upgraded growth expectations, defying traditional economic fundamentals. For FX traders, this represents extreme volatility with the won showing \"war-level\" daily movements averaging 8 won. The breach of psychologically important levels signals potential for further weakness, especially with foreign funds potentially rotating back to US assets amid rising rate hike expectations."
-    },
-    {
-      "title": "USD-KRW Surges Over 25 Won on US Nonfarm Payrolls Shock, Hits Mid-1,550s",
-      "section": "Bonds/Forex",
-      "date": "June 5, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124032",
-      "summary": "The USD-KRW exchange rate experienced massive volatility following stronger-than-expected US employment data, surging over 25 won during extended trading hours to break above 1,550. The Seoul session closed at 1,539.10 won, marking the highest level since March 9, 2009. US nonfarm payrolls rose 172,000 in May, more than doubling market expectations of 85,000, fueling speculation about potential Fed rate hikes. This employment \"surprise\" has virtually eliminated Fed rate cut expectations and is driving global fund flows back toward US assets. For Korean bond and FX markets, this represents a significant challenge as higher US rates increase the opportunity cost of holding Korean assets. The dramatic intraday moves suggest extreme market stress and potential for continued volatility."
-    },
-    {
-      "title": "Korean Stocks, Bonds, FX Markets Roil as US Rate Hike Prospects Loom",
-      "section": "Bonds/Forex",
-      "date": "June 6, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124076",
-      "summary": "All three major Korean financial markets are experiencing significant volatility as the possibility of US interest rate hikes emerges following strong employment data. US 2-year Treasury yields surged 10.40 basis points, creating a challenging environment for non-US assets. The strong US jobs report has fundamentally shifted market dynamics, with funds that had flowed into non-US markets potentially beginning to exit or slow inflows. This represents a critical inflection point for Korean markets, as higher US yields increase the attractiveness of dollar assets relative to Korean alternatives. Bond investors should prepare for continued pressure on Korean government bonds, while FX traders face an environment where the won could remain under pressure until global rate differentiation stabilizes."
-    }
-  ],
-  "medium": [
-    {
-      "title": "Korea a Global Outlier... 3-Year Treasury Yields Should Open Up to 4%",
-      "section": "Bonds/Forex",
-      "date": "June 6, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124067",
-      "summary": "Hana Securities analysts warn that Korea's stronger-than-expected growth momentum positions it as a \"global outlier,\" creating a bearish environment for bonds. Despite recent yield increases, 3-year treasury yields could rise to low 4% range and 10-year yields to mid-4% range, suggesting approximately 20 basis points of additional increases from current levels of 3.882% and 4.254% respectively."
-    },
-    {
-      "title": "Market Close: Korean Chips Plunge Despite Jensen Huang Visit - KOSPI Retreats Below 8,100",
-      "section": "Stocks",
-      "date": "June 5, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124002",
-      "summary": "The KOSPI plummeted 5.54% to 8,160.59, with foreign investors dumping a record 3.52 trillion won worth of shares. The KOSDAQ briefly broke below 1,000 before closing at 1,002.44, down 4.50%. The won-dollar rate closed at 1,539.10, threatening the 1,540 threshold, showing broad-based market stress across asset classes."
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124135",
+      "summary": "South Korean FX authorities held an emergency weekend meeting as USD/KRW surged past 1,560, hitting the highest level since 2009. Officials announced they will not tolerate excessive currency movements and pledged strict action against speculative trading. New measures include investigating whether import-export companies are illegally manipulating payment timings and enhancing transparency in offshore NDF transactions. This signals authorities are preparing more aggressive intervention as the won weakens toward crisis levels. The emergency response suggests authorities view current levels as threatening financial stability, making further intervention likely if weakness persists."
     },
     {
       "title": "'War-Level' Dollar-Won Volatility - Surging 8 Won Daily on Average",
       "section": "Bonds/Forex",
-      "date": "June 6, 2026",
+      "date": "",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=124069",
-      "summary": "The USD-KRW is experiencing extreme volatility comparable to wartime levels, with daily movements averaging 8 won. This massive volatility is driven by foreign investor outflows, repeating patterns seen during major geopolitical events three months ago. The currency broke through 1,560 in overnight trading."
+      "summary": "USD/KRW volatility has reached extreme levels reminiscent of wartime periods, with the exchange rate moving an average of 8 won daily. The rate broke through 1,560 won during overnight trading on June 5th, driven by massive foreign investor outflows similar to patterns seen three months ago during major geopolitical events. This unprecedented volatility reflects both global dollar strength and Korea-specific capital flow pressures, creating challenges for exporters and importers in hedging FX risk."
     },
     {
-      "title": "NH Investment & Securities Bond Offering Draws KRW 2 Trillion in Orders",
-      "section": "Stocks",
-      "date": "June 5, 2026",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124011",
-      "summary": "NH Investment & Securities' KRW 300 billion corporate bond issuance received KRW 2.1 trillion in orders, achieving 7x oversubscription. The 2-year tranche priced \"under\" fair value while 5-year notes priced \"over,\" showing term structure dynamics in the current rate environment."
+      "title": "Korean Stocks, Bonds, FX Markets Roil as US Rate Hike Prospects Loom",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124076",
+      "summary": "Korean financial markets are experiencing severe volatility as US rate hike prospects intensify following stronger employment data. US 2-year Treasury yields surged 10.4bp after May nonfarm payrolls rose 172,000 (vs 85,000 consensus). This has triggered capital outflows from Korean bonds, equities, and FX markets as global funds may return to US assets. The development threatens the recent stability in Korean markets and could force the BOK to reconsider its policy stance if financial conditions tighten significantly."
+    }
+  ],
+  "medium": [
+    {
+      "title": "'Korea a Global Outlier... 3-Year Treasury Yields Should Open Up to 4%'",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124067",
+      "summary": "Analysts warn Korean government bond yields have further room to rise, with 3-year yields potentially reaching low 4% range and 10-year yields hitting mid-4%. Current 3-year and 10-year yields at 3.882% and 4.254% suggest 20bp additional increases possible as Korea's growth momentum positions it as a \"global outlier\" creating bearish conditions for bonds."
+    },
+    {
+      "title": "Kim Yong-beom - 'KOSPI 8,000, Won at 1,550 Present Unfamiliar Challenges'",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124081",
+      "summary": "Blue House Policy Chief Kim Yong-beom highlighted Korea's economic paradox where KOSPI reached 8,000 levels amid record corporate earnings, yet the won hovers around 1,550 per dollar. He characterized both the positive equity performance and weak currency as \"unfamiliar challenges\" requiring new policy approaches."
+    },
+    {
+      "title": "[BOK Now] Shadow of Won Internationalization - Union Says 'FX in New York, Settlement Means Night Shifts in Korea'",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124066",
+      "summary": "The Bank of Korea is accelerating won internationalization efforts through 24-hour FX markets and extended BOK-Wire+ operating hours for offshore won settlement. However, BOK labor union is protesting increased night shift requirements stemming from expanded global won settlement operations."
+    },
+    {
+      "title": "Trump Says 'No Reason to Raise Rates... Fed Chair Shouldn't Be Penalized'",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124146",
+      "summary": "President Trump stated the Fed has \"no reason to raise interest rates\" despite strong employment data, noting markets decline on good news due to rate hike fears. His comments may influence Fed policy expectations and impact global rate differentials affecting Korean markets."
     },
     {
       "title": "Fed Rate Cut Expectations Evaporate on Employment 'Surprise'",
-      "section": "Stocks",
-      "date": "June 5, 2026",
+      "section": "Bonds/Forex",
+      "date": "",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=124074",
-      "summary": "Fed rate cut expectations have virtually disappeared following the strong employment report, with May CPI expected to exceed 4% next week. This fundamental shift in US monetary policy outlook has significant implications for global capital flows and emerging market currencies including the Korean won."
+      "summary": "Market expectations for Fed rate cuts have vanished following May nonfarm payrolls rising 172,000 (vs 85,000 consensus). Analysts note rate hikes remain unlikely but the case for cuts has disappeared, especially with May CPI expected to exceed 4%."
     }
   ],
   "not_relevant": [
-    "Hana Bank Recruiting Interns for Employment-Linked Programs",
-    "PPP to Elect New Floor Leader on June 9",
-    "KB Financial Contributes 10 Billion Won to Win-Win Fund for SMEs",
-    "Cho Jung-sik Elected Speaker of Second-Half 22nd National Assembly",
-    "Roh Tae-ak Resigns as Election Commission Chief Over Ballot Shortage Crisis",
     "Presidential Office Rebuts WSJ's 'Hard-Left' Label for Lee Administration",
     "Financial Research Institute Warns of Model Risk Management Gap Despite AI Expansion",
     "Financial Research Institute - Licensing System for Debt Collection",
-    "Financial Supervisory Service Launches On-Site Inspection of Mirae Asset Securities Over SpaceX Share Offering",
-    "Tokyo Stock Market Closing - Nikkei Falls Over 1%",
     "Next Week's Schedule for Ministry of Finance and Economy",
-    "Next Week's Schedule of Bank of Korea, Financial Services Commission",
+    "Financial Regulators Release Weekly Schedule",
+    "Stablecoins Remain 'Quiet' Despite Won Breaking 1,560 Per Dollar",
     "Trump Says Iran 'Has Strong Pride,' Deal Will Come 'But Will Take Some Time'",
-    "US Military Shoots Down Iranian Drones, Missiles Fired at Hormuz"
+    "US Military Shoots Down Iranian Drones, Missiles Fired at Hormuz",
+    "KOSPI Faces 'Black Monday' - 'Don't Try to Catch a Falling Knife'",
+    "Kim Min-seok Declares Party Leadership Bid",
+    "President Lee Targets Election Commission with National Probe",
+    "Prime Minister Kim Min-seok Calls for Senior Election Officials to Resign",
+    "Ruling Party to Submit Request for Parliamentary Probe into 'Ballot Paper Crisis'",
+    "President Lee Unveils 'Irreplaceable Korea' Vision",
+    "Iranian Parliament Speaker Warns US Bases, Assets Become 'Legitimate Targets'",
+    "Trump Says 'Very Close' to Iran Deal, Tehran Agrees Not to Possess Nuclear Weapons",
+    "Israel Strikes Hezbollah Stronghold 'Dahieh' in Southern Lebanon",
+    "PeacePeace Studio Lists on KOSDAQ June 8",
+    "Won Touches 1,560 Per Dollar as High-Currency Beneficiaries Emerge",
+    "Leveraged Leading Indicators US SOXL, KORU Post Biggest Drops",
+    "AI Bubble Fears Resurface as Semiconductor Stocks Plunge"
   ]
 }
