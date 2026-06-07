@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-07 06:38:16",
+  "update_time": "2026-06-08 06:39:37",
   "us_indices": [
     {
       "name": "S&P 500",
@@ -70,7 +70,7 @@
       "tw_change_pct": -0.84,
       "adr_close": 415.17,
       "adr_change_pct": -6.69,
-      "fx_rate": 31.58,
+      "fx_rate": 31.59,
       "basis_table": [
         {
           "adr_date": "May 29",
@@ -125,8 +125,8 @@
       ],
       "avg_basis": 1.1485,
       "avg_premium_pct": 14.85,
-      "predicted_open": 2283.53,
-      "gap_pct": -3.45,
+      "predicted_open": 2283.74,
+      "gap_pct": -3.44,
       "signal": "BEARISH",
       "signal_icon": "🔴",
       "signal_text": "Already ahead, expect pullback"
@@ -139,7 +139,7 @@
       "tw_change_pct": 5.2,
       "adr_close": 19.7,
       "adr_change_pct": -5.24,
-      "fx_rate": 31.58,
+      "fx_rate": 31.59,
       "basis_table": [
         {
           "adr_date": "May 29",
@@ -194,7 +194,7 @@
       ],
       "avg_basis": 1.0096,
       "avg_premium_pct": 0.96,
-      "predicted_open": 123.26,
+      "predicted_open": 123.27,
       "gap_pct": -6.26,
       "signal": "BEARISH",
       "signal_icon": "🔴",
@@ -208,7 +208,7 @@
       "tw_change_pct": -2.7,
       "adr_close": 34.03,
       "adr_change_pct": -11.38,
-      "fx_rate": 31.58,
+      "fx_rate": 31.59,
       "basis_table": [
         {
           "adr_date": "May 29",
@@ -263,8 +263,8 @@
       ],
       "avg_basis": 1.0121,
       "avg_premium_pct": 1.21,
-      "predicted_open": 530.99,
-      "gap_pct": -7.97,
+      "predicted_open": 531.04,
+      "gap_pct": -7.96,
       "signal": "BEARISH",
       "signal_icon": "🔴",
       "signal_text": "Already ahead, expect pullback"
