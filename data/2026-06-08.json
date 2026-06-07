@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-08",
+  "update_time": "2026-06-07 23:41:11",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "Taiwan Stock Index Faces Five Major Selling Pressures, Analysts Warn of 40,000 Point Support Test",
+      "section": "證券",
+      "date": "2026/06/07 02:18:17",
+      "url": "https://money.udn.com/money/story/5607/9550402?from=edn_maintab_cate",
+      "summary": "Taiwan stock futures collapsed after US May non-farm payroll data exceeded expectations, raising Fed rate hike probability for December. Combined with AI spending concerns, US tech stocks plummeted Friday, with Taiwan index futures hitting daily limit down and closing down 3,006 points (-6.6%), creating a historic single-day drop. Analysts predict Taiwan stocks will face five major selling pressures Monday: stop-loss orders, panic selling, forced margin liquidation, program trading, and ETF selling cascade. If the monthly moving average (43,030 points) fails to hold, the market could test the psychological 40,000 level. This represents a critical juncture for Taiwan's bull market, with potential implications for foreign capital flows and domestic institutional investor confidence."
+    },
+    {
+      "title": "TSMC's Quarterly Dividend Distribution Becomes Key Market Indicator Amid Heavy Selling",
+      "section": "證券",
+      "date": "2026/06/07 01:42:58",
+      "url": "https://money.udn.com/money/story/5607/9550392?from=edn_maintab_cate",
+      "summary": "TSMC will conduct its quarterly dividend distribution of NT$6 per share this Thursday (June 11), but the dramatic sell-off in US stocks and Taiwan futures creates uncertainty around the traditional \"one-day dividend filling\" phenomenon. TSMC's ability to quickly recover its dividend gap will serve as a crucial indicator of market sentiment recovery. Since implementing quarterly dividends in 2019, TSMC has achieved same-day dividend recovery in 21 out of 27 instances. Chairman C.C. Wei expressed strong confidence in AI trends extending visibility to 2030, with US dollar revenue targeting 30% growth this year. The dividend performance will be closely watched by the 2.58 million shareholders and could significantly influence broader market confidence given TSMC's role as Taiwan's \"sacred mountain of protection.\""
+    },
+    {
+      "title": "Taiwan Stock Expected to Test Monthly Moving Average, Five Investment Firms Remain Optimistic on 50,000 Target",
+      "section": "產經",
+      "date": "2026/06/08 07:20:57",
+      "url": "https://money.udn.com/money/story/5607/9552021",
+      "summary": "Five major investment advisory firms issued reports suggesting Taiwan stocks may undergo technical corrections but maintain optimism for reaching 50,000 points this year, despite potential testing of 40,000 point support. The Philadelphia Semiconductor Index's 97.6% surge in the first half represents its largest historical half-year gain, exceeding even the 2000 dot-com bubble period. However, firms note that AI capital expenditure cycles remain intact and fundamental technology sector prospects haven't structurally shifted. Key catalysts include Apple's WWDC on June 9, SpaceX's potential June 12 listing, and TSMC's July earnings call. The correction is viewed as healthy after excessive gains, with the AI infrastructure investment theme remaining robust for institutional investors."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Satellite Inter-Link Communication Boom Benefits Hon Hai, SunDaeTech and Other Taiwan Suppliers",
+      "section": "金融",
+      "date": "2026/06/07 01:37:36",
+      "url": "https://money.udn.com/money/story/5612/9550401?from=edn_maintab_cate",
+      "summary": "SpaceX and Amazon are building independent space networks using inter-satellite link technology, creating new opportunities for Taiwan suppliers including Hon Hai, SunDaeTech, and others. The market for inter-satellite laser communication equipment is projected to reach $2.1 billion by 2031 with 47% CAGR. This represents diversification opportunities for major Taiwan manufacturers beyond traditional electronics sectors."
+    },
+    {
+      "title": "Taiwan Stock Plunge Expected Monday, Analysts Suggest Five Strategic Lights for Electronics",
+      "section": "產經",
+      "date": "2026/06/07 22:29:10",
+      "url": "https://money.udn.com/money/story/5607/9551704",
+      "summary": "Yuanta Securities Investment Advisory suggests focusing on five key areas during the expected Monday selloff: AI server ODMs, cooling systems, advanced packaging, CPO technology, and blue-chip leaders. The strategy emphasizes avoiding high P/E ratios and consumer electronics while positioning in AI infrastructure with rigid demand characteristics. Financial sector banks and defensive consumer staples are recommended as safe havens during volatility."
+    },
+    {
+      "title": "National Team Intervention Key to Taiwan Stock Support, Focus on TSMC and Other Key Names",
+      "section": "證券",
+      "date": "2026/06/08 02:52:57",
+      "url": "https://money.udn.com/money/story/5607/9551782?from=edn_maintab_cate",
+      "summary": "Government funds and eight major state-owned banks' actions will be crucial for defending key support levels. TSMC, Quanta, and Yageo are identified as key observation points. Foreign investors hold record-high net short positions of 69,000 contracts in Taiwan index futures, representing major selling pressure. However, state bank buying in key stocks could signal government intervention to stabilize markets."
+    },
+    {
+      "title": "Apple WWDC 2026 Expected to Launch Siri 2.0, iOS 27, and macOS 27 Benefiting Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/06/08 02:45:05",
+      "url": "https://money.udn.com/money/story/5612/9551865?from=edn_maintab_cate",
+      "summary": "Apple's developer conference starting June 9 is expected to showcase significant AI integration across all systems. Market expects benefits for Taiwan supply chain including Hon Hai, Largan, TSMC, Win Semiconductors, and others. The iOS 27 upgrade may phase out older devices, accelerating replacement cycles and boosting hardware demand for Taiwan manufacturers."
+    },
+    {
+      "title": "UMC Advanced Packaging Technology Successfully Enters Qualcomm Supply Chain",
+      "section": "金融",
+      "date": "2026/06/08 02:40:34",
+      "url": "https://money.udn.com/money/story/5612/9551870?from=edn_maintab_cate",
+      "summary": "UMC's deep trench capacitor (DTC) technology has successfully entered Qualcomm's supply chain for edge AI devices. This represents UMC's advancement in high-value specialty processes beyond traditional foundry services. The technology addresses power management challenges in AI chips, providing stable opportunities in the growing edge AI market segment."
+    }
+  ],
+  "not_relevant": []
+}
