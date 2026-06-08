@@ -1,18 +1,26 @@
 {
-  "date": "2026-06-07",
-  "update_time": "2026-06-06 08:58:14",
-  "total_articles": 2,
+  "date": "2026-06-08",
+  "update_time": "2026-06-08 11:36:37",
+  "total_articles": 3,
   "high": [
     {
-      "title": "US Payroll: US Creates 172,000 Jobs in May, Above Expectations; Unemployment Rate at 4.3%",
+      "title": "Itaú BBA Maintains Conservative View for Banco do Brasil (BBSA3) with Default Uncertainty and Reduces Price Target",
       "source": "MoneyTimes",
-      "date": "2026-06-05",
-      "url": "https://www.moneytimes.com.br/payroll-eua-maio-2026/",
-      "summary": "The US economy added 172,000 jobs in May, significantly exceeding economists' expectations of 85,000 new positions according to Reuters consensus. The unemployment rate held steady at 4.3% as expected, while average hourly earnings rose 0.32% month-over-month to $37.53, representing a 3.45% annual increase. Previous employment data was also revised upward, with March jobs creation revised from 185,000 to 214,000 and April from 115,000 to 179,000.\n\nThis robust employment data is critical for Brazilian markets as it suggests the Federal Reserve may maintain a more hawkish stance on interest rates, potentially keeping US yields elevated for longer. Strong US labor market conditions typically support USD strength against emerging market currencies including the BRL, as higher US rates increase the dollar's yield advantage. Brazilian traders should watch for potential BRL weakness and outflows from Brazilian bonds as investors may prefer higher-yielding US assets. The data also reduces expectations for Fed rate cuts, which historically benefits the dollar at the expense of risk assets and emerging market currencies."
+      "date": "2026-06-08",
+      "url": "https://www.moneytimes.com.br/itau-bba-mantem-visao-conservadora-para-o-banco-do-brasil-bbsa3-com-incerteza-sobre-inadimplencia-e-reduz-preco-alvo-pads/",
+      "summary": "Itaú BBA analysts have significantly cut their 2026 net profit forecast for Banco do Brasil (BBSA3) to R$18.4 billion from R$21.2 billion previously and reduced the price target from R$22 to R$21. The bank maintained its 'market perform' recommendation, citing conservative outlook due to \"significant uncertainty about how agribusiness defaults will evolve.\" The analysts raised their credit cost forecast for BB from R$61.1 billion to R$73.6 billion, above BB's own guidance range of R$65-70 billion, attributing the change \"almost entirely\" to the agribusiness portfolio. They see little room for improvement until new credit vintages with better collateral quality begin maturing in H2 2026. The analysis suggests moral hazard may be reducing producers' willingness to honor payments. This downgrade is highly relevant for BRL traders and bond investors as BB is a major state-owned bank, and agribusiness credit issues could signal broader economic stress affecting fiscal accounts and monetary policy considerations."
     }
   ],
-  "medium": [],
+  "medium": [
+    {
+      "title": "Kinea Infra (KDIF11) Among Analyst Recommendations to Seek Extra Income; See More",
+      "source": "MoneyTimes",
+      "date": "2026-06-08",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/kinea-infra-kdif11-esta-entre-recomendacoes-de-analista-para-buscar-renda-extra-veja-mais-lbrdjm005/",
+      "summary": "Empiricus Research analyst Matheus Spiess recommends diversifying income sources amid global interest rate tensions and commodity/FX volatility in May. He highlights that in a \"higher for longer\" interest rate environment, assets like private credit, incentivized debentures, REITs, and cash-generating companies offer relevant income opportunities. The recommendation includes Kinea Infra (KDIF11), a listed fund specializing in infrastructure incentivized debentures with R$2.9 billion in net assets. This is relevant for fixed income investors tracking Brazilian infrastructure funding and debenture markets."
+    }
+  ],
   "not_relevant": [
-    "Magazine Luiza (MGLU3): What Made Citi Raise Its Recommendation for the Stock?"
+    "Marvell Technology Shares Jump 10% After S&P 500 Inclusion Announcement and Nvidia CEO Praise"
   ]
 }
