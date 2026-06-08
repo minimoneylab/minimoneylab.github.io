@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-09",
+  "update_time": "2026-06-08 23:51:42",
+  "total_articles": 36,
+  "high": [
+    {
+      "title": "This Week's Pre-Market: Five International Events You Must Know",
+      "section": "金融",
+      "date": "2026/06/08 07:03:14",
+      "url": "https://money.udn.com/money/story/5599/9552016",
+      "summary": "US tech and chip stocks crashed on Friday under dual pressure from rate hike fears and AI spending concerns. Iran fired multiple rounds of missiles at Israel, threatening the fragile ceasefire and causing oil prices to surge, with US stock futures falling further. Key developments include Iran's attack prompting Israel to close schools nationwide, with President Trump urging Iran back to negotiations while advising Netanyahu against retaliation. Brent crude spiked 3.6% to $96.47/barrel. The Nasdaq 100 posted its worst single-day decline since April 2025, falling 4.2%, while the Philadelphia Semiconductor Index crashed 10.3%, erasing $1.2 trillion in market value. TSMC ADR plunged 6.7%. The sell-off was triggered by stronger-than-expected employment data raising rate hike fears, disappointing Broadcom earnings, and concerns over tech giants' equity financing for AI investments. This creates significant implications for Taiwan's tech supply chain, particularly semiconductor and AI-related companies."
+    },
+    {
+      "title": "NVIDIA and Google Attack PC Market, Brand Manufacturers Like ASUS and Acer Hope to Boost H2 Market Demand",
+      "section": "金融",
+      "date": "2026/06/08 02:34:18",
+      "url": "https://money.udn.com/money/story/11162/9551875?from=edn_maintab_cate",
+      "summary": "PC brand manufacturers are launching their H2 battle with Google's native AI PC \"Googlebook\" and NVIDIA's RTX Spark series in partnership with MediaTek (2454) set to launch in autumn. ASUS (2357) and Acer (2353) hope to boost H2 PC market demand through Agentic AI and Googlebook's deep Gemini integration. The RTX Spark platform (N1/N1X) laptops will launch this autumn, featuring local language model execution and complex AI tasks. While initial pricing is expected above $3,000 USD, targeting professional consumers, foreign brokers estimate 5-10 million unit shipments in the first 12 months. This represents a significant upgrade cycle for Taiwan's PC supply chain."
+    },
+    {
+      "title": "Apple WWDC 2026 Arrives, Market Expects Siri 2.0, iOS 27, macOS 27 Launch Benefiting Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/06/08 02:45:05",
+      "url": "https://money.udn.com/money/story/5612/9551865?from=edn_maintab_cate",
+      "summary": "Apple's WWDC 2026 kicks off early Monday Taiwan time with the \"All systems glow\" theme, showcasing AI services integrated into hardware applications. Market expects Apple to unveil Siri 2.0, iOS 27, macOS 27 systems and applications, accelerating device replacement cycles through AI integration and higher hardware requirements. Taiwan supply chain including Hon Hai (2317), Largan (3008), TSMC (2330), Win Semi (3105), and TXC (3042) are expected to benefit from new opportunities. iOS 27 is anticipated to bring the most comprehensive changes ever, integrating third-party AI models like ChatGPT, Gemini, and Claude. The new Siri 2.0 will be powered by Google's Gemini technology. Legacy devices with A13 chips including iPhone 11 series may not support iOS 27, driving upgrade demand."
+    },
+    {
+      "title": "UMC Advanced Packaging Breaks into Qualcomm Supply Chain, Industry Sees Edge AI Device Growth Train",
+      "section": "金融",
+      "date": "2026/06/08 02:40:34",
+      "url": "https://money.udn.com/money/story/5612/9551870?from=edn_maintab_cate",
+      "summary": "As AI servers and HPC demand continues surging with chip power consumption approaching kilowatt levels, supply chain sources reveal UMC (2303) has successfully entered Qualcomm's supply chain with its embedded Deep Trench Capacitor (DTC) technology, with related products beginning shipments. DTC technology embeds high-density capacitors in silicon interposers or advanced packaging substrates, significantly shortening power supply paths and reducing parasitic effects and power noise. This positions UMC to benefit from the rapid growth of edge AI devices including AI PCs, smartphones, smart glasses and various terminal devices. The technology has high barriers to entry and long customer validation cycles, typically resulting in stable supply relationships once successfully deployed."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Futures Night Session Crashes After \"Black Friday\", Will Taiwan Stocks Test Monthly Line?",
+      "section": "產經",
+      "date": "2026/06/07 21:58:21",
+      "url": "https://money.udn.com/money/story/5607/9551653",
+      "summary": "Taiwan index futures night session closed down 3,006 points (-6.65%) following the US \"Black Friday\" rout. Market consensus expects the main index to test the monthly line support at 43,030 points, with some institutions targeting the quarterly line at 38,316 points as the appropriate re-entry level. The correction reflects overheating after rapid gains and structural factors including early 2028 expectations and marginal capital contraction."
+    },
+    {
+      "title": "Oil Prices Open Up Over 3%, Brent Touches $96 as Iran Fires Missiles at Israel Again, Trump Calls for End",
+      "section": "產經",
+      "date": "2026/06/08 07:29:52",
+      "url": "https://money.udn.com/money/story/5599/9552024",
+      "summary": "International oil prices surged over 3% on opening as Iran launched multiple missile waves at Israel, threatening fragile ceasefire negotiations. Brent crude August futures spiked 3.6% to $96.47/barrel while WTI July futures approached $94/barrel. President Trump urged Iran back to negotiations saying \"you've fired missiles, that's enough\" while advising Netanyahu against retaliation. The escalation represents the most serious since the April ceasefire, with implications for global energy markets and inflation concerns."
+    },
+    {
+      "title": "Five Major Investment Advisory Firms Analyze Taiwan Stocks: 40,000 Point Defense Battle, Still Optimistic on 50,000 This Year",
+      "section": "產經",
+      "date": "2026/06/08 07:20:57",
+      "url": "https://money.udn.com/money/story/5607/9552021",
+      "summary": "Five major advisory firms expect Taiwan stocks may undergo technical correction while maintaining positive long-term AI fundamentals. They don't rule out a 40,000 point defense battle but remain optimistic about reaching 50,000 this year. The Philadelphia Semiconductor Index achieved a historic 97.6% first-half gain with 55x 12-month rolling P/E ratio. Key catalysts include Apple WWDC on June 9th, potential SpaceX IPO on June 12th, and TSMC's July earnings call as important market direction indicators."
+    },
+    {
+      "title": "Taiwan Stock Alert for Black Monday, Index May Test Monthly Line, Five Strategies for Battle",
+      "section": "證券",
+      "date": "2026/06/08 01:25:38",
+      "url": "https://money.udn.com/money/story/5607/9551833?from=edn_maintab_cate",
+      "summary": "Market experts propose five battle strategies as Taiwan stocks face potential 1,000+ point drop and monthly line test at 43,030. Foreign investors hold near-record 70,000 net short contracts in index futures. Key upcoming AGMs include Largan (3008) on June 9th, major financial institutions on June 12th and 18th. Government funds are positioned to provide market support if needed."
+    },
+    {
+      "title": "National Team Rescue Expected for Taiwan Stocks, TSMC, Quanta, Yageo Key Focus",
+      "section": "證券",
+      "date": "2026/06/08 02:52:57",
+      "url": "https://money.udn.com/money/story/5607/9551782?from=edn_maintab_cate",
+      "summary": "Foreign investors and government funds' actions will be crucial for defending key support levels. If TSMC ADR's 6.69% decline translates proportionally, it could impact the main index by 1,200-1,300 points. Nine stocks heavily sold by foreign investors since May 29th include TSMC, Quanta, and Yageo, while government funds have been net buyers of most stocks except one, potentially signaling coordinated support efforts."
+    }
+  ],
+  "not_relevant": []
+}
