@@ -1,0 +1,59 @@
+{
+  "date": "2026-06-10",
+  "update_time": "2026-06-09 23:56:17",
+  "total_articles": 38,
+  "high": [
+    {
+      "title": "US Requests Closure of TSMC Supply Chain Loopholes to Prevent China from Acquiring Advanced AI Chips through Shell Companies",
+      "section": "金融",
+      "date": "2026/06/10 02:02:19",
+      "url": "https://money.udn.com/money/story/5612/9556455?from=edn_maintab_cate",
+      "summary": "Reuters reports that bipartisan US lawmakers wrote to the Bureau of Industry and Security (BIS) on June 8th, requesting closure of regulatory loopholes that could allow TSMC (2330) to manufacture advanced AI chips for Chinese companies through shell companies. The letter from Senator Jim Banks (R-IN) and Senator Andy Kim (D-NJ) warns that if this loophole remains unfilled, it will significantly undermine all other measures implemented by the US to restrict China's access to advanced computing capabilities. The US first implemented export controls in 2022 to prevent Beijing from gaining military advantages through advanced tools like NVIDIA processors. New guidelines issued May 31st aim to prevent Chinese companies from acquiring AI chips through overseas subsidiaries, but experts note potential loopholes remain where Chinese firms could order custom chips from foundries like TSMC through shell companies. This regulatory pressure could impact Taiwan's semiconductor industry and TSMC's business operations with potential compliance costs and operational complexity."
+    },
+    {
+      "title": "Taiwan Dollar Closes at 31.618, Depreciates 3.8 Cents",
+      "section": "證券",
+      "date": "2026/06/09 16:18:52",
+      "url": "https://money.udn.com/money/story/12509/9555612?from=edn_subcatelist_cate",
+      "summary": "The Taiwan Dollar closed at 31.618 against the US Dollar, depreciating 3.8 cents from the previous trading day's close of 31.580. The intraday high was 31.550, low was 31.664, with opening at 31.560. Total trading volume reached $3.564 billion USD. The depreciation reflects ongoing pressures from foreign capital outflows and global economic uncertainties affecting Taiwan's currency stability."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Index Closes Up 1,201 Points at 44,704, TSMC Rises 0.43% to 2,305",
+      "section": "證券",
+      "date": "2026/06/09 15:39:04",
+      "url": "https://money.udn.com/money/story/12509/9555470?from=edn_subcatelist_cate",
+      "summary": "Taiwan stocks staged a strong rebound with the TAIEX gaining 1,201.66 points (2.76%) to close at 44,704.44 points on trading volume of 1.15 trillion. TSMC gained 0.43% to 2,305 yuan. Financial stocks led gains with a 6.3% surge ahead of major financial holding companies' shareholder meetings. The rally was driven by US semiconductor recovery and domestic institutional buying."
+    },
+    {
+      "title": "Foreign Investors Continue Selling Despite Taiwan Stock Rally, Three Major Institutional Investors Sell 77.86 Billion",
+      "section": "產經",
+      "date": "2026/06/09 15:18:40",
+      "url": "https://money.udn.com/money/story/5607/9555418",
+      "summary": "Despite Taiwan stocks surging 1,201 points, foreign investors continued selling 91.73 billion yuan while domestic investment trusts bought 20.57 billion yuan. The rally was supported by insurance companies and market players buying semiconductor and AI supply chain stocks. Cumulative four-day selling by three major institutional investors reached 414.4 billion yuan, indicating continued foreign capital flight despite the market rebound."
+    },
+    {
+      "title": "Taiwan-Singapore Financial Holdings to Hold Press Conference at 4 PM to Announce Major Board Resolution",
+      "section": "產經",
+      "date": "2026/06/09 15:11:58",
+      "url": "https://money.udn.com/money/story/5613/9555401",
+      "summary": "Taiwan Stock Exchange announced that Taiwan-Singapore Financial Holdings (2887) will hold a press conference at 4 PM today at the TSE to announce major board resolutions, with Chief Sustainability Officer and Chief Economist Lee Chen-Yu explaining the decisions. This suggests significant corporate developments for the financial holding company."
+    },
+    {
+      "title": "TSMC Factory Vice President Chuang Tzu-Shou Reports Gift Transfer of 500 Shares Worth Over 1.1 Billion",
+      "section": "產經",
+      "date": "2026/06/08 20:02:04",
+      "url": "https://money.udn.com/money/story/5612/9553644",
+      "summary": "TSMC's Factory Vice President Chuang Tzu-Shou filed to gift 500 shares with an effective transfer period from June 8-10. At TSMC's closing price of approximately 2,295 yuan, the 500 shares are worth about 1.147 billion yuan. This follows a pattern of TSMC executives gifting shares to family members for estate planning purposes."
+    },
+    {
+      "title": "Hon Hai Benefits from NVIDIA's Alliance with Three Major Korean Companies for AI Data Center Development",
+      "section": "金融",
+      "date": "2026/06/09 02:09:50",
+      "url": "https://money.udn.com/money/story/5612/9553999?from=edn_maintab_cate",
+      "summary": "NVIDIA announced cooperation with SK Hynix, NAVER, and Doosan Group to advance AI data center construction in Korea. Hon Hai (2317) recently formed an alliance with SK Group, and industry observers expect Hon Hai to benefit from this Taiwan-US-Korea AI collaboration, leveraging its expertise in AI server integration and data center solutions."
+    }
+  ],
+  "not_relevant": []
+}
