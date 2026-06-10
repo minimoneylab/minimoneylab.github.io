@@ -1,27 +1,27 @@
 {
-  "date": "2026-06-09",
-  "update_time": "2026-06-09 10:26:22",
-  "total_articles": 5,
+  "date": "2026-06-10",
+  "update_time": "2026-06-10 10:57:33",
+  "total_articles": 4,
   "high": [
     {
-      "title": "Itaú BBA Maintains Conservative View for Banco do Brasil (BBSA3) with Default Uncertainty and Reduces Target Price",
+      "title": "Petrobras (PETR4) Buys Stake in Exploratory Block in Campos Basin and Expands Partnership with Equinor",
       "source": "MoneyTimes",
-      "date": "2026-06-08",
-      "url": "https://www.moneytimes.com.br/itau-bba-mantem-visao-conservadora-para-o-banco-do-brasil-bbsa3-com-incerteza-sobre-inadimplencia-e-reduz-preco-alvo-pads/",
-      "summary": "Itaú BBA analysts have significantly cut their 2026 net profit forecast for Banco do Brasil (BBAS3) to R$ 18.4 billion from R$ 21.2 billion previously, while reducing the target price from R$ 22 to R$ 21. The bank maintained its 'market perform' rating, citing persistent uncertainty about agribusiness default evolution. Credit cost estimates were raised substantially from R$ 61.1 billion to R$ 73.6 billion, exceeding BB's own upper guidance range of R$ 65-70 billion. The revision is almost entirely attributed to the agribusiness portfolio, with analysts noting limited room for improvement until new credit vintages with better collateral quality mature in H2 2026. This development is critical for Brazilian banking sector investors, particularly given BB's systemic importance and significant agribusiness exposure. The moral hazard component potentially reducing producer willingness to honor payments adds another layer of concern for the sector's asset quality outlook."
+      "date": "2026-06-10",
+      "url": "https://www.moneytimes.com.br/petrobras-petr4-compra-fatia-de-bloco-exploratorio-na-bacia-de-campos-e-amplia-parceria-com-a-equinor-igdl/",
+      "summary": "Petrobras (PETR4) announced it signed a contract with Equinor to acquire a 50% stake in the Itaimbezinho exploratory block located in deep waters of the Campos Basin. The transaction creates a consortium with Equinor remaining as operator with 50%, Petrobras with 50%, and Pré-Sal Petróleo S.A. (PPSA) managing the production sharing agreement. According to Petrobras, this deal reinforces the relevance of exploratory activities in Brazil and aligns with the company's long-term strategy to replenish reserves through exploration of new frontiers and strategic partnerships. The operation expands synergies in the Campos Basin, where Petrobras already has joint assets with Equinor, including the Raia project and Jaspe exploratory license. This is significant for PETR4 shareholders as it demonstrates the company's commitment to reserve replacement and strategic partnerships in high-potential offshore blocks. The expansion of exploration activities could support future production growth and maintain Petrobras' position as a key dividend payer, which is crucial for the stock's performance on B3 and its impact on the Ibovespa."
     }
   ],
   "medium": [
     {
-      "title": "Kinea Infra (KDIF11) Among Analyst Recommendations for Extra Income; See More",
+      "title": "Kinea Infra (KDIF11) is Among Analyst Recommendations to Seek Extra Income; See More",
       "source": "MoneyTimes",
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "url": "https://www.moneytimes.com.br/conteudo-de-marca/kinea-infra-kdif11-esta-entre-recomendacoes-de-analista-para-buscar-renda-extra-veja-mais-lbrdjm005/",
-      "summary": "Empiricus Research analyst highlights investment opportunities amid global interest rate uncertainty and FX volatility that challenged investors in May. The analyst recommends diversifying into quality assets including private credit, incentivized debentures, REITs, and cash-generating companies in a \"higher for longer\" rates environment. Kinea Infra (KDIF11), a listed fund specializing in infrastructure incentivized debentures with R$ 2.9 billion in net assets, is among key recommendations for income-focused investors."
+      "summary": "An Empiricus Research analyst highlights investment strategies for generating extra income in a higher-for-longer interest rate environment. The analysis mentions tensions in Iran, changes in global interest rate expectations, and fluctuations in commodity and FX markets as challenges for investors in May. The analyst recommends diversification into private credit, incentivized debentures, real estate funds, and companies with strong cash generation, specifically highlighting the Kinea Infra fund (KDIF11) which specializes in infrastructure incentivized debentures. This is relevant for Brazilian fixed income investors as it reflects the ongoing impact of elevated global and domestic interest rates on investment strategy and the continued appeal of infrastructure-linked bonds."
     }
   ],
   "not_relevant": [
-    "Marvell Technology Shares Jump 10% After S&P 500 Inclusion Announcement and Nvidia CEO Praise",
-    "5 Technology Companies and One Beverage Company Stand Out Among Most Recommended International Stocks for June; See Which Ones"
+    "5 Technology Companies and One Beverage Company Stand Out Among the Most Recommended International Stocks of June; See Which Ones",
+    "Kinea Infra (KDIF11) is Among Analyst Recommendations to Seek Extra Income; See More (duplicate from June 9)"
   ]
 }
