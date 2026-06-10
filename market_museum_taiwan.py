@@ -318,7 +318,7 @@ def get_zh_name(name):
             return STOCK_NAMES_ZH[key]
     return ""
 
-def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_liner="", fini_stocks=None, weekly=False):
+def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_liner="", weekly=False):
     W, H = 1080, 1440
     PAD = 60
 
@@ -482,69 +482,24 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
             draw.text((rx(pct_str, f24b, W-PAD-18), y+20), pct_str, font=f24b, fill=color)
             y += 72
 
-    # ── FINI section (bottom) ────────────────────────────────────
-    has_fini = fini_stocks and (fini_stocks.get("top_buy") or fini_stocks.get("top_sell"))
-    if foreign_flow_str or has_fini:
+    # ── FINI aggregate (bottom) ────────────────────────────────
+    if foreign_flow_str:
         y += 8
         draw.rectangle([PAD, y, W-PAD, y+1], fill=DIVIDER)
         y += 16
-
-        f20s = font(20)
-        f22b = font(22, bold=True)
-        f18  = font(18)
-        FINI_GREEN = (60, 220, 100)
-        FINI_RED   = (220, 70, 70)
-
-        # Aggregate FINI flow — English only
-        if foreign_flow_str:
-            if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
-                fini_color = FINI_GREEN
-            else:
-                fini_color = FINI_RED
-            # Extract NT$ amount and build English-only label
-            amt = foreign_flow_str.split("NT$")[-1] if "NT$" in foreign_flow_str else ""
-            if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
-                fini_display = f"FINI Net Buy  NT${amt}" if amt else "FINI Net Buy"
-            else:
-                fini_display = f"FINI Net Sell  NT${amt}" if amt else "FINI Net Sell"
-            draw.rounded_rectangle([PAD, y, W-PAD, y+44], radius=10, fill=PANEL, outline=BORDER, width=1)
-            f24b_fini = font(24, bold=True)
-            draw.text((PAD+24, y+12), fini_display, font=f24b_fini, fill=fini_color)
-            y += 52
-
-        # Per-stock FINI top buys (notional)
-        if has_fini and fini_stocks.get("top_buy"):
-            y += 4
-            draw.text((PAD, y), "FINI TOP BUYS", font=f20s, fill=FINI_GREEN)
-            y += 26
-            for name_zh, en_name, code, notional in fini_stocks["top_buy"][:3]:
-                label = f"{en_name} {name_zh}" if en_name else name_zh or code
-                nt_b = abs(notional) / 1e8
-                if nt_b >= 1:
-                    val = f"+NT${nt_b:,.1f}B"
-                else:
-                    nt_m = abs(notional) / 1e6
-                    val = f"+NT${nt_m:,.0f}M"
-                draw.text((PAD+18, y), label, font=f22b, fill=WHITE)
-                draw.text((rx(val, f18, W-PAD-18), y+2), val, font=f18, fill=FINI_GREEN)
-                y += 28
-
-        # Per-stock FINI top sells (notional)
-        if has_fini and fini_stocks.get("top_sell"):
-            y += 8
-            draw.text((PAD, y), "FINI TOP SELLS", font=f20s, fill=FINI_RED)
-            y += 26
-            for name_zh, en_name, code, notional in fini_stocks["top_sell"][:3]:
-                label = f"{en_name} {name_zh}" if en_name else name_zh or code
-                nt_b = abs(notional) / 1e8
-                if nt_b >= 1:
-                    val = f"-NT${nt_b:,.1f}B"
-                else:
-                    nt_m = abs(notional) / 1e6
-                    val = f"-NT${nt_m:,.0f}M"
-                draw.text((PAD+18, y), label, font=f22b, fill=WHITE)
-                draw.text((rx(val, f18, W-PAD-18), y+2), val, font=f18, fill=FINI_RED)
-                y += 28
+        if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
+            fini_color = (60, 220, 100)
+        else:
+            fini_color = (220, 70, 70)
+        amt = foreign_flow_str.split("NT$")[-1] if "NT$" in foreign_flow_str else ""
+        if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
+            fini_display = f"FINI Net Buy  NT${amt}" if amt else "FINI Net Buy"
+        else:
+            fini_display = f"FINI Net Sell  NT${amt}" if amt else "FINI Net Sell"
+        draw.rounded_rectangle([PAD, y, W-PAD, y+44], radius=10, fill=PANEL, outline=BORDER, width=1)
+        f24b_fini = font(24, bold=True)
+        draw.text((PAD+24, y+12), fini_display, font=f24b_fini, fill=fini_color)
+        y += 52
 
     # ── Wave strip ────────────────────────────────────────────────
     wave_y = H - 110
@@ -601,11 +556,41 @@ def fetch_ticker_data(symbol, period="2d"):
 
 def get_core_market_data(weekly=False):
     period = "5d" if weekly else "2d"
-    return {
-        name: data
-        for name, sym in CORE_TICKERS.items()
-        if (data := fetch_ticker_data(sym, period))
-    }
+    results = {}
+    for name, sym in CORE_TICKERS.items():
+        data = fetch_ticker_data(sym, period)
+        if data:
+            results[name] = data
+
+    # Fallback: if TAIEX missing, try TWSE API directly
+    if not any("TAIEX" in k for k in results):
+        print("  ⚠️ yfinance TAIEX failed, trying TWSE API...")
+        try:
+            session = _twse_session()
+            today = get_hk_time()
+            date_str = today.strftime("%Y%m%d")
+            r = session.get(
+                "https://www.twse.com.tw/rwd/zh/afterTrading/FMTQIK",
+                params={"response": "json", "date": date_str},
+                timeout=10
+            )
+            data = r.json()
+            if data.get("stat") == "OK" and data.get("data"):
+                # Last row is most recent trading day
+                row = data["data"][-1]
+                close = float(row[4].replace(",", ""))
+                prev_rows = data["data"]
+                if len(prev_rows) >= 2:
+                    prev_close = float(prev_rows[-2][4].replace(",", ""))
+                    pct = (close - prev_close) / prev_close * 100
+                else:
+                    pct = 0.0
+                results["TAIEX"] = {"price": round(close, 2), "change_pct": round(pct, 2)}
+                print(f"  ✅ TAIEX from TWSE: {close:,.0f} ({pct:+.2f}%)")
+        except Exception as e:
+            print(f"  ⚠️ TWSE TAIEX fallback failed: {e}")
+
+    return results
 
 def _twse_session():
     """Create a requests session that mimics a browser for TWSE."""
@@ -668,87 +653,7 @@ def get_foreign_flow():
     print("  ⚠️ No aggregate FINI data available")
     return ""
 
-def get_fini_top_stocks(top_n=5):
-    """Get per-stock 外資 buy/sell from TWSE T86, return notional (NT$) values."""
-    today = get_hk_time()
-    date_str = today.strftime("%Y%m%d")
-    session = _twse_session()
 
-    urls = [
-        ("https://www.twse.com.tw/rwd/zh/fund/T86",
-         {"response": "json", "date": date_str, "selectType": "ALL"}),
-        ("https://www.twse.com.tw/fund/T86",
-         {"response": "json", "date": date_str, "selectType": "ALL"}),
-    ]
-    for url, params in urls:
-        try:
-            time.sleep(3)  # TWSE rate-limits rapid requests
-            r = session.get(url, params=params, timeout=15)
-            print(f"  → {url} status={r.status_code}")
-            data = r.json()
-            if data.get("stat") != "OK" or not data.get("data"):
-                print(f"    stat={data.get('stat')}, data rows={len(data.get('data', []))}")
-                continue
-
-            stocks = []
-            for row in data["data"]:
-                try:
-                    code = row[0].strip()
-                    name_zh = row[1].strip()
-                    net_str = row[4].replace(",", "").strip()
-                    net_shares = int(net_str)
-                    stocks.append((code, name_zh, net_shares))
-                except (IndexError, ValueError):
-                    continue
-
-            if not stocks:
-                continue
-
-            # Get top buy/sell by share count first
-            stocks.sort(key=lambda x: x[2], reverse=True)
-            top_buy_raw = [s for s in stocks[:top_n] if s[2] > 0]
-            stocks.sort(key=lambda x: x[2])
-            top_sell_raw = [s for s in stocks[:top_n] if s[2] < 0]
-
-            # Fetch close prices and calculate notional
-            def calc_notional(items):
-                result = []
-                for code, name_zh, net_shares in items:
-                    en_name = get_en_name(code)
-                    try:
-                        ticker = yf.Ticker(f"{code}.TW")
-                        hist = ticker.history(period="1d")
-                        if len(hist) >= 1:
-                            close_price = hist['Close'].iloc[-1]
-                            notional = net_shares * close_price
-                            result.append((name_zh, en_name, code, notional))
-                            print(f"    {name_zh} {en_name} ({code}): {net_shares:+,} × NT${close_price:,.0f} = NT${notional:,.0f}")
-                        else:
-                            result.append((name_zh, en_name, code, net_shares * 100))
-                    except Exception:
-                        result.append((name_zh, en_name, code, net_shares * 100))
-                return result
-
-            print("  Calculating notional for top buys...")
-            top_buy = calc_notional(top_buy_raw)
-            print("  Calculating notional for top sells...")
-            top_sell = calc_notional(top_sell_raw)
-
-            # Re-sort by notional magnitude
-            top_buy.sort(key=lambda x: x[2], reverse=True)
-            top_sell.sort(key=lambda x: x[2])
-
-            result = {
-                "top_buy": top_buy[:top_n],
-                "top_sell": top_sell[:top_n],
-            }
-            print(f"  ✅ FINI flow: {len(result['top_buy'])} buys, {len(result['top_sell'])} sells (notional)")
-            return result
-        except Exception as e:
-            print(f"  ⚠️ T86 failed ({url}): {e}")
-            continue
-    print("  ⚠️ No per-stock FINI data available")
-    return {"top_buy": [], "top_sell": []}
 
 def get_zh_name_by_code(code, twse_name):
     """Use TWSE's own Chinese name, or fuzzy match from our dict."""
@@ -845,7 +750,7 @@ def get_dynamic_stock_data(extracted_tickers, weekly=False):
             print(f"  ⚠️ Skipped {name}")
     return results
 
-def format_market_data(core_data, dynamic_data, foreign_flow_str="", fini_stocks=None, weekly=False):
+def format_market_data(core_data, dynamic_data, foreign_flow_str="", weekly=False):
     label = "Weekly Change" if weekly else "Daily Change"
     lines = [f"📊 Taiwan Indices ({label}):"]
     for name, d in core_data.items():
@@ -861,29 +766,6 @@ def format_market_data(core_data, dynamic_data, foreign_flow_str="", fini_stocks
             zh = get_zh_name(name)
             label = f"{name} {zh}" if zh else name
             lines.append(f"  {arrow} {label}: NT${d['price']:,.0f}  ({d['change_pct']:+.2f}%)")
-    if fini_stocks:
-        if fini_stocks.get("top_buy"):
-            lines.append("")
-            lines.append("🟢 FINI Top Buys:")
-            for name_zh, en_name, code, notional in fini_stocks["top_buy"][:3]:
-                label = f"{en_name} {name_zh}" if en_name else name_zh or code
-                nt_b = abs(notional) / 1e8
-                if nt_b >= 1:
-                    lines.append(f"  ▲ {label}: +NT${nt_b:,.1f}B")
-                else:
-                    nt_m = abs(notional) / 1e6
-                    lines.append(f"  ▲ {label}: +NT${nt_m:,.0f}M")
-        if fini_stocks.get("top_sell"):
-            lines.append("")
-            lines.append("🔴 FINI Top Sells:")
-            for name_zh, en_name, code, notional in fini_stocks["top_sell"][:3]:
-                label = f"{en_name} {name_zh}" if en_name else name_zh or code
-                nt_b = abs(notional) / 1e8
-                if nt_b >= 1:
-                    lines.append(f"  ▼ {label}: -NT${nt_b:,.1f}B")
-                else:
-                    nt_m = abs(notional) / 1e6
-                    lines.append(f"  ▼ {label}: -NT${nt_m:,.0f}M")
     return "\n".join(lines)
 
 # ====================== GEMINI: STORIES ======================
@@ -1039,8 +921,6 @@ async def main():
         else:
             print("  ⚠️ No aggregate FINI data today")
 
-        print("📊 Fetching FINI per-stock data (T86)...")
-        fini_stocks = get_fini_top_stocks(top_n=5)
 
         print("📰 Fetching news...")
         news_items = get_taiwan_news(weekly=sunday)
@@ -1077,12 +957,12 @@ async def main():
         date_str = hk_time.strftime('%B %d, %Y')
         infographic_path = make_infographic(
             core_data, dynamic_data, foreign_flow_str, date_str, one_liner,
-            fini_stocks=fini_stocks, weekly=sunday
+            weekly=sunday
         )
 
         # Telegram caption
         market_data_str = format_market_data(
-            core_data, dynamic_data, foreign_flow_str, fini_stocks=fini_stocks, weekly=sunday
+            core_data, dynamic_data, foreign_flow_str, weekly=sunday
         )
         header = f"🇹🇼 Taiwan Weekly Recap • {date_str}" if sunday else f"🇹🇼 Taiwan Market Museum • {date_str}"
         tg_caption = f"{header}\n\n{recap}\n\n{market_data_str}\n\n#MarketMuseum #TAIEX #台股"
