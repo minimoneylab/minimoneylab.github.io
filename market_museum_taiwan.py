@@ -331,8 +331,8 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
     BG, PANEL, BORDER = palette["BG"], palette["PANEL"], palette["BORDER"]
     ACCENT, GOLD, MUTED, DIVIDER = palette["ACCENT"], palette["GOLD"], palette["MUTED"], palette["DIVIDER"]
     WHITE = (255, 255, 255)
-    GREEN_UP = (60, 220, 100)
-    RED_DOWN  = (220, 70, 70)
+    RED_UP     = (255, 80, 80)    # Taiwan: red = up (紅盤)
+    GREEN_DOWN = (60, 200, 100)  # Taiwan: green = down
 
     img = Image.new("RGBA", (W, H), (*BG, 255))
     draw = ImageDraw.Draw(img)
@@ -430,7 +430,7 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
 
     for name, d in core_data.items():
         pct = d['change_pct']
-        color = GREEN_UP if pct >= 0 else RED_DOWN
+        color = RED_UP if pct >= 0 else GREEN_DOWN
         arrow = "▲" if pct >= 0 else "▼"
         pct_str = f"{arrow} {abs(pct):.2f}%"
 
@@ -463,13 +463,13 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
 
         for name, d in sorted_stocks:
             pct = d['change_pct']
-            color = GREEN_UP if pct >= 0 else RED_DOWN
+            color = RED_UP if pct >= 0 else GREEN_DOWN
             arrow = "▲" if pct >= 0 else "▼"
             pct_str = f"{arrow} {abs(pct):.2f}%"
             bar_w = max(int(bar_max * (abs(pct) / max_abs)), 8)
 
             draw.rounded_rectangle([PAD, y, W-PAD, y+66], radius=10, fill=PANEL, outline=BORDER, width=1)
-            bar_fill = (10, 50, 20) if pct >= 0 else (50, 10, 10)
+            bar_fill = (50, 10, 10) if pct >= 0 else (10, 50, 20)
             draw.rounded_rectangle([PAD, y, PAD+bar_w+60, y+66], radius=10, fill=bar_fill)
 
             # Line 1: English name (bold)
@@ -487,18 +487,16 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
         y += 8
         draw.rectangle([PAD, y, W-PAD, y+1], fill=DIVIDER)
         y += 16
-        if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
-            fini_color = (60, 220, 100)
-        else:
-            fini_color = (220, 70, 70)
-        amt = foreign_flow_str.split("NT$")[-1] if "NT$" in foreign_flow_str else ""
-        if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
-            fini_display = f"FINI Net Buy  NT${amt}" if amt else "FINI Net Buy"
-        else:
-            fini_display = f"FINI Net Sell  NT${amt}" if amt else "FINI Net Sell"
+        is_buy = "Buy" in foreign_flow_str
+        fini_color = (60, 220, 100) if is_buy else (220, 70, 70)
+        # Split: label on left, amount on right
+        fini_label = "FINI Net Buy" if is_buy else "FINI Net Sell"
+        fini_amt = "NT$" + foreign_flow_str.split("NT$")[-1] if "NT$" in foreign_flow_str else ""
         draw.rounded_rectangle([PAD, y, W-PAD, y+44], radius=10, fill=PANEL, outline=BORDER, width=1)
         f24b_fini = font(24, bold=True)
-        draw.text((PAD+24, y+12), fini_display, font=f24b_fini, fill=fini_color)
+        draw.text((PAD+24, y+12), fini_label, font=f24b_fini, fill=fini_color)
+        if fini_amt:
+            draw.text((rx(fini_amt, f24b_fini, W-PAD-24), y+12), fini_amt, font=f24b_fini, fill=fini_color)
         y += 52
 
     # ── Wave strip ────────────────────────────────────────────────
@@ -642,9 +640,9 @@ def get_foreign_flow():
                     buy = int(row[1].replace(",", ""))
                     sell = int(row[2].replace(",", ""))
                     net = buy - sell
-                    net_b = net / 1e8  # convert to 億
-                    direction = "Net Buy 買超" if net > 0 else "Net Sell 賣超"
-                    result = f"外資 {direction} NT${abs(net_b):,.1f}億"
+                    net_bn = net / 1e9  # convert to billions
+                    direction = "FINI Net Buy" if net > 0 else "FINI Net Sell"
+                    result = f"{direction} NT${abs(net_bn):,.2f}bn"
                     print(f"  ✅ {result}")
                     return result
         except Exception as e:
