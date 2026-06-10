@@ -440,14 +440,6 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
         draw.text((rx(pct_str, f34b, W-PAD-24), y+22), pct_str, font=f34b, fill=color)
         y += 82
 
-    # ── Foreign flow (外資買賣) ────────────────────────────────────
-    if foreign_flow_str:
-        y += 6
-        draw.rounded_rectangle([PAD, y, W-PAD, y+50], radius=10, fill=PANEL, outline=BORDER, width=1)
-        f24b = font(24, bold=True)
-        draw.text((PAD+24, y+14), foreign_flow_str, font=f24b, fill=GOLD)
-        y += 58
-
     # ── Divider ───────────────────────────────────────────────────
     y += 8
     draw.rectangle([PAD, y, W-PAD, y+1], fill=DIVIDER)
@@ -490,8 +482,9 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
             draw.text((rx(pct_str, f24b, W-PAD-18), y+20), pct_str, font=f24b, fill=color)
             y += 72
 
-    # ── FINI top buys & sells (外資買賣超個股) ─────────────────────
-    if fini_stocks and (fini_stocks.get("top_buy") or fini_stocks.get("top_sell")):
+    # ── FINI section (bottom) ────────────────────────────────────
+    has_fini = fini_stocks and (fini_stocks.get("top_buy") or fini_stocks.get("top_sell"))
+    if foreign_flow_str or has_fini:
         y += 8
         draw.rectangle([PAD, y, W-PAD, y+1], fill=DIVIDER)
         y += 16
@@ -502,27 +495,53 @@ def make_infographic(core_data, dynamic_data, foreign_flow_str, date_str, one_li
         FINI_GREEN = (60, 220, 100)
         FINI_RED   = (220, 70, 70)
 
-        # Top buys
-        if fini_stocks.get("top_buy"):
-            draw.text((PAD, y), "外資買超 FINI NET BUY", font=f20s, fill=FINI_GREEN)
+        # Aggregate FINI flow — English only
+        if foreign_flow_str:
+            if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
+                fini_color = FINI_GREEN
+            else:
+                fini_color = FINI_RED
+            # Extract NT$ amount and build English-only label
+            amt = foreign_flow_str.split("NT$")[-1] if "NT$" in foreign_flow_str else ""
+            if "買超" in foreign_flow_str or "Buy" in foreign_flow_str:
+                fini_display = f"FINI Net Buy  NT${amt}" if amt else "FINI Net Buy"
+            else:
+                fini_display = f"FINI Net Sell  NT${amt}" if amt else "FINI Net Sell"
+            draw.rounded_rectangle([PAD, y, W-PAD, y+44], radius=10, fill=PANEL, outline=BORDER, width=1)
+            f24b_fini = font(24, bold=True)
+            draw.text((PAD+24, y+12), fini_display, font=f24b_fini, fill=fini_color)
+            y += 52
+
+        # Per-stock FINI top buys (notional)
+        if has_fini and fini_stocks.get("top_buy"):
+            y += 4
+            draw.text((PAD, y), "FINI TOP BUYS", font=f20s, fill=FINI_GREEN)
             y += 26
-            for name_zh, _, shares in fini_stocks["top_buy"][:3]:
-                shares_k = abs(shares) / 1000
-                label = f"{name_zh}" if name_zh else "—"
-                val = f"+{shares_k:,.0f}K shares"
+            for name_zh, en_name, code, notional in fini_stocks["top_buy"][:3]:
+                label = f"{en_name} {name_zh}" if en_name else name_zh or code
+                nt_b = abs(notional) / 1e8
+                if nt_b >= 1:
+                    val = f"+NT${nt_b:,.1f}B"
+                else:
+                    nt_m = abs(notional) / 1e6
+                    val = f"+NT${nt_m:,.0f}M"
                 draw.text((PAD+18, y), label, font=f22b, fill=WHITE)
                 draw.text((rx(val, f18, W-PAD-18), y+2), val, font=f18, fill=FINI_GREEN)
                 y += 28
 
-        # Top sells
-        if fini_stocks.get("top_sell"):
+        # Per-stock FINI top sells (notional)
+        if has_fini and fini_stocks.get("top_sell"):
             y += 8
-            draw.text((PAD, y), "外資賣超 FINI NET SELL", font=f20s, fill=FINI_RED)
+            draw.text((PAD, y), "FINI TOP SELLS", font=f20s, fill=FINI_RED)
             y += 26
-            for name_zh, _, shares in fini_stocks["top_sell"][:3]:
-                shares_k = abs(shares) / 1000
-                label = f"{name_zh}" if name_zh else "—"
-                val = f"-{shares_k:,.0f}K shares"
+            for name_zh, en_name, code, notional in fini_stocks["top_sell"][:3]:
+                label = f"{en_name} {name_zh}" if en_name else name_zh or code
+                nt_b = abs(notional) / 1e8
+                if nt_b >= 1:
+                    val = f"-NT${nt_b:,.1f}B"
+                else:
+                    nt_m = abs(notional) / 1e6
+                    val = f"-NT${nt_m:,.0f}M"
                 draw.text((PAD+18, y), label, font=f22b, fill=WHITE)
                 draw.text((rx(val, f18, W-PAD-18), y+2), val, font=f18, fill=FINI_RED)
                 y += 28
@@ -650,7 +669,7 @@ def get_foreign_flow():
     return ""
 
 def get_fini_top_stocks(top_n=5):
-    """Get per-stock 外資 buy/sell from TWSE T86."""
+    """Get per-stock 外資 buy/sell from TWSE T86, return notional (NT$) values."""
     today = get_hk_time()
     date_str = today.strftime("%Y%m%d")
     session = _twse_session()
@@ -676,7 +695,6 @@ def get_fini_top_stocks(top_n=5):
                 try:
                     code = row[0].strip()
                     name_zh = row[1].strip()
-                    # FINI net buy/sell shares — column index 4
                     net_str = row[4].replace(",", "").strip()
                     net_shares = int(net_str)
                     stocks.append((code, name_zh, net_shares))
@@ -686,18 +704,45 @@ def get_fini_top_stocks(top_n=5):
             if not stocks:
                 continue
 
+            # Get top buy/sell by share count first
             stocks.sort(key=lambda x: x[2], reverse=True)
-            top_buy = stocks[:top_n]
+            top_buy_raw = [s for s in stocks[:top_n] if s[2] > 0]
             stocks.sort(key=lambda x: x[2])
-            top_sell = stocks[:top_n]
+            top_sell_raw = [s for s in stocks[:top_n] if s[2] < 0]
+
+            # Fetch close prices and calculate notional
+            def calc_notional(items):
+                result = []
+                for code, name_zh, net_shares in items:
+                    en_name = get_en_name(code)
+                    try:
+                        ticker = yf.Ticker(f"{code}.TW")
+                        hist = ticker.history(period="1d")
+                        if len(hist) >= 1:
+                            close_price = hist['Close'].iloc[-1]
+                            notional = net_shares * close_price
+                            result.append((name_zh, en_name, code, notional))
+                            print(f"    {name_zh} {en_name} ({code}): {net_shares:+,} × NT${close_price:,.0f} = NT${notional:,.0f}")
+                        else:
+                            result.append((name_zh, en_name, code, net_shares * 100))
+                    except Exception:
+                        result.append((name_zh, en_name, code, net_shares * 100))
+                return result
+
+            print("  Calculating notional for top buys...")
+            top_buy = calc_notional(top_buy_raw)
+            print("  Calculating notional for top sells...")
+            top_sell = calc_notional(top_sell_raw)
+
+            # Re-sort by notional magnitude
+            top_buy.sort(key=lambda x: x[2], reverse=True)
+            top_sell.sort(key=lambda x: x[2])
 
             result = {
-                "top_buy": [(name, get_zh_name_by_code(code, name), shares)
-                            for code, name, shares in top_buy if shares > 0],
-                "top_sell": [(name, get_zh_name_by_code(code, name), shares)
-                             for code, name, shares in top_sell if shares < 0],
+                "top_buy": top_buy[:top_n],
+                "top_sell": top_sell[:top_n],
             }
-            print(f"  ✅ FINI stock flow: {len(result['top_buy'])} buys, {len(result['top_sell'])} sells")
+            print(f"  ✅ FINI flow: {len(result['top_buy'])} buys, {len(result['top_sell'])} sells (notional)")
             return result
         except Exception as e:
             print(f"  ⚠️ T86 failed ({url}): {e}")
@@ -707,8 +752,35 @@ def get_fini_top_stocks(top_n=5):
 
 def get_zh_name_by_code(code, twse_name):
     """Use TWSE's own Chinese name, or fuzzy match from our dict."""
-    # TWSE T86 already returns Chinese names — use them directly
     return twse_name
+
+# Stock code → English name for FINI display
+CODE_TO_EN = {
+    "2330": "TSMC", "2317": "Hon Hai", "2454": "MediaTek",
+    "2308": "Delta Electronics", "2882": "Cathay Financial",
+    "2881": "Fubon Financial", "2891": "CTBC Financial",
+    "2886": "Mega Financial", "2303": "UMC", "3711": "ASE Technology",
+    "2382": "Quanta", "4938": "Pegatron", "3008": "Largan",
+    "3034": "Novatek", "2379": "Realtek", "3231": "Wistron",
+    "2324": "Compal", "2353": "Acer", "2357": "ASUS",
+    "2603": "Evergreen Marine", "2002": "China Steel",
+    "2412": "Chunghwa Telecom", "6505": "Formosa Petrochemical",
+    "1301": "Formosa Plastics", "1303": "Nan Ya Plastics",
+    "2884": "E.SUN Financial", "5880": "SinoPac Financial",
+    "2892": "First Financial", "2880": "Hua Nan Financial",
+    "2887": "Taishin Financial", "2885": "Yuanta Financial",
+    "6861": "Keyence", "2474": "Catcher Technology",
+    "3037": "Unimicron", "5347": "Vanguard Intl Semi",
+    "3443": "ASE Industrial", "2327": "Yageo",
+    "3661": "Alchip Technologies", "6669": "Wiwynn",
+    "2345": "Accton", "3529": "Eoptolink",
+    "2301": "Lite-On", "2395": "Advantech",
+    "4904": "Far EasTone", "3045": "Taiwan Mobile",
+}
+
+def get_en_name(code):
+    """Get English name from stock code."""
+    return CODE_TO_EN.get(code, "")
 
 def get_taiwan_news(weekly=False):
     news_items, seen = [], set()
@@ -792,16 +864,26 @@ def format_market_data(core_data, dynamic_data, foreign_flow_str="", fini_stocks
     if fini_stocks:
         if fini_stocks.get("top_buy"):
             lines.append("")
-            lines.append("🟢 外資買超 Top FINI Buys:")
-            for name_zh, _, shares in fini_stocks["top_buy"][:3]:
-                shares_k = abs(shares) / 1000
-                lines.append(f"  ▲ {name_zh}: +{shares_k:,.0f}K shares")
+            lines.append("🟢 FINI Top Buys:")
+            for name_zh, en_name, code, notional in fini_stocks["top_buy"][:3]:
+                label = f"{en_name} {name_zh}" if en_name else name_zh or code
+                nt_b = abs(notional) / 1e8
+                if nt_b >= 1:
+                    lines.append(f"  ▲ {label}: +NT${nt_b:,.1f}B")
+                else:
+                    nt_m = abs(notional) / 1e6
+                    lines.append(f"  ▲ {label}: +NT${nt_m:,.0f}M")
         if fini_stocks.get("top_sell"):
             lines.append("")
-            lines.append("🔴 外資賣超 Top FINI Sells:")
-            for name_zh, _, shares in fini_stocks["top_sell"][:3]:
-                shares_k = abs(shares) / 1000
-                lines.append(f"  ▼ {name_zh}: -{shares_k:,.0f}K shares")
+            lines.append("🔴 FINI Top Sells:")
+            for name_zh, en_name, code, notional in fini_stocks["top_sell"][:3]:
+                label = f"{en_name} {name_zh}" if en_name else name_zh or code
+                nt_b = abs(notional) / 1e8
+                if nt_b >= 1:
+                    lines.append(f"  ▼ {label}: -NT${nt_b:,.1f}B")
+                else:
+                    nt_m = abs(notional) / 1e6
+                    lines.append(f"  ▼ {label}: -NT${nt_m:,.0f}M")
     return "\n".join(lines)
 
 # ====================== GEMINI: STORIES ======================
@@ -818,14 +900,36 @@ def generate_daily_story(core_data, dynamic_data, news_items, photo_style, forei
             "3. Write ONE punchy one-liner (max 8 words) capturing today's mood.\n"
             "   Examples: 'TSMC held. The island exhaled.' / 'Foreign money fled. Taiwan shrugged.'\n"
             "4. Create a vivid PHOTOGRAPHY description — NOT a painting:\n"
-            "   - The SUBJECT must be the day's main story — conceptual, symbolic, dramatic.\n"
-            "   - Think editorial fashion shoot meets financial drama.\n"
-            "   - Examples: 'A silicon wafer shattering into a thousand fragments mid-air against black, "
-            "each shard reflecting stock tickers — shot in high-speed frozen motion'. "
-            "'A lone trader standing in an empty Taipei 101 lobby at dawn, golden light streaming through "
-            "glass, shot in cinematic Deakins style'.\n"
-            "   - Make it eye-catching and stylish, something people would say 'wow' to.\n"
-            "   - NOT a generic news photo. NOT realistic documentary. CONCEPTUAL and ARTISTIC.\n"
+            "   STEP A — First pick ONE visual concept from this list that best fits today's story. "
+            "DO NOT default to 'night cityscape with silhouette' every time — it's overused. "
+            "Use it at most once a week. Pick something surprising and different:\n"
+            "   • MACRO CLOSE-UP: extreme detail of a symbolic object — a chip cracking, gold melting, "
+            "ice forming on a circuit board, a coin balanced on a razor edge\n"
+            "   • HIGH-SPEED SHATTER: an object frozen mid-explosion — a piggy bank shattering, "
+            "a glass bull fragmenting, a stack of coins detonating, water crown splash shaped like a chart\n"
+            "   • HANDS: powerful close-up of hands — gripping a phone showing red numbers, "
+            "catching falling gold coins, releasing a paper airplane made of NT$ bills\n"
+            "   • SURREAL IMPOSSIBLE SCENE: gravity reversed, giant objects in tiny rooms, "
+            "a semiconductor fab inside a snow globe, Taipei 101 growing like a plant from soil\n"
+            "   • AERIAL/TILT-SHIFT: miniature world — a trading floor that looks like a toy diorama, "
+            "Hsinchu Science Park as a circuit board from above\n"
+            "   • STUDIO PRODUCT SHOT: single object on clean surface — a golden chip on velvet, "
+            "a bear figurine melting under studio lights, a diamond-cut TAIEX number\n"
+            "   • CROWDED CHAOS: many bodies in motion — a trading pit stampede, a night market "
+            "where every stall sells stocks, people running in suits through a typhoon\n"
+            "   • FOOD/CULINARY: market as cuisine — a perfectly plated chip wafer as sashimi, "
+            "a bull cake being sliced, a bear market soup boiling over\n"
+            "   • BRIGHT/OVEREXPOSED: not everything needs to be dark — blazing sunlight, "
+            "white studio, neon pink explosion, golden hour warmth\n"
+            "   • VINTAGE/ANALOG: film grain, Polaroid framing, VHS artifacts, retro computer terminal\n"
+            "   • SCALE CONTRAST: something tiny next to something massive — a single person vs a wall "
+            "of screens, a tiny chip next to a giant excavator\n\n"
+            "   STEP B — Now describe the specific scene using that concept. Be precise about:\n"
+            "   - What OBJECT or PERSON is the subject (not just 'a figure')\n"
+            "   - What LIGHTING setup (not just 'dramatic' — specify: backlit, rim-lit, golden hour, "
+            "overhead, single strobe, natural window light, neon glow, etc.)\n"
+            "   - What CAMERA ANGLE (macro 1:1, wide 16mm, overhead drone, eye-level, low-angle hero shot)\n"
+            "   - What makes people say 'WOW' when they see this\n"
             "   - The photography style specified MUST be followed faithfully.\n"
             "5. Instagram caption: strong hook, 2-3 witty sentences, 5-8 hashtags (all #), "
             "at least 2 Taiwan hashtags (e.g. #TAIEX #台股 #TSMC #台積電), max 150 words.\n\n"
@@ -860,8 +964,13 @@ def generate_weekly_story(core_data, dynamic_data, news_items, photo_style, fore
             "1. Identify 2-3 biggest themes of the week.\n"
             "2. Write a punchy weekly narrative (5-7 sentences, prose, no bullets).\n"
             "3. ONE punchy one-liner (max 8 words).\n"
-            "4. Vivid PHOTOGRAPHY description (conceptual, dramatic, NOT a painting).\n"
-            "   Style the week as a magazine cover shoot — bold, specific, unmistakably this week.\n"
+            "4. Vivid PHOTOGRAPHY description — NOT a painting. NOT a dark city + silhouette.\n"
+            "   First pick a visual concept: MACRO CLOSE-UP, HIGH-SPEED SHATTER, HANDS, "
+            "SURREAL IMPOSSIBLE SCENE, AERIAL/TILT-SHIFT, STUDIO PRODUCT SHOT, CROWDED CHAOS, "
+            "FOOD/CULINARY, BRIGHT/OVEREXPOSED, VINTAGE/ANALOG, or SCALE CONTRAST.\n"
+            "   Then describe: specific subject, lighting setup, camera angle, what makes it 'wow'.\n"
+            "   Style it as a magazine cover — bold, specific, unmistakably this week.\n"
+            "   Follow the photography style faithfully.\n"
             "5. Weekly IG caption: strong hook, 3-4 witty sentences, 6-10 hashtags, Taiwan hashtags.\n\n"
             f"Weekly Data:\n{market_data_str}\n\n"
             f"Headlines:\n{news_text}\n\n"
