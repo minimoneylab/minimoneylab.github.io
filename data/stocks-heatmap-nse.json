@@ -7,11 +7,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 180149081138.0,
-      "pe_ratio": 21.28,
-      "pb_ratio": 1.9,
-      "dividend_yield": 47.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "TCS.NS",
@@ -19,11 +19,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 81628972153.0,
-      "pe_ratio": 15.82,
-      "pb_ratio": 6.86,
-      "dividend_yield": 5.76,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "HDFCBANK.NS",
@@ -31,11 +31,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 119234347020.0,
-      "pe_ratio": 16.47,
-      "pb_ratio": 1.94,
-      "dividend_yield": 1.76,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "INFY.NS",
@@ -43,11 +43,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 50121340818.0,
-      "pe_ratio": 15.53,
-      "pb_ratio": 5.12,
-      "dividend_yield": 4.21,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "ICICIBANK.NS",
@@ -55,11 +55,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 95897129125.0,
-      "pe_ratio": 17.05,
-      "pb_ratio": 2.51,
-      "dividend_yield": 88.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "BHARTIARTL.NS",
@@ -67,11 +67,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 114941872209.0,
-      "pe_ratio": 40.49,
-      "pb_ratio": 7.06,
-      "dividend_yield": 88.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "SBIN.NS",
@@ -79,11 +79,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 97079301276.0,
-      "pe_ratio": 11.0,
-      "pb_ratio": 1.56,
-      "dividend_yield": 1.77,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "HINDUNILVR.NS",
@@ -91,11 +91,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 52561452272.0,
-      "pe_ratio": 47.23,
-      "pb_ratio": 10.28,
-      "dividend_yield": 2.09,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "ITC.NS",
@@ -103,11 +103,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 36797265226.0,
-      "pe_ratio": 16.95,
-      "pb_ratio": 4.84,
-      "dividend_yield": 5.73,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "LT.NS",
@@ -115,11 +115,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 56282060502.0,
-      "pe_ratio": 33.33,
-      "pb_ratio": 4.91,
-      "dividend_yield": 98.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "AXISBANK.NS",
@@ -127,11 +127,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 42158976347.0,
-      "pe_ratio": 15.3,
-      "pb_ratio": 1.87,
-      "dividend_yield": 8.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "BAJFINANCE.NS",
@@ -139,11 +139,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 57841776119.0,
-      "pe_ratio": 29.09,
-      "pb_ratio": 4.84,
-      "dividend_yield": 62.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "MARUTI.NS",
@@ -151,11 +151,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 43265804778.0,
-      "pe_ratio": 28.07,
-      "pb_ratio": 3.85,
-      "dividend_yield": 1.08,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "HCLTECH.NS",
@@ -163,11 +163,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 32532206379.0,
-      "pe_ratio": 18.68,
-      "pb_ratio": 4.07,
-      "dividend_yield": 8.34,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "M&M.NS",
@@ -175,11 +175,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 37658897998.0,
-      "pe_ratio": 19.65,
-      "pb_ratio": 3.59,
-      "dividend_yield": 1.11,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "ASIANPAINT.NS",
@@ -187,11 +187,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 27229962959.0,
-      "pe_ratio": 59.9,
-      "pb_ratio": 12.14,
-      "dividend_yield": 1.03,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "WIPRO.NS",
@@ -199,11 +199,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 19989349632.0,
-      "pe_ratio": 14.46,
-      "pb_ratio": 2.16,
-      "dividend_yield": 9.35,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "KOTAKBANK.NS",
@@ -211,11 +211,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 39821335870.0,
-      "pe_ratio": 19.7,
-      "pb_ratio": 2.1,
-      "dividend_yield": 13.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "SUNPHARMA.NS",
@@ -223,11 +223,11 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 44770474002.0,
-      "pe_ratio": 37.25,
-      "pb_ratio": 5.11,
-      "dividend_yield": 92.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     },
     {
       "symbol": "TITAN.NS",
@@ -235,12 +235,12 @@
       "price": NaN,
       "change": NaN,
       "change_pct": NaN,
-      "market_cap": 38192072628.0,
-      "pe_ratio": 71.99,
-      "pb_ratio": 23.21,
-      "dividend_yield": 26.0,
-      "pct_from_high": NaN
+      "market_cap": 1000000000,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "dividend_yield": null,
+      "pct_from_high": null
     }
   ],
-  "update_time": "2026-06-10 07:00:30"
+  "update_time": "2026-06-11 07:08:58"
 }
