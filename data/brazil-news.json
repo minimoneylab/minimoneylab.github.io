@@ -1,27 +1,41 @@
 {
-  "date": "2026-06-10",
-  "update_time": "2026-06-10 10:57:33",
-  "total_articles": 4,
+  "date": "2026-06-11",
+  "update_time": "2026-06-11 11:26:08",
+  "total_articles": 6,
   "high": [
     {
-      "title": "Petrobras (PETR4) Buys Stake in Exploratory Block in Campos Basin and Expands Partnership with Equinor",
+      "title": "Ibovespa rises with improved investor sentiment and retests 169,000 points; 5 things to know before investing today (11)",
       "source": "MoneyTimes",
-      "date": "2026-06-10",
-      "url": "https://www.moneytimes.com.br/petrobras-petr4-compra-fatia-de-bloco-exploratorio-na-bacia-de-campos-e-amplia-parceria-com-a-equinor-igdl/",
-      "summary": "Petrobras (PETR4) announced it signed a contract with Equinor to acquire a 50% stake in the Itaimbezinho exploratory block located in deep waters of the Campos Basin. The transaction creates a consortium with Equinor remaining as operator with 50%, Petrobras with 50%, and Pré-Sal Petróleo S.A. (PPSA) managing the production sharing agreement. According to Petrobras, this deal reinforces the relevance of exploratory activities in Brazil and aligns with the company's long-term strategy to replenish reserves through exploration of new frontiers and strategic partnerships. The operation expands synergies in the Campos Basin, where Petrobras already has joint assets with Equinor, including the Raia project and Jaspe exploratory license. This is significant for PETR4 shareholders as it demonstrates the company's commitment to reserve replacement and strategic partnerships in high-potential offshore blocks. The expansion of exploration activities could support future production growth and maintain Petrobras' position as a key dividend payer, which is crucial for the stock's performance on B3 and its impact on the Ibovespa."
+      "date": "2026-06-11",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-11-6-26-lils/",
+      "summary": "The Ibovespa is tracking improved global risk sentiment amid new developments in the Middle East conflict, with US pressure for a definitive peace agreement. By 10:10 AM Brasília time, the main Brazilian stock index was up 0.19% at 168,939 points, approaching the psychologically important 169,000 level. The USD/BRL pair moved counter to global dollar strength, falling 0.17% to R$ 5.1640, while the DXY was up 0.12%. Brazilian services volume posted a stronger-than-expected 1.2% month-over-month increase in April (vs. 0.6% expected), recovering from March's 1.1% decline and suggesting economic momentum after a weak Q1. This positive domestic data, combined with geopolitical developments and upcoming US inflation data, is supporting Brazilian assets. For FX traders, the real's outperformance against the dollar despite broader dollar strength indicates improving local fundamentals, though the 169,000 Ibovespa resistance level will be key to watch for equity positioning."
     }
   ],
   "medium": [
     {
-      "title": "Kinea Infra (KDIF11) is Among Analyst Recommendations to Seek Extra Income; See More",
+      "title": "Petrobras (PETR4) purchases stake in exploratory block in Campos Basin and expands partnership with Equinor",
       "source": "MoneyTimes",
       "date": "2026-06-10",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/kinea-infra-kdif11-esta-entre-recomendacoes-de-analista-para-buscar-renda-extra-veja-mais-lbrdjm005/",
-      "summary": "An Empiricus Research analyst highlights investment strategies for generating extra income in a higher-for-longer interest rate environment. The analysis mentions tensions in Iran, changes in global interest rate expectations, and fluctuations in commodity and FX markets as challenges for investors in May. The analyst recommends diversification into private credit, incentivized debentures, real estate funds, and companies with strong cash generation, specifically highlighting the Kinea Infra fund (KDIF11) which specializes in infrastructure incentivized debentures. This is relevant for Brazilian fixed income investors as it reflects the ongoing impact of elevated global and domestic interest rates on investment strategy and the continued appeal of infrastructure-linked bonds."
+      "url": "https://www.moneytimes.com.br/petrobras-petr4-compra-fatia-de-bloco-exploratorio-na-bacia-de-campos-e-amplia-parceria-com-a-equinor-igdl/",
+      "summary": "Petrobras announced it signed a contract with Equinor to acquire a 50% stake in the Itaimbezinho exploratory block in deep waters of the Campos Basin. The consortium will be equally split between Equinor (operator) and Petrobras, with PPSA managing the production-sharing agreement. This strategic partnership reinforces Petrobras' long-term strategy to replenish reserves through exploration of new frontiers and expands synergies in the Campos Basin where both companies already operate joint assets."
+    },
+    {
+      "title": "PINE4 and more: check out small cap stocks recommended by BTG Pactual to invest in June",
+      "source": "MoneyTimes",
+      "date": "2026-06-11",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/pine4-e-mais-confira-acoes-de-small-caps-recomendadas-pelo-btg-pactual-para-investir-em-junho-lbrdjm006/",
+      "summary": "BTG Pactual updated its small cap portfolio recommendations despite challenging market conditions including Middle East tensions and deteriorating interest rate expectations. The bank highlights Banco Pine (PINE4) among its picks, noting the institution delivered positive Q1 2026 results with net income of R$ 150 million, up 25% from the previous quarter. Analysts expect continued market volatility due to high interest rates, above-target inflation, and electoral uncertainties."
+    },
+    {
+      "title": "For the first time in 3 years, ECB raises interest rates to contain inflation caused by war",
+      "source": "MoneyTimes",
+      "date": "2026-06-11",
+      "url": "https://www.moneytimes.com.br/pela-primeira-vez-em-3-anos-bce-eleva-taxas-de-juros-para-conter-inflacao-causada-pela-guerra-jcav/",
+      "summary": "The European Central Bank raised interest rates for the first time in almost three years to combat inflation driven by energy costs from the Iran war. Eurozone inflation is already above 3%, well above the ECB's 2% target, while economic growth remains weak. This divergent global monetary policy trend could impact Brazilian Real positioning as investors reassess relative interest rate differentials between major economies and emerging markets like Brazil."
     }
   ],
   "not_relevant": [
-    "5 Technology Companies and One Beverage Company Stand Out Among the Most Recommended International Stocks of June; See Which Ones",
-    "Kinea Infra (KDIF11) is Among Analyst Recommendations to Seek Extra Income; See More (duplicate from June 9)"
+    "Kinea Infra (KDIF11) is among analyst recommendations to seek extra income; see more",
+    "Goodbye, bitcoin (BTC): these 5 coins could be the great opportunities to seek up to R$ 1 million in the next 12 months"
   ]
 }
