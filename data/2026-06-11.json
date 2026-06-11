@@ -1,0 +1,59 @@
+{
+  "date": "2026-06-11",
+  "update_time": "2026-06-11 00:00:53",
+  "total_articles": 39,
+  "high": [
+    {
+      "title": "Apple WWDC Shows Three Highlights to Boost Hardware Sales, Benefits Hon Hai, TSMC and Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/06/10 01:06:08",
+      "url": "https://money.udn.com/money/story/5612/9556356?from=edn_maintab_cate",
+      "summary": "Apple's WWDC showcased new AI-powered iOS 27, enhanced Siri with AI functionality, and expanded Apple Intelligence features. The company announced integration of its Private Compute Cloud (PCC) architecture with Google Cloud and NVIDIA GPU platforms, strengthening cross-platform user privacy. Industry analysts expect these AI enhancements to stimulate iPhone and iPad hardware sales, benefiting Taiwan supply chain partners including Hon Hai (2317), TSMC (2330), and Largan Precision (3008). The enhanced AI capabilities represent a significant upgrade that could drive hardware replacement cycles, particularly important for Taiwan's electronics manufacturing ecosystem. However, Apple noted that Siri AI will initially support only English and be marked as \"beta\" when launched this fall, with limited availability in EU and China markets due to regulatory compliance requirements."
+    },
+    {
+      "title": "TSMC May Revenue Hits Record High, Analysts Bullish on Q2 USD Guidance Achievement, Focus on Today's Ex-Dividend",
+      "section": "金融",
+      "date": "2026/06/11 02:00:01",
+      "url": "https://money.udn.com/money/story/5612/9558915?from=edn_maintab_cate",
+      "summary": "TSMC (2330) reported May consolidated revenue of NT$416.97 billion, setting a new monthly record with 1.5% MoM growth and 30.1% YoY growth. First five months revenue reached NT$1.96 trillion, up 30% YoY. Analysts estimate TSMC has achieved approximately 66% of its Q2 USD guidance, positioning the company to meet quarterly targets with both NTD and USD revenue reaching new quarterly highs. The stock goes ex-dividend today for NT$6 quarterly dividend. Despite market volatility with the stock closing at NT$2,255 (-NT$50) yesterday amid foreign investor selling pressure, analysts view today's ex-dividend performance as a key indicator of Taiwan market sentiment. If TSMC can achieve same-day dividend filling or \"instant filling,\" it would significantly boost market confidence and momentum for the broader Taiwan equity market."
+    },
+    {
+      "title": "Taiwan Index \"Corrects Back\" with Single-Day Plunge of Nearly 1,500 Points, Market Watching Three Key Levels",
+      "section": "證券",
+      "date": "2026/06/11 02:11:01",
+      "url": "https://money.udn.com/money/story/5607/9559012?from=edn_maintab_cate",
+      "summary": "Taiwan stock index plummeted 1,478 points to close at 43,225 points yesterday, wiping out the previous day's 1,201-point gain and breaking below monthly moving average support. Foreign investors sold NT$93.57 billion, bringing their five-day selling total to NT$437.47 billion. The massive selloff was triggered by expectations of Fed rate hikes, escalating Middle East geopolitical conflicts, and concerns about delayed AI hardware demand. Market analysts identify three critical levels: if the index cannot quickly fill the gap at 45,070 points from June 8th, it risks testing the low of 42,376 points or even falling to 40,000 points. The volatility reflects significant institutional repositioning, with volume expanding to NT$1.4 trillion. Analysts warn of continued headwinds from capital outflows, currency strength, and geopolitical risks that could further pressure the market."
+    }
+  ],
+  "medium": [
+    {
+      "title": "US Stocks Close: US-Iran Tensions Rise Again, Philly Semi Falls 3.6%, S&P 500 Tech Stocks Enter Correction",
+      "section": "金融",
+      "date": "2026/06/11 06:53:08",
+      "url": "https://money.udn.com/money/story/123398/9559255",
+      "summary": "US markets fell sharply as US-Iran tensions escalated after Trump ordered retaliatory strikes following Iranian drone attack on US Apache helicopter. Philadelphia Semiconductor Index dropped 3.6%, with TSMC ADR falling 4.5%. Despite May CPI meeting expectations at 4.2% YoY, geopolitical concerns overshadowed inflation data, pushing oil prices higher and pressuring tech stocks into correction territory."
+    },
+    {
+      "title": "Taiwan Dollar Closes at 31.668, Depreciates 5 Cents",
+      "section": "證券",
+      "date": "2026/06/10 16:14:19",
+      "url": "https://money.udn.com/money/story/12509/9558118?from=edn_subcatelist_cate",
+      "summary": "The Taiwan dollar weakened 5 cents against the US dollar to close at 31.668, reflecting continued foreign capital outflows and market volatility. The currency's depreciation adds to concerns about capital flight from Taiwan markets amid regional uncertainty."
+    },
+    {
+      "title": "US CPI Breaks 4% for First Time in Three Years, US Stock Futures Fall",
+      "section": "產經",
+      "date": "2026/06/10 20:39:04",
+      "url": "https://money.udn.com/money/story/5599/9558703",
+      "summary": "US May CPI surged to 4.2% YoY, the highest since April 2023, driven primarily by energy costs rising 3.9%. Core CPI monthly increase of 0.2% came in slightly below expectations. The inflation spike, attributed to Iran war impacts on oil prices, reinforces Fed concerns about persistent price pressures above their 2% target, raising probability of rate hikes."
+    },
+    {
+      "title": "Listed Companies Record Strongest May Revenue, Up 34%, Analysts Estimate Q2 Earnings Could Reach 1.6 Trillion",
+      "section": "證券",
+      "date": "2026/06/11 01:34:21",
+      "url": "https://money.udn.com/money/story/5607/9559004?from=edn_maintab_cate",
+      "summary": "Listed companies achieved record May revenue of NT$5.26 trillion, up 34% YoY, driven by AI demand surge. 126 companies hit record monthly revenues. Analysts project Q2 earnings could reach NT$1.3-1.6 trillion, with full-year revenue potentially hitting NT$65 trillion and earnings of NT$6.3-7 trillion, led by semiconductor and AI-related sectors."
+    }
+  ],
+  "not_relevant": []
+}
