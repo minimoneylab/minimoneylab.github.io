@@ -1,96 +1,71 @@
 {
-  "date": "2026-06-10",
-  "update_time": "2026-06-09 22:22:10",
-  "total_articles": 33,
+  "date": "2026-06-13",
+  "update_time": "2026-06-12 22:22:16",
+  "total_articles": 32,
   "high": [
     {
-      "title": "Financial Holdings on High Alert as Won Breaches 1,560 Per Dollar, Contingency Plans Activated",
-      "section": "Policy/Finance",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124369",
-      "summary": "The USD/KRW exchange rate reached its highest level since the 2009 global financial crisis, hovering around 1,550 and breaching the psychologically critical 1,560 threshold over the weekend. Major Korean financial holding companies including KB Financial Group activated emergency protocols, conducting comprehensive reviews of foreign currency exposures, hedging positions, and capital adequacy ratios. Crisis response systems that have been operational since last year amid persistent won weakness were escalated as the symbolic breach prompted fresh risk assessments across group-wide operations. This represents a significant stress test for the Korean financial sector, with institutions scrambling to manage foreign exchange volatility that could impact their balance sheets and profitability. The breach of these key technical levels signals potential for further won weakness and continued pressure on Korean financial institutions' foreign currency positions."
-    },
-    {
-      "title": "Financial Authorities Launch Market Disruption Probe as Won Plunges",
-      "section": "Policy/Finance",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124360",
-      "summary": "Korean financial authorities intensified foreign exchange market scrutiny as USD/KRW surged, with regulators examining ways to absorb offshore NDF transactions into domestic markets while launching BOK and FSS inspections to combat market disruption. The FSC held emergency meetings with commercial and foreign banks following a Deputy Prime Minister-led F4 monitoring session. Authorities are probing potential market manipulation activities and reviewing foreign exchange funding market trends. This regulatory response indicates serious concern about speculative attacks on the won and suggests potential intervention measures may be forthcoming. The focus on NDF market integration could reshape how offshore KRW trading impacts domestic currency stability, making this a critical development for FX traders to monitor."
-    },
-    {
-      "title": "Dollar-Won Falls Further on National Pension Currency Hedging, Closes at 1,526.50 Won",
+      "title": "Dollar-Won Closes at 1,518.30 on Growing Optimism Over Imminent US-Iran Ceasefire Deal",
       "section": "Bonds/Forex",
       "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124424",
-      "summary": "USD/KRW declined significantly in overnight trading, closing at 1,526.50 won (down 12.60 won from Seoul close), as market participants interpreted the National Pension Service's currency forward positions as a strong defense of the 1,550 level. The move suggests coordinated intervention efforts by Korean authorities to prevent further won weakness. This represents a substantial pullback from recent highs and indicates that the 1,550 level may serve as a critical support zone defended by institutional flows. FX traders should monitor whether this National Pension intervention strategy can sustain won stability or if renewed selling pressure will test these defenses."
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125215",
+      "summary": "The USD/KRW exchange rate declined significantly to 1,518.30 won in overnight trading, falling 10.60 won from the previous Seoul session close and marking a substantial strengthening of the Korean won. The move was driven by risk-on sentiment following President Trump's announcement that a US-Iran ceasefire agreement had been finalized and only required signatures. Markets are pricing in reduced geopolitical risk premium as reports suggest both sides could sign a memorandum of understanding in Geneva on June 14th. This represents a notable reversal from recent won weakness and suggests foreign capital may be flowing back into Korean assets on reduced Middle East tensions. Traders should monitor the actual signing of any US-Iran deal, as confirmation could trigger further won strength, while any delays or setbacks could see the currency reverse gains quickly."
     },
     {
-      "title": "Financial Regulator Warns Banks Against Speculative FX Trading Amid Volatile Won",
-      "section": "Policy/Finance",
+      "title": "S.Korean investors suffer 30% losses from bonds as BOK rate hikes loom",
+      "section": "Markets",
       "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124571",
-      "summary": "The FSS ordered banks to strengthen internal FX controls and warned of severe penalties (up to 5 years imprisonment or 500 million won fines) for market manipulation under the Foreign Exchange Transactions Act. The regulator held meetings with major bank FX executives to review foreign currency funding trends and response measures. This aggressive regulatory stance signals authorities' determination to prevent speculative attacks on the won and maintain market stability. Banks' FX trading activities will face increased scrutiny, potentially reducing market volatility but also limiting liquidity in times of stress."
+      "url": "https://www.kedglobal.com/sovereign-bonds/newsView/ked202606120006",
+      "summary": "Korean government bond investors are facing steep losses as 10-year yields climb to 2.5-year highs amid expectations of Bank of Korea rate hikes. BOK Governor Shin Hyun-song has signaled rates will rise in coming months, citing stronger-than-expected growth and elevated inflation. The central bank is forecast to raise its policy rate at least twice to 3.0% this year, giving policymakers scope to combat rising inflation pressures. The bond selloff reflects investors repricing Korean duration risk as the BOK pivots from accommodative policy. This creates headwinds for foreign investment in Korean bonds while supporting the won through higher real yields. Bond traders should prepare for continued volatility as markets price in the hiking cycle, while equity investors may face valuation pressure from higher discount rates."
+    },
+    {
+      "title": "Dollar-Won Faces Upward Pressure from Hot PPI, Closes at 1,531.60 Won",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125036",
+      "summary": "The USD/KRW exchange rate extended gains to 1,531.60 won, up 7.40 won from the previous Seoul close, driven by stronger-than-expected US PPI data for May. The hot inflation print reinforced expectations for Fed hawkishness, supporting dollar strength against the won. Additional upward pressure came from President Trump's warning of potential airstrikes on Iran, boosting risk-averse sentiment and safe-haven demand for dollars. This move occurred before the subsequent geopolitical developments that led to won strength, highlighting how sensitive the currency pair remains to both US economic data and geopolitical developments in the Middle East."
     }
   ],
   "medium": [
     {
-      "title": "Dollar-Won Closes at 1,532.70 Won as Risk Aversion Reflects Stock Market Plunge",
-      "section": "Bonds/Forex",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124615",
-      "summary": "USD/KRW recovered sharply during New York trading to close at 1,532.70 won, surging 20.60 won from the daytime close of 1,512.10 won as U.S. stock market plunges led by AI and semiconductor stocks triggered risk-aversion sentiment that spilled over into FX markets."
-    },
-    {
-      "title": "Korean markets tumble, analysts see buying opportunity",
-      "section": "Markets",
-      "date": "",
-      "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202606080001",
-      "summary": "Korean equity markets experienced severe declines with Kospi falling over 5% and Kosdaq down 4.5% as foreign investors accelerated withdrawals from local equities, though some analysts view the selloff as a potential buying opportunity for long-term investors."
-    },
-    {
-      "title": "S.Korea logs fastest nominal GDP growth since 1970s Middle East building boom",
-      "section": "Markets",
-      "date": "",
-      "url": "https://www.kedglobal.com/economy/newsView/ked202606090003",
-      "summary": "South Korea recorded its fastest nominal GDP growth since the 1970s Middle East construction boom, driven by the semiconductor supercycle and strong export performance, with May exports reaching a record $87.75 billion and prospects for surpassing $1 trillion in annual goods shipments."
-    },
-    {
-      "title": "KB Securities Draws 1.2 Trillion Won in Corporate Bond Demand - 2-Year Notes Price Below Fair Value",
+      "title": "KOSPI Reclaims 8,000 as Foreigners Return After 25 Trading Days",
       "section": "Stocks",
       "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124382",
-      "summary": "KB Securities (AA+) successfully raised 400 billion won through corporate bonds after attracting 1.23 trillion won in orders, with 2-year and 3-year maturities raising 150 billion won and 250 billion won respectively, demonstrating strong demand for high-quality Korean corporate debt."
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125164",
+      "summary": "The KOSPI index reclaimed 8,000 points amid US-Iran war-end expectations, with foreign investors turning to net buying for the first time in 25 trading sessions after a month-long 75 trillion won selling spree. The return of foreign capital signals improved risk appetite for Korean equities on reduced geopolitical tensions. This marks a significant reversal in foreign sentiment that has weighed on Korean markets."
     },
     {
-      "title": "'Risk Mitigation Accounting Enables Banks, Insurers to Effectively Manage Interest Rate Risk'",
+      "title": "Single-stock leveraged ETFs fuel swings in Korean stock market",
+      "section": "Markets",
+      "date": "",
+      "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202606120004",
+      "summary": "Korean financial markets experienced another sharp selloff with both KOSPI and KOSDAQ triggering circuit breakers, falling over 8% and 9% respectively. The volatility is being amplified by single-stock leveraged ETFs, creating additional market instability. This structural issue in market mechanics is contributing to heightened volatility that affects foreign investor confidence and currency stability."
+    },
+    {
+      "title": "Opposition Slams 'Devastating' Job Market Collapse",
       "section": "Policy/Finance",
       "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=124591",
-      "summary": "Industry experts highlighted that Risk Mitigation Accounting (RMA) introduction could help Korean banks and insurers better manage interest rate risk by allowing derivative gains/losses to be deferred, reducing earnings volatility from dynamic risk management activities."
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125171",
+      "summary": "Employment data showed a 40,000 year-on-year decline in jobs, with manufacturing employment falling by 140,000 compared to the same month last year. The weak labor market data contrasts with KOSPI gains from the semiconductor boom, highlighting economic imbalances. Poor employment trends could influence BOK policy decisions and impact consumer spending, affecting broader economic growth prospects."
     }
   ],
   "not_relevant": [
-    "Hasty moves to redistribute excess corporate profits could deter foreign investment in Korea: Lee",
-    "Today's Schedule - Ministry of Finance and Other Economic Ministries",
-    "Rival Parties Submit Requests for Parliamentary Probe Into Ballot Shortage Incident",
-    "Ruling Party Reaches Consensus on August 17 National Convention for Leadership Election",
-    "Opposition Party Proposes Special Probe Bill on Election Commission Over Ballot Shortage",
-    "South Korea Tackles 'Marriage Penalty' - Halves Additional Interest Rate on Jeonse Loans",
-    "Financial Supervisory Service to Hold First Corporate Disclosure Briefings Since Commercial Act Revision",
-    "ACE Hynix Leveraged ETF Surges Over 50% at Close",
-    "Samsung Asset Management Reappointed as OCIO for Pureun Seed After Tight Race",
-    "PIMCO Warns of Direct Lending Concentration in Private Credit",
-    "La Defense Partners Emerges as White Knight for Oscotec",
-    "Mirae Asset Securities Retains Pureunsiat OCIO Mandate",
-    "KT Skylife Corporate Bond Offering Triples Target",
-    "Supermicro Announces $7 Billion Capital Raise for AI Funding",
-    "Anthropic's Mythos Discovers Windows Vulnerabilities",
-    "US Treasuries Mixed Near Flat as Israel-Iran Hostilities Pause",
-    "Israeli Media - Israel Halts Iran Attacks at Trump's Request",
-    "US Dollar Weakens as Iran-Israel Hostilities Cease",
-    "GDP Now Raises Q2 Growth Forecast to 3.3%",
-    "US 3-Year Treasury Auction Draws Solid Demand",
-    "Iranian Negotiator Warns of Return to Non-Diplomatic Language",
-    "US April Wholesale Inventories Rise 0.6% M/M"
+    "Korea Insurance Development Institute Begins Search for New President",
+    "President Lee Elevates South Korea-Italy Ties to 'Special Strategic Partnership'",
+    "Kim Eun-kyung Proposes Legislation for Basic Financial Rights",
+    "Kim Yong-beom Proposes 'Project Trinity' for AI Industrial Integration",
+    "NH Investment & Securities Narrows CEO Race to Two Candidates",
+    "Korea Exchange Nominates Professor Kim Woo-chan as KOSDAQ Committee Chairman",
+    "Meritz Financial Considers Homeplus DIP Financing",
+    "National Pension Service Opens CIO Recruitment",
+    "Hong Seong-guk Comments on Korean Market Discount",
+    "Hana Financial Pursues Korea Fund Partners Acquisition",
+    "FSS Launches KB Financial Inspection",
+    "Government Reports Supplementary Budget Execution Progress",
+    "Deputy PM Koo Visits University on Youth Employment",
+    "Various Iran-US diplomatic developments",
+    "Lino Industrial CEO Block Deal Completion",
+    "SpaceX IPO Allocation to Mirae Asset",
+    "Nuclear Power Stocks Hit Daily Limits",
+    "Kiwoom Securities Capital Reduction Dividend Strategy"
   ]
 }
