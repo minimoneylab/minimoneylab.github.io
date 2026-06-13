@@ -1,122 +1,129 @@
 {
-  "update_time": "2026-06-12 22:30:34 UTC",
+  "update_time": "2026-06-13 22:10:38 UTC",
   "country": "Indonesia",
   "source": "CNN Indonesia",
-  "total_articles": 16,
+  "total_articles": 17,
   "high": [
     {
-      "title": "Pertamax Price Could Rise Again, Here's Bahlil's Answer",
+      "title": "Pertamax Prices Rise Again - Minister Bahlil's Response",
       "url": "https://finance.detik.com/energi/d-8528538/harga-pertamax-bisa-naik-lagi-ini-jawaban-bahlil...",
-      "summary": "Energy Minister Bahlil Lahadalia confirms non-subsidized fuel prices will continue following market conditions after Pertamax rose from Rp 12,300 to Rp 16,250 per liter. This significant fuel price increase directly impacts consumer costs and inflation expectations in Indonesia.",
+      "summary": "Non-subsidized fuel prices Pertamax (RON 92) increased from Rp 12,300/liter to Rp 16,250/liter, and Pertamax Green (RON 95) from Rp 12,900/liter to Rp 17,000/liter. Energy Minister Bahlil stated these prices adjust to market conditions while guaranteeing no increases for subsidized fuels Pertalite and Biosolar.",
       "source": "Detik Finance",
       "date": "Jumat, 12 Jun 2026 08:25 WIB"
     },
     {
-      "title": "After Strengthening, IHSG Closed Red Today",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8528104/sempat-menguat-ihsg-hari-ini-ditutup-merah...",
-      "summary": "IHSG closed down 0.28% at 5,896.03 after reaching 6,010.48 earlier in the day. The index has fallen 17.96% in the past month and is down 29.68% year-to-date in 2026, indicating significant market volatility.",
-      "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 17:29 WIB"
-    },
-    {
-      "title": "615 Stocks Rise, IHSG Up 2%",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8529503/615-saham-menguat-ihsg-naik-2...",
-      "summary": "IHSG closed up 2.07% at 6,007.65 with strong market participation showing 36.91 billion shares traded. This represents a significant recovery from recent losses, providing positive sentiment for Indonesian equity markets.",
-      "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 16:29 WIB"
-    },
-    {
-      "title": "Government Says It Held Back Pertamax Price Increases for Months",
+      "title": "Government Held Back Pertamax Price Increases for Months",
       "url": "https://finance.detik.com/energi/d-8529925/pertamax-naik-pemerintah-sebut-sudah-berbulan-bulan-tahan-kenaikan...",
-      "summary": "Government justifies fuel price hikes citing global oil price increases since March, with Pertamax rising to Rp 16,250/liter and Pertamax Green to Rp 17,000/liter. This policy decision reflects Indonesia's struggle with global commodity price pressures and subsidy burden management.",
+      "summary": "Government confirms the increase in non-subsidized fuel prices follows global oil prices, which have risen dramatically since March. The government had been restraining price increases for months while neighboring countries raised their fuel prices.",
       "source": "Detik Finance",
       "date": "Jumat, 12 Jun 2026 20:35 WIB"
     },
     {
-      "title": "MBG Program Wastes Rp 1 Trillion Per Month",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8527507/zulhas-ungkap-program-mbg-boros-rp-1-triliun-per-bulan...",
-      "summary": "The Free Nutritious Meal program has expanded beyond targets with 27,877 kitchen points instead of planned 21,000, causing budget overruns of Rp 1 trillion monthly. This massive fiscal inefficiency in a key government program raises concerns about budget management and program oversight.",
+      "title": "Free Nutrition Program Wastes Rp 1 Trillion Monthly - Government Opens Option to Close Kitchens",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8528422/program-mbg-boros-rp-1-t-per-bulan-pemerintah-buka-opsi-tutup-sppg...",
+      "summary": "The Free Nutritious Meals program has ballooned from planned 21,000 kitchen points to 27,877 points, causing Rp 1 trillion monthly waste. Food Coordinating Minister Zulkifli Hasan revealed trading of kitchen points and considers restructuring the program.",
       "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 13:01 WIB"
+      "date": "Jumat, 12 Jun 2026 05:55 WIB"
+    },
+    {
+      "title": "Danantara to Cut SOEs from 1,077 to 200 Companies",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8530026/alasan-danantara-pangkas-bumn-dari-1-077-jadi-200...",
+      "summary": "Investment management body Danantara will drastically reduce state-owned enterprises from 1,077 to 200-300 entities this year. 52% of current SOEs are loss-making with accumulated losses of Rp 20 trillion, and the streamlining could save up to Rp 50 trillion annually.",
+      "source": "Detik Finance",
+      "date": "Sabtu, 13 Jun 2026 07:25 WIB"
+    },
+    {
+      "title": "IHSG Rises 2% as 615 Stocks Strengthen",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8529503/615-saham-menguat-ihsg-naik-2...",
+      "summary": "Indonesia's main stock index IHSG closed 2.07% higher at 6,007.65 points with strong market participation. Trading volume reached 36.91 billion shares with transaction value of Rp 21.57 trillion, showing robust investor interest.",
+      "source": "Detik Finance",
+      "date": "Jumat, 12 Jun 2026 16:29 WIB"
+    },
+    {
+      "title": "SpaceX Records Largest IPO in History, Raises Rp 1,339 Trillion",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8530254/ipo-spacex-terbesar-sepanjang-sejarah-raup-dana-rp-1-339-t...",
+      "summary": "Elon Musk's SpaceX debuted on Nasdaq at $150 per share, raising $75 billion in the largest IPO ever recorded. The stock peaked at $176.52 with over 500 million shares traded on the first day, approaching Facebook's 2012 debut record.",
+      "source": "Detik Finance",
+      "date": "Sabtu, 13 Jun 2026 11:30 WIB"
     }
   ],
   "medium": [
     {
-      "title": "Threatened to Be Left by Partners Due to SNI, Tire Giant Complains to Task Force",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8528182/terancam-ditinggal-mitra-gegara-sni-raksasa-produsen-ban-ngadu-ke-satgas...",
-      "summary": "PT Goodyear Indonesia Tbk (GDYR) requests acceleration of SNI certification for its German factories as current certifications expire in September and October 2026. The company needs extension until January 2027 to build required in-house laboratories, affecting its 14 export destination countries.",
-      "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 18:13 WIB"
-    },
-    {
-      "title": "Ferry Fare Increase Requested, Transport Minister Still Considering",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8528151/tarif-penyeberangan-diminta-naik-menhub-masih-pikir-pikir...",
-      "summary": "Transport Minister Dudy Purwagandhi is considering ferry operators' requests for fare increases due to rising fuel costs and weak rupiah. The decision will balance industry needs with subsidized fuel benefits already provided to ferry services.",
-      "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 18:05 WIB"
-    },
-    {
-      "title": "PLN Apologizes, Reveals Current Electricity Supply Conditions in Java",
-      "url": "https://finance.detik.com/energi/d-8528483/minta-maaf-pln-ungkap-kondisi-pasokan-listrik-terkini-di-wilayah-jawa...",
-      "summary": "PLN clarifies that Java's electricity system is operating normally despite operational constraints that reduced power supply in some areas. The company denies blackout rumors and continues efforts to maintain reliable electricity supply for all customers.",
-      "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 22:05 WIB"
-    },
-    {
-      "title": "3 Luxury Apartments in Jakarta Seized by Tax Officers, What Happened?",
+      "title": "Tax Officials Seize 3 Luxury Apartments in Jakarta Worth Over Rp 1 Billion",
       "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8529520/3-apartemen-mewah-di-jakarta-disita-petugas-pajak-ada-apa...",
-      "summary": "Tax authorities seized three luxury apartments worth over Rp 1 billion in Kelapa Gading from a steel industry taxpayer after failed collection efforts. This enforcement action demonstrates the government's serious approach to tax compliance among large taxpayers.",
+      "summary": "Tax authorities seized three luxury apartments in Kelapa Gading, North Jakarta, valued at over Rp 1 billion from a steel industry taxpayer. The seizure followed failed persuasive collection efforts and represents legal enforcement under tax collection laws.",
       "source": "Detik Finance",
       "date": "Jumat, 12 Jun 2026 16:34 WIB"
     },
     {
-      "title": "AHI Holds AGMS, Approves Rp 548 Billion Dividend and Strengthens Expansion",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8527943/ahi-gelar-rupst-setujui-dividen-rp-548-miliar-dan-perkuat-ekspansi...",
-      "summary": "PT Aspirasi Hidup Indonesia Tbk (ACES) approved Rp 548.02 billion cash dividend or Rp 32.01 per share, representing 82% payout ratio. With 9.7% dividend yield based on current stock price, this reflects strong shareholder returns and business transformation success.",
-      "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 16:25 WIB"
-    },
-    {
-      "title": "Samator Strengthens Shareholder Value Through Rp 35 Billion Dividend",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8527477/samator-perkuat-nilai-bagi-pemegang-saham-melalui-dividen-rp-35-miliar...",
-      "summary": "PT Samator Indo Gas Tbk (AGII) approved Rp 35 billion cash dividend or Rp 11.42 per share, reflecting strong financial health after completing strategic investment projects. The company can now focus on asset optimization and value creation from completed investments.",
-      "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 12:49 WIB"
-    },
-    {
-      "title": "TIMAH Earns Rp 1.3 Trillion Profit, Distributes Rp 656 Billion Dividend",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8529955/timah-raup-laba-rp-1-3-triliun-sebar-dividen-rp-656-miliar...",
-      "summary": "PT TIMAH Tbk distributed Rp 656.8 billion dividend, equivalent to 50% of net profit of Rp 1.31 trillion. Revenue increased 6.41% to Rp 11.55 trillion with strong EBITDA of Rp 2.76 trillion, demonstrating solid operational performance.",
-      "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 21:17 WIB"
-    },
-    {
-      "title": "TIMAH Restructures Board of Directors, Deputy CEO Position Eliminated",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8530016/timah-rombak-direksi-posisi-wakil-dirut-dihapus...",
-      "summary": "PT TIMAH Tbk restructured management by eliminating Deputy CEO position and appointing Harry Budi Sidharta as Director of Corporate Strategy and Business Development. The company also changed HR Director role to Director of HR and Corporate Transformation.",
-      "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 22:44 WIB"
-    },
-    {
-      "title": "Trenggono Proposes Additional Rp 30 Trillion Budget for 600 Fishing Villages",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8527740/trenggono-usul-tambahan-anggaran-rp-30-t-buat-600-kampung-nelayan-tambak...",
-      "summary": "Maritime Minister Sakti Wahyu Trenggono requests additional Rp 30 trillion budget for 2027 beyond the indicative ceiling of Rp 15.63 trillion. The funds will support fishing village development and blue economy programs as national priorities.",
-      "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 14:51 WIB"
-    },
-    {
       "title": "Indonesia Has First Radioactive Testing Lab for Fishery Products in Southeast Asia",
       "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8529999/ri-punya-lab-uji-radioaktif-produk-perikanan-pertama-di-asia-tenggara...",
-      "summary": "Indonesia opened its first ISO 17025 accredited radioactive contamination testing laboratory for fishery products in Cipayung, Jakarta. The facility received BAPETEN and US FDA approval, specifically supporting shrimp export competitiveness to the United States and other countries.",
+      "summary": "Indonesia established its first radioactive contamination testing laboratory for fishery products in Cipayung, East Jakarta. The facility is ISO 17025 accredited and FDA-approved to test parameters including Cs-137, supporting seafood export competitiveness particularly to the US market.",
       "source": "Detik Finance",
       "date": "Jumat, 12 Jun 2026 22:07 WIB"
     },
     {
-      "title": "Tax Manipulation and Money Laundering, Three People Sentenced to Prison",
+      "title": "Marine Minister Proposes Additional Rp 30 Trillion Budget for 600 Fishing Villages",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8527740/trenggono-usul-tambahan-anggaran-rp-30-t-buat-600-kampung-nelayan-tambak...",
+      "summary": "Marine and Fisheries Minister Sakti Wahyu Trenggono requested additional Rp 30 trillion budget for 2027, on top of the indicative budget of Rp 15.63 trillion. The funds will support blue economy implementation and priority national programs.",
+      "source": "Detik Finance",
+      "date": "Kamis, 11 Jun 2026 14:51 WIB"
+    },
+    {
+      "title": "TIMAH Restructures Board of Directors, Eliminates Deputy CEO Position",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8530016/timah-rombak-direksi-posisi-wakil-dirut-dihapus...",
+      "summary": "State tin miner PT TIMAH restructured its board during the 2025 annual shareholders meeting, eliminating the Deputy CEO position and creating new director roles. Former Deputy CEO Harry Budi Sidharta was appointed as Director of Corporate Strategy and Business Development.",
+      "source": "Detik Finance",
+      "date": "Jumat, 12 Jun 2026 22:44 WIB"
+    },
+    {
+      "title": "TIMAH Records Rp 1.3 Trillion Profit, Distributes Rp 656 Billion Dividend",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8529955/timah-raup-laba-rp-1-3-triliun-sebar-dividen-rp-656-miliar...",
+      "summary": "State tin miner PT TIMAH distributed Rp 656.8 billion in dividends, equivalent to 50% of its net profit of Rp 1.31 trillion. The company recorded revenue growth of 6.41% to Rp 11.55 trillion with operating profit of Rp 1.91 trillion.",
+      "source": "Detik Finance",
+      "date": "Jumat, 12 Jun 2026 21:17 WIB"
+    },
+    {
+      "title": "Three Convicted in Tax Manipulation and Money Laundering Case",
       "url": "https://finance.detik.com/bursa-dan-valas/d-8529974/manipulasi-pajak-cuci-uang-tiga-orang-dihukum-bui...",
-      "summary": "East Jakarta District Court sentenced three defendants for tax crimes and money laundering through PT GTS, with prison terms ranging from 2 years 8 months to 3 years 4 months plus significant fines. This case demonstrates serious enforcement against corporate tax manipulation schemes.",
+      "summary": "East Jakarta District Court sentenced three defendants in tax manipulation and money laundering case through PT GTS. The sentences range from 2 years 8 months to 3 years 4 months prison, plus fines totaling over Rp 6 billion combined.",
       "source": "Detik Finance",
       "date": "Jumat, 12 Jun 2026 21:43 WIB"
+    },
+    {
+      "title": "Antam Gold Prices Rise Slightly Today",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8530208/harga-emas-antam-hari-ini-naik-tipis...",
+      "summary": "Antam 24-karat gold prices increased Rp 2,000 per gram to Rp 2,711,000 per gram after recent weakness. Gold prices have been declining over the past week and month, trading in ranges of Rp 2,689,000-2,759,000 and Rp 2,689,000-2,819,000 respectively.",
+      "source": "Detik Finance",
+      "date": "Sabtu, 13 Jun 2026 09:02 WIB"
+    },
+    {
+      "title": "Export Governance of Coal and CPO Through DSI to Strengthen Indonesian Economy",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8530857/tata-kelola-ekspor-batu-bara-cpo-lewat-dsi-dinilai-perkuat-ekonomi-ri...",
+      "summary": "Research institute PEDAS notes that strategic export governance of coal, CPO, and ferroalloy commodities worth over $66 billion annually will strengthen national economy. These commodities represent about a quarter of total national exports, showing the strategic importance of government policy.",
+      "source": "Detik Finance",
+      "date": "Sabtu, 13 Jun 2026 22:00 WIB"
+    },
+    {
+      "title": "Trade Ministry Issues 3 Regulations for Natural Resources Export via DSI",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8524970/kemendag-rilis-3-aturan-ekspor-sda-satu-pintu-lewat-dsi-ini-isinya...",
+      "summary": "Trade Ministry published three ministerial regulations governing strategic natural resources exports through PT Danantara Sumberdaya Indonesia (DSI). The regulations cover coal, palm oil, and ferro alloy exports with transition period from June 1 to December 31, 2026.",
+      "source": "Detik Finance",
+      "date": "Selasa, 09 Jun 2026 17:28 WIB"
+    },
+    {
+      "title": "Bakrie Brothers Records Rp 503 Billion Profit",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8530259/bakrie-brothers-raup-laba-rp-503-m...",
+      "summary": "PT Bakrie & Brothers posted 49.6% increase in net profit to Rp 503 billion in 2025, up Rp 167 billion from previous year. Despite geopolitical tensions and market volatility, the company achieved positive performance with net revenue of Rp 3.74 trillion.",
+      "source": "Detik Finance",
+      "date": "Sabtu, 13 Jun 2026 12:30 WIB"
+    },
+    {
+      "title": "Phapros Records Rp 27 Million Profit, Distributes 15% Dividend",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8528912/raup-laba-rp-27-m-peha-tebar-dividen-15...",
+      "summary": "Pharmaceutical company PT Phapros distributed cash dividend of 15% from 2025 net profit as approved in annual shareholders meeting. Remaining profits will be used as reserves for capital expenditure to meet company compliance requirements.",
+      "source": "Detik Finance",
+      "date": "Jumat, 12 Jun 2026 09:53 WIB"
     }
   ],
   "not_relevant": []
