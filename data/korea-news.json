@@ -1,71 +1,76 @@
 {
-  "date": "2026-06-13",
-  "update_time": "2026-06-12 22:22:16",
+  "date": "2026-06-14",
+  "update_time": "2026-06-13 22:00:18",
   "total_articles": 32,
   "high": [
-    {
-      "title": "Dollar-Won Closes at 1,518.30 on Growing Optimism Over Imminent US-Iran Ceasefire Deal",
-      "section": "Bonds/Forex",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125215",
-      "summary": "The USD/KRW exchange rate declined significantly to 1,518.30 won in overnight trading, falling 10.60 won from the previous Seoul session close and marking a substantial strengthening of the Korean won. The move was driven by risk-on sentiment following President Trump's announcement that a US-Iran ceasefire agreement had been finalized and only required signatures. Markets are pricing in reduced geopolitical risk premium as reports suggest both sides could sign a memorandum of understanding in Geneva on June 14th. This represents a notable reversal from recent won weakness and suggests foreign capital may be flowing back into Korean assets on reduced Middle East tensions. Traders should monitor the actual signing of any US-Iran deal, as confirmation could trigger further won strength, while any delays or setbacks could see the currency reverse gains quickly."
-    },
     {
       "title": "S.Korean investors suffer 30% losses from bonds as BOK rate hikes loom",
       "section": "Markets",
       "date": "",
       "url": "https://www.kedglobal.com/sovereign-bonds/newsView/ked202606120006",
-      "summary": "Korean government bond investors are facing steep losses as 10-year yields climb to 2.5-year highs amid expectations of Bank of Korea rate hikes. BOK Governor Shin Hyun-song has signaled rates will rise in coming months, citing stronger-than-expected growth and elevated inflation. The central bank is forecast to raise its policy rate at least twice to 3.0% this year, giving policymakers scope to combat rising inflation pressures. The bond selloff reflects investors repricing Korean duration risk as the BOK pivots from accommodative policy. This creates headwinds for foreign investment in Korean bonds while supporting the won through higher real yields. Bond traders should prepare for continued volatility as markets price in the hiking cycle, while equity investors may face valuation pressure from higher discount rates."
+      "summary": "Bank of Korea Governor Shin Hyun-song indicated that South Korea's benchmark rate is expected to rise in coming months, citing stronger-than-expected growth and elevated inflation. The BOK is forecast to raise policy rates at least twice to 3.0% this year, with resilient growth giving policymakers scope to combat rising inflation. The yield on South Korea's 10-year government bond has climbed to its highest level in two and a half years as stronger growth, expansionary fiscal policy, and inflation concerns pushed investors to price in higher rates. This development has resulted in significant losses for bond investors, with some experiencing 30% declines. For fixed income investors, this signals a clear hawkish shift in BOK policy stance, making existing bonds less attractive and creating headwinds for duration strategies. The rising rate environment suggests opportunities in shorter-duration instruments while longer-dated bonds face continued pressure."
     },
     {
-      "title": "Dollar-Won Faces Upward Pressure from Hot PPI, Closes at 1,531.60 Won",
+      "title": "Dollar-Won Closes at 1,518.30 on Growing Optimism Over Imminent US-Iran Ceasefire Deal",
       "section": "Bonds/Forex",
       "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125036",
-      "summary": "The USD/KRW exchange rate extended gains to 1,531.60 won, up 7.40 won from the previous Seoul close, driven by stronger-than-expected US PPI data for May. The hot inflation print reinforced expectations for Fed hawkishness, supporting dollar strength against the won. Additional upward pressure came from President Trump's warning of potential airstrikes on Iran, boosting risk-averse sentiment and safe-haven demand for dollars. This move occurred before the subsequent geopolitical developments that led to won strength, highlighting how sensitive the currency pair remains to both US economic data and geopolitical developments in the Middle East."
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125215",
+      "summary": "The USD/KRW exchange rate declined to 1,518.30 in overnight trading, down 10.60 won from the previous Seoul close and 1.50 won lower than the day session close of 1,519.80. The decline was driven by growing market optimism surrounding a potential US-Iran ceasefire agreement after President Trump announced that a ceasefire deal had been finalized and only required signatures. Media reports suggested both sides could sign a memorandum of understanding in Geneva on the 14th. This represents significant relief for the Korean won, which had been under pressure from geopolitical tensions. For FX traders, the development suggests potential for further won strength if the ceasefire materializes, though caution is warranted given the volatility of Middle East negotiations. The move below 1,520 is technically significant and could open the door for a test of 1,500 levels."
+    },
+    {
+      "title": "Presidential Office Signals FX Market Management Intent Ahead of US Investment, Says 'Exchange Rate Must Stabilize'",
+      "section": "Policy/Finance",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125251",
+      "summary": "The South Korean presidential office publicly emphasized the need for exchange rate stability, with a senior official stating \"the exchange rate needs to stabilize\" during President Lee Jae-myung's state visit to Italy. The government revealed that the US Treasury Department's exchange rate team \"has a very deep understanding of our country's situation and is constantly monitoring it.\" This signals potential government intervention concerns as USD/KRW has been elevated. The official added that \"it is important for our country, and naturally of interest to the US, that the exchange rate market moves in line with fundamentals.\" This represents the clearest signal yet of government vigilance toward recent won weakness and suggests possible coordinated action with US authorities. For FX markets, this indicates authorities may be preparing intervention measures if USD/KRW continues rising, creating a potential ceiling for dollar strength against the won."
     }
   ],
   "medium": [
     {
-      "title": "KOSPI Reclaims 8,000 as Foreigners Return After 25 Trading Days",
+      "title": "'National Pension Rebalancing Exemption Intensified Currency Pressure' - Welfare Ministry 'Disagrees with Causality'",
+      "section": "Policy/Finance",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125245",
+      "summary": "Barclays analysis suggests the National Pension Service's suspension of rebalancing in H1 2026 \"functioned as an amplifier rather than a stabilizer\" in FX market volatility, indirectly triggering massive foreign capital outflows. The NPS temporarily suspended rebalancing to mitigate simultaneous stock and won weakness, raising domestic equity allocation targets. This institutional policy shift appears to have had unintended consequences for currency stability."
+    },
+    {
+      "title": "South Korea Growth Outlook Rises to 3.7% - Will Government Forecast Break 3%?",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125226",
+      "summary": "Economic growth expectations are rising rapidly due to stronger-than-anticipated semiconductor-led export boom. Attention focuses on whether the government will raise its growth forecast to the 3% range this year, which would support the BOK's hawkish stance and potentially strengthen the won through improved fundamentals."
+    },
+    {
+      "title": "NDF at 1,517.20/1,517.60 Won - Down 1.05 Won",
+      "section": "Bonds/Forex",
+      "date": "",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125236",
+      "summary": "The dollar-won one-month NDF declined to 1,517.40 won (MID) overnight, down 1.05 won from the previous Seoul session close. The forward curve suggests continued near-term won strength expectations amid US-Iran ceasefire optimism, though some dollar firmness persists globally."
+    },
+    {
+      "title": "[Market Close] Foreigners Return After 25 Trading Days on War-End Hopes - KOSPI Reclaims 8,000",
       "section": "Stocks",
       "date": "",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=125164",
-      "summary": "The KOSPI index reclaimed 8,000 points amid US-Iran war-end expectations, with foreign investors turning to net buying for the first time in 25 trading sessions after a month-long 75 trillion won selling spree. The return of foreign capital signals improved risk appetite for Korean equities on reduced geopolitical tensions. This marks a significant reversal in foreign sentiment that has weighed on Korean markets."
-    },
-    {
-      "title": "Single-stock leveraged ETFs fuel swings in Korean stock market",
-      "section": "Markets",
-      "date": "",
-      "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202606120004",
-      "summary": "Korean financial markets experienced another sharp selloff with both KOSPI and KOSDAQ triggering circuit breakers, falling over 8% and 9% respectively. The volatility is being amplified by single-stock leveraged ETFs, creating additional market instability. This structural issue in market mechanics is contributing to heightened volatility that affects foreign investor confidence and currency stability."
-    },
-    {
-      "title": "Opposition Slams 'Devastating' Job Market Collapse",
-      "section": "Policy/Finance",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125171",
-      "summary": "Employment data showed a 40,000 year-on-year decline in jobs, with manufacturing employment falling by 140,000 compared to the same month last year. The weak labor market data contrasts with KOSPI gains from the semiconductor boom, highlighting economic imbalances. Poor employment trends could influence BOK policy decisions and impact consumer spending, affecting broader economic growth prospects."
+      "summary": "Foreign investors turned to net buying for the first time in 25 trading sessions, purchasing 2 trillion won worth of Korean equities amid US-Iran war-end expectations. The KOSPI reclaimed 8,000 levels after a month-long 75 trillion won foreign selling spree, providing relief for the won through improved capital flows."
     }
   ],
   "not_relevant": [
-    "Korea Insurance Development Institute Begins Search for New President",
-    "President Lee Elevates South Korea-Italy Ties to 'Special Strategic Partnership'",
-    "Kim Eun-kyung Proposes Legislation for Basic Financial Rights",
-    "Kim Yong-beom Proposes 'Project Trinity' for AI Industrial Integration",
-    "NH Investment & Securities Narrows CEO Race to Two Candidates",
-    "Korea Exchange Nominates Professor Kim Woo-chan as KOSDAQ Committee Chairman",
-    "Meritz Financial Considers Homeplus DIP Financing",
-    "National Pension Service Opens CIO Recruitment",
-    "Hong Seong-guk Comments on Korean Market Discount",
-    "Hana Financial Pursues Korea Fund Partners Acquisition",
-    "FSS Launches KB Financial Inspection",
-    "Government Reports Supplementary Budget Execution Progress",
-    "Deputy PM Koo Visits University on Youth Employment",
-    "Various Iran-US diplomatic developments",
-    "Lino Industrial CEO Block Deal Completion",
-    "SpaceX IPO Allocation to Mirae Asset",
-    "Nuclear Power Stocks Hit Daily Limits",
-    "Kiwoom Securities Capital Reduction Dividend Strategy"
+    "Single-stock leveraged ETFs fuel swings in Korean stock market",
+    "Hana Financial Pursues Korea Fund Partners Acquisition, Enters Preliminary Bidding",
+    "Opposition Slams 'Devastating' Job Market Collapse as Ruling Party Calls for 'Balanced Economic View'",
+    "Deputy PM Koo Visits University, Vows to Tackle 'Severe' Youth Employment Crisis",
+    "Government Says 71% of Supplementary Budget Fast-Track Items Executed, 99% of High Oil Price Relief Funds Disbursed",
+    "FSS Launches On-Site Inspection of KB Financial Following Woori Financial Probe",
+    "Iran Foreign Minister statements (multiple articles)",
+    "Lino Industrial CEO Block Deal",
+    "SpaceX IPO allocation issues (multiple articles)",
+    "Nuclear Power Stocks Hit Daily Limit",
+    "Kiwoom Securities Capital Reduction Dividend",
+    "President Lee political statements (multiple articles)",
+    "South Korea, Italy Formalize Joint Africa Push, AI Cooperation",
+    "How Open Economies Achieve Financial Stability - A Former BOK Board Member's Dilemma",
+    "President Lee Slams Journalists for Front-Running",
+    "Tokenized Securities Industry SpaceX issues"
   ]
 }
