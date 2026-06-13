@@ -1,31 +1,59 @@
 {
-  "update_time": "2026-06-12 22:25:19 UTC",
+  "update_time": "2026-06-13 04:13:57 UTC",
   "country": "Malaysia",
   "source": "Malay Mail",
-  "total_articles": 3,
+  "total_articles": 7,
   "high": [
     {
-      "title": "Ringgit closes mostly higher on strong GDP data, except against US dollar",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/05/15/ringgit-closes-mostly-higher-on-strong-gdp-data-except-against-us-dollar",
-      "summary": "Malaysia's Q1 GDP data showed strong performance, boosting the ringgit against most currencies except the US dollar. The currency's mixed performance reflects both domestic economic strength and continued US Federal Reserve policy expectations impacting regional markets.",
+      "title": "Malaysia eyes nearly US$200bil in electronics exports in 2026",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/malaysia-eyes-nearly-us200bil-in-electronics-exports-in-2026",
+      "summary": "Malaysia targets significant growth in electronics exports to nearly US$200 billion in 2026, up from RM711 billion in 2025. This represents a major economic milestone for Malaysia's key export sector and indicates strong growth potential for electronics manufacturers.",
       "source": "Malay Mail",
-      "date": "2026/05/15"
+      "date": "2026/06/09"
     },
     {
-      "title": "Bursa ends lower, tracking weak regional sentiment",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/05/15/bursa-ends-lower-tracking-weak-regional-sentiment",
-      "summary": "The FBM KLCI fell 0.30% to close at 1,740.22 points, declining despite strong GDP data due to broader regional market weakness. This market movement indicates that external factors are currently outweighing positive domestic economic fundamentals.",
+      "title": "TMK Chemical in RM920 million deal to buy CCM",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/tmk-chemical-in-rm920-million-deal-to-buy-ccm",
+      "summary": "TMK Chemical announces a significant RM920 million acquisition deal to purchase CCM, representing one of the largest M&A transactions in the Malaysian market. This major corporate action will significantly impact both companies' shareholders and the chemical sector landscape.",
       "source": "Malay Mail",
-      "date": "2026/05/15"
+      "date": "2026/06/12"
     }
   ],
   "medium": [
     {
-      "title": "Sime, BYD open flagship showroom in Penang",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/05/15/sime-byd-open-flagship-showroom-in-penang",
-      "summary": "Sime Darby and BYD opened a flagship EV showroom in Penang, marking Malaysia's accelerating transition to electric vehicles. This partnership represents significant investment in Malaysia's automotive sector transformation and could boost both companies' market presence in the region.",
+      "title": "Duopharma wins RM155.3mil deal to supply insulin to govt hospitals",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/duopharma-wins-rm155-3mil-deal-to-supply-insulin-to-govt-hospitals",
+      "summary": "Duopharma secures a three-year RM155.3 million government contract to supply insulin to government hospitals starting June 2026. This substantial healthcare contract provides stable revenue visibility for the pharmaceutical company.",
       "source": "Malay Mail",
-      "date": "2026/05/15"
+      "date": "2026/06/09"
+    },
+    {
+      "title": "CIMB says 'good time' to invest in battered Indonesia",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/cimb-says-good-time-to-invest-in-battered-indonesia",
+      "summary": "CIMB CEO suggests current market conditions present investment opportunities in Indonesia despite recent market challenges. This indicates potential regional expansion strategies for Malaysian investors and CIMB's regional outlook.",
+      "source": "Malay Mail",
+      "date": "2026/06/09"
+    },
+    {
+      "title": "Maybank handles US$4.9bil deals for Singapore, Malaysia hub",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/maybank-handles-us4-9bil-deals-for-singapore-malaysia-hub",
+      "summary": "Maybank reports handling US$4.9 billion in deals across its Singapore-Malaysia operations, spanning corporate, mid-sized companies and consumer segments. This demonstrates strong regional business activity and Maybank's expanding cross-border capabilities.",
+      "source": "Malay Mail",
+      "date": "2026/06/09"
+    },
+    {
+      "title": "US lawmakers call for tighter rules on chipmakers supplying Chinese overseas units",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/us-lawmakers-call-for-tighter-rules-on-chipmakers-supplying-chinese-firms-overseas-units",
+      "summary": "US regulatory tightening on semiconductor exports to Chinese companies could impact Malaysia's electronics sector. Malaysian semiconductor companies may face supply chain disruptions or benefit from trade diversification as global tech supply chains adjust.",
+      "source": "Malay Mail",
+      "date": "2026/06/09"
+    },
+    {
+      "title": "AirAsia X delays Bahrain launch amid Mideast conflict concerns",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/11/airasia-x-delays-bahrain-launch-amid-mideast-conflict-concerns",
+      "summary": "AirAsia X postpones its Bahrain route launch to August-September due to Middle East geopolitical tensions. This delay affects the airline's expansion plans and potential revenue from new Middle Eastern routes.",
+      "source": "Malay Mail",
+      "date": "2026/06/11"
     }
   ],
   "not_relevant": []
