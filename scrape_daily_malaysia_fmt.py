@@ -27,7 +27,7 @@ CONFIG = {
     # News section to scrape
     "section_url": "https://www.freemalaysiatoday.com/category/category/business/local-business",
     
-    "articles_to_scrape": 15,  # Get 15 recent articles
+    "articles_to_scrape": 30,  # Get 30 recent articles (more scrolling = more articles loaded)
     
     # Time filter: only articles from past 36 hours
     "filter_hours": 36,
@@ -197,7 +197,13 @@ class NewsAutomation:
             return True
 
     async def get_article_links(self, page):
-        """Get article links from current page"""
+        """Get article links from current page - with scrolling to load more"""
+        # Scroll down multiple times to load more articles
+        print("Scrolling to load more articles...")
+        for scroll in range(5):  # Scroll 5 times
+            await page.evaluate("window.scrollBy(0, window.innerHeight)")
+            await page.wait_for_timeout(2000)  # Wait 2 seconds for content to load
+        
         # FMT article links contain /news/ or /article/
         articles = await page.evaluate("""
             (function() {
@@ -329,9 +335,9 @@ class NewsAutomation:
                                         'scraped_at': self.scrape_time.isoformat()
                                     })
                                     section_count += 1
-                                    print(f"   OK: {article_data['title'][:55]}")
+                                    print(f"   ✓ {article_data['date']}: {article_data['title'][:50]}")
                                 else:
-                                    print(f"   Too old")
+                                    print(f"   ✗ Too old ({article_data['date']})")
                             else:
                                 print("   No content")
                                 
