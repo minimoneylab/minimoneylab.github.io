@@ -1,55 +1,49 @@
 {
-  "date": "2026-06-12",
-  "update_time": "2026-06-12 10:49:06",
+  "date": "2026-06-13",
+  "update_time": "2026-06-13 09:11:50",
   "total_articles": 8,
   "high": [
     {
-      "title": "IPCA Rises More Than Expected in May and Accumulates 4.72% Rise, Above Target",
+      "title": "Ibovespa falls with IPCA above expectations and US-Iran negotiations in focus; dollar falls to R$ 5.06",
+      "source": "MoneyTimes",
+      "date": "2026-06-13",
+      "url": "https://www.moneytimes.com.br/ibovespa-12-6-26-lils/",
+      "summary": "The Ibovespa closed down 0.21% at 171,132.66 points despite positive momentum on Wall Street, as investors recalibrated bets on Brazil's next interest rate decision following new inflation data. While international markets were buoyed by expectations of a US-Iran agreement, Brazilian markets focused on domestic inflation concerns. The USD/BRL closed at R$ 5.0615, down 0.79% on the day and 1.86% for the week. Brazil's official IPCA inflation rose 0.58% in May (vs 0.67% in April) but accumulated 4.72% over 12 months - above the Central Bank's 3% target ceiling of 4.5%. This inflation overshoot is critical for FX and bond traders as it reduces the likelihood of aggressive Selic rate cuts and may pressure the BCB to maintain a more hawkish stance. The divergence between falling USD/BRL and rising inflation creates mixed signals for monetary policy, with markets now questioning the continuity of the easing cycle."
+    },
+    {
+      "title": "IPCA rises more than expected in May and accumulates 4.72% increase, above target",
       "source": "MoneyTimes",
       "date": "2026-06-12",
       "url": "https://www.moneytimes.com.br/ipca-de-maio-sobe-mais-que-o-esperado-e-acumula-alta-de-472-acima-da-meta-jcav/",
-      "summary": "Brazil's official inflation rate (IPCA) rose 0.58% in May, above market expectations of 0.55%, according to IBGE data. While this represents a deceleration from April's 0.67%, the 12-month accumulated inflation reached 4.72%, exceeding the Central Bank's 3% target and breaking through the 4.5% ceiling of the tolerance band. Market consensus had expected 4.68% for the 12-month period. The main drivers were Food and beverages (+1.33%, contributing 0.29 p.p.), Housing (+1.22%, contributing 0.18 p.p.), and Health and personal care. This above-target inflation strengthens the case for the Central Bank to maintain or potentially raise the Selic rate at upcoming COPOM meetings. For BRL traders, this creates a hawkish bias that could support the Real against USD, while bond yields may face upward pressure as markets price in tighter monetary policy. The data reinforces concerns about persistent inflationary pressures despite economic uncertainties."
+      "summary": "Brazil's official IPCA inflation decelerated monthly to 0.58% in May from 0.67% in April, but came above market expectations of 0.55%. More critically, the 12-month accumulated inflation reached 4.72%, breaching the Central Bank's target ceiling of 4.5% (3% target with 1.5pp tolerance band). Market consensus had expected 4.68% annually. The main contributors were Food and beverages (+1.33% with 0.29pp impact), Housing (+1.22% with 0.18pp impact), and Health and personal care. This above-target inflation significantly impacts BCB monetary policy calculations and reduces scope for aggressive Selic cuts. For BRL traders, this reinforces expectations of higher-for-longer rates, potentially supporting the currency. Bond investors should expect continued yield pressure as markets price in a more hawkish BCB stance to bring inflation back within target range."
     },
     {
-      "title": "Ibovespa Reverses Signal and Rises with IPCA Above Ceiling and US-Iran Agreement in Focus; 5 Things to Know Before Investing Today (12)",
-      "source": "MoneyTimes",
-      "date": "2026-06-12",
-      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-12-6-26-lils/",
-      "summary": "The Ibovespa opened negative after inflation came above expectations and breached the Central Bank's target ceiling, but quickly reversed to positive territory. By 10:20 AM, the index was up 0.14% at 171,718.44 points after initially falling 0.60%. USD/BRL was trading higher at R$ 5.1055 (+0.08%) while the DXY fell 0.02%. The market is closely watching potential US-Iran negotiations with a possible memorandum of understanding to be signed over the weekend. This geopolitical development, combined with above-target IPCA inflation creating expectations for tighter monetary policy, is creating mixed signals for Brazilian assets."
-    },
-    {
-      "title": "Treasury Direct Today: Rates Fall at Opening Despite IPCA Above Expected; Understand",
+      "title": "Treasury Direct today: rates fall at opening despite IPCA above expected; understand",
       "source": "MoneyTimes",
       "date": "2026-06-12",
       "url": "https://www.moneytimes.com.br/tesouro-direto-hoje-taxas-recuam-na-abertura-mesmo-com-ipca-acima-do-esperado-entenda-jcav/",
-      "summary": "Brazilian government bond yields opened lower despite May IPCA coming above expectations, driven by relief over Middle East geopolitical tensions. The Treasury Prefixed 2029 fell from 14.60% to 14.53%, while IPCA+ 2050 dropped from IPCA + 7.20% to IPCA + 7.06%, and IPCA+ 2040 declined from IPCA + 7.51% to IPCA + 7.35%. Risk appetite improved after President Trump decided against further attacks on Iran, with a potential US-Iran memorandum of understanding expected by Sunday that could reopen the Strait of Hormuz within 30 days, reducing oil supply concerns."
+      "summary": "Brazilian government bond yields opened lower despite above-expected IPCA inflation, driven by reduced geopolitical tensions in the Middle East. The Treasury Prefixed 2029 fell from 14.60% to 14.53%, while IPCA+ 2050 dropped from IPCA + 7.20% to IPCA + 7.06%, and IPCA+ 2040 declined from IPCA + 7.51% to IPCA + 7.35%. The yield compression occurred as risk appetite improved following President Trump's decision to halt attacks against Iran and expectations of a memorandum of understanding being signed, potentially reopening the Strait of Hormuz within 30 days. This reduced fears of oil supply disruptions and further inflationary pressure. However, the disconnect between falling yields and rising domestic inflation may be temporary, as the above-target IPCA could force the BCB to maintain a more restrictive monetary stance, eventually pushing yields higher."
     }
   ],
   "medium": [
     {
-      "title": "Ibovespa Rises with Improved Investor Sentiment and Returns to Test 169 Thousand Points; 5 Things to Know Before Investing Today (11)",
-      "source": "MoneyTimes",
-      "date": "2026-06-11",
-      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-11-6-26-lils/",
-      "summary": "The Ibovespa followed improved risk sentiment abroad amid new Middle East developments, with US pressure for a definitive peace agreement. By 10:10 AM, the index was up 0.19% at 168,939 points. USD/BRL fell to R$ 5.1640 (-0.17%) while DXY rose 0.12%. Brazil's service volume registered above-expected growth in April at 1.2% month-over-month, above Reuters consensus of 0.6%, recovering from a weak first quarter."
-    },
-    {
-      "title": "For the First Time in 3 Years, ECB Raises Interest Rates to Contain War-Caused Inflation",
-      "source": "MoneyTimes",
-      "date": "2026-06-11",
-      "url": "https://www.moneytimes.com.br/pela-primeira-vez-em-3-anos-bce-eleva-taxas-de-juros-para-conter-inflacao-causada-pela-guerra-jcav/",
-      "summary": "The European Central Bank raised interest rates for the first time in almost three years, hoping to contain inflation before energy cost increases from the Iran war spread more widely through the eurozone economy. Eurozone inflation is already above 3%, well above the ECB's 2% target, while economic growth remains very weak. This international monetary tightening trend could influence global capital flows and provide context for Brazil's monetary policy decisions."
-    },
-    {
-      "title": "Day Trade: Buy Itaúsa (ITSA4) and Sell JHSF (JHSF3) to Gain Up to 1.47% Today (12), According to Ágora",
+      "title": "Ibovespa reverses sign and rises with IPCA above ceiling and US-Iran agreement on radar; 5 things to know before investing today (12)",
       "source": "MoneyTimes",
       "date": "2026-06-12",
-      "url": "https://www.moneytimes.com.br/day-trade-compre-itausa-itsa4-e-venda-jhsf-jhsf3-para-ganhar-ate-147-hoje-12-segundo-a-agora-jvka/",
-      "summary": "Ágora Investimentos recommends buying Itaúsa (ITSA4) for day trading with 1.47% potential gain and stop at R$ 12.86. JHSF (JHSF3) is recommended for short selling with up to 1.38% returns potential. This reflects technical analysis views on major Brazilian financial sector stocks amid current market volatility."
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-12-6-26-lils/",
+      "summary": "The Ibovespa opened negative after May inflation came above expected and exceeded the Central Bank's target ceiling, but reversed to positive territory during morning trading. The index initially fell 0.60% to 170,419.69 points but later gained 0.14% to 171,718.44 points. USD/BRL rose 0.08% to R$ 5.1055 despite the dollar weakening globally, with the DXY down 0.02%. US-Iran negotiation developments remained on investors' radar as a key market driver."
+    },
+    {
+      "title": "IPCA + 8% in fixed income carries 'message between the lines': understand what's at stake",
+      "source": "MoneyTimes",
+      "date": "2026-06-13",
+      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ipca-e-selic-em-alta-carregam-recado-nas-entrelinhas-entenda-o-que-esta-em-jogo-lbrdaz242/",
+      "summary": "The Ibovespa has fallen about 15% from its near-200,000 point highs as markets question the continuity of Selic rate cuts. While Middle East conflicts contributed to inflationary pressure, Empiricus Research strategist Matheus Spiess argues Brazil's high interest rates primarily stem from domestic fiscal imbalances. The analyst suggests Brazil's structural fiscal problems are a key driver of the country's elevated interest rate environment, beyond external geopolitical factors."
     }
   ],
   "not_relevant": [
-    "PINE4 and More: Check Small Cap Stock Recommendations from BTG Pactual to Invest in June",
-    "Goodbye Bitcoin (BTC): These 5 Coins Could Be Great Opportunities to Seek Up to R$ 1 Million in the Next 12 Months"
+    "Day trade: Buy Itaúsa (ITSA4) and sell JHSF (JHSF3) to earn up to 1.47% today (12), according to Ágora",
+    "Nubank (ROXO34): CFO change pressures shares, but analyst sees opportunity",
+    "Wall Street closes higher awaiting US-Iran agreement; SpaceX shares 'take off' on debut"
   ]
 }
