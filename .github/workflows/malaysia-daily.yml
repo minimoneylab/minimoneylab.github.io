@@ -21,7 +21,9 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install --break-system-packages requests beautifulsoup4 anthropic gspread oauth2client
+          pip install --break-system-packages requests beautifulsoup4 anthropic gspread google-auth-oauthlib playwright
+          playwright install chromium
+          playwright install-deps
       
       - name: Create credentials file
         run: |
@@ -35,7 +37,7 @@ jobs:
       
       - name: Analyze with Claude
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: |
           python analyze_news_malaysia.py
         continue-on-error: true
