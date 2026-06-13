@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-14",
+  "update_time": "2026-06-13 23:45:01",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "TSMC Chairman Attends Groundbreaking for Pingtung Semiconductor Supply Chain Zone, Wei Che-chia: \"Talent Shortage\" is Biggest Challenge",
+      "section": "金融",
+      "date": "2026/06/13 01:15:52",
+      "url": "https://money.udn.com/money/story/5612/9563596?from=edn_maintab_cate",
+      "summary": "TSMC Chairman Wei Che-chia attended a groundbreaking ceremony for the Pingtung Science Park Semiconductor Supply Chain Zone, where seven partner companies will establish operations alongside TSMC on a 28-hectare site. Wei expressed gratitude for government support in providing land, water, and electricity resources, but highlighted talent shortage as the industry's most pressing challenge. He called on Pingtung County Government to increase educational capacity and population to support TSMC and its supply chain partners. The development represents TSMC's effort to build a more resilient, locally-integrated supply chain spanning from design to global shipping. This strategic move strengthens Taiwan's semiconductor manufacturing ecosystem while addressing supply chain vulnerabilities, though the talent shortage concern signals potential operational constraints for future expansion plans."
+    },
+    {
+      "title": "Taiwan Stock Market Recovers 44,000 Points with Dual Kings Leading Rally, Foreign Investors Return with NT$28.6 Billion Buying, Ending Six-Day Sell Streak",
+      "section": "證券",
+      "date": "2026/06/13 00:51:26",
+      "url": "https://money.udn.com/money/story/5607/9563640?from=edn_maintab_cate",
+      "summary": "Taiwan stock index surged 1,019 points to close at 44,169 points, led by TSMC (up NT$60 to NT$2,310) and Sinbon Electronics (up NT$845 to NT$18,445), recapturing multiple technical levels including the 5-day and monthly moving averages. Foreign investors reversed their six-day selling streak with NT$28.6 billion in net buying, targeting Nanya Technology, TSMC, Winbond Electronics, and China Development Financial. The rally came as \"TACO\" (Trump Always Caves Out) trade re-emerged amid US-Iran tension de-escalation. Investment trust funds continued their 11th consecutive day of buying with NT$14.2 billion, while proprietary trading desks turned buyers with NT$8.9 billion. Despite the strong rebound, trading volume contracted to NT$1.1 trillion, the lowest since May 22, indicating cautious sentiment. Market focus remains on upcoming Fed and BOJ policy meetings, foreign futures positioning, and US-Iran negotiation developments."
+    }
+  ],
+  "medium": [
+    {
+      "title": "SCFI Index Rises 9.5% Weekly, Freight Rates Soar as Container Shipping Trio Rallies",
+      "section": "金融",
+      "date": "2026/06/13 00:07:14",
+      "url": "https://money.udn.com/money/story/5612/9563633?from=edn_maintab_cate",
+      "summary": "The Shanghai Containerized Freight Index (SCFI) jumped 258.74 points to 2,985.22, marking a 9.5% weekly gain and the seventh consecutive week of increases. Europe routes surged 17% while US West Coast routes climbed 12%, driven by cargo rush ahead of the July 24 expiration of US 10% temporary tariffs. Industry observers note strong demand from Taiwan, China, and Southeast Asia as shippers activate \"rush shipping mode\" to beat the tariff deadline."
+    },
+    {
+      "title": "Wah Lee Industrial Sees Explosive Order Growth, CEO Xu Yi-de: Heavy Electrical Industry Peak Not Yet in Sight",
+      "section": "金融",
+      "date": "2026/06/13 00:10:25",
+      "url": "https://money.udn.com/money/story/10871/9563624?from=edn_maintab_cate",
+      "summary": "Wah Lee Industrial's CEO reported continued order book saturation with bookings extending to 2029-2030, particularly highlighting explosive growth in AI data center (AIDC) orders from NT$12 billion last year to NT$20 billion currently. The company expects AIDC revenue to exceed 15% of total revenue this year, with overseas sales potentially surpassing 60% for the first time. New production capacity from Taichung facility expansion will come online in Q3 2027."
+    },
+    {
+      "title": "Walsin Lihwa Reports Strong Demand, Plans 10-15% Capacity Expansion for Resistors and MLCC in 2026",
+      "section": "證券",
+      "date": "2026/06/13 00:40:16",
+      "url": "https://money.udn.com/money/story/5710/9563331?from=edn_maintab_cate",
+      "summary": "Passive component manufacturer Walsin Lihwa announced book-to-bill ratios improving from 1.2-1.3 to 1.3-1.4, indicating sustained supply-demand tightness through 2027-2028. The company attributes growth to AI-related demand backed by enterprise and government investments rather than consumer electronics cycles. Capital expenditure increased from originally planned NT$0.5-1 billion to at least NT$3 billion to meet growing demand."
+    },
+    {
+      "title": "Morgan Stanley Upgrades Unimicron and Zhen Ding as AI Optical Connectivity Drives PCB Demand",
+      "section": "證券",
+      "date": "2026/06/13 00:33:52",
+      "url": "https://money.udn.com/money/story/5607/9563479?from=edn_maintab_cate",
+      "summary": "Morgan Stanley raised target prices for Unimicron to NT$1,285 and Zhen Ding to NT$666, citing AI infrastructure expansion driving optical interconnect PCB demand. The firm projects AI optical transceiver PCB market growing at 83% CAGR from 2025-2028, reaching $3.77 billion by 2028 from $620 million in 2025, as specifications upgrade from 400G to 800G and 1.6T."
+    }
+  ],
+  "not_relevant": []
+}
