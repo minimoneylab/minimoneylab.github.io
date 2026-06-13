@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-13",
+  "update_time": "2026-06-13 00:04:25",
+  "total_articles": 38,
+  "high": [
+    {
+      "title": "US Stocks Close Higher / Philadelphia Semiconductor Index Surges 8%, Three Major Indices Post Largest Gains in Two Months as Trump Calls Off Iran Strikes",
+      "section": "金融",
+      "date": "2026/06/12 07:10:02",
+      "url": "https://money.udn.com/money/story/123398/9561723",
+      "summary": "US markets surged Thursday after President Trump cancelled planned airstrikes on Iran, with the Philadelphia Semiconductor Index jumping nearly 8% - its largest single-day gain since April 2025. The Dow gained 929.97 points (1.86%) to 50,848.75, while the Nasdaq rose 640.16 points (2.54%) to 25,809.66. This dramatic reversal came after Trump threatened \"very fierce\" strikes on Iran earlier in the day, only to cancel them hours later while claiming a peace agreement could be signed as early as this weekend. The semiconductor rally has significant implications for Taiwan's tech sector, particularly given Taiwan's dominant position in global chip manufacturing and the recent concerns about geopolitical risks affecting supply chains."
+    },
+    {
+      "title": "TSMC ADR Surges Over 3%, UMC Jumps Over 9%, ASE Group Also Strong",
+      "section": "金融",
+      "date": "2026/06/12 07:20:49",
+      "url": "https://money.udn.com/money/story/5599/9561725",
+      "summary": "Taiwan ADRs soared Thursday following the Philadelphia Semiconductor Index's 8% rally. TSMC ADR closed up over 3% at $421.07, equivalent to NT$2,663.18 per share after currency conversion, trading at an 18.36% premium to Taipei shares. UMC ADR jumped over 9% while ASE Group surged over 7%. This reflects strong international investor appetite for Taiwan semiconductor stocks amid the broader market relief rally following Trump's decision to call off Iran strikes and potential peace negotiations."
+    },
+    {
+      "title": "Taiwan Stock Market Internal vs External Capital Direct Confrontation, Short-term Rebound Groundwork Laid",
+      "section": "證券",
+      "date": "2026/06/12 01:21:53",
+      "url": "https://money.udn.com/money/story/5607/9561418?from=edn_maintab_cate",
+      "summary": "Taiwan stocks experienced intense \"internal vs external capital direct confrontation\" as foreign investors continued their sixth consecutive selling day while domestic institutional investors, retail investors and major players stepped in to buy the dip. The dramatic battle resulted in a historic 1,457-point intraday swing and the longest-ever 1,143-point lower shadow, with the index closing down just 76 points. Foreign investors sold NT$357.7 billion for six straight days totaling NT$4.73 trillion, while domestic investment trusts bought NT$132.4 billion for ten consecutive days. This setup creates favorable conditions for a technical rebound, though volatility remains high ahead of futures settlement on June 17th."
+    },
+    {
+      "title": "TSMC Completes One-Day Ex-dividend Fill for 22nd Time, Dividend Payment Scheduled July 9",
+      "section": "證券",
+      "date": "2026/06/12 00:50:54",
+      "url": "https://money.udn.com/money/story/5607/9561440?from=edn_maintab_cate",
+      "summary": "TSMC successfully achieved one-day dividend fill for the 22nd consecutive time since switching to quarterly dividends in 2019, distributing NT$6 per share with an ex-dividend reference price of NT$2,250. The stock hit NT$2,260 intraday before closing flat at NT$2,250. This dividend distribution totals NT$155.595 billion and will be paid on July 9th. TSMC has already announced its Q1 2026 dividend will increase to NT$7 per share, going ex-dividend September 16th and paying October 8th. The consistent dividend fill reflects strong institutional confidence in Taiwan's semiconductor champion amid robust AI demand driving record revenues."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Strike Cancelled! Trump Says US-Iran Agreement Nearly Ready, Could Be This Weekend, But Tehran Has Not Confirmed",
+      "section": "金融",
+      "date": "2026/06/12 06:51:11",
+      "url": "https://money.udn.com/money/story/5599/9561714",
+      "summary": "Trump announced cancellation of planned Iran strikes and claimed a \"major reconciliation arrangement\" with Iran is nearly complete, potentially signable this weekend. However, Iranian officials have not confirmed any agreement, with semi-official media describing Trump's move as a \"tactical retreat.\" This development significantly impacted global markets, with stocks rallying and oil prices falling on reduced geopolitical tensions."
+    },
+    {
+      "title": "Taiwan Stock Market Faces Shock Education This Week, Eyes Rebound with Two Key Hurdles",
+      "section": "證券",
+      "date": "2026/06/12 00:48:30",
+      "url": "https://money.udn.com/money/story/5607/9561445?from=edn_maintab_cate",
+      "summary": "Taiwan stocks endured significant volatility this week with daily swings exceeding 1,000 points. For a meaningful rebound, the market must navigate two critical challenges: Taiwan index futures settlement on June 17th (with foreign investors holding 63,000 short contracts) and the FOMC meeting on June 18th, Fed Chair Powell's first meeting where markets expect potential rate hikes due to 4.2% inflation."
+    },
+    {
+      "title": "Foreign Investors Return with NT$28.69 Billion Buying, Taiwan Stocks Recover 44,000 Points Led by TSMC and Silergy",
+      "section": "證券",
+      "date": "2026/06/13 00:51:26",
+      "url": "https://money.udn.com/money/story/5607/9563640?from=edn_maintab_cate",
+      "summary": "Taiwan stocks staged a strong recovery, gaining 1,019 points to close at 44,169 as foreign investors reversed course with NT$286.9 billion in net buying, ending six consecutive selling days. TSMC and Silergy led the rally with domestic investment trusts continuing their 11th straight day of buying. The market reclaimed the 5-day moving average, monthly line, and 44,000-point level despite high volatility."
+    },
+    {
+      "title": "Global Foundry Industry Revenue Hits Record $47.95 Billion in Q1, Up 14% YoY",
+      "section": "金融",
+      "date": "2026/06/12 01:58:01",
+      "url": "https://money.udn.com/money/story/11162/9561372?from=edn_maintab_cate",
+      "summary": "SEMI reported Q1 2026 global semiconductor equipment sales reached a record $36.55 billion, up 14% YoY and 1% QoQ, driven by AI-related investments in advanced logic processes, DRAM, and advanced packaging. Taiwan was among the fastest-growing regions at $8.77 billion (+24% YoY), reflecting strong AI chip and advanced packaging investments."
+    },
+    {
+      "title": "Wisdom Marine's Order Book Still in Explosive Growth Phase, CEO Says Heavy Electrical Industry Peak Not Yet in Sight",
+      "section": "金融",
+      "date": "2026/06/13 00:10:25",
+      "url": "https://money.udn.com/money/story/10871/9563624?from=edn_maintab_cate",
+      "summary": "Walsin Lihwa CEO indicated the heavy electrical industry peak is not yet visible, with order books fully loaded and already taking orders for 2029-2030. AIDC-related orders show explosive growth from NT$12 billion last year to NT$20 billion currently, with AIDC revenue expected to exceed 15% of total revenue this year."
+    }
+  ],
+  "not_relevant": []
+}
