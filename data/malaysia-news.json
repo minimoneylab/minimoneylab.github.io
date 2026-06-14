@@ -1,71 +1,57 @@
 {
-  "update_time": "2026-06-13 22:05:29 UTC",
+  "update_time": "2026-06-14 22:10:32 UTC",
   "country": "Malaysia",
   "source": "Malay Mail",
-  "total_articles": 9,
+  "total_articles": 7,
   "high": [
     {
       "title": "Malaysia eyes nearly US$200bil in electronics exports in 2026",
       "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/malaysia-eyes-nearly-us200bil-in-electronics-exports-in-2026",
-      "summary": "Malaysia's electronics and electrical (E&E) exports are projected to reach nearly US$200 billion in 2026, continuing strong growth from RM711 billion in 2025. This represents a significant economic milestone for Malaysia's largest export sector and indicates robust demand for Malaysian electronics globally.",
+      "summary": "Malaysia's electronics and electrical (E&E) exports are projected to reach nearly US$200 billion in 2026, up from RM711 billion in 2025. This represents a significant growth trajectory for Malaysia's largest export sector and indicates strong economic performance ahead.",
       "source": "Malay Mail",
       "date": "2026/06/09"
     },
     {
       "title": "TMK Chemical in RM920 million deal to buy CCM",
       "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/tmk-chemical-in-rm920-million-deal-to-buy-ccm",
-      "summary": "TMK Chemical has issued a non-binding letter of intent for a major RM920 million acquisition of CCM, including its subsidiaries and associated companies. This represents one of the largest corporate deals in Malaysia's chemical sector and could significantly reshape the industry landscape.",
+      "summary": "TMK Chemical has issued a non-binding letter of intent for a RM920 million acquisition of CCM, including its subsidiaries and associated companies. This major M&A transaction will significantly reshape the Malaysian chemical industry landscape.",
       "source": "Malay Mail",
       "date": "2026/06/12"
     }
   ],
   "medium": [
     {
-      "title": "BUSINESSBursa remains firm as investor sentiment improves",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/05/bursa-remains-firm-as-investor-sentiment-improves",
-      "summary": "Bursa Malaysia remained strong after Prime Minister Anwar Ibrahim ruled out a snap general election and emphasized government focus on national stability. This political clarity has improved investor confidence and market sentiment in Malaysian equities.",
-      "source": "Malay Mail",
-      "date": "2026/06/05"
-    },
-    {
-      "title": "BUSINESSBursa ends lower as Middle East tension, tech sell-off weigh on global markets",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/08/bursa-ends-lower-as-middle-east-tension-tech-sell-off-weigh-on-global-markets",
-      "summary": "Bursa Malaysia closed 13.91 points lower due to global market jitters from Middle East geopolitical tensions and technology stock sell-offs. The FBM KLCI finished at 1,679.52, reflecting how regional conflicts and sector-specific pressures continue to impact Malaysian markets.",
-      "source": "Malay Mail",
-      "date": "2026/06/08"
-    },
-    {
-      "title": "BUSINESSDuopharma wins RM155.3mil deal to supply insulin to govt hospitals",
+      "title": "Duopharma wins RM155.3mil deal to supply insulin to govt hospitals",
       "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/duopharma-wins-rm155-3mil-deal-to-supply-insulin-to-govt-hospitals",
-      "summary": "Duopharma secured a significant three-year government contract worth RM155.3 million to supply insulin to government hospitals, commencing June 3, 2026. This government healthcare contract provides stable revenue for the pharmaceutical company and strengthens its position in the domestic market.",
+      "summary": "Duopharma's subsidiary DMSB secured a three-year RM155.3 million government contract to supply insulin to government hospitals, commencing June 3, 2026. This contract provides stable revenue visibility for the pharmaceutical company and strengthens its position in the healthcare sector.",
       "source": "Malay Mail",
       "date": "2026/06/09"
     },
     {
-      "title": "BUSINESSCIMB says 'good time' to invest in battered Indonesia",
+      "title": "CIMB says 'good time' to invest in battered Indonesia",
       "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/cimb-says-good-time-to-invest-in-battered-indonesia",
-      "summary": "CIMB CEO Novan Amirudin suggests current market conditions present attractive investment opportunities in Indonesia despite recent challenges. This indicates CIMB's regional expansion strategy and confidence in Indonesian market recovery potential.",
+      "summary": "CIMB CEO Novan Amirudin suggests it's an opportune time for long-term investors to enter the Indonesian market given current valuations. This indicates potential regional investment opportunities for Malaysian investors and CIMB's strategic outlook on Southeast Asian markets.",
       "source": "Malay Mail",
       "date": "2026/06/09"
     },
     {
-      "title": "BUSINESSUS lawmakers call for tighter rules on chipmakers supplying Chinese overseas units",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/us-lawmakers-call-for-tighter-rules-on-chipmakers-supplying-chinese-firms-overseas-units",
-      "summary": "US lawmakers seek stricter regulations on semiconductor companies supplying advanced chips to Chinese subsidiaries overseas, following Trump administration moves to close potential loopholes. This could impact Malaysia's semiconductor industry and companies with Chinese partnerships or investments.",
-      "source": "Malay Mail",
-      "date": "2026/06/09"
-    },
-    {
-      "title": "BUSINESSMaybank handles US$4.9bil deals for Singapore, Malaysia hub",
+      "title": "Maybank handles US$4.9bil deals for Singapore, Malaysia hub",
       "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/maybank-handles-us4-9bil-deals-for-singapore-malaysia-hub",
-      "summary": "Maybank has facilitated US$4.9 billion in deals across all financial segments including corporates, mid-sized companies and consumers in its Singapore-Malaysia operations. This demonstrates strong regional business activity and Maybank's significant role in cross-border financial services.",
+      "summary": "Maybank has facilitated US$4.9 billion in deals across its Singapore-Malaysia hub, spanning corporates, mid-sized companies and consumers. This demonstrates strong regional business activity and Maybank's significant role in cross-border financial services.",
+      "source": "Malay Mail",
+      "date": "2026/06/09"
+    },
+    {
+      "title": "US lawmakers call for tighter rules on chipmakers supplying Chinese overseas units",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/us-lawmakers-call-for-tighter-rules-on-chipmakers-supplying-chinese-firms-overseas-units",
+      "summary": "US lawmakers are pushing for stricter regulations on semiconductor exports to Chinese subsidiaries following Trump administration moves to close potential loopholes. This could impact Malaysia's significant electronics and semiconductor manufacturing sector and supply chain relationships.",
       "source": "Malay Mail",
       "date": "2026/06/09"
     },
     {
       "title": "AirAsia X delays Bahrain launch amid Mideast conflict concerns",
       "url": "https://www.freemalaysiatoday.com/category/business/2026/06/11/airasia-x-delays-bahrain-launch-amid-mideast-conflict-concerns",
-      "summary": "AirAsia X has postponed its Bahrain route launch to August-September 2026 due to Middle East operational and market conditions. This delay reflects how regional geopolitical tensions are impacting Malaysian airline expansion plans and international route development.",
+      "summary": "AirAsia X has postponed its Bahrain route launch from the original schedule to August or September 2026 due to Middle East operational and market conditions. This reflects how geopolitical tensions are affecting Malaysian airline expansion plans and regional aviation sector growth.",
       "source": "Malay Mail",
       "date": "2026/06/11"
     }
