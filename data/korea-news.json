@@ -1,76 +1,80 @@
 {
-  "date": "2026-06-14",
-  "update_time": "2026-06-13 22:00:18",
-  "total_articles": 32,
+  "date": "2026-06-15",
+  "update_time": "2026-06-14 22:06:12",
+  "total_articles": 27,
   "high": [
-    {
-      "title": "S.Korean investors suffer 30% losses from bonds as BOK rate hikes loom",
-      "section": "Markets",
-      "date": "",
-      "url": "https://www.kedglobal.com/sovereign-bonds/newsView/ked202606120006",
-      "summary": "Bank of Korea Governor Shin Hyun-song indicated that South Korea's benchmark rate is expected to rise in coming months, citing stronger-than-expected growth and elevated inflation. The BOK is forecast to raise policy rates at least twice to 3.0% this year, with resilient growth giving policymakers scope to combat rising inflation. The yield on South Korea's 10-year government bond has climbed to its highest level in two and a half years as stronger growth, expansionary fiscal policy, and inflation concerns pushed investors to price in higher rates. This development has resulted in significant losses for bond investors, with some experiencing 30% declines. For fixed income investors, this signals a clear hawkish shift in BOK policy stance, making existing bonds less attractive and creating headwinds for duration strategies. The rising rate environment suggests opportunities in shorter-duration instruments while longer-dated bonds face continued pressure."
-    },
-    {
-      "title": "Dollar-Won Closes at 1,518.30 on Growing Optimism Over Imminent US-Iran Ceasefire Deal",
-      "section": "Bonds/Forex",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125215",
-      "summary": "The USD/KRW exchange rate declined to 1,518.30 in overnight trading, down 10.60 won from the previous Seoul close and 1.50 won lower than the day session close of 1,519.80. The decline was driven by growing market optimism surrounding a potential US-Iran ceasefire agreement after President Trump announced that a ceasefire deal had been finalized and only required signatures. Media reports suggested both sides could sign a memorandum of understanding in Geneva on the 14th. This represents significant relief for the Korean won, which had been under pressure from geopolitical tensions. For FX traders, the development suggests potential for further won strength if the ceasefire materializes, though caution is warranted given the volatility of Middle East negotiations. The move below 1,520 is technically significant and could open the door for a test of 1,500 levels."
-    },
     {
       "title": "Presidential Office Signals FX Market Management Intent Ahead of US Investment, Says 'Exchange Rate Must Stabilize'",
       "section": "Policy/Finance",
-      "date": "",
+      "date": "Not specified",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=125251",
-      "summary": "The South Korean presidential office publicly emphasized the need for exchange rate stability, with a senior official stating \"the exchange rate needs to stabilize\" during President Lee Jae-myung's state visit to Italy. The government revealed that the US Treasury Department's exchange rate team \"has a very deep understanding of our country's situation and is constantly monitoring it.\" This signals potential government intervention concerns as USD/KRW has been elevated. The official added that \"it is important for our country, and naturally of interest to the US, that the exchange rate market moves in line with fundamentals.\" This represents the clearest signal yet of government vigilance toward recent won weakness and suggests possible coordinated action with US authorities. For FX markets, this indicates authorities may be preparing intervention measures if USD/KRW continues rising, creating a potential ceiling for dollar strength against the won."
-    }
-  ],
-  "medium": [
-    {
-      "title": "'National Pension Rebalancing Exemption Intensified Currency Pressure' - Welfare Ministry 'Disagrees with Causality'",
-      "section": "Policy/Finance",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125245",
-      "summary": "Barclays analysis suggests the National Pension Service's suspension of rebalancing in H1 2026 \"functioned as an amplifier rather than a stabilizer\" in FX market volatility, indirectly triggering massive foreign capital outflows. The NPS temporarily suspended rebalancing to mitigate simultaneous stock and won weakness, raising domestic equity allocation targets. This institutional policy shift appears to have had unintended consequences for currency stability."
+      "summary": "The Korean Presidential Office has publicly emphasized the need for exchange rate stability as the USD-KRW continues to rise, signaling potential government intervention concerns. A senior official accompanying President Lee's Italy visit stated that \"the exchange rate needs to stabilize\" and highlighted that the US Treasury Department \"has a very deep understanding of our country's situation and is constantly monitoring it.\" The official emphasized the importance of exchange rate movements aligning with economic fundamentals. This represents a clear policy signal that Korean authorities are closely watching FX market developments and may be preparing intervention measures if volatility persists. For KRW traders, this suggests official resistance levels may emerge if USD-KRW continues climbing, while bond investors should monitor for potential policy responses that could impact yields."
     },
     {
-      "title": "South Korea Growth Outlook Rises to 3.7% - Will Government Forecast Break 3%?",
-      "section": "Bonds/Forex",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125226",
-      "summary": "Economic growth expectations are rising rapidly due to stronger-than-anticipated semiconductor-led export boom. Attention focuses on whether the government will raise its growth forecast to the 3% range this year, which would support the BOK's hawkish stance and potentially strengthen the won through improved fundamentals."
+      "title": "'National Pension Rebalancing Exemption Intensified Currency Pressure' - Welfare Ministry 'Disagrees with Causality' (Comprehensive)",
+      "section": "Policy/Finance",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125245",
+      "summary": "Barclays analysis suggests that the National Pension Service's suspension of portfolio rebalancing in H1 2026 acted as an \"amplifier rather than stabilizer\" in FX market volatility, indirectly triggering massive foreign capital outflows. The NPS halted rebalancing in January to support domestic markets during simultaneous stock and won weakness, raising domestic equity allocation from 14.4% to 14.9%, then further to 20.8% by May. While this boosted NPS returns, Barclays economist Bum-ki Son argues it amplified market volatility by disrupting normal capital flow patterns. This analysis is crucial for understanding recent KRW weakness drivers beyond typical economic fundamentals. Foreign investors may have been forced to rebalance elsewhere due to reduced NPS activity, creating additional selling pressure on Korean assets and the won."
     },
     {
       "title": "NDF at 1,517.20/1,517.60 Won - Down 1.05 Won",
       "section": "Bonds/Forex",
-      "date": "",
+      "date": "Not specified",
       "url": "https://en.infomaxai.com/news/articleView.html?idxno=125236",
-      "summary": "The dollar-won one-month NDF declined to 1,517.40 won (MID) overnight, down 1.05 won from the previous Seoul session close. The forward curve suggests continued near-term won strength expectations amid US-Iran ceasefire optimism, though some dollar firmness persists globally."
+      "summary": "The USD-KRW one-month NDF declined in New York trading, quoted at 1,517.40 won (mid-rate), representing a 1.05 won decline from Seoul's previous closing of 1,519.80 won. The offshore rate suggests expectations for KRW strengthening, with the bid-ask spread at 1,517.20-1,517.60 won. The slight USD strength was attributed to ceasefire negotiation expectations and noise surrounding US-Iran talks. The NDF discount to spot rates indicates overseas markets are pricing in KRW recovery, potentially reflecting reduced geopolitical risk premiums if Middle East tensions ease."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[FX-Weekly] Hormuz Opening, Foreign Rebalancing Inflection Point in Focus - Kevin Warsh's Debut Also Watched",
+      "section": "Policy/Finance",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125284",
+      "summary": "The USD-KRW exchange rate is expected to test support in the early 1,500 won range this week as dollar weakness factors dominate amid ceasefire expectations between the US and Iran. Foreign investor remittance demand may reach an inflection point, potentially intensifying downward pressure on USD-KRW. Kevin Warsh's first FOMC meeting as Fed Chairman is also being closely watched for policy signals."
     },
     {
-      "title": "[Market Close] Foreigners Return After 25 Trading Days on War-End Hopes - KOSPI Reclaims 8,000",
-      "section": "Stocks",
-      "date": "",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125164",
-      "summary": "Foreign investors turned to net buying for the first time in 25 trading sessions, purchasing 2 trillion won worth of Korean equities amid US-Iran war-end expectations. The KOSPI reclaimed 8,000 levels after a month-long 75 trillion won foreign selling spree, providing relief for the won through improved capital flows."
+      "title": "[Bond Market - Weekly] Growing Expectations for War's End - Focus on Kevin Warsh's 'Debut'",
+      "section": "Policy/Finance",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125283",
+      "summary": "Seoul's bond market will digest US-Iran ceasefire negotiation progress and the Fed's FOMC meeting this week. Strong ceasefire expectations emerged after Iran's Supreme Leader reportedly approved a ceasefire MOU, with Pakistani PM suggesting a final agreement within 24 hours. This could significantly impact risk sentiment and bond yields as geopolitical premiums unwind."
+    },
+    {
+      "title": "South Korea Growth Outlook Rises to 3.7% - Will Government Forecast Break 3%?",
+      "section": "Bonds/Forex",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125226",
+      "summary": "Economic growth expectations are rising rapidly due to stronger-than-anticipated semiconductor-led export boom. Attention focuses on whether the government will raise its growth forecast to the 3% range this year, which could impact monetary policy expectations and bond yields as stronger growth may support hawkish BOK policy stances."
+    },
+    {
+      "title": "Expanded Economy Fuels 'Proactive Fiscal' Push - Next Year's Budget to Exceed 800 Trillion Won",
+      "section": "Bonds/Forex",
+      "date": "Not specified",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125255",
+      "summary": "South Korea's government gains momentum for \"proactive fiscal\" stance as surging nominal GDP from the semiconductor supercycle boosts the economic weight class. Expanded nominal GDP increases tax revenue and reduces fiscal soundness concerns, providing justification for expansionary fiscal policies that could impact government bond supply and yields."
     }
   ],
   "not_relevant": [
-    "Single-stock leveraged ETFs fuel swings in Korean stock market",
-    "Hana Financial Pursues Korea Fund Partners Acquisition, Enters Preliminary Bidding",
-    "Opposition Slams 'Devastating' Job Market Collapse as Ruling Party Calls for 'Balanced Economic View'",
-    "Deputy PM Koo Visits University, Vows to Tackle 'Severe' Youth Employment Crisis",
-    "Government Says 71% of Supplementary Budget Fast-Track Items Executed, 99% of High Oil Price Relief Funds Disbursed",
-    "FSS Launches On-Site Inspection of KB Financial Following Woori Financial Probe",
-    "Iran Foreign Minister statements (multiple articles)",
-    "Lino Industrial CEO Block Deal",
-    "SpaceX IPO allocation issues (multiple articles)",
-    "Nuclear Power Stocks Hit Daily Limit",
-    "Kiwoom Securities Capital Reduction Dividend",
-    "President Lee political statements (multiple articles)",
-    "South Korea, Italy Formalize Joint Africa Push, AI Cooperation",
+    "President Lee - 'Ruling Party Must Use Language of Responsibility… Passion Should Be for All Citizens, Not Just Our Camp'",
+    "South Korea, Italy Formalize Joint Africa Push, AI Cooperation as 'Special Strategic Partners'",
+    "President Lee Highlights AI, Chips, Space as Key Cooperation Areas - Samsung's Lee Says 'We Must Work Harder'",
+    "Iran Says US Peace MOU Signing 'Possible Within Days, Not Tomorrow'",
+    "'Mediator' Pakistan PM Says 'US-Iran Final Deal Likely Within 24 Hours'",
     "How Open Economies Achieve Financial Stability - A Former BOK Board Member's Dilemma",
-    "President Lee Slams Journalists for Front-Running",
-    "Tokenized Securities Industry SpaceX issues"
+    "President Lee Slams Journalists for Front-Running - 'Abnormality of the Old Era'",
+    "Mirae Asset's 'SpaceX Zero Shares' Shock Prompts FSS Inquiry",
+    "Korea Investment Management Also Receives 'Zero' SpaceX IPO Shares - Adds to ETF Through Secondary Market",
+    "Unprecedented Subscription Reversal - Mirae Asset Faces Stock Price and Reputational Risk from SpaceX Debacle",
+    "Tokenized Securities Industry Also Faces SpaceX Subscription Cancellation - Binance Offers $1M Compensation",
+    "SpaceX IPO allocation snub leaves Mirae Asset, Korean ETF managers empty-handed, puzzled",
+    "Cho Seung-rae - 'President Lee's Emphasis on Responsibility... Interpretation as 'Targeting Leadership' is Distortion'",
+    "Lee Chan-jin - 'Cybersecurity a Core Management Risk for Financial Firms…CEOs Must Directly Oversee'",
+    "Insurance Research Institute - 'Inclusive Insurance Needs Stable Funding, Must Change Perception of Vulnerable Borrowers'",
+    "Lemon Healthcare, Remedi Among 5 Firms to Launch Bookbuilding This Week as IPO Market Awakens",
+    "FSC to Grant Bonus Points to Top-Performing National Growth Fund Managers for Future Policy Fund Selection",
+    "'Sold Out in 10 Minutes' National Growth Fund Launches Second Round Worth 600 Billion Won in Q3",
+    "Welfare Ministry Revamps Basic Pension with Progressive Structure, Youth National Pension Support Begins Next Year",
+    "SpaceX's Successful Debut - 'Tesla Acquisition Likely This Year...Telecom Next'"
   ]
 }
