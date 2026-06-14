@@ -76,14 +76,14 @@
     {
       "symbol": "UNVR.JK",
       "name": "Unilever Indonesia",
-      "price": 1665.0,
-      "change": 30.0,
+      "price": 1551.0,
+      "change": 27.95,
       "change_pct": 1.83,
       "market_cap": 3529736243.0,
       "pe_ratio": 17.15,
       "pb_ratio": 9.64,
       "dividend_yield": 13.69,
-      "pct_from_high": -41.37
+      "pct_from_high": -45.39
     },
     {
       "symbol": "GOTO.JK",
@@ -242,5 +242,5 @@
       "pct_from_high": -31.45
     }
   ],
-  "update_time": "2026-06-14 06:38:25"
+  "update_time": "2026-06-15 06:44:03"
 }

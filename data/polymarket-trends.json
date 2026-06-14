@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-06-14 06:39:08",
+  "update_time": "2026-06-15 06:44:43",
   "categories": {
     "Iran & Middle East": [
       {
@@ -114,7 +114,7 @@
         "volume": 63229538.0,
         "liquidity": 0.0,
         "end_date": "2026-03-31T00:00:00Z",
-        "days_to_close": -75,
+        "days_to_close": -76,
         "markets": [
           {
             "question": "Will the Iranian regime fall by March 31?",
@@ -126,14 +126,14 @@
       {
         "title": "Will the Iranian regime fall by June 30?",
         "slug": "will-the-iranian-regime-fall-by-june-30",
-        "volume": 55003489.0,
-        "liquidity": 615506.0,
+        "volume": 56021137.0,
+        "liquidity": 1370777.0,
         "end_date": "2026-06-30T00:00:00Z",
-        "days_to_close": 16,
+        "days_to_close": 15,
         "markets": [
           {
             "question": "Will the Iranian regime fall by June 30?",
-            "probability": 1.1
+            "probability": 0.8
           }
         ],
         "url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30"
@@ -144,7 +144,7 @@
         "volume": 5772413.0,
         "liquidity": 0.0,
         "end_date": "2026-12-31T00:00:00Z",
-        "days_to_close": 200,
+        "days_to_close": 199,
         "markets": [
           {
             "question": "Will Iran close the Strait of Hormuz before 2027?",
@@ -224,7 +224,7 @@
         "volume": 84160555.0,
         "liquidity": 0.0,
         "end_date": "2026-03-31T00:00:00Z",
-        "days_to_close": -75,
+        "days_to_close": -76,
         "markets": [
           {
             "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of March?",
@@ -353,7 +353,7 @@
         "volume": 284224765.0,
         "liquidity": 0.0,
         "end_date": "2026-04-29T00:00:00Z",
-        "days_to_close": -46,
+        "days_to_close": -47,
         "markets": [
           {
             "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
@@ -380,7 +380,7 @@
         "volume": 260075340.0,
         "liquidity": 0.0,
         "end_date": "2026-03-18T00:00:00Z",
-        "days_to_close": -88,
+        "days_to_close": -89,
         "markets": [
           {
             "question": "Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?",
@@ -404,34 +404,34 @@
       {
         "title": "How many Fed rate cuts in 2026?",
         "slug": "how-many-fed-rate-cuts-in-2026",
-        "volume": 34379289.0,
-        "liquidity": 1799109.0,
+        "volume": 34862902.0,
+        "liquidity": 1973865.0,
         "end_date": "2026-12-31T00:00:00Z",
-        "days_to_close": 200,
+        "days_to_close": 199,
         "markets": [
           {
             "question": "Will no Fed rate cuts happen in 2026?",
-            "probability": 76.8
+            "probability": 73.0
           },
           {
             "question": "Will 1 Fed rate cut happen in 2026?",
-            "probability": 16.5
+            "probability": 20.5
           },
           {
             "question": "Will 2 Fed rate cuts happen in 2026?",
-            "probability": 2.1
+            "probability": 3.5
           },
           {
             "question": "Will 3 Fed rate cuts happen in 2026?",
-            "probability": 1.9
+            "probability": 1.7
           },
           {
             "question": "Will 4 Fed rate cuts happen in 2026?",
-            "probability": 0.7
+            "probability": 0.5
           },
           {
             "question": "Will 5 Fed rate cuts happen in 2026?",
-            "probability": 0.5
+            "probability": 0.4
           },
           {
             "question": "Will 6 Fed rate cuts happen in 2026?",

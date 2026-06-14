@@ -232,15 +232,15 @@
     {
       "symbol": "ACB.VN",
       "name": "ACB",
-      "price": 23451.33,
+      "price": 22751.33,
       "change": 0.0,
       "change_pct": 0.0,
       "market_cap": 5859702495.0,
       "pe_ratio": 9.51,
       "pb_ratio": 1.38,
       "dividend_yield": 2.98,
-      "pct_from_high": -20.5
+      "pct_from_high": -12.85
     }
   ],
-  "update_time": "2026-06-14 06:38:25"
+  "update_time": "2026-06-15 06:44:03"
 }

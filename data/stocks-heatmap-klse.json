@@ -64,14 +64,14 @@
     {
       "symbol": "5681.KL",
       "name": "Petronas Dagangan",
-      "price": 18.2,
+      "price": 18.02,
       "change": 0.48,
       "change_pct": 2.71,
       "market_cap": 4458906294.0,
       "pe_ratio": 16.55,
       "pb_ratio": 3.12,
       "dividend_yield": 3.96,
-      "pct_from_high": -23.53
+      "pct_from_high": -24.29
     },
     {
       "symbol": "1961.KL",
@@ -196,14 +196,14 @@
     {
       "symbol": "1015.KL",
       "name": "AMMB Holdings",
-      "price": 6.57,
+      "price": 6.35,
       "change": -0.01,
       "change_pct": -0.15,
       "market_cap": 5356702057.0,
       "pe_ratio": 10.27,
       "pb_ratio": 1.0,
       "dividend_yield": 5.33,
-      "pct_from_high": -4.09
+      "pct_from_high": -7.37
     },
     {
       "symbol": "4065.KL",
@@ -242,5 +242,5 @@
       "pct_from_high": -8.52
     }
   ],
-  "update_time": "2026-06-14 06:38:25"
+  "update_time": "2026-06-15 06:44:03"
 }
