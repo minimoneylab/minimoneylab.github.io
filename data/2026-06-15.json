@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-15",
+  "update_time": "2026-06-14 23:50:56",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "TSMC Advanced Packaging Supply Shortage, Orders Overflow to ASE Group and ChipMOS",
+      "section": "金融",
+      "date": "2026/06/15 03:02:51",
+      "url": "https://money.udn.com/money/story/5612/9566297?from=edn_subcatelist_cate",
+      "summary": "TSMC's advanced packaging capacity is severely constrained, leading to order overflow to partners ASE Group (3711) and ChipMOS (6239). Both companies are expanding advanced packaging investments across capacity, R&D, and customer deployment to capitalize on AI and high-performance computing growth alongside TSMC. The semiconductor industry has entered the post-Moore's law era, making advanced packaging crucial for chip performance enhancement. Demand for 2.5D, 3D packaging, and system-in-package (SiP) solutions is rapidly growing, reshaping the assembly and test industry value chain. ASE Group has doubled its 2026 capex to $8.5 billion (over NT$260 billion), reflecting aggressive positioning in AI supply chains. ChipMOS is transitioning from traditional memory packaging to high-end packaging markets, including HBM, AI compute chips, and advanced packaging solutions. This capacity shortage highlights the critical bottleneck in AI infrastructure and presents significant revenue opportunities for Taiwan's OSAT industry."
+    },
+    {
+      "title": "Taiwan Stock Market Faces Three Variables This Week, Focus on National Team's Anti-Shock Actions",
+      "section": "證券",
+      "date": "2026/06/15 02:56:24",
+      "url": "https://money.udn.com/money/story/5607/9566307?from=edn_maintab_cate",
+      "summary": "Taiwan stock market faces three major variables this week: Bank of Japan rate meeting (16th), Taiwan index futures settlement (17th), and Fed rate decision early morning (18th). Market volatility is expected, with resistance focusing on domestic institutional investors, particularly the eight major state-owned banks that bought over NT$60 billion last week - the second-largest weekly net buying in history. After ECB raised rates by 25bp, focus shifts to BOJ (potential rate hike expectations rising) and Fed (new Chairman Walsh's first meeting). Foreign investors maintain net short position of 65,000 contracts in Taiwan index futures after selling over NT$400 billion in stocks. The eight state-owned banks' aggressive buying, led by NT$20 billion in TSMC purchases, signals strong policy support. Other major purchases included Delta Electronics (NT$3.7bn), MediaTek (NT$3.65bn), and Yageo (NT$3.04bn). This domestic institutional support serves as market stabilizer amid external uncertainties."
+    },
+    {
+      "title": "Apple to Stagger iPhone 18 and First Foldable iPhone Launch Timeline",
+      "section": "金融",
+      "date": "2026/06/15 02:59:40",
+      "url": "https://money.udn.com/money/story/5612/9566305?from=edn_subcatelist_cate",
+      "summary": "Apple's first foldable iPhone launch may be delayed to early 2027, separating from iPhone 18 series expected this fall. Industry analysis suggests two key factors: market segmentation to avoid internal competition, and preventing component capacity conflicts amid AI datacenter demand straining key components (CPU, GPU, memory). iPhone series typically ships 70-90 million units annually as flagship products, while foldable iPhone targets different customer segments. With AI datacenters absorbing critical component capacity, simultaneous launches would increase procurement difficulty and risk supply shortages. This strategy allows better resource allocation and market positioning, potentially extending traditional H2 peak season into Q1 2027. The foldable iPhone is expected to capture nearly 30% of global foldable market share in its first year with 11 million units, challenging Samsung's dominance. Pricing expected around $2,000 (NT$64,000), making it the most expensive iPhone ever."
+    }
+  ],
+  "medium": [
+    {
+      "title": "SpaceX Plans 1GW Space AI Computing Deployment by 2027, Benefits Hon Hai, Quanta",
+      "section": "金融",
+      "date": "2026/06/15 02:46:31",
+      "url": "https://money.udn.com/money/story/11162/9566217?from=edn_maintab_cate",
+      "summary": "SpaceX successfully raised ~$75 billion in IPO with 19% first-day gain, providing capital for space AI ambitions. Plans to deploy 1GW annual space AI computing capacity by 2027, scaling to 100GW by 2030. First-generation AI1 satellites will deploy NVIDIA GB300 AI server racks in space, requiring ~7,400 cabinets annually for 1GW target. Hon Hai, Quanta, and Wistron expected to handle server assembly. Optical communication suppliers including Lianzia (3081) and Lien Chuen (3450) will benefit from advanced laser inter-satellite links enabling high-speed, low-latency data networks in space."
+    },
+    {
+      "title": "AI Glasses Enter Explosive Growth Year, Global Shipments Target 10+ Million Units",
+      "section": "金融",
+      "date": "2026/06/14 01:50:58",
+      "url": "https://money.udn.com/money/story/5612/9564923?from=edn_maintab_cate",
+      "summary": "AI glasses market entering explosive growth with 2026 shipments estimated at 15-17.5 million units, expanding to 50+ million by 2030. Meta dominates with 70%+ market share, partnering with EssilorLuxottica. Google leveraging Gemini AI and Samsung hardware, while Apple developing two models - N50 (iPhone-paired, no display) for late 2026 and display-integrated version for 2027-28. TSMC provides core chips, Genius Electronic Optical and Yang Ming Optics supply optical modules, and Young Optics contributes integrated optoelectronic and micro-projection technologies."
+    },
+    {
+      "title": "Apple New Product Showcase: iPhone 18 Fall Launch, Foldable iPhone Early 2027",
+      "section": "金融",
+      "date": "2026/06/15 03:01:49",
+      "url": "https://money.udn.com/money/story/5612/9566300?from=edn_maintab_cate",
+      "summary": "Apple will launch iPhone 18 series this fall, followed by first foldable iPhone in early 2027, extending peak season through Q1 2027 for suppliers TSMC, Hon Hai, and Largan Precision. Largan's CEO confirmed Q4 will be busier than usual with some new products launching in early 2027. Foldable iPhone expected to capture ~30% global foldable market share with 11 million units, priced around $2,000. Supply chain includes TSMC (A-series chips), Hon Hai (assembly), Largan (lenses), and Shin Zu Shing-Hon Hai JV (hinges)."
+    },
+    {
+      "title": "High Dividend Yield Stocks Attract Defensive Capital Amid Market Volatility",
+      "section": "證券",
+      "date": "2026/06/14 02:55:19",
+      "url": "https://money.udn.com/money/story/5607/9564882?from=edn_maintab_cate",
+      "summary": "Entering dividend season with Taiwan stocks in high-level consolidation, high dividend yield stocks showing defensive characteristics attract capital rotation. Stocks with 5%+ cash dividend yield, above 10-day MA, and 1,000+ institutional net buying include EVA Airways, Huaku Development, Tong Yang, and others. Construction stocks traditionally generous with dividends, with Huaku Development, Chong Hong Construction, Farglory, and Darlee achieving 6%+ yields. Central Bank Governor Yang Chin-long's comment that selective credit controls will \"stop here\" provides optimism for construction sector."
+    },
+    {
+      "title": "10% Temporary Tariffs Expire July 24, North America Air Cargo Rates Surge 10%",
+      "section": "金融",
+      "date": "2026/06/14 01:56:31",
+      "url": "https://money.udn.com/money/story/5612/9564911?from=edn_maintab_cate",
+      "summary": "US 10% temporary tariffs expiring July 24 trigger global supply chain front-loading. Taiwan-North America air cargo rates jump ~10% to NT$330/kg, hitting 2026 highs. Two drivers: tariff-induced shipping rush and massive AI server/semiconductor equipment shipments. Container rates also rebound with Far East-US West +12.1%, US East +10.1% weekly gains. China Airlines (2610) and EVA Air (2618) cargo operations benefit from sustained high freight demand and sea-to-air conversion trend."
+    }
+  ],
+  "not_relevant": []
+}
