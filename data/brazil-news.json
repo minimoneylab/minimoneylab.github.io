@@ -1,43 +1,18 @@
 {
-  "date": "2026-06-14",
-  "update_time": "2026-06-14 09:25:10",
-  "total_articles": 8,
+  "date": "2026-06-15",
+  "update_time": "2026-06-15 13:09:24",
+  "total_articles": 2,
   "high": [
     {
-      "title": "IPCA + 8% in Fixed Income Carries 'Message Between the Lines': Understand What's at Stake",
+      "title": "New Auctions on the Radar? Interest Rate Surge Reignites Bets on Treasury Intervention",
       "source": "MoneyTimes",
-      "date": "2026-06-13",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/ipca-e-selic-em-alta-carregam-recado-nas-entrelinhas-entenda-o-que-esta-em-jogo-lbrdaz242/",
-      "summary": "Brazil's market sentiment has dramatically shifted from early 2026 optimism when the Ibovespa neared 200,000 points on expectations of Selic rate cuts and strong foreign capital flows. The index has since fallen 15% from its peak as markets now question the continuation of the monetary easing cycle. While Middle East conflicts have contributed to global inflationary pressures and risk aversion, domestic factors appear to be weighing more heavily on Brazilian assets. According to Empiricus Research strategist Matheus Spiess, Brazil's high interest rates stem primarily from fiscal imbalances rather than external factors. The current environment shows fixed income offering IPCA + 8% returns, reflecting underlying concerns about the sustainability of the monetary policy path. This shift has significant implications for BRL traders and bond investors, as fiscal concerns could force the Central Bank to maintain higher rates longer than previously anticipated, potentially limiting BRL appreciation and keeping government bond yields elevated."
-    },
-    {
-      "title": "Ibovespa Falls with IPCA Above Expected and USA-Iran Negotiations in Focus; Dollar Drops to R$ 5.06",
-      "source": "MoneyTimes",
-      "date": "2026-06-13",
-      "url": "https://www.moneytimes.com.br/ibovespa-12-6-26-lils/",
-      "summary": "The Ibovespa diverged from Wall Street's positive tone despite profit-taking from the previous session, closing down 0.21% at 171,132.66 points. However, the index gained 1.25% for the week, breaking its longest losing streak since the Real Plan. The USD/BRL closed at R$ 5.0615, down 0.79% on the day and 1.86% for the week. Key market driver was Brazil's May IPCA inflation data showing 0.58% monthly growth (vs 0.67% in April), with 12-month accumulated inflation implications for monetary policy. The inflation reading prompted investors to recalibrate bets for the next COPOM interest rate decision. While geopolitical developments (USA-Iran negotiations) supported global markets, Brazilian assets faced headwinds from domestic inflation concerns. This dynamic is crucial for FX traders as it highlights the divergence between local monetary policy pressures and global risk sentiment, with BRL strength dependent on both inflation trajectory and Central Bank policy response."
+      "date": "2026-06-15",
+      "url": "https://www.moneytimes.com.br/tesouro-pode-voltar-a-intervir-disparada-dos-juros-reacende-aposta-em-intervencao/",
+      "summary": "The recent surge in Brazilian government bond yields has reignited investor speculation about potential extraordinary Treasury auctions to contain market volatility. Fixed income rates have approached multi-decade highs, with inflation-indexed bonds trading near IPCA + 8% annually and long-term prefixed bonds exceeding 15%. This surge stems from a combination of fiscal uncertainties, resilient economic activity, electoral risks, and external pressures. The situation recalls March's historic intervention when the Treasury repurchased approximately R$ 47 billion in government bonds through extraordinary auctions over one week - the largest operation of this type since at least 2013. In a single auction, R$ 5.4 billion in prefixed bonds were acquired. For FX and bond traders, this development is crucial as Treasury intervention could provide temporary relief for BRL volatility and yield compression, but also signals underlying fiscal stress. Watch for official Treasury statements and potential auction announcements as yields remain elevated."
     }
   ],
-  "medium": [
-    {
-      "title": "Nubank (ROXO34): CFO Change Pressures Shares, but Analyst Sees Opportunity",
-      "source": "MoneyTimes",
-      "date": "2026-06-13",
-      "url": "https://www.moneytimes.com.br/conteudo-de-marca/nubank-roxo34-troca-de-cfo-pressiona-acoes-mas-analista-ve-oportunidade-lbrdjt002/",
-      "summary": "Nubank shares face volatility following CFO leadership changes, with Guilherme Lago departing and Rob Livingston (ex-Visa North America) taking over. The announcement comes amid concerns about US expansion, increased credit provisions, and rising delinquency rates. Empiricus Research analyst Ruy Hungria suggests market reaction appears excessive given these factors were already anticipated."
-    },
-    {
-      "title": "Cury (CURY3) Jumps and Natura (NTCO3) Leads Negative Side; See Ibovespa Weekly Highlights",
-      "source": "MoneyTimes",
-      "date": "2026-06-14",
-      "url": "https://www.moneytimes.com.br/ibovespa-destaque-da-semana-24-lils/",
-      "summary": "The Ibovespa broke its historic losing streak with 1.25% weekly gains amid easing geopolitical tensions, closing at 171,132.66 points. USD/BRL ended at R$ 5.0615 with 1.86% weekly losses. Copasa's R$ 8.3 billion privatization marked the second-largest sanitation sector IPO in Brazil after Sabesp's 2024 offering. Corporate news and electoral polling continued to influence market sentiment throughout the week."
-    }
-  ],
+  "medium": [],
   "not_relevant": [
-    "Wall Street Closes Higher Awaiting USA-Iran Deal; SpaceX Shares 'Take Off' on Debut",
-    "Ready? Access to 5 Cryptocurrencies with Potential of Up to R$ 1 Million Will Be Revealed Tomorrow (15th)",
-    "Did You See Strategy Sell and Buy Bitcoins (BTC)? Case Serves as Example for Investors; Understand",
-    "Nubank (ROXO34): CFO Change Pressures Shares, but Analyst Sees Opportunity (duplicate)"
+    "Ready? Access to 5 Cryptocurrencies with Potential up to R$ 1 Million to be Revealed Tomorrow (15)"
   ]
 }
