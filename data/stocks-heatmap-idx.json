@@ -220,14 +220,14 @@
     {
       "symbol": "ANTM.JK",
       "name": "Aneka Tambang",
-      "price": 3080.0,
-      "change": -90.0,
+      "price": 2870.01,
+      "change": -83.86,
       "change_pct": -2.84,
       "market_cap": 4153232724.0,
       "pe_ratio": 8.73,
       "pb_ratio": 1.91,
       "dividend_yield": 6.82,
-      "pct_from_high": -38.03
+      "pct_from_high": -42.25
     },
     {
       "symbol": "UNTR.JK",
@@ -242,5 +242,5 @@
       "pct_from_high": -30.92
     }
   ],
-  "update_time": "2026-06-21 06:44:14"
+  "update_time": "2026-06-22 06:44:13"
 }
