@@ -1,8 +1,38 @@
 {
   "date": "2026-06-26",
-  "update_time": "2026-06-14 23:50:56",
-  "total_articles": 22,
-  "high": [],
-  "medium": [],
+  "update_time": "2026-06-26 17:33:50",
+  "total_articles": 44,
+  "high": [
+    {
+      "title": "Kuo Ming-chien Resigns as Cathay United Bank Chairman; Cathay Financial to Appoint Him as Senior Advisor",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 07:27:40",
+      "url": "https://money.udn.com/money/story/5613/9589456",
+      "summary": "Kuo Ming-chien has resigned from his positions as Director of Cathay Financial Holdings, Chairman and Director of Cathay United Bank, and Director of Cathay Private Equity, citing public controversy over his concurrent outside roles. The resignation follows a related-party transaction scandal at Cathay Securities Investment Trust (Cathay SITE), where Kuo simultaneously served on the board of Cathay SITE and as an independent director of Alchip Technologies (世芯-KY), rendering Alchip a related-party company. Despite this conflict, Cathay SITE's discretionary accounts and eight fund portfolios continued to trade Alchip shares — triggering mandatory NAV recalculations and investor compensation obligations.\n\nTotal compensation to be paid is approximately NT$490 million, covering roughly 50,500 beneficiaries across 47 distribution institutions. Cathay SITE states it is applying a \"most favorable\" compensation principle. Cathay Financial has also initiated a broader audit of all domestic and foreign companies where Kuo concurrently served as director or independent director during his tenure.\n\n**Market Implications:** This is a significant governance incident for Cathay Financial Holdings (2882.TW), Taiwan's largest financial conglomerate. The NT$490M compensation liability, while manageable, raises concerns about internal compliance controls at Cathay SITE. Investors should monitor potential FSC regulatory action, reputational risk to the Cathay brand, and any further revelations from the ongoing audit of Kuo's other concurrent directorships. The episode may prompt broader regulatory scrutiny of related-party investment practices across Taiwan's asset management industry."
+    },
+    {
+      "title": "Surprise: Qualcomm's AI Transformation Names UMC as Winner — TSMC's Absence Sparks Debate",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 01:06:34",
+      "url": "https://money.udn.com/money/story/5612/9589166?from=edn_maintab_cate",
+      "summary": "At its annual investor day on June 24, Qualcomm unveiled its largest-ever strategic transformation, targeting the AI data center market and announcing 35 ecosystem partners. In the foundry segment, United Microelectronics Corporation (UMC, 2303.TW) was the sole wafer foundry listed — with TSMC conspicuously absent — generating significant industry discussion. Industry analysts interpret the partnership as extending beyond conventional foundry services to encompass advanced packaging-integrated power delivery technologies critical for high-power AI chips. Specifically, the collaboration is believed to focus on FinFET power management ICs, on-wafer inductors, and deep trench capacitors (DTC) — areas where UMC holds deep expertise in mature and specialty process nodes.\n\nUMC CEO Jason Wang was directly quoted in Qualcomm's press release, stating that advanced packaging and manufacturing collaboration is increasingly vital for next-generation data center performance, energy efficiency, and scalability. Qualcomm also unveiled its \"Dragonfly\" product family, including the Dragonfly C1000 data center CPU and AI300 series.\n\n**Market Implications:** This development is a meaningful positive re-rating catalyst for UMC (2303.TW), which has faced narrative headwinds as a \"mature node\" foundry in an era dominated by leading-edge process competition. Selection as Qualcomm's sole foundry partner for its AI data center push signals that UMC's specialty process and packaging integration capabilities are commercially differentiated. For TSMC (2330.TW), the omission warrants monitoring — though it may reflect strategic or customer diversification decisions by Qualcomm rather than competitive displacement. Fund managers with positions in UMC should reassess the stock's AI supply chain exposure and potential upside revision to order forecasts."
+    }
+  ],
+  "medium": [
+    {
+      "title": "U.S. Market Close: Apple Price Hikes Weigh on Sentiment; Micron Drives Semiconductor Rally but Fails to Save Nasdaq — Fourth Consecutive Day of Losses",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 06:50:11",
+      "url": "https://money.udn.com/money/story/123398/9589432",
+      "summary": "U.S. equities closed mixed on Thursday. Micron Technology delivered blowout quarterly results — with revenues quadrupling year-over-year and a far-above-consensus forward outlook — driving the Philadelphia Semiconductor Index up 3.6%, on track for its strongest quarter on record. However, Apple's announcement of price increases on Mac and iPad products undermined broader tech and consumer sentiment, contributing to the Nasdaq's fourth consecutive daily decline, its longest losing streak since March. The Dow Jones gained 0.1% to 51,920, the S&P 500 was essentially flat at 7,357, and the Nasdaq fell 0.5% to 25,358. TSMC ADRs declined 1.3%. Notably, May PCE inflation rose to 4.1% year-over-year — the first breach of the 4% threshold in three years — driven by elevated energy costs and AI infrastructure investment, though core PCE monthly gain of 0.3% met expectations.\n\n**Relevance to Taiwan:** TSMC ADR weakness and the semiconductor index's strength present a mixed signal for Taiwan's chip sector. The PCE inflation data reinforces a cautious Fed outlook, which may sustain USD strength and pressure the New Taiwan Dollar — a key variable for Taiwan life insurers' overseas investment returns and hedging costs."
+    },
+    {
+      "title": "Evergreen Marine's \"Ever Lovely\" Vessel Attacked; IMO Suspends Hormuz Strait Evacuation Plan — New Variable for U.S.-Iran Ceasefire",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 07:19:15",
+      "url": "https://money.udn.com/money/story/5599/9589452",
+      "summary": "The IMO announced the suspension of its assisted evacuation plan for vessels stranded in the Strait of Hormuz after a ship transiting the waterway was attacked Thursday, with a U.S. official attributing the strike to Iranian military forces. The attacked vessel has been identified by two sources as the \"Ever Lovely,\" a Singapore-flagged containership operated by Evergreen Marine (2603.TW), with a capacity of 8,508 TEUs. No casualties were reported. The incident introduces fresh uncertainty into the temporary U.S.-Iran agreement signed last week aimed at reopening the strait and extending the ceasefire by 60 days. Evergreen Marine did not immediately respond to requests for comment.\n\n**Market Implications:** This is a material near-term risk for Evergreen Marine (2603.TW) and Taiwan's broader shipping sector. A prolonged Hormuz closure or escalating geopolitical instability would disrupt global container routing, potentially affecting freight rates and fleet deployment. Investors in Evergreen and Yang Ming (2609.TW) should monitor developments closely. Insurance exposure and vessel damage assessments are pending."
+    }
+  ],
   "not_relevant": []
 }
