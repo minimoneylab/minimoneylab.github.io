@@ -1,18 +1,52 @@
 {
   "date": "2026-06-26",
-  "update_time": "2026-06-15 13:09:24",
-  "total_articles": 2,
+  "update_time": "2026-06-26 10:26:40",
+  "total_articles": 10,
   "high": [
     {
-      "title": "New Auctions on the Radar? Interest Rate Surge Reignites Bets on Treasury Intervention",
-      "source": "MoneyTimes",
-      "date": "2026-06-15",
-      "url": "https://www.moneytimes.com.br/tesouro-pode-voltar-a-intervir-disparada-dos-juros-reacende-aposta-em-intervencao/",
-      "summary": "The recent surge in Brazilian government bond yields has reignited investor speculation about potential extraordinary Treasury auctions to contain market volatility. Fixed income rates have approached multi-decade highs, with inflation-indexed bonds trading near IPCA + 8% annually and long-term prefixed bonds exceeding 15%. This surge stems from a combination of fiscal uncertainties, resilient economic activity, electoral risks, and external pressures. The situation recalls March's historic intervention when the Treasury repurchased approximately R$ 47 billion in government bonds through extraordinary auctions over one week - the largest operation of this type since at least 2013. In a single auction, R$ 5.4 billion in prefixed bonds were acquired. For FX and bond traders, this development is crucial as Treasury intervention could provide temporary relief for BRL volatility and yield compression, but also signals underlying fiscal stress. Watch for official Treasury statements and potential auction announcements as yields remain elevated."
+      "title": "BCB Sees Stronger Economy in 2026 but Inflation Above Target Ceiling Through Year-End",
+      "section": "MoneyTimes",
+      "date": "2026-06-25",
+      "url": "https://www.moneytimes.com.br/bc-ve-economia-mais-forte-em-2026-e-inflacao-acima-do-teto-da-meta-ate-o-fim-do-ano/",
+      "summary": "The Banco Central do Brasil (BCB) released its Monetary Policy Report (Relatório de Política Monetária – RPM) on Thursday, June 25, revising its 2026 GDP growth forecast upward to 2.0% from a prior estimate of 1.6%, reflecting stronger-than-expected Q1 economic activity and improved agricultural sector prospects. However, the BCB simultaneously worsened its inflation outlook, projecting that IPCA will remain **above the upper ceiling of the target band** through the end of 2026. This is a critical dual signal for markets: a more resilient economy reduces the case for rate cuts, while persistently elevated inflation reinforces the BCB's hawkish stance. For BRL traders, this supports the carry trade narrative but raises concerns about structural inflation pressures. Bond investors should note that long-end yields may face upward pressure if the market prices in a prolonged restrictive Selic environment. Watch for any forward guidance signals from COPOM regarding the pace and terminal point of the current tightening cycle, as well as whether fiscal dynamics are cited as a compounding inflation risk."
+    },
+    {
+      "title": "IPCA-15: Inflation Preview Rises 0.41% in June, Below Market Expectations",
+      "section": "MoneyTimes",
+      "date": "2026-06-25",
+      "url": "https://www.moneytimes.com.br/ipca-15-previa-da-inflacao-avanca-041-em-junho-abaixo-das-expectativas/",
+      "summary": "Brazil's IPCA-15 inflation preview for June came in at **+0.41% month-on-month**, modestly below the consensus market estimate of +0.44%, according to IBGE data released Thursday. While this represents a deceleration from May's +0.62% MoM reading — offering a marginally encouraging short-term signal — the **12-month accumulated rate accelerated to 4.80%**, up from 4.64% in the prior month, marking the highest June reading since 2022 and breaching the upper limit of the BCB's target band. The below-consensus monthly print may provide brief, limited relief to BRL and short-end rates, as it suggests some cooling in near-term price pressures. However, the acceleration in the 12-month figure is the more structurally significant data point and is consistent with the BCB's own deteriorated inflation projections released in the RPM (see above). For fixed income investors, this print is unlikely to shift COPOM's calculus meaningfully — the Selic is expected to remain elevated. Watch upcoming IPCA components, particularly services and food-at-home prices, for signals on whether disinflation can be sustained into H2 2026."
+    },
+    {
+      "title": "Brazil's Current Account Deficit Smaller Than Expected in May; Foreign Direct Investment Beats Forecasts",
+      "section": "MoneyTimes",
+      "date": "2026-06-26",
+      "url": "https://www.moneytimes.com.br/deficit-em-transacoes-correntes-do-brasil-e-menor-que-esperado-em-maio-jcav/",
+      "summary": "Brazil posted a current account deficit of USD 3.185 billion in May 2026, coming in better than market consensus expectations compiled by Reuters. On a 12-month rolling basis, the deficit now stands at 2.60% of GDP — a relatively contained level that signals manageable external financing needs. Crucially, Foreign Direct Investment (FDI) into Brazil exceeded expectations in the same period, according to data released by Banco Central do Brasil (BCB) on Friday. This is a constructive combination for the BRL: a narrower-than-expected current account gap reduces pressure on Brazil's external accounts, while stronger FDI inflows provide higher-quality, more stable financing. For FX traders, this data reduces near-term depreciation risk for the Real and could support BRL on the crosses. Bond investors should note the improved external balance as a mild positive for sovereign credit perception. Watch for whether this trend sustains into Q3, particularly given global risk appetite conditions and any shifts in commodity export revenues.\n\n---"
     }
   ],
-  "medium": [],
-  "not_relevant": [
-    "Ready? Access to 5 Cryptocurrencies with Potential up to R$ 1 Million to be Revealed Tomorrow (15)"
-  ]
+  "medium": [
+    {
+      "title": "Ibovespa Retreats Tracking Wall Street Weakness and Oil Price Decline; 5 Things to Know Before Investing Today (June 26)",
+      "section": "MoneyTimes",
+      "date": "2026-06-26",
+      "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-26-6-26-apsa/",
+      "summary": "The Ibovespa opened Friday's session under pressure, falling **0.28% to 171,506 points** around 10:10 AM BRT, tracking weakness across Wall Street and a fresh decline in oil prices — a key input for Brazil's equity index given Petrobras's heavy weighting. The USD/BRL spot rate was trading slightly higher at **R$ 5.1774**, broadly flat on the session (-0.02%), even as the DXY Dollar Index softened 0.34% against a basket of major currencies — suggesting mild idiosyncratic BRL underperformance. The combination of external headwinds (risk-off sentiment, lower oil) and domestic inflation concerns (IPCA-15 and BCB RPM from Thursday) is creating a cautious tone heading into the week's close. For equity and FX traders, end-of-week positioning and global risk sentiment will be key drivers; a sustained BRL above R$ 5.20 would warrant closer monitoring.\n\n---"
+    },
+    {
+      "title": "Brazil's Unemployment Rate Falls to 5.6% Through May — Lowest Since 2012",
+      "section": "MoneyTimes",
+      "date": "2026-06-26",
+      "url": "https://www.moneytimes.com.br/taxa-de-desemprego-atinge-56-no-trimestre-ate-maio-de-2026-jcav/",
+      "summary": "Brazil's unemployment rate declined to 5.6% in the rolling quarter ending May 2026, down from 5.8% in the quarter ending April, according to IBGE's PNAD Contínua survey. This marks the lowest unemployment reading in the historical series dating back to 2012. While stable relative to the December 2025–February 2026 quarter, the print represents a 0.6 percentage point decline year-over-year. For monetary policy watchers, a historically tight labor market reinforces the hawkish case at Banco Central — robust employment supports consumer demand and keeps services inflation sticky, potentially limiting room for Selic rate cuts. Bond traders should factor this into duration positioning, as the BCB is unlikely to signal easing while the labor market remains this resilient."
+    },
+    {
+      "title": "Banco Central Orders Extrajudicial Liquidation of Sefer Investimentos, Linked to Banco Master Case",
+      "section": "MoneyTimes",
+      "date": "2026-06-26",
+      "url": "https://www.moneytimes.com.br/banco-central-decreta-liquidacao-extrajudicial-da-sefer-investimentos-ligada-ao-banco-master-igdl/",
+      "summary": "Banco Central do Brasil (BCB) ordered the extrajudicial liquidation of Sefer Investimentos Distribuidora de Títulos e Valores Mobiliários, a São Paulo-based institution allegedly connected to the ongoing Banco Master case. The BCB noted that Sefer is classified as a Segment 4 (S4) institution under prudential regulation and carries negligible systemic weight — representing less than 0.0004% of total system assets and 0.17% of third-party managed resources. While the direct systemic risk is minimal, the action is relevant as it signals continued regulatory scrutiny of the Banco Master ecosystem. Investors should monitor whether the Master case generates broader confidence concerns in the mid-tier banking segment or triggers any spillover into fixed income funds exposed to those institutions."
+    }
+  ],
+  "not_relevant": []
 }
