@@ -1,80 +1,117 @@
 {
   "date": "2026-06-26",
-  "update_time": "2026-06-14 22:06:12",
-  "total_articles": 27,
+  "update_time": "2026-06-26 20:58:50",
+  "total_articles": 31,
   "high": [
     {
-      "title": "Presidential Office Signals FX Market Management Intent Ahead of US Investment, Says 'Exchange Rate Must Stabilize'",
-      "section": "Policy/Finance",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125251",
-      "summary": "The Korean Presidential Office has publicly emphasized the need for exchange rate stability as the USD-KRW continues to rise, signaling potential government intervention concerns. A senior official accompanying President Lee's Italy visit stated that \"the exchange rate needs to stabilize\" and highlighted that the US Treasury Department \"has a very deep understanding of our country's situation and is constantly monitoring it.\" The official emphasized the importance of exchange rate movements aligning with economic fundamentals. This represents a clear policy signal that Korean authorities are closely watching FX market developments and may be preparing intervention measures if volatility persists. For KRW traders, this suggests official resistance levels may emerge if USD-KRW continues climbing, while bond investors should monitor for potential policy responses that could impact yields."
-    },
-    {
-      "title": "'National Pension Rebalancing Exemption Intensified Currency Pressure' - Welfare Ministry 'Disagrees with Causality' (Comprehensive)",
-      "section": "Policy/Finance",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125245",
-      "summary": "Barclays analysis suggests that the National Pension Service's suspension of portfolio rebalancing in H1 2026 acted as an \"amplifier rather than stabilizer\" in FX market volatility, indirectly triggering massive foreign capital outflows. The NPS halted rebalancing in January to support domestic markets during simultaneous stock and won weakness, raising domestic equity allocation from 14.4% to 14.9%, then further to 20.8% by May. While this boosted NPS returns, Barclays economist Bum-ki Son argues it amplified market volatility by disrupting normal capital flow patterns. This analysis is crucial for understanding recent KRW weakness drivers beyond typical economic fundamentals. Foreign investors may have been forced to rebalance elsewhere due to reduced NPS activity, creating additional selling pressure on Korean assets and the won."
-    },
-    {
-      "title": "NDF at 1,517.20/1,517.60 Won - Down 1.05 Won",
+      "title": "Dollar-Won Takes Breather on Softer PCE, Closes at 1,543.10 Won",
       "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125236",
-      "summary": "The USD-KRW one-month NDF declined in New York trading, quoted at 1,517.40 won (mid-rate), representing a 1.05 won decline from Seoul's previous closing of 1,519.80 won. The offshore rate suggests expectations for KRW strengthening, with the bid-ask spread at 1,517.20-1,517.60 won. The slight USD strength was attributed to ceasefire negotiation expectations and noise surrounding US-Iran talks. The NDF discount to spot rates indicates overseas markets are pricing in KRW recovery, potentially reflecting reduced geopolitical risk premiums if Middle East tensions ease."
+      "date": "June 26, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127243",
+      "summary": "The USD/KRW exchange rate closed at 1,543.10 in overnight New York trading, rising only modestly by 1.30 won from the prior Seoul session close. The limited upside came despite a brief dollar index pullback — its first correction in four sessions — triggered by softer-than-expected U.S. PCE inflation data. Two key forces contained the dollar's gains against the won: (1) the dollar index itself retreating on the benign PCE print, and (2) exporter-driven KRW supply pressure intensifying ahead of month-end and half-year-end settlements, a recurring seasonal dynamic that typically sees Korean exporters converting dollar receivables into won."
+    },
+    {
+      "title": "Market Implications:"
+    },
+    {
+      "title": "US Core PCE Price Index Rises 0.3% MoM in May, Maintaining Moderate Pace",
+      "section": "Bonds/Forex",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127237",
+      "summary": "The US core PCE price index — the Federal Reserve's preferred inflation gauge — rose 0.3% month-on-month in May, in line with market expectations and maintaining a moderate trajectory. Headline PCE came in at 0.4% MoM. The fact that core inflation neither surprised to the upside nor downside is meaningful for KRW/USD dynamics: a benign reading reduces the probability of additional Fed tightening, which in turn alleviates upward pressure on the USD and provides some relief for the Korean Won. For BOK watchers, a contained US inflation print gives the Fed less urgency to hold rates higher for longer, potentially narrowing the Korea-US rate differential concern that has weighed on KRW. Bond investors should note that this reading supports a stable or modestly lower US Treasury yield environment near-term, which could provide a tailwind for Korean government bonds. Watch for follow-through in upcoming US labor market data and any Fed communications that could shift the rate differential calculus, as this remains the dominant macro driver for KRW and foreign capital flows into Korean fixed income.\n\n---"
+    },
+    {
+      "title": "Foreign Buying Drives Bond Rally; 3-Year KTB Yield Falls 3.5bp Amid Equity Sell-Off and Suspected FX Intervention",
+      "section": "Bonds/Forex",
+      "date": "2025-06-26",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127416",
+      "summary": "South Korean government bond yields fell sharply on June 26th, with short- to medium-term maturities leading the rally. The move was driven by a classic risk-off rotation as domestic equities underwent a sharp correction, pushing investors into the relative safety of KTBs. Foreign investors were notable buyers, adding an important cross-border capital flow dimension to the rally. The session's most significant development was a late-session plunge in the dollar-won exchange rate, which market participants attributed to suspected official intervention by Korean authorities — a key signal for FX traders monitoring BOK tolerance levels for KRW strength. Ultra-long bond yields bucked the trend, edging higher on auction supply concerns, creating a notable flattening/inversion dynamic at the long end. **Key implications:** Foreign bond inflows are supportive of KRW and suggest continued appetite for Korean duration. Suspected intervention signals that authorities may be capping the pace of won appreciation. Watch for follow-through foreign buying and any official BOK commentary confirming intervention activity."
+    },
+    {
+      "title": "IRS Rates Plunge in Short-to-Medium Maturities on Equity Correction and Won Strength",
+      "section": "Bonds/Forex",
+      "date": "2025-06-26",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127417",
+      "summary": "Interest rate swap (IRS) rates fell sharply across the curve on June 26th, with the 1-year rate declining 3.75bp to 3.4550%, the 3-year falling 5.50bp, and the 5-year down 5.25bp. The magnitude of the move — particularly concentrated in the 3-to-5 year belly — reflects aggressive safe-haven buying as equity markets corrected. The concurrent strengthening of the Korean won reinforced bullish fixed income sentiment, as a firmer KRW reduces imported inflation pressure and bolsters rate-cut expectations. **Key implications for bond and rates traders:** The steepness of the IRS move relative to the cash KTB market (see Article 3) suggests strong receive-side interest in the swap market, potentially from domestic institutions hedging equity exposure. The 3–5 year sector appears to be the market's preferred expression of a BOK easing view. Monitor whether IRS rates stabilize or extend declines if equity weakness persists into the next session."
+    },
+    {
+      "title": "[FX Close] Won Plunges 10.70 Won on Suspected Authorities' Intervention",
+      "section": "Bonds/Forex",
+      "date": "June 26",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127409",
+      "summary": "The dollar-won exchange rate fell sharply by 10.70 won to close at 1,532.00 won as of 3:30 p.m. KST in the Seoul foreign exchange market — marking the first decline in five consecutive trading sessions. The move was notably dramatic given that the session opened at 1,547.30 won, up 4.60 won from the prior day, suggesting initial upward pressure on USD/KRW before authorities stepped in. The reversal is widely attributed to suspected FX intervention by Korean monetary authorities, who appear to have deployed significant dollar-selling flows to cap the won's weakness."
     }
   ],
   "medium": [
     {
-      "title": "[FX-Weekly] Hormuz Opening, Foreign Rebalancing Inflection Point in Focus - Kevin Warsh's Debut Also Watched",
-      "section": "Policy/Finance",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125284",
-      "summary": "The USD-KRW exchange rate is expected to test support in the early 1,500 won range this week as dollar weakness factors dominate amid ceasefire expectations between the US and Iran. Foreign investor remittance demand may reach an inflection point, potentially intensifying downward pressure on USD-KRW. Kevin Warsh's first FOMC meeting as Fed Chairman is also being closely watched for policy signals."
-    },
-    {
-      "title": "[Bond Market - Weekly] Growing Expectations for War's End - Focus on Kevin Warsh's 'Debut'",
-      "section": "Policy/Finance",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125283",
-      "summary": "Seoul's bond market will digest US-Iran ceasefire negotiation progress and the Fed's FOMC meeting this week. Strong ceasefire expectations emerged after Iran's Supreme Leader reportedly approved a ceasefire MOU, with Pakistani PM suggesting a final agreement within 24 hours. This could significantly impact risk sentiment and bond yields as geopolitical premiums unwind."
-    },
-    {
-      "title": "South Korea Growth Outlook Rises to 3.7% - Will Government Forecast Break 3%?",
+      "title": "Chicago Fed President: 'Inflation Moving in Wrong Direction... Slight Improvement in Services Sector'",
       "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125226",
-      "summary": "Economic growth expectations are rising rapidly due to stronger-than-anticipated semiconductor-led export boom. Attention focuses on whether the government will raise its growth forecast to the 3% range this year, which could impact monetary policy expectations and bond yields as stronger growth may support hawkish BOK policy stances."
+      "date": "June 26, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127244",
+      "summary": "Chicago Fed President Austan Goolsbee expressed concern on June 25 that U.S. inflation \"has recently been moving in the wrong direction,\" noting the Fed has been above its 2% target for five consecutive years. He flagged the services sector as particularly worrying, though he noted some marginal improvement there. Goolsbee's cautious tone signals that the Fed is in no hurry to cut rates, reinforcing a higher-for-longer U.S. rate environment. For KRW and Korean bond investors, a delayed Fed easing cycle sustains upward pressure on USD/KRW and limits the BOK's room to cut rates aggressively without risking capital outflows. Watch subsequent Fed speakers and the next CPI/PCE prints for directional cues on U.S. monetary policy divergence with the BOK."
     },
     {
-      "title": "Expanded Economy Fuels 'Proactive Fiscal' Push - Next Year's Budget to Exceed 800 Trillion Won",
+      "title": "US 7-Year Treasury Auction Draws Solid Demand, Yield Meets Expectations",
       "section": "Bonds/Forex",
-      "date": "Not specified",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=125255",
-      "summary": "South Korea's government gains momentum for \"proactive fiscal\" stance as surging nominal GDP from the semiconductor supercycle boosts the economic weight class. Expanded nominal GDP increases tax revenue and reduces fiscal soundness concerns, providing justification for expansionary fiscal policies that could impact government bond supply and yields."
+      "date": "June 26, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127240",
+      "summary": "The U.S. Treasury successfully auctioned $44 billion in 7-year notes at a yield of 4.260%, down 3 basis points from last month's 4.290%, suggesting moderate easing in the belly of the U.S. yield curve. The bid-to-cover ratio slipped marginally to 2.50x from 2.52x but remained slightly above the recent average, indicating healthy underlying demand from both domestic and foreign buyers. For Korean government bond (KTB) markets, well-absorbed U.S. Treasury supply reduces the risk of a disorderly global rates selloff that could spill over into emerging market bonds. Stable U.S. 7-year yields near 4.26% continue to create a significant rate differential versus KTBs, which remains a structural headwind for foreign capital inflows into Korean fixed income. Monitor the long-end of the U.S. curve for any signs of demand fatigue that could pressure KTB yields higher."
+    },
+    {
+      "title": "US and Gulf States Affirm Hormuz Strait Freedom of Navigation as 'Essential for Regional and Global Security'",
+      "section": "Bonds/Forex",
+      "date": "June 26, 2026",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127239",
+      "summary": "The United States and all six Gulf Cooperation Council (GCC) member states issued a joint statement on June 25 emphasizing that unrestricted freedom of navigation through the Strait of Hormuz is essential for both regional and global security, in direct opposition to Iran's threat to close the waterway. The Strait of Hormuz is a critical chokepoint for global oil supply, and any disruption would have outsized implications for Korea, which is heavily dependent on Middle Eastern energy imports. An escalation in Hormuz tensions would likely push crude oil prices sharply higher, worsening Korea's trade balance and current account, exerting depreciation pressure on the KRW, and adding imported inflation that complicates BOK rate policy. The unified U.S.-GCC statement is a near-term stabilizing signal, but the situation warrants close monitoring given its direct macro relevance for Korea's external accounts and FX dynamics."
+    },
+    {
+      "title": "Audit Agency to Probe Regulators Over Leveraged ETF Boom",
+      "section": "Stocks",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127182",
+      "summary": "South Korea's Board of Audit and Inspection (BAI) has launched a comprehensive audit of the Financial Services Commission (FSC) and Financial Supervisory Service (FSS) in response to rising investor risks following recent market volatility. The probe focuses on the rapid mainstreaming of leveraged ETFs and other high-risk products, with concerns centring on excessive costs and potential mis-selling to retail investors. While not a direct FX or rates event, this regulatory action signals heightened scrutiny of Korean financial market supervision at a sensitive time — coming just two days after what markets dubbed \"Black Tuesday\" on June 23rd. For international fund managers, increased regulatory oversight of derivative and leveraged products could affect market liquidity and retail participation dynamics, which in turn influence KOSPI volatility and indirectly, foreign investor sentiment toward Korean capital markets.\n\n---"
+    },
+    {
+      "title": "KOSPI Surges 5.42% to Close at 8,930 — SK Hynix Soars 13%",
+      "section": "Stocks",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127179",
+      "summary": "While individual equity performance typically falls outside our core coverage, a single-day KOSPI surge of 5.42% to 8,930 is a macro-relevant event that warrants monitoring. Moves of this magnitude can signal significant shifts in foreign investor risk appetite toward Korean assets, with potential knock-on effects for KRW demand and short-term capital flow dynamics. SK Hynix's 13% gain suggests a tech/semiconductor-led rally, possibly driven by global AI sentiment or positive demand signals. Fund managers with cross-asset Korea exposure should note that sharp equity rallies of this scale can attract foreign portfolio inflows, providing temporary KRW support. Conversely, if the rally is driven by domestic retail momentum rather than foreign buying, the FX impact may be muted. Content was truncated in the feed — full details on volume, foreign net buying/selling, and index drivers should be verified via Bloomberg or KRX data before drawing firm FX or flow conclusions."
+    },
+    {
+      "title": "President Lee Signals Supplementary Budget for GPU Procurement",
+      "section": "Policy/Finance",
+      "date": "N/A",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127404",
+      "summary": "President Lee Jae-myung has flagged the possibility of a supplementary budget (추경) to accelerate domestic GPU procurement as part of Korea's national AI infrastructure strategy, discussed at a Blue House strategy meeting on June 26. While the primary driver is AI/tech policy, a supplementary budget has direct fiscal implications worth monitoring: additional government bond issuance to fund the extra budget could pressure Korean Treasury bond (KTB) yields higher by increasing supply in the market. If the supplementary budget is sizable, it may also raise near-term fiscal deficit concerns, adding a mild bearish tone to the KTB market. Bond traders should watch for official budget size announcements from the Ministry of Economy and Finance, as well as any National Assembly approval timeline. A second, shorter article on the same topic (Article 5) is duplicative and has been consolidated here."
+    },
+    {
+      "title": "FX Swap Points Rise on Month-End Won Demand",
+      "section": "Bonds/Forex",
+      "date": "2025-06-26",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127410",
+      "summary": "FX swap points rose across all tenors on June 26th, driven by month-end Korean won funding demand. The 1-year swap point closed at -14.90 won (up 0.30 won), the 6-month at -6.80 won (up 0.20 won), and the 3-month at -2.80 won (up 0.15 won). The rise in swap points reflects tighter short-term won liquidity at month-end, a recurring seasonal pattern. For FX and cross-currency basis traders, the narrowing of deeply negative swap points signals reduced won funding stress in the near term, which is mildly supportive of KRW. Combined with the suspected official FX intervention noted in Article 3, month-end positioning dynamics are adding a technical layer to KRW movement today. Watch for swap point normalization post-month-end as a gauge of underlying dollar-won liquidity conditions."
+    },
+    {
+      "title": "Top 5 Banks' Loan-Deposit Rate Spread Holds Steady at 1.392%",
+      "section": "Policy/Finance",
+      "date": "2025-06-26",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127396",
+      "summary": "The average loan-deposit rate spread for household loans at Korea's five major banks (KB Kookmin, Shinhan, Hana, Woori, NH Nonghyup) stood at 1.392 percentage points in the latest month, up just 0.004 percentage points from the prior month — effectively flat. The stability of this spread suggests that competitive pressures and regulatory oversight on bank lending margins remain intact, with neither a material widening (which would indicate banks pricing in more risk) nor a compression (which could signal aggressive lending competition). For bond investors, a stable NIM environment suggests no immediate stress in the banking sector's funding dynamics, which is broadly neutral for Korean financial credit spreads. This metric will become more relevant if the BOK proceeds with rate cuts, as further easing could pressure deposit rates faster than lending rates, potentially squeezing margins."
+    },
+    {
+      "title": "Meritz Securities Issues 368 Billion Won Private Subordinated Bonds at 5.6%",
+      "section": "Stocks",
+      "date": "June 26",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=127392",
+      "summary": "Meritz Securities issued 368 billion won (~$310 million) in private subordinated bonds on June 26, priced at a coupon rate of 5.60% per annum with a 30-year maturity. The bonds include a rate reset mechanism every five years, with the revised rate calculated as the base rate plus a spread, plus an additional 200 basis points premium. Meritz Fire & Marine Insurance provided 70 billion won in support for the issuance. The 5.60% pricing on a subordinated financial sector instrument provides a useful reference data point for Korean credit spreads and investor appetite for longer-duration, lower-rated paper. The willingness of institutional investors to absorb this issuance at current rate levels suggests the domestic bond market retains reasonable depth, though the subordinated and private placement structure limits broader market read-through.\n\n---"
     }
   ],
   "not_relevant": [
-    "President Lee - 'Ruling Party Must Use Language of Responsibility… Passion Should Be for All Citizens, Not Just Our Camp'",
-    "South Korea, Italy Formalize Joint Africa Push, AI Cooperation as 'Special Strategic Partners'",
-    "President Lee Highlights AI, Chips, Space as Key Cooperation Areas - Samsung's Lee Says 'We Must Work Harder'",
-    "Iran Says US Peace MOU Signing 'Possible Within Days, Not Tomorrow'",
-    "'Mediator' Pakistan PM Says 'US-Iran Final Deal Likely Within 24 Hours'",
-    "How Open Economies Achieve Financial Stability - A Former BOK Board Member's Dilemma",
-    "President Lee Slams Journalists for Front-Running - 'Abnormality of the Old Era'",
-    "Mirae Asset's 'SpaceX Zero Shares' Shock Prompts FSS Inquiry",
-    "Korea Investment Management Also Receives 'Zero' SpaceX IPO Shares - Adds to ETF Through Secondary Market",
-    "Unprecedented Subscription Reversal - Mirae Asset Faces Stock Price and Reputational Risk from SpaceX Debacle",
-    "Tokenized Securities Industry Also Faces SpaceX Subscription Cancellation - Binance Offers $1M Compensation",
-    "SpaceX IPO allocation snub leaves Mirae Asset, Korean ETF managers empty-handed, puzzled",
-    "Cho Seung-rae - 'President Lee's Emphasis on Responsibility... Interpretation as 'Targeting Leadership' is Distortion'",
-    "Lee Chan-jin - 'Cybersecurity a Core Management Risk for Financial Firms…CEOs Must Directly Oversee'",
-    "Insurance Research Institute - 'Inclusive Insurance Needs Stable Funding, Must Change Perception of Vulnerable Borrowers'",
-    "Lemon Healthcare, Remedi Among 5 Firms to Launch Bookbuilding This Week as IPO Market Awakens",
-    "FSC to Grant Bonus Points to Top-Performing National Growth Fund Managers for Future Policy Fund Selection",
-    "'Sold Out in 10 Minutes' National Growth Fund Launches Second Round Worth 600 Billion Won in Q3",
-    "Welfare Ministry Revamps Basic Pension with Progressive Structure, Youth National Pension Support Begins Next Year",
-    "SpaceX's Successful Debut - 'Tesla Acquisition Likely This Year...Telecom Next'"
+    "1. **Chip Rally Lifts Kospi, Prompting Target Upgrades as Market Divide Deepens** — General equity market/semiconductor sector news; no direct FX, rates, or bond market content.",
+    "2. **Today's Schedule — Ministry of Finance and Other Economic Ministries** — Routine administrative schedule; no monetary policy, rate, or FX-relevant disclosures.",
+    "3. **'Transparent Multi-Home Disposal' vs. 'Qualified for Prime Minister' — Rival Parties Clash at Han Duck-soo Confirmation Hearing** — Domestic political/confirmation hearing; no direct market or macro relevance.",
+    "4. **National Growth Fund Invests 270 Billion Won in Yeongyang Onshore Wind Power Project to Expand Renewable Energy** — Infrastructure/energy investment; not relevant to FX, rates, or bond markets.",
+    "5. **President Lee Holds Blue House Dinner with Samsung's Lee Jae-yong to Finalize Honam Semiconductor Cluster** — Corporate/industrial policy; semiconductor cluster announcement, not relevant to KRW, BOK, or bond markets."
   ]
 }
