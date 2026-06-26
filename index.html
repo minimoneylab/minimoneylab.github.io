@@ -751,7 +751,7 @@
                  currentCountry === 'korea' ? `data/korea-news.json` : 
                  `data/${dateStr}.json`;
                 
-                const response = await fetch(dataPath);
+                const response = await fetch(dataPath + "?t=" + Date.now());
                 if (!response.ok) throw new Error('Not found');
                 
                 const data = await response.json();
