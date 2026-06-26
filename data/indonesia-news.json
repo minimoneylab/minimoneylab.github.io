@@ -1,129 +1,200 @@
 {
-  "update_time": "2026-06-25 22:24:05 UTC",
+  "update_time": "2026-06-26 21:39:50",
+  "date": "2026-06-26",
   "country": "Indonesia",
-  "source": "CNN Indonesia",
-  "total_articles": 17,
+  "source": "Detik Finance",
+  "total_articles": 27,
   "high": [
     {
-      "title": "Pertamax Prices Rise Again - Minister Bahlil's Response",
-      "url": "https://finance.detik.com/energi/d-8528538/harga-pertamax-bisa-naik-lagi-ini-jawaban-bahlil...",
-      "summary": "Non-subsidized fuel prices Pertamax (RON 92) increased from Rp 12,300/liter to Rp 16,250/liter, and Pertamax Green (RON 95) from Rp 12,900/liter to Rp 17,000/liter. Energy Minister Bahlil stated these prices adjust to market conditions while guaranteeing no increases for subsidized fuels Pertalite and Biosolar.",
+      "title": "MSCI Warns Indonesia Could Be Downgraded to Frontier Market — Government Responds",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8546046/msci-ingatkan-ri-bisa-turun-ke-frontier-market-ini-jawaban-pemerintah",
+      "summary": "MSCI has retained Indonesia in its Emerging Market classification but issued a stark warning that the country could be downgraded to Frontier Market status if two key issues — share ownership structures and indications of coordinated trading practices — are not resolved. A follow-up review is scheduled for November 2026, at which point MSCI will consider reclassification if insufficient progress is made. A downgrade to Frontier Market would likely trigger significant capital outflows from Indonesian equities and weaken the Rupiah.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 08:25 WIB"
+      "date": "Rabu, 24 Jun 2026 21:22 WIB"
     },
     {
-      "title": "Government Held Back Pertamax Price Increases for Months",
-      "url": "https://finance.detik.com/energi/d-8529925/pertamax-naik-pemerintah-sebut-sudah-berbulan-bulan-tahan-kenaikan...",
-      "summary": "Government confirms the increase in non-subsidized fuel prices follows global oil prices, which have risen dramatically since March. The government had been restraining price increases for months while neighboring countries raised their fuel prices.",
+      "title": "Indonesia's Competitiveness Ranking Drops to 48th — Government Investigates Causes",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8546010/daya-saing-indonesia-turun-ke-peringkat-48-pemerintah-cek-penyebabnya",
+      "summary": "Indonesia's ranking in the IMD World Competitiveness Ranking 2026 fell from 40th to 48th out of 70 surveyed countries, raising concerns about the country's investment climate. Coordinating Minister for the Economy Airlangga Hartarto acknowledged the decline and pledged to investigate bottlenecks, highlighting the energy sector — particularly electricity supply — as a critical area of concern. This decline may deter foreign direct investment and signal structural challenges for businesses operating in Indonesia.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 20:35 WIB"
+      "date": "Rabu, 24 Jun 2026 20:46 WIB"
     },
     {
-      "title": "Free Nutrition Program Wastes Rp 1 Trillion Monthly - Government Opens Option to Close Kitchens",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8528422/program-mbg-boros-rp-1-t-per-bulan-pemerintah-buka-opsi-tutup-sppg...",
-      "summary": "The Free Nutritious Meals program has ballooned from planned 21,000 kitchen points to 27,877 points, causing Rp 1 trillion monthly waste. Food Coordinating Minister Zulkifli Hasan revealed trading of kitchen points and considers restructuring the program.",
+      "title": "Root Cause of IHSG Plunging 3.56% Despite Indonesia Retaining Emerging Market Status",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8545719/biang-kerok-ihsg-anjlok-3-56-meski-ri-tetap-di-emerging-market",
+      "summary": "The Jakarta Composite Index (IHSG) closed sharply lower at 5,883, down 217 points (3.56%), despite MSCI maintaining Indonesia's Emerging Market status in its Annual Market Classification Review. The negative sentiment was triggered by MSCI opening the possibility of a downgrade to Frontier Market if meaningful capital market reforms are not implemented before the November 2026 review. This represents a significant market risk for investors, as a potential downgrade could trigger large-scale foreign capital outflows from Indonesian equities.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 05:55 WIB"
+      "date": "Rabu, 24 Jun 2026 17:27 WIB"
     },
     {
-      "title": "Danantara to Cut SOEs from 1,077 to 200 Companies",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8530026/alasan-danantara-pangkas-bumn-dari-1-077-jadi-200...",
-      "summary": "Investment management body Danantara will drastically reduce state-owned enterprises from 1,077 to 200-300 entities this year. 52% of current SOEs are loss-making with accumulated losses of Rp 20 trillion, and the streamlining could save up to Rp 50 trillion annually.",
+      "title": "IHSG Closes Down 3.56% to 5,883",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8545588/ihsg-ditutup-anjlok-3-56-ke-5-883",
+      "summary": "The IHSG closed at 5,883, dropping 217 points (3.56%) on Wednesday, after opening in the green at 6,128. Total transaction value reached IDR 15.15 trillion with 26.94 billion shares traded, reflecting high volatility and heavy selling pressure throughout the session. The sharp reversal from intraday highs of 6,171 to a low of 5,876 signals significant investor concern over the MSCI downgrade warning.",
       "source": "Detik Finance",
-      "date": "Sabtu, 13 Jun 2026 07:25 WIB"
+      "date": "Rabu, 24 Jun 2026 16:27 WIB"
     },
     {
-      "title": "IHSG Rises 2% as 615 Stocks Strengthen",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8529503/615-saham-menguat-ihsg-naik-2...",
-      "summary": "Indonesia's main stock index IHSG closed 2.07% higher at 6,007.65 points with strong market participation. Trading volume reached 36.91 billion shares with transaction value of Rp 21.57 trillion, showing robust investor interest.",
+      "title": "Indonesia's Capital Market Transparency Under MSCI Scrutiny — OJK Chief Pledges Follow-Up Action",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8545588/ihsg-ditutup-anjlok-3-56-ke-5-883",
+      "summary": "MSCI has flagged concerns from global institutional investors over the investability of Indonesia's capital market, specifically regarding transparency of shareholding structures and indications of coordinated trading practices. The Financial Services Authority (OJK) chairperson Friderica Widyasari Dewi acknowledged the issues and pledged to follow up on reforms to strengthen transparency, integrity, and competitiveness of the Indonesian capital market. Failure to address these concerns before the November 2026 MSCI review could result in a downgrade from Emerging Market to Frontier Market status.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 16:29 WIB"
+      "date": "Rabu, 24 Jun 2026 14:40 WIB"
     },
     {
-      "title": "SpaceX Records Largest IPO in History, Raises Rp 1,339 Trillion",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8530254/ipo-spacex-terbesar-sepanjang-sejarah-raup-dana-rp-1-339-t...",
-      "summary": "Elon Musk's SpaceX debuted on Nasdaq at $150 per share, raising $75 billion in the largest IPO ever recorded. The stock peaked at $176.52 with over 500 million shares traded on the first day, approaching Facebook's 2012 debut record.",
+      "title": "IHSG Reverses to Red Zone, Banking Stocks Plunge Collectively",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8545088/ihsg-balik-arah-ke-zona-merah-saham-bank-kompak-anjlok",
+      "summary": "The Jakarta Composite Index (IHSG) reversed course in Session I trading on Wednesday (24/6/2026), falling 1.62% to the 6,002.20 level after briefly touching 6,171.38 at the open. Banking stocks led the decline, with the LQ45 index also dropping 1.45% to 589.763. Transaction value reached IDR 6.73 trillion with 201 stocks advancing and 426 stocks declining, signaling broad market weakness that investors should monitor closely.",
       "source": "Detik Finance",
-      "date": "Sabtu, 13 Jun 2026 11:30 WIB"
+      "date": "Rabu, 24 Jun 2026 12:33 WIB"
+    },
+    {
+      "title": "Finance Minister Purbaya Speaks Out on Income Tax Applied to BPJS Employment JHT Withdrawals",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8549100/purbaya-buka-suara-soal-pencairan-jht-kena-pajak",
+      "summary": "Finance Minister Purbaya Yudhi Sadewa has announced he will coordinate with the Directorate General of Taxes (DJP) to review regulations on income tax (PPh) applied to BPJS Employment Old Age Security (JHT) withdrawals, following widespread public discussion on social media. While the tax rule is not new — established under Government Regulation No. 68/2009 and refined in PMK No. 16/2010 — the minister's willingness to revisit the policy signals a potential regulatory change that could affect millions of workers and the labor welfare landscape.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 20:29 WIB"
+    },
+    {
+      "title": "Pertamax Price Hike Triggers Rush to Pertalite, Government Boosts Supply to Gas Stations",
+      "url": "https://finance.detik.com/energi/d-8548615/jaga-jaga-pertalite-diserbu-usai-pertamax-naik-pasokan-ke-spbu-digenjot",
+      "summary": "Following a Pertamax fuel price increase, the Ministry of Energy and Mineral Resources (ESDM) confirmed a consumer migration toward the subsidized Pertalite fuel, prompting BPH Migas to operate 24-hour surveillance of fuel distribution. Pertamina has been instructed to accelerate deliveries to gas stations to prevent long queues and supply shortages. This development has significant implications for the government's fuel subsidy budget and Pertamina's operational costs.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 15:25 WIB"
+    },
+    {
+      "title": "Finance Minister Purbaya Predicts Continued Decline in Global Oil Prices, State Budget Deficit to Stay Below 3%",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8548793/purbaya-prediksi-harga-minyak-dunia-turun-terus-defisit-apbn-tak-di-atas-3",
+      "summary": "Finance Minister Purbaya Yudhi Sadewa confirmed that Indonesia's state budget deficit will not exceed the 3% legal threshold, citing improving fiscal space. Global oil prices are declining, with Brent crude at $75.07/barrel and WTI at $71.79/barrel, reducing Indonesia's energy subsidy burden. This is positive news for Indonesian investors as it signals fiscal stability and lower inflationary pressure.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 16:59 WIB"
+    },
+    {
+      "title": "Finance Minister Denies Tax Refund (Restitusi) Being Withheld, Warns Tax Officials Against Misconduct",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8548782/purbaya-bantah-restitusi-ditahan-minta-pegawai-pajak-tak-main-main",
+      "summary": "Finance Minister Purbaya denied allegations that the government is withholding tax refunds (restitusi), stating that Rp 160 trillion in refunds were disbursed in just four months — equivalent to nine months' worth of disbursements in the prior year. He warned that if complaints persist despite higher payouts, it may indicate misconduct by individual tax officers. This has significant implications for businesses managing cash flow and tax compliance in Indonesia.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 16:53 WIB"
+    },
+    {
+      "title": "Singapore-Flagged Cargo Ship Attacked in Strait of Hormuz, IMO Halts Evacuation Initiative",
+      "url": "https://finance.detik.com/energi/d-8548075/iran-tembak-kapal-singapura-di-selat-hormuz",
+      "summary": "A Singapore-flagged container ship, Ever Lovely, was struck by a projectile — likely a drone — while transiting the Strait of Hormuz, a critical global energy and trade chokepoint. The UN's International Maritime Organization (IMO) has temporarily suspended its ship escort and evacuation initiative in the region. This escalation poses risks to global energy supply chains and shipping costs, with potential knock-on effects on Indonesian commodity exports and energy imports.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 11:11 WIB"
+    },
+    {
+      "title": "Finance Minister Purbaya Speaks Out on Income Tax Applied to JHT BPJS Employment Withdrawals",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8549100/purbaya-buka-suara-soal-pencairan-jht-kena-pajak",
+      "summary": "Finance Minister Purbaya Yudhi Sadewa has pledged to coordinate with the Directorate General of Taxation to review the application of income tax (PPh) on BPJS Employment JHT (old-age savings) withdrawals, after the issue went viral on social media. The regulation is not new, having been established under Government Regulation No. 68/2009 and refined in Finance Ministry Regulation No. 16/2010. This development is significant for millions of Indonesian workers and could signal a potential policy review affecting retirement fund taxation.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 20:29 WIB"
+    },
+    {
+      "title": "Pertamax Price Hike Triggers Rush to Pertalite; Government Boosts Supply to Gas Stations",
+      "url": "https://finance.detik.com/energi/d-8548615/jaga-jaga-pertalite-diserbu-usai-pertamax-naik-pasokan-ke-spbu-digenjot",
+      "summary": "Following a price increase for Pertamax fuel, Indonesian consumers are shifting to the subsidized Pertalite, prompting the Ministry of Energy and Mineral Resources (ESDM) and BPH Migas to operate 24-hour monitoring and accelerate fuel distribution to gas stations. Pertamina has been instructed to speed up delivery schedules to prevent long queues. This is a critical development for energy sector stability and subsidy burden management, with potential fiscal implications for Pertamina and the government.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 15:25 WIB"
+    },
+    {
+      "title": "IHSG Closes at 5,896 Level, Drops Below 6,000 Again",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8548759/ihsg-ditutup-di-level-5-896-melorot-lagi-ke-bawah-6-000",
+      "summary": "Indonesia's composite index (IHSG) closed down 1.72% at 5,896.1, falling back below the key 6,000 psychological level after briefly opening higher at 6,010.3. A total of 562 stocks declined versus only 123 gainers, with transaction value reaching Rp 12,735 trillion. This continued weakness signals broad selling pressure and negative sentiment across the Indonesian equity market.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 16:37 WIB"
+    },
+    {
+      "title": "Asia-Pacific Stock Markets Uniformly Fall as Technology Shares Collapse",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8548765/saham-teknologi-rontok-bursa-asia-pasifik-kompak-merah",
+      "summary": "Asia-Pacific equity markets fell sharply across the board on Friday, driven by a massive sell-off in technology stocks. South Korea's Kospi plunged 5.81% to 8,411.21, Kosdaq dropped 4.10%, and Australia's S&P/ASX 200 fell 4.15% to 69,360.88. The region-wide technology sector rout adds significant external pressure on Indonesian markets and investor sentiment.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 16:41 WIB"
+    },
+    {
+      "title": "US Dollar Sold Above Rp 18,000 Again at Indonesian Banks",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8548071/bank-mulai-jual-dolar-as-rp-18-000-lagi",
+      "summary": "The US dollar has strengthened again against the Indonesian Rupiah, with Bloomberg data showing the rate reaching Rp 17,978, while major banks including BRI are already selling dollars at Rp 18,100 at counter rates. The return of the USD/IDR rate to above 18,000 marks renewed pressure on the Rupiah, which is a critical concern for import costs, corporate foreign debt, and overall economic stability in Indonesia.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 11:07 WIB"
+    },
+    {
+      "title": "IHSG Falls as Much as 2.73% at Midday Trading",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8548156/ihsg-turun-hingga-2-73-siang-ini",
+      "summary": "Indonesia's IHSG dropped sharply by 2.73% to 5,835.11 at the close of the first trading session on Friday, reversing an early morning gain that briefly pushed the index to 6,045.25. The steep intraday reversal indicates strong selling momentum and a deteriorating market outlook. This mid-session decline set the tone for continued weakness into the afternoon close.",
+      "source": "Detik Finance",
+      "date": "Jumat, 26 Jun 2026 11:57 WIB"
     }
   ],
   "medium": [
     {
-      "title": "Tax Officials Seize 3 Luxury Apartments in Jakarta Worth Over Rp 1 Billion",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8529520/3-apartemen-mewah-di-jakarta-disita-petugas-pajak-ada-apa...",
-      "summary": "Tax authorities seized three luxury apartments in Kelapa Gading, North Jakarta, valued at over Rp 1 billion from a steel industry taxpayer. The seizure followed failed persuasive collection efforts and represents legal enforcement under tax collection laws.",
+      "title": "E-Commerce Platforms Must Announce Service Fee Increases at Least 90 Days in Advance",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8546095/e-commerce-wajib-umumkan-biaya-layanan-naik-minimal-90-hari-sebelumnya",
+      "summary": "Indonesia's Ministry of Micro, Small and Medium Enterprises has issued Ministerial Regulation No. 3 of 2026, requiring e-commerce platforms to notify sellers of any service fee increases at least 90 days before implementation. The regulation introduces Digital-Based Partnership agreements that lock in fee structures for defined periods, preventing platforms from arbitrarily raising commissions mid-contract. This is a significant regulatory development for MSME sellers and major e-commerce operators such as Tokopedia, Shopee, and Lazada operating in Indonesia.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 16:34 WIB"
+      "date": "Rabu, 24 Jun 2026 22:17 WIB"
     },
     {
-      "title": "Indonesia Has First Radioactive Testing Lab for Fishery Products in Southeast Asia",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8529999/ri-punya-lab-uji-radioaktif-produk-perikanan-pertama-di-asia-tenggara...",
-      "summary": "Indonesia established its first radioactive contamination testing laboratory for fishery products in Cipayung, East Jakarta. The facility is ISO 17025 accredited and FDA-approved to test parameters including Cs-137, supporting seafood export competitiveness particularly to the US market.",
+      "title": "President Prabowo Speaks Out on Police and Military Involvement in Food Security Efforts",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8545136/prabowo-buka-suara-soal-polisi-dan-tentara-ikut-urus-pangan",
+      "summary": "President Prabowo Subianto confirmed that TNI (military) and Polri (national police) are actively involved in Indonesia's food security program, speaking at the 2026 National Farmers and Fishermen Week summit in Gorontalo. The government's food sovereignty agenda continues to mobilize cross-sectoral resources, with key ministers overseeing agriculture, fisheries, and food coordination. Investors in the agricultural and food supply chain sectors should monitor the extent of state-directed intervention in these markets.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 22:07 WIB"
+      "date": "Rabu, 24 Jun 2026 12:52 WIB"
     },
     {
-      "title": "Marine Minister Proposes Additional Rp 30 Trillion Budget for 600 Fishing Villages",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8527740/trenggono-usul-tambahan-anggaran-rp-30-t-buat-600-kampung-nelayan-tambak...",
-      "summary": "Marine and Fisheries Minister Sakti Wahyu Trenggono requested additional Rp 30 trillion budget for 2027, on top of the indicative budget of Rp 15.63 trillion. The funds will support blue economy implementation and priority national programs.",
+      "title": "Sandiaga Uno Becomes Investor in Listed Company MUTU via Private Placement",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8545874/sandiaga-uno-masuk-jadi-investor-emiten-ini",
+      "summary": "PT Mutuagung Lestari Tbk (MUTU) is set to receive new strategic investors through a private placement (PMTHMETD), including prominent businessman Sandiaga Salahuddin Uno via PT Samala Serasi Utama and PT Bumi Hijau Sedaya. Former Grab Indonesia CEO and AirAsia Indonesia COO Ridzki D Kramadibrata will also participate as a strategic investor. The entry of high-profile investors may signal growth potential for MUTU and could attract market attention to the stock.",
       "source": "Detik Finance",
-      "date": "Kamis, 11 Jun 2026 14:51 WIB"
+      "date": "Rabu, 24 Jun 2026 17:23 WIB"
     },
     {
-      "title": "TIMAH Restructures Board of Directors, Eliminates Deputy CEO Position",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8530016/timah-rombak-direksi-posisi-wakil-dirut-dihapus...",
-      "summary": "State tin miner PT TIMAH restructured its board during the 2025 annual shareholders meeting, eliminating the Deputy CEO position and creating new director roles. Former Deputy CEO Harry Budi Sidharta was appointed as Director of Corporate Strategy and Business Development.",
+      "title": "Finance Minister Places Regional Staff to Oversee Free Nutritious Meal (MBG) Program Kitchens",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8548686/purbaya-taruh-mata-mata-awasi-dapur-mbg-nggak-benar-bakal-ditutup",
+      "summary": "Finance Minister Purbaya Yudhi Sadewa announced that regional Ministry of Finance offices (KPKNL and KPPN) will be deployed to periodically monitor Nutrition Service Units (SPPG) under the National Nutrition Agency (BGN) as part of the Free Nutritious Meal program's financial accountability framework. Oversight is set to begin next week, with dedicated monitoring teams formed across all districts and cities. This move reflects the government's effort to tighten fiscal controls over the high-profile MBG program, which carries significant budgetary implications.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 22:44 WIB"
+      "date": "Jumat, 26 Jun 2026 16:02 WIB"
     },
     {
-      "title": "TIMAH Records Rp 1.3 Trillion Profit, Distributes Rp 656 Billion Dividend",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8529955/timah-raup-laba-rp-1-3-triliun-sebar-dividen-rp-656-miliar...",
-      "summary": "State tin miner PT TIMAH distributed Rp 656.8 billion in dividends, equivalent to 50% of its net profit of Rp 1.31 trillion. The company recorded revenue growth of 6.41% to Rp 11.55 trillion with operating profit of Rp 1.91 trillion.",
+      "title": "Husein Sastranegara Airport in Bandung to Operate Starting September 17",
+      "url": "https://finance.detik.com/infrastruktur/d-8549088/bandara-husein-sastranegara-beroperasi-mulai-17-september",
+      "summary": "PT Angkasa Pura Indonesia (InJourney Airports) has confirmed that Husein Sastranegara Airport in Bandung will resume operations on September 17, 2026, in accordance with a directive from the Directorate General of Civil Aviation at the Ministry of Transportation. The airport will serve scheduled domestic and international commercial flights for both jet and propeller aircraft. This reopening is relevant for aviation sector investors and businesses dependent on Bandung's air connectivity.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 21:17 WIB"
+      "date": "Jumat, 26 Jun 2026 20:17 WIB"
     },
     {
-      "title": "Three Convicted in Tax Manipulation and Money Laundering Case",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8529974/manipulasi-pajak-cuci-uang-tiga-orang-dihukum-bui...",
-      "summary": "East Jakarta District Court sentenced three defendants in tax manipulation and money laundering case through PT GTS. The sentences range from 2 years 8 months to 3 years 4 months prison, plus fines totaling over Rp 6 billion combined.",
+      "title": "Indonesia's Energy Ministry Temporarily Halts Coal Exports to Secure Domestic Supply for PLN Power Plants",
+      "url": "https://finance.detik.com/energi/d-8548667/ekspor-batu-bara-sempat-ditahan-demi-pasokan-ke-pln",
+      "summary": "The Ministry of Energy and Mineral Resources (ESDM) temporarily suspended coal exports to ensure adequate domestic supply of coal with the required calorific value for PLN's power generation needs. The ministry confirmed that coal exports have since returned to normal following improvement in domestic supply conditions. This highlights ongoing domestic market obligation (DMO) enforcement risks for coal producers listed on the Indonesian Stock Exchange.",
       "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 21:43 WIB"
+      "date": "Jumat, 26 Jun 2026 15:55 WIB"
     },
     {
-      "title": "Antam Gold Prices Rise Slightly Today",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8530208/harga-emas-antam-hari-ini-naik-tipis...",
-      "summary": "Antam 24-karat gold prices increased Rp 2,000 per gram to Rp 2,711,000 per gram after recent weakness. Gold prices have been declining over the past week and month, trading in ranges of Rp 2,689,000-2,759,000 and Rp 2,689,000-2,819,000 respectively.",
+      "title": "Finance Minister Places Local Staff to Oversee Free Nutritious Meal Program Kitchen Financial Accountability",
+      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8548686/purbaya-taruh-mata-mata-awasi-dapur-mbg-nggak-benar-bakal-ditutup",
+      "summary": "Finance Minister Purbaya Yudhi Sadewa will deploy regional Ministry of Finance personnel — via KPKNL and KPPN offices — to regularly monitor the financial accountability of Nutrition Fulfillment Service Units (SPPG) under the National Nutrition Agency's Free Nutritious Meal (MBG) program, starting next week. This move responds to a request from the BGN head and aims to strengthen budget controls across all districts and cities. Investors tracking government social spending and fiscal discipline should note this as an effort to improve transparency in one of the administration's flagship programs.",
       "source": "Detik Finance",
-      "date": "Sabtu, 13 Jun 2026 09:02 WIB"
+      "date": "Jumat, 26 Jun 2026 16:02 WIB"
     },
     {
-      "title": "Export Governance of Coal and CPO Through DSI to Strengthen Indonesian Economy",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8530857/tata-kelola-ekspor-batu-bara-cpo-lewat-dsi-dinilai-perkuat-ekonomi-ri...",
-      "summary": "Research institute PEDAS notes that strategic export governance of coal, CPO, and ferroalloy commodities worth over $66 billion annually will strengthen national economy. These commodities represent about a quarter of total national exports, showing the strategic importance of government policy.",
+      "title": "Coal Exports Temporarily Halted to Secure Domestic Supply for PLN Power Plants",
+      "url": "https://finance.detik.com/energi/d-8548667/ekspor-batu-bara-sempat-ditahan-demi-pasokan-ke-pln",
+      "summary": "The Ministry of Energy and Mineral Resources (ESDM) temporarily suspended coal exports to ensure adequate domestic supply of the required caloric-grade coal for PLN's power plants, with exports now resuming normally. The volume withheld was calibrated to PLN's operational needs, and the ministry describes it as a standard regulatory oversight measure. This is relevant to coal mining companies and exporters listed on the Indonesian Stock Exchange, as it highlights ongoing domestic market obligation (DMO) enforcement risks.",
       "source": "Detik Finance",
-      "date": "Sabtu, 13 Jun 2026 22:00 WIB"
+      "date": "Jumat, 26 Jun 2026 15:55 WIB"
     },
     {
-      "title": "Trade Ministry Issues 3 Regulations for Natural Resources Export via DSI",
-      "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8524970/kemendag-rilis-3-aturan-ekspor-sda-satu-pintu-lewat-dsi-ini-isinya...",
-      "summary": "Trade Ministry published three ministerial regulations governing strategic natural resources exports through PT Danantara Sumberdaya Indonesia (DSI). The regulations cover coal, palm oil, and ferro alloy exports with transition period from June 1 to December 31, 2026.",
+      "title": "Husein Sastranegara Airport in Bandung to Resume Operations Starting September 17, 2026",
+      "url": "https://finance.detik.com/infrastruktur/d-8549088/bandara-husein-sastranegara-beroperasi-mulai-17-september",
+      "summary": "PT Angkasa Pura Indonesia (InJourney Airports) has confirmed that Husein Sastranegara Airport in Bandung will resume operations on September 17, 2026, in line with a directive from the Directorate General of Civil Aviation. The airport will serve scheduled domestic and international commercial flights for both jet and propeller aircraft. This reopening is significant for the aviation and tourism sectors, as well as for businesses and investors in the greater Bandung area.",
       "source": "Detik Finance",
-      "date": "Selasa, 09 Jun 2026 17:28 WIB"
+      "date": "Jumat, 26 Jun 2026 20:17 WIB"
     },
     {
-      "title": "Bakrie Brothers Records Rp 503 Billion Profit",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8530259/bakrie-brothers-raup-laba-rp-503-m...",
-      "summary": "PT Bakrie & Brothers posted 49.6% increase in net profit to Rp 503 billion in 2025, up Rp 167 billion from previous year. Despite geopolitical tensions and market volatility, the company achieved positive performance with net revenue of Rp 3.74 trillion.",
+      "title": "Panda Bond Issuance Delayed to End of July Due to High Chinese Investor Demand",
+      "url": "https://finance.detik.com/bursa-dan-valas/d-8548649/penerbitan-panda-bond-mundur-jadi-akhir-juli-ini-alasannya",
+      "summary": "Indonesia's Finance Minister Purbaya Yudhi Sadewa announced that the planned issuance of Panda Bonds — yuan-denominated debt securities in China — has been postponed from early July to end of July 2026. The delay was caused by strong interest from Chinese investment managers and major banks who needed additional time to seek internal investment committee approvals. The high demand is considered a positive signal for Indonesia's ability to diversify its sovereign debt financing sources.",
       "source": "Detik Finance",
-      "date": "Sabtu, 13 Jun 2026 12:30 WIB"
-    },
-    {
-      "title": "Phapros Records Rp 27 Million Profit, Distributes 15% Dividend",
-      "url": "https://finance.detik.com/bursa-dan-valas/d-8528912/raup-laba-rp-27-m-peha-tebar-dividen-15...",
-      "summary": "Pharmaceutical company PT Phapros distributed cash dividend of 15% from 2025 net profit as approved in annual shareholders meeting. Remaining profits will be used as reserves for capital expenditure to meet company compliance requirements.",
-      "source": "Detik Finance",
-      "date": "Jumat, 12 Jun 2026 09:53 WIB"
+      "date": "Jumat, 26 Jun 2026 15:42 WIB"
     }
   ],
   "not_relevant": []
