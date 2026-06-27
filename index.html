@@ -744,12 +744,9 @@
         
         async function loadData(dateStr) {
             try {
-                const dataPath = currentCountry === 'vietnam' ? `vietnam/data/${dateStr}.json` : 
-                 currentCountry === 'brazil' ? `data/brazil-news.json` : 
-                 currentCountry === 'malaysia' ? `data/malaysia-news.json` : 
-                 currentCountry === 'indonesia' ? `data/indonesia-news.json` : 
-                 currentCountry === 'korea' ? `data/korea-news.json` : 
-                 `data/${dateStr}.json`;
+                const dataPath = currentCountry === 'taiwan' ? `data/${dateStr}.json` :
+                 currentCountry === 'vietnam' ? `vietnam/data/${dateStr}.json` :
+                 `data/${currentCountry}/${dateStr}.json`;
                 
                 const response = await fetch(dataPath + "?t=" + Date.now());
                 if (!response.ok) throw new Error('Not found');
