@@ -529,7 +529,6 @@
                 <button class="country-button" onclick="switchCountry('india')">
                     <span class="country-flag">IN</span>
                     <span class="country-name">India</span>
-                    <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('malaysia')">
@@ -693,7 +692,7 @@
                 headerImgOther.alt = country.charAt(0).toUpperCase() + country.slice(1) + ' Illustration';
             }
             
-            if (country === 'taiwan' || country === 'vietnam' || country === 'brazil' || country === 'malaysia' || country === 'indonesia' || country === 'korea' || country === 'philippines') {
+            if (country === 'taiwan' || country === 'vietnam' || country === 'brazil' || country === 'malaysia' || country === 'indonesia' || country === 'korea' || country === 'philippines' || country === 'india') {
                 document.getElementById('taiwan-content').style.display = 'block';
                 document.getElementById('other-content').style.display = 'none';
                 const today = new Date().toISOString().split('T')[0];
