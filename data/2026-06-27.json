@@ -1,0 +1,201 @@
+{
+  "date": "2026-06-27",
+  "update_time": "2026-06-27 09:12:41",
+  "total_articles": 65,
+  "high": [
+    {
+      "title": "Kuo Ming-chien Resigns as Cathay United Bank Chairman; Cathay Financial to Appoint Him as Senior Advisor",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 07:27:40",
+      "url": "https://money.udn.com/money/story/5613/9589456",
+      "summary": "Kuo Ming-chien has resigned from his roles as Director of Cathay Financial Holdings, Chairman and Director of Cathay United Bank, and Director of Cathay Private Equity, effective immediately. The resignation follows a controversy surrounding his concurrent outside directorships. Specifically, Kuo simultaneously served as a Director of Cathay Securities Investment Trust (Cathay SITE) while holding an Independent Director position at Alchip Technologies (世芯-KY), which caused Alchip to be classified as a related-party company of Cathay SITE. Despite this, discretionary accounts and eight funds managed by Cathay SITE continued trading Alchip shares — triggering regulatory concerns over conflict-of-interest transactions, fund NAV recalculations, and investor compensation obligations. Cathay SITE has announced a total compensation payout of approximately NT$490 million to roughly 50,500 beneficiaries across 47 distribution channels, applying a \"most favorable\" compensation principle. Cathay Financial Holdings Chairman Tsai Hung-tu personally intervened, and Kuo is expected to be retained as a senior advisor. **Market implication:** This episode raises serious corporate governance and compliance concerns for Cathay Financial (2882.TW). Investors should monitor potential FSC regulatory action, reputational risk to the Cathay brand, and whether further fund irregularities surface from Kuo's other concurrent directorships, which Cathay SITE is currently auditing."
+    },
+    {
+      "title": "Surprise: Qualcomm's AI Transformation Names UMC as Key Partner — TSMC's Absence Sparks Industry Debate",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 01:06:34",
+      "url": "https://money.udn.com/money/story/5612/9589166?from=edn_maintab_cate",
+      "summary": "At its annual investor day on June 24, Qualcomm unveiled its largest-ever strategic transformation, pivoting aggressively into the AI data center market. Among the 35 ecosystem partners announced, United Microelectronics Corporation (UMC, 2303.TW) was the sole foundry named — notably absent was TSMC — generating significant industry discussion. The collaboration is interpreted by industry sources as going beyond conventional wafer foundry services, likely involving power-integrated packaging technologies critical for high-power AI chips, including FinFET power management ICs, on-wafer inductors, and deep trench capacitors (DTC). UMC CEO Jason Wang was directly quoted in Qualcomm's press release, emphasizing the growing importance of advanced packaging and manufacturing partnerships for next-generation data centers. Qualcomm also introduced its \"Dragonfly\" product family, including the Dragonfly C1000 data center CPU. **Market implication:** This is a meaningful positive re-rating catalyst for UMC, which has faced headwinds from sluggish mature-node demand. Selection as Qualcomm's sole foundry partner for AI data center supply chain signals a potential revenue diversification and margin uplift story. Investors in UMC should closely track the scope of this partnership. Meanwhile, TSMC's absence from the initial partner list — while likely not structurally significant — warrants monitoring for any competitive narrative implications."
+    },
+    {
+      "title": "OpenAI's First Self-Designed Chip \"Jalapeño\" Completes Design Phase — Boosts Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/06/26 00:58:23",
+      "url": "https://money.udn.com/money/story/5612/9589152?from=edn_maintab_cate",
+      "summary": "OpenAI has announced that its first internally developed AI chip, \"Jalapeño,\" co-developed with Broadcom, has completed the design phase. Industry sources confirm that TSMC (2330) will be the manufacturing partner, with production volumes expected to ramp progressively. The chip is designed specifically for AI inference workloads — delivering AI services to enterprise and consumer users — while large-scale training computations will continue to rely on other chip types. OpenAI and Broadcom completed the design in just nine months, with initial tests showing performance approaching theoretical hardware limits. OpenAI's longer-term ambition is to deploy chips capable of consuming 10GW of power globally to support ChatGPT and related AI service expansion."
+    },
+    {
+      "title": "Foreign Investors Net Sell NT$250 Billion in Taiwan Stocks Over Three Days; Institutions Eye 50,000-Point Target After Quarter-End Rebalancing",
+      "section": "證券",
+      "date": "2026/06/26",
+      "url": "https://money.udn.com/money/story/5607/9589118?from=edn_maintab_cate",
+      "summary": "Foreign investors sold a net NT$405.1 billion on June 25, bringing the three-day cumulative net sell figure to NT$256.5 billion — an extraordinary outflow following a record single-day sell of NT$177.4 billion the prior session. Taiwan Futures Index (TAIFEX) net short positions, while declining by 2,554 contracts, remain at 81,051 contracts — the second highest on record — indicating persistent bearish hedging sentiment. The benchmark TAIEX recovered modestly, gaining 211 points (+0.4%) to close at 46,255, supported by Micron's better-than-expected earnings lifting AI sentiment and state-owned bank buying of NT$70.8 billion (cumulative NT$64.33 billion over three days). Proprietary traders net sold NT$7 billion for a third consecutive session, while domestic investment trusts (投信) net bought NT$17.41 billion for a third straight day.\n\n**Market Implications:** The scale of foreign selling is exceptional and warrants close monitoring. Institutional analysts attribute the outflow primarily to quarter-end portfolio rebalancing rather than fundamental deterioration, projecting a potential resumption toward the 50,000-point level post-rebalancing. However, elevated futures short positioning and high domestic leverage represent material near-term downside risks. Fund managers should watch for stabilization in foreign futures positioning as a leading indicator of renewed upside momentum."
+    },
+    {
+      "title": "Taiwan Stock Market Drops Over 1,000 Points — IC Design Stocks Hit Hardest; MediaTek Locked Limit-Down, Realtek and Novatek Plunge",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 11:00:37",
+      "url": "https://money.udn.com/money/story/5607/9589896",
+      "summary": "Taiwan's equity market suffered a sharp intraday decline of over 1,000 points on June 26, with IC design stocks bearing the brunt of the selloff. MediaTek (2454) hit the daily limit-down at NT$3,880, while Realtek (2379) fell 7.37% to NT$754 and Novatek (3034) dropped 8.38% to NT$514. Market participants attributed the decline not to company-specific fundamental deterioration, but rather to profit-taking and deleveraging across a sector that had already rallied significantly on AI ASIC, edge AI, Wi-Fi 7, product repricing, and consumer electronics recovery narratives.\n\nUBS remains constructive on MediaTek longer-term, citing product price hikes, Google TPU project participation, smartphone SoC growth, and emerging applications, lifting its target price to NT$6,500 with acceleration expected from Q4. However, UBS also flagged that MediaTek's product prices may rise 5–10% across the board from September due to advanced process, back-end packaging, and substrate cost pressures. For Realtek, management had previously guided that AI networking, Wi-Fi 7, automotive Ethernet, and high-speed switch demand would be H2 drivers, though router and broadband equipment adoption is lagging expectations due to high memory costs."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges Over 1,500 Points Intraday, Breaking Below 45,000; Eight Major Electronic Blue-Chips Hammered, Only ASE Holds in the Green",
+      "section": "金融",
+      "date": "2026/06/26 11:11:15",
+      "url": "https://money.udn.com/money/story/5607/9589929",
+      "summary": "Taiwan's benchmark index suffered a severe intraday sell-off on June 26, plummeting more than 1,500 points at its worst to touch 44,667.72 — breaking below both the 45,000 psychological support level and the monthly moving average. The index opened at 46,188.6 and quickly attracted heavy selling pressure. Despite a strong overnight session for the Philadelphia Semiconductor Index (+3.59%) and Micron's earnings-driven surge (+15.74%), Apple's sharp decline of over 6% and a 1.32% drop in TSMC's ADR triggered a steep selloff in Taiwan futures overnight (-722 points), setting a negative tone at the open.\n\nTSMC (2330) was the single largest drag, opening at NT$2,360 and falling to NT$2,340, pulling the index down by over 350 points on its own. MediaTek (2454) was another major casualty, hitting its limit-down price of NT$3,880 — breaking below the NT$4,000 level — and contributing approximately 190 index points to the decline, though over 1,000 lots of buy orders queued at the limit-down price. Delta Electronics (2308) fell more than 8% to NT$1,815, while Hon Hai (2317) saw its decline moderate to approximately 2.5%, with NT$250 providing some support. ASE Technology Holding (3711) was the sole major electronic blue-chip to hold positive territory."
+    },
+    {
+      "title": "Foreign Investors on Selling Spree — TSMC Breaks Below Monthly Moving Average, Tests NT$2,300; July Analyst Day to Provide Updated Outlook",
+      "section": "產經",
+      "date": "2026/06/26 11:31:46",
+      "url": "https://money.udn.com/money/story/5607/9589993",
+      "summary": "Foreign investors have aggressively sold TSMC (2330) for three consecutive trading days through June 25, with total net selling reaching approximately 47,280 lots over that period. The concentrated selling pressure pushed TSMC's share price below its 30-day monthly moving average (MA) intraday, touching a low of NT$2,325 — briefly falling beneath its own stock ticker number of 2330 — and reducing TSMC's market capitalization to approximately NT$60.55 trillion. Foreign investors' aggregate net selling across the centralized market on June 25 alone reached NT$40.51 billion, with TSMC topping the sell list, followed by Winbond, PSMC, Nanya Tech, and Zhen Ding Technology. Market attention is now firmly focused on TSMC's July analyst day, where management is expected to update its business outlook amid macro uncertainty. The breach of the monthly MA is a technically significant negative signal. Sustained foreign outflows combined with elevated futures short positions (net short exceeding 81,000 contracts) suggest continued near-term downside risk for TSMC and the broader TAIEX. Fund managers should monitor whether TSMC can reclaim the monthly MA as a key stabilization indicator."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges Over 1,000 Points Intraday — TSMC, MediaTek, Hon Hai Lead Decline; ASE Holdings Bucks Trend",
+      "section": "證券",
+      "date": "2026/06/26 10:49:53",
+      "url": "https://money.udn.com/money/story/5607/9589877?from=edn_maintab_cate",
+      "summary": "The TAIEX suffered a sharp intraday decline on June 26, dropping over 1,000 points at its worst to 45,249 points before partially recovering to around 45,471 points (down ~783 points). The selloff was driven by a confluence of negative catalysts: (1) U.S. May PCE inflation came in at 4.1% YoY (core PCE +3.4% YoY), reigniting Federal Reserve rate hike expectations; (2) weakness in large-cap U.S. tech stocks — Apple fell 6.1% on product price hikes due to rising memory/storage costs, while NVIDIA, Microsoft, and Alphabet also declined, dragging the Nasdaq down 0.46%; and (3) TSMC's ADR fell 1.32% overnight, and Taiwan index futures dropped 722 points in the night session to 45,805. Foreign futures net short positions remain above 80,000 contracts, a substantial overhang. The sole bright spot was the packaging and testing (OSAT) sector, led by ASE Holdings (3711), which opened at NT$650 and surged to as high as NT$695 (+5.15%), as investors rotated into names with cleaner near-term fundamentals. The breadth of the selloff across electronics heavyweights underscores elevated systematic risk for Taiwan equity portfolios in the near term. The Fed rate hike re-pricing is a key macro risk to monitor closely."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges 1,683 Points for Fourth Consecutive Day — MediaTek Hits Limit-Down, TSMC Falls NT$50",
+      "section": "證券",
+      "date": "2026/06/26 13:43:30",
+      "url": "https://money.udn.com/money/story/5607/9590372?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index closed down 1,683.5 points (-3.64%) at 44,571.76 on June 26, marking its fourth consecutive session of losses. TSMC (2330) fell NT$50 to NT$2,340 (-2.09%), while MediaTek (2454) hit the daily limit-down, breaking below the NT$4,000 level. Delta Electronics (2308) dropped approximately 9%. The three stocks combined accounted for 815 index points of the decline. Trading volume surged to NT$1.5498 trillion, reflecting panic selling. The index briefly touched an intraday low of 44,454, losing all key short- and medium-term moving average supports. The selloff was triggered by a combination of rising U.S. rate hike concerns, elevated tech valuations, and spillover from sharp drops in Korean (KOSPI -8%, triggering circuit breakers) and Japanese (Nikkei -4.5%) markets. First Capital Investment Advisory noted that the U.S. May PCE inflation surged to 4.1%, reinforcing fears of sustained Fed tightening. **Market implication:** The breakdown of key technical supports and concentrated selling in heavyweight names signals near-term vulnerability. Investors should monitor whether TSMC's NT$2,300 level holds as the next critical support."
+    },
+    {
+      "title": "Three Institutional Investors Net Sell NT$205.5 Billion — Foreign Investors Post Second-Largest Single-Day Sell in History; Taiwan Market Records Third-Worst Point Drop Ever",
+      "section": "證券",
+      "date": "2026/06/26 15:46:18",
+      "url": "https://money.udn.com/money/story/5607/9590666?from=edn_subcatelist_cate",
+      "summary": "Taiwan's three major institutional investors combined to sell a net NT$205.527 billion on June 26, the heaviest institutional selling in recent memory. Foreign investors (excluding foreign prop desks) alone sold a net NT$143.189 billion — the second-largest single-day foreign sell in Taiwan market history. Notably, this week's cumulative foreign selling has now established both the all-time largest and second-largest weekly foreign sell records. Proprietary dealers also sold heavily: NT$54.6 billion on hedging accounts and NT$16.1 billion on proprietary accounts, totaling NT$70.7 billion. Investment trusts (投信) were the sole buyer, net purchasing NT$8.395 billion. The index's closing loss of 1,683.5 points ranks as the third-worst point decline in Taiwan stock market history. Declining issues numbered 1,819 versus only 165 advancing, with 37 stocks hitting limit-down versus 18 limit-up. **Market implication:** The historic scale of foreign outflows suggests a structural repositioning rather than routine profit-taking. Fund managers should assess whether this reflects global risk-off sentiment, Taiwan-specific macro concerns, or forced liquidations tied to margin calls in regional markets. Monitoring foreign flow reversals will be critical for gauging a sustainable bottom."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges 1,700 Points — Retail Investors' FOMO Backfires; Institutions Urge Caution",
+      "section": "證券 (Securities)",
+      "date": "2026/06/26 12:38:31",
+      "url": "https://money.udn.com/money/story/5607/9590194?from=edn_subcatelist_cate",
+      "summary": "Taiwan's equity market suffered a sharp \"Black Friday\" sell-off on June 26, with the index briefly plunging to 44,480 points — a decline of 1,775 points intraday — breaking below both the monthly moving average and the psychologically critical 45,000-point level. The correction follows a remarkable 16,000-point rally since April, which was significantly fueled by retail investor FOMO (Fear of Missing Out). Margin loan balances surged from NT$385.9 billion in early April to NT$611 billion by June 25, highlighting elevated speculative positioning.\n\nKey bellwethers bore the brunt of selling: **TSMC (2330)** fell ~2% and broke its monthly moving average; **MediaTek (2454)** and Delta Electronics (2308) tumbled over 9%; **Hon Hai (2317)** dropped more than 3%. Foreign investors accelerated capital outflows, using large-cap names as liquidity vehicles — over 1,600 listed companies declined, though limit-down stocks numbered only ~13, suggesting concentrated rather than broad-based panic.\n\nFirst Capital Investment Adv"
+    }
+  ],
+  "medium": [
+    {
+      "title": "U.S. Market Close: Apple Price Hikes Dampen Sentiment; Micron's Strong Earnings Drive Semis But Fail to Save Nasdaq's Four-Day Losing Streak",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 06:50:11",
+      "url": "https://money.udn.com/money/story/123398/9589432",
+      "summary": "U.S. equities closed mixed on Thursday. Micron Technology surged 15.7% after reporting quarterly revenues four times higher year-on-year with guidance well above consensus, with management flagging a potential chip shortage extending beyond 2027 and announcing 16 long-term supply agreements with customers. The Philadelphia Semiconductor Index jumped 3.6%, on pace for its strongest quarterly performance ever. However, Apple's announcement of price increases on Mac and iPad products weighed on broader tech sentiment, contributing to the Nasdaq's fourth consecutive decline — its longest losing streak since March. The Dow Jones rose 0.1% to 51,920.62; the S&P 500 was essentially flat at 7,357.49; the Nasdaq fell 0.5% to 25,358.60. Notably, TSMC's ADR declined 1.3%. May PCE inflation rose to 4.1% year-on-year, breaching 4% for the first time in three years, driven by energy costs and AI infrastructure investment, though core PCE monthly growth of 0.3% met expectations. **Relevance:** TSMC ADR weakness and semiconductor sector volatility are directly relevant to Taiwan market open sentiment and institutional positioning."
+    },
+    {
+      "title": "Evergreen Marine's \"Ever Lovely\" Vessel Attacked; IMO Suspends Hormuz Evacuation Plan — New Risk to U.S.-Iran Ceasefire",
+      "section": "金融 (Finance)",
+      "date": "2026/06/26 07:19:15",
+      "url": "https://money.udn.com/money/story/5599/9589452",
+      "summary": "The International Maritime Organization (IMO) announced Thursday it is suspending its plan to assist vessels stranded in the Strait of Hormuz after a ship transiting the waterway was attacked, with a U.S. official attributing the attack to Iranian military forces. The vessel attacked was identified by two sources as the \"Ever Lovely,\" a Singapore-flagged container ship operated by Evergreen Marine (2603.TW), with a capacity of 8,508 TEUs. There were no casualties reported. The incident complicates the temporary U.S.-Iran agreement reached this month to reopen the Strait and extend the ceasefire by 60 days. **Market implication:** This is a developing geopolitical risk event for Evergreen Marine and broader Taiwan shipping stocks. If Hormuz shipping disruptions persist or escalate, freight rate volatility, insurance cost increases, and route diversion risks will directly impact Evergreen's operational costs and earnings visibility. Investors should monitor Evergreen's official response and any insurance/liability disclosures."
+    },
+    {
+      "title": "Micron's Stellar Earnings Outlook Lifts Taiwan PCB Suppliers — Taiwan Surface Mounting and Tripod Technology",
+      "section": "金融",
+      "date": "2026/06/26 01:09:07",
+      "url": "https://money.udn.com/money/story/11162/9589301?from=edn_subcatelist_cate",
+      "summary": "Memory giant Micron's latest quarterly results exceeded market expectations, with management signaling that supply cannot keep up with demand for the foreseeable future. This bullish outlook extends positive momentum to Taiwan memory players including Nanya Tech (南亞科) and Winbond (華邦), while also expanding PCB-related demand. Tripod Technology (健鼎) reported May consolidated revenue of NT$8.654 billion — a consecutive monthly record high, up 5.5% MoM and 46.6% YoY — with order visibility extending into H2. Taiwan Surface Mounting (台表科, 6278), a key DDR5/DRAM module SMT/PCBA supplier, plans to add ten production lines in 2026 and targets full-year revenue growth of 5–10%, with memory remaining its strongest end-market. Institutional investors are increasingly positive on both names given sustained AI server and memory module demand tailwinds."
+    },
+    {
+      "title": "NVIDIA CEO Jensen Huang: Physical AI is the Next Growth Wave",
+      "section": "金融",
+      "date": "2026/06/26 02:09:16",
+      "url": "https://money.udn.com/money/story/5612/9589134?from=edn_subcatelist_cate",
+      "summary": "At NVIDIA's shareholder meeting on June 24, CEO Jensen Huang declared the company has entered a new era of AI infrastructure, describing it as a \"pivotal growth phase.\" Huang emphasized that NVIDIA's systems deliver the lowest cost per token and highest token throughput, justifying premium pricing over competitors. He identified physical AI — encompassing robotics, automotive, and smart factories — as NVIDIA's next major growth frontier, supported by a full ecosystem including AI factories, Omniverse digital twins, Jetson edge computing, and the Cosmos world foundation model. Huang also addressed chip smuggling concerns, warning that smuggled NVIDIA hardware into export-controlled markets (including mainland China) would face operational challenges as NVIDIA will not provide support or maintenance for such products. This commentary reinforces sustained hyperscaler capex commitments from Microsoft, Google, Meta, and Amazon, which directly underpins Taiwan's AI server and advanced packaging supply chain demand outlook through TSMC, Hon Hai, and related component suppliers."
+    },
+    {
+      "title": "AI Wave Drives North America Air Cargo Rate Hike in July",
+      "section": "金融",
+      "date": "2026/06/26 00:22:41",
+      "url": "https://money.udn.com/money/story/10871/9589132?from=edn_maintab_cate",
+      "summary": "Taiwan's air freight rates for exports to North America are set to rise again in July, with prices expected to increase from approximately NT$300/kg to NT$320–350/kg, driven by surging AI hardware shipment volumes. This trend is notable as it persists despite falling fuel surcharges — indicating AI cargo demand is the dominant pricing driver. Beneficiaries include China Airlines (華航, 2610), EVA Air, and StarLux on the carrier side, while logistics operators including Dimerco, Jtc Express, T3EX, and Taiwan Air Cargo also stand to gain. Farglory Port's (遠雄港) Air Free Trade Zone, the only airport-based FTZ in Taiwan, has developed into an AI chip industry cluster and is expected to post record operating results this year. Logistics CEO commentary suggests strong sea and air freight conditions could persist through Q4 2026."
+    },
+    {
+      "title": "Evergreen Marine Vessel \"Ever Lovely\" Struck by Drone in Strait of Hormuz; US-Iran Peace Deal Under Stress",
+      "section": "產經",
+      "date": "2026/06/26",
+      "url": "https://money.udn.com/money/story/5599/9589472",
+      "summary": "Iran's Revolutionary Guard attacked a Singapore-flagged cargo vessel — identified as Evergreen Marine's \"Ever Lovely\" — in the Strait of Hormuz on June 25, causing bridge damage but no casualties. The IMO subsequently suspended its convoy escort operations through the strait. The attack threatens the preliminary US-Iran peace framework signed the prior week and reignites concerns over regional shipping lane security. The vessel had been stranded in the Persian Gulf for over 100 days prior to the incident."
+    },
+    {
+      "title": "Tomorrow's Taiwan Market Expected to Surge — Three Key Catalysts",
+      "section": "證券",
+      "date": "2026/06/25 22:40:28",
+      "url": "https://money.udn.com/money/story/5607/9588657?from=edn_maintab_cate",
+      "summary": "Investment strategist Guo Zherong of Moore Investment Advisory outlines three reasons why Taiwan's market was expected to rebound strongly on June 26: (1) Taiwan significantly underperformed regional peers on June 25 — Korea's KOSPI surged over 5% while Japan approached new all-time highs — creating a catch-up opportunity; (2) the recent sharp correction was triggered by South Korean regulatory action on leveraged ETFs rather than fundamental deterioration, and the resulting deleveraging has cleansed the market's positioning; and (3) Micron's blowout earnings — with HBM capacity sold out through 2027 — represented a major positive catalyst for Taiwan's memory-related stocks, most of which had not yet fully priced in the news. The analyst expressed high confidence in a strong open for June 26, contingent on stable U.S. overnight trading.\n\n**Note for Fund Managers:** This article was published before the June 26 session opened. In hindsight, the market did open strongly but reversed sharply lower (see Article 5), underlining the risks of short-term directional calls in high-volatility environments."
+    },
+    {
+      "title": "Ying Bang (3693) Secures Major Orders from NVIDIA and AMD; Strong H2 2026 Performance Expected",
+      "section": "證券",
+      "date": "2026/06/26 00:47:52",
+      "url": "https://money.udn.com/money/story/11074/9588756?from=edn_maintab_cate",
+      "summary": "AI chassis maker Ying Bang (3693) held its AGM on June 25, highlighting strong order momentum from both NVIDIA and AMD for their next-generation AI platforms. The company was personally highlighted by NVIDIA CEO Jensen Huang at CES earlier this year as the sole new Taiwanese vendor added to NVIDIA's showcase, and the two companies are collaborating on AI storage solutions. On the AMD side, Ying Bang has begun work on rack-scale AI infrastructure projects using AMD's next-generation platform, leveraging its high-density compute design and system integration capabilities. The company is reportedly near the start of mass production of cabinets and chassis featuring AMD's MI450 chip, with AMD's MI400 series already securing orders from OpenAI, Meta, and Anthropic. Management expects AI revenue as a proportion of total sales to expand meaningfully in 2026.\n\n**Market Implication:** Ying Bang represents a beneficiary of the multi-vendor AI infrastructure buildout. Its dual exposure to both NVIDIA and AMD differentiates it from pure-play NVIDIA supply chain names and may offer relative resilience if AI capex spending diversifies."
+    },
+    {
+      "title": "Evergreen Marine Responds: Crew, Vessel, and Cargo Safe — Ship Has Safely Transited the Strait of Hormuz",
+      "section": "金融",
+      "date": "2026/06/26 10:12:52",
+      "url": "https://money.udn.com/money/story/5612/9589782?from=edn_maintab_cate",
+      "summary": "Evergreen Marine (2603) confirmed that its Singapore-flagged vessel *Ever Lovely* was struck by an unidentified projectile near the Omani coast while transiting the Strait of Hormuz on June 25 at 21:55 Taipei time. Initial inspection revealed damage to the eaves and bridge windows, but the ship's main engine and navigation systems remain fully operational with no seaworthiness concerns. Two additional Evergreen vessels — *Ever Unicorn* and *Ever Lotus* — have also safely cleared the strait without incident. Evergreen states that none of its vessels remain stranded in the Persian Gulf. While the incident was contained, it highlights ongoing geopolitical risk in a critical global shipping chokepoint and warrants monitoring for any escalation that could affect freight rates or insurance premiums for Taiwan's shipping sector.\n\n---"
+    },
+    {
+      "title": "MediaTek (2454) Breaks Below NT$4,000 Psychological Support Level Amid Broader Market Correction",
+      "section": "證券",
+      "date": "2026/06/26 10:36:38",
+      "url": "https://money.udn.com/money/story/5710/9589839?from=edn_subcatelist_cate",
+      "summary": "MediaTek's share price fell through the psychologically significant NT$4,000 level during the morning session on June 26, pressured by the broad market selloff rather than company-specific deterioration. Fundamentally, MediaTek's near-term outlook remains constructive: Q2 revenue guidance (based on USD/TWD of 31.5) is NT$140.2–149.2 billion, with full-year USD revenue expected to grow mid-to-high single digits (~4–9% YoY). Key upside catalysts include: (1) its CPU co-development with NVIDIA for the RTX Spark chip (Windows on Arm AI PC); (2) strong progress on its first AI accelerator ASIC project for a major U.S. hyperscaler cloud provider, on track for mass production; and (3) Q4 2025 AI ASIC revenue expected to contribute approximately USD $2 billion. The breach of NT$4,000 is a near-term technical negative but does not alter the medium-term fundamental thesis. Investors may view current weakness as an accumulation opportunity if market stabilizes around the monthly MA."
+    },
+    {
+      "title": "U.S. May PCE in Line With Expectations — Taiwan Index Futures Night Session Reverses from Red to Green",
+      "section": "產經",
+      "date": "2026/06/25 21:24:32",
+      "url": "https://money.udn.com/money/story/11112/9588919",
+      "summary": "U.S. May core PCE rose 3.4% YoY, in line with market expectations. Taiwan index futures in the night session initially opened lower at 46,430 before recovering to 46,740 (up 213 points, +0.4%), with an intraday high of 46,884. Analysts at Yongfeng Futures noted that while Micron's strong earnings results provided a boost to AI and memory sector sentiment, the TAIEX's prior large rally leaves significant overhead supply pressure, and foreign investors and short-term traders continue to reduce positions at elevated levels. Institutional analysts suggest Micron's beat could support a bounce in memory, AI server, and related supply chain names, but the broader index remains in a corrective structure, with the monthly moving average serving as the key near-term reference level. This article provides relevant context for understanding the subsequent sharp intraday correction on June 26, as the early optimism from the night session quickly faded."
+    },
+    {
+      "title": "Taiwan Stock Market Opens Sharply Lower — TSMC Breaks Monthly MA, Index Falls Nearly 740 Points; Who Is Holding Up?",
+      "section": "證券",
+      "date": "2026/06/26 09:16:10",
+      "url": "https://money.udn.com/money/story/5607/9589606?from=edn_maintab_cate",
+      "summary": "The TAIEX opened down 66.66 points on June 26 before accelerating lower by nearly 740 points to breach the 46,000 level and the 10-day moving average, driven by TSMC's gap-down below its monthly MA and broad weakness across key electronics names including MediaTek, Delta Electronics, UMC, and Hon Hai. TSMC opened at NT$2,360 (down NT$30), MediaTek at NT$4,150, Hon Hai at NT$255.5, and Delta Electronics at NT$1,925. Against the selloff, substrate and PCB manufacturers — including Nan Ya PCB (8046), Tripod Technology (3189), Unimicron (3037), and Zhen Ding-KY (4958) — showed relative resilience. Sector rotation into glass/ceramics and digital cloud themes was also noted. TSMC's ADR declined 1.32% in the prior U.S. session, while the Philadelphia Semiconductor Index surged 3.59% boosted by Micron's +15.74% earnings-driven rally — a notable divergence highlighting TSMC-specific foreign selling pressure rather than a sector-wide dynamic."
+    },
+    {
+      "title": "Wistron Board Immediately Approves USD 150 Million Capital Injection into California Subsidiary After Jensen Huang Praises U.S. Factory Expansion",
+      "section": "產經",
+      "date": "2026/06/26 17:01:04",
+      "url": "https://money.udn.com/money/story/11162/9590824",
+      "summary": "Wistron held a board meeting on June 26 and approved two major capital expenditure resolutions. The headline item is an additional USD 150 million equity injection into its wholly owned U.S. subsidiary WisLab EMS Corporation, in anticipation of expanded operations in California. The move follows NVIDIA CEO Jensen Huang's remarks at NVIDIA's June 24 annual shareholder meeting, where he specifically named Wistron among supply-chain partners building out U.S. manufacturing capacity to support the AI ecosystem. The board also greenlit new capex across multiple geographies: TWD 1.7 billion for the Hsinchu facility, TWD 7.5 billion for Kaohsiung, USD 24.5 million for Vietnam, and USD 22.7 million for Malaysia. The simultaneous endorsement from Huang and the swift board approval signal strong conviction in near-term AI server demand. For fund managers, this reinforces the structural capex cycle in Taiwan's AI supply chain and suggests continued revenue visibility for Wistron, with potential positive read-throughs for peers in the AI server and EMS space listed on the TWSE."
+    },
+    {
+      "title": "SCFI Freight Rate Index Rises for Ninth Consecutive Week; U.S. West Coast Rates Surge 11% — Container Shipping Trio Poised for Strong Q3",
+      "section": "金融",
+      "date": "2026/06/26 16:40:26",
+      "url": "https://money.udn.com/money/story/5612/9590778",
+      "summary": "The Shanghai Containerized Freight Index (SCFI) extended its winning streak to nine consecutive weeks, closing at 3,239.64 points for the week ending June 26 — a weekly gain of 3.8% and comfortably above the psychologically important 3,000-point level. All four major trade lanes strengthened: Far East–U.S. West Coast rates rose 11.4% week-on-week to USD 6,067/FEU, while Far East–U.S. East Coast climbed 8.9% to USD 7,484/FEU. Far East–Europe advanced to USD 3,342/TEU (+184). Carriers are planning a further GRI of approximately USD 1,500 effective July 1, with the PNW and East Coast lanes seen as most likely to hold the increase. Taiwan's three major container carriers — Evergreen (2603), Yang Ming (2609), and Wan Hai (2615) — are well-positioned to benefit from robust Q3 freight revenues, supported by pre-peak season inventory restocking demand."
+    },
+    {
+      "title": "Taiwan Semiconductor Benchmark Breaks Monthly Moving Average, but ABF Substrate Quartet Holds Firm — Nan Electro Hits All-Time High",
+      "section": "證券",
+      "date": "2026/06/26 13:12:13",
+      "url": "https://money.udn.com/money/story/5607/9590262?from=edn_maintab_cate",
+      "summary": "Despite the broader market crashing over 1,775 points intraday and breaking its monthly moving average, ABF substrate stocks demonstrated notable relative strength. Nan Ya PCB (南電, 8046) briefly locked limit-up at NT$1,145, hitting a new all-time high before paring gains to +7%. Jing Shuo (景碩, 3189) posted only a marginal decline, while Unimicron (欣興, 3037) and Tripod Technology (臻鼎-KY, 4958) fell 2–3%, significantly outperforming the market. Foreign institutional analysis cited an expanding ABF substrate supply-demand gap: ~4% deficit in 2026, widening to 10% in 2027 and 16% by 2028, with price increases expected to accelerate from high single-digits in Q2 2026 to double-digits in Q3. Additionally, the demand base is broadening beyond AI servers to include general servers driven by agentic AI architectures. Hon Hai (鴻海, 2317) declined over 3%. **Relevance:** ABF substrate names are emerging as a defensive pocket within Taiwan's tech sector amid broader selloffs, warranting selective attention from tech-focused fund managers."
+    },
+    {
+      "title": "Micron Surges 16% but Fails to Sustain Taiwan Memory Rally — Macronix Bucks Broader Selloff",
+      "section": "證券",
+      "date": "2026/06/26 12:57:11",
+      "url": "https://money.udn.com/money/story/5607/9590231?from=edn_maintab_cate",
+      "summary": "Micron Technology reported strong earnings — beating both quarterly results and forward guidance — and management projected AI-driven memory supply shortages extending beyond 2027, announcing 16 long-term supply agreements with customers. Its stock surged 15.7%, with SanDisk +21.97% and Qualcomm +3.8%. However, the positive catalyst failed to sustain Taiwan's memory sector as broader Asian market turmoil overwhelmed the sector. Apple's announcement of MacBook and iPad price hikes and Microsoft's Xbox price increases sparked demand concerns, sending Apple shares down over 6% and Microsoft -3.5%, pushing the Nasdaq to a fourth consecutive decline. Taiwan's memory stocks briefly turned green before reversing to losses, with only Macronix (旺宏, 2337) managing to hold gains. **Relevance:** The disconnect between strong fundamental signals from Micron and negative price action in Taiwan underscores how macro/risk-off dynamics are currently dominating sector-specific catalysts.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "*All 5 articles were relevant to covered topics (TSMC, MediaTek, Hon Hai, foreign investors, monetary policy/PCE/Fed rate expectations, Taiwan equity market). No articles were excluded.*"
+  ]
+}
