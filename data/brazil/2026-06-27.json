@@ -1,44 +1,47 @@
 {
   "date": "2026-06-27",
-  "update_time": "2026-06-27 03:39:31",
-  "total_articles": 5,
+  "update_time": "2026-06-27 09:01:49",
+  "total_articles": 6,
   "high": [
+    {
+      "title": "Brazil's Unemployment Rate Falls to 5.6% Through May — Lowest Since 2012",
+      "section": "MoneyTimes",
+      "date": "2026-06-26",
+      "url": "https://www.moneytimes.com.br/taxa-de-desemprego-atinge-56-no-trimestre-ate-maio-de-2026-jcav/",
+      "summary": "Brazil's unemployment rate dropped to 5.6% in the rolling quarter through May 2026, down from 5.8% in the quarter through April, marking the lowest reading in the PNAD Contínua series dating back to 2012. The result reflects a 0.6 percentage point decline year-over-year. For BRL and rates traders, this is a critical data point: a historically tight labor market supports consumer demand and wage growth, reinforcing upside risks to inflation (IPCA). This complicates the Banco Central do Brasil's (BCB) ability to signal any near-term easing cycle, keeping the Selic rate elevated for longer. Bond investors should note that this data reduces the probability of dovish pivots and may steepen the short end of the yield curve. For FX, a resilient labor market underpins domestic economic strength, which is modestly BRL-supportive over the medium term, though the inflation risk channel could offset gains if it delays rate cuts. Watch for the next COPOM meeting for any revised forward guidance in light of this labor market tightness."
+    },
     {
       "title": "Brazil's Current Account Deficit Smaller Than Expected in May; FDI Beats Forecasts",
       "section": "MoneyTimes",
       "date": "2026-06-26",
       "url": "https://www.moneytimes.com.br/deficit-em-transacoes-correntes-do-brasil-e-menor-que-esperado-em-maio-jcav/",
-      "summary": "Brazil's current account deficit came in better than expected in May, registering a shortfall of USD 3.185 billion, according to data released by the Banco Central do Brasil (BCB) on Friday. The 12-month rolling deficit accumulated to the equivalent of 2.60% of GDP — a manageable level by emerging market standards. Crucially, Foreign Direct Investment (FDI) into Brazil also surpassed market expectations, providing a strong financing offset to the current account gap. The Reuters consensus had projected a wider deficit, making this a positive surprise on two fronts: a smaller external financing requirement and stronger-than-anticipated FDI inflows. For BRL traders, this is constructive: robust FDI inflows suggest sustained foreign capital interest in Brazil's productive base, providing structural BRL support. A narrower current account deficit reduces Brazil's external vulnerability and diminishes downside pressure on the Real. Bond investors should note this reinforces a stable external accounts narrative, which could support continued foreign participation in Brazilian fixed income. Watch for whether this trend sustains into June data and how it interacts with any BCB communication on FX intervention thresholds."
+      "summary": "Brazil recorded a current account deficit of US$ 3.185 billion in May 2026, coming in better than Reuters consensus estimates, according to data released by the Banco Central do Brasil. The 12-month rolling deficit stands at 2.60% of GDP, a manageable level by emerging market standards. Crucially, Foreign Direct Investment (FDI) into the country exceeded expectations for the same period, providing a strong financing offset to the current account gap. For BRL traders, this is a constructive combination: a narrower-than-expected external deficit paired with robust FDI inflows reduces Brazil's external financing vulnerability and is a net positive for the Real. It signals continued international investor confidence in Brazilian productive assets. Bond market participants should view this as a supportive backdrop for BRL-denominated assets, potentially reducing the risk premium embedded in longer-dated government bonds. Watch the trajectory of FDI versus portfolio flows in coming months to assess BRL resilience."
     },
     {
-      "title": "Brazil Unemployment Rate Falls to 5.6% Through May — Lowest Since 2012",
-      "section": "MoneyTimes",
-      "date": "2026-06-26",
-      "url": "https://www.moneytimes.com.br/taxa-de-desemprego-atinge-56-no-trimestre-ate-maio-de-2026-jcav/",
-      "summary": "Brazil's unemployment rate dropped to 5.6% in the rolling quarter through May 2026, down from 5.8% in the quarter through April, marking the lowest level since the PNAD Contínua survey series began in 2012, according to IBGE data. The result was stable relative to the December 2025–February 2026 quarter but declined 0.6 percentage points year-over-year. For monetary policy watchers, a historically tight labor market is a critical input for COPOM deliberations — persistently low unemployment signals robust domestic demand and wage pressures, which could keep services inflation elevated and complicate the BCB's path toward any future Selic easing. This data point reinforces the case for the BCB maintaining a restrictive monetary policy stance for longer. BRL traders should interpret this as a hawkish signal for the Selic rate trajectory, which is broadly BRL-supportive in the near term. Ibovespa investors should weigh the dual impact: strong consumer demand benefits domestically-oriented sectors, but higher-for-longer rates compress equity valuations and increase the cost of capital for leveraged companies. Watch IPCA prints closely to see if tight labor markets are feeding through to broader inflation."
-    },
-    {
-      "title": "Short and Intermediate DI Rates Fall as Bets on Selic Cut Increase",
+      "title": "Short and Medium-Term DI Rates Fall as Bets on Selic Rate Cut Increase",
       "section": "MoneyTimes",
       "date": "2026-06-27",
       "url": "https://www.moneytimes.com.br/taxas-curtas-e-intermediarias-caem-com-aumento-de-apostas-no-corte-da-selic/",
-      "summary": "Short and intermediate DI (Interbank Deposit) rates retreated on Friday as market participants increasingly priced in a new Selic rate cut by the Banco Central do Brasil at the August COPOM meeting. The DI rate for January 2028 fell 11 basis points to 14.14% by late afternoon, reflecting a meaningful shift in rate expectations at the belly of the curve. Long-end rates, however, closed near flat, suggesting the market remains cautious about the medium-to-long-term inflation and fiscal outlook. A pullback in international oil prices served as an additional tailwind, reducing near-term inflationary pressures and giving the BCB more room to ease. **Key implications:** This repricing signals growing conviction that the BCB's easing cycle has further to run, which is constructive for short-duration Brazilian fixed income. Bond traders should watch the August COPOM communication closely. For BRL, a lower Selic path could weigh on carry appeal, potentially adding mild depreciation pressure on the Real. Watch next week's inflation data (IPCA) and any BCB forward guidance for confirmation of the August cut narrative.\n\n---"
+      "summary": "Short and medium-term DI (Interbank Deposit) rates retreated on Friday as market participants increasingly priced in the likelihood of a new Selic rate cut at the August COPOM meeting. Long-term rates closed broadly stable. The January 2028 DI rate fell 11 basis points to 14.14%, reflecting growing conviction that the Banco Central do Brasil is shifting toward an easing stance. An additional catalyst for the rate decline was a pullback in international oil prices, which eased inflation concerns and provided further room for the BCB to maneuver."
+    },
+    {
+      "title": "Why it matters:"
     }
   ],
   "medium": [
     {
-      "title": "Ibovespa Pulls Back on Wall Street Weakness and Oil Price Decline; 5 Things to Know Before Investing Today (June 26)",
+      "title": "Ibovespa Retreats on Wall Street Weakness and Oil Price Decline — 5 Things to Know Before Investing Today (June 26)",
       "section": "MoneyTimes",
       "date": "2026-06-26",
       "url": "https://www.moneytimes.com.br/ibovespa-5-coisas-26-6-26-apsa/",
-      "summary": "The Ibovespa opened Friday's session under pressure, weighed down by weakness in U.S. equity indices and a renewed decline in oil prices. As of approximately 10:10 AM Brasília time, Brazil's benchmark index was trading down 0.28% at 171,506 points. The USD/BRL exchange rate saw the dollar trading slightly higher against the Real at R$ 5.1774, a modest move of -0.02%. The DXY Dollar Index — which measures the greenback against a basket of six major currencies — was itself down 0.34%, suggesting BRL weakness was relatively contained and largely driven by global risk-off sentiment rather than Brazil-specific factors. Traders should monitor oil price dynamics closely given Petrobras's significant weight in the Ibovespa, as further crude declines could amplify index losses heading into the weekly close.\n\n---"
+      "summary": "The Ibovespa opened the final session of the week under pressure, falling 0.28% to 171,506 points around 10:10am BRT, dragged by weakness in U.S. equity indices and a fresh decline in oil prices — a headwind for Petrobras-heavy index composition. The USD/BRL spot rate edged higher to R$ 5.1774, though the move was modest (-0.02% for BRL), while the DXY dollar index was itself trading lower by 0.34%, suggesting the BRL weakness was partially idiosyncratic. For equity and FX traders, the key watch remains oil price direction given Petrobras's outsized index weight, and any spillover from Wall Street volatility into emerging market risk sentiment. The modest BRL depreciation despite a weaker dollar warrants monitoring for any domestic-driven selling pressure.\n\n---"
     },
     {
-      "title": "Banco Central Orders Extrajudicial Liquidation of Sefer Investimentos, Linked to the Master Bank Case",
+      "title": "Central Bank Orders Extrajudicial Liquidation of Sefer Investimentos, Linked to the Master Bank Case",
       "section": "MoneyTimes",
       "date": "2026-06-26",
       "url": "https://www.moneytimes.com.br/banco-central-decreta-liquidacao-extrajudicial-da-sefer-investimentos-ligada-ao-banco-master-igdl/",
-      "summary": "Brazil's Banco Central (BCB) ordered the extrajudicial liquidation of Sefer Investimentos Distribuidora de Títulos e Valores Mobiliários, a São Paulo-based securities distributor suspected of involvement in the ongoing Banco Master case. The BCB classified the institution under prudential segment S4, noting it carries minimal systemic weight — representing less than 0.0004% of total assets and 0.17% of third-party managed resources in the National Financial System. While the direct systemic risk is negligible, this action is relevant as it signals continued regulatory follow-through on the Banco Master affair, which has drawn scrutiny over asset quality and governance in Brazil's non-bank financial sector. International fund managers should monitor whether further enforcement actions emerge from the Master case, as contagion risk to broader credit markets or investor confidence in smaller Brazilian financial institutions could develop if the scope widens.\n\n---"
+      "summary": "Brazil's Banco Central do Brasil (BCB) ordered the extrajudicial liquidation of Sefer Investimentos Distribuidora de Títulos e Valores Mobiliários, a São Paulo-based securities distributor suspected of involvement in the Banco Master case. The BCB noted that Sefer is classified under the S4 prudential regulatory segment and has minimal systemic footprint — representing less than 0.0004% of total assets in the National Financial System and 0.17% of third-party managed resources. While the institution is small and poses no systemic risk, this development is relevant as it signals continued regulatory follow-through on the Banco Master investigation. Investors in the Brazilian banking sector should monitor whether further enforcement actions emerge from this probe, particularly affecting mid-tier or shadow financial institutions connected to the case.\n\n---"
     }
   ],
   "not_relevant": []
