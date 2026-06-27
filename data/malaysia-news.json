@@ -1,59 +1,214 @@
 {
-  "update_time": "2026-06-25 22:21:57 UTC",
+  "update_time": "2026-06-27 14:02:09",
+  "date": "2026-06-27",
   "country": "Malaysia",
   "source": "Malay Mail",
-  "total_articles": 7,
+  "total_articles": 29,
   "high": [
     {
-      "title": "Malaysia eyes nearly US$200bil in electronics exports in 2026",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/malaysia-eyes-nearly-us200bil-in-electronics-exports-in-2026",
-      "summary": "Malaysia's electronics and electrical (E&E) exports are projected to reach nearly US$200 billion in 2026, up from RM711 billion in 2025. This represents a significant growth trajectory for Malaysia's largest export sector and indicates strong economic performance ahead.",
-      "source": "Malay Mail",
-      "date": "2026/06/09"
+      "title": "Ringgit eases vs US dollar as inflation data lifts Fed outlook",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/11/ringgit-eases-vs-us-dollar-as-inflation-data-lifts-fed-outlook",
+      "summary": "The ringgit slipped to 4.0685/4.0750 against the US dollar, driven by US inflation data influencing Federal Reserve rate expectations. This has direct implications for Malaysian import costs, capital flows, and monetary policy decisions. Investors and businesses with USD exposure should monitor this closely.",
+      "source": "FMT",
+      "date": "2026/06/11"
     },
     {
-      "title": "TMK Chemical in RM920 million deal to buy CCM",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/tmk-chemical-in-rm920-million-deal-to-buy-ccm",
-      "summary": "TMK Chemical has issued a non-binding letter of intent for a RM920 million acquisition of CCM, including its subsidiaries and associated companies. This major M&A transaction will significantly reshape the Malaysian chemical industry landscape.",
-      "source": "Malay Mail",
+      "title": "Ringgit ends higher amid Middle East conflict uncertainty",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/ringgit-ends-higher-amid-middle-east-conflict-uncertainty",
+      "summary": "The ringgit closed higher as geopolitical tensions in the Middle East prompted a wait-and-see approach among investors. Middle East conflict uncertainty can affect oil prices, which are critical to Malaysia as a net energy exporter. This currency movement reflects broader risk sentiment impacting Malaysian financial markets.",
+      "source": "FMT",
       "date": "2026/06/12"
+    },
+    {
+      "title": "Bursa closes higher as attractive valuations drive buying",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/bursa-closes-higher-as-attractive-valuations-drive-buying",
+      "summary": "The FBM KLCI closed marginally higher as attractive valuations spurred buying interest despite low volume, with regional equities providing a supportive backdrop. This signals renewed investor confidence in Malaysian equities and may indicate a broader market recovery trend. It is relevant for equity investors tracking market direction.",
+      "source": "FMT",
+      "date": "2026/06/12"
+    },
+    {
+      "title": "Ringgit extends gains against US dollar, regional peers",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/26/ringgit-extends-gains-against-us-dollar-regional-peers",
+      "summary": "The ringgit continued to strengthen against the US dollar as US economic data showed uneven growth, with consumer spending rising only 0.5% in Q1 2026, reducing aggressive Fed rate hike expectations. US Q1 2026 GDP came in at 2.1%, beating forecasts, while PCE inflation held at 4.1%. Lower US yields are easing pressure on Asian currencies including the ringgit, with significant implications for Malaysian trade and investment flows.",
+      "source": "FMT",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Banking stocks lift Bursa at close",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/26/banking-stocks-lift-bursa-at-close",
+      "summary": "The FBM KLCI closed up 0.24% at 1,667.75, supported by a late rebound in banking stocks and sustained buying in the telecommunications sector. Market sentiment remained cautious amid global volatility driven by uncertainty around the AI investment theme. The performance of banking and telco constituents is a key indicator for Malaysian equity market direction.",
+      "source": "FMT",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Bursa opens slightly higher on bargain hunting",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/26/bursa-opens-slightly-higher-on-bargain-hunting",
+      "summary": "The FBM KLCI rose marginally by 1.82 points to 1,665.64 in early trading, driven by bargain hunting despite negative market breadth with decliners outpacing gainers. Wall Street's mixed close, driven by volatile AI-related stocks and Apple's price hikes, weighed on overall sentiment. This reflects cautious investor behaviour that Malaysian market participants should monitor closely.",
+      "source": "FMT",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Selling pressure drags Bursa lower",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/25/selling-pressure-drags-bursa-lower",
+      "summary": "The FBM KLCI dropped significantly by 1.09% or 18.31 points to close at 1,663.82, driven by broad-based weakness in banking and industrial heavyweights. Banking stocks faced sustained pressure as hawkish signals from the ECB, Bank of Japan, and US Federal Reserve reinforced a higher-for-longer interest rate environment. This substantial single-day decline signals heightened caution among investors and has direct implications for Malaysian equity portfolios.",
+      "source": "FMT",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Ringgit opens lower as strong US GDP lifts dollar",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/26/ringgit-opens-lower-as-strong-us-gdp-lifts-dollar",
+      "summary": "The ringgit weakened to 4.1170/4.1270 against the US dollar, pressured by stronger-than-expected US Q1 GDP growth of 2.1% and PCE inflation at 4.1%. However, the reopening of the Strait of Hormuz improved risk appetite, partially limiting the ringgit's decline. Currency movements at this level directly impact Malaysian trade, imports, and inflation dynamics.",
+      "source": "FMT",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Ringgit continues stellar performance, ends higher for third consecutive day",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/25/ringgit-continues-stellar-performance-ends-higher-for-third-consecutive-day",
+      "summary": "The ringgit appreciated to 4.1160/4.1200 against the US dollar, marking its third consecutive day of gains, supported by easing crude oil prices with Brent at US$72.86 per barrel. Analysts noted that declining oil prices could ease US inflation and alter the Federal Reserve's monetary policy trajectory. A strengthening ringgit reduces import costs and signals improving confidence in the Malaysian economy.",
+      "source": "FMT",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Ringgit extends gains on strong Malaysian economic data",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/24/ringgit-extends-gains-on-strong-malaysian-economic-data...",
+      "summary": "Malaysia's FDI surged 41.2% to RM65.9 billion in 2025, up from RM46.7 billion in 2024, pushing the cumulative FDI position to RM1.09 trillion or 53.7% of GDP. This significant inflow reflects strong foreign investor confidence in Malaysia's economic fundamentals and supported ringgit appreciation. The data signals healthy demand for the ringgit and a positive balance of payments outlook.",
+      "source": "FMT",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Ringgit opens firmer on stronger investor sentiment, FDI surge",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/25/ringgit-opens-firmer-on-stronger-investor-sentiment-fdi-surge...",
+      "summary": "The ringgit strengthened to 4.1340/4.1400 against the USD, buoyed by the landmark FDI surge to RM65.9 billion in 2025 and growing investor sentiment. Crude oil prices continued to decline amid the reopening of the Strait of Hormuz, with rising VLCC charter rates signaling increased oil trade flows. These macroeconomic developments have broad implications for Malaysian exporters, energy sector players, and currency markets.",
+      "source": "FMT",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "AirAsia Faces Supplier Payment Delays as Fuel Costs Bite",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/24/airasia-faces-supplier-payment-delays-as-fuel-costs-bite",
+      "summary": "AirAsia has missed payments to Rolls-Royce under its engine maintenance agreement and has requested deferred lease payments on more than 16 aircraft, citing surging fuel costs due to the Iran war. This signals significant financial stress at one of Malaysia's most prominent airlines, with potential implications for Capital A's stock and investor confidence. The situation mirrors distress seen at global budget carriers like Spirit Aviation and EasyJet, raising concerns about the broader low-cost aviation sector.",
+      "source": "FMT",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Ringgit Opens Easier as Strong US Data Supports Dollar",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/24/ringgit-opens-easier-as-strong-us-data-supports-dollar",
+      "summary": "The ringgit weakened to 4.1450/4.1505 against the US dollar, pressured by stronger-than-expected US PMI data and the Fed's continued hawkish stance. Better-than-expected US manufacturing and services PMI readings reinforce the likelihood of further US interest rate hikes, which could sustain dollar strength and keep the ringgit under pressure. Malaysian businesses and investors with USD exposure or import-heavy operations are directly affected by this currency movement.",
+      "source": "FMT",
+      "date": "2026-06-24"
     }
   ],
   "medium": [
     {
-      "title": "Duopharma wins RM155.3mil deal to supply insulin to govt hospitals",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/duopharma-wins-rm155-3mil-deal-to-supply-insulin-to-govt-hospitals",
-      "summary": "Duopharma's subsidiary DMSB secured a three-year RM155.3 million government contract to supply insulin to government hospitals, commencing June 3, 2026. This contract provides stable revenue visibility for the pharmaceutical company and strengthens its position in the healthcare sector.",
-      "source": "Malay Mail",
-      "date": "2026/06/09"
+      "title": "Ringgit eases against dollar ahead of US inflation data",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/10/ringgit-eases-against-dollar-ahead-of-us-inflation-data",
+      "summary": "The ringgit depreciated slightly to 4.0600/4.0640 against the US dollar, with markets cautious ahead of key US inflation data. Currency movements are closely watched by Malaysian investors and businesses with USD exposure. The outcome of US inflation figures could further influence ringgit direction.",
+      "source": "FMT",
+      "date": "2026/06/10"
     },
     {
-      "title": "CIMB says 'good time' to invest in battered Indonesia",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/cimb-says-good-time-to-invest-in-battered-indonesia",
-      "summary": "CIMB CEO Novan Amirudin suggests it's an opportune time for long-term investors to enter the Indonesian market given current valuations. This indicates potential regional investment opportunities for Malaysian investors and CIMB's strategic outlook on Southeast Asian markets.",
-      "source": "Malay Mail",
-      "date": "2026/06/09"
+      "title": "Ringgit closes slightly higher against US dollar, major currencies",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/11/ringgit-closes-slightly-higher-against-us-dollar-major-currencies",
+      "summary": "The ringgit edged up to 4.0650/4.0690 against the greenback at close, showing modest resilience despite regional pressures. Bank Muamalat's chief economist noted the currency held steady, suggesting relative stability in foreign exchange markets. This is relevant for businesses and investors monitoring currency risk.",
+      "source": "FMT",
+      "date": "2026/06/11"
     },
     {
-      "title": "Maybank handles US$4.9bil deals for Singapore, Malaysia hub",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/maybank-handles-us4-9bil-deals-for-singapore-malaysia-hub",
-      "summary": "Maybank has facilitated US$4.9 billion in deals across its Singapore-Malaysia hub, spanning corporates, mid-sized companies and consumers. This demonstrates strong regional business activity and Maybank's significant role in cross-border financial services.",
-      "source": "Malay Mail",
-      "date": "2026/06/09"
+      "title": "Bursa edges higher at close on selective buying",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/11/bursa-edges-higher-at-close-on-selective-buying",
+      "summary": "The FBM KLCI closed slightly higher despite mixed regional performance weighed down by Middle East geopolitical tensions. Selective buying supported the index, indicating cautious but present investor appetite. Ongoing geopolitical risks in the Middle East remain a key external factor for Malaysian equities.",
+      "source": "FMT",
+      "date": "2026/06/11"
     },
     {
-      "title": "US lawmakers call for tighter rules on chipmakers supplying Chinese overseas units",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/09/us-lawmakers-call-for-tighter-rules-on-chipmakers-supplying-chinese-firms-overseas-units",
-      "summary": "US lawmakers are pushing for stricter regulations on semiconductor exports to Chinese subsidiaries following Trump administration moves to close potential loopholes. This could impact Malaysia's significant electronics and semiconductor manufacturing sector and supply chain relationships.",
-      "source": "Malay Mail",
-      "date": "2026/06/09"
+      "title": "Bursa turns lower at open, tracking regional weakness",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/11/bursa-turns-lower-at-open-tracking-regional-weakness",
+      "summary": "The FBM KLCI opened lower, erasing 2.81 points to 1,676.15, mirroring regional market weakness at the start of the trading session. Negative market breadth signaled broad-based selling pressure, reflecting investor caution. Regional sentiment driven by external factors continues to influence Bursa Malaysia's short-term performance.",
+      "source": "FMT",
+      "date": "2026/06/11"
     },
     {
       "title": "AirAsia X delays Bahrain launch amid Mideast conflict concerns",
       "url": "https://www.freemalaysiatoday.com/category/business/2026/06/11/airasia-x-delays-bahrain-launch-amid-mideast-conflict-concerns",
-      "summary": "AirAsia X has postponed its Bahrain route launch from the original schedule to August or September 2026 due to Middle East operational and market conditions. This reflects how geopolitical tensions are affecting Malaysian airline expansion plans and regional aviation sector growth.",
-      "source": "Malay Mail",
+      "summary": "AirAsia X has postponed its Bahrain route launch to August or September due to concerns over Middle East conflicts, impacting the airline's expansion plans. This delay highlights the operational risks faced by Malaysian carriers in geopolitically sensitive regions. Investors in AirAsia X should monitor how prolonged regional tensions could affect revenue growth targets.",
+      "source": "FMT",
       "date": "2026/06/11"
+    },
+    {
+      "title": "TMK Chemical in RM920 million deal to buy CCM",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/tmk-chemical-in-rm920-million-deal-to-buy-ccm",
+      "summary": "TMK Chemical has issued a non-binding letter of intent to acquire CCM in a significant RM920 million deal, including CCM's subsidiaries and associated companies. This is a notable M&A transaction in the Malaysian chemicals sector that could reshape industry dynamics. Investors in both TMK Chemical and CCM should closely assess the deal's implications for valuations and future growth.",
+      "source": "FMT",
+      "date": "2026/06/12"
+    },
+    {
+      "title": "Bursa rises in early trade on improved risk appetite",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/bursa-rises-in-early-trade-on-improved-risk-appetite",
+      "summary": "The FBM KLCI rose 5.74 points to 1,685.27 in early trade, supported by improved risk appetite among investors. This intraday gain reflects positive sentiment flowing into Malaysian equities, consistent with regional market trends. While not a dramatic move, it provides useful context for short-term traders and market watchers.",
+      "source": "FMT",
+      "date": "2026/06/12"
+    },
+    {
+      "title": "Ringgit opens higher against greenback, most regional peers",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/12/ringgit-opens-higher-against-greenback-most-regional-peers",
+      "summary": "The ringgit opened stronger against the US dollar, supported by signals that a US-Iran deal may be near finalisation, which could stabilise global oil shipping. This geopolitical development has positive implications for regional currency sentiment. Malaysian businesses with USD exposure should monitor this trend closely.",
+      "source": "FMT",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Six-month extension for stamp duty disclosure programme",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/26/six-month-extension-for-stamp-duty-disclosure-programme",
+      "summary": "LHDN has extended its voluntary stamp duty disclosure programme to encourage compliance with the new self-assessment system, covering instruments executed between Jan 1, 2023 and Dec 31, 2025. Duty payers who complete stamping and payment within the extended period will receive automatic penalty waivers and will not be subject to audit. This is relevant for Malaysian businesses and property owners with unstamped instruments who can now regularise their position without penalties.",
+      "source": "FMT",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "OpenAI restricts limited release of new model to US only",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/27/openai-restricts-limited-release-of-new-model-to-us-only",
+      "summary": "OpenAI has restricted its latest GPT-5.6 model to the US market only, following White House pressure over national security concerns related to advanced AI capabilities, particularly around identifying software vulnerabilities. This follows similar restrictions placed on Anthropic's models, signalling a broader US trend of limiting foreign access to frontier AI. Malaysian businesses and developers relying on cutting-edge US AI models may face access disruptions as these restrictions expand.",
+      "source": "FMT",
+      "date": "2026-06-27"
+    },
+    {
+      "title": "Thailand, Argentina primed as next supply chain rising stars",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/25/thailand-argentina-primed-as-next-supply-chain-rising-stars",
+      "summary": "A Verisk Maplecroft report highlights Thailand and other Southeast Asian nations as emerging supply chain hubs as global companies diversify beyond cost efficiency toward resilience. The closure of the Strait of Hormuz during the US-Israel-Iran conflict created near-term headwinds for regional trade, affecting countries like Thailand and the Philippines. Malaysian businesses and investors should take note of shifting regional supply chain dynamics that could present competitive opportunities or threats.",
+      "source": "FMT",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Bursa ends higher as bargain hunters return",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/24/bursa-ends-higher-as-bargain-hunters-return...",
+      "summary": "The FBM KLCI gained 2.21 points to close at 1,682.13, supported by bargain hunting in attractively valued blue-chip stocks. However, analysts warn that geopolitical uncertainties, persistent foreign fund outflows, and lack of strong catalysts may keep the market range-bound between 1,680 and 1,700. Investors are advised to monitor global developments before making significant moves.",
+      "source": "FMT",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Bursa opens higher, extends gains on bargain hunting",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/25/bursa-opens-higher-extends-gains-on-bargain-hunting...",
+      "summary": "The FBM KLCI rose 1.32 points to 1,683.45 at opening on June 25, with positive market breadth as gainers outnumbered decliners 228 to 116. Wall Street's mixed close, with gains in industrials and healthcare offset by declines in oil and gas and telecoms, set a cautious tone for regional markets. The moderate gains suggest continued but tentative recovery momentum on Bursa.",
+      "source": "FMT",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "Bursa rebounds to open higher on bargain hunting",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/24/bursa-rebounds-to-open-higher-on-bargain-hunting...",
+      "summary": "The FBM KLCI rebounded 4.55 points to 1,684.47 at the open on June 24, driven by bargain hunting following recent market lows. Regional sentiment remained fragile, with Hong Kong's Hang Seng retreating amid weakness in Chinese equities. The mixed Wall Street close and subdued regional confidence suggest limited near-term upside for Bursa.",
+      "source": "FMT",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Ringgit Rebounds Against US Dollar, ASEAN Currencies Ahead of US PMI",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/23/ringgit-rebounds-against-us-dollar-asean-currencies-ahead-of-us-pmi",
+      "summary": "The ringgit closed higher on Tuesday as investors adopted a wait-and-see approach ahead of key US PMI and PCE inflation data, with the currency showing modest resilience despite risk-off global sentiment. Analysts noted that upcoming US PCE data could either validate the Fed's hawkish direction or signal that dollar strength has been priced in, which would have implications for ringgit trajectory. Malaysian investors should monitor these external cues as they will influence portfolio flows and currency hedging decisions.",
+      "source": "FMT",
+      "date": "2026-06-23"
+    },
+    {
+      "title": "Bursa Extends Losses Amid Persistent Uncertainties",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/06/23/bursa-extends-losses-amid-persistent-uncertainties",
+      "summary": "Bursa Malaysia extended its decline as cautious sentiment prevailed amid geopolitical uncertainties and a Wall Street tech sell-off affecting AI-related stocks. Analysts expect the FBM KLCI to trade within the 1,680–1,700 range for the week, while noting that the recent pullback has made select blue-chip valuations more attractive for bargain hunters. Investors are watching for stabilisation in external conditions before committing to significant long positions.",
+      "source": "FMT",
+      "date": "2026-06-23"
     }
   ],
   "not_relevant": []
