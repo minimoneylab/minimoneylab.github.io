@@ -519,7 +519,6 @@
                 <button class="country-button" onclick="switchCountry('philippines')">
                     <span class="country-flag">PH</span>
                     <span class="country-name">Philippines</span>
-                    <span class="country-badge">Soon</span>
                 </button>
                 
                 <button class="country-button" onclick="switchCountry('indonesia')">
@@ -694,7 +693,7 @@
                 headerImgOther.alt = country.charAt(0).toUpperCase() + country.slice(1) + ' Illustration';
             }
             
-            if (country === 'taiwan' || country === 'vietnam' || country === 'brazil' || country === 'malaysia' || country === 'indonesia' || country === 'korea') {
+            if (country === 'taiwan' || country === 'vietnam' || country === 'brazil' || country === 'malaysia' || country === 'indonesia' || country === 'korea' || country === 'philippines') {
                 document.getElementById('taiwan-content').style.display = 'block';
                 document.getElementById('other-content').style.display = 'none';
                 const today = new Date().toISOString().split('T')[0];
