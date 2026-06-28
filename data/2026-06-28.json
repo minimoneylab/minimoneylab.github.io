@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-28",
+  "update_time": "2026-06-28 12:34:41",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "[Hon Hai & TSMC Join Forces in Silicon Photonics — Xinhsin Chairman Chiang Shang-Yi Confirms Close Collaboration on COUPE Platform]",
+      "section": "金融",
+      "date": "2026/06/27 00:55:36",
+      "url": "https://money.udn.com/money/story/5612/9591460?from=edn_maintab_cate",
+      "summary": "At Xinhsin-KY's (6451) shareholder meeting, Chairman Chiang Shang-Yi and General Manager Hsu Wen-Yi officially confirmed that Xinhsin — a Hon Hai (Foxconn) Group subsidiary — is in close technical collaboration with TSMC on the silicon photonics-related COUPE platform. The partnership focuses on back-end optical engine development, including fiber array integration, grating coupling, and co-packaged optics (CPO) and near-package optics (NPO) product lines. Chiang noted the collaboration began approximately three years ago, and the two companies are jointly advancing back-end verification. As AI data center demand rapidly escalates bandwidth and transmission requirements — with high-speed optical transmission moving from 800G toward 1.6T — CPO technology is becoming a critical inflection point. Xinhsin serves as Hon Hai Group's strategic entry point into CPO, silicon photonics, and photonic integrated packaging for AI infrastructure. **Market implication:** This confirms a deepening TSMC-Hon Hai ecosystem in the AI infrastructure supply chain. Investors in both TSMC (2330) and Hon Hai (2317), as well as related photonics and optical component suppliers, should take note of the accelerating commercialization of CPO as a structural growth theme.\n\n---"
+    },
+    {
+      "title": "TSMC's CoWoS Advanced Packaging Commands 95% Global Market Share — U.S. Semiconductor Push Hits Structural Bottleneck",
+      "section": "金融",
+      "date": "2026/06/28",
+      "url": "https://money.udn.com/money/story/5612/9592871?from=edn_maintab_cate",
+      "summary": "Despite years of massive U.S. government investment in domestic semiconductor manufacturing, reliance on TSMC (2330) has not diminished. According to the New York Times, TSMC controls approximately 95% of the global advanced packaging market through its proprietary CoWoS technology, which integrates large AI chips with multiple high-bandwidth memory stacks — a capability now identified as a critical bottleneck in the global race for AI dominance. NVIDIA's next-generation Rubin processors, for example, rely entirely on TSMC's CoWoS to package two large AI chips with eight HBM modules in a single unit. Analysts estimate TSMC's CoWoS capacity remains approximately 30% below current demand. TSMC's Arizona fab will not incorporate CoWoS until 2028–2029 at the earliest, meaning chips produced there must still be shipped back to Taiwan for packaging. Senior VP Chang Hsiao-chiang stated demand continues to accelerate, creating significant supply constraints. Competing efforts from Intel, Applied Materials, and Amkor are underway, but the U.S. currently accounts for only ~3% of global chip packaging capacity.\n\n**Market Implications:** TSMC's structural dominance in advanced packaging reinforces its irreplaceable position in the AI supply chain and supports a premium valuation. The 30% capacity deficit versus demand signals sustained pricing power and revenue visibility. This is a strong fundamental positive for TSMC shareholders and for Taiwan's broader semiconductor ecosystem. Risks include geopolitical pressure to accelerate U.S. capacity transfers and potential customer diversification efforts."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges 1,893 Points Last Week — Institutional Investors: Systemic Correction, Not Fundamental Reversal",
+      "section": "金融",
+      "date": "2026/06/28 10:12:30",
+      "url": "https://money.udn.com/money/story/11162/9593244?from=edn_subcatelist_cate",
+      "summary": "Taiwan's equity market suffered a severe sell-off last week, with the TAIEX closing at 44,571.76 on Friday — down 1,893.44 points or 4.07% for the week, breaking below the monthly moving average. The OTC index fared even worse, declining 7.11% over the same period. The weekly intraday swing exceeded 3,700 points, and Friday's single-day drop of 1,683.5 points was the largest of the year and the third largest on record.\n\nInstitutional analysts from Yu Shan Investment Trust attribute the correction primarily to valuation and liquidity pressures rather than any deterioration in underlying fundamentals. Key drivers include elevated market leverage amplifying volatility and sustained foreign investor net selling of Taiwan-listed equities. Notably, Micron's strong quarterly earnings were cited as evidence that the AI growth narrative remains intact.\n\nOn the U.S. side, the Philadelphia Semiconductor Index fell 5.29%, and TSMC's ADR closed down 0.61% to USD 432.35. Fund managers should monitor foreign investor flow data closely in the near term, as continued net selling could extend downside pressure, particularly in AI-linked names. A volatile week ahead is anticipated.\n\n---"
+    },
+    {
+      "title": "Rate Hike Beneficiary Stocks: Institutional Investors Accumulate SinoPac Financial, Far Eastern New Century Among 15 Names",
+      "section": "證券",
+      "date": "2026/06/28 02:47:38",
+      "url": "https://money.udn.com/money/story/5607/9592867?from=edn_maintab_cate",
+      "summary": "As market expectations for a Fed rate hike intensify, institutional investors are rotating into \"rate hike beneficiary\" stocks with four key themes: expanded net interest margins, FX gains from USD strength, inflation-hedging assets, and defensive consumer staples. On the banking and financial sector front, institutions are actively accumulating shares in Mega Financial (2886), First Financial (2892), Taiwan Cooperative Financial (5880), and **SinoPac Financial (2890)** — the latter seeing institutional net buying of 58,000 lots last week alone. USD-exposed names include Han Tang, AIDC (漢翔), EVA Air, China Airlines, and CTCI. Inflation hedges include Tung Ho Steel, Kuo Chan (國產), and Far Eastern New Century (1402). Defensive consumer plays include Uni-President, Lien Hwa, and Cheng Shin Rubber.\n\n**Market Implications:** This is a meaningful sector rotation signal. If the Fed proceeds with rate hikes, Taiwanese bank-centric financial holding companies stand to benefit from widening loan-deposit spreads. SinoPac's strong institutional accumulation warrants close monitoring. USD revenue-exposed industrials and airlines also offer partial hedges against TWD depreciation. Fund managers should reassess overweight positions in rate-sensitive growth sectors."
+    },
+    {
+      "title": "Five Investment Advisory Firms Forecast TAIEX to Challenge 50,000 in Q3; TSMC July Earnings Call to Be Key Catalyst",
+      "section": "證券",
+      "date": "2026/06/28 02:36:02",
+      "url": "https://money.udn.com/money/story/5607/9592833?from=edn_maintab_cate",
+      "summary": "Five major Taiwanese investment advisory heads (Fubon, Taishin, SinoPac, MasterLink, and Uni-President Securities) forecast the TAIEX to reach 48,000–50,000 points in Q3 2026, driven by robust corporate earnings, AI supply chain momentum, and new product cycles from NVIDIA and Apple. TSMC's (2330) quarterly earnings call, expected around July 16, is identified as the single most important near-term market catalyst — potentially determining whether the index rallies sharply or grinds higher gradually. On geopolitical risks, despite a US-Iran memorandum of understanding, unresolved issues including enriched uranium disposal and Strait of Hormuz toll fees continue to pose volatility risks. Overnight, the Philadelphia Semiconductor Index fell sharply by 5.29% (–737 points) following Apple's Mac price hikes and concerns over AI-driven component inflation and OpenAI's delayed IPO. However, TAIEX futures recovered +543 points in the after-hours session to 44,995, and TSMC's ADR declined only modestly (–0.61%), suggesting a relatively contained opening impact on Monday.\n\n**Market Implications:** The TSMC July earnings call is the most critical near-term event for Taiwan equity markets. Any guidance on advanced packaging capacity, CoWoS demand, or 2nm ramp will set the tone for the broader index. The semiconductor index selloff in the US warrants monitoring but appears partially priced in. Investors should be alert to Middle East escalation risks as a tail risk for energy costs and supply chain disruption."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[U.S. Stocks Close Slightly Lower as Dip Buyers Emerge; Philadelphia Semiconductor Index Falls Over 5%]",
+      "section": "金融",
+      "date": "2026/06/27 05:21:29",
+      "url": "https://money.udn.com/money/story/123398/9591651",
+      "summary": "U.S. equities closed modestly in the red on June 26 despite dip-buying activity cushioning early tech-driven volatility. The Dow Jones Industrial Average fell 44.51 points (-0.09%) to 51,876.11; the S&P 500 lost 3.47 points (-0.05%) to 7,354.02; and the Nasdaq declined 60.98 points (-0.24%) to 25,297.62. The Philadelphia Semiconductor Index (SOX) was the notable underperformer, dropping 737.3 points (-5.29%) to 13,203.57 — a significant move that will likely weigh on Taiwan's semiconductor-heavy TAIEX and related names including TSMC, MediaTek, and other fab/IC design stocks at the open. Fund managers should monitor whether the SOX weakness reflects specific sector news or broader risk-off sentiment heading into month-end."
+    },
+    {
+      "title": "[ICGN CEO Praises Taiwan's Expanded Participation: \"Taiwan's Excellence Should Be Known to the World\"]",
+      "section": "金融",
+      "date": "2026/06/27 08:46:18",
+      "url": "https://money.udn.com/money/story/11162/9591768?from=edn_subcatelist_cate",
+      "summary": "At the International Corporate Governance Network (ICGN) annual conference held in Amsterdam, Netherlands (June 24–26), CEO Jen Sisson welcomed Taiwan's expanded presence, noting that senior representatives from both the Taiwan Depository & Clearing Corporation (TDCC) and the Taipei Exchange (TPEx) attended. The ICGN comprises over 300 institutional investors across 40+ countries, managing assets exceeding USD 100 trillion, and promotes high standards of corporate governance and stewardship. Sisson highlighted Taiwan's growing alignment with international governance best practices and called Taiwan's initiatives \"exciting\" and worthy of global recognition. For fund managers, this signals continued efforts by Taiwan's market infrastructure institutions to enhance ESG credibility and attract long-term foreign institutional capital — a positive medium-term catalyst for market quality perception among global investors."
+    },
+    {
+      "title": "Vanguard International Semiconductor (VIS) Reports Order Visibility of 3–5 Months; 8-Inch Foundry Demand Remains Supply-Constrained",
+      "section": "金融",
+      "date": "2026/06/28",
+      "url": "https://money.udn.com/money/story/5612/9592865?from=edn_maintab_cate",
+      "summary": "Vanguard International Semiconductor (5347) Chairman Fang Lüeh stated that 8-inch wafer foundry demand is currently supply-constrained, with order visibility extending three to five months and second-half demand across the supply chain described as \"very robust.\" The company anticipates steady growth. AI-related applications now account for close to double-digit percentage of revenue, with further share gains expected. VIS remains focused on mature-node applications — particularly power management ICs and industrial analog chips — where AI's demand for low-power, high-efficiency integrated solutions is driving shortages. Management noted some double-ordering behavior but expressed confidence in underlying customer intent. On cost pressures from rising utilities and labor, management indicated price adjustments will be discussed with customers dynamically. To celebrate strong performance, VIS distributed NT$10,000–NT$35,000 bonuses to over 6,000 frontline employees, totaling more than NT$100 million.\n\n**Relevance:** VIS's commentary corroborates the broader theme of sustained mature-node tightness, providing positive read-through for other 8-inch foundry players and analog/power management chip suppliers in Taiwan's listed universe."
+    },
+    {
+      "title": "AI Memory Shortage Intensifies — Micron's Gross Margin Could Reach 90%; Target Price Doubled to USD 1,570",
+      "section": "產經",
+      "date": "2026/06/27 16:31:22",
+      "url": "https://money.udn.com/money/story/123398/9592425",
+      "summary": "A major domestic Taiwan brokerage maintains an \"Overweight\" rating on Micron (MU), dramatically raising its 12-month target price from USD 548 to USD 1,570 — a 186.5% increase — implying nearly 50% upside from the June 24 close of USD 1,048.51. The upgrade is driven by expectations that AI-related memory demand will remain in a supply deficit through at least 2027, largely due to the capacity displacement effect of High Bandwidth Memory (HBM) squeezing conventional DRAM supply. Micron has also signed 16 Strategic Customer Agreements (SCAs), mostly five-year contracts covering approximately 40% of revenue, providing significant earnings visibility. Emerging demand from Agentic AI and Physical AI (robotics, autonomous vehicles) is still in early stages, suggesting further upside potential. For Taiwan-focused investors, this is relevant as it reinforces the structural demand outlook for TSMC's advanced packaging and CoWoS capacity, as well as memory-adjacent supply chain names listed on the TAIEX.\n\n---"
+    },
+    {
+      "title": "Listed Companies Target Record Q3 Profit of NT$1.8 Trillion, Poised to Set New Taiwan Market Records",
+      "section": "證券",
+      "date": "2026/06/28 02:30:16",
+      "url": "https://money.udn.com/money/story/5607/9592835?from=edn_subcatelist_cate",
+      "summary": "Five major investment advisory firms project that Taiwan-listed companies will post Q2 2026 earnings of approximately NT$1.7 trillion (a new record), fueled by TSMC's consecutive monthly revenue records, strong AI supply chain shipments (NVIDIA GB300, Google TPU), and solid performance across PCB, thermal management, assembly, passive components, and memory sectors. Q3 earnings are forecast to climb further to NT$1.8 trillion, supported by the electronics industry's traditional peak season and new product launches from NVIDIA and Apple. Taiwan 50 constituent stocks are expected to contribute NT$1.25–1.36 trillion in Q3 profits alone, representing quarter-on-quarter growth of 8.8%–15%. These earnings projections provide the fundamental underpinning for the bullish TAIEX outlook cited above. The strong profit cycle reinforces a constructive medium-term view on Taiwan equities, particularly for investors with exposure to the AI supply chain and major index components like TSMC."
+    },
+    {
+      "title": "Formosa Plastics (1301) Sees Institutional Surge Ahead of Dividend Ex-Date and Q3 Seasonal Demand",
+      "section": "證券",
+      "date": "2026/06/27 23:07:31",
+      "url": "https://money.udn.com/money/story/5710/9592643?from=edn_subcatelist_cate",
+      "summary": "Formosa Plastics (1301) is attracting significant institutional buying ahead of its June 30 ex-dividend date, with net institutional purchases of 111,797 lots over the past 10 trading days. The company's Q3 outlook is supported by seasonal demand strength for PVC (Christmas decorations), HDPE (packaging), PP (beverage cups), and AE (coatings/tape). Additionally, seven Asian naphtha crackers are scheduled for maintenance in Q3, reducing ethylene supply by 560,000 tonnes and tightening the petrochemical supply-demand balance in Asia — a positive pricing backdrop for Formosa. Potential new policy tailwinds from India (temporary removal of PVC tariffs through June 30) and Mexico also provide incremental demand support. While upstream raw material disruptions from the Middle East conflict weighed on Q2 operating rates, rising crude and ethylene/propylene prices boosted revenue growth sequentially. This is relevant for investors monitoring the traditional industrial and materials sector as a value/income play with near-term catalysts."
+    }
+  ],
+  "not_relevant": []
+}
