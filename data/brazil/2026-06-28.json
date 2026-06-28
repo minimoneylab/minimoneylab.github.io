@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-28",
+  "update_time": "2026-06-28 01:45:31",
+  "total_articles": 4,
+  "high": [
+    {
+      "title": "Short and Intermediate DI Rates Fall as Bets on Selic Rate Cut Increase",
+      "section": "MoneyTimes",
+      "date": "2026-06-27",
+      "url": "https://www.moneytimes.com.br/taxas-curtas-e-intermediarias-caem-com-aumento-de-apostas-no-corte-da-selic/",
+      "summary": "Short and intermediate-term DI (Interbank Deposit) rates retreated on Friday as market participants reinforced positioning around an expected Banco Central do Brasil (BCB) rate cut at the August COPOM meeting. Long-end rates closed near flat, suggesting the market is pricing easing at the front end while remaining cautious about the longer-term inflation and fiscal outlook.\n\nThe Jan/2028 DI rate closed at **14.14%**, down **11 basis points** on the session. A secondary driver of the move was the pullback in international oil prices, which eased inflationary pressures and provided additional room for dovish repricing across the Brazilian yield curve."
+    },
+    {
+      "title": "Why it matters:"
+    }
+  ],
+  "medium": [
+    {
+      "title": "Real Estate Fund in Liquidation and IPCA+ Tesouro at 10%: Key Market Stories of the Week",
+      "section": "MoneyTimes",
+      "date": "2026-06-28",
+      "url": "https://www.moneytimes.com.br/fundo-imobiliario-em-liquidacao-e-tesouro-ipca-10-veja-o-que-mais-chamou-atencao-na-semana-igdl/",
+      "summary": "A notable market development this week was the cancellation of a Treasury (Tesouro Nacional) bond auction, with the market projecting returns on IPCA+ inflation-linked bonds approaching **10%** — a significant level that reflects either stress in demand or the government strategically pulling supply at elevated yield levels. This is relevant for fixed income investors as IPCA+ yields at or near 10% represent historically attractive real yields, but also signal underlying risk premium concerns in the Brazilian sovereign curve. The article also references a bank approving JCP (interest on net equity) payments of R$1.16 per share and a share buyback by Klabin (KLBN11). The Treasury auction cancellation is the most market-relevant element and warrants close monitoring for follow-on supply management decisions by the government.\n\n---"
+    },
+    {
+      "title": "Braskem (BRKM5) Melts Down 16% and Leads Ibovespa Losses for 2nd Consecutive Week; See Index Highlights",
+      "section": "MoneyTimes",
+      "date": "2026-06-28",
+      "url": "https://www.moneytimes.com.br/destaques-da-semana-ibov-26-6-26-apsa/",
+      "summary": "The Ibovespa regained momentum over the week, driven by below-expected inflation data both in Brazil and the United States, as well as profit-taking in foreign technology stocks — a dynamic that encouraged rotation of investments into other markets, including Brazil. The benchmark index posted a weekly gain of **+2.98%**, closing the final session at **173,295.14 points**. On the FX front, the spot USD/BRL rate ended the week largely stable at **R$ 5.1676**, registering a marginal weekly appreciation of just **+0.05%** for the dollar. The softer-than-expected inflation prints are particularly meaningful for Brazilian fixed income and equity investors: benign IPCA data could reduce pressure on the Banco Central do Brasil to maintain an aggressive tightening stance beyond current Selic guidance, potentially providing a tailwind for both bonds and equities. Traders should watch whether the rotation dynamic into Brazilian equities sustains into next week, and monitor any updated BCB communication in response to improving inflation trends. Braskem's continued sharp decline (-16%) signals ongoing idiosyncratic stress in the petrochemical sector.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "*(No articles were fully irrelevant — the single article submitted contained macro-relevant data on the Ibovespa, USD/BRL, and inflation context and was classified as Medium Importance)*"
+  ]
+}
