@@ -328,7 +328,7 @@
             try {
                 // Add cache busting timestamp to prevent stale data
                 const timestamp = new Date().getTime();
-                const response = await fetch(`data/overnight-indicators.json?t=${timestamp}`);
+                const response = await fetch(`data/overnight-signals.json?t=${timestamp}`);
                 if (!response.ok) throw new Error('Failed to load data');
                 
                 const data = await response.json();
