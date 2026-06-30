@@ -1,0 +1,174 @@
+{
+  "date": "2026-07-01",
+  "update_time": "2026-07-01 06:08:04",
+  "total_articles": 33,
+  "high": [
+    {
+      "title": "South Korea's Massive Investment: DRAM Capacity to Double in Five Years — Global Memory Industry Stress Test",
+      "section": "金融",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5612/9596409?from=edn_maintab_cate",
+      "summary": "South Korea's government announced its largest-ever semiconductor investment initiative, led by Samsung and SK Hynix under a \"Three Super Plans\" framework. The two Korean giants will jointly invest 800 trillion KRW (~USD 518.2 billion; NTD 16.5 trillion) to expand production capacity, targeting a doubling of DRAM output within five years. The investment focuses on High Bandwidth Memory (HBM), DDR5, and high-capacity NAND flash — product categories aligned with AI infrastructure demand.\n\nHowever, industry analysts warn that historical precedent suggests large-scale capacity announcements often signal a cyclical peak. Because memory capacity across product types is interchangeable operationally, any demand shortfall could trigger a sharp collapse in pricing. Taiwan's memory-related companies — **Nanya Technology (2408), Winbond (2344), Adata (3260), and Phison (8299)** — are all on high alert. Samsung and SK Hynix shares fell sharply on the announcement (Samsung -4.7%), while U.S. peer Micron dropped over 8% in early trading. Taiwan names saw mixed reactions. **Market implication**: This development represents a significant medium-term overhang for Taiwan's memory sector, with potential pricing pressure if AI-driven demand growth fails to absorb the expanded supply. Fund managers with exposure to Taiwan memory stocks should reassess position sizing and monitor HBM demand indicators closely."
+    },
+    {
+      "title": "Samsung and SK Hynix Expand Aggressively — Taiwan Memory Makers Adopt Defensive Strategy",
+      "section": "金融",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5612/9596442?from=edn_subcatelist_cate",
+      "summary": "In response to the Korean industry's unprecedented capacity expansion, Taiwan's memory manufacturers are adopting a \"defense over offense\" posture — prioritizing process upgrades, premium products, and niche applications rather than competing on volume. **Nanya Technology (2408)** has earmarked over NTD 52 billion in capex for 2026, primarily for its new 5A fab and advanced process R&D, with new fab equipment installation planned for Q1 2027 and mass production in H2 2027. This is expected to lift Nanya's overall capacity by 80–100% over two to three years. On the process technology side, Nanya has already begun mass production of 1B-generation (10nm-class) DDR5 and DDR4, and is on track to validate 1C-generation DDR5 in H2 2026, with 1D generation in development. **Winbond (2344), iM Flash/PSMC (6770), and Macronix (2337)** are similarly focusing capex on advanced nodes and specialty applications. **Market implication**: While Taiwan's defensive positioning limits direct volume competition, the sector faces a prolonged period of pricing uncertainty. Nanya's significant capex commitment could weigh on near-term free cash flow, while its niche DDR5 server product validation progress is a key positive catalyst to monitor."
+    },
+    {
+      "title": "Hon Hai Competes for Japan's Domestic AI Opportunity — Sharp (Hon Hai Subsidiary) Reportedly Participating in SoftBank-Related Project",
+      "section": "金融",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5612/9596449?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317) is emerging as a key player in Japan's sovereign AI push. According to Nikkei reporting, Sharp — a company in which Hon Hai holds a strategic investment — is expected to participate in SoftBank's \"Japan AI Foundation Model Development\" project, which aims to build Japan's largest AI model by 2027, targeting 1 trillion parameters. The project's four core shareholders include SoftBank, NEC, Honda, and Sony, with over 40 companies expected to eventually invest. Hon Hai's long-standing relationship with SoftBank positions it well to secure AI server manufacturing orders tied to this initiative. This follows a recently signed cooperation agreement between Hon Hai and Sharp last week. For fund managers, this represents a meaningful expansion of Hon Hai's Japan AI revenue pipeline beyond its existing U.S.-centric AI server business, diversifying its geographic exposure in the AI infrastructure buildout. The project's 2027 timeline aligns with Hon Hai's broader AI server capex cycle and could provide a recurring order stream."
+    },
+    {
+      "title": "SpaceX Targets Commercial AI Model Market with Grok 4.5 — Taiwan Supply Chain Including Hon Hai and Quanta Expected to Benefit",
+      "section": "金融",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/11162/9596419?from=edn_subcatelist_cate",
+      "summary": "Elon Musk announced that SpaceX's latest Grok 4.5 model — built on a v9 base model with 1.5 trillion parameters and trained using data from AI coding tool Cursor (acquired by SpaceX for USD 60 billion this month) — is undergoing internal testing at SpaceX and Tesla, with performance potentially surpassing Anthropic's flagship Opus model. SpaceX plans to expand its GPU cluster to 1 million units by end-2026. This surge in compute demand is expected to directly benefit Taiwan's AI server supply chain, particularly Hon Hai (2317), Quanta (2382), and Wistron (3231), all of which have secured positions in SpaceX's AI server manufacturing. For investors, the combination of SpaceX's aggressive compute scaling and the Anysphere/Cursor acquisition signals accelerating AI infrastructure spending — a clear positive read-through for Taiwan's AI server ODM names. Hon Hai in particular benefits from dual exposure to both SoftBank (Japan) and SpaceX (U.S.) AI buildouts."
+    },
+    {
+      "title": "Taiwan Stock Market Bullish Outlook for July — TSMC Analyst Day a Key Catalyst; Index Could Challenge 50,000 Points",
+      "section": "證券 (Securities)",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5607/9596411?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index closed at 44,999 on June 29, rising 428 points in a single session, driven by heavyweight technology stocks including TSMC (2330, +NT$30 to NT$2,370), MediaTek (2454, +NT$30 to NT$3,910), and Delta Electronics (2308, +NT$95 to NT$1,905). Daily turnover reached NT$1.04 trillion, though down from the prior Friday's NT$1.67 trillion. The monthly closing line is expected to mark a third consecutive monthly gain.\n\nThree major investment advisory heads — Fubon Securities Investment's Chen Yi-guang, Chailease Securities Investment's Li Xiu-li, and Taishin Securities Investment's Huang Wen-qing — unanimously see upside potential in July, with a target range of 48,000–50,000 and support at 42,000–44,000. The primary catalyst identified is TSMC's earnings call on July 16, which analysts expect will trigger the next bullish leg. Huang notes the rally may materialize post-earnings rather than pre-event, suggesting near-term consolidation. Positive Q2 earnings and mid-year revenue reports from listed companies are additional tailwinds."
+    },
+    {
+      "title": "TSMC's Mature Node Capacity Reduction Drives Pricing Uptrend Through 2027",
+      "section": "金融",
+      "date": "2026/07/01 00:12:21",
+      "url": "https://money.udn.com/money/story/11162/9598787?from=edn_subcatelist_cate",
+      "summary": "TrendForce's latest report (June 30) indicates that mature process node (8-inch and 12-inch) wafer pricing is expected to remain on an upward trajectory through 2027, driven by a structural supply-demand imbalance. As TSMC and Samsung aggressively redirect capacity toward advanced nodes and advanced packaging, mature process capacity is being squeezed — creating a tightening supply environment. Demand is being fueled by AI server, general-purpose server, and edge AI applications, all of which rely heavily on mature nodes. 8-inch capacity has already entered a supply-tight phase, while 12-inch mature nodes are gradually stabilizing and building toward price increases. UMC (2303) — Taiwan's largest pure-play mature-node foundry — is identified as the primary beneficiary of this multi-year pricing uptrend. Vanguard International Semiconductor and PSMC are also expected to benefit. The shift of secondary and tertiary fabs toward higher-margin AI applications (PMIC, power devices, silicon interposers) further reduces available capacity for traditional products like CIS and driver ICs, reinforcing the structural pricing advantage for mature-node specialists.\n\n**Market Implication:** Constructive for UMC, Vanguard, and PSMC. Investors should revisit valuation multiples for these names given the extended pricing cycle. Monitor TSMC capex disclosures for further capacity reallocation signals."
+    },
+    {
+      "title": "China's NOR Flash Leader GigaDevice Warns of Significant Price Decline — Taiwan Peers at Risk",
+      "section": "金融",
+      "date": "2026/06/30 23:13:53",
+      "url": "https://money.udn.com/money/story/11162/9598850?from=edn_subcatelist_cate",
+      "summary": "GigaDevice (兆易創新), China's largest and globally top-3 NOR Flash supplier listed on Shanghai and Hong Kong exchanges, has issued a formal public warning stating that its memory chip prices are at historical highs and face the risk of a \"significant decline.\" The company explicitly flagged downside risks to gross margins and overall profitability — a stark contrast to the broadly bullish consensus among global memory players who largely expect supply tightness to persist into 2027. GigaDevice's product portfolio overlaps heavily with Taiwan-listed Macronix (旺宏, 2337) and Winbond (華邦), and partially competes with Nanya Technology (南亞科). Notably, GigaDevice previously waged aggressive price wars against these Taiwanese peers in prior down-cycles, inflicting significant margin pressure. Market participants are now closely watching whether this warning signals a premature peak in the NOR Flash and niche memory pricing cycle. GigaDevice also operates in SLC NAND, DDR3/4, LPDDR4X, MCU, sensors, and automotive electronics.\n\n**Market Implication:** Near-term negative sentiment risk for Macronix (2337), Winbond, and Nanya Tech. If GigaDevice's warning reflects genuine demand-side softness rather than company-specific issues, it could challenge the \"super-cycle\" narrative for niche memory. Investors should closely monitor Q3 pricing data and management commentary from Taiwan memory peers."
+    },
+    {
+      "title": "Taiwan Stock Market H2 Outlook: Institutions Increasingly Bullish, Target of 55,000 Points",
+      "section": "證券 (Securities)",
+      "date": "2026/07/01 01:32:12",
+      "url": "https://money.udn.com/money/story/5607/9598828?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark weighted index surged 1,126 points on June 30 — the final trading session of H1 2026 — closing at 46,125, reclaiming the 46,000-point level in a strong rebound. Looking ahead to the second half, domestic and foreign institutional investors are increasingly optimistic, with consensus targets converging around 50,000 points and bullish scenarios projecting as high as 55,000 points.\n\nKey institutional targets: KGI Securities (50,000; bullish case 55,000), Taishin Securities (53,176), Capital Securities (53,000), Goldman Sachs (51,000), JPMorgan (bullish case 50,000), and Mega/Cathay United at 50,000. The primary driver is a strong fundamental backdrop, with listed company earnings growth forecasts being revised upward toward 40% YoY — Mega Securities projects as high as 49.7%.\n\nDespite the price-to-book ratio hitting a historical high of 4.18x — prompting some foreign investor profit-taking — domestic buying remains robust, supported by the National Stabilization Fund and rising margin balances. **Market implications**: The dual tailwinds of liquidity and policy support, combined with surging corporate earnings revisions, suggest a constructive environment for Taiwan equities in H2. Fund managers should monitor the sustainability of domestic buying flows and whether foreign investors re-engage as valuations stretch."
+    },
+    {
+      "title": "Listed Company Salary Rankings: MediaTek Wins Crown for Fifth Consecutive Year; TSMC Salary Surpasses NT$4 Million for First Time",
+      "section": "證券 (Securities)",
+      "date": "2026/07/01 00:35:01",
+      "url": "https://money.udn.com/money/story/5607/9598746?from=edn_maintab_cate",
+      "summary": "The Taiwan Stock Exchange (TWSE) released 2025 average salary data for non-managerial full-time employees at listed companies. The semiconductor sector dominated all top ten positions. MediaTek (2454) retained the title for the fifth consecutive year with an average salary of NT$4.465 million. ASMedia surged 38.81% YoY to NT$4.281 million, jumping to second place, while TSMC came in third at NT$4.072 million — crossing the NT$4 million threshold for the first time, representing a 20.08% YoY increase.\n\nThe top five were: MediaTek (NT$4.465M), ASMedia (NT$4.281M), TSMC (NT$4.072M), Realtek (NT$3.871M), and Airoha Technology (NT$3.533M). The salary median for MediaTek stands at NT$3.552M, confirming the headline figure is not distorted by outliers. The minimum bar for top-10 entry now starts at NT$2.805M. **Market implications**: Rapidly rising compensation costs across the semiconductor sector — particularly TSMC's 20% jump — are worth monitoring for their impact on operating margins. However, these figures also reflect strong demand for talent, underpinning continued R&D investment and competitiveness of Taiwan's IC design and manufacturing ecosystem."
+    },
+    {
+      "title": "Taiwan Stock Market H1 2026: Five Record-Breaking Achievements in an \"Galloping Bull\" Rally",
+      "section": "證券 (Securities)",
+      "date": "2026/07/01 01:02:13",
+      "url": "https://money.udn.com/money/story/5607/9598838?from=edn_subcatelist_cate",
+      "summary": "Taiwan's equity market delivered an historic first half of 2026, setting five simultaneous H1 records: index gain, market capitalization increase, total turnover value, domestic investment trust net buying, and number of stocks trading above NT$1,000/share. The TAIEX surged 17,162 points in H1, described as an \"epic rally,\" with combined listed and OTC market cap expanding by NT$60.72 trillion. Total H1 turnover reached NT$118.85 trillion. Notably, foreign investors were net sellers of NT$951.15 billion, while domestic investment trusts were net buyers of NT$396.6 billion — a significant divergence underscoring the role of domestic capital in sustaining the rally. The market absorbed a sharp 3,691-point correction in March triggered by a Middle East conflict outbreak, before staging a V-shaped recovery over three consecutive months. Key bellwethers drove outsized gains: **TSMC (2330)** surged NT$860/share, adding NT$22.3 trillion in market cap; **MediaTek (2454)** soared NT$2,815/share (+196%), adding NT$4.51 trillion. The strong H1 performance is attributed to robust semiconductor and AI export fundamentals, alongside what analysts characterize as a domestic liquidity surge — echoing the historic \"Taiwan money flooding the streets\" phenomenon. Fund managers should note the foreign-domestic capital divergence as a key structural dynamic entering H2.\n\n---"
+    }
+  ],
+  "medium": [
+    {
+      "title": "EVA Air: AI Boom Ignites Charter Flight Wave — Freight Rates \"No Ceiling, Only Higher\"",
+      "section": "金融",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5612/9596416?from=edn_maintab_cate",
+      "summary": "EVA Air (2618) President Sun Jia-ming stated that NTD 300 per kilogram has become the new market baseline for air cargo rates as of July, driven by surging demand from AI server shipments. Urgent order pricing has no ceiling, with the market seeing a renewed wave of full-aircraft and block-space charters. AI servers now account for an estimated 40–50% of aviation high-tech cargo, and due to their large dimensions, heavy weight, and high unit value, they primarily require dedicated freighter capacity rather than belly cargo — amplifying rate sensitivity to demand spikes. Sun noted that Taiwan's supply chain accounts for approximately 80% of global AI component sourcing, providing a structural demand anchor. With H2 traditional peak season approaching, management expects rates to continue trending upward through year-end. **Market implication**: EVA Air (2618) remains a direct beneficiary of the AI supply chain logistics boom, with strong pricing power and visible demand visibility into year-end supporting the earnings outlook."
+    },
+    {
+      "title": "KMT Proposes NTD 240 Billion Drone Procurement Bill — TPP Also to Submit Proposal; Expected to Be Referred Friday",
+      "section": "金融",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5612/9596352?from=edn_maintab_cate",
+      "summary": "Taiwan's KMT legislative caucus is preparing its own version of a drone procurement special bill, with a proposed budget ceiling of NTD 240 billion over six years — exceeding the Executive Yuan's NTD 210 billion over five-and-a-half years. The KMT version would return spending to the annual budget cycle and include tax incentive provisions. The Taiwan People's Party (TPP) is also drafting a competing version. All three major parties now back drone industry development legislation, with the bills expected to be referred to committee on July 3. Taichung Mayor Lu Hsiu-yen expressed support for the KMT's NTD 240 billion figure, framing drones as Taiwan's next \"guardian of the nation\" industry after TSMC. **Market implication**: Legislative momentum across party lines is a positive signal for Taiwan's domestic drone and defense supply chain. Companies in unmanned aerial vehicle components, avionics, and related defense electronics may benefit from sustained policy tailwinds regardless of which bill version ultimately passes."
+    },
+    {
+      "title": "U.S. Investors Buy the Dip in Tech Stocks — All Four Major Indices Close Higher",
+      "section": "產經 (Business/Economy)",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5599/9596610",
+      "summary": "U.S. equity markets rebounded strongly on June 29 as investors bought beaten-down technology stocks. The Dow Jones rose 0.59% to 52,182.74; the S&P 500 gained 1.18% to 7,440.43; the Nasdaq surged 2.07% to 25,820.14; and the Philadelphia Semiconductor Index jumped 3.83% to 13,709.66. The recovery follows last week's broad selloff and signals renewed risk appetite, particularly in the semiconductor space. This external tailwind is directly relevant to Taiwan's tech-heavy market and may support further upside in TSMC, MediaTek, and related supply chain names when Taiwan markets open."
+    },
+    {
+      "title": "U.S. Supreme Court Blocks Trump's Removal of Fed Governor Cook — Fed Independence Temporarily Upheld",
+      "section": "產經 (Business/Economy)",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5599/9596606",
+      "summary": "The U.S. Supreme Court ruled 5-4 on June 29 that Fed Governor Lisa Cook may temporarily remain in her position while litigation over her dismissal by President Trump proceeds. Chief Justice Roberts wrote that accepting the administration's argument would allow the President to remove Fed governors at any time without judicial review, effectively nullifying statutory protections. The ruling does not definitively resolve whether Trump has the authority to dismiss Fed board members, but it preserves near-term Fed institutional independence. For Taiwan-focused investors, this is relevant as any erosion of Fed autonomy could affect U.S. rate policy expectations, USD trajectory, and in turn the TWD and capital flows into emerging markets including Taiwan."
+    },
+    {
+      "title": "12 High-Volume Turnaround Stocks Attract Institutional Accumulation",
+      "section": "證券 (Securities)",
+      "date": "2026/06/30",
+      "url": "https://money.udn.com/money/story/5607/9596083?from=edn_maintab_cate",
+      "summary": "Taiwan's market saw selective institutional buying on June 29 despite limited overall rebound momentum. Stocks with net institutional buying exceeding 800 lots over five days and single-day volume breakouts include Pixart Imaging, Lelon Electronics, AU Optronics (2409), Asix Electronics, Merida Industry, Syntech, MSI, and Taishin-Shin Kong Financial. Single-day gains ranged from 3.4% to 9.8%. AU Optronics is transitioning into a panel-based systems integrator and is entering optical communications, attracting catch-up buying. Analysts recommend a tactical approach — buying on weakness, selling on strength — while keeping overall portfolio exposure measured given lingering macro headwinds including a cautious Fed and delayed OpenAI IPO."
+    },
+    {
+      "title": "Qualcomm's 5G Flagship Chip Challenges MediaTek: New Battle Ignites Between the Two Rivals",
+      "section": "金融",
+      "date": "2026/07/01",
+      "url": "https://money.udn.com/money/story/5612/9598807?from=edn_maintab_cate",
+      "summary": "Qualcomm has announced its \"2026 Snapdragon Summit\" scheduled for September 22–24 in Hawaii, where it is widely expected to unveil the Snapdragon 8 Elite Gen 6, manufactured on TSMC's 2nm process. MediaTek (2454) is anticipated to respond with its own next-generation 5G flagship chip, also built on TSMC's 2nm node, reigniting direct competition in the premium smartphone segment. The competitive dynamic between Qualcomm and MediaTek is a net positive for TSMC, which captures advanced process orders from both camps simultaneously. While near-term smartphone market headwinds remain a concern for 2026, the race to 2nm production validates TSMC's technology leadership and supports robust capacity utilization at its leading-edge fabs. Investors in MediaTek should watch for the timing of its own product launch announcement as a potential near-term catalyst."
+    },
+    {
+      "title": "Chinese Memory Chipmaker GigaDevice Warns of Price Peak; Taiwan Peers Macronix, Winbond, and Nanya on Alert",
+      "section": "金融",
+      "date": "2026/07/01",
+      "url": "https://money.udn.com/money/story/5612/9598796?from=edn_maintab_cate",
+      "summary": "GigaDevice, China's largest and the world's third-largest NOR Flash supplier, has issued a rare public warning that memory chip prices have reached historical highs and face the risk of a \"significant decline,\" citing adverse impacts on the company's gross margins and overall profitability. This warning is notable as it runs counter to the prevailing industry consensus that the memory upcycle will extend at least through 2027. The announcement directly impacts Taiwan peers Macronix (2337), Winbond, and Nanya Technology, which compete in overlapping product segments including NOR Flash, SLC NAND, and niche DRAM. Given that GigaDevice previously used aggressive pricing to pressure Taiwan memory makers during the last downcycle, its early warning signal deserves serious attention. Fund managers with exposure to Taiwan's niche memory sector should reassess near-term earnings risk and monitor whether broader memory pricing data confirms or contradicts GigaDevice's cautionary outlook."
+    },
+    {
+      "title": "Yageo Announces Broadest-Ever Passive Component Price Hike Effective July 1",
+      "section": "金融",
+      "date": "2026/07/01 00:20:22",
+      "url": "https://money.udn.com/money/story/5612/9598784?from=edn_maintab_cate",
+      "summary": "Yageo (國巨, 2327), Taiwan's leading passive component manufacturer, has notified customers of across-the-board price increases effective July 1, covering its entire capacitor product line — including MLCC, aluminum electrolytic, tantalum, polymer aluminum, film capacitors, and supercapacitors. This is described as Yageo's widest-scope price hike in recent years. The increases reflect rising global manufacturing costs including geopolitical risk premiums, elevated energy prices, and high metal and petrochemical input costs. Institutional investors are broadly positive on the earnings impact, given that capacitor products account for approximately 50% of Yageo's revenue. Other Taiwan supply chain passive component peers are expected to benefit concurrently. End markets affected span AI servers, smartphones, EVs, base stations, and industrial equipment.\n\n**Market Implication:** Positive for Yageo (2327) and Taiwan-listed passive component peers. The breadth of this hike — covering six product categories — suggests structural cost pressure rather than opportunistic pricing, which may support durability of the price increase."
+    },
+    {
+      "title": "Formosa Plastics Steps Up to Supply Critical Electronic-Grade Hydrofluoric Acid Amid Shortage",
+      "section": "金融",
+      "date": "2026/07/01 00:05:24",
+      "url": "https://money.udn.com/money/story/5612/9598788?from=edn_maintab_cate",
+      "summary": "Electronic-grade hydrofluoric acid (HF) — a critical wet chemical in wafer fabrication — is reportedly facing a supply shortage, with TSMC, Samsung, and SK Hynix all competing to secure supply. Prices are rising sharply. Formosa Plastics' (台塑, 1301) subsidiary Formosa Daikin (台塑大金), a 50/50 joint venture with Japan's Daikin Industries, holds approximately 55% domestic semiconductor market share and is the primary domestic supplier of ultra-high-purity HF meeting sub-3nm advanced process requirements. Formosa Daikin is currently undergoing capacity expansion (Phase 2 at Dafa plant and Phase 2.5 at Renwu plant), adding 2,800 tonnes of ammonium fluoride and additional HF capacity. The global EG-HF market CAGR is approximately 6%.\n\n**Market Implication:** Incrementally positive for Formosa Plastics (1301) as a beneficiary of semiconductor supply chain tightness. Investors with broader materials sector exposure should note this as a downstream indicator of sustained AI-driven advanced node capacity buildout at TSMC."
+    },
+    {
+      "title": "Maersk Upgrades 2026 Earnings Forecast; Taiwan Container Shipping \"Big Three\" Set to Outperform",
+      "section": "金融",
+      "date": "2026/07/01 02:02:32",
+      "url": "https://money.udn.com/money/story/5612/9598867?from=edn_subcatelist_cate",
+      "summary": "AP Møller-Maersk, the world's second-largest container shipping operator, has significantly raised its 2026 earnings guidance, now projecting EBITDA of USD 8–10 billion (vs. prior USD 4.5–7 billion) and adjusted EBIT of USD 2–4 billion. The upward revision is driven by accelerated U.S. imports from China ahead of anticipated new tariff implementation, restocking demand from European and U.S. importers, and fuel surcharges taking effect in early July. Taiwan's container shipping trio — Evergreen (長榮, 2603), Yang Ming (陽明), and Wan Hai (萬海) — are expected by domestic freight forwarders to outperform international peers in 2026 growth momentum. Maersk also raised its global container volume growth forecast to approximately 4% from 2–4% previously.\n\n**Market Implication:** Positive read-through for Evergreen (2603), Yang Ming, and Wan Hai. However, investors should note the tariff front-loading dynamic may create a Q3/Q4 demand cliff if U.S. import activity normalizes post-tariff implementation."
+    },
+    {
+      "title": "Chenbro Micom (川湖) Targets Sequential Quarterly Growth; New U.S. Factory in Houston Set for Mass Production in September",
+      "section": "證券 (Securities)",
+      "date": "2026/07/01 00:42:10",
+      "url": "https://money.udn.com/money/story/5710/9598515?from=edn_maintab_cate",
+      "summary": "Server rack and slide rail manufacturer Chenbro Micom (2059) held its AGM on June 30, announcing that its new U.S. factory in Houston, Texas is on track for mass production in September–October 2026, providing a new growth catalyst. Management cited Houston's industrial infrastructure, supply chain depth, and talent availability as key location advantages. The U.S. facility also serves as a supply chain hedge given geopolitical tensions in the Middle East affecting Asian logistics. A second Taiwan facility is expected to begin production in mid-2027, further reinforcing capacity expansion. Management guided for double-digit revenue growth YoY with sequential quarterly improvement throughout 2026, supported by rising server rail penetration rates among cloud service providers (CSPs) and AI-driven demand diversification.\n\n---"
+    },
+    {
+      "title": "MediaTek (2454): ASIC Growth Story Drives Over 100-Day Bullish Momentum",
+      "section": "證券 (Securities)",
+      "date": "2026/07/01 00:50:45",
+      "url": "https://money.udn.com/money/story/5739/9598878?from=edn_subcatelist_cate",
+      "summary": "MediaTek's recent share price outperformance is underpinned by accelerating ASIC business traction, with ASIC revenue expected to contribute approximately USD $2 billion (~10% of revenue) in 2026, rising to nearly 30% of revenue in 2027. The company's collaboration with NVIDIA on the RTX Spark super-chip positions MediaTek to penetrate the high-end Windows PC SoC supply chain, expanding the CUDA/RTX ecosystem to the PC platform and diversifying away from its consumer electronics base. In the smartphone segment, MediaTek has secured multiple design wins for next-generation flagship SoCs built on a 2nm process — its first 2nm product — with handset launches expected in Q3 2026, supporting H2 revenue improvement. Institutional analysts forecast double-digit full-year revenue growth in the intelligent edge platform segment, continuing into 2027. For fund managers, MediaTek represents a compelling AI infrastructure play within the Taiwan listed universe, with ASIC and PC AI as the key re-rating catalysts."
+    },
+    {
+      "title": "Guo Zhe-rong (Moore Investment Advisory): Can Taiwan Stocks Rally Another 10,000 Points in July?",
+      "section": "證券 (Securities)",
+      "date": "2026/06/30 18:40:28",
+      "url": "https://money.udn.com/money/story/5607/9598355?from=edn_maintab_cate",
+      "summary": "Moore Investment Advisory CIO Guo Zhe-rong commented on today's dramatic TAIEX session, which saw an intraday surge of 1,600 points before a late-session pullback of over 400 points attributed to foreign investor rebalancing across Asian equity weightings — ultimately closing up 1,126 points. Guo noted that foreign futures short positions increased by over 6,000 contracts, pushing total open short interest above 83,000 contracts — the second-highest level in Taiwan market history. Importantly, he attributed this not to outright bearish positioning, but to futures-cash arbitrage strategies exploiting an unusually wide positive basis of 500–600 points. On the July outlook, Guo assessed that a straight 10,000-point gain is challenging, but once the TAIEX breaks the 50,000-point threshold, a follow-on 7,000–8,000 point rally would become more achievable. Fund managers should monitor the futures basis and foreign investor positioning dynamics carefully as technical resistance levels approach."
+    }
+  ],
+  "not_relevant": [
+    "*All five articles were assessed as relevant to Taiwan listed companies and have been covered above. No articles were excluded.*",
+    "*All three articles were deemed relevant to Taiwan listed companies and major stocks (TSMC, MediaTek) covered under the mandate. No articles were excluded.*"
+  ]
+}
