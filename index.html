@@ -363,6 +363,38 @@
             color: #C4C4C4;
             margin-top: 16px;
         }
+
+        .status-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 14px;
+            padding: 10px 14px;
+            background: #F8F8F8;
+            border-radius: 8px;
+            font-size: 0.8125rem;
+            color: #6B6B6B;
+            flex-wrap: wrap;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .status-dot.green { background: #22C55E; box-shadow: 0 0 0 2px rgba(34,197,94,0.2); }
+        .status-dot.red   { background: #EF4444; box-shadow: 0 0 0 2px rgba(239,68,68,0.2); }
+        .status-dot.grey  { background: #D4D4D4; }
+
+        .status-pill {
+            background: #EFEFEF;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            color: #6B6B6B;
+        }
         
         .mobile-menu-button {
             display: none;
@@ -616,6 +648,10 @@
                         <div class="archive-box">
                             <div class="archive-title">📅 Past Briefings</div>
                             <div id="archive-dates" class="archive-dates"></div>
+                            <div id="status-bar" class="status-bar" style="display:none;">
+                                <div id="status-dot" class="status-dot grey"></div>
+                                <span id="status-text">—</span>
+                            </div>
                         </div>
                     </div>
                     
@@ -788,6 +824,14 @@
                 `;
                 
                 document.getElementById('update-time').textContent = '';
+
+                // Status bar — red, no data
+                const bar2  = document.getElementById('status-bar');
+                const dot2  = document.getElementById('status-dot');
+                const text2 = document.getElementById('status-text');
+                bar2.style.display = 'flex';
+                dot2.className = 'status-dot red';
+                text2.innerHTML = 'No data uploaded for this date';
                 
                 document.querySelectorAll('.date-button').forEach(btn => btn.classList.remove('active'));
                 document.querySelectorAll('.date-button').forEach(btn => {
@@ -812,6 +856,33 @@
             document.getElementById('stat-high').textContent = data.high?.length || 0;
             document.getElementById('stat-medium').textContent = data.medium?.length || 0;
             document.getElementById('stat-low').textContent = data.not_relevant?.length || 0;
+
+            // Status bar
+            const today = new Date().toISOString().split('T')[0];
+            const isToday = (dateStr === today);
+            const high = data.high?.length || 0;
+            const med  = data.medium?.length || 0;
+            const total = data.total_articles || (high + med);
+            const uploadTime = data.update_time || '';
+
+            const dot  = document.getElementById('status-dot');
+            const text = document.getElementById('status-text');
+            const bar  = document.getElementById('status-bar');
+            bar.style.display = 'flex';
+
+            if (isToday && total > 0) {
+                dot.className = 'status-dot green';
+            } else if (!isToday && total > 0) {
+                dot.className = 'status-dot grey';
+            } else {
+                dot.className = 'status-dot red';
+            }
+
+            const timeLabel = uploadTime ? uploadTime.replace('T', ' ').slice(0, 16) : '—';
+            text.innerHTML = `Uploaded <strong>${timeLabel}</strong>
+                &nbsp;·&nbsp; <span class="status-pill">🔴 ${high} high</span>
+                <span class="status-pill">🟡 ${med} medium</span>
+                <span class="status-pill">📰 ${total} total</span>`;
             
             const container = document.getElementById('content-sections');
             container.innerHTML = '';
