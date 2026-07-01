@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-02",
+  "update_time": "2026-07-02 04:18:17",
+  "total_articles": 2,
+  "high": [],
+  "medium": [
+    {
+      "title": "Yen Sinks to Four-Decade Low as Dollar Gets Yields Boost",
+      "section": "Forex",
+      "date": "Jul 01, 2026",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/yen-sinks-to-four-decade-low-as-dollar-gets-yields-boost/articleshow/132103841.cms",
+      "summary": "The USD surged to a 40-year high against the Japanese Yen, driven by rising U.S. Treasury yields and intensifying market expectations of a Federal Reserve rate hike. Traders are closely monitoring upcoming U.S. nonfarm payrolls data, with any upside surprise likely to further cement Fed tightening bets and sustain dollar strength. Japanese authorities are reportedly considering FX intervention to defend the yen, particularly given that a U.S. holiday could reduce liquidity and amplify market moves. **Relevance to INR:** Broad USD strength is a direct headwind for the Rupee. A hawkish Fed repricing — especially if jobs data beats expectations — would widen the India-U.S. rate differential in favor of the dollar, increasing pressure on INR/USD and potentially prompting RBI to deploy FX reserves defensively. INR traders should monitor U.S. 10-year Treasury yields and DXY closely heading into the jobs print. Watch for RBI intervention signals if INR tests key support levels."
+    },
+    {
+      "title": "Indian Equities Decline for Second Session; Nifty Eyes 23,800 Support",
+      "section": "Stocks",
+      "date": "Jun 30, 2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-wednesday/articleshow/132096635.cms",
+      "summary": "Indian equities extended their losing streak with Sensex shedding nearly 250 points and Nifty falling over 80 points, as investors remained cautious despite easing geopolitical tensions. Analysts identify 23,800 as the critical support level for Nifty — a break below could trigger further selling and potentially accelerate FPI outflows. Continued equity weakness, if accompanied by foreign institutional selling, could add incremental pressure on the INR through portfolio capital outflows. The cautious tone warrants monitoring of FII flow data in the coming sessions."
+    }
+  ],
+  "not_relevant": [
+    "1. **Two Trades for Today: An auto sector major for a 6.25% upmove, a mid-cap pharma stock for a gain of almost 7%** — Individual stock trading calls; no macro/FX/rates relevance.",
+    "2. **Horoscope Today, 1 July, 2026: Powerful Cosmic Energy Brings Career Success, Financial Growth, Leadership & Love Predictions** — Astrology content; entirely irrelevant. *(Note: Misclassified under \"Forex\" section by source.)*",
+    "3. **Horoscope Today, 2 July, 2026: Powerful Cosmic Energy Brings Career Success, Love Clarity & Life-Changing Insights for Every Zodiac Sign** — Astrology content; entirely irrelevant. *(Note: Misclassified under \"Forex\" section by source.)*"
+  ]
+}
