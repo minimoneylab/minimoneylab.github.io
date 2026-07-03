@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-04",
+  "update_time": "2026-07-04 06:07:39",
+  "total_articles": 35,
+  "high": [
+    {
+      "title": "[Google's Next-Gen TPU Reportedly Ditches CoWoS — Intel Intercepts TSMC Advanced Packaging Order]",
+      "section": "金融",
+      "date": "2026/07/03 01:42:59",
+      "url": "https://money.udn.com/money/story/5612/9603904?from=edn_maintab_cate",
+      "summary": "According to a report by SemiAnalysis cited by foreign media, Google's next-generation TPU (codenamed \"Humufish\") will adopt Intel's EMIB-T advanced packaging technology rather than TSMC's CoWoS platform. TSMC declined to comment on market rumors or individual customer business, while Intel also offered no response. Industry observers interpret the development as a consequence of TSMC's persistently constrained CoWoS capacity, which has created an opening for Intel to secure high-profile design wins.\n\n**Market Implications:** This is a notable negative signal for TSMC (2330) in its advanced packaging segment. While TSMC's CoWoS remains the dominant choice for AI accelerators from NVIDIA, AMD, and multiple CSPs, losing Google's TPU packaging to Intel signals that hyperscalers are actively building alternative supply chains for advanced packaging — a strategic risk for TSMC's pricing power and long-term packaging moat. TSMC's ordinary shares fell NT$40 to NT$2,465 on July 2nd, though ADRs recovered approximately 1% in early Thursday trading. Intel shares, however, fell ~2%, possibly reflecting skepticism about execution capacity. Fund managers should monitor whether other CSPs follow Google's lead in diversifying packaging partners."
+    },
+    {
+      "title": "[NVIDIA Pushes AI Factory Initiative — Hon Hai (Foxconn) and Taiwan Supply Chain Positioned as Key Beneficiaries]",
+      "section": "金融",
+      "date": "2026/07/03 01:01:41",
+      "url": "https://money.udn.com/money/story/5612/9603898?from=edn_maintab_cate",
+      "summary": "NVIDIA announced via its official website a new AI infrastructure partnership model, co-deploying large-scale, multi-tenant \"AI factories\" with AI cloud service providers using a revenue-sharing and credit-support structure. The initiative targets startups, model developers, enterprises, and research institutions seeking faster access to AI compute resources, while simultaneously establishing a recurring revenue stream for NVIDIA. Hon Hai (2317) confirmed it is already a key partner in NVIDIA's AI infrastructure buildout, with its Houston, Texas facility set to leverage NVIDIA AI systems — including GB300 tray modules — and digital twin technology for factory design and validation. Hon Hai Chairman Liu Yang-wei has projected global data center investment to reach US$1.6 trillion by 2030.\n\n**Market Implications:** This announcement reinforces the structural AI capex supercycle thesis. Hon Hai (2317), Quanta, Wistron, and Wiwynn are cited as likely continued beneficiaries of NVIDIA's expanding AI factory ecosystem. For fund managers with exposure to Taiwan's AI server supply chain, this provides additional top-down validation of the demand trajectory. Hon Hai's dual role as both a manufacturing partner and an adopter of NVIDIA AI systems strengthens its strategic positioning within the AI infrastructure value chain."
+    },
+    {
+      "title": "Taiwan Life Insurers Earn Nearly NT$250 Billion in First Five Months — Full-Year Profit on Track for All-Time Record, Dividend Capacity Strengthens",
+      "section": "金融",
+      "date": "2026/07/02 22:31:53",
+      "url": "https://money.udn.com/money/story/11162/9603818?from=edn_subcatelist_cate",
+      "summary": "Taiwan's life insurance sector is on pace for its most profitable year on record. According to FSC statistics, the industry's cumulative pre-tax profit for January–May 2026 reached NT$246.3 billion — a historic high for the same period — representing 63% of the full-year 2021 peak of NT$388.5 billion. If financial markets avoid a significant reversal in H2, full-year profit could breach NT$300 billion and potentially surpass the all-time record. Sector net worth surged to NT$3.91 trillion at end-May, just shy of the NT$4 trillion threshold, with a single-month gain of NT$581.2 billion — both figures setting new records. The primary driver was a NT$532 billion increase in Other Comprehensive Income (OCI), of which approximately 76% was attributable to equity valuation gains. Critically, under existing regulations, OCI equity gains can be reclassified into special retained earnings and subsequently distributed as dividends, meaning the equity market rally is not only boosting book value but also materially enhancing future dividend capacity. The profit structure is also more stable this year, as 2026 marks the first full year under IFRS 17: insurance service margin contributed NT$90.5 billion and financial results NT$188.3 billion. **Market implication:** Life insurer stocks — particularly Cathay Financial, Fubon Financial, Shin Kong, and Taiwan Life — stand to benefit from both earnings upgrades and rising dividend expectations. Investors should monitor OCI trajectory closely as a leading indicator for 2027 dividend announcements.\n\n---"
+    },
+    {
+      "title": "Foreign Investors Dump NT$89 Billion in Taiwan Stocks; Domestic Funds Buy the Dip — Analysts Forecast Volatile Uptrend",
+      "section": "證券",
+      "date": "2026/07/03",
+      "url": "https://money.udn.com/money/story/5607/9603907?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market staged a dramatic intraday reversal on July 2nd as foreign investors offloaded a massive NT$89 billion in shares, initially driving the TAIEX down over 1,037 points to an intraday low of 45,981. Domestic institutional and retail investors stepped in aggressively to absorb the selling, ultimately limiting the day's decline to just 274 points (-0.57%), closing at 46,744. This compares favorably to South Korea's market, which triggered a circuit breaker and closed down 7.8%, and Japan's Nikkei, which fell 2.3%.\n\nTSMC (2330) was a primary drag, falling NT$40 (-1.6%) to NT$2,465, as foreign investors targeted major tech heavyweights including TSMC, Hon Hai, and Delta Electronics. Despite this, sell-side analysts remain constructive: Fubon Securities Investment Advisory Chairman Chen Yi-guang projects 2026 listed company aggregate earnings will surpass NT$6 trillion for the first time, representing over 50% year-on-year growth, with a H2 target of 54,500 on the TAIEX."
+    },
+    {
+      "title": "Foreign Investors Slash NT$77.78B in Taiwan Stocks; Domestic Institutions Stage Rescue, Index Reverses to Green",
+      "section": "證券 (Securities)",
+      "date": "2026/07/04 01:35:44",
+      "url": "https://money.udn.com/money/story/5607/9606038?from=edn_maintab_cate",
+      "summary": "Foreign investors continued their aggressive selling on July 3rd, offloading NT$77.78 billion in Taiwan equities — dragging the TAIEX down as much as 863 points intraday to 45,880 before a coordinated domestic institutional rescue effort reversed losses. The index closed up 36 points at 46,780, successfully defending the 5-day moving average. For the week, the index gained 2,208 points (+4.9%), marking the fifth-largest weekly gain on record, though weekly volume contracted to NT$5.8 trillion.\n\nForeign investors primarily trimmed positions in heavyweight stocks including TSMC (2330), MediaTek (2454), and ASE Technology (3711). Their net short position in Taiwan index futures declined by 3,116 contracts to 81,052 — the lowest in four sessions, suggesting some easing of bearish conviction.\n\nOn the domestic side, investment trusts (投信) added NT$7.5 billion (9th consecutive buying session, cumulative NT$86B), while eight major state-owned bank brokerages purchased NT$11.15 billion, focusing on TSMC, ASE, MediaTek, and Nanya Technology. Notably, life insurers — including Cathay, Fubon, and KGI — collectively bought over NT$5 billion, rotating back into AI supply chain names at relatively depressed valuations, including MediaTek, Delta Electronics, Taiguang Electric, and Largan Precision. U.S. non-farm payrolls coming in below expectations also provided a tailwind, tempering Fed tightening fears."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[Microchip Technology MCU Price Hike — Nuvoton (Holtek, Sonix, Elan Also to Benefit)]",
+      "section": "金融",
+      "date": "2026/07/03 00:14:44",
+      "url": "https://money.udn.com/money/story/5612/9603893?from=edn_maintab_cate",
+      "summary": "Industry sources indicate that Microchip Technology has issued price increase notifications to customers, with select product price adjustments effective for orders and shipments from August 14 onward. The hikes reflect ongoing market pressures including rising raw material, labor, logistics, and energy costs that cannot be fully offset by operational efficiency gains. MCU supply is reportedly severely tight, with panic buying intensifying. Among Taiwan vendors, Nuvoton (4919) — a subsidiary of Walsin Lihwa Group — has the highest product overlap with Microchip and is seen as the primary beneficiary. Holtek, Sonix, Elan, and Emc are also expected to benefit from the favorable pricing environment. Microchip's outsized product breadth earns it the nickname \"canary in the coal mine\" for semiconductor industry cycles, and its joining the price hike wave is viewed by analysts as further confirmation of broadening semiconductor inflation."
+    },
+    {
+      "title": "[Samsung and SK Hynix Lead Substrate Price Cuts — Taiwan Substrate Trio on Alert]",
+      "section": "金融",
+      "date": "2026/07/03 00:20:14",
+      "url": "https://money.udn.com/money/story/5612/9603887?from=edn_maintab_cate",
+      "summary": "Despite tight substrate supply and rising memory prices boosting Samsung and SK Hynix profits, the Korea Printed Circuit and Semiconductor Packaging Industry Association (KPCA) disclosed that both Korean memory giants are demanding price rollbacks from upstream substrate suppliers, seeking to claw back the ~3–4% average price increases implemented in Q1 2026. This triggered a sharp selloff across global substrate stocks on July 2nd: Japan's Ibiden plunged 9.1%, while Taiwan's Unimicron (3037) fell over 5.8% (closing below NT$1,000 at NT$979), Kyocera (Nanya PCB) dropped 2.5%, and Kinsus fell over 5.8%. Market concern centers on whether other major chip customers will follow Samsung and SK Hynix's lead in demanding similar concessions, which would negatively impact substrate suppliers' second-half earnings visibility."
+    },
+    {
+      "title": "Apple to Launch Five iPhones — TSMC, Hon Hai, and Other Supply Chain Players Poised as Major Beneficiaries",
+      "section": "金融",
+      "date": "2026/07/03 02:24:18",
+      "url": "https://money.udn.com/money/story/11162/9603938?from=edn_subcatelist_cate",
+      "summary": "According to Japanese media reports, Apple plans to launch at least five new iPhone models between H2 2026 and H1 2027 — one of its most aggressive product rollout cycles in years. Total iPhone production for the full year is projected to exceed 220 million units, with the first-ever foldable iPhone expected to reach approximately 10 million units, above prior estimates. Apple has reportedly ordered components sufficient for 80 million units of iPhone Pro, iPhone Pro Max, and the foldable model for H2 alone. Taiwan's key Apple supply chain names — TSMC (2330), Hon Hai, Largan Precision, and Shin Jih Hsin — are expected to be among the largest beneficiaries. **Market implication:** This provides a positive demand catalyst for TSMC's advanced node utilization and Hon Hai's assembly revenues; investors should monitor order flow commentary in upcoming Q2 earnings calls."
+    },
+    {
+      "title": "Substrate Makers Under Pressure as Samsung and SK Hynix Demand Price Rollbacks",
+      "section": "金融",
+      "date": "2026/07/03 00:18:21",
+      "url": "https://money.udn.com/money/story/11162/9604024?from=edn_subcatelist_cate",
+      "summary": "Despite robust memory pricing and strong profitability, Samsung and SK Hynix are pressuring upstream IC substrate suppliers to reverse the 3–4% price increases implemented in Q1 2026, according to Korea's KPCA industry association. The move rattled global substrate stocks on July 2nd: Japan's Ibiden plunged 9.1%, while Taiwan's substrate trio — Unimicron (3037), Nan Ya PCB, and Kinsus — all fell sharply, with Unimicron and Kinsus each dropping over 5.8% and Nan Ya declining 2.5%. Market concern centers on whether other major OEM customers will follow suit with similar demands. **Market implication:** Near-term headwinds for Taiwan's substrate sector; investors in Unimicron, Nan Ya PCB, and Kinsus should reassess H2 margin assumptions given the risk of broader price concession demands cascading through the supply chain."
+    },
+    {
+      "title": "Hon Hai's EV Business Gains Momentum with Mitsubishi ASX VR-e Launch in Australia",
+      "section": "證券",
+      "date": "2026/07/03",
+      "url": "https://money.udn.com/money/story/5710/9603554?from=edn_maintab_cate",
+      "summary": "International reports confirm that a Mitsubishi-badged electric vehicle built on Foxconn subsidiary Foxtron's (鴻華先進) Model B platform has been spotted testing on Melbourne highways, with a commercial launch in Australia and New Zealand expected by year-end. The vehicle, designated the Mitsubishi ASX VR-e, will be manufactured in Taiwan and is expected to compete in the compact SUV segment against BYD Atto 2, Jaecoo J5, and GWM Ora 5. Both RWD and AWD variants feature a 57.5 kWh LFP battery, offering ranges of 516 km and 466 km respectively. Institutional investors view this as a tangible catalyst for Hon Hai's (2317) EV division, which has previously relied primarily on domestic Taiwanese sales. The Australia/New Zealand market entry represents the first international deployment of the Mitsubishi-branded Model B, potentially opening the door to wider global distribution partnerships."
+    },
+    {
+      "title": "12 High-Momentum Taiwan Stocks in Focus as Market Consolidates",
+      "section": "證券",
+      "date": "2026/07/03",
+      "url": "https://money.udn.com/money/story/5607/9603587?from=edn_maintab_cate",
+      "summary": "Analysts highlight a curated list of 12 momentum stocks that have attracted simultaneous institutional net buying (>500 lots over 10 days) and rising margin loan balances since June 23rd, including Formosa Chemicals (台化), Formosa Plastics (台塑), Fudeng, and Smartgiga (智邦), among others. Strategists advise against chasing prices at current elevated levels and recommend awaiting pullbacks before entering positions in fundamentally-supported sectors. The article notes that AI-driven earnings upgrades continue to provide a constructive backdrop, though investors are cautioned to monitor technical deterioration signals such as high-volume breakdowns below key support levels. TSMC's forthcoming earnings call is flagged as the most significant near-term market catalyst."
+    },
+    {
+      "title": "MediaTek and Alchip: Investors Favor Longer-Duration Warrants on IC Design Outlook",
+      "section": "證券",
+      "date": "2026/07/03 01:06:18",
+      "url": "https://money.udn.com/money/story/5739/9603995?from=edn_subcatelist_cate",
+      "summary": "Warrant issuers are highlighting MediaTek (2454) and Alchip Technologies (3661) as preferred plays in the IC design space. For MediaTek, institutional analysts point to a positive Q3 catalyst: the ramp of next-generation flagship smartphone APs transitioning from N3 to N2 process nodes, supporting revenue growth alongside solid networking demand. While MediaTek forecasts global smartphone shipments to decline ~15% YoY due to memory price hikes and component shortages, the launch of new 2nm-based handsets in late Q3 and a rising mix of flagship models should partially offset volume pressure. Additionally, MediaTek's collaboration with NVIDIA on ARM-based AI PC CPUs — integrating RTX GPUs with MediaTek SoCs — positions it for growing penetration in the high-end AI PC/NB CPU market. Alchip is flagged for strong revenue growth expectations through 2026–2027. These developments are relevant for equity investors tracking Taiwan's semiconductor value chain and AI hardware theme."
+    },
+    {
+      "title": "Aspire Technology (Xinpiao/5274): Revenue Hits Three New Highs; Outlook Remains Bullish",
+      "section": "金融",
+      "date": "2026/07/04 01:05:31",
+      "url": "https://money.udn.com/money/story/5612/9606017?from=edn_maintab_cate",
+      "summary": "Server BMC chip leader Aspire Technology (信驊, 5274) reported June 2026 revenue of NT$1.31 billion (+2.2% MoM, +67.5% YoY), with Q2 consolidated revenue reaching NT$3.871 billion (+23% QoQ, +72.3% YoY), surpassing the company's own guidance range of NT$3.4–3.6 billion. H1 2026 revenue totaled NT$7.018 billion (+62.7% YoY), with single-month, single-quarter, and half-year figures all hitting record highs. Foreign investors attribute the strong BMC shipment growth to surging CPU server demand. Q3 revenue is guided at NT$4.1–4.3 billion (consensus ~NT$4.3 billion; bull case NT$4.7 billion), with substrate supply constraints cited as a potential cap. Management notes that agentic AI adoption is driving accelerated enterprise data center investment, with customers already pre-planning 2027 demand. As supply chain bottlenecks ease with additional OSAT partners joining, Q4 is expected to show meaningful sequential growth. Relevant as a high-growth AI infrastructure proxy within Taiwan's listed tech universe."
+    },
+    {
+      "title": "Nanya Technology Revenue Hits Eight Consecutive Monthly Records — June Revenue Reaches NT$29.4 Billion",
+      "section": "金融 (Finance)",
+      "date": "2026/07/04",
+      "url": "https://money.udn.com/money/story/5612/9606021?from=edn_maintab_cate",
+      "summary": "Nanya Technology (2408), Taiwan's leading domestic DRAM manufacturer, reported June 2026 revenue of NT$29.388 billion, up 6.2% month-on-month and a remarkable 621.3% year-on-year, marking eight consecutive months of record-breaking single-month performance. Q2 2026 revenue reached NT$82.55 billion (+68.1% QoQ, +684.2% YoY), with H1 cumulative revenue at NT$131.636 billion (+643.1% YoY). The company has joined Qualcomm's supply chain as a partner in its newly announced Dragonfly AI data center platform. Management noted that AI-driven demand continues to significantly outpace supply, with many customers requesting multi-year contracts of two to three years that Nanya cannot fully fulfill. The CEO projects supply-demand tightness to persist at least through end-2027, with 2028 remaining manageable despite new capacity additions. An investor conference is scheduled for July 10 to disclose Q2 earnings and Q3 guidance. **Market implication:** Nanya's explosive revenue trajectory and AI supply chain positioning make it a key beneficiary of the structural DRAM upcycle. Investors should monitor Q2 margin performance and Q3 guidance for signs of pricing sustainability.\n\n---"
+    },
+    {
+      "title": "Taiwan Futures Index Night Session: Bulls and Bears at Standoff as U.S. Markets Close for Holiday",
+      "section": "產經",
+      "date": "2026/07/03 21:13:44",
+      "url": "https://money.udn.com/money/story/11112/9605838",
+      "summary": "The Taiwan futures index (TAIEX futures) opened the night session at 47,030 points (+30), briefly surging to 47,113 before pulling back to 46,920 on lack of directional cues from closed U.S. markets, then rebounding to 47,310. As of ~21:00 local time, the index stood near 47,178 (+178). The key catalyst was market reports that Samsung Electronics is seeking to raise Q3 DRAM and LPDDR contract prices by more than 20%, which drove a broad rally in Asian memory stocks (Samsung, SK Hynix, Kioxia) during the day session and lifted Nasdaq e-mini futures. TSMC futures (2330) were trading near NT$2,475 (+10). Technical analysts note that despite two consecutive sessions of pressure from the Philadelphia Semiconductor Index, intraday losses were consistently pared, with July 3rd staging a notable black-to-red reversal — preserving the short-term bullish structure. Investors are watching whether volume recovers to above the 20-day average and whether the July 1st red-candle high is reclaimed as the next key trigger."
+    },
+    {
+      "title": "Chung-Shin Abrasive (1560) Posts Record Revenues for June and Q2",
+      "section": "證券",
+      "date": "2026/07/04 00:01:38",
+      "url": "https://money.udn.com/money/story/5710/9605786?from=edn_maintab_cate",
+      "summary": "Chung-Shin Abrasive (1560), a key supplier of diamond conditioning discs for semiconductor CMP processes, reported June consolidated revenue of NT$832M (+0.4% MoM, +16.3% YoY), a new monthly record. Q2 consolidated revenue reached NT$2.492B (+8.6% QoQ, +17.8% YoY), also a quarterly record. H1 revenue totaled NT$4.785B (+23% YoY). Chairman Lin Bo-quan stated he expects H2 performance to exceed H1, and institutional investors are optimistic the company could hit its NT$10B annual revenue target a year ahead of schedule while earning more than one full paid-in capital for the first time. Diamond disc output reached ~60,000 units in June with demand still outstripping supply; the company projects a 3-year CAGR of 15–20% for that segment. The 12-inch wafer reclaim business has also expanded monthly capacity to 400,000 wafers. This is relevant as a read-through on semiconductor supply chain capex momentum."
+    },
+    {
+      "title": "Taiwan Stock Market Close: Index Up 36 Points to 46,780; TSMC Closes at NT$2,445, Down 0.81%",
+      "section": "證券 (Securities)",
+      "date": "2026/07/03 23:48:12",
+      "url": "https://money.udn.com/money/story/12509/9606095?from=edn_subcatelist_cate",
+      "summary": "The TAIEX opened lower at 46,545 on July 3rd, briefly plunging to an intraday low of 45,880 before recovering to close at 46,780 (+0.07%). Market breadth was constructive with 894 advancers versus 223 decliners and 57 stocks hitting the upper limit. TSMC fell 0.81% to NT$2,445 on volume of 26,403 lots, while semiconductors as a sector declined 1.13%. Key outperformers included Delta Electronics (+5.32%), UMC (+3.02%), and Hon Hai (+0.62%). Financials rose 1.1% and electronic components surged 3.04%, reflecting the domestic institutional rotation noted above. MediaTek dropped 3.45% and ASE fell 5.27%, bearing the brunt of foreign selling pressure."
+    },
+    {
+      "title": "New Taiwan Dollar Closes at 31.930, Depreciates 2 Cents Against USD",
+      "section": "證券 (Securities)",
+      "date": "2026/07/03 23:31:24",
+      "url": "https://money.udn.com/money/story/12509/9606067?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar closed at 31.930 against the U.S. dollar on July 3rd, depreciating 2 cents from the prior session's close of 31.910. The intraday range was 31.900–31.995, with an opening at 31.920 and total daily turnover of USD 1.816 billion. The mild depreciation is broadly consistent with the backdrop of heavy foreign equity outflows (NT$77.78B sold), as repatriation of proceeds exerts downward pressure on the NTD. The move remains modest and does not suggest disorderly conditions, but sustained foreign selling could incrementally weigh on the currency. Fund managers with unhedged USD-denominated overseas exposures at life insurers should note the directional drift."
+    },
+    {
+      "title": "Nan Ya PCB (8046) June Consolidated Revenue Hits 3.5-Year High, Up 50% YoY",
+      "section": "證券 (Securities)",
+      "date": "2026/07/04 00:25:00",
+      "url": "https://money.udn.com/money/story/5710/9605812?from=edn_subcatelist_cate",
+      "summary": "Nan Ya PCB (8046) reported June consolidated revenue of NT$4.684 billion, up 5.5% MoM and 50% YoY — the highest since January 2023. Q2 revenue reached NT$13.575 billion (+21.4% QoQ, +41.6% YoY), and H1 revenue totaled NT$24.752 billion (+37.2% YoY). Management indicated AI-related applications now account for over 50% of revenue and that this year's capital expenditure will be the largest in company history to meet 10–20 years of projected demand. The company is deepening exposure to GPU substrates, 1.6T switches, TPU, and embedded capacitor chips — all high-growth AI infrastructure segments. With sequential quarterly revenue growth guided for the full year, Nan Ya PCB represents a direct beneficiary of the AI capex cycle within the PCB substrate space."
+    }
+  ],
+  "not_relevant": []
+}
