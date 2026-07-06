@@ -739,6 +739,16 @@ async def main():
             parse_mode="Markdown"
         )
 
+        # Send style + scene prompt info
+        style_short = art_style[:100] + "..." if len(art_style) > 100 else art_style
+        await bot.send_message(
+            chat_id=CHAT_ID,
+            text=(
+                f"🎨 Japan Style Used:\n{style_short}\n\n"
+                f"🎬 Scene Prompt:\n{image_prompt}"
+            )
+        )
+
         print(f"✅ Japan {mode} — 2 images sent.")
 
     except Exception as e:
