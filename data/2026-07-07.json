@@ -1,0 +1,122 @@
+{
+  "date": "2026-07-07",
+  "update_time": "2026-07-07 06:07:39",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "[Hon Hai (Foxconn) June Revenue Surpasses Expectations with Three Records — AI Server Cabinets and ICT Products Drive Strong Q3 Outlook]",
+      "section": "金融",
+      "date": "2026/07/06",
+      "url": "https://money.udn.com/money/story/5612/9608664?from=edn_maintab_cate",
+      "summary": "Hon Hai (2317) reported June consolidated revenue of NT$821.76 billion, the strongest June in the company's history, while both Q2 and H1 2026 revenues also set same-period records. June revenue declined 4.3% MoM but surged 52.1% YoY. Q2 consolidated revenue reached NT$2.51 trillion, up 182% QoQ and 39.8% YoY. H1 2026 revenue totaled NT$4.64 trillion, a 34.9% YoY increase.\n\nThe standout driver remains AI server cabinet shipments, which continued to grow despite tight raw material supply. Cloud and networking product segments held steady MoM, while consumer smart devices and PC-end products saw modest sequential declines. Management guided for Q3 to deliver both sequential and YoY growth as ICT products enter their traditional second-half peak season and AI cabinet demand remains robust."
+    },
+    {
+      "title": "[Evergreen Marine Insider Trading: Chang Kuo-hua (Eldest Son of Chang Yung-fa) Nets NT$15 Billion, Bailed Out at Record NT$120 Million]",
+      "section": "金融",
+      "date": "2026/07/07 03:02:01",
+      "url": "https://money.udn.com/money/story/5612/9611228?from=edn_maintab_cate",
+      "summary": "In a major corporate governance and legal development, Taipei prosecutors arrested and charged nine individuals in connection with an alleged insider trading scheme involving Evergreen Marine (2603) and Evergreen Air (2618). In 2023, Evergreen Marine divested over 370,000 lots of Evergreen Air shares in a transaction exceeding NT$13.3 billion. Board director Chang Kuo-hua and major shareholder Chang Kuo-cheng (brothers and sons of the late founder Chang Yung-fa) are accused of exploiting material non-public information, with Chang Kuo-hua's family allegedly profiting approximately NT$15 billion. Chang Kuo-hua was released on a record NT$120 million bail and banned from leaving Taiwan. Several other executives and family members were also bailed out at varying amounts. The case centers on a May 2023 decision to sell all Evergreen Air holdings, with a board resolution passed in June, but the public disclosure allegedly delayed by two months — a textbook window for insider trading. **Market Implications:** This development poses significant reputational and governance risk to the Evergreen Group, one of Taiwan's largest conglomerates. Investors in Evergreen Marine (2603) and Evergreen Air (2618) should monitor potential leadership disruption, litigation overhang, and any regulatory follow-up from the FSC. The case may also prompt broader scrutiny of related-party transactions in Taiwanese family-controlled conglomerates."
+    },
+    {
+      "title": "[Nvidia's New Cabinet Architecture \"Kyber\" Stalled — SemiAnalysis Cites Poor PCB Design, Taiwan Supply Chain Impacted]",
+      "section": "金融",
+      "date": "2026/07/07 00:56:38",
+      "url": "https://money.udn.com/money/story/5612/9611058?from=edn_maintab_cate",
+      "summary": "Research firm SemiAnalysis released a report flagging that Nvidia's next-generation \"Kyber\" cabinet architecture — intended for the NVL 144 server rack — is stalled due to subpar PCB design, potentially delaying NVL 144 shipments to 2028 and cascading into delays for the subsequent NVL 576 platform. The report directly implicated PCB-related suppliers as responsible for the setback. The market reaction was swift and severe: Japan's Ibiden plunged 8.3%, a major Chinese CCL manufacturer fell 9.5% in Hong Kong despite a price hike announcement, and Taiwan's key PCB names suffered heavy losses — Unimicron (3037), Nan Ya PCB (8046), Jing Shuo (3189), and Tripod (4958) all fell over 5%, while Taiwan PCB Techvest (2383) hit the daily limit-down. The Kyber architecture uses back-to-back NVL 72 PCB boards connected via a midplane to achieve 448G SerDes ultra-high-speed transmission for 144-GPU clusters, replacing thousands of traditional copper cables. **Market Implications:** This is a near-term negative catalyst for the entire Taiwan PCB supply chain. Investors should reassess exposure to PCB-related names and monitor whether Nvidia revises the Kyber design timeline or shifts to an alternative architecture, which would determine the duration and severity of the earnings impact on Taiwanese suppliers."
+    },
+    {
+      "title": "Taiwan Stock Market Volatile — State-Owned Banks Intervene to Support Market; Analysts Say Near-Term Outlook Hinges on Taiwan Dollar",
+      "section": "證券 (Securities)",
+      "date": "2026/07/07 01:03:53",
+      "url": "https://money.udn.com/money/story/5607/9611073?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market experienced a turbulent session on July 6th, swinging nearly 1,000 points intraday before closing down 224 points at 46,556 — breaching the 5-day moving average. Despite TSMC (2330) reversing two consecutive sessions of losses to close higher (briefly touching NT$2,500, up NT$55 intraday), the broader market was unable to hold gains. The key negative catalyst was a SemiAnalysis report suggesting NVIDIA's NVL144 rack shipments could be delayed until 2028, which triggered synchronized sell-offs across Taiwan, Japan, and South Korea, with the Taiwan electronic components sub-index leading losses at -4.45%.\n\nForeign investors (外資) were the dominant sellers, offloading NT$25.5 billion in a single session — their third consecutive day of net selling — bringing the three-day cumulative outflow to NT$192.33 billion, a significant near-term pressure signal. Domestic investment trusts (投信) provided partial offset, buying NT$7.16 billion for a tenth consecutive session (cumulative NT$93.16 billion). State-owned banks (八大公股行庫) stepped in with NT$6.3 billion in support buying, signaling official concern about market stability."
+    },
+    {
+      "title": "Citi Bullish on Advanced Process Demand — Raises TSMC Target Price to NT$3,800 (New Street High)",
+      "section": "證券 (Securities)",
+      "date": "2026/07/07 01:32:36",
+      "url": "https://money.udn.com/money/story/5607/9611091?from=edn_maintab_cate",
+      "summary": "Citigroup Securities has issued a new research report reiterating a **Buy** rating on TSMC (2330) and raising its target price to NT$3,800 — the highest among all institutional investors currently covering the stock. Citi analyst Chen Jia-Yi argues that robust AI chip demand will keep advanced node utilization rates at elevated levels, providing strong resilience to gross margins despite near-term headwinds from rising depreciation and initial N2 ramp dilution. Citi anticipates TSMC's upcoming earnings call on July 16 will deliver a \"double positive surprise\" — an upward revision to both FY2026 revenue growth guidance and long-term revenue CAGR targets. Wafer pricing for N2/N3 nodes is expected to remain on an upward trajectory through 2027. The current broker target price range spans from NT$2,785 (Citi's older estimate) to NT$3,800, with Aletheia Capital at NT$3,500, Nomura at NT$3,425, UBS at NT$3,400, and Macquarie at NT$3,380. TSMC shares closed at NT$2,460 on July 6, up NT$15, as foreign investor net selling moderated. **Market Implication:** The pre-earnings call target price upgrades signal strong institutional conviction ahead of July 16; a guidance raise could serve as a near-term catalyst for further upside. Fund managers should monitor foreign investor flow reversal as a key trigger.\n\n---"
+    }
+  ],
+  "medium": [
+    {
+      "title": "[Largan Precision June Revenue Falls 19% MoM — iPhone 18 Launch in September Underpins Positive H2 Outlook]",
+      "section": "金融",
+      "date": "2026/07/06",
+      "url": "https://money.udn.com/money/story/5612/9608665?from=edn_maintab_cate",
+      "summary": "Largan Precision (3008) reported June consolidated revenue of NT$3.712 billion, down 19% MoM and 10% YoY. Q2 consolidated revenue declined 12% QoQ but grew 17% YoY, while H1 2026 revenue reached NT$29.209 billion, up 11% YoY. Management noted July order momentum is expected to improve modestly over June as the smartphone seasonal peak approaches. Chairman Lin En-ping previously flagged that some new handset launches have been pushed from Q3 into Q1 2027, making Q4 the busiest operating quarter for the year. Key focus at Largan's analyst day on July 9 will be the company's Co-Packaged Optics (CPO) roadmap, particularly developments around its Fiber Array (FA) automated trial production line planned for September, as well as the competitive implications of Corning's newly announced GlassBridge glass optical interconnect technology, which targets CPO and glass-core semiconductor packaging — a potential area of competitive overlap with Largan's ambitions.\n\n---"
+    },
+    {
+      "title": "Taiwan Stock Market Super Earnings Season Kicks Off — Bull Sentiment Intact, Index Eyes 50,000-Point Milestone",
+      "section": "證券 (Securities)",
+      "date": "2026/07/06",
+      "url": "https://money.udn.com/money/story/5607/9608694?from=edn_maintab_cate",
+      "summary": "Major institutional brokers including Fubon, Yuanta, Taishin, and Uni-President Securities maintain a constructive outlook on Taiwan equities despite recent intraday volatility. The key near-term catalyst is TSMC's (2330) June monthly revenue release on July 10 — consensus expects a breakthrough above NT$440 billion, which would imply record Q2 earnings and H1 EPS of NT$48–49. TSMC's investor conference on July 16 is the headline event, followed by major U.S. tech giants' earnings reports. Institutions note accelerating sector rotation between AI and non-tech names, with the TAIEX targeting a challenge of the 50,000-point level. Investors are also watching SK Hynix's U.S.-listed ADR debut on July 10 and AMD's 2026 Advancing AI Conference on July 22–23."
+    },
+    {
+      "title": "New Quarterly Earnings Conference Season Opens This Week — AI Bellwether Stocks to Lead",
+      "section": "證券 (Securities)",
+      "date": "2026/07/06",
+      "url": "https://money.udn.com/money/story/5607/9608695?from=edn_subcatelist_cate",
+      "summary": "Taiwan's Q2 earnings conference season begins this week, led by key AI-related names. Delta Electronics (2308) reports July 8, Largan Precision (3008) on July 9, and Nanya Technology (2408) on July 10, with TSMC (2330) following on July 16. Nanya Tech is a particular focus given reports that Samsung is leading a new round of DRAM price hike negotiations, targeting up to 20%+ increases in Q3 generic DRAM and LPDDR pricing — following already significant prior-quarter increases of 90% and 50% respectively. The earnings conference calendar provides a structured set of near-term catalysts for the broader Taiwan market, with TSMC's market cap of NT$63.4 trillion making it the dominant swing factor."
+    },
+    {
+      "title": "[Apple Foldable iPhone \"Arrives Late\" — Year-End Launch; Analyst: Supply Constraints Expected to Ease in Q1 2027]",
+      "section": "金融",
+      "date": "2026/07/07 01:41:55",
+      "url": "https://money.udn.com/money/story/5612/9611083?from=edn_maintab_cate",
+      "summary": "Apple's first foldable iPhone is expected to be unveiled alongside the iPhone 18 in autumn 2026, but component supply tightness may push actual retail availability to year-end or even Q1 2027. A Chinese brokerage estimates H2 2026 assembly volume at only 7–8 million units, with Q3 shipments as low as 500,000–1 million units (roughly 10% of the H2 total). The foldable's premium pricing at USD 2,300–2,500 is expected to sustain demand through year-end, with resale premiums potentially 50–100% above retail due to constrained supply. Analysts suggest Q4 2026 to Q1 2027 will be a clearer window to gauge true underlying demand. Apple is reportedly prioritizing key components for the iPhone 18 Pro and Pro Max (Q3 shipments estimated at 20–22 million units), which may be crowding out foldable production. **Relevance:** Supply chain implications for Taiwanese component makers (display, hinge, flexible PCB suppliers) could be meaningful in 2027, though near-term volume contribution remains limited."
+    },
+    {
+      "title": "[Shinpuu (6121) Reportedly Sourcing Hundreds of Millions of Battery Cells from Samsung SDI for AI Data Centers — Stock Hits Limit-Up]",
+      "section": "金融",
+      "date": "2026/07/07 02:16:53",
+      "url": "https://money.udn.com/money/story/11162/9611022?from=edn_maintab_cate",
+      "summary": "Korean media reported that Samsung SDI is supplying hundreds of millions of cylindrical battery cells to Taiwan's Shinpuu (6121), the leading battery module maker, to meet surging demand for Battery Backup Units (BBUs) in AI data centers. End customers reportedly include Amazon and Meta. Shinpuu declined to comment but surged to the daily limit-up at NT$467.5 (+NT$42.5). The broader battery module sector rallied in sympathy, with Jiabaiyu, Xi Sheng, Xin Sheng Li, and Chang Yuan Science all hitting limit-up, while Shun Da rose 5.36%. Panasonic is identified as Samsung SDI's primary competitor in the BBU market. **Relevance:** This highlights Taiwan's deepening role in AI infrastructure hardware beyond semiconductors; Shinpuu's earnings trajectory warrants monitoring given the structural demand tailwind from data center buildouts."
+    },
+    {
+      "title": "[TV Panel Prices Fall for First Time in 2026; Monitor Prices Hold Steady]",
+      "section": "金融",
+      "date": "2026/07/07",
+      "url": "https://money.udn.com/money/story/5612/9611026?from=edn_subcatelist_cate",
+      "summary": "TrendForce (集邦科技) forecasts that TV panel prices will decline across the board in early July 2026 — the first price drop of the year — as brand customers enter a seasonal inventory lull ahead of year-end restocking, which is not expected to begin until August–September. Estimated declines range from USD 1 (32\") to USD 3 (65\"/75\"). IT panels (monitors, notebooks) are expected to hold flat due to cost-floor support. Notably, panel makers AUO (友達, 2409) and Innolux (群創, 3481) saw continued strong buying interest despite the price weakness, suggesting the market may be pricing in a recovery. This is a modest negative signal for panel-sector margins in Q3 but not a systemic concern at this stage."
+    },
+    {
+      "title": "[Unimicron (華通) Enters Traditional Peak Season; Plans New Plant for Optical Transport and Space Data Centers]",
+      "section": "金融",
+      "date": "2026/07/06",
+      "url": "https://money.udn.com/money/story/11162/9610668?from=edn_subcatelist_cate",
+      "summary": "HDI PCB manufacturer Unimicron (華通, 2313) reported June revenue of NT$6.915 billion, a record high for the month, with H1 2026 cumulative revenue of NT$39.54 billion (+13.2% YoY), also a historical first-half record. The company is expanding capacity to serve AI, satellite, and optical transport customers, and has secured priority procurement rights for laser drilling equipment critical to mSAP-type carrier PCBs — a bottleneck technology for 800G and 1.6T optical module production. Management is also planning a new plant to support optical transmission and space data center programs in 2027–2028. The combination of record revenues, a structural AI upcycle, and early-mover positioning in high-speed optical interconnects makes Unimicron a name worth monitoring for tech-oriented fund mandates."
+    },
+    {
+      "title": "Morgan Stanley: U.S. Market Unlikely to Set New Highs Near-Term as Funds Rotate from Chip Stocks to Other Sectors",
+      "section": "產經 (Industry/Economy)",
+      "date": "2026/07/06 18:37:52",
+      "url": "https://money.udn.com/money/story/123398/9610553",
+      "summary": "Morgan Stanley strategist Mike Wilson and his team argue that U.S. equities will struggle to reach new all-time highs in the near term, as capital rotates out of semiconductors — the year's top-performing sector — into mega-cap cloud service providers and other laggards. The Philadelphia Semiconductor Index has fallen nearly 14% from its recent peak, while UBS's mega-cap cloud basket declined only 2% in the same period. Wilson identifies consumer discretionary, transportation, and biotech as additional rotation beneficiaries, while flagging potential earnings downside risks for Microsoft, Amazon, and Meta despite their strong core business fundamentals. Wilson's year-end S&P 500 target remains 8,000 points (~7% upside from current levels). **Relevance for Taiwan:** This rotation dynamic directly affects TSMC and MediaTek, given their heavy weighting in global semiconductor indices and foreign institutional portfolios. Sustained semiconductor underperformance in the U.S. could amplify foreign selling pressure on Taiwan's tech-heavy market."
+    },
+    {
+      "title": "Quanta Computer (廣達) Block Trade at Limit-Down Price Before Ex-Dividend Triggers Foreign vs. Domestic Fund Standoff",
+      "section": "產經 (Industry/Economy)",
+      "date": "2026/07/06 19:33:33",
+      "url": "https://money.udn.com/money/story/5607/9610659",
+      "summary": "Quanta Computer (2382), a leading AI server contract manufacturer, closed up 0.27% at NT$378 on July 6th despite intraday volatility, but a post-market block trade executed at the limit-down price of NT$339.5 (a ~10% discount) for 586 lots (NT$198 million) drew significant market attention ahead of its July 16th ex-dividend date (NT$15.6/share cash dividend). Foreign investors net sold 5,140 lots on the day — suggesting pre-ex-dividend profit-taking — while domestic investment trusts continued buying 2,186 lots, marking 32 consecutive days of net purchases. Analysts attribute domestic fund support to Quanta's consistent dividend yield above 4%, making it a core holding for high-dividend ETFs. The divergence between foreign and domestic institutional behavior highlights pre-dividend positioning tensions and is relevant to monitoring short-term liquidity dynamics in high-yield Taiwan tech names."
+    },
+    {
+      "title": "ADATA Technology (威剛) Posts Fourth Consecutive Monthly Revenue Record in June; Memory Pricing Outlook Remains Bullish",
+      "section": "證券 (Securities)",
+      "date": "2026/07/07 01:08:44",
+      "url": "https://money.udn.com/money/story/11074/9610671?from=edn_maintab_cate",
+      "summary": "ADATA Technology (3260) reported June consolidated revenue of NT$146.6 billion, a fourth consecutive monthly record, lifting Q2 revenue to NT$381.6 billion (+46.1% QoQ, +198.5% YoY) — itself a third consecutive quarterly record. H1 2026 revenue of NT$642.72 billion already surpasses full-year 2025 totals, with full-year 2026 revenue potentially doubling year-over-year. Chairman Chen Li-bai disclosed that DRAM contract prices are set to rise a further 20–30% this quarter, with NAND Flash prices up 35–40%, supporting a bullish revenue trajectory into H2. Strong AI-driven demand for memory, combined with inventory strategy and growing enterprise/industrial customer demand, underpins the outlook. **Relevance:** ADATA's results serve as a real-time indicator of memory market health, with positive read-throughs for the broader Taiwan memory and semiconductor supply chain ecosystem."
+    },
+    {
+      "title": "Global Unichip (GUC) June Consolidated Revenue Hits All-Time Monthly High, Up 5% MoM to NT$4.928 Billion",
+      "section": "證券 (Securities)",
+      "date": "2026/07/07 01:21:30",
+      "url": "https://money.udn.com/money/story/5710/9610674?from=edn_maintab_cate",
+      "summary": "Global Unichip Corp. (3443), a TSMC-affiliated ASIC design services company, reported a record monthly revenue of NT$4.928 billion for June 2026, up 5.4% MoM and 103.7% YoY. Q2 2026 consolidated revenue reached NT$13.896 billion, rising 21.3% QoQ — exceeding analyst expectations — and surging 127.6% YoY. H1 2026 revenue totaled NT$25.344 billion, up 93% YoY, also a first-half record. Growth is primarily driven by volume production contributions from two major U.S. cloud service providers (CSPs) for CPU and AI inference chips. Q1 EPS stood at NT$12.28, the first time in three years the company earned more than one full capital base in a single quarter. **Market Implication:** GUC's explosive growth reflects the upstream ASIC supply chain benefiting directly from AI inference buildout — a key thematic investment angle for Taiwan's semiconductor ecosystem beyond TSMC itself.\n\n---"
+    }
+  ],
+  "not_relevant": []
+}
