@@ -1,0 +1,80 @@
+{
+  "date": "2026-07-09",
+  "update_time": "2026-07-09 06:04:22",
+  "total_articles": 14,
+  "high": [
+    {
+      "title": "NVIDIA Secures Major CPU Orders — Boosting TSMC Advanced Node Demand",
+      "section": "金融",
+      "date": "2026/07/09",
+      "url": "https://money.udn.com/money/story/5612/9616123?from=edn_maintab_cate",
+      "summary": "AI startup Perplexity has confirmed adoption of NVIDIA's latest Vera CPU, joining OpenAI, Anthropic, and Oracle in deploying the chip. NVIDIA's CEO Jensen Huang has previously projected Vera CPU will generate approximately USD 20 billion in revenue before the current fiscal year ends. This development is highly significant for TSMC (2330), as NVIDIA's Vera CPU is manufactured on TSMC's leading-edge process nodes. As NVIDIA accelerates its push into a CPU market historically dominated by Intel and AMD, incremental design wins represent a structural uplift in advanced node wafer demand at TSMC. Perplexity's infrastructure VP noted Vera CPU delivers 1.5x speed improvement over conventional CPUs for AI agent coding workloads — underscoring the chip's performance differentiation and competitive positioning. For fund managers, this is a clear positive catalyst for TSMC's advanced process utilization and pricing power. Continued Vera CPU adoption among hyperscalers and AI-native companies could drive meaningful upside to TSMC's 2026–2027 revenue forecasts, reinforcing the bull case for the stock amid ongoing AI infrastructure build-out.\n\n---"
+    },
+    {
+      "title": "TSMC Subsidiary Disposes of Empower Semiconductor Shares Following ADI Acquisition",
+      "section": "金融",
+      "date": "2026/07/08 21:30:47",
+      "url": "https://money.udn.com/money/story/11162/9615956?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) announced that its subsidiary, Emerging Fund, L.P., has fully disposed of its preferred stock holdings in Empower Semiconductor (\"Empower\") as part of Analog Devices Inc.'s (ADI) acquisition of Empower. The transaction occurred on July 8, 2026, involving 867,573 shares at US$25.06 per share, for a total transaction value of approximately US$2.2 million. The disposal resulted in a retained earnings impact of approximately US$1.7 million, with no effect on TSMC's profit and loss statement. The price was determined in accordance with the merger agreement between ADI and Empower, and the decision was made by the General Partner of Emerging Fund pursuant to the preferred stock investment contract. While the transaction size is immaterial relative to TSMC's overall financials, it underscores TSMC's active venture investment strategy through its Emerging Fund vehicle, which takes strategic minority stakes in semiconductor-adjacent startups. The clean exit with no P&L impact is a minor positive, and the ADI-Empower deal further highlights ongoing consolidation in the semiconductor IP and power management space — a sector closely tied to TSMC's foundry ecosystem.\n\n---"
+    },
+    {
+      "title": "Taiwan Stock Index Futures Night Session Reverses Sharply, Swings Over 1,000 Points as US-Iran Ceasefire Collapses",
+      "section": "產經",
+      "date": "2026/07/08 21:05:38",
+      "url": "https://money.udn.com/money/story/11112/9615914",
+      "summary": "The Taiwan Stock Index futures (TAIEX futures) night session on July 8 experienced extreme volatility, swinging over 1,215 points intraday. The session opened lower at 45,458 (-105 pts) amid weakness in US electronic trading, briefly rallied to a high of 45,790 (+227 pts), before collapsing to a low of 44,575 (-988 pts) after President Trump announced the termination of the US-Iran ceasefire agreement during the NATO annual summit. As of approximately 9:00 PM, the index had partially recovered to ~45,180 (-383 pts). The geopolitical shock sent WTI and Brent crude oil prices surging ~6%, while the US dollar and Treasury yields rebounded and US equity futures (Dow -~400 pts, Nasdaq -~200 pts) fell. TSMC futures (2330) were quoted around NT$2,438, also under pressure. An additional risk event looms with the Fed releasing June FOMC minutes at approximately 2:00 AM Taiwan time on July 9, notably the first set of minutes under new Fed Chair Waller, who removed all forward rate guidance and did not submit a dot plot. **Market implication:** Heightened geopolitical risk and Fed policy uncertainty create a challenging short-term environment for Taiwan equities. Fund managers should monitor oil price pass-through effects on inflation expectations and any shifts in Fed tone that could impact USD/TWD and foreign capital flows into Taiwan."
+    },
+    {
+      "title": "International Crude Oil Prices Surge Sharply on Fears of US Strike on Iran",
+      "section": "產經",
+      "date": "2026/07/09 05:45:22",
+      "url": "https://money.udn.com/money/story/5599/9616416",
+      "summary": "Following the resumption of US military action against Iran, market concerns over potential disruptions to crude oil supply from a key Middle Eastern producing region intensified, pushing international oil prices to a two-week high. WTI crude (August contract) settled at USD $73.52/barrel, up $3.08 or +4.37%, while Brent crude (September contract) closed at USD $78.02/barrel, up $3.86 or +5.20%. **Market implication:** A sustained oil price spike raises imported inflation risks for Taiwan, potentially complicating the CBC's monetary policy stance. For Taiwan life insurers with significant USD-denominated overseas assets, a stronger USD environment combined with oil-driven inflation warrants close monitoring of hedging costs and investment portfolio valuations."
+    }
+  ],
+  "medium": [
+    {
+      "title": "D-Link (友訊) Enters SpaceX Supply Chain with 20,000-Unit Switch Order",
+      "section": "金融",
+      "date": "2026/07/09",
+      "url": "https://money.udn.com/money/story/11162/9616172?from=edn_maintab_cate",
+      "summary": "D-Link (2332) announced it has successfully entered SpaceX's supply chain, securing an order for approximately 20,000 network switches to support the Starlink low-earth orbit (LEO) satellite network, with shipments commencing in September 2026. The company also won a broadband telecom deployment contract with a German operator, adding to its international infrastructure credentials. Management highlighted that geopolitical supply chain diversification trends are driving demand for trusted, non-red-supply-chain network equipment providers — a positioning that benefits D-Link. While D-Link is not among Taiwan's largest-cap tech names, this win signals its growing credibility in mission-critical infrastructure markets and could serve as a re-rating catalyst. Investors should monitor September shipment execution and whether follow-on orders materialize."
+    },
+    {
+      "title": "SpaceX Gen-3 Starlink Launch Approval Energizes Taiwan Supply Chain — Shengda Tech, Wus Printed Circuit, Qisda Among Beneficiaries",
+      "section": "金融",
+      "date": "2026/07/09",
+      "url": "https://money.udn.com/money/story/5612/9616125?from=edn_maintab_cate",
+      "summary": "The U.S. FCC has approved SpaceX's plan to launch a third-generation Starlink constellation of up to 100,000 satellites — nearly ten times the combined total of Gen-1 and Gen-2 deployments — with faster transmission speeds and greater bandwidth. Taiwan supply chain participants including Shengda Tech (3491), Wus Printed Circuit (2313), Schi-En Tech (4916), and Qisda (6285) are positioned to benefit from a significant volume uplift in orders. Shengda Tech has already begun shipping satellite payload products for Gen-3 satellites, posting June revenue of NTD 257 million (+89% YoY), with H1 2026 revenue up 70% YoY. Wus Printed Circuit is actively expanding land, facilities, and production equipment to meet accelerating demand. The scale increase from Gen-3 suggests order volumes could be multiples of prior generations, with better unit economics given enhanced performance specs — a meaningful positive for these mid-cap Taiwan tech names."
+    },
+    {
+      "title": "Wiwynn Reports Record June Revenue; Strong H2 Outlook on GB300 and Vera Rubin Shipments",
+      "section": "金融",
+      "date": "2026/07/09 01:32:31",
+      "url": "https://money.udn.com/money/story/5612/9616124?from=edn_subcatelist_cate",
+      "summary": "Wiwynn (3231), a major server ODM, reported June consolidated revenue of NT$321.8 billion — the second-highest monthly figure on record and the strongest June in company history. Q2 2026 consolidated revenue reached NT$895.4 billion, a new all-time quarterly high, up 5.8% QoQ and 62.4% YoY. H1 2026 revenue totaled NT$1.74 trillion, up 94% YoY. Looking ahead, management expects AI server shipments to grow sequentially each quarter, driven by GB300 ramp-up and the start of Vera Rubin product shipments in H2. General-purpose server shipments are expected to maintain double-digit growth, while notebook shipments are guided slightly lower QoQ in Q3. The strong performance reinforces the AI infrastructure investment theme and is broadly positive for Taiwan's server supply chain, including component suppliers with exposure to Wiwynn."
+    },
+    {
+      "title": "Hon Hai Expands Global Third-Party Audits; Achieves 89.7% Compliance Rate with 6 Platinum RBA Certifications",
+      "section": "金融",
+      "date": "2026/07/08 17:14:59",
+      "url": "https://money.udn.com/money/story/11162/9615471?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317) released its latest annual third-party audit summary report, disclosing that as of end-2025, the group has completed 85 RBA Validated Assessment Program (VAP) audits across 65 global facilities. The group achieved an overall compliance rate of 89.7%, earning 6 platinum, 2 gold, and 33 silver certifications, with no Priority Non-Conformances identified under RBA VAP definitions. The 2025 audit cycle covered key manufacturing sites in China, Vietnam, India, Mexico, and Brazil. This ESG disclosure is relevant for institutional investors with sustainability mandates, as Hon Hai's improving audit scores and expanding third-party verification framework may support its inclusion in ESG-focused indices and enhance its appeal to foreign institutional buyers increasingly attentive to supply chain governance risks."
+    },
+    {
+      "title": "Passive Component Leaders Yageo and Walsin Report Strong June Revenue Driven by AI Demand",
+      "section": "金融",
+      "date": "2026/07/09 00:48:03",
+      "url": "https://money.udn.com/money/story/5612/9616101?from=edn_subcatelist_cate",
+      "summary": "Yageo (2327) reported June consolidated revenue of NT$15.36 billion, marking the fourth consecutive monthly all-time high, with Q2 revenue of NT$44.46 billion also setting a quarterly record (+16.5% QoQ, +35.7% YoY). Walsin Technology (2492) reported June revenue of NT$3.96 billion, the highest level in over 61 months (+7.1% MoM, +25.8% YoY). Both companies are benefiting from surging AI-related demand driving a shortage-and-price-increase cycle in passive components. Yageo Chairman Chen Tai-ming noted the company's book-to-bill ratio has risen to 1.3x, with capacity utilization exceeding 80% for standard products and 90% for specialty products. The strong momentum in passive components signals continued upstream demand strength in Taiwan's electronics supply chain, with positive read-throughs for related component makers."
+    },
+    {
+      "title": "FSC Chairman Peng Chin-lung Rules Out Extension of Taiwan Stock Market Trading Hours",
+      "section": "產經",
+      "date": "2026/07/08 10:34:28",
+      "url": "https://money.udn.com/money/story/5607/9614255",
+      "summary": "At the Legislative Yuan's Finance Committee session on July 8, FSC Chairman Peng Chin-lung confirmed that extending Taiwan stock market trading hours to 3:30 PM will not be implemented at this time and that there is no set timeline. The question was raised by legislator Lai Shih-pao following earlier comments by Taiwan Stock Exchange Chairman Lin Hsiu-ming that trading hour extension would be studied. Chairman Peng emphasized that such a reform has broad implications for all market participants — including diverse investor groups and intermediaries — and that social consensus has not been reached. He stated the FSC's current priorities lie elsewhere, noting that past trading hour extensions have historically required very lengthy deliberation periods. **Relevance:** While not an immediate market mover, this clarification from the FSC removes a near-term structural reform catalyst for Taiwan's equity market microstructure. Market participants and brokerages can set aside this regulatory risk for now.\n\n---"
+    }
+  ],
+  "not_relevant": []
+}
