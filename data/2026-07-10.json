@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-10",
+  "update_time": "2026-07-10 06:07:42",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "NVIDIA Secures Major CPU Orders, Boosting TSMC Advanced Process Demand",
+      "section": "金融",
+      "date": "2026/07/09",
+      "url": "https://money.udn.com/money/story/5612/9616123?from=edn_maintab_cate",
+      "summary": "AI startup Perplexity has confirmed adoption of NVIDIA's latest Vera CPU, adding to a growing list of major tech companies — including OpenAI, Anthropic, and Oracle — deploying NVIDIA's new CPU architecture. NVIDIA has projected Vera CPU revenues of approximately USD 20 billion before the end of its current fiscal year. This marks a significant strategic push by NVIDIA into a CPU market historically dominated by Intel and AMD, spanning laptops, desktops, and server applications. Vera CPUs are specifically engineered for AI agent workloads; Perplexity reports 1.5x speed improvements over conventional CPUs for AI coding tasks. The critical implication for Taiwan equity investors is the downstream benefit to **TSMC (2330)**, which serves as NVIDIA's primary advanced-node foundry partner. As Vera CPU adoption accelerates across hyperscalers and AI-native firms, TSMC's advanced process node order book — particularly N3 and N2 — is expected to remain robust. This further reinforces TSMC's near-term revenue visibility and supports a constructive outlook on the stock. Investors should monitor NVIDIA's CPU market share gains as a leading indicator of sustained TSMC advanced packaging and wafer demand.\n\n---"
+    },
+    {
+      "title": "TSMC Subsidiary Divests Empower Semiconductor Shares Following ADI Acquisition — No P&L Impact",
+      "section": "金融",
+      "date": "2026/07/08 21:30:47",
+      "url": "https://money.udn.com/money/story/11162/9615956?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) disclosed that its subsidiary Emerging Fund, L.P. has fully divested its preferred share holdings in Empower Semiconductor as part of Analog Devices Inc.'s (ADI) acquisition of Empower. The transaction involved 867,573 shares at US$25.06 per share, generating total proceeds of approximately US$2.2 million. The disposal resulted in a retained earnings gain of approximately US$1.7 million, with no impact on TSMC's income statement. The decision was executed by Emerging Fund's General Partner in accordance with the preferred share investment agreement and Empower's internal resolution process.\n\nWhile the transaction is immaterial in absolute dollar terms relative to TSMC's scale, it signals continued active portfolio management within TSMC's venture investment arm. The ADI-Empower deal is strategically noteworthy as it reflects ongoing consolidation in the semiconductor IP and power management space. For TSMC investors, the key takeaway is the clean, no-loss exit with retained earnings accretion, and no earnings dilution risk. The transaction also underscores TSMC's role as a strategic early-stage investor in the broader semiconductor ecosystem.\n\n---"
+    },
+    {
+      "title": "[Taiwan Stock Index Futures Night Session Swings Over 1,000 Points as US-Iran Ceasefire Collapses]",
+      "section": "產經",
+      "date": "2026/07/08 21:05:38",
+      "url": "https://money.udn.com/money/story/11112/9615914",
+      "summary": "Taiwan stock index futures (TAIEX futures) experienced extreme volatility during the night session on July 8th, swinging over 1,215 points intraday. The session opened lower at 45,458 (-105 pts) amid weakness in US electronic trading, briefly rebounded to a high of 45,790 (+227 pts), before collapsing to a low of 44,575 (-988 pts) after President Trump announced the termination of the US-Iran ceasefire agreement during the NATO annual summit. As of 9 PM local time, the index recovered partially to approximately 45,180 (-383 pts). The breakdown of the ceasefire triggered a sharp spike in geopolitical risk, with WTI and Brent crude oil surging ~6%, the US dollar and Treasury yields rebounding, and US equity electronic markets falling 0.4–0.8%. A further overhang remains: the Fed is scheduled to release its June FOMC meeting minutes at approximately 2 AM, with new Fed Chair Walsh having removed all forward interest rate guidance from the prior statement and declined to submit a dot plot. TSMC ADR futures were trading at NT$2,438 (-decline noted). **Market implication:** Taiwan equity investors face a dual risk event — elevated Middle East geopolitical uncertainty and potential Fed policy opacity — which could drive elevated volatility at the next open."
+    },
+    {
+      "title": "[SK Hynix ADR Over 7x Oversubscribed — Positive Signal for Taiwan Memory Chip Makers Nanya, Winbond, and Macronix]",
+      "section": "金融",
+      "date": "2026/07/10 00:16:16",
+      "url": "https://money.udn.com/money/story/5612/9618826?from=edn_maintab_cate",
+      "summary": "SK Hynix's US ADR issuance attracted overwhelming demand, with the offering oversubscribed more than seven times by global long-only funds, technology funds, sovereign wealth funds, and Asian investors. The ADR is set to begin pre-trading on Nasdaq on July 10th under ticker \"SKHYV,\" converting to regular trading on July 13th as \"SKHY.\" The offering represents 177.9 million ADR units (each equal to 1/10 of one common share), with an implied fundraise of approximately US$24.5 billion — which would make it the second-largest foreign company IPO in US history. The overwhelming reception is being interpreted by institutional analysts as a significant re-rating signal for AI-driven memory chip demand. In response, Taiwan memory sector stocks surged: Nanya Technology (2408) hit the daily limit-up at NT$435.5, while Winbond, Macronix, and Phison all closed up over 3%. SK Hynix itself rose 5.3% on the Korea exchange. **Market implication:** The SK Hynix ADR success validates the AI memory investment thesis and is a near-term positive catalyst for Taiwan-listed memory names. Fund managers should monitor whether sustained international capital inflows into this sector support further upside in Nanya (2408), Winbond (2344), and Macronix (2337)."
+    },
+    {
+      "title": "Taiwan Stock Market Shows \"Weak but Resilient\" Signs; Government Banks Buy for Seventh Consecutive Day; Analysts Expect Market to Strengthen Through Month",
+      "section": "證券",
+      "date": "2026/07/10 01:02:05",
+      "url": "https://money.udn.com/money/story/5607/9618810?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index fell 379 points to close at 45,354 on July 9, with TSMC alone accounting for 394 points of the decline following a late-session selloff. Despite the headline weakness, breadth remained relatively constructive with 740 stocks advancing. Government-linked banks have intervened to support the market every session in July. Volume contracted for a second consecutive day to NT$996.7 billion — the first sub-trillion session since April 30 — partly attributed to investor caution ahead of a potential typhoon holiday. Key headwinds include NT dollar depreciation, foreign investors holding net short positions of over 80,000 contracts on TAIEX futures, and margin balances remaining elevated at NT$619.6 billion. However, institutional analysts from Uni-President Securities, Fubon Securities, and Hua Nan Securities maintain that fundamentals are solid: Q2 listed company revenues are estimated to hit a record NT$19 trillion, and full-year 2026 earnings could be revised up to NT$6+ trillion, implying ~50% growth vs. the prior 20% estimate. Critical downside support levels to watch are 44,454 (June 26 pattern low) and the quarterly moving average at 42,878."
+    }
+  ],
+  "medium": [
+    {
+      "title": "D-Link (友訊) Enters SpaceX Supply Chain, Secures Order for 20,000 Network Switches",
+      "section": "金融",
+      "date": "2026/07/09",
+      "url": "https://money.udn.com/money/story/11162/9616172?from=edn_maintab_cate",
+      "summary": "D-Link (ticker: 2332) announced it has broken into SpaceX's supply chain, securing an order for approximately 20,000 network switches designated for the Starlink low-earth orbit (LEO) satellite network, with shipments commencing in September 2026. The company also flagged a separate design-win with a German broadband telecom operator. Management highlighted compliance strength and high-reliability engineering as key competitive differentiators, consistent with the \"clean supply chain\" narrative gaining traction among Western clients. While D-Link is a smaller-cap name, the SpaceX win provides meaningful revenue visibility for H2 2026 and signals broadening Taiwanese participation in global LEO infrastructure. Investors tracking the satellite supply chain theme should note this alongside stronger names like Shengda (昇達科, 3491) and Huatong (華通, 2313)."
+    },
+    {
+      "title": "SpaceX Gen-3 Starlink Launch Approved; Taiwan Supply Chain Players Set to Benefit",
+      "section": "金融",
+      "date": "2026/07/09",
+      "url": "https://money.udn.com/money/story/5612/9616125?from=edn_maintab_cate",
+      "summary": "The U.S. FCC has approved SpaceX to launch its third-generation Starlink constellation of up to 100,000 satellites — nearly 10 times the combined size of Gen-1 and Gen-2 deployments — with faster transmission speeds and greater bandwidth. This development is a significant positive catalyst for Taiwan's LEO satellite supply chain. Key beneficiaries include **Shengda (昇達科, 3491)**, which has already begun shipping payload products for Gen-3 satellites (June revenue +89% YoY, H1 revenue +70% YoY); **Huatong (華通, 2313)**, a primary PCB supplier actively expanding capacity; as well as **Shixin (事欣科, 4916)** and **Qiji (啟碁, 6285)**. Institutional investors note that given the 10x volume increase relative to prior generations, supply chain order flow could exceed historical levels by multiples, with improved unit economics due to higher per-satellite performance requirements."
+    },
+    {
+      "title": "Wistron Posts Record June Revenue, H2 Outlook Remains Strong on AI Server Shipments",
+      "section": "金融",
+      "date": "2026/07/09 01:32:31",
+      "url": "https://money.udn.com/money/story/5612/9616124?from=edn_subcatelist_cate",
+      "summary": "Server ODM major Wistron (3231) reported June consolidated revenue of NT$321.8 billion, the second-highest monthly figure on record and the strongest June in company history, pushing Q2 consolidated revenue to NT$895.4 billion — an all-time quarterly high, up 62.4% year-over-year. First-half 2026 revenue reached NT$1.74 trillion, nearly doubling year-on-year (+94%). Management guided for continued sequential AI server shipment growth in Q3, driven by GB300 ramp-up and the new Vera Rubin platform entering shipment phase. Notebook shipments are expected to dip quarter-on-quarter, while desktop PC and monitor guidance was revised upward from an earlier decline forecast to broadly stable. Wistron's strong AI server exposure and full-year record revenue trajectory make it a key proxy for AI infrastructure spending momentum in Taiwan's tech supply chain."
+    },
+    {
+      "title": "Passive Component Leaders Yageo and Walsin Post Strong June Revenue on AI-Driven Demand",
+      "section": "金融",
+      "date": "2026/07/09 00:48:03",
+      "url": "https://money.udn.com/money/story/5612/9616101?from=edn_subcatelist_cate",
+      "summary": "Yageo (2327) reported June consolidated revenue of NT$15.36 billion, marking four consecutive months of all-time monthly highs, with Q2 revenue hitting a record NT$44.46 billion (+35.7% YoY). Walsin Technology (2492) posted June revenue of NT$3.96 billion, the highest in nearly 61 months, up 25.8% YoY. Both companies cited robust AI-related demand as the primary driver, fueling a shortage-driven pricing upswing in passive components. Yageo's book-to-bill ratio has surged to 1.3x, with capacity utilization exceeding 80% for standard products and over 90% for specialty items. Chairman Chen Tai-ming indicated H2 will be \"very busy.\" For fund managers, both names represent high-conviction AI supply chain plays with strong pricing power and improving inventory dynamics at end customers."
+    },
+    {
+      "title": "[International Oil Prices Surge Sharply on US Strike Against Iran Concerns]",
+      "section": "產經",
+      "date": "2026/07/09 05:45:22",
+      "url": "https://money.udn.com/money/story/5599/9616416",
+      "summary": "Following the resumption of US military action against Iran, international crude oil prices climbed to two-week highs on supply disruption concerns in the Middle East. WTI August futures settled at US$73.52/barrel (+US$3.08, +4.37%), while Brent September futures closed at US$78.02/barrel (+US$3.86, +5.20%). The sharp oil price spike reflects renewed Middle East geopolitical risk premium being priced into energy markets. **Relevance for Taiwan:** Rising oil prices have indirect implications for Taiwan's inflation outlook, CBC monetary policy considerations, and input cost pressures for petrochemical and energy-intensive listed companies. For life insurers with significant overseas fixed income and equity exposure, broader risk-off sentiment could impact investment portfolio valuations."
+    },
+    {
+      "title": "Formosa Plastics Four Companies Earn NT$108.4 Billion in H1, Nan Ya Leads with EPS of NT$5.17",
+      "section": "金融",
+      "date": "2026/07/10",
+      "url": "https://money.udn.com/money/story/5612/9618778?from=edn_maintab_cate",
+      "summary": "The four Formosa Plastics Group companies (Formosa Plastics, Nan Ya Plastics, Formosa Chemicals & Fibre, and Formosa Petrochemical) collectively reported H1 2026 net profit of NT$108.45 billion, reversing losses from the same period last year. Q2 combined net profit reached NT$64.28 billion, up 45.5% quarter-on-quarter. Nan Ya Plastics was the standout performer, posting Q2 EPS of NT$3.37 (a single-quarter record) and H1 EPS of NT$5.17, driven by gains across its electronics materials, petrochemicals, and investment income segments. The group attributed strength to surging AI-driven demand for data center buildout accelerating orders for electronic materials. For fund managers, the sharp earnings recovery in the Formosa group signals improving industrial margins and validates the AI infrastructure investment theme extending beyond pure-play tech into upstream materials."
+    },
+    {
+      "title": "Delta Electronics Sets New Monthly Revenue Record in June, Driven by AI Power and Cooling Shipments",
+      "section": "金融",
+      "date": "2026/07/10",
+      "url": "https://money.udn.com/money/story/5612/9618780?from=edn_maintab_cate",
+      "summary": "Delta Electronics (2308) reported June consolidated revenue of NT$65.603 billion, a new all-time monthly high, up 11.3% month-on-month and 55.4% year-on-year, fueled by strong AI-related power supply and thermal management shipments. Q2 consolidated revenue of NT$183.257 billion also set a single-quarter record, up 15% QoQ and 47.7% YoY; H1 revenue grew 41% YoY to NT$342.609 billion. Analysts expect Q3 to continue setting records as AI server, automotive, and industrial automation segments enter their traditional peak season. Delta has reportedly initiated a second round of price increases (estimated 5–20%) to offset upstream material cost inflation, which should support margin defense. Foreign investors sold for four consecutive sessions while domestic investment trusts bought, suggesting a near-term divergence in sentiment worth monitoring."
+    },
+    {
+      "title": "ASUS June Revenue Breaks NT$100 Billion for First Time, Driven by AI Servers and PC Business",
+      "section": "金融",
+      "date": "2026/07/10",
+      "url": "https://money.udn.com/money/story/11162/9618843?from=edn_subcatelist_cate",
+      "summary": "ASUS (2357) reported June group revenue of NT$106.723 billion, crossing the NT$100 billion threshold for the first time ever, up 54.5% MoM and 55.6% YoY. Q2 group revenue of NT$257.732 billion and H1 revenue of NT$466.102 billion both set new records, rising 37.1% and 38.9% YoY respectively. Management cited concurrent growth in AI server and PC segments, with strong order visibility for H2, particularly from Neo Cloud customers and large CSPs continuing to raise capex. Government sovereign AI infrastructure demand was flagged as an emerging additional growth driver. The milestone revenue figure reinforces ASUS's successful pivot toward higher-value AI server business alongside its traditional PC franchise."
+    },
+    {
+      "title": "Largan Optics Secures First CPO Order; Mass Production Targeted for Mid-2027",
+      "section": "金融",
+      "date": "2026/07/10",
+      "url": "https://money.udn.com/money/story/5612/9618833?from=edn_maintab_cate",
+      "summary": "Largan Precision (3008) Chairman Lin En-ping confirmed at the company's investor conference that Largan has received its first co-packaged optics (CPO) production order — specifically for fiber array (FA) components — just ten months after entering the CPO market in September 2025. Samples are scheduled for delivery this month, with customer certification to follow on an expedited basis. The pilot production line is targeted for completion by end-Q3 2026, with full mass production expected by mid-2027. Lin also addressed concerns over Corning's new \"Glass Bridge\" glass optical interconnect technology, clarifying that it targets edge-coupler (EC) designs, while Largan focuses on grating-coupler (GC) architecture — the current market mainstream — meaning the two approaches coexist rather than compete directly. The CPO breakthrough represents a meaningful new revenue stream beyond Largan's core smartphone lens business."
+    },
+    {
+      "title": "Largan Q3 Capacity Utilization to Run at Full Load; Chairman Reports Improving Monthly Pull-Through",
+      "section": "金融",
+      "date": "2026/07/10",
+      "url": "https://money.udn.com/money/story/5612/9618781?from=edn_maintab_cate",
+      "summary": "At the same investor conference, Largan Chairman Lin En-ping guided that Q3 production capacity will run at full utilization, with order pull-through improving each month (July better than June, August better than July). The sequential dip in June revenue versus May was attributed to customer scheduling rather than yield issues. The positive outlook is supported by Apple's anticipated iPhone 18 launch in September, with the flagship model expected to feature a variable aperture lens for the first time — a component Largan supplies. Lin cautioned that shipment volumes for the variable aperture lens remain heavily back-end loaded in Q3 and are subject to downward revision if new iPhone sell-through disappoints. YoY revenue growth for Q3 remains uncertain given a strong comparable base."
+    },
+    {
+      "title": "GlobalWafers Signs Company's Longest and Largest 10-Year Supply Agreement with Micron",
+      "section": "金融",
+      "date": "2026/07/09 22:30:23",
+      "url": "https://money.udn.com/money/story/11162/9618693?from=edn_subcatelist_cate",
+      "summary": "GlobalWafers (6488), one of the world's top-three semiconductor silicon wafer manufacturers, announced a landmark 10-year Long-Term Agreement (LTA) with U.S. memory giant Micron Technology. Micron will provide USD 500 million in strategic funding support — partly in the form of prepayments — to underwrite GlobalWafers' expanded U.S. manufacturing capacity. Chairwoman Doris Hsu confirmed this is the longest-duration and largest-value contract in the company's history. The deal is designed to secure stable supply of advanced 12-inch silicon wafers for AI, HPC, and next-generation memory applications. Micron explicitly seeks to increase the proportion of wafers sourced directly from GlobalWafers' U.S. facilities in Texas and Missouri. **Market implications:** The agreement provides GlobalWafers with significant revenue visibility and capital cost relief for U.S. capex, reducing balance sheet risk. It reinforces the strategic value of being the only U.S. CHIPS Act participant capable of producing advanced 12-inch wafers domestically. Investors should view this as a strong demand signal for AI/HPC-driven memory infrastructure and a positive re-rating catalyst for GlobalWafers' U.S. growth narrative."
+    },
+    {
+      "title": "Google Partners with Taiwan Companies to Advance Agentic AI Solutions",
+      "section": "證券",
+      "date": "2026/07/10 01:05:49",
+      "url": "https://money.udn.com/money/story/5607/9618510?from=edn_maintab_cate",
+      "summary": "Google Cloud held its annual \"Google Cloud Day Taipei\" event, spotlighting agentic AI enterprise applications and showcasing collaborations with Taiwan partners including Chunghwa Telecom (2412), Acer e-Enabling Data Center (宏碁智雲), and President Information (統一資訊). Chunghwa Telecom presented integrated cloud solutions, while other partners demonstrated AI-powered digital employees, smart retail, and automated checkout systems. Google DeepMind's VP of Research also delivered a keynote on the evolution from language models to multimodal AI agents. **Relevance:** Chunghwa Telecom's deepening Google Cloud partnership supports its enterprise cloud growth story and is a modest positive for the stock's medium-term revenue outlook in the AI infrastructure buildout theme."
+    },
+    {
+      "title": "Vanguard International Semiconductor June Revenue Hits Record High, Up 40% MoM; Analysts Bullish on Q3 Peak",
+      "section": "證券",
+      "date": "2026/07/10 01:27:37",
+      "url": "https://money.udn.com/money/story/11074/9618366?from=edn_maintab_cate",
+      "summary": "Vanguard International Semiconductor (5347), a TSMC-affiliated mature-node foundry, reported June consolidated revenue of NT$5.977 billion, a single-month record, up 40.9% MoM and 33.6% YoY. The strong performance is attributed to a combination of higher ASPs (industry sources suggest ~15% price hikes on certain products since April) and improved product mix, particularly toward AI-related PMIC applications. Management has reaffirmed that its Singapore 12-inch fab Phase 1 is on track for early completion by 2028, with all capacity already contracted by customers. Structural tightening in mature-node supply — driven by advanced node capacity crowding out legacy nodes — supports continued pricing power. Analysts expect Q3 to set another revenue record.\n\n**Market Implication:** Positive read-through for the mature-node foundry ecosystem; pricing discipline and AI-driven demand provide earnings visibility into H2 2026."
+    },
+    {
+      "title": "PSMC June Revenue Climbs to Four-Year High on DRAM and Logic Pricing Gains",
+      "section": "證券",
+      "date": "2026/07/10 01:05:06",
+      "url": "https://money.udn.com/money/story/5710/9618511?from=edn_subcatelist_cate",
+      "summary": "Powerchip Semiconductor Manufacturing Corp (PSMC, 6770) reported June consolidated revenue of NT$6.474 billion, a 47-month high, up 12.2% MoM and 68.75% YoY. Q2 revenue reached NT$17.29 billion (best in 15 quarters), up 27.4% QoQ and 53.3% YoY; H1 revenue totaled NT$30.863 billion, up 37.81% YoY. The surge reflects significant price hikes across DRAM foundry (since March), NAND foundry (since April), and 12-inch logic foundry services. Strategically, PSMC is pivoting toward high-margin AI server PMIC and 3D AI foundry services (targeting it as the third major revenue pillar), while reducing exposure to lower-margin display driver ICs. Advanced Wafer-on-Wafer (WoW) technology using Hybrid Bonding — with 4-layer stacking validated and 8-layer in development — positions PSMC for longer-term AI infrastructure demand.\n\n**Market Implication:** PSMC's revenue trajectory and strategic repositioning toward AI foundry services represent a meaningful re-rating catalyst; continued ASP increases support H2 earnings momentum."
+    },
+    {
+      "title": "12 Stocks Leading the Market to New Highs Amid Rapid Sector Rotation",
+      "section": "證券",
+      "date": "2026/07/10 01:23:24",
+      "url": "https://money.udn.com/money/story/5607/9618390?from=edn_maintab_cate",
+      "summary": "Despite overall index weakness, a cluster of 12 stocks — including Etron (5351), AUO, Sigurd Microelectronics, ChipMOS, Holtek, Shengkai Innovations, Wisdom Marine (KY), Compal, TaishinSinopac Financial Holdings, and MSI — broke above their June 23 highs with institutional buying support and single-day gains of 2.1%–9.9%. Semiconductor packaging and testing names are benefiting from TSMC CoWoS advanced packaging order spillover effects, with Sigurd Microelectronics hitting an all-time high at NT$356.5. Defensive plays with high dividend yields and low valuations, such as Wisdom Marine, are attracting capital rotation. The Philadelphia Semiconductor Index rose 2.2% overnight, providing a positive sector backdrop, though foreign capital outflows and limited follow-through buying are constraining broader index gains.\n\n**Market Implication:** Selective stock-picking in CoWoS-adjacent packaging names and high-yield defensives may outperform the broader index in the near term; rapid sector rotation suggests institutional investors are repositioning rather than de-risking entirely."
+    },
+    {
+      "title": "Compal Electronics June Consolidated Revenue Up 36% MoM — Best in Three-and-a-Half Years",
+      "section": "證券 (Securities)",
+      "date": "2026/07/10 01:03:51",
+      "url": "https://money.udn.com/money/story/5710/9618512?from=edn_subcatelist_cate",
+      "summary": "Compal Electronics (2324), one of Taiwan's largest ODM manufacturers, reported June consolidated revenue of NT$95.854 billion — the highest single-month figure since October 2022 — up 36% MoM and 58.4% YoY. Q2 consolidated revenue reached NT$238.295 billion, a seven-quarter high, rising 18.4% QoQ and 32% YoY. H1 2026 revenue totaled NT$439.598 billion, the best first-half performance since 2024, up 15.8% YoY. The primary growth driver is AI server shipments, which are expected to continue expanding in H2. PC shipments in June totaled 2.4 million units (+20% MoM), though down 4% YoY. Institutional investors are optimistic about H2, citing ramp-up of new facilities in Texas and Taoyuan, and stronger customer pull-in momentum. Server revenue share is projected to grow from low single digits at end-2025 to approximately 10% this year. For fund managers, Compal's strong AI server exposure and improving revenue mix make it a relevant proxy for the broader Taiwan ODM/AI infrastructure theme."
+    },
+    {
+      "title": "Zhi Shang (至上) June Consolidated Revenue Surpasses NT$600 Billion for First Time",
+      "section": "證券 (Securities)",
+      "date": "2026/07/10 01:24:42",
+      "url": "https://money.udn.com/money/story/5710/9618367?from=edn_subcatelist_cate",
+      "summary": "Semiconductor distributor Zhi Shang (8112), a key Samsung authorized distributor in Taiwan, reported record June consolidated revenue of NT$61.629 billion, breaking the NT$60 billion threshold for the first time, up 14.3% MoM and 231.2% YoY. Q2 consolidated revenue hit NT$150.61 billion — the first quarter to surpass NT$150 billion — rising 36.7% QoQ and 167.2% YoY. H1 revenue reached NT$260.775 billion, up 154% YoY. Growth is primarily driven by rising memory component prices and strong pull-in demand from server and smartphone customers. Notably, server applications now account for 39.9% of memory-related revenue, overtaking mobile (38.9%) as the largest segment. This reflects the broader AI-driven memory upcycle and reinforces the investment thesis around HBM and DRAM demand. Relevant as a bellwether for memory market conditions affecting related Taiwan semiconductor supply chain names."
+    }
+  ],
+  "not_relevant": [
+    "*All five articles in today's batch were assessed as relevant to major Taiwan listed companies and have been summarized above.*"
+  ]
+}
