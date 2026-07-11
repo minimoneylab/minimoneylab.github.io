@@ -1,0 +1,131 @@
+{
+  "date": "2026-07-12",
+  "update_time": "2026-07-12 06:07:05",
+  "total_articles": 27,
+  "high": [
+    {
+      "title": "MediaTek Q2 Revenue Beats High-End Guidance — Smart Edge Platform and Premium Smartphone Chips Drive Outperformance",
+      "section": "金融",
+      "date": "2026/07/11 01:53:20",
+      "url": "https://money.udn.com/money/story/5612/9620612?from=edn_maintab_cate",
+      "summary": "MediaTek (2454) reported June consolidated revenue of NT$58.012 billion, up 22.3% MoM and 2.8% YoY, pushing Q2 consolidated revenue to NT$152.183 billion — a quarterly increase of 2.03% and annual increase of 1.21%. Crucially, this result not only exceeded the company's own guidance range of NT$140.2–149.2 billion but broke through the high-end of the forecast, marking the best quarterly performance in five quarters. The outperformance was driven by stronger-than-expected smart edge platform demand (connectivity, computing, and automotive segments) alongside resilient shipments of flagship and upper-mid-range smartphone chips. Management had originally flagged cautious client ordering in the handset segment, making the beat particularly notable. Looking to H2 2026, momentum is expected to accelerate on three growth engines: AI ASICs (custom chips), continued smart edge platform share gains, and smartphone chip mix improvement. Market attention will now shift to Q2 profitability and gross margin, where a richer product mix could provide further upside. **Implication:** The revenue beat reinforces MediaTek's positioning as a key AI and edge computing beneficiary; investors should watch for margin expansion commentary at the upcoming earnings call.\n\n---"
+    },
+    {
+      "title": "TSMC Q2 Results Expected to Hit Record High",
+      "section": "金融",
+      "date": "2026/07/11 02:13:01",
+      "url": "https://money.udn.com/money/story/5612/9620632?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) had originally scheduled its June revenue disclosure for July 10, but the release was postponed to Monday July 13 due to Typhoon Bavi. Institutional investors remain broadly bullish, expecting Q2 results to beat guidance on the strength of continued AI-driven demand. Cumulative revenue for April and May already reached NT$827.701 billion. Analysts estimate June revenue at approximately NT$425.3 billion, which would push Q2 total revenue above NT$1.25 trillion — a new single-quarter record in both USD and NTD terms.\n\nTSMC's Q2 USD revenue guidance was set at US$39.0–40.2 billion (midpoint ~US$39.6B), implying ~10.3% QoQ growth, already above prior market consensus of 6–8%. Institutional forecasts now suggest revenue could exceed the high end of guidance, with gross margin also potentially surpassing the guided ceiling. Q2 EPS is estimated at over NT$24 per share.\n\nChairman C.C. Wei has publicly expressed confidence in 30%+ YoY USD revenue growth for full-year 2026 and visibility extending to 2030. Supply chain bottlenecks — spanning equipment, components, and subcomponents — remain a structural constraint across the entire semiconductor ecosystem. **Market implication:** A beat on Q2 guidance when disclosed on July 13 could serve as a significant positive catalyst for TSMC's share price and the broader Taiwan tech index."
+    },
+    {
+      "title": "iPhone 18 Pro Max BOM Cost Estimated to Rise Nearly US$300 — Counterpoint Research",
+      "section": "金融",
+      "date": "2026/07/10 18:56:14",
+      "url": "https://money.udn.com/money/story/11162/9620262?from=edn_subcatelist_cate",
+      "summary": "Counterpoint Research's latest Bill of Materials (BOM) analysis estimates that the top-tier iPhone 18 Pro Max (12GB + 1TB) will carry a BOM cost approximately US$300 higher than its iPhone 17 Pro Max predecessor. The two primary cost drivers are: (1) significantly higher memory costs driven by surging on-device AI application requirements for greater memory capacity and compute performance, and (2) the adoption of a 2nm SoC manufactured with advanced packaging technology, which substantially increases chip costs. Display and other component costs are also expected to rise.\n\nApple has already signaled price increases on its tablet and computer lines, citing higher component costs, and market participants expect iPhone 18 pricing to follow suit when the series launches in H2 2026. **Market implication:** This development is directly relevant to Taiwan's semiconductor supply chain. TSMC, as the sole manufacturer of Apple's 2nm A-series chips, stands to benefit from higher ASPs and increased advanced packaging (CoWoS/SoIC) volumes. Memory suppliers and advanced packaging players in Taiwan's ecosystem also face favorable demand tailwinds."
+    },
+    {
+      "title": "TSMC Earnings Call Next Week: Three Scenarios That Could Drive TAIEX to 50,000 Points",
+      "section": "證券 (Securities)",
+      "date": "2026/07/11",
+      "url": "https://money.udn.com/money/story/5607/9620624?from=edn_maintab_cate",
+      "summary": "TSMC's investor conference is scheduled for Thursday, July 16, and market analysts are mapping out three distinct scenarios for Taiwan equities. The **bull case** (low probability) involves Q3 revenue guidance exceeding 15% QoQ growth, an upward revision to capex, and an increasingly optimistic AI outlook — conditions that analysts believe could propel the TAIEX to challenge the 50,000-point milestone. The **base case** (80% probability) assumes Q3 revenue growth of 10–15% QoQ, a steady AI demand outlook, and unchanged capex guidance, suggesting continued consolidation near the monthly moving average. A **bear case** involves guidance disappointment or capex cuts, which could trigger a broader tech selloff.\n\nAnalysts from Uni-President Securities, Chgroup Securities, and Taishin Securities note that TAIEX has been range-bound due to accumulated H1 gains, noise around AI supply chains, and USD strength. However, strong export data and structural AI demand — particularly the ramp of NVIDIA's Vera Rubin platform requiring advanced 2/3/5nm capacity expansion — remain supportive. The TSMC conference is the single most critical near-term catalyst for Taiwan equities and the AI supply chain broadly."
+    },
+    {
+      "title": "Taiwan Stock Market to Receive NT$817.6 Billion in Dividend Inflows — Hon Hai Leads with NT$100.9 Billion",
+      "section": "證券 (Securities)",
+      "date": "2026/07/11",
+      "url": "https://money.udn.com/money/story/5607/9620516?from=edn_maintab_cate",
+      "summary": "A total of 426 listed and OTC companies are scheduled to distribute cash dividends by July 31, injecting an estimated **NT$817.6 billion** into the Taiwan market during the peak ex-dividend season. **Hon Hai (2317)** leads all companies with NT$100.93 billion to be disbursed on July 31, with major shareholder Terry Gou set to personally receive NT$12.47 billion. The next largest dividend payers include **Fubon Financial (NT$59.53B)**, **Cathay Financial (NT$51.34B)**, **MediaTek (NT$39.29B)**, **Evergreen Marine (NT$34.64B)**, **UMC (NT$32.7B)**, **ASUS (NT$31.19B)**, **Delta Electronics (NT$30.13B)**, **ASE Technology (NT$29.43B)**, and **Wiwynn (NT$26.94B)**.\n\nStrategists note that while foreign investors have recently adopted a bearish stance in both Taiwan equity futures and spot markets — citing Korean market weakness, Middle East tensions, and USD strength — the massive dividend reinvestment flow is expected to provide meaningful **technical support and incremental buying power** for the broader market. The presence of major life insurer-affiliated financials (Fubon, Cathay) among the top payers is also notable for insurance sector watchers tracking capital deployment patterns."
+    },
+    {
+      "title": "[Tongbo Technology Acquisition Boosts Performance; Invites Former TSMC Executive Lin Jun-ji as Independent Director]",
+      "section": "金融 (Financial)",
+      "date": "2026/07/12 03:43:28",
+      "url": "https://money.udn.com/money/story/5612/9622165?from=edn_subcatelist_cate",
+      "summary": "IC design firm Tongbo Technology reported a record-high monthly revenue of NT$132 million in June — its first consolidated revenue month following the acquisition of Singapore-based SinChip — representing a 41.07% year-over-year increase. Cumulative H1 2026 revenue reached NT$320 million, surging 91.72% YoY, significantly exceeding the company's original 70% annual revenue growth target. The SinChip team, which generated approximately NT$300 million in annual revenue with an established customer base in HPC and AI applications, is expected to serve as a strong new growth engine alongside Tongbo's core IC design business. The company is targeting a TSE listing application in Q4 2026. Of particular note for investors, Tongbo appointed Lin Jun-ji — a former senior executive at TSMC (2330) — as an independent director. This signals a strategic governance upgrade ahead of the planned listing, lending credibility and potential access to TSMC's ecosystem. The TSMC connection, combined with strong AI/HPC-driven demand and M&A execution, makes this a company worth monitoring for pre-IPO exposure.\n\n---"
+    },
+    {
+      "title": "TSMC Earnings Call Ahead: Institutional Investors Recommend Buying on Dips; \"TSMC Friends\" Supply Chain and Apple Chain Positioning",
+      "section": "證券 (Securities)",
+      "date": "2026/07/12 03:30:01",
+      "url": "https://money.udn.com/money/story/5607/9621977?from=edn_maintab_cate",
+      "summary": "TSMC (2330) is scheduled to hold its investor conference on July 16, widely regarded as a bellwether for AI semiconductor industry momentum. Market consensus expects TSMC to report record-high revenue and earnings, with potential disclosures on AI demand outlook and progress on Apple's foldable device supply chain. Institutional investors are positioning in the \"TSMC Friends\" upstream supply chain — including advanced packaging, materials, and equipment names such as Asia Vital Components (亞翔, 6139), Kyang Yung (光洋科, 1785), and Hon Hai (鴻海, 2317). Despite last week's broader Taiwan market decline and continued foreign investor net selling, domestic government-mandated funds (八大公股行庫) and domestic investment trusts jointly net-bought these supply chain stocks over the past five sessions. TSMC's June revenue — to be released July 13 — is projected to grow 3–5% MoM, landing in the NT$425–430 billion range, another historical record. **Market Implication:** The earnings call is a critical near-term catalyst. A strong revenue print and bullish AI/CoWoS commentary could drive broad-based rallies across upstream semiconductor materials, equipment, and advanced packaging names. Investors should watch for CoWoS capacity guidance and Apple foldable timeline updates as key share price drivers."
+    },
+    {
+      "title": "Goldman Sachs Raises Chuan Her (川湖) Target to NT$12,000; Six Taiwan Stocks With >NT$10,000 Price Targets Named by Foreign Brokers",
+      "section": "證券 (Securities)",
+      "date": "2026/07/12 03:20:21",
+      "url": "https://money.udn.com/money/story/5607/9622034?from=edn_maintab_cate",
+      "summary": "Goldman Sachs has issued a materially bullish update on Chuan Her (川湖, 2059), raising its 2026–2028 net profit estimates by 39%, 36%, and 48% respectively, and lifting its P/E target multiple to 34.5x — resulting in a new price target of NT$12,000, representing a 45.4% premium to the July 9 closing price of NT$8,250. The upgrade is driven by June revenue surging 17% MoM and 221% YoY, significantly exceeding expectations, validated by accelerating AI server and IT rack demand for slide rail products. Goldman expects Chuan Her to maintain market leadership at least through 2028, supported by rapid technology migration and expanding AI server shipments. Beyond Chuan Her, Goldman and other foreign brokers have assigned >NT$10,000 price targets to five additional Taiwan names: Aspeed Technology (信驊, 5274), Inpaq Technology (穎崴, 6515), Marketech (旺矽, 6223), Hongzun Precision (鴻勁, 7769), and MediaTek (聯發科, 2454). **Market Implication:** The sharp upward earnings revision cycle for AI infrastructure plays remains intact. The 45% gap between Chuan Her's current price and Goldman's target signals meaningful re-rating potential and may attract momentum-driven foreign and domestic institutional flows into AI server peripheral components."
+    },
+    {
+      "title": "Goldman Sachs Asia-Pacific Tech H2 Investment Guide: Buy TSMC, MediaTek, Hon Hai Among 14 Taiwan Picks",
+      "section": "證券 (Securities)",
+      "date": "2026/07/12 03:17:54",
+      "url": "https://money.udn.com/money/story/5607/9622036?from=edn_subcatelist_cate",
+      "summary": "Goldman Sachs has published its \"Asia-Pacific Technology Sector H2 2025 Investment Guide,\" co-authored by 14 analysts including Greater China Tech Research Head Brad Chang. The report identifies 14 Taiwan-listed stocks with Buy ratings for H2, spanning the AI and technology supply chain. The recommended names include: **TSMC (2330), MediaTek (2454)**, Hon Hai (2317), Aspeed Technology (5274), Taiwan Optical Platform (台光電), Taiyow (台燿), Nanya PCB (南電), Delta Electronics (台達電), Yageo (國巨), Wiwynn (緯穎), Hongzun Precision (鴻勁), Marketech (旺矽), Inpaq Technology (穎崴), and Shangchuan (上詮). Goldman articulates four selection criteria for a risk-on environment: (1) companies benefiting from ASP/pricing increases; (2) firms able to unlock capacity constraints via timely capex; (3) valuation laggards with catch-up potential; and (4) stocks not yet pricing in idiosyncratic company-specific drivers. TSMC is highlighted for projected 39% YoY revenue growth in 2026, full capacity utilization, and accelerated 2027 expansion. **Market Implication:** This high-profile framework from Goldman provides a structured roadmap for fund managers navigating H2 volatility. The explicit endorsement of TSMC and MediaTek reinforces their roles as core long positions; the inclusion of smaller-cap names like Inpaq and Marketech may generate incremental institutional interest and liquidity events."
+    }
+  ],
+  "medium": [
+    {
+      "title": "iPhone 18 Pro Max BOM Cost Estimated to Rise by ~USD 300, Driven by 2nm SoC and High-Capacity Memory — TSMC Key Beneficiary",
+      "section": "金融",
+      "date": "2026/07/11 00:53:37",
+      "url": "https://money.udn.com/money/story/11162/9620593?from=edn_maintab_cate",
+      "summary": "Counterpoint Research estimates the bill-of-materials (BOM) cost for the iPhone 18 Pro Max (12GB + 1TB configuration) will rise by approximately USD 300 (~NT$9,600) compared to its predecessor. The cost increase is primarily attributed to high-capacity memory modules and the adoption of TSMC's leading-edge 2nm SoC combined with advanced packaging technology. Apple is widely expected to be among the first customers to deploy TSMC's 2nm process node at scale, with the iPhone 18 Pro Max expected to debut at Apple's fall 2026 event. Apple is anticipated to employ differentiated pricing across storage tiers rather than a uniform price hike to manage margin impact. **Implication:** This is a positive read-through for TSMC's advanced node utilization and revenue per wafer in H2 2026; it also supports ongoing demand for HBM and high-capacity LPDDR memory from suppliers in the supply chain."
+    },
+    {
+      "title": "Nanya Technology Plans NT$200 Billion Capex in 2027 to Address Advanced Process and Custom Memory Demand",
+      "section": "金融",
+      "date": "2026/07/11 01:56:15",
+      "url": "https://money.udn.com/money/story/5612/9620590?from=edn_maintab_cate",
+      "summary": "Nanya Technology (2408) held its investor conference on July 10, with President Lee Pei-ying announcing that internal preliminary planning targets capex of over NT$200 billion for 2027 — a dramatic jump from the estimated NT$50+ billion in 2026 — to fund new fab construction, advanced process migration, and customized memory products. Management noted that AI demand is restructuring global DRAM supply-demand dynamics, with supply tightness expected to persist for several quarters. Q3 pricing is expected to remain above Q2 levels, with Q4 operations continuing to improve. Current capacity utilization is near full, limiting near-term shipment growth; 2026 growth will therefore be driven primarily by ASP improvement and product mix optimization. Demand is broadening beyond GPU-attached HBM to include RDIMM, LPDDR5, and memory for CPU/TPU/ASIC-based AI accelerators. **Implication:** The scale of planned capex signals strong management conviction in the AI memory supercycle; subject to board approval, this investment trajectory could materially alter Nanya's competitive positioning by the end of the decade."
+    },
+    {
+      "title": "Asian Markets Mixed — Japanese, Korean, and Vietnamese Equities Favored for Long-Term Outlook",
+      "section": "金融",
+      "date": "2026/07/10 21:52:19",
+      "url": "https://money.udn.com/money/story/11162/9620453?from=edn_subcatelist_cate",
+      "summary": "Asian equity markets were mixed on July 10 while Taiwan's market was closed for a holiday. South Korea's KOSPI surged 2.52% to 7,475.94, Japan's Nikkei 225 gained 1.20% to 68,557.73, and India's NIFTY rose 1.02%, while Shanghai and Shenzhen declined approximately 1% and 1.24% respectively. Fund managers cited Japan's semiconductor equipment sector as a key structural long — Japan's Semiconductor Manufacturing Equipment Association forecasts 26% YoY growth in Japanese-made equipment sales for FY2026, supported by Micron's planned ¥1.5 trillion HBM investment in Japan. This regional market context is relevant for Taiwan-focused investors monitoring cross-border capital flows and relative positioning within Asia ex-Japan strategies.\n\n---"
+    },
+    {
+      "title": "UBS Bullish on AI Theme, Names Delta Electronics as Sole Asian Pick",
+      "section": "證券 (Securities)",
+      "date": "2026/07/11",
+      "url": "https://money.udn.com/money/story/5607/9620340?from=edn_maintab_cate",
+      "summary": "UBS Securities has published a research update on data center and AI infrastructure, upgrading its revenue growth forecasts for the data center equipment market to **+25% in 2026** and **+20% in 2027** (from prior estimates of 20–25% and 15–20%, respectively), with 10–15% annual growth projected through 2030. The upgrade reflects stronger-than-expected Q1 order intake among major equipment vendors and a visible expansion in the global pipeline of data centers under construction or planning. Among Asian Taiwan-listed companies, **Delta Electronics (2308) is the only name UBS specifically highlights** as being positioned very favorably over the coming years. UBS maintains a cautiously optimistic stance overall, noting that new global data center capacity additions showed flat YoY growth in Q1, with Asia-Pacific growth slowing materially even as North America remained robust. Q2 earnings and updated capacity data will be key watchpoints for reassessing demand trajectory.\n\n---"
+    },
+    {
+      "title": "[KYEC Approves US$1.4 Billion Investment to Establish US Subsidiary and Manufacturing Facility]",
+      "section": "證券 (Securities)",
+      "date": "2026/07/11 00:38:01",
+      "url": "https://money.udn.com/money/story/5710/9620341?from=edn_maintab_cate",
+      "summary": "Wafer testing leader KYEC (2449) approved a US$1.4 billion (approximately NT$44.9 billion) investment at its board meeting on July 10 to establish a US-based subsidiary and physical manufacturing facility, expanding its global supply chain footprint. Combined with its previously announced capital expenditure plan of NT$50 billion for 2026, KYEC's total investment commitment approaches NT$95 billion — a historic high for the company. The move is driven by surging AI and HPC chip testing demand, with major clients increasingly requiring localized supply, geopolitical risk diversification, and advanced testing capacity. This upgrade from a US sales liaison office (KYEC USA Corp.) to a full production base marks a significant strategic escalation. Investors should note the funding mix of internal cash and bank borrowings, which warrants monitoring of leverage ratios. The move reinforces the broader trend of Taiwan semiconductor supply chain players establishing US production presence amid geopolitical pressures."
+    },
+    {
+      "title": "[Optical Communications Sector Full-Year Revenue to Hit New Highs; CPO Demand Set to Sustain Growth Through 2028]",
+      "section": "金融 (Financial)",
+      "date": "2026/07/12 03:15:28",
+      "url": "https://money.udn.com/money/story/5612/9622037?from=edn_maintab_cate",
+      "summary": "Several Taiwan optical communications manufacturers — including Borouge (3163), HG Tech (4979), Optiray (6442), Optoway (3234), and Accelink-KY (4977) — released June consolidated revenue figures, collectively delivering positive H1 2026 growth. HG Tech posted June revenue of NT$455 million (+27.7% MoM), a single-month record, with H1 revenue of NT$2.483 billion (+15.2% YoY, also a record high). Optiray's H1 revenue of NT$6.387 billion grew 27.4% YoY, likewise a record. Analysts highlight that NVIDIA's GB300 platform has broadly adopted the NVL 72 architecture, requiring dense GPU interconnects and driving optical specifications to upgrade from 800G to 1.6T. The upcoming Vera Rubin platform is expected to sustain this demand, with Co-Packaged Optics (CPO) emerging as the next structural growth driver for 2028. This is a relevant read-through for investors tracking Taiwan's AI infrastructure supply chain."
+    },
+    {
+      "title": "Largan Precision Set to Soar? Foreign Brokers Praise \"CPO New Weapon\" Progress Ahead of Schedule, Buy Rating with Target Price NT$5,150",
+      "section": "證券",
+      "date": "2026/07/11 17:41:56",
+      "url": "https://money.udn.com/money/story/5710/9621699?from=edn_subcatelist_cate",
+      "summary": "Following Largan Precision's (3008) investor conference, foreign brokerages have released updated views. Bernstein Securities — recognized on Wall Street as a sell-side leader — initiated an \"Outperform\" rating with a target price of NT$5,150, implying approximately 30% upside from the July 9 closing price of NT$3,950. Bernstein noted that while Q2 results came in slightly below expectations, Q3 revenue is expected to grow month-on-month, reflecting a typical seasonal demand uptick in H2. Q3 profitability will hinge largely on yield improvement for the new variable aperture (VA) product. On the closely watched CPO front, Bernstein highlighted Largan's high-precision alignment technology as a core competitive differentiator. The company has developed proprietary testing and manufacturing equipment to support yield management and scalable capacity expansion. Fiber array (FA) components are now expected to begin contributing meaningful revenue as early as mid-2027 — slightly ahead of Bernstein's prior estimate — with FA embedded value potentially exceeding the lens value modeled. A pilot production line is planned for launch by end of Q3 2026. **Market implication:** Positive foreign analyst sentiment and CPO/AI optics exposure could serve as near-term catalysts for Largan's share price re-rating."
+    },
+    {
+      "title": "Formosa Plastics Q2 Turnaround Expected; Warrants Highlighted",
+      "section": "證券",
+      "date": "2026/07/11 23:43:36",
+      "url": "https://money.udn.com/money/story/5739/9621784?from=edn_subcatelist_cate",
+      "summary": "Formosa Plastics (1301) is expected to post a significant Q2 earnings recovery, with market consensus estimating gross margin of 8.1%, after-tax net income of NT$4.86 billion (up ~49% QoQ), and EPS of NT$0.76 — turning profitable versus the year-ago period. The recovery is driven by a sharp rebound in petrochemical product prices, partially offsetting reduced operating rates caused by upstream raw material supply disruptions (ethylene/propylene) linked to the US-Iran conflict affecting CPC and FPCC. Longer term, Formosa Plastics is advancing over 50 transformation initiatives through subsidiaries, including semiconductor chemicals and AI-related materials, targeting NT$30 billion in additional output value and 20–30% profit contribution by 2030. Key expansion projects include electronic-grade hydrofluoric acid (via Formosa Daikin, 50% stake) and electronic-grade IPA capacity (via Formosa Tokuyama, 50% stake). **Market implication:** The Q2 turnaround and ongoing downstream diversification into semiconductor chemicals provide a constructive medium-term narrative for Formosa Plastics, though near-term upside is tempered by geopolitical supply risks."
+    }
+  ],
+  "not_relevant": [
+    "*All articles reviewed were assessed as at least marginally relevant to major Taiwan listed companies and foreign investor activity. No articles fully outside scope today.*"
+  ]
+}
