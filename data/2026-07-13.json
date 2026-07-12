@@ -1,0 +1,122 @@
+{
+  "date": "2026-07-13",
+  "update_time": "2026-07-13 06:06:44",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "TSMC Analyst Day Ahead: Institutional Investors Recommend Buying on Dips; \"TSMC Friends\" and Apple Chain Stocks in Focus",
+      "section": "證券",
+      "date": "2026/07/12 03:30:01",
+      "url": "https://money.udn.com/money/story/5607/9621977?from=edn_maintab_cate",
+      "summary": "TSMC (2330) is scheduled to hold its investor conference on July 16, widely regarded as a key barometer for AI semiconductor industry conditions. The market broadly expects TSMC to report record-high revenues and profits, with potential disclosures on AI demand outlook and progress on Apple's foldable device supply chain. These catalysts are expected to benefit the broader \"TSMC Friends\" advanced packaging, materials, and equipment supply chain, as well as Apple-related suppliers.\n\nDomestically, while foreign investors continued net selling last week, the eight major state-owned banks and domestic investment trusts jointly accumulated net buying positions over the past five sessions in names including Asiatic Finishing (6139), Kyang Yuen (1785), Hon Hai (2317), WaferWorks, Mildex Optical, Ying Wei, Hertz, and others.\n\nTSMC's June revenue, to be released on July 13, is estimated by institutional analysts to grow 3–5% MoM, landing between NT$425–430 billion — a potential new all-time high. This print will set the tone for the July 16 analyst day and may serve as a near-term catalyst for the broader semiconductor supply chain.\n\n**Market Implication:** The upcoming TSMC revenue release and analyst day represent a high-conviction near-term catalyst. Fund managers should monitor supply chain positioning ahead of these events, particularly in advanced packaging and Apple foldable-related names where domestic institutions appear to be pre-positioning."
+    },
+    {
+      "title": "Goldman Sachs Raises Chuan Her Target to NT$12,000; Six Taiwan Stocks Now Carry NT$10,000+ Price Targets from Foreign Brokers",
+      "section": "證券",
+      "date": "2026/07/12 03:20:21",
+      "url": "https://money.udn.com/money/story/5607/9622034?from=edn_maintab_cate",
+      "summary": "Goldman Sachs has issued a significantly upgraded outlook on Chuan Her (川湖, 2059), raising its 2026–2028 net profit estimates by 39%, 36%, and 48% respectively, and lifting the target P/E to 34.5x, resulting in a new target price of NT$12,000 — representing a 45.4% upside from the July 9 closing price of NT$8,250. The upgrade is driven by stronger-than-expected June revenue (+17% MoM, +221% YoY), validating robust demand from AI server and IT rack applications.\n\nGoldman's analyst attributes the beat to expanding total addressable market (TAM) for server rack slides, driven by AI server shipment acceleration and rapid technology migration. The firm expects Chuan Her to maintain market leadership at least through 2028, even as market share normalizes from elevated levels.\n\nBeyond Chuan Her, foreign institutional analysts now assign price targets above NT$10,000 for five additional Taiwan-listed companies: Aspeed Technology (5274), Ying Wei (6515), WaferWorks (6223), Hung Ching (7769), and MediaTek (2454). Among these, only Aspeed currently trades above the NT$10,000 threshold, underscoring significant implied upside across the group.\n\n**Market Implication:** Goldman's aggressive revision cycle on AI server infrastructure names — particularly Chuan Her — signals continued conviction in the AI hardware capex supercycle. The concentration of NT$10,000+ targets in AI-adjacent names (rack components, wafer inspection, advanced packaging) suggests foreign brokers see a prolonged upcycle with room for multiple expansion."
+    },
+    {
+      "title": "[TSMC 2nm Process: Google First to Market, Breaking Apple's Tradition — Pixel 11 to Launch in August]",
+      "section": "金融",
+      "date": "2026/07/13 01:32:50",
+      "url": "https://money.udn.com/money/story/5612/9623426?from=edn_maintab_cate",
+      "summary": "TSMC's (2330) 2nm process has entered mass production, triggering a smartphone processor arms race. In a surprising development, Google has broken Apple's longstanding tradition of being the first adopter of TSMC's latest nodes. Google will unveil the Pixel 11 series — powered by its in-house Tensor G6 chip built on TSMC's 2nm process — at a \"Made by Google\" event on August 12, approximately one month ahead of Apple's iPhone 18 launch. MediaTek (2454) and Qualcomm flagship 2nm chips are not expected until September or later. Industry observers note that regardless of which vendor's 2nm device debuts first, TSMC stands as the undisputed beneficiary as leading-edge nodes become mainstream across flagship smartphone platforms. **Market implication:** This reinforces TSMC's pricing power and demand visibility heading into its earnings call on July 16. The 2nm ramp validates strong revenue momentum for H2 2026 and beyond. Investors in TSMC and downstream MediaTek should monitor 2nm yield and allocation data at the upcoming law conference."
+    },
+    {
+      "title": "[TSMC Price Hike Spreads to Mature Nodes Amid Red-Hot AI Demand]",
+      "section": "金融",
+      "date": "2026/07/13 01:35:03",
+      "url": "https://money.udn.com/money/story/5612/9623394?from=edn_maintab_cate",
+      "summary": "TSMC (2330) is raising prices on mature process nodes for the first time in over three years since the COVID-era hikes, with increases expected to take effect in January 2027. Multiple IC design houses have confirmed receiving formal notification from TSMC. The magnitude varies by customer and product line, with low single-digit percentage increases anticipated, to be finalized in Q4 2026. This move signals that AI-driven semiconductor demand — which initially concentrated on advanced nodes for GPUs and HPC — has now extended downstream to peripheral chips such as power management ICs (PMICs) manufactured on mature nodes. TSMC remains in its quiet period ahead of the July 16 earnings call and declined to comment. **Market implication:** This is a significant positive catalyst for TSMC's revenue outlook. It also validates the pricing environment for mature-node foundries (UMC, PSMC, Vanguard), and signals broad-based semiconductor demand strength. Investors should watch for TSMC management commentary on pricing strategy at the upcoming investor day."
+    },
+    {
+      "title": "[TSMC Price Hike Ripple Effect: Mature Node Foundries UMC, PSMC, and Vanguard Poised for Further Price Increases]",
+      "section": "金融",
+      "date": "2026/07/13 01:28:23",
+      "url": "https://money.udn.com/money/story/5612/9623430?from=edn_subcatelist_cate",
+      "summary": "As TSMC's price hike extends from advanced to mature processes, pure-play mature-node foundries — including UMC (2303), Powerchip Semiconductor Manufacturing Corp/PSMC (6770), and Vanguard International Semiconductor (5347) — are set to benefit materially. Industry sources indicate that UMC issued a fresh round of price increase notices to customers earlier this month, citing rising raw material costs and capacity expansion at its Singapore fab, with selective hikes on new processes and new orders, and broad-based pricing renegotiations planned for 2027. PSMC's President Chu Hsien-kuo confirmed that previously announced price increases have been reflected since June, driving significant H2 revenue growth; he also noted that memory capacity additions remain slow, making this memory price upcycle potentially more powerful than the COVID-era surge. Vanguard's Chairman Fang Lueh also confirmed recent price increases that have received customer acceptance. **Market implication:** TSMC's move provides pricing validation and competitive cover for second-tier mature-node foundries to raise prices more aggressively. UMC, PSMC, and Vanguard are direct investment beneficiaries. The power semiconductor demand recovery adds an additional demand layer. Fund managers should reassess earnings estimates for these names for H2 2026 and FY2027."
+    },
+    {
+      "title": "[Hon Hai, Quanta, Wistron Order Momentum Strong as AI Model Upgrades Accelerate Computing Demand]",
+      "section": "金融",
+      "date": "2026/07/13 01:18:12",
+      "url": "https://money.udn.com/money/story/11162/9623341?from=edn_subcatelist_cate",
+      "summary": "OpenAI, Google, and SpaceX each launched new AI models in July, targeting enterprise and consumer markets. The rapid cadence of AI model upgrades is expected to intensify downstream compute demand, with institutional investors forecasting strong AI server order momentum for **Hon Hai (2317)**, **Quanta (2382)**, **Wistron (3231)**, **Inventec (2356)**, and **Compal (2324)** through 2028. OpenAI's GPT-5.6 Sol reportedly surpasses rival Anthropic's Claude Fable 5 across 55 professional domains, reinforcing OpenAI's market leadership and sustaining enterprise procurement cycles. Google is expected to release Gemini 3 mid-month, adding further competitive pressure and accelerating enterprise refresh cycles. **Market Implication:** The AI server supply chain remains a high-conviction thematic trade. Hon Hai, as the largest diversified assembler with the broadest product tier coverage (L6–L11), stands to benefit most. Investors should monitor order book visibility for H2 2026 and 2027, particularly given reports that new capacity slots at major ODMs are nearly fully booked through 2027."
+    },
+    {
+      "title": "[ODM Manufacturers Launch Global Capacity Expansion as AI Server Opportunity Accelerates]",
+      "section": "金融",
+      "date": "2026/07/13 01:16:02",
+      "url": "https://money.udn.com/money/story/11162/9623342?from=edn_subcatelist_cate",
+      "summary": "North American cloud service providers (CSPs) — including Microsoft, Google, Meta, Amazon, and Oracle — are setting record capital expenditure levels, driving unprecedented demand for AI server capacity. Taiwan's major ODMs, **Hon Hai (2317)**, **Quanta (2382)**, and **Wistron (3231)**, are responding with aggressive global capacity buildouts across the US, Mexico, Taiwan, and Southeast Asia. Industry sources indicate that new AI server capacity for H2 2026 and all of 2027 is nearly fully pre-booked. Quanta is targeting three new US facilities (California and Tennessee) to be operational by end-2026, aiming to double AI server capacity year-on-year. Wistron, in partnership with Wiwynn (6669), is building R&D and testing centers in Zhubei and Kaohsiung, and L10/L11 production capacity in Southeast Asia and North America, adopting a local-delivery model that has won multiple new CSP development contracts. **Market Implication:** Supply-side constraints are tightening, which is structurally supportive of ODM pricing power and margins. The local-delivery strategy being pursued by Wistron/Wiwynn addresses tariff and geopolitical risk concerns from US customers, potentially securing more durable, long-term contracts."
+    },
+    {
+      "title": "Foreign Investors Raise TSMC Price Targets Ahead of Earnings Call — Five Key Themes in Focus",
+      "section": "證券 (Securities)",
+      "date": "2026/07/12 22:10:52",
+      "url": "https://money.udn.com/money/story/5607/9623292?from=edn_maintab_cate",
+      "summary": "Ahead of TSMC's (2330) upcoming earnings call, multiple major foreign brokerages have aggressively raised their price targets, reflecting strong consensus on TSMC's structural growth trajectory driven by AI and high-performance computing (HPC) demand. Five key themes are under focus:\n\n1. **Revenue & Profit Outlook**: Citigroup Securities raised its target price from NT$2,875 to NT$3,800 — the highest among institutional peers — forecasting EPS of NT$106.15 / NT$148.69 / NT$198.42 for 2026–2028, with gross margins sustained at 67%. Citi expects TSMC to simultaneously raise its full-year revenue growth guidance and long-term CAGR at this week's call.\n\n2. **Capital Expenditure**: Morgan Stanley (MS) anticipates TSMC will revise capex guidance upward to US$56 billion at the call. JPMorgan (JPM) raised its 2026 capex estimate to US$58 billion, with further upward revision expected for 2027. TSMC's prior guidance stood at US$52–56 billion.\n\n3. **AI Data Center Revenue**: JPMorgan upgraded its 2024–2029 data center AI revenue CAGR estimate from 59% to 69%, exceeding TSMC's own official guidance of 57–59%.\n\n4. **Gross Margin**: Q2 gross margin is estimated at approximately 69.5%, with consensus expecting margins to remain in the 65–70% range from H2 2026 through H1 2027."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[Tongbao Technology Acquisition Pays Off; Invites Former TSMC Executive Lin Jun-ji to Serve as Independent Director]",
+      "section": "金融 (Finance)",
+      "date": "2026/07/12",
+      "url": "https://money.udn.com/money/story/5612/9622165?from=edn_subcatelist_cate",
+      "summary": "IC design firm Tongbao Technology reported June revenue of NT$132 million, a record high and its first consolidated revenue month following the acquisition of Singapore-based SinChip. Year-on-year revenue growth reached 41%, with first-half revenue up 91.7% — well ahead of management's initial 70% full-year growth target. The SinChip team, with annual revenue of approximately NT$300 million and established customers in HPC and AI applications, significantly bolsters Tongbao's ASIC capabilities. Notably, the company has invited a former senior executive from **TSMC (2330)** — Lin Jun-ji — to serve as an independent director, adding credibility ahead of its planned Q4 2026 listing application. The TSMC connection may attract investor attention and signal the company's ambitions in premium semiconductor design markets. Investors should monitor its listing progress and whether SinChip revenue integration sustains the strong growth trajectory into H2 2026.\n\n---"
+    },
+    {
+      "title": "Goldman Sachs H2 Asia-Pacific Tech Investment Guide: 14 Taiwan Stocks to Buy, Including TSMC, MediaTek, and Hon Hai",
+      "section": "證券",
+      "date": "2026/07/12 03:17:54",
+      "url": "https://money.udn.com/money/story/5607/9622036?from=edn_subcatelist_cate",
+      "summary": "Goldman Sachs released its \"Asia-Pacific Technology H2 2026 Investment Guide,\" authored by 14 analysts including Greater China tech research head. The report recommends a dual risk-on/risk-off framework for navigating second-half volatility. In risk-on mode, Goldman's four stock selection criteria include: companies benefiting from ASP increases, firms capable of unlocking capacity constraints through timely investment, valuation laggards with catch-up potential, and stocks not yet pricing in company-specific drivers.\n\nApplying these criteria to Taiwan's supply chain, Goldman issues \"Buy\" ratings on 14 stocks: TSMC, MediaTek, Aspeed Technology, Taiflex, Taiwan Ying Yang, Nan Ya PCB, Delta Electronics, Yageo, Hon Hai, Wiwynn, Hung Ching, WaferWorks, Ying Wei, and Coda Octopus. TSMC is highlighted for 39% revenue growth in 2026, full capacity utilization, and accelerating capacity expansion in 2027.\n\n**Market Implication:** The breadth of Goldman's conviction list — spanning foundry, ODM, passive components, PCB, and power management — reinforces a diversified AI infrastructure theme rather than a narrow TSMC-only trade. Fund managers should note the emphasis on valuation laggards and capacity-constrained plays as potential alpha sources in H2."
+    },
+    {
+      "title": "[US-China Robotics Race Sparks New Component Procurement Wave, Benefiting Allied Motion, Asia Optical, Solomon, and Hiwin]",
+      "section": "金融",
+      "date": "2026/07/13 01:39:33",
+      "url": "https://money.udn.com/money/story/5612/9623424?from=edn_maintab_cate",
+      "summary": "The intensifying US-China competition in humanoid robotics is creating significant demand for Taiwan's supply chain. Tesla is accelerating mass production of its third-generation Optimus robot, with supplier guidance targeting 1,000 units/week by September and 2,000–2,500 units/week by year-end, benefiting Allied Motion (2464) and Asia Optical (3019). On the Chinese side, Unitree Robotics is proceeding with an IPO and plans to expand its product lineup, supporting Solomon (part of the broader ecosystem) and Hiwin Technologies (2049). Institutional investors view the Physical AI era as a durable structural demand driver for camera modules, joints, and other precision robotic components sourced from Taiwan's supply chain."
+    },
+    {
+      "title": "[Aviation Duo EVA Air and China Airlines Ride AI Cargo Boom; Q4 Freight Rates Expected to Hit New Highs]",
+      "section": "金融",
+      "date": "2026/07/13 01:20:28",
+      "url": "https://money.udn.com/money/story/10871/9623338?from=edn_maintab_cate",
+      "summary": "AI infrastructure buildout is driving a sustained surge in airfreight demand, particularly on Asia-to-North America routes, as enterprises air-ship AI chips, servers, and rack systems to meet data center construction timelines. IATA data shows Asia-to-North America cargo volumes rose nearly 20% YoY in May, far exceeding the global 6% average. Spot rates on Asia-Pacific to North America routes surged 36% YoY in June per Xeneta. EVA Air (2618) posted June cargo revenue of NT$6.652 billion (+48.3% YoY), while China Airlines (2610) reported NT$8.085 billion (+51.6% YoY). Industry players expect Q3 capacity to remain tight, with Q4 freight rates potentially setting new peaks as electronics seasonality and holiday inventory stocking add to AI-driven demand."
+    },
+    {
+      "title": "[\"Greater Southern New Silicon Valley\" Plan Takes Effect — Semiconductor Cluster Footprint Gradually Shifts South]",
+      "section": "金融",
+      "date": "2026/07/13 01:15:14",
+      "url": "https://money.udn.com/money/story/5612/9623343?from=edn_subcatelist_cate",
+      "summary": "Taiwan's semiconductor manufacturing footprint is undergoing a structural southward migration. According to the Ministry of Economic Affairs, 96 semiconductor factories are now operating in Tainan, Kaohsiung, and Pingtung — surpassing 20% of the national total, up 6 percentage points over the past decade. The shift is closely tied to **TSMC's (2330)** expansion of advanced process nodes in southern Taiwan: of TSMC's 16 planned or under-construction fabs and advanced packaging facilities nationwide, six are in Tainan/Kaohsiung and four are in Chiayi. President Lai Ching-te's \"Balanced Taiwan\" policy and the Executive Yuan's \"Six Regional Industrial Zones\" framework are institutionally reinforcing this trend through the \"Greater Southern New Silicon Valley\" initiative. The Chiayi–Tainan–Kaohsiung–Pingtung corridor is expected to form a dedicated semiconductor \"S-Corridor.\" While approximately 75% of information electronics factories remain concentrated in northern Taiwan, the directional shift is clear and accelerating, with significant implications for regional infrastructure investment, land development, and supply chain logistics companies with southern exposure."
+    },
+    {
+      "title": "[Institutional Investors Rotate Defensively into REITs, High-Dividend, and Bond ETFs]",
+      "section": "產經",
+      "date": "2026/07/12 15:47:40",
+      "url": "https://money.udn.com/money/story/5618/9622880",
+      "summary": "Following a 3.0% weekly decline in the Taiwan equity market, the three major institutional investors (dealers, investment trusts, and foreign investors) rotated into more defensive ETF positions last week. The top net-buy ETF was **Fuh Hwa FTSE Real Estate (00712)** at 89,000 lots, followed by **Group Benefit Taiwan Select High Dividend (00919)** at 59,000 lots, and **Fubon Financial Investment Grade Bond (00785B)** at 55,000 lots. Some flows also shifted into Hong Kong/China-listed equities seeking lower-base opportunities. Fund managers remain constructive on H2 2026, citing strong financial sector earnings and dividend payouts alongside continued AI supply chain momentum, recommending a buy-on-dip strategy with a positive bias."
+    },
+    {
+      "title": "Taiwan Stock Market Poised for Catch-Up Rally; TSMC Earnings Call Buying Expected to Drive Index Toward 48,000",
+      "section": "證券 (Securities)",
+      "date": "2026/07/13 01:57:35",
+      "url": "https://money.udn.com/money/story/5607/9623440?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market is expected to stage a catch-up rally on July 13 following a typhoon-related market closure, with Wall Street posting significant gains during the halt — Meta, AMD, and other major tech names surged, while Japanese and Korean markets rose over 1%. Additional positive catalysts include MediaTek (2454) reporting above-consensus Q2 revenue and Nanya Technology (2408) delivering an upbeat earnings call. Analysts from Fubon Investment Consulting and Yongfeng Investment Consulting expect TSMC to report June monthly revenue potentially surpassing NT$440 billion, a new record high. Looking ahead to TSMC's earnings call on Thursday July 16, analysts broadly estimate Q2 EPS in the range of NT$25–26, with optimistic scenarios reaching NT$28–29, implying H1 2026 cumulative EPS of approximately NT$50. Q3 revenue is projected to grow ~12% QoQ with gross margins potentially breaching the 70% threshold. Full-year capex guidance is expected to trend toward the upper end of the NT$430–460 billion range.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "1. **Optical Communications Full-Year Revenue to Hit New Heights; CPO Demand to Lay Foundation for 2028 Growth** — Optical communications component manufacturers; not directly related to the core coverage topics (life insurers, FSC, CBC, major listed names, FX, monetary policy).",
+    "2. **Wangyin International Makes Bold Moves: Targets Pan-Entertainment Digital Services, Becomes Gogolook's Largest Shareholder** — Entertainment/gaming company corporate action; not relevant to coverage universe.",
+    "3. **Giving Time Back to Grandma: When Technology Meets Cold Hospital Corridors, AI Restores Warmth to Healthcare** — Feature article on AI in healthcare/hospitals; not relevant.",
+    "4. **Supreme Leader Vows Revenge! Iran Reaffirms Refusal to Negotiate with U.S. Unless Trump Meets Conditions First** — Geopolitical/Iran-U.S. tensions; not directly actionable for Taiwan-listed company or financial sector coverage (though oil price implications bear watching in broader macro context).",
+    "*All five articles were relevant to major Taiwan listed companies (TSMC, UMC, PSMC, Vanguard, MediaTek, EVA Air, China Airlines, Hiwin, Allied Motion, Asia Optical) and have been summarized above. No articles were classified as irrelevant.*",
+    "*No irrelevant articles — both articles fall within defined relevant topics (TSMC, foreign investors, major Taiwan listed companies).*"
+  ]
+}
