@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-15",
+  "update_time": "2026-07-15 06:08:33",
+  "total_articles": 36,
+  "high": [
+    {
+      "title": "TSMC June Revenue Hits Three Major Records; First-Half Revenue Crosses NT$2 Trillion Milestone for the First Time",
+      "section": "金融",
+      "date": "2026/07/14 02:00:27",
+      "url": "https://money.udn.com/money/story/5612/9625624?from=edn_maintab_cate",
+      "summary": "TSMC (2330) reported June consolidated revenue of NT$442.68 billion, marking a second consecutive monthly record high, up 6.2% MoM and 67.9% YoY. This pushed Q2 consolidated revenue to NT$1.27 trillion, a new single-quarter record (+12.02% QoQ, +36.05% YoY). Most notably, H1 2026 consolidated revenue surpassed NT$2.4 trillion for the first time ever, setting a new same-period high (+35.6% YoY).\n\nInstitutional investors attribute the outperformance to surging AI and high-performance computing (HPC) orders driving strong advanced node demand. The Q2 result is near the top of TSMC's own guidance range (NT$1.274 trillion vs. NT$1.270 trillion actual), reflecting execution discipline. Actual USD revenue will be officially confirmed at Thursday's (July 16) earnings call, which markets will closely watch for Q3 guidance and margin commentary.\n\n**Market Implications:** TSMC's blowout revenue trajectory reinforces the AI capex supercycle thesis. With Apple's new product cycle providing an additional H2 tailwind, consensus estimates may face upward revision. Foreign investors sold a net 2,045 thousand shares on the day, and ADR slipped ~1% in early Monday trading, suggesting some profit-taking after the strong print — a potential short-term entry opportunity for long-term holders. Supply chain beneficiaries including Hon Hai and related AI server names remain well-supported."
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang: Growth Still Accelerating, Lands Major CSP Order — Quanta and Wistron Energized",
+      "section": "金融",
+      "date": "2026/07/14 01:52:51",
+      "url": "https://money.udn.com/money/story/5612/9625629?from=edn_maintab_cate",
+      "summary": "At a closed-door Morgan Stanley investor meeting, Nvidia CEO Jensen Huang delivered a strongly bullish outlook, stating quarterly revenue is approaching USD $100 billion with growth momentum not only intact but accelerating. Critically, Huang disclosed that Nvidia has secured a major order from a large cloud service provider (CSP) that had historically relied predominantly on ASIC-based compute — Nvidia GPUs now represent nearly 50% of that CSP's total compute capacity. Huang also indicated Nvidia's CPU business is targeting USD $20 billion this year. Morgan Stanley analyst Joseph Moore characterized the meeting atmosphere as \"constructive\" and issued a positive post-meeting report.\n\n**Market Implications:** This development is highly significant for Taiwan's AI supply chain. TSMC (advanced node wafers), Hon Hai (AI server assembly), and Quanta (2382) are primary beneficiaries as Nvidia continues to expand GPU market share against ASIC alternatives. The GPU-vs-ASIC narrative has been a key investor debate — Huang's disclosure of a major CSP conversion toward GPU compute provides a meaningful data point that could re-rate Taiwan AI server OEM valuations. Investors should watch for order flow implications at Quanta, Wistron, and related ODMs in upcoming earnings seasons."
+    },
+    {
+      "title": "Foreign Investors Continue Selling Taiwan Stocks; Domestic Funds Hold the Line — US CPI, Futures Settlement, and TSMC Earnings Call Are Key Turning Points This Week",
+      "section": "證券 (Securities)",
+      "date": "2026/07/14",
+      "url": "https://money.udn.com/money/story/5607/9625597?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market is caught in a tug-of-war between persistent foreign selling and domestic institutional support. On July 13, the weighted index briefly surged nearly 976 points intraday but reversed to close marginally positive, pressured by renewed US-Iran military tensions, a circuit-breaker halt in Korean markets, and continued foreign net selling of NT$19.55 billion — marking the seventh consecutive session of foreign outflows. Cumulative foreign net selling in July alone has reached NT$319.45 billion, a significant figure that signals sustained risk-off repositioning, likely compounded by a weakening New Taiwan Dollar making Taiwan assets less attractive to offshore investors.\n\nDespite the headwinds, fundamental sentiment remains constructive. TSMC reported a record single-month revenue of NT$442.6 billion, hitting the upper bound of its guidance, reinforcing the positive AI supply chain narrative. Analysts from Fubon Securities and Chaohua Securities flag three critical near-term catalysts: (1) US CPI data, (2) Taiwan Futures Index settlement, and (3) TSMC's upcoming earnings call. Tactically, investors are advised to monitor defense, biotech, and financial stocks for short-term rotation plays, while maintaining core AI-themed positions on dips for medium-to-long term. The key support level to watch is 44,594 points."
+    },
+    {
+      "title": "Trump Administration Champions Intel, Pressures Apple and NVIDIA to Shift Orders Away from TSMC in National-Level Foundry War",
+      "section": "金融 (Finance)",
+      "date": "2026/07/15",
+      "url": "https://money.udn.com/money/story/5612/9627986?from=edn_maintab_cate",
+      "summary": "The Wall Street Journal reports that the Trump administration is aggressively backing Intel's foundry business, pressuring major TSMC clients — including Apple, NVIDIA, and SpaceX — to redirect chip manufacturing orders to Intel. The U.S. government has already acquired approximately 9% of Intel's equity for ~$8.9 billion and is now using political leverage to accelerate Intel's rise as America's domestic semiconductor champion. Trump publicly announced an Apple-Intel chip collaboration for U.S.-based design and production. Reports indicate Apple may use Intel for certain laptop and iPhone-related chips, though the majority of its custom silicon will remain with TSMC. NVIDIA became an Intel shareholder in September 2025 as part of a multi-generational co-development arrangement for custom data center and PC products.\n\n**Market Implications:** TSMC holds its investor conference on July 16 and is currently in its quiet period. Geopolitical risk surrounding order diversion will be a central focus. While near-term revenue impact on TSMC appears limited given deep customer dependencies, this represents a structural, policy-driven threat that investors should monitor closely. Any customer diversification away from TSMC — even at the margin — could weigh on long-term revenue visibility and valuation multiples. Taiwan-listed semiconductor supply chain companies may also face indirect exposure."
+    },
+    {
+      "title": "Taiwan Listed Companies' Revenue \"Five Kings\" Shine — Hon Hai Leads, TSMC and Quanta Follow — Driven by AI Demand and Semiconductor Supply Chain Upgrades",
+      "section": "證券 (Securities)",
+      "date": "2026/07/14",
+      "url": "https://money.udn.com/money/story/5607/9625627?from=edn_maintab_cate",
+      "summary": "June and first-half 2026 revenue figures for all Taiwan-listed companies were released on July 13. The results were broadly strong, underpinned by robust AI demand and ongoing semiconductor supply chain upgrades. Hon Hai (2317) retained its position as the top revenue generator at NT$821.76 billion for June, followed by TSMC at NT$442.68 billion and Quanta Computer at NT$385.19 billion. Among smaller-cap names, construction firm Lien Shang (4113) posted a staggering 2,023x month-on-month revenue surge due to concentrated project completions and unit deliveries. Semiconductor intelligent system integrator Chu Sheng Technology (6739) recorded 25 consecutive months of revenue growth, signaling sustained demand from semiconductor clients upgrading their production lines.\n\n**Market Implications:** The data confirms that AI and semiconductor-adjacent companies remain the primary earnings engines for Taiwan's equity market. Hon Hai and TSMC's dominant revenue figures reinforce their role as core holdings for institutional investors. The sustained streak from supply chain integrators like Chu Sheng also suggests the semiconductor capex cycle remains healthy, with positive read-throughs for equipment and automation-related names. Investors should note that mid- and small-cap revenue spikes driven by one-off factors (e.g., construction completions) carry limited investment signal."
+    },
+    {
+      "title": "U.S. June CPI Released — Taiwan Futures Night Session Surges Sharply",
+      "section": "產經",
+      "date": "2026/07/14 21:03:11",
+      "url": "https://money.udn.com/money/story/11112/9627784",
+      "summary": "U.S. June CPI came in at 3.5% year-on-year, significantly below May's 4.2% and market expectations of 3.8%. Core CPI also surprised to the downside at 2.6%, versus the prior 2.9% and consensus of 2.8%. The data signals a meaningful deceleration in U.S. inflation and has immediately shifted rate expectations. In response, gold rebounded while the U.S. dollar and Treasury yields declined. Taiwan futures (台指期) night session surged as much as 560 points to 45,350, recovering sharply from an intraday low of 44,648. For Taiwan-focused fund managers, the cooler CPI print is a material positive: it reduces the probability of further Fed tightening, supports risk appetite in global equity markets, and eases pressure on the USD/TWD exchange rate — a key variable for Taiwan life insurers' foreign asset valuations and hedging costs. Fed Chair (noted in article as 華許/Waller) was scheduled for Congressional testimony at 22:00 local time, with markets watching closely for guidance on the rate path and views on energy price persistence. This data point materially improves the macro backdrop for Taiwan equities and rate-sensitive financials heading into the next session."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges Over 1,500 Points, Breaking 45K and 44K Levels — Experts Weigh In on Outlook",
+      "section": "產經",
+      "date": "2026/07/14 10:38:20",
+      "url": "https://money.udn.com/money/story/5607/9626256",
+      "summary": "Taiwan's equity market experienced a sharp intraday selloff on July 14, with the index falling over 1,500 points to a low of 43,874 — breaching both the 5-day and 10-day moving averages and losing the 45,000 and 44,000 psychological support levels. Institutional analysts attribute the decline primarily to technical and positioning factors rather than fundamental deterioration. Allianz Taiwan fund manager Xiao Huizhong noted that inventory levels remain lean across the supply chain, end demand has not cooled materially, and corporate earnings estimates have not been revised downward. AI-related demand from global tech giants continues to support Taiwan's semiconductor and AI supply chain order momentum. Key near-term catalysts identified include heavyweight corporate earnings calls, Q2 financial results, and U.S. inflation data — the last of which was subsequently resolved positively with the evening CPI release. The market context is important for fund managers: the selloff appears to have been a technical correction following H1's strong rally, and the better-than-expected U.S. CPI data released later that evening may support a recovery. TSMC and other AI supply chain names remain key monitors given their outsized index weight and earnings visibility."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges — Institutional Investors Call for Near-Bottom; Short-Term Rebound Target at 46,000 Points",
+      "section": "證券 (Securities)",
+      "date": "2026/07/15 01:25:45",
+      "url": "https://money.udn.com/money/story/5607/9627992?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market suffered a severe intraday decline on July 14, briefly crashing 1,726 points — the sixth-largest single-day intraday drop in history — before staging a V-shaped recovery supported by the National Stabilization Fund (\"National Team\"). The index closed down 642 points at 44,737, with intraday volatility spanning 1,710 points (fifth-largest range on record). Turnover expanded to NT$1.2 trillion, reflecting a bearish price-down, volume-up pattern. Three major institutional investors (foreign, investment trust, dealer) were net sellers of NT$7.91 billion.\n\nKey drivers of the selloff include escalating Middle East tensions, surging oil prices, Taiwan Futures Index settlement day pressure, and broader de-leveraging. However, institutional analysts from KGI, Fubon, and Taishin Investment Advisory argue the long lower shadow on the daily candlestick signals strong buying support at lower levels. Three bullish catalysts are cited: (1) consensus upgrades for Taiwan corporate earnings growth to over 40% YoY; (2) TSMC's upcoming earnings call expected to deliver positive guidance; (3) significant correction in the index-to-moving-average deviation ratio improving upside probability. Near-term target on a technical rebound is 46,000 points.\n\n**Market Implication:** The NSF intervention signals a policy floor around current levels. TSMC's earnings call is a critical near-term catalyst — a positive outlook could trigger a sharp rebound. Fund managers should monitor TSMC guidance closely and watch for sustained foreign investor selling pressure versus NSF support dynamics."
+    },
+    {
+      "title": "Taiwan Stock Market Crash — 8,000-Point Drop from Peak: Key Survival Levels",
+      "section": "證券 (Securities)",
+      "date": "2026/07/14 18:43:50",
+      "url": "https://money.udn.com/money/story/5607/9627955?from=edn_maintab_cate",
+      "summary": "Moore Investment Advisory CIO Guo Zhe-rong analyzes the structural causes behind the severe July 14 selloff, pushing Taiwan's index approximately 8,000 points below its recent peak — a magnitude comparable to South Korea's market decline from highs. He highlights a critical contagion risk: leveraged ETF blow-ups in South Korea (2x Samsung ETF -61% in one month; SK Hynix memory ETF -70% in under one month), worsened by retail investors using margin financing on top of already-leveraged products. Forced liquidations from these positions have created cross-market selling pressure affecting Taiwan equities.\n\nThe analyst stresses that the US CPI print (June, released at 8:30 PM Taiwan time on July 14) is a pivotal macro catalyst, with the market consensus at 3.8%. He warns that a reading above 4% would be dangerous given the Fed funds rate is currently approximately 3.75% — a scenario where real rates turn negative would undermine financial system stability and eliminate the case for Fed rate cuts.\n\n**Market Implication:** The South Korean leveraged ETF contagion is a key risk factor that fund managers must monitor as a source of regional de-leveraging pressure. The US CPI outcome directly affects USD/TWD dynamics, foreign investor risk appetite, and Taiwan life insurer FX hedging costs."
+    },
+    {
+      "title": "TSMC: Two Bright Spots — June Revenue Hits New Record, Q2 Financials Beat High End of Guidance",
+      "section": "證券 (Securities)",
+      "date": "2026/07/15 01:12:45",
+      "url": "https://money.udn.com/money/story/5739/9627687?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) posted record June revenue, with Q2 total revenue reaching NT$1.2 trillion — hitting the upper bound of its own financial guidance. Revenue growth momentum remains robust, and gross margin is expected to remain above 60%. Institutional investors attribute the outperformance to sustained strong order pull-in from AI and HPC (High Performance Computing) customers, as well as 3nm demand running materially above initial quarterly expectations. The key positive surprise this earnings cycle is not merely the revenue figure, but the compounding effect of strong 3nm demand on product mix, capacity utilization, and overall profitability. With 3nm capacity remaining supply-constrained, AI accelerator demand staying elevated, and 2nm volumes beginning to ramp, analysts believe full-year revenue guidance still has upward revision potential. **Market Implication:** This is a significant positive catalyst for TSMC's share price and broader Taiwan equity sentiment. Strong TSMC fundamentals typically support foreign investor positioning in Taiwan, underpin the TAIEX, and benefit the broader semiconductor supply chain. Fund managers should watch for any upward EPS revisions following the formal earnings release.\n\n---"
+    }
+  ],
+  "medium": [
+    {
+      "title": "Lite-On Commits NT$30 Billion in U.S. Investment to Capture AI Infrastructure and Energy Growth Opportunities",
+      "section": "金融",
+      "date": "2026/07/14 00:50:03",
+      "url": "https://money.udn.com/money/story/11162/9625561?from=edn_maintab_cate",
+      "summary": "Lite-On Technology (2301) announced a USD $919 million (approximately NT$30 billion) investment to establish a new manufacturing facility in McKinney, Texas, targeting the AI infrastructure and energy transition markets. The company had already raised its 2026 capex guidance by 18% (from NT$11 billion to NT$13 billion) at a recent investor conference — this U.S. greenfield investment is separate from that figure, suggesting a further upward capex revision is likely. Lite-On's existing Texas facility in Plano, which produces Battery Backup Units (BBU), has reached capacity constraints, making the new facility operationally necessary. Chairman Song Ming-feng framed the investment as a strategic milestone in Lite-On's global growth strategy, emphasizing North American market consolidation and integration with global operations. This move reflects the broader \"Made in America\" manufacturing trend among Taiwanese electronics suppliers responding to U.S. trade policy incentives and AI datacenter demand localization."
+    },
+    {
+      "title": "China Steel (2002) Cuts August Prices Across All Products by NT$800/Tonne Amid Seasonal Slowdown",
+      "section": "金融",
+      "date": "2026/07/14 02:27:49",
+      "url": "https://money.udn.com/money/story/10871/9625529?from=edn_maintab_cate",
+      "summary": "China Steel Corporation (2002) announced August benchmark prices with hot-rolled, cold-rolled, and galvanized steel all reduced by NT$800 per tonne, bringing the cumulative Q3 price reduction to NT$1,100/tonne following July's adjustment. The move is consistent with seasonal Q3 demand weakness, with European and American summer shutdowns and Asian monsoon season dampening end-user steel consumption. China Steel cited a challenging macro backdrop including renewed Middle East geopolitical tensions lifting crude oil prices, the Fed's cautious stance on rate cuts, European rate hikes, and persistent weakness in China's property sector. Downstream steel processors including Yieh Phui, Yu Iron, Sheng Yu, and Shin Kong Steel will benefit from lower input costs during this soft patch. Institutional analysts expect a potential price recovery in Q4 as seasonal demand normalizes."
+    },
+    {
+      "title": "[Power Supply Duopoly Expands Capacity to Strengthen Ecosystem — Delta Electronics & Lite-On]",
+      "section": "金融",
+      "date": "2026/07/14",
+      "url": "https://money.udn.com/money/story/11162/9625572?from=edn_subcatelist_cate",
+      "summary": "Driven by robust AI demand from global cloud service providers (CSPs), Taiwan's two leading power supply manufacturers — Delta Electronics (2308) and Lite-On Technology (2301) — are aggressively expanding production capacity to meet anticipated customer needs over the next two to three years. Lite-On is deepening its U.S. investment strategy, aiming to build an end-to-end service capability on American soil by cultivating and integrating its supplier ecosystem rather than pursuing vertical integration. Delta Electronics, meanwhile, is experiencing tight capacity utilization at its Thailand and U.S. facilities; its 2025 capex surpassed NT$46.1 billion (exceeding NT$40 billion for the first time), with 2026 capex projected to break NT$50 billion. Both companies' aggressive capital deployment signals confidence in sustained AI infrastructure buildout, making them key beneficiaries within Taiwan's tech supply chain. Investors should monitor capacity ramp timelines and margin implications as heavy capex cycles typically pressure near-term free cash flow."
+    },
+    {
+      "title": "US-Iran Military Conflict Reignites — Wall Street Closes Lower with Semiconductors Hit Hard",
+      "section": "產經 (Industry & Economy)",
+      "date": "2026/07/14",
+      "url": "https://money.udn.com/money/story/5599/9625810",
+      "summary": "A fresh round of US-Iran military tensions rattled investor confidence, sending all four major US indices lower on July 13. The Dow Jones fell 0.26% to 52,498, the S&P 500 dropped 0.79% to 7,515, and the Nasdaq slid 1.55% to 25,873. Most critically for Taiwan-focused investors, the Philadelphia Semiconductor Index (SOX) plunged 4.78% to 12,347 — a significant single-session decline that has direct read-through implications for Taiwan's semiconductor-heavy equity market. Geopolitical risk premium is rising, adding another layer of uncertainty on top of existing foreign selling pressure in Taiwan equities.\n\n**Market Implication:** The sharp SOX selloff will likely weigh on Taiwan semiconductor names at the open. Combined with ongoing foreign outflows, near-term downside risk for Taiwan's weighted index is elevated. Investors should monitor oil prices and any further escalation in Middle East tensions as key risk factors."
+    },
+    {
+      "title": "Alchip (世芯-KY) June Revenue Surges 84% MoM — Q2 Performance Hits Near One-Year High",
+      "section": "證券 (Securities)",
+      "date": "2026/07/14",
+      "url": "https://money.udn.com/money/story/5710/9625322?from=edn_maintab_cate",
+      "summary": "Alchip Technologies (世芯-KY, 3661), a leading ASIC design services company, reported June consolidated revenue of NT$3.572 billion — a 15-month high — up 84.6% MoM and 15.3% YoY. Q2 consolidated revenue reached NT$7.639 billion, a four-quarter high and up 82.4% QoQ, ending six consecutive quarters of revenue decline. The surge is attributed to volume shipments of a North American cloud service provider (CSP) client's 3nm AI accelerator chip. Management and institutional investors expect the ramp to continue accelerating through July and August, with full-year revenue potentially reaching a record high. CEO Shen Xiang-lin expressed confidence that the most difficult period has passed and that this key client's project will drive strong growth in both 2026 and 2027.\n\n**Market Implication:** Alchip is a bellwether for the custom AI chip supply chain. Its revenue trajectory validates the demand surge from hyperscalers and supports the broader AI infrastructure investment theme in Taiwan's equity market."
+    },
+    {
+      "title": "Machine Tool Spring Recovery — Hiwin, Chetech, and Peers Emerge from Three-Year Downturn on Surging AI, Semiconductor, and Defense Orders",
+      "section": "金融 (Finance)",
+      "date": "2026/07/15",
+      "url": "https://money.udn.com/money/story/5612/9627894?from=edn_maintab_cate",
+      "summary": "Taiwan's machine tool sector is showing clear signs of a cyclical recovery. Major players including Hiwin Technologies (2049), Chetech (1583), Tongtai Machine (4526), Kao Fong Machinery (4510), and Takisawa Technology (6609) all report a notable wave of incoming orders, driven by demand from AI server infrastructure, semiconductors, new energy vehicles (NEVs), and drone/defense industries. Hiwin's chairman noted that since June, new orders have exceeded shipments, prompting full overtime production across the group. Lead times for ball screws have extended to 5.5 months and linear guideways to 3.5–4 months, signaling supply tightness. Hiwin raised prices 7–15% in March 2026. Chetech reports order intake up over 30% versus early 2026, with visibility extending into Q1 2027 for subsidiary Asia Pacific Elite."
+    },
+    {
+      "title": "Global Smartphone Shipments Hit 13-Year Q2 Low — Only Apple and Samsung Post Growth",
+      "section": "金融",
+      "date": "2026/07/15 02:00:56",
+      "url": "https://money.udn.com/money/story/11162/9627923?from=edn_maintab_cate",
+      "summary": "Global smartphone shipments in Q2 2026 fell to their lowest second-quarter level in 13 years, according to simultaneous reports from IDC, Omdia, and Counterpoint Research. Year-on-year declines ranged from -4% (Omdia) to -11% (Counterpoint), with the primary culprit being tight memory supply and sharply rising component costs driving up end-device prices. Apple and Samsung were the only two major brands to record shipment growth, up 3.2% and 3.8% respectively, reflecting their stronger procurement leverage. Chinese brands — OPPO, Xiaomi, and vivo — suffered the steepest declines, with Xiaomi down 21.7%. For Taiwan investors, this data is a cautionary signal for smartphone supply-chain names. While Apple's relative resilience is a partial positive for its Taiwanese suppliers, the broad demand weakness and cost inflation in memory components suggest continued margin pressure across mid-tier handset supply chains in H2 2026."
+    },
+    {
+      "title": "Used Smartphone Sales Surge — Japan Market Most Pronounced",
+      "section": "金融",
+      "date": "2026/07/15 01:51:37",
+      "url": "https://money.udn.com/money/story/11162/9627924?from=edn_subcatelist_cate",
+      "summary": "Complementing the weak new-phone shipment data, Japan's used smartphone market posted a seventh consecutive annual sales record, rising 12.4% YoY to 3.607 million units (April 2025–March 2026), per MM Research. Rising memory prices and yen depreciation are pushing consumers toward lower-priced second-hand devices, a trend expected to continue with MM Research forecasting +9.8% growth in FY2026 and again in FY2027. This structural shift toward the secondary market reinforces the headwinds facing new-device manufacturers and their component suppliers. For Taiwan investors, the trend further dims near-term revenue visibility for handset-oriented component makers and underscores that any H2 recovery in smartphone demand may be shallower than previously anticipated if consumer substitution toward used devices accelerates globally beyond Japan."
+    },
+    {
+      "title": "Exchange Rate Losses and Thailand Plant Ramp-Up Drag Ding Ying Subsidiary to First-Half Loss",
+      "section": "金融",
+      "date": "2026/07/14 19:05:02",
+      "url": "https://money.udn.com/money/story/11162/9627594?from=edn_subcatelist_cate",
+      "summary": "Ding Ying Investment Holdings (3715) announced a profit warning for its subsidiary Super Ying Electronics, forecasting a net loss attributable to the parent of RMB 175–210 million (approximately NTD 8.3–9.96 billion) for H1 2026, reversing from a profit in the prior year. The three key headwinds cited are: (1) significant foreign exchange losses due to heightened currency volatility, (2) elevated fixed costs — depreciation, labor — from the Thailand plant still in ramp-up phase with underutilized capacity, and (3) rising raw material prices. Q1 revenue grew 27.6% YoY to RMB 1.35 billion, but the bottom line swung to a net loss of RMB 96 million versus a profit of RMB 72 million in Q1 2025. This case is a relevant micro-level illustration of the broader FX headwind impacting Taiwan-listed companies with offshore manufacturing exposure — a theme also pertinent to life insurers managing foreign currency assets.\n\n---"
+    },
+    {
+      "title": "US Stocks Rise as Inflation Cools and Major Bank Earnings Beat Expectations",
+      "section": "產經 (Industry & Economy)",
+      "date": "2026/07/15 05:54:25",
+      "url": "https://money.udn.com/money/story/5599/9628197",
+      "summary": "US equities closed higher on July 14 as June CPI data came in unexpectedly mild and major bank earnings reports were strong. The Dow Jones edged up 0.02% to 52,508; the S&P 500 gained 0.38% to 7,543; the Nasdaq rose 0.90% to 26,107; and the Philadelphia Semiconductor Index surged 2.54% to 12,661. The cooler-than-expected inflation print reduces pressure on the Fed to maintain a hawkish stance and improves the probability of future rate cuts, which is broadly positive for risk assets. The strong Philly Semi performance is directly relevant to Taiwan's semiconductor supply chain, supporting sentiment around TSMC, MediaTek, and related names ahead of key earnings releases."
+    },
+    {
+      "title": "EVA Air Shines — Strong June Revenue Record Positions It as a Market Outperformer",
+      "section": "證券 (Securities)",
+      "date": "2026/07/15 01:13:26",
+      "url": "https://money.udn.com/money/story/5739/9627673?from=edn_subcatelist_cate",
+      "summary": "EVA Air (2618) reported June revenue of NT$23.47 billion, a new all-time monthly record, up 5.1% MoM and 26.5% YoY, driven by robust passenger demand (load factor 84.11%) and a 43.1% YoY surge in cargo revenue per unit, supported by AI/semiconductor component shipments and e-commerce freight. Institutional analysts are cautiously optimistic on 2026 full-year operations, citing route expansion and high cargo demand as key drivers. With institutional buying inflows and warrant issuers recommending long-dated warrants for bullish exposure, EVA Air is positioned as a defensive outperformer amid the broader market selloff."
+    }
+  ],
+  "not_relevant": [
+    "*No irrelevant articles — all 1 article reviewed was relevant (TSMC is an explicitly listed coverage topic).*"
+  ]
+}
