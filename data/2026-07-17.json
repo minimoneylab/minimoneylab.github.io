@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-17",
+  "update_time": "2026-07-17 06:08:03",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "[Intel Reportedly Slashes TSMC 2nm Orders Significantly; Industry Reads This as Intel Advanced Process Yield Breakthrough]",
+      "section": "金融",
+      "date": "2026/07/16 01:59:14",
+      "url": "https://money.udn.com/money/story/5612/9630424?from=edn_maintab_cate",
+      "summary": "Supply chain sources cited by foreign media report that Intel has dramatically reversed its outsourcing strategy for its next-generation \"Nova Lake-S\" processors. Originally, approximately 60–70% of production was planned to be outsourced to TSMC's 2nm process; Intel has now decided to produce the majority in-house using its 18A process, reducing TSMC's share to below 20% — effectively cutting over 60% of the originally planned order volume.\n\nThe strategic pivot is attributed to a significant improvement in Intel's 18A process yield rates, narrowing the gap with TSMC's manufacturing capabilities. The critical market question is whether this order reduction will materially impact TSMC's 2nm capacity utilization. Industry consensus is reassuring: TSMC's 2nm capacity is already oversubscribed, and any Intel-vacated capacity is expected to be rapidly absorbed by Apple, NVIDIA, AMD, and other high-performance computing (HPC) customers. Analysts therefore view the impact on TSMC's overall utilization rate as limited."
+    },
+    {
+      "title": "TSMC Earnings Call Set to Drive Taiwan Market Sentiment — Analysts Expect Positive Guidance to Fuel Continued Rally",
+      "section": "證券 (Securities)",
+      "date": "2026/07/16 02:15:51",
+      "url": "https://money.udn.com/money/story/5607/9630462?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market staged a sharp \"retaliatory rebound\" on July 15, surging 893 points to close at 45,631 — recovering above the 45,000 level and its 5-day moving average — after a 1,700+ point collapse the prior session. The rally was fueled by a combination of stronger-than-expected U.S. June CPI data (actual 3.5% vs. consensus 3.8%), a short-squeeze effect from elevated TAIEX futures positioning at settlement, and broad institutional and retail buying. TSMC's stock reclaimed both its 5-day and monthly moving averages ahead of its earnings call. Analysts at Fubon Investment Advisory and Taishin Investment Advisory highlighted that cooling U.S. inflation reduces the risk of further Fed rate hikes, removing a key headwind for global equities. Memory chip names saw outsized gains following surges in SK Hynix and Micron, with Winbond, Kingmax, ISSI, PSMC, and AMIC all hitting limit-up. The market's near-term trajectory is now heavily dependent on TSMC's earnings call, with institutional investors anticipating positive guidance on revenue growth (consensus: 30–40%+ YoY for FY2026) and capital expenditure expansion. **Market Implication:** A bullish TSMC earnings call could be a significant catalyst for the broader index, with capex-related supply chain names (precision materials, equipment) already pre-positioning. Investors should closely monitor TSMC's CoWoS capacity outlook, pricing commentary, and FY2026 revenue guidance."
+    },
+    {
+      "title": "TSMC Earnings Call — \"Tomorrow Decides Everything\": Analyst Projects EPS of NT$95.2 in 2026, Rising to NT$165 by 2028",
+      "section": "證券 (Securities)",
+      "date": "2026/07/15 18:54:58",
+      "url": "https://money.udn.com/money/story/5607/9629942?from=edn_maintab_cate",
+      "summary": "Moore Investment Advisory CIO Kuo Che-jung argues that TSMC's upcoming earnings call is the single most important near-term market event. He notes that U.S. June CPI came in at 3.5% — below the Fed's current policy rate range of 3.50–3.75% — effectively signaling that monetary policy has successfully contained inflation and eliminating near-term rate hike pressure. This removes the primary risk of capital outflows from risk assets globally. On TSMC specifically, Morgan Stanley expects FY2026 revenue growth of 30–40%, but Kuo believes growth exceeding 40% is highly probable given TSMC's monopolistic position in advanced process nodes and meaningful pricing power. He projects TSMC EPS of NT$95.2 in 2026, NT$125 in 2027, and potentially NT$165 by 2028. Capex expansion expectations have already triggered pre-emptive buying in related supply chain stocks such as precision materials names, some of which hit limit-up within the first minute of trading. **Market Implication:** TSMC's earnings call represents a binary event for Taiwan equities. Confirmation of accelerating revenue growth and rising capex would validate the AI-driven bull case and likely sustain broader index momentum. Fund managers should assess exposure to TSMC suppliers ahead of guidance release."
+    },
+    {
+      "title": "Taiwan Stock Market Default Settlements Surpass NT$7 Billion — More Than Double Full-Year 2025 Levels Amid AI-Driven Rally",
+      "section": "證券 (Securities)",
+      "date": "2026/07/16 02:12:20",
+      "url": "https://money.udn.com/money/story/5607/9630468?from=edn_maintab_cate",
+      "summary": "Cumulative failed settlement (違約交割) amounts in Taiwan's stock market reached NT$7.08 billion as of July 15, 2026 — already 1.84x the full-year 2025 total of NT$3.85 billion and a record pace. The number of default incidents also surged to 48 cases versus only 13 for the entirety of 2025. The acceleration is closely linked to the AI-driven market rally, which has concentrated capital flows and facilitated rapid expansion of leveraged trading. June was particularly alarming: a single-day default of NT$1.57 billion on June 12 pushed the monthly total to NT$2.86 billion — the highest monthly figure since records began in 2019. Affected securities include major listed names such as Macronix (2337), Sinher (3376), Unimicron (3037), HannStar Board (2313), Yageo (2327), AU Optronics (2409), and others. The FSC (金管會) and the Legislative Yuan have both flagged the issue as a growing systemic concern. **Market Implication:** The sharp rise in failed settlements is a leading indicator of excessive leverage and speculative excess in the market. For fund managers, this signals elevated tail risk in high-momentum, retail-driven names, and warrants caution on crowded trades and credit-sensitive exposures. Regulatory tightening on margin trading is a plausible near-term policy response."
+    },
+    {
+      "title": "TSMC Raises Full-Year Outlook for Second Time; Chairman Wei Calls AI Demand \"Extremely Strong\"",
+      "section": "金融",
+      "date": "2026/07/17",
+      "url": "https://money.udn.com/money/story/5612/9633014?from=edn_maintab_cate",
+      "summary": "TSMC (2330) reported record-high profits for Q2 2026 at its investor conference on July 16, with both gross margin (67.7%) and operating margin (60.3%) exceeding the top end of guidance and setting new highs. The company earned nearly five times its paid-in capital in the first half of the year alone. For Q3 2026, TSMC guided revenue of USD 446–458 billion (midpoint ~USD 452B), implying ~12% QoQ and ~37% YoY growth, beating consensus estimates of 2.1–4.9% QoQ growth. However, Q3 gross margin is guided at 65–67% and operating margin at 56–58%, both declining QoQ, primarily due to margin dilution of approximately 3–4 percentage points from the rapid ramp of 2nm production. Chairman C.C. Wei raised the full-year USD revenue growth forecast to \"slightly above 40%\" — the second upward revision this year — citing \"extremely strong\" AI-related demand. TSMC ADRs fell over 2% in early U.S. trading and Taiwan index futures dropped over 1,000 points overnight on margin concerns, despite the strong top-line outlook. **Market Implication:** The margin compression from 2nm ramp is a near-term overhang, but the sustained demand signal and second consecutive guidance raise reinforce TSMC's structural growth narrative. Investors should monitor whether margin recovery materializes in Q4 as 2nm yields improve."
+    },
+    {
+      "title": "TSMC Pledges Additional USD 100 Billion Investment in the U.S., Commits to Continued Taiwan Investment",
+      "section": "金融",
+      "date": "2026/07/17",
+      "url": "https://money.udn.com/money/story/5612/9632973?from=edn_maintab_cate",
+      "summary": "At the July 16 investor conference, TSMC Chairman C.C. Wei announced an additional USD 100 billion investment in Arizona, bringing total committed U.S. investment to USD 265 billion (approximately TWD 8.5 trillion) — a new record. The expanded investment will fund several new wafer fabs for 2nm and more advanced nodes, as well as advanced packaging facilities, with Wei indicating \"four or more\" new fabs are possible. Critically, Wei also committed to continued investment in Taiwan, noting 13 advanced fabs and packaging facilities are currently under construction on the island. Additional capacity expansions announced include new 3nm fabs in Taiwan, Japan, and the U.S., partial conversion of 5nm equipment to 3nm, and expanded power management IC and CMOS image sensor capacity. The next-generation A14 process was confirmed as on track and ahead of schedule. **Market Implication:** The massive U.S. capex commitment signals TSMC's strategic alignment with Washington's semiconductor policy and key American customers, but also raises questions about cost structure and geopolitical capital allocation. Taiwan-centric investors should note the dual-track investment pledge as a positive signal for domestic employment and technology leadership retention."
+    },
+    {
+      "title": "TSMC Raises 2026 Capital Expenditure Guidance Again; Pledges Stable and Growing Dividend",
+      "section": "金融",
+      "date": "2026/07/17",
+      "url": "https://money.udn.com/money/story/5612/9632978?from=edn_maintab_cate",
+      "summary": "TSMC raised its 2026 full-year capital expenditure forecast for the second time to USD 60–64 billion (midpoint ~USD 62B), representing an increase of approximately 7–14.3% from prior guidance and a new all-time high. The revision is driven by the need to support customer demand across advanced process and packaging technologies. Of the total capex, 70–80% will be allocated to advanced process technology, ~10% to specialty processes, and 10–20% to advanced packaging, testing, mask making, and other items. Through Q2, TSMC has already deployed USD 111B (Q1) and USD 157B (Q2) in actual capex spending. Despite the elevated investment cycle, management emphasized commitment to sustainable and growing per-share cash dividends on both an annual and quarterly basis. **Market Implication:** The record capex cycle underscores confidence in multi-year structural demand from AI, 5G, and HPC megatrends, including the emerging agentic AI market. For income-focused investors, the explicit dividend growth commitment is a positive signal. However, free cash flow compression in 2026 warrants monitoring, particularly for insurers holding TSMC as a core equity position."
+    },
+    {
+      "title": "TSMC Q2 Earnings Dazzle: Five New Records Set, Gross Margin and Operating Margin Both Exceed Guidance",
+      "section": "金融",
+      "date": "2026/07/17 01:04:21",
+      "url": "https://money.udn.com/money/story/5612/9632979?from=edn_maintab_cate",
+      "summary": "TSMC (2330) reported blockbuster Q2 2026 results, setting five simultaneous all-time records across revenue, net profit, EPS, gross margin, and operating margin. Net profit after tax reached NT$706.562 billion, up 23% QoQ and over 70% YoY. EPS came in at NT$27.25 — a new historical high. Gross margin of 67.7% and operating margin of 60.3% both exceeded the top end of the company's own guidance, a feat that particularly impressed institutional investors. On a per-day basis, TSMC earned approximately NT$7.76 billion per day, or NT$323 million per hour. For H1 2026, cumulative net profit reached NT$1.27 trillion, up 68.3% YoY, with EPS of NT$49.33 — nearly five times book value earned in six months. **Market implication:** These results significantly de-risk near-term earnings concerns and reinforce TSMC's status as a core AI infrastructure play. Continued margin expansion driven by AI and HPC demand suggests strong pricing power and robust order visibility, which should be broadly positive for the broader Taiwan semiconductor supply chain and may support foreign investor inflows."
+    },
+    {
+      "title": "TSMC Analyst Day Summary: Seven Key Takeaways — Q3 Revenue Guided at USD 44.6–45.8 Billion",
+      "section": "產經",
+      "date": "2026/07/16 15:29:35",
+      "url": "https://money.udn.com/money/story/5612/9631986",
+      "summary": "TSMC held its investor conference on July 16, disclosing Q2 financials and Q3 2026 outlook. Q3 revenue is guided at USD 44.6–45.8 billion, with gross margin projected at 65–67% and operating margin at 56–58%. The company's analyst day commentary is widely regarded by the market as a leading indicator of broader semiconductor industry conditions. **Market implication:** Q3 guidance at the midpoint implies continued robust growth and only modest margin normalization from the record Q2, reinforcing confidence in sustained AI-driven demand. The guidance range sets a clear benchmark for consensus estimate revisions and is likely to drive positive re-ratings across the Taiwan tech supply chain, including upstream wafer, packaging, and equipment suppliers."
+    },
+    {
+      "title": "TSMC Expands U.S. Investment — Financial Officials Say It Strengthens Global Competitive Advantage",
+      "section": "金融",
+      "date": "2026/07/16 21:39:03",
+      "url": "https://money.udn.com/money/story/11162/9632827?from=edn_subcatelist_cate",
+      "summary": "TSMC Chairman C.C. Wei announced at the investor conference that the company will increase its U.S. investment commitment by an additional USD 100 billion, bringing cumulative U.S. investment to USD 265 billion. Taiwan's Executive Yuan spokesperson and senior financial officials responded positively, stating that the government respects corporate global deployment decisions driven by market needs, and that a Government-to-Government (G2G) communication mechanism has been established with Washington to ensure Taiwanese companies receive preferential treatment should the U.S. implement semiconductor Section 232 tariffs. Officials noted that approximately 70% of TSMC's revenue comes from North American customers, making U.S. expansion a strategic necessity rather than a sign of hollowing out Taiwan's industrial base. **Market implication:** The scale of U.S. commitment ($265B cumulative) underscores TSMC's geopolitical importance and provides a degree of tariff insulation. While some may view overseas capex expansion with concern regarding domestic R&D concentration, officials' reassurances and the G2G tariff framework suggest manageable downside risk for Taiwan-listed TSMC shares."
+    },
+    {
+      "title": "Foreign Investors Sell Taiwan Stocks for 10 Consecutive Sessions — Cumulative Net Selling Reaches NT$453.4 Billion; Taiwan Futures After-Hours Drop Over 1,000 Points",
+      "section": "證券 (Securities)",
+      "date": "2026/07/17 01:45:45",
+      "url": "https://money.udn.com/money/story/5607/9633017?from=edn_maintab_cate",
+      "summary": "Taiwan's weighted index staged a dramatic intraday reversal on July 16, briefly plunging 660 points to 44,970 before recovering to close down just 6 points at 45,624. The rebound was driven by late buyers positioning ahead of TSMC's earnings call, with a burst of 5,748 lots pushing TSMC to NT$2,470 at the close. However, Taiwan futures plunged over 1,000 points in after-hours trading as TSMC's results were characterized as \"better than guidance but lacking upside surprise.\" Foreign investors remained heavy net sellers at NT$48.33 billion on the day — marking 10 consecutive sessions of selling — with cumulative net outflows now reaching NT$453.46 billion, a significant and accelerating capital flight signal. Investment trusts (投信) continued to provide support, buying NT$8.64 billion for the 17th straight session (cumulative: NT$180.18 billion), while state-owned banks intervened with NT$7.88 billion in purchases. Analysts characterize the market as range-bound, with resistance at 46,330 (July 13 high) and support at 43,654 (July 14 low). The persistent foreign selling trend, combined with post-market futures weakness, warrants close monitoring for potential further downside pressure."
+    },
+    {
+      "title": "Taiwan Equities Close: Weighted Index Down 6 Points to 45,624; TSMC Closes at NT$2,470, +1.22%",
+      "section": "證券 (Securities)",
+      "date": "2026/07/16 14:01:29",
+      "url": "https://money.udn.com/money/story/12509/9631716?from=edn_subcatelist_cate",
+      "summary": "Taiwan's weighted index closed July 16 nearly flat at 45,624.98 (down 6.61 points, -0.01%) on turnover of NT$900.8 billion, with breadth negative at 409 advancers vs. 679 decliners. TSMC (2330) was a key positive contributor, closing up 1.22% at NT$2,470 on volume of 27,573 lots. Hon Hai (2317) also gained +1.46% and Delta Electronics (2308) rose +0.79%, while MediaTek (2454) fell -1.06%. Notable underperformers included UMC (2303, -3.61%), Nanya Technology (2408, -8.73%), and ASE Technology (3711, -0.14%). Sector performance was mixed: semiconductors edged up +0.37%, other electronics +1.22%, and networking +0.39%, while electronic components dropped -1.93% and computer peripherals fell -1.29%. Financial stocks were broadly flat (-0.02%). The divergence between TSMC strength and broader tech weakness, combined with the memory sector sell-off (Nanya -8.73%), reflects selective positioning ahead of TSMC's earnings call results."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[AI Demand Surge and Middle East Conflict Drive Raw Material Costs Higher; Formosa Plastics Raises Prices on Two Key Electronic Chemicals]",
+      "section": "金融",
+      "date": "2026/07/16 02:06:03",
+      "url": "https://money.udn.com/money/story/5612/9630421?from=edn_maintab_cate",
+      "summary": "Robust demand from TSMC's (2330) advanced node ramp-up driven by AI workloads, combined with rising raw material costs stemming from Middle East geopolitical tensions, has prompted Formosa Plastics (1301) to raise prices on two key electronic-grade chemicals: electronic-grade hydrofluoric acid (HF) and electronic-grade isopropyl alcohol (IPA). This marks a rare simultaneous price increase across both product lines. Industry peer Sheng-Yi Chemical (1773), a key IPA supplier, has signaled it may implement further price increases in Q3 following adjustments already made in Q2.\n\nBoth chemicals are critical consumables in wafer fabrication — used extensively in etching, surface treatment, and cleaning processes — serving AI GPU, HBM, and sub-2nm advanced process production. Analysts anticipate a price-volume upswing for Formosa Plastics' electronic chemicals segment in H2, with new capacity additions expected to contribute more meaningfully in 2026."
+    },
+    {
+      "title": "ASML Raises 2026 Outlook for Third Time, Plans 30% Production Expansion — Taiwanese Partners Jia-Den, Fan-Syuan, and Xiang-Ming Set to Benefit",
+      "section": "金融",
+      "date": "2026/07/16",
+      "url": "https://money.udn.com/money/story/5612/9630427?from=edn_maintab_cate",
+      "summary": "ASML raised its 2026 operating outlook for the third time and announced plans to expand production capacity for its two key product lines by approximately 30% over the next two years. This signals stronger-than-expected semiconductor capital equipment demand, with direct positive spillover to its Taiwanese supply chain partners. Jia-Den Precision (3680), a critical EUV POD supplier to ASML, is seeing particularly strong momentum in the U.S. market driven by semiconductor onshoring and large fab expansion projects; its U.S. parts-processing line is on track for Q4 activation. Subsidiary Jia-Shuo (6953) also expects EUV mask demand to sustain double-digit growth through H2. For fund managers, this reinforces the secular capex upcycle thesis in advanced semiconductor equipment and validates overweight positions in Taiwan's EUV-adjacent supply chain names. The ASML demand signal is also broadly constructive for TSMC's capacity expansion narrative."
+    },
+    {
+      "title": "Northern Taiwan Data Center Power Restrictions Expected to Be Conditionally Lifted — Taoyuan and Keelung to Plan AI Zones Near Power Plants",
+      "section": "金融",
+      "date": "2026/07/16",
+      "url": "https://money.udn.com/money/story/5612/9630433?from=edn_maintab_cate",
+      "summary": "Taiwan Power Company (Taipower) Chairman Tseng Wen-sheng indicated that the moratorium on new data center electricity connections of 5MW or above north of Taoyuan — in place since September 2023 — is expected to be conditionally lifted. The policy shift is enabled by the commissioning of Da-tan Power Plant units 7–9 and the passage of the Hoping Power Plant's environmental review. The proposed model would allow AI data center zones to be developed in proximity to power plants in Taoyuan and Keelung, with Taipower partnering with local governments. This is a meaningful positive for Taiwan's AI infrastructure buildout, potentially unlocking stalled hyperscaler and co-location projects in the north. Investors in data center operators, power infrastructure plays, and AI-adjacent real estate should take note. Broader implications also exist for electricity-intensive technology tenants."
+    },
+    {
+      "title": "Formosa Plastics Group's High-Value Transformation Approaching Harvest Phase",
+      "section": "金融",
+      "date": "2026/07/16",
+      "url": "https://money.udn.com/money/story/5612/9630429?from=edn_subcatelist_cate",
+      "summary": "Formosa Plastics (1301) is pivoting toward electronic-grade chemicals to offset structural oversupply pressures in bulk petrochemicals. Key near-term catalysts include the commissioning of an electronic-grade isopropanol (IPA) recycling facility at Linyuan Industrial Park (H2 2026, capacity: 5,400 tonnes/year) and new electronic-grade hydrofluoric acid capacity from Formosa Daikin slated for 2027. The group has publicly committed to 27 high-value product lines — including semiconductor-grade hydrogen, ammonia, and photoresist diluents — targeting an incremental NT$30 billion in annual output value. This transformation story is increasingly credible and positions Formosa Plastics as a beneficiary of Taiwan's semiconductor supply chain deepening. Relevant for investors assessing petrochemical-to-specialty chemical transition plays on the Taiwan market."
+    },
+    {
+      "title": "Merck Deepens Taiwan Commitment, New Capacity to Supply Semiconductor Clients Including TSMC",
+      "section": "金融",
+      "date": "2026/07/16",
+      "url": "https://money.udn.com/money/story/11162/9630484?from=edn_subcatelist_cate",
+      "summary": "Merck Group's €500 million (approximately NT$17 billion) investment in Taiwan — its largest single global investment — is nearing completion at the Southern Science Park Kaohsiung campus (Luzhu), located approximately 30 minutes from TSMC's Southern Science Park fab. The investment targets advanced process and advanced packaging materials. Merck's Electronics Technology division has successfully transitioned from a display materials supplier to a semiconductor materials and equipment provider, and ongoing investment commitments signal continued deepening of Taiwan's materials supply chain. For fund managers, this reinforces the structural case for Taiwan's position as a critical node in global semiconductor manufacturing and highlights investment flows into the island's specialty chemicals ecosystem."
+    },
+    {
+      "title": "U.S. June PPI Better Than Expected — Taiwan Futures Night Session Recovers to Positive Territory",
+      "section": "產經 (Industry & Economy)",
+      "date": "2026/07/15 21:05:07",
+      "url": "https://money.udn.com/money/story/11112/9630207",
+      "summary": "U.S. June PPI came in at +5.5% YoY, well below the consensus estimate of +6.2% and the prior reading of +6.5%; core PPI also undershot at +4.7% vs. +5.1% expected. This softer inflation print reinforced the earlier CPI signal and drove a broad recovery in U.S. equity futures, lifting NASDAQ electronic trading and pulling the TAIEX night futures session back into positive territory at approximately 46,114 points (+48 points) by 9 PM. Intraday volatility was significant, as reports of a tense White House Situation Room meeting regarding a potential large-scale offensive against Iran initially pushed futures down to 45,860 (-206 points), but the macro data ultimately dominated sentiment. TSMC futures settled near NT$2,477 (+9). The confluence of moderating U.S. producer and consumer inflation represents a meaningful positive for global risk assets and supports the case for Fed rate stability — a constructive backdrop for Taiwan's export-oriented and tech-heavy equity market.\n\n---"
+    },
+    {
+      "title": "Hon Hai Increases Investment in Humanoid Robot Startup Agility Robotics",
+      "section": "證券",
+      "date": "2026/07/16",
+      "url": "https://money.udn.com/money/story/5710/9630105?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317), through its subsidiary Hongyang Venture Capital, invested USD 9 million (approximately TWD 290 million) in Churchill Capital Corp XI, a SPAC that has signed a definitive merger agreement to bring Agility Robotics public on Nasdaq. The deal is expected to raise over USD 620 million in total, comprising ~USD 420 million from the SPAC trust and ~USD 200 million in PIPE financing, which Hon Hai is leading. Upon listing, Agility Robotics will become the first publicly listed humanoid robotics company in the U.S., with industry estimates placing its valuation potentially above USD 15 billion. Hon Hai's cumulative stake in Churchill Capital Corp XI now stands at 0.3%. **Market Implication:** Hon Hai continues to build its robotics ecosystem exposure strategically. The SPAC listing of Agility Robotics could serve as a valuation catalyst for Hon Hai's broader robotics-related investments and may attract thematic investor interest in the Taiwan tech sector's AI and automation pivot."
+    },
+    {
+      "title": "Powertech Technology Partners with Broadcom; Invests USD 400 Million in Singapore JV for Panel-Level Packaging",
+      "section": "金融",
+      "date": "2026/07/17",
+      "url": "https://money.udn.com/money/story/5612/9632960?from=edn_maintab_cate",
+      "summary": "Powertech Technology (6239), Taiwan's second-largest semiconductor packaging and testing firm, announced a USD 400 million (TWD ~128 billion) joint venture with Broadcom in Singapore, targeting the fast-growing panel-level packaging (PLP) segment. Broadcom holds AI ASIC orders from hyperscalers including Google, OpenAI, and Meta, and the JV positions Powertech to capture high-value advanced packaging orders from these global clients. The Singapore entity will focus on advanced packaging substrate additive fine line redistribution layer (RDL) technology to support large AI chiplets and complex packaging architectures. Powertech emphasized that core IP and R&D will remain in Taiwan, and the JV will not affect existing or future FOPLP customer partnerships. **Market Implication:** This partnership is a meaningful strategic upgrade for Powertech, potentially driving significant revenue expansion from AI chiplet packaging. It also signals that panel-level packaging is becoming a competitive battleground alongside TSMC and ASE, with implications for the broader advanced packaging supply chain in Taiwan."
+    },
+    {
+      "title": "AI-RAN Era Has Arrived: MediaTek, Pegatron Enter Harvest Phase",
+      "section": "金融",
+      "date": "2026/07/17 00:02:51",
+      "url": "https://money.udn.com/money/story/11162/9632969?from=edn_subcatelist_cate",
+      "summary": "Nokia's launch of the world's first commercial AI-RAN (AI Radio Access Network) platform — built in partnership with NVIDIA — is set to begin deployment by end-2026 and reach full commercialization in 2027. Key Taiwan players including MediaTek (2454), Lite-On, Pegatron, and Gemtek are all actively positioned in AI-RAN. MediaTek showcased hybrid computing innovations integrating communications and edge cloud at MWC 2025, while Lite-On is noted as the most advanced in commercialization readiness. This development signals a potential transformation of tens of billions of global telecom base stations into AI computing nodes. **Market implication:** MediaTek's exposure to AI-RAN represents a meaningful incremental revenue opportunity beyond its core handset and IoT chip business, with 2027 commercialization providing a credible catalyst timeline for investors."
+    },
+    {
+      "title": "NVIDIA-Backed Nokia Launches First Commercial AI-RAN Platform; Taiwan Suppliers Positioned for Opportunity",
+      "section": "金融",
+      "date": "2026/07/17 00:07:16",
+      "url": "https://money.udn.com/money/story/11162/9632965?from=edn_subcatelist_cate",
+      "summary": "Nokia, backed by a USD 1 billion NVIDIA investment made in 2024, has announced the world's first commercial AI-RAN platform, integrating Nokia's AI-native anyRAN software with NVIDIA's computing architecture. Deployment begins late 2026, with full commercialization targeted for 2027. The AI-RAN Alliance — which includes Nokia, NVIDIA, Amazon AWS, Qualcomm, Ericsson, and Taiwan's Lite-On, MediaTek, Wiwynn, and Accton — is driving the convergence of AI and mobile network infrastructure. NVIDIA CEO Jensen Huang views AI-RAN as a key vector for the 5G-to-6G transition. Taiwan's Lite-On is highlighted as the fastest-moving among domestic players. This represents a new and incremental growth vertical for several Taiwan-listed technology companies with existing telecom infrastructure exposure."
+    },
+    {
+      "title": "New Taiwan Dollar Closes at 32.249, Depreciates 0.6 Jiao Against the US Dollar",
+      "section": "證券 (Securities)",
+      "date": "2026/07/16 16:23:50",
+      "url": "https://money.udn.com/money/story/12509/9632118?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar closed at 32.249 per USD on July 16, weakening 6 pips from the prior close of 32.189. Intraday range was 32.100 (high) to 32.291 (low), with an opening rate of 32.170 and total daily turnover of USD 1.856 billion. The mild depreciation is consistent with continued foreign equity outflows exerting selling pressure on the NTD. For life insurers with large USD-denominated foreign asset portfolios, a weaker NTD provides a favorable translation effect on unrealized gains, partially offsetting equity market volatility. Fund managers should monitor whether the CBC intervenes if depreciation accelerates, particularly given the backdrop of sustained foreign selling in equities."
+    },
+    {
+      "title": "Dallas Fed President Logan Supports Rate Hike as Inflation Remains Persistently Above Target",
+      "section": "產經 (Business/Economy)",
+      "date": "2026/07/17 05:54:28",
+      "url": "https://money.udn.com/money/story/5599/9633220",
+      "summary": "Dallas Fed President Lorie Logan — a voting FOMC member — publicly advocated for a rate increase ahead of the July 28–29 FOMC meeting, stating that \"modestly raising rates would help balance the outlook and risks.\" She noted that U.S. CPI, while easing from 4.2% in May to 3.5% in June, remains well above the 2% target for the fifth consecutive year, and cautioned that \"one month of relief is not enough.\" A Fed rate hike, if realized, would be a hawkish surprise for global markets and could strengthen the USD — amplifying NTD depreciation pressure, widening Taiwan life insurers' hedging costs, and adding headwinds to Taiwan's export-sensitive equities. This development warrants close attention from fund managers monitoring the July FOMC outcome."
+    }
+  ],
+  "not_relevant": [
+    "*No articles were identified as fully irrelevant — all five articles relate to major Taiwan listed companies (TSMC, Hon Hai, Powertech) covered under the relevant topics filter.*",
+    "*No articles were fully irrelevant — all five articles covered major Taiwan listed companies (TSMC, MediaTek, Hon Hai-adjacent supply chain) directly relevant to the fund manager's mandate.*",
+    "*(No irrelevant articles — the sole article reviewed is classified as Medium Importance.)*"
+  ]
+}
