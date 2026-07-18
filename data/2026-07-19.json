@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-19",
+  "update_time": "2026-07-19 06:06:28",
+  "total_articles": 5,
+  "high": [
+    {
+      "title": "Taiwan Stock Market Three Key Signals Limit Further Downside; Institutional Investors Forecast Consolidation Between Quarterly and Monthly Moving Averages",
+      "section": "證券 (Securities)",
+      "date": "2026/07/19",
+      "url": "https://money.udn.com/money/story/5607/9636561?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market came under significant pressure following the sharp 2,953-point single-day drop on July 17th, compounded by news that Google's latest Gemini model delivery timeline is running behind schedule, which dragged all four major U.S. indices lower, with the Philadelphia Semiconductor Index falling 1.6% and TSMC's ADR declining a further 2.7%. Despite this, institutional analysts at Fubon and KGI Securities maintain a constructive longer-term view, citing three stabilizing signals: (1) solid AI sector fundamentals, (2) a substantial margin financing reduction of approximately NT$41.6 billion on July 17th — flushing out weak-handed retail positions — and (3) a sharp 877-point rebound in Taiwan futures night session. Fubon Securities Chairman Chen Yi-guang estimates listed companies' Q2 earnings at approximately NT$1.8 trillion, with H1 cumulative profits reaching NT$3.4 trillion, and projects sequential earnings growth through H2. KGI's Chairman Chu Yen-min adds that 2027 earnings growth could challenge a 30% YoY increase. With the TAIEX now below 43,000, consensus views current price-to-earnings multiples as attractive, advising against panic selling. Near-term, the index is expected to consolidate between the quarterly and monthly moving averages.\n\n**Market Implication:** The sharp de-leveraging of retail margin positions is structurally healthy and reduces systemic risk. Fund managers with long-term mandates may view current levels as an accumulation opportunity, particularly in AI-linked blue chips with strong earnings visibility."
+    },
+    {
+      "title": "Three Events to Watch for Taiwan Stock Market Outlook; Yuanta Securities Investment Advisory: P/E Below 43K Is Low — Hold, Don't Sell",
+      "section": "證券 (Securities)",
+      "date": "2026/07/18",
+      "url": "https://money.udn.com/money/story/5607/9635845?from=edn_maintab_cate",
+      "summary": "Yuanta Securities Investment Advisory flagged three critical macro events that will shape Taiwan's near-term market trajectory following last week's 5.9% weekly decline (TAIEX closing at 42,671.27, breaking below the quarterly moving average). First, South Korea's equity market de-leveraging remains a key risk given its heavy margin borrowing environment and its centrality to HBM supply chains critical to AI infrastructure buildout. Second, next week's U.S. mega-cap tech earnings season — including major cloud service providers — will serve as a real-time stress test for market sentiment, with Google's single-day pullback this week already drawing scrutiny. Third, the upcoming FOMC meeting at month-end remains a material variable, as divergent signals from Fed officials on inflation outlook are adding to volatility. Yuanta recommends short-term patience and awaiting stabilization, while endorsing a long-term buy-on-dips strategy below 43,000 points where valuations are deemed undemanding.\n\n**Market Implication:** The South Korea HBM contagion risk and Fed policy uncertainty are the two most actionable near-term concerns for portfolio managers with Taiwan semiconductor and tech exposure. FOMC tone will be pivotal for TWD and foreign flow dynamics."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Stock Market Supply Chain Watch: Jensen Huang Refutes Rubin Ultra Delay Rumors; ABF Substrates Survive — ASP Set to Double",
+      "section": "產經 (Industry & Economy)",
+      "date": "2026/07/19",
+      "url": "https://money.udn.com/money/story/5607/9634433",
+      "summary": "At a Morgan Stanley Non-Deal Roadshow (NDR) on July 10th, NVIDIA CEO Jensen Huang personally and unequivocally confirmed that the Rubin Ultra chip remains on schedule for 2027 delivery, directly countering SemiAnalysis's bearish thesis that the Kyber cabinet redesign would push delivery to 2028. NVIDIA's share price surged 4.03% that day, restoring its market cap above the USD 5 trillion threshold. Huang acknowledged that the original Kyber cabinet design faced engineering challenges and that an optimized alternative solution had been adopted to preserve the 2027 delivery timeline. Crucially for Taiwan's supply chain, ABF substrates were confirmed as non-obsolete in the revised design, with average selling prices (ASP) reportedly doubling — a direct positive for Taiwanese substrate makers. However, the cabinet architecture change implies reduced volume upside versus earlier market expectations, which weighed on passive components, MOSFETs, and memory-related names on July 13th.\n\n**Market Implication:** ABF substrate players benefit from ASP upgrade; however, broader AI infrastructure supply chain investors should recalibrate volume assumptions for Kyber-related components given the architectural pivot."
+    },
+    {
+      "title": "Advanced Packaging's Four Industrial Waves: InFO Helped TSMC Distance Itself from Samsung; CoWoS Takes Over AI High-End Battleground",
+      "section": "產經 (Industry & Economy)",
+      "date": "2026/07/19",
+      "url": "https://money.udn.com/money/story/5607/9634881",
+      "summary": "This article provides a structural industry analysis of TSMC's advanced packaging evolution, tracing the commercialization journey from InFO (Integrated Fan-Out) — first deployed at scale in Apple's iPhone 7 A10 processor in 2016 — through to CoWoS (Chip-on-Wafer-on-Substrate), which has become the dominant packaging solution for AI accelerators integrating GPUs/ASICs with High Bandwidth Memory (HBM). The piece frames advanced packaging as the decisive competitive frontier in semiconductor performance scaling, noting that single-chip performance improvements are no longer sufficient to meet AI compute demand, making heterogeneous integration via advanced packaging a structural necessity. TSMC's packaging leadership is positioned as a key strategic moat separating it from Samsung and other foundry competitors. The article previews detailed coverage in the upcoming issue of Pioneer Investment Weekly (Issue 2413).\n\n**Market Implication:** Reaffirms TSMC's advanced packaging as a durable competitive advantage and a key structural tailwind. Relevant for investors assessing TSMC's long-term pricing power and capacity allocation strategy in AI-driven semiconductor cycles."
+    }
+  ],
+  "not_relevant": []
+}
