@@ -1,0 +1,178 @@
+{
+  "date": "2026-07-21",
+  "update_time": "2026-07-21 07:11:20",
+  "total_articles": 36,
+  "high": [
+    {
+      "title": "[Hon Hai Wins SpaceX AI Server Order — Related Business Momentum to Exceed Expectations]",
+      "section": "金融",
+      "date": "2026/07/20 01:29:31",
+      "url": "https://money.udn.com/money/story/11162/9637857?from=edn_maintab_cate",
+      "summary": "Hon Hai (Foxconn, 2317) has secured its first AI server manufacturing order from SpaceX, marking a significant strategic breakthrough. SpaceX CEO Elon Musk plans to build over 13,000 cabinets equipped with NVIDIA GB300 AI servers; at an estimated unit price of USD 4 million per cabinet, the total contract value reaches approximately USD 52 billion (roughly NTD 1.7 trillion). This order had previously been dominated exclusively by Dell and Super Micro, making Hon Hai's entry a competitive disruption of note.\n\nThis win completes Hon Hai's coverage of all major global cloud service providers (CSPs) — a key missing piece in its AI server portfolio. Chairman Liu Yang-wei had previously guided that Hon Hai's global AI server market share would exceed 40% in 2026, with AI cabinet shipments expected to grow multiple times year-over-year. Critically, analysts note the SpaceX order was **not included** in prior revenue guidance, meaning actual AI business revenues could materially outperform consensus estimates."
+    },
+    {
+      "title": "Hon Hai Secures SpaceX AI Server Order, Eyes Space Data Centers as Next Frontier",
+      "section": "金融",
+      "date": "2026/07/20 01:27:18",
+      "url": "https://money.udn.com/money/story/11162/9637859?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (Foxconn, 2317) has secured its first AI server manufacturing order from SpaceX, marking a significant strategic milestone that positions the company at the intersection of two of the fastest-growing technology verticals: AI infrastructure and space computing. Industry analysts highlight that Hon Hai's competitive moat lies in its unique dual capability — it is simultaneously the world's largest electronics contract manufacturer with advanced AI server assembly expertise, and a company with demonstrable space industry experience. This combination, rare among global peers, is cited as the primary reason Elon Musk selected Hon Hai as a preferred partner. The next phase of collaboration targets space-based AI data centers. Hon Hai subsidiary Hongbao Technology is already planning a space data center in partnership with Ramon.Space, targeting earth observation, communications, and government mission applications. Hon Hai's own \"Pearl\" low-earth orbit satellite program, which integrates proprietary camera payloads, further reinforces its AIT (Assembly, Integration & Testing) credentials in the satellite sector. With SpaceX targeting its first AI satellite launch as early as next year, this partnership could represent a material new revenue stream for Hon Hai beyond its core server manufacturing business, and warrants close attention from investors monitoring AI infrastructure and space sector convergence."
+    },
+    {
+      "title": "UMC AI Orders Overflowing — Qualcomm, Intel, SanDisk Among Major Customers; Fab Expansion Under Evaluation",
+      "section": "金融",
+      "date": "2026/07/19 23:07:52",
+      "url": "https://money.udn.com/money/story/11162/9637889?from=edn_subcatelist_cate",
+      "summary": "United Microelectronics Corporation (UMC, 2303) is experiencing surging AI-driven order momentum from major U.S. customers including Qualcomm, Intel, and SanDisk, with its silicon interposer (Interposer), deep trench capacitor (DTC), and silicon photonics advanced packaging capabilities reportedly fully booked. The company is evaluating expansion of its Southern Taiwan Science Park 12AP7 fab to accommodate growing demand. Notably, UMC is also benefiting from a sharp uptick in power management IC (PMIC) foundry orders — directly corroborating TSMC Chairman C.C. Wei's recent investor day remarks identifying PMIC and sensors as the two mature-node segments facing genuine supply constraints due to AI applications. UMC confirmed strong AI demand and indicated expansion optionality exists across its Taiwan, Singapore, and Japan facilities. Strategically, UMC is deepening U.S. customer relationships and extending its value chain from traditional mature-node foundry services into front-end wafer manufacturing and advanced packaging integration. Its entry into Qualcomm's AI data center and edge computing ecosystem via interposer, DTC, and wafer-on-wafer hybrid bonding represents a meaningful business model evolution. For investors, this signals UMC may be transitioning from a structurally challenged mature-node player to a more differentiated AI packaging and specialty process participant, with potential positive re-rating implications."
+    },
+    {
+      "title": "[Taiwan Stock Market's Epic Crash: Three Scenario Analysis — Optimistic Case Targets Recovery of 43,525-Point Quarterly Moving Average]",
+      "section": "證券",
+      "date": "2026/07/20 01:21:56",
+      "url": "https://money.udn.com/money/story/5607/9637879?from=edn_maintab_cate",
+      "summary": "Following Taiwan's historic single-day plunge of 2,953 points (-6.47%) on July 17, institutional investors spent the weekend running scenario analyses to prepare for Monday's open. Three key scenarios were outlined by major brokerages including Fubon, Yongfeng, and Taishin Securities: **(1) Optimistic** — TSMC's earnings call effect was merely delayed; fundamentals support a rebound above the 43,525-point quarterly moving average, led by AI and high-growth stocks; **(2) Neutral-to-Cautious** — Emergence of Chinese AI model \"Kimi K3\" by Moonshot AI reignites competitive concerns, capping upside; **(3) Bearish** — Continued US equity weakness and foreign short positions at historic highs drag Taiwan lower. Critically, institutional consensus on TSMC's 2026 EPS has been **upgraded to NT$105–110** (from NT$97–103), with 2027 estimates at NT$140–150, and price targets broadly above NT$3,000 — with at least one foreign institution targeting NT$4,200. Listed company aggregate earnings for 2026 have also been revised upward toward NT$6.8–7.0 trillion, underscoring strong fundamentals. TSMC ADR fell 2.77% on July 18 as US equities entered bear market territory (S&P 500 -20% from peak). Foreign short interest remains at historical highs — a key overhang for near-term sentiment."
+    },
+    {
+      "title": "[TSMC Adds $100 Billion More to U.S. Investment: \"We Have No Intention of Ceding Business to Others\"]",
+      "section": "金融",
+      "date": "2026/07/21",
+      "url": "https://money.udn.com/money/story/5612/9640138?from=edn_maintab_cate",
+      "summary": "TSMC (2330) CFO Wendell Huang, speaking to Bloomberg and CNBC following last week's analyst day, confirmed that the company's additional $100 billion U.S. investment commitment is driven by strong customer demand and the need to defend against competitors — not political pressure. Huang acknowledged that U.S. fab construction costs are four to five times higher than in Taiwan, and that as overseas operations scale, the initial dilution to financial performance will expand. However, he emphasized that the investment will ultimately strengthen the U.S. semiconductor ecosystem. The expanded Arizona buildout could encompass up to ten wafer fabs and two advanced packaging plants, covering both front-end and back-end operations. Huang also noted that 2nm has begun generating revenue contributions, and that TSMC is actively converting 5nm capacity to 3nm to meet demand. **Market implications:** The accelerated U.S. capex trajectory reinforces TSMC's dominant position in AI-era advanced node supply, but investors should monitor gross margin dilution risk from higher-cost offshore fabs. Near-term earnings quality may face pressure, though the long-term strategic moat is substantially deepened."
+    },
+    {
+      "title": "[SK Group: Memory Supply Chaos Will Continue — Positive for Nanya Tech, Winbond, and Others]",
+      "section": "金融",
+      "date": "2026/07/21",
+      "url": "https://money.udn.com/money/story/5612/9640156?from=edn_maintab_cate",
+      "summary": "SK Group Chairman Chey Tae-won stated that AI-driven semiconductor demand is surging, with AI semiconductor demand expected to grow 60–100% in 2026 vs. 2025. He described the current global rush to secure memory inventory as \"chaotic,\" and forecast that memory prices — already \"abnormally high\" — will continue rising into next year with supply remaining tight. This outlook aligns with comments from TSMC Chairman C.C. Wei, who last week indicated AI demand could remain robust through 2029–2030. Domestically, Nanya Technology (2408) General Manager indicated DRAM supply tightness will persist for several more quarters, with Q3 pricing set to remain above Q2 levels. **Market implications:** Bullish read-through for Taiwan's memory and AI semiconductor supply chain, including Nanya Tech (2408), Winbond, ADATA, TSMC (2330), and ASE Technology. Investors with exposure to these names should view the sustained pricing environment as a fundamental earnings tailwind, not a temporary spike."
+    },
+    {
+      "title": "Goldman Sachs Predicts Second Wave of High-End CCL Price Hikes; Raises Target Prices for Two Major Taiwan Manufacturers by Over 50%",
+      "section": "產經",
+      "date": "2026/07/20 17:51:29",
+      "url": "https://money.udn.com/money/story/5607/9639601",
+      "summary": "In a newly released report on Taiwan's Copper Clad Laminate (CCL) industry, Goldman Sachs analyst Wang Guanzhao forecasts a second round of high-end CCL price increases of approximately 10%-15% by the end of Q3 2026, following the initial price hike in April. The driver is intensifying AI customer demand for premium-grade CCL supply. Goldman expects gross margin expansion of 2–4 percentage points per quarter from Q2 through Q4 for leading AI/high-end CCL suppliers, with momentum accelerating in the second half of the year. As a result, Goldman has sharply raised its target prices for **Taiwan Printed Circuit Board (Tripod) — Taiwan PCB (2383)** to NT$9,500 (up 58.3%) and **Taiyao (6274)** to NT$2,860 (up 51.5%), both with \"Buy\" ratings. The analyst notes the second price wave is unlikely to face customer pushback, given AI clients' strong appetite for high-quality CCL. **Market Implication:** This is a significant catalyst for CCL-exposed Taiwan tech names. Fund managers should reassess positions in AI supply chain components, particularly CCL manufacturers with premium product mix exposure, as margin and earnings upside could materially exceed consensus.\n\n---"
+    },
+    {
+      "title": "Taiwan Stock Market Volatile — Domestic Institutions Stabilize; Analysts See Potential Base-Building Rebound",
+      "section": "證券",
+      "date": "2026/07/21 01:47:47",
+      "url": "https://money.udn.com/money/story/5607/9640140?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market experienced a highly volatile session on July 20, with the intraday swing reaching 1,116 points. The TAIEX briefly broke below the prior low of 42,006, touching an intraday trough of 41,967 (down 703 points) before closing at 42,449, a modest decline of 221 points (-0.5%), on turnover of NT$1.04 trillion. Domestic institutions provided critical support: investment trusts (投信) extended their net buying streak to 19 consecutive sessions, purchasing NT$16.32 billion — 1.2x Friday's pace — bringing cumulative net purchases to NT$203.85 billion. Proprietary desks shifted from net sellers to net buyers on their self-directed books (+NT$560 million), though overall proprietary selling totaled NT$8.06 billion. Foreign investors remained net sellers for a 12th consecutive session at NT$6.08 billion, though dramatically reduced from Friday's NT$188.31 billion. Cumulative foreign net selling now stands at NT$647.86 billion. Futures net short positions fell sharply by 7,852 contracts to 78,337. TSMC outperformed, closing up NT$30 at NT$2,320. Analysts characterize the correction as a technical pullback driven by extended positioning and valuation divergence, and suggest that a sustained recovery above the quarterly moving average could signal a meaningful base and rebound setup. Foreign selling momentum and futures positioning remain key risks to monitor."
+    },
+    {
+      "title": "New Taiwan Dollar Closes at 32.248, Appreciates NT$0.04",
+      "section": "證券",
+      "date": "2026/07/20 16:19:54",
+      "url": "https://money.udn.com/money/story/12509/9639399?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar (NTD) appreciated modestly against the US Dollar on July 20, closing at 32.248, up NT$0.04 or +0.12%, with total forex turnover of USD 2.471 billion. The session opened at 32.28, with an intraday range of 32.248–32.436. While the move is incremental, NTD direction remains a critical variable for Taiwan life insurers given their substantial unhedged USD-denominated overseas investment portfolios. Any sustained NTD appreciation increases foreign exchange translation losses and hedging costs for major life insurers, and is also a key indicator of CBC monetary policy posture and foreign capital flow dynamics. Market participants should continue monitoring NTD movement alongside foreign investor equity activity for a coherent picture of cross-asset capital flows."
+    },
+    {
+      "title": "Taiwan Stock Market Close: Index Falls 221 Points to 42,449; TSMC Rises 1.31% to NT$2,320",
+      "section": "證券 (Securities)",
+      "date": "2026/07/20 14:22:55",
+      "url": "https://money.udn.com/money/story/12509/9639133?from=edn_subcatelist_cate",
+      "summary": "Taiwan's weighted index closed down 221.57 points (-0.51%) at 42,449.7 on July 20, with intraday range between 41,967.75 and 43,084.51. Turnover was substantial at NT$983.9 billion. Market breadth was negative, with 710 stocks declining versus 394 advancing, and 18 stocks hitting limit-down versus 10 limit-up."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[UMC Order Book Full, Evaluating Expansion at Southern Science Park — Buoyed by Strong Demand from Qualcomm, Intel, and SanDisk]",
+      "section": "金融",
+      "date": "2026/07/20 01:26:08",
+      "url": "https://money.udn.com/money/story/5612/9637858?from=edn_maintab_cate",
+      "summary": "United Microelectronics Corp. (UMC, 2303) is reportedly evaluating an expansion of its 12AP7 fab at the Southern Taiwan Science Park, driven by surging orders from major U.S. clients including Qualcomm, Intel, and SanDisk. Key demand drivers include silicon interposers, deep trench capacitors (DTC), silicon photonics, and power management ICs (PMICs) — the latter aligning with TSMC Chairman C.C. Wei's recent comments that PMIC and sensors represent the most supply-constrained mature-node products tied to AI applications. UMC is also deepening integration with Intel via co-development and has entered Qualcomm's AI data center and edge computing ecosystem. The company confirmed AI demand is \"very strong\" and noted expansion potential across its Taiwan, Singapore, and Japan facilities.\n\n**Market Implication:** UMC is increasingly repositioning from a traditional mature-node foundry toward AI-adjacent advanced packaging and integrated manufacturing — a structural positive for its medium-term revenue mix and valuation re-rating prospects."
+    },
+    {
+      "title": "[\"Quantum TSMC\" Conditions Do Not Yet Exist — Hon Hai Director Zhang Qingrui Cites Two Reasons]",
+      "section": "金融",
+      "date": "2026/07/19 21:55:14",
+      "url": "https://money.udn.com/money/story/11162/9637761?from=edn_maintab_cate",
+      "summary": "Hon Hai (2317) board director and \"father of Taiwan quantum computing\" Zhang Qingrui, speaking at The Economist's *Qubits for Profits* summit, stated that current geopolitical and industrial conditions do not support the emergence of a \"quantum TSMC\" in the near term. While the U.S. is aggressively investing — IBM's Anderson quantum chip fab received USD 1 billion in government funding, and IonQ acquired wafer fab SkyWater for USD 1.8 billion targeting 200,000 qubits by 2028 — Zhang cautioned that assuming quantum computing will replicate Taiwan's semiconductor success story is a \"false assumption.\" He emphasized that companies should instead focus on identifying optimal commercial models for quantum applications.\n\n**Market Implication:** Tempers near-term speculative enthusiasm around quantum computing plays in Taiwan. Relevant for investors monitoring Hon Hai's quantum computing strategic positioning and broader deep-tech thematic exposure."
+    },
+    {
+      "title": "[US-Iran Conflict Raises Global Energy and Shipping Alerts — Taiwan Container Trio Q3 Operations Supported]",
+      "section": "金融",
+      "date": "2026/07/20 01:40:53",
+      "url": "https://money.udn.com/money/story/10871/9637882?from=edn_maintab_cate",
+      "summary": "Escalating US-Iran tensions are reigniting concerns over global energy supply and shipping disruptions. After two consecutive weeks of freight rate declines, industry observers expect short-term rate recovery, characterizing the recent pullback as a technical correction following ten straight weeks of gains. Far East–US West Coast rates are expected to hold in the USD 4,800–5,500 per 40-foot container range. Taiwan's three major container carriers — Evergreen (2603), Yang Ming (2609), and Wan Hai (2615) — are seen as well-supported through Q3. The real test, however, is anticipated post-September as peak season demand tapers.\n\n**Market Implication:** Near-term positive for Taiwan's container shipping sector. Geopolitical risk premium may sustain elevated freight rates longer than the market had priced in, supporting Q3 earnings visibility for the container trio."
+    },
+    {
+      "title": "UMC Enters Next-Generation Glass Packaging (TGV) Technology",
+      "section": "金融",
+      "date": "2026/07/20 01:23:59",
+      "url": "https://money.udn.com/money/story/5612/9637861?from=edn_subcatelist_cate",
+      "summary": "UMC (2303) is expanding its advanced packaging portfolio beyond silicon interposers into Through Glass Via (TGV) next-generation packaging technology, driven by accelerating AI chip packaging demands. UMC's focus within TGV is on critical post-via integration processes including Front-side RDL (redistribution layer), Temporary Bonding, Grinding, CMP, and glass carrier handling — the manufacturing steps that determine final packaging yield and reliability. Industry analysts note that glass substrates offer superior low signal loss, high flatness, and dimensional stability versus traditional silicon interposers, making them well-suited for high-frequency, high-speed AI GPU, HBM, and large-scale HPC packaging applications. Successful completion of UMC's TGV process roadmap would represent a meaningful competitive differentiation, positioning the company as a vertically capable advanced packaging partner for next-generation AI chip architectures. This development complements the AI order momentum reported separately and reinforces UMC's strategic pivot toward higher-value packaging services.\n\n---"
+    },
+    {
+      "title": "[Quanta and Wistron Recruit Quantum Computing Talent — Taiwan's Electronic ODM Giants Accelerate R&D Push]",
+      "section": "金融",
+      "date": "2026/07/19 21:56:54",
+      "url": "https://money.udn.com/money/story/11162/9637763?from=edn_subcatelist_cate",
+      "summary": "Quanta Computer (2382) and Wistron (3231), two of Taiwan's largest ODM manufacturers, have begun recruiting quantum computing engineers, signaling a transition from exploratory interest to active R&D investment. Wistron's recruitment scope is particularly broad — spanning chip packaging and testing, cryogenic platform operations, microwave controller design, and software-hardware integration — with no headcount cap set. Wistron Chairman Simon Lin confirmed the company plans to purchase a 32-qubit superconducting quantum machine for integration testing with AI servers, and is open to pursuing quantum system OEM manufacturing opportunities from companies like IBM. This development is strategically aligned with both firms' existing AI server buildout, suggesting quantum computing is being treated as a next-generation infrastructure adjacency. While near-term revenue impact is minimal, investors should monitor Wistron and Quanta for capital allocation shifts and potential partnerships with leading quantum hardware vendors."
+    },
+    {
+      "title": "[Taiwan Stock Market Margin Finance Maintenance Ratio Still in Safe Zone — Analysts: Talk of Mass Margin Calls Is Premature]",
+      "section": "證券",
+      "date": "2026/07/20",
+      "url": "https://money.udn.com/money/story/5607/9637886?from=edn_maintab_cate",
+      "summary": "Following the Taiwan Stock Exchange's sharp 2,953-point single-day drop last Friday (July 17), market participants have been closely watching margin finance balances as a potential systemic risk. Despite a single-day decline of NT$27.61 billion in margin balances, analysts caution against alarm: the overall margin maintenance ratio is estimated at approximately 147–148%, still well above the 130% forced liquidation threshold. Total margin balance remains elevated at approximately NT$587.9 billion. Analysts note that most of Friday's margin reduction was voluntary stop-loss selling, with forced liquidations occurring in only 28 stocks. Investors are advised to remain risk-aware and consider reducing leverage, but systemic forced-selling pressure is not yet a near-term threat. **Relevance:** Key market stability indicator for fund managers monitoring Taiwan equity positioning and leverage risk."
+    },
+    {
+      "title": "[TSMC Responds to Japanese WF₆ Supply Disruption Concerns: No Operational Impact Expected]",
+      "section": "金融",
+      "date": "2026/07/20",
+      "url": "https://money.udn.com/money/story/5612/9638954?from=edn_subcatelist_cate",
+      "summary": "Market rumors circulated that Central Glass, a Japanese specialty gas supplier to major semiconductor manufacturers including TSMC, would halt global production of high-purity tungsten hexafluoride (WF₆) — a critical process gas — due to raw material shortages from China. TSMC's public relations office formally responded, stating that the company continuously develops multi-source supply solutions and maintains a diversified global supplier base, adding that it does not currently expect any operational impact. Supply chain sources indicate U.S. alternative sources are available, limiting disruption risk. **Relevance:** Reassuring for TSMC investors; confirms supply chain resilience strategy, though the episode highlights ongoing China-sourced materials vulnerability for the broader semiconductor sector."
+    },
+    {
+      "title": "Silicon Photonics Unicorns Ayar Labs and Lightmatter Accelerate Ecosystem Build-Out — TSMC and MediaTek Among Strategic Backers",
+      "section": "金融",
+      "date": "2026/07/20 16:52:13",
+      "url": "https://money.udn.com/money/story/11162/9639467?from=edn_subcatelist_cate",
+      "summary": "A DIGITIMES report highlights the growing influence of two silicon photonics unicorns — Ayar Labs and Lightmatter — on AI data center hardware supply chains. Ayar Labs has secured backing from AMD, Intel, NVIDIA, **TSMC**, and **MediaTek**, among others, and has developed the TeraPHY optical chiplet and SuperNova external laser module. Lightmatter, backed by Google Ventures across multiple rounds, has developed the Passage series using 3D packaging and photonic interposer technology. Combined, the two firms have attracted over USD 8.1 billion in cumulative investment. For fund managers tracking TSMC and MediaTek, this is a notable strategic alignment: both companies are positioning themselves in the optical interconnect ecosystem that is expected to become critical for next-generation AI accelerator infrastructure. The chiplet and heterogeneous integration architectures involved closely intersect with TSMC's advanced packaging roadmap (CoWoS, SoIC), suggesting potential incremental foundry and packaging revenue opportunities over the medium term.\n\n---"
+    },
+    {
+      "title": "Middle East Ceasefire Hopes Spark Taiwan Index Futures Night Session Surge of Nearly 1,000 Points",
+      "section": "產經",
+      "date": "2026/07/20 21:05:34",
+      "url": "https://money.udn.com/money/story/11112/9639942",
+      "summary": "Taiwan index futures (TAIEX futures) surged as much as 930 points in the night session on July 20, briefly reaching 43,592 points, as reports emerged that mediators had proposed a 10-day halt to US-Iran military actions. TSMC (2330) futures rose approximately NT$39 to NT$2,368 in the session. However, gains partially reversed after Houthi forces announced a naval blockade of Saudi Arabia, causing oil prices to rebound and tempering risk appetite. Electronics futures rose 2.19% and semiconductor futures gained 1.86%. **Market Implication:** Geopolitical volatility in the Middle East remains a key swing factor for Taiwan equities. TSMC and semiconductor names are showing sensitivity to global risk-on/risk-off flows; investors should monitor oil price trajectories and ceasefire developments closely heading into the regular session."
+    },
+    {
+      "title": "US-Iran Tensions Ease on Negotiation Signals; Oil Prices Reverse Intraday Gains",
+      "section": "產經",
+      "date": "2026/07/20 17:51:20",
+      "url": "https://money.udn.com/money/story/5599/9639600",
+      "summary": "Iran's Foreign Ministry confirmed receipt of a mediator proposal for negotiations with the US, causing Brent crude to pull back from an intraday high of $91.42/barrel (a six-week peak) to below $88/barrel. WTI futures declined 0.61% to $81.99/barrel. Earlier gains had been driven by weekend escalation, including a strike on a Kuwaiti oil facility and attacks on vessels in the Strait of Hormuz. Iran's Revolutionary Guard maintained a hardline posture. **Market Implication:** Oil price volatility stemming from Middle East tensions has direct implications for Taiwan's energy-import-dependent economy and inflation outlook, which in turn affects CBC monetary policy considerations and insurers' liability costs."
+    },
+    {
+      "title": "U.S. to Impose 50% Tariffs on Select Canadian Goods, Effective in 30 Days",
+      "section": "產經",
+      "date": "2026/07/21 06:36:25",
+      "url": "https://money.udn.com/money/story/5599/9640360",
+      "summary": "President Trump signed three proclamations imposing 50% tariffs on select Canadian goods — including wine, hockey sticks, and cement — invoking Section 338 of the Tariff Act of 1930, citing alleged discriminatory treatment of US autos, alcohol, and dairy. Energy, potash, and goods under existing sector-specific tariffs are exempt, though some USMCA-qualifying Canadian goods will be covered. **Market Implication:** While Canada-US trade tensions have limited direct impact on Taiwan-listed companies, escalating global protectionism reinforces supply chain uncertainty and could weigh on global growth expectations, indirectly affecting export-oriented Taiwan manufacturers and risk sentiment."
+    },
+    {
+      "title": "U.S. Equities Mostly Lower as Middle East Tensions Weigh; Philadelphia Semiconductor Index Outperforms",
+      "section": "產經",
+      "date": "2026/07/21 06:30:25",
+      "url": "https://money.udn.com/money/story/5599/9640356",
+      "summary": "US equities closed mostly lower on July 20 as escalating US-Iran tensions pushed oil prices higher and dampened risk appetite. The Dow Jones fell 307 points (-0.59%) to 51,839; the S&P 500 dipped 0.19% to 7,443; the Nasdaq edged down 0.05% to 25,508. Notably, the Philadelphia Semiconductor Index bucked the trend, rising 0.60% to 11,743, signaling continued resilience in chip-related names. **Market Implication:** The SOX's outperformance is a constructive signal for TSMC and Taiwan's semiconductor sector heading into Monday's open. However, broader market caution warrants monitoring of risk-off flows into Taiwan equities."
+    },
+    {
+      "title": "Hon Hai (Foxconn) Shows Technical Stabilization — Warrants Strategy Suggested Within 5% Moneyness Band",
+      "section": "證券",
+      "date": "2026/07/21 01:40:35",
+      "url": "https://money.udn.com/money/story/5739/9639936?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317) appears to be finding technical support near its 26-week moving average after leading the broader market lower since early June. Technical indicators are constructive: the MACD histogram is narrowing (declining bearish momentum) and the KD indicator has generated a bullish crossover from oversold levels. The stock closed higher on July 20, outperforming the broader market. Fundamentally, Hon Hai maintains over 40% market share in AI server rack assembly, benefits from vertical integration covering ~50% of components, and is the exclusive manufacturer for Apple's upcoming foldable iPhone. Analysts expect Vera Rubin shipments and higher ASIC content to drive H2 earnings visibility. For fund managers, Hon Hai represents a key AI infrastructure and consumer electronics proxy within the Taiwan large-cap space, and its technical stabilization — if confirmed — may signal broader market sentiment improvement.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "1. **TV Panel Prices Decline — AUO and Innolux Face Short-Term Price Correction Challenges** (2026/07/21 00:56:10) — Panel pricing/display sector; not within covered universe.",
+    "2. **TV Panel Prices Fall, But Monitor and Laptop Products Remain Supported** (2026/07/21 00:54:32) — IT panel pricing dynamics; not within covered universe.",
+    "3. **BoholCloud Joins OpenAI Partner Network to Accelerate Enterprise Generative AI Adoption** (2026/07/20 16:57:49) — Cloud solutions/AI services (ticker 6997); not within covered universe.",
+    "4. **Shih Shuo: AI Water-Cooling Components Begin Mass Production in July, Targeting Humanoid Robot Applications** (2026/07/20 16:02:02) — Precision metal manufacturing; not within covered universe.",
+    "*All five articles were assessed as relevant to Taiwan listed companies, major macro themes (geopolitics, oil, tariffs), or the semiconductor supply chain tracked by the fund. No articles were categorized as entirely irrelevant.*",
+    "*No articles classified as not relevant — the single article covers major Taiwan listed companies (TSMC, MediaTek, Hon Hai) and is directly within scope.*"
+  ]
+}
