@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-26",
+  "update_time": "2026-07-26 06:05:00",
+  "total_articles": 12,
+  "high": [
+    {
+      "title": "TSMC Raises Capital Expenditure Guidance; Analysts Bullish on 6 Facility Engineering Stocks with Further Upside",
+      "section": "證券 (Securities)",
+      "date": "2026/07/25 12:20:21",
+      "url": "https://money.udn.com/money/story/5607/9650405?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) raised its 2026 capital expenditure guidance to USD 60–64 billion at its latest earnings call, and separately announced an additional USD 100 billion investment to build four new fabs in the United States, alongside plans to construct 13 advanced process and advanced packaging facilities in Taiwan over the coming years. Total capex from 2026–2028 is projected to exceed USD 200 billion. Micron also revised upward its capex forecasts for 2026 and 2027 to USD 27 billion and USD 40 billion respectively, reinforcing that the global semiconductor fab buildout shows no signs of slowing. Advanced packaging demand driven by AI is accelerating outsourcing to OSATs including ASE (3711), KYEC (2449), and others. Institutional investors are bullish on facility engineering contractors — Hung Tang (2404), Asia Vital (6139), Yankee Engineering (6691), Sengi (5536), Farsoon (6196), Zhao Lian (6944), and Pong Yi (6613) — citing significant remaining upside. **Market implication:** TSMC's upward revision signals sustained AI-driven capex supercycle; positive read-through for the entire semiconductor supply chain, equipment, and facility engineering sectors. Fund managers should monitor downstream capex beneficiaries and OSAT players as re-rating candidates.\n\n---"
+    }
+  ],
+  "medium": [
+    {
+      "title": "[OCP Asia-Pacific Summit Next Month: Major AI Companies to Showcase New Products]",
+      "section": "金融",
+      "date": "2026/07/26",
+      "url": "https://money.udn.com/money/story/5612/9651145?from=edn_maintab_cate",
+      "summary": "The 2026 OCP (Open Compute Project) Asia-Pacific Summit is scheduled for August 11–12 in Taiwan, marking the second consecutive year the event is held on the island — underscoring Taiwan's position as a critical global AI infrastructure hub. Key Taiwan-listed participants include TSMC (2330), Hon Hai/Foxconn (2317), Quanta (2382), Wistron (3231), Wiwynn (6669), Accton (2345), and Inventec (2356), alongside global players such as NVIDIA, Google, Microsoft, AMD, Broadcom, and Intel. The summit will focus on AI cluster computing, advanced packaging, thermal management, open data center power architecture, and optical networking. For fund managers, this event serves as a near-term catalyst and visibility event for Taiwan's AI supply chain names. Participation breadth across ODMs, networking, and semiconductor packaging players reinforces sustained capex momentum in AI data center infrastructure heading into 2H 2026, supporting earnings visibility for the above-listed companies."
+    },
+    {
+      "title": "[AMD CEO Lisa Su's $2 Trillion AI Market Forecast — More Optimistic Than Before]",
+      "section": "金融",
+      "date": "2026/07/25",
+      "url": "https://money.udn.com/money/story/5612/9649661?from=edn_maintab_cate",
+      "summary": "At AMD's annual \"Advancing AI 2026\" event in San Francisco, Chair and CEO Lisa Su raised the company's outlook for global AI accelerator and server CPU markets significantly. She now projects the AI accelerator total addressable market (TAM) will reach approximately $1.4 trillion by 2030, with server CPUs adding another $220 billion — bringing AMD's combined addressable opportunity to nearly $2 trillion. Su highlighted that AI inference workloads are expected to surpass training workloads for the first time in 2026, with roughly 60% of AI compute shifting to inference, driven by agentic AI applications. This is relevant to Taiwan-listed companies as AMD is a key customer for TSMC's advanced nodes (AI accelerator chips) and benefits ODM/server partners across the supply chain. An increasingly bullish AI demand outlook from a major fabless customer supports continued high utilization at TSMC and positive order momentum for downstream Taiwan AI server and component suppliers."
+    },
+    {
+      "title": "[AI Infrastructure Spending Surge: North American CSP Capex to Rise ~90% YoY; Taiwan Server Makers Accelerate Expansion]",
+      "section": "金融",
+      "date": "2026/07/25",
+      "url": "https://money.udn.com/money/story/11162/9649421?from=edn_subcatelist_cate",
+      "summary": "North America's five largest cloud service providers (Google/Alphabet, AWS, Meta, Microsoft, Oracle) are projected to collectively spend nearly USD 900 billion on AI infrastructure in 2026, representing a ~90% year-on-year increase, according to TrendForce analyst Kung Ming-te. Alphabet's Q2 results highlighted the trend: cloud revenue grew 82% YoY to a record high, but full-year capex guidance was revised up to USD 195–205 billion, pushing quarterly free cash flow into negative territory for the first time (–USD 5.9 billion). Despite investor concerns about return on investment, the AI arms race shows no signs of abating. Major Taiwan ODM/EMS beneficiaries — including Hon Hai (鴻海), Quanta, and Wistron — are reported to have order visibility extending into 2027 and are accelerating capacity expansion in North America. For fund managers, this reinforces a constructive medium-term outlook for Taiwan's AI supply chain, though near-term margin pressure from rapid capex deployment and geopolitical-driven localisation costs warrants monitoring."
+    },
+    {
+      "title": "[AI Key Components Accelerate U.S. Manufacturing: Chenbro and King Slide U.S. Plants Come Online]",
+      "section": "金融",
+      "date": "2026/07/26",
+      "url": "https://money.udn.com/money/story/11162/9649999?from=edn_subcatelist_cate",
+      "summary": "King Slide (川湖, 2059) and Chenbro Micom (勤誠, 8210), two key AI server component suppliers, are both ramping U.S. manufacturing capacity. King Slide's Houston facility is scheduled to begin mass production in Q3 2026, which management identifies as the primary earnings growth driver for H2. King Slide reported H1 2026 revenue of TWD 16.279 billion, nearly doubling YoY, with monthly revenue breaking successive records in Q2 (TWD 20B → 30B → 40B). Chenbro's U.S. NCT (new product introduction and prototyping) facility in North America was commissioned in March 2026. The strategic rationale for both companies is geopolitical risk mitigation — major hyperscaler customers require local supply. This is relevant for investors tracking Taiwan's AI hardware ecosystem, as U.S. localisation capacity is increasingly a prerequisite for sustained large-customer relationships."
+    },
+    {
+      "title": "\"Lightning Ex-Dividend Fillers\" Show Strong Momentum — Largan, FPCC Among Stocks Delivering Both Dividend and Capital Gains",
+      "section": "證券 (Securities)",
+      "date": "2026/07/26 01:42:03",
+      "url": "https://money.udn.com/money/story/5607/9651110?from=edn_maintab_cate",
+      "summary": "Taiwan equities continue to benefit from robust AI demand, driving consistent upward earnings revisions. Among Taiwan 50 constituents, 38 stocks have already gone ex-dividend as of July 24, with 11 — including TSMC, MediaTek, UMC, and Yageo — completing ex-dividend fill within a single trading day. Largan Precision (3008), Formosa Petrochemical (6505), and Winbond (2344) surged more than 60% post-ex-dividend, rewarding shareholders with both income and capital appreciation. Institutional analysts from KGI and Capital Securities revised Taiwan's 2026 aggregate corporate earnings growth forecast upward from approximately 40% to nearly 50%, with further 20%+ growth expected in 2027, citing the ongoing AI industry expansion cycle. Domestic funds — including company insiders, high-net-worth investors, and retail ETF subscribers — have offset persistent foreign investor selling pressure. **Market implication:** Strong ex-dividend fill rates reflect healthy domestic liquidity and earnings confidence; relevant for dividend strategy funds and ETF flow monitoring.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "*No articles were fully irrelevant — both articles reference TSMC and/or other major Taiwan listed companies (MediaTek, Largan, Hon Hai supply chain context) which fall within the defined relevant topics.*"
+  ]
+}
