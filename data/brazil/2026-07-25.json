@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-25",
+  "update_time": "2026-07-25 09:01:59",
+  "total_articles": 4,
+  "high": [
+    {
+      "title": "Market Digests Trump's New Tariffs; Ibovespa Falls in Dollar Terms on Friday (24)",
+      "section": "MoneyTimes",
+      "date": "2026-07-24",
+      "url": "https://www.moneytimes.com.br/mercado-digere-as-novas-tarifas-de-trump-ibovespa-em-dolar-cai-hoje-24/",
+      "summary": "Global markets are absorbing the impact of new U.S. tariffs that came into effect Thursday for products from 60 countries, including Brazil. The new rates range between 10% and 12.5%, replacing the temporary global 10% tariff that expired Friday, July 24. According to the U.S. Trade Representative's Office (USTR), the measures stem from investigations concluding that targeted countries engaged in unfair trade practices related to forced labor. For Brazil specifically, this represents a meaningful escalation in trade friction. The Ibovespa's decline measured in USD terms reflects the combined pressure of equity weakness and currency dynamics. Fund managers should closely monitor how Brazilian exporters — particularly those with significant U.S. exposure — reprice risk. Any further tariff escalation could weigh on trade balance expectations, suppress BRL, and increase volatility in Brazilian assets. Watch for BCB commentary on whether external trade shocks could alter the monetary policy trajectory."
+    },
+    {
+      "title": "Ibovespa Retreats Over 1% on Oil Price Relief; Dollar Posts Slight Decline to R$5.08",
+      "section": "MoneyTimes",
+      "date": "2026-07-25",
+      "url": "https://www.moneytimes.com.br/ibovespa-24-7-26-lils/",
+      "summary": "The Ibovespa dropped 1.52% on Friday, July 24, closing at 174,041.95 points, marking its second consecutive sharp decline — driven primarily by a retreat in oil prices, which pressured Petrobras and energy-linked equities. Despite the daily loss, the index managed a modest weekly gain of +0.19%. The USD/BRL spot rate ended Friday at R$5.0809, down 0.06% on the day and down 0.59% for the week — a sign of relative BRL resilience despite the hostile tariff backdrop. Investors were reacting to the new U.S. tariff regime applied to Brazilian goods, adding uncertainty to the growth and earnings outlook. The BRL's weekly appreciation suggests markets may be partially pricing in a still-hawkish Selic environment as a support factor. Key variables to monitor: oil price trajectory (critical for Petrobras and fiscal revenues), further U.S. tariff developments, and any BCB communication on external risks. A sustained BRL above R$5.10 could renew concerns about imported inflation and complicate the COPOM's path toward eventual easing."
+    }
+  ],
+  "medium": [
+    {
+      "title": "23.1% of Brazilian Exports to the U.S. Are Subject to New Tariffs, Says Ministry",
+      "section": "MoneyTimes",
+      "date": "2026-07-25",
+      "url": "https://www.moneytimes.com.br/231-das-exportacoes-brasileiras-aos-eua-estao-sujeitas-a-novas-tarifas-diz-ministerio/",
+      "summary": "Brazil's Ministry of Development, Industry, Commerce and Services (MDIC) confirmed on Friday that the combined new U.S. tariffs announced in July now cover 23.1% of Brazilian exports to the United States, while 52.7% of Brazilian exports remain unaffected by additional sectoral or country-specific tariffs. The ministry broke down the affected percentage across different product categories, signaling a targeted but meaningful hit to Brazil's export revenue from its key trading partner. For bond and FX markets, this is relevant because deteriorating trade dynamics could weigh on the current account balance and reduce USD inflows from trade, adding mild depreciation pressure on the BRL over time. Equity investors should assess sector-specific exposure — particularly industrials and commodities. Watch for any government retaliatory measures or bilateral negotiations that could shift this picture."
+    },
+    {
+      "title": "Ibovespa Weekly Recap: Hapvida (HAPV3) Plunges 13%, CSN Mineração (CMIN3) Leads Gains",
+      "section": "MoneyTimes",
+      "date": "2026-07-25",
+      "url": "https://www.moneytimes.com.br/ibovespa-destaques-na-semana-30-lils/",
+      "summary": "The Ibovespa closed the week with a marginal gain of 0.19% at 174,041.95 points, supported by blue-chip stocks amid escalating trade and geopolitical tensions. The USD/BRL ended the week at R$5.0809, reflecting a 0.59% weekly BRL appreciation. The week was dominated by Trump's double tariff escalation on Brazil — including a 25% tariff that entered force on Wednesday — creating significant headwinds for Brazilian equities in USD terms. The divergence between index-level resilience and sharp individual stock moves (e.g., HAPV3 -13%) highlights sector-specific stress rather than broad market breakdown. BRL strength despite tariff noise may reflect carry trade support from elevated Selic rates, which remains a key pillar for currency stability in the near term."
+    }
+  ],
+  "not_relevant": []
+}
