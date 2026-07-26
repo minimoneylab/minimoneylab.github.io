@@ -1,0 +1,41 @@
+{
+  "date": "2026-07-26",
+  "update_time": "2026-07-26 09:02:17",
+  "total_articles": 4,
+  "high": [
+    {
+      "title": "Analysis: Now That the World Cup Is Over, the Election Enters the Market's Calculus",
+      "section": "MoneyTimes",
+      "date": "2026-07-26",
+      "url": "https://www.moneytimes.com.br/analise-agora-que-a-copa-acabou-a-eleicao-entra-na-conta-do-mercado/",
+      "summary": "The article marks a pivotal inflection point in Brazilian market dynamics: with the FIFA World Cup concluded, investor attention is now decisively shifting toward the 2026 presidential election. The analysis argues this is not merely a change of topic — the election is transitioning from a vague tail risk to a concrete, priceable event, with candidates, alliances, and platforms beginning to crystallize. The electoral calendar is cited as a key driver of this phase shift, as registration and coalition-building deadlines approach between late July and August.\n\nFor BRL and fixed income traders, this is highly significant. Brazilian elections historically inject substantial volatility into the Real and long-end government bond yields (NTN-Bs), as markets price fiscal policy uncertainty and potential shifts in BCB independence. Investors should begin monitoring polling data, candidate positioning on fiscal responsibility, and any rhetoric around the Selic rate or spending frameworks. A candidate perceived as fiscally loose could widen the BRL risk premium meaningfully. **Watch for:** pre-election fiscal populism signals, DI futures curve steepening at the long end, and increased BRL implied volatility."
+    },
+    {
+      "title": "Ibovespa Weekly Wrap: Hapvida (HAPV3) Plunges 13%, CSN Mineração (CMIN3) Leads Gains; Ibovespa Posts Marginal Weekly Gain",
+      "section": "MoneyTimes",
+      "date": "2026-07-25",
+      "url": "https://www.moneytimes.com.br/ibovespa-destaques-na-semana-30-lils/",
+      "summary": "The Ibovespa closed the week with a modest gain of +0.19%, ending at 174,041.95 points, supported by blue-chip names despite escalating trade and geopolitical tensions. The BRL/USD spot rate finished at R$5.0809, appreciating 0.59% over the week — a notable show of relative resilience. The dominant macro theme was Trump's double tariff shock on Brazil: a 25% tariff regime entered into force on Wednesday (July 22nd), concentrating investor attention on the trade exposure and potential pass-through to Brazilian exporters and corporate earnings.\n\nFor FX traders, the BRL's weekly appreciation despite a hostile tariff backdrop is meaningful — it suggests that either the tariff impact was already partially priced in, or that domestic flows and global risk appetite provided an offsetting bid. Bond investors should note that tariff-driven export compression could weigh on Brazil's trade surplus, a key BRL support pillar. **Watch for:** further tariff escalation, Petrobras and Vale earnings sensitivity to commodity price shifts, and any BCB commentary on FX pass-through to inflation."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Ibovespa Falls Over 1% as Oil Prices Ease; Dollar Edges Down to R$5.08",
+      "section": "MoneyTimes",
+      "date": "2026-07-25",
+      "url": "https://www.moneytimes.com.br/ibovespa-24-7-26-lils/",
+      "summary": "The Ibovespa dropped 1.52% on Friday July 25th to close at 174,041.95 points — its second consecutive sharp decline — dragged lower by a pullback in global oil prices that pressured Petrobras shares, a heavyweight in the index. The USD/BRL spot rate finished marginally lower at R$5.0809 (-0.06% on the day), with a net weekly gain for BRL of 0.59%. The session was also shaped by investor reaction to the newly enacted U.S. tariffs on Brazilian goods. For equity traders, oil price direction remains a critical swing factor for Ibovespa performance given Petrobras's index weight; any sustained oil weakness would amplify downside pressure. The resilience of BRL on a down-equity day is worth noting as a mild positive divergence signal for FX positioning."
+    },
+    {
+      "title": "23.1% of Brazilian Exports to the U.S. Subject to New Tariffs, Says Ministry",
+      "section": "MoneyTimes",
+      "date": "2026-07-25",
+      "url": "https://www.moneytimes.com.br/231-das-exportacoes-brasileiras-aos-eua-estao-sujeitas-a-novas-tarifas-diz-ministerio/",
+      "summary": "Brazil's Ministry of Development, Industry, Commerce and Services (MDIC) disclosed that the combined new U.S. tariffs announced in July affect 23.1% of total Brazilian exports to the United States, while 52.7% of exports remain free of additional sectoral or specific tariffs. The ministry broke down the affected 23.1% across specific sectors, signaling a targeted but material impact on Brazilian trade flows. While the majority of exports are shielded, the affected portion is large enough to put modest downward pressure on Brazil's trade surplus over coming quarters, which in turn has implications for BRL support through the current account channel. Fund managers should monitor which specific commodity and manufactured goods sectors are most exposed, as these could see earnings revisions and sector rotation on B3."
+    }
+  ],
+  "not_relevant": [
+    "1. **Houthis Attack Saudi Oil Facilities** — Geopolitical/energy story focused on Yemen-Saudi conflict and U.S. airstrike policy; no direct Brazil macro angle.",
+    "2. **The Biggest Mistake the Market Makes When Assessing Agribusiness Risk, According to Agrolend** — Niche agri-fintech/credit risk piece about a startup lender; not relevant to BRL, Selic, Ibovespa, or macro policy."
+  ]
+}
