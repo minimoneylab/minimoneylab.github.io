@@ -1,0 +1,203 @@
+{
+  "date": "2026-07-30",
+  "update_time": "2026-07-30 06:08:48",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "TSMC Kumamoto Earthquake Impact Limited — Ministry of Economy: Taiwan-Invested Factories Temporarily Unaffected",
+      "section": "金融",
+      "date": "2026/07/29",
+      "url": "https://money.udn.com/money/story/5612/9656859?from=edn_maintab_cate",
+      "summary": "A magnitude 7.1 earthquake struck Kumamoto, Japan on July 28. TSMC's JASM fab immediately evacuated personnel as a precaution; by evening, staff had begun returning to production lines, with detailed damage assessments ongoing. JASM's under-construction second fab site was unaffected, though some construction work was temporarily halted for safety reasons. Taiwan's Ministry of Economic Affairs confirmed that other Taiwan-invested firms in Kumamoto (including Advantech, Delta Electronics, and others) reported no personnel injuries and no operational disruptions.\n\n**Market implications:** Institutional investors assess the impact as limited. JASM Plant 1 runs mature nodes (28/22/16/12nm) with monthly capacity of ~20,000 wafers, representing only ~2.6% of TSMC's total capacity and roughly 1% of projected 2026 revenues. However, TSMC's ADR fell approximately 3.8% in early U.S. trading on Tuesday, suggesting some near-term sentiment overhang. Investors should monitor the pace of return-to-line operations and any follow-on aftershocks that could extend downtime. The incident underscores geopolitical and natural disaster concentration risk in TSMC's overseas expansion strategy, though the financial materiality at current production scale remains low."
+    },
+    {
+      "title": "AI Server ODM Makers Invest Heavily in Capacity Expansion — Quanta Acquires AUO Taoyuan Fab for NT$19.7 Billion",
+      "section": "金融",
+      "date": "2026/07/29",
+      "url": "https://money.udn.com/money/story/5612/9656856?from=edn_maintab_cate",
+      "summary": "Three major AI server ODM manufacturers are aggressively expanding production capacity. Quanta Computer (2382) announced the acquisition of AUO's (2409) Taoyuan Huaya Science Park facility for NT$19.7 billion, gaining approximately 19,700 ping of land and 49,300 ping of building area for new AI server production lines. AUO simultaneously disclosed a disposal gain of NT$13.39 billion, boosting non-operating income as it pivots toward an asset-light business model. Wiwynn (Wistron subsidiary) acquired new California real estate for USD$121 million (~NT$3.92 billion), while Inventec (2356) plans new facilities in Taoyuan and Thailand and additional factory acquisitions in Texas, with total investment reaching NT$18.13 billion.\n\n**Market implications:** The scale and simultaneity of these capital deployments signal strong conviction among ODM players that AI server demand will sustain multi-year growth. For investors, Quanta's transaction is notable as the Huaya site was originally part of Quanta's spin-off panel business (Quanta Display) before merging into AUO in 2006 — the asset is effectively returning to its origin. AUO's asset-light pivot, mirroring Innolux's strategy of selling fabs to TSMC, ASE, and others, represents a structural shift in Taiwan's display industry. The NT$13.39 billion disposal gain is a meaningful one-time earnings boost for AUO shareholders."
+    },
+    {
+      "title": "TSMC: JASM Personnel and Facilities Confirmed Safe, Gradually Resuming Operations After Kumamoto Earthquake",
+      "section": "金融",
+      "date": "2026/07/28 21:33:08",
+      "url": "https://money.udn.com/money/story/11162/9656713?from=edn_subcatelist_cate",
+      "summary": "A magnitude 7.1 earthquake struck Kumamoto, Japan at approximately 4:27 PM local time on July 28, with a maximum seismic intensity of 7 and a shallow focal depth of 10 km. TSMC's JASM fab in Kumamoto recorded a maximum seismic intensity of 5 at the site. TSMC activated internal safety protocols immediately, evacuating all personnel as a precautionary measure. As of the evening update, all JASM personnel have been confirmed safe, and post-earthquake structural damage inspections have cleared all buildings as structurally sound, with operations gradually resuming. Detailed inspections and impact assessments remain ongoing. The JASM construction site was unaffected, though some construction work has been temporarily suspended due to the risk of aftershocks."
+    },
+    {
+      "title": "Taiwan Stock Market Crashes 2,030 Points — Global Chip Selloff Triggers Third-Largest Single-Day Drop in History",
+      "section": "證券",
+      "date": "2026/07/29 01:39:47",
+      "url": "https://money.udn.com/money/story/5607/9656870?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market suffered a historic collapse on July 28, plunging 2,030 points (–4.65%) to close at 41,603 — the third-largest single-day point decline on record and the second-largest percentage drop in 2026. The index breached both the psychologically critical 42,000 level and the prior support low of 41,967, marking a new near-term bottom. The catalyst was market reports of a significant breakthrough by mainland Chinese semiconductor firms in DUV lithography technology, which triggered a sharp –2.2% decline in the Philadelphia Semiconductor Index and cascading selloffs across Asian markets (Korea –10.8%, Japan –3.8%). TSMC fell ¥70 to NT$2,280 (–2.9%), while MediaTek was limit-down at NT$3,315 (–9.9%). The FSC attempted to stabilize sentiment by citing solid fundamentals: YTD listed company revenues up 35.96% YoY to NT$30.49 trillion, with market P/E at 31.78x. Analysts warn further downside toward 40,000 is possible and identify three signals to watch for stabilization: TSMC and the index reclaiming their 5-day moving averages, no further expansion of foreign investor short positions in TAIEX futures, and continued reduction in margin loan balances. **Market Implication:** This is a high-conviction risk-off event driven by geopolitical-technology concerns. Fund managers should reassess semiconductor overweights and monitor margin call dynamics closely."
+    },
+    {
+      "title": "Semiconductor and Memory Stocks Lose NT$3 Trillion in Market Cap in a Single Session — TSMC, MediaTek, Nanya Tech Lead Declines",
+      "section": "證券",
+      "date": "2026/07/29 01:38:51",
+      "url": "https://money.udn.com/money/story/5607/9656926?from=edn_maintab_cate",
+      "summary": "The July 28 selloff inflicted catastrophic market cap destruction concentrated in Taiwan's semiconductor and memory sectors, with a combined NT$3 trillion wiped out in a single trading session. The \"semiconductor three giants\" — TSMC (–NT$1.81T), MediaTek (–NT$585.4B), and ASE Technology (–NT$241.4B) — collectively lost NT$2.63 trillion in market cap. The memory segment was equally decimated: Nanya Technology fell NT$43.5 to NT$392.5 (–NT$150B market cap loss), Winbond dropped NT$16 to NT$144 (–NT$72B), and Phison slid NT$170 to NT$1,650. Broader memory-related names including ADATA, Transcend, Elite Semiconductor, and Apacer also contributed to an additional NT$300B in losses across the segment. The scale of destruction underscores the systemic nature of the selloff rather than company-specific issues. **Market Implication:** The concentration of losses in high-beta semiconductor names suggests institutional forced selling and potential ETF rebalancing pressure. Investors should watch for stabilization in TSMC as a leading indicator for broader market recovery. Position sizing in semiconductor ETFs and leveraged products warrants immediate review."
+    },
+    {
+      "title": "Kumamoto Earthquake Disrupts TSMC JASM Operations — Company Issues Safety and Operational Update",
+      "section": "產經",
+      "date": "2026/07/28 21:11:14",
+      "url": "https://money.udn.com/money/story/5612/9656681",
+      "summary": "A significant earthquake struck Kumamoto, Japan on the afternoon of July 28, directly impacting TSMC's Japan Advanced Semiconductor Manufacturing (JASM) facility. TSMC confirmed to the press that JASM activated internal safety protocols immediately, evacuating all personnel as a precautionary measure. All staff have been confirmed safe, and post-earthquake structural inspections of the facility have been completed with no structural damage identified — production lines are in the process of gradually resuming. Detailed equipment and process impact assessments remain ongoing. Separately, the JASM construction site (for the second fab) was not affected by the earthquake itself, though some construction work has been temporarily suspended due to the risk of aftershocks. **Market Implication:** The event adds short-term operational uncertainty to TSMC's Japan capacity ramp at a moment when the stock is already under significant selling pressure from the broader chip selloff. The absence of structural damage is a positive signal, but investors should monitor for any updates on production line recovery timelines and equipment damage assessments, which could affect near-term capacity utilization guidance. Coming on top of the DUV-related market fears, this creates compounding headline risk for TSMC."
+    },
+    {
+      "title": "[Fed Decision / Full Text of July 29 Meeting Statement]",
+      "section": "金融 (Finance)",
+      "date": "2026/07/30 05:38:17",
+      "url": "https://money.udn.com/money/story/5599/9659532",
+      "summary": "The Federal Open Market Committee (FOMC) voted 9-3 to hold the federal funds rate target range at **3.50%–3.75%**, reaffirming its dual mandate commitment. The statement acknowledged continued solid economic expansion, strong productivity growth, and capital investment, while flagging that inflation **remains above the 2% target**, partly attributed to supply shocks driving up energy and select sector prices. Three dissenting governors — Hammack (Cleveland), Kashkari (Minneapolis), and Logan (Dallas) — pushed for a **25 bps rate hike**, signaling meaningful hawkish pressure within the Committee.\n\n**Market Implications for Taiwan:** A Fed on hold with hawkish dissent supports a stronger USD near-term, which may put **appreciation pressure on the TWD** and affect Taiwan life insurers' foreign asset valuations (hedging costs, unrealized FX gains/losses). The CBC will likely monitor this closely before any domestic policy adjustment. For Taiwan equities, the absence of a rate cut delays global liquidity easing — a mild headwind for rate-sensitive and growth-oriented names. Investors should watch whether the three dissenters build a majority in coming meetings."
+    },
+    {
+      "title": "[Quanta Computer Plans USD 2.2B Overseas Fundraising — Largest Taiwan Equity Issuance in Nearly 20 Years]",
+      "section": "金融 (Finance)",
+      "date": "2026/07/29 23:32:15",
+      "url": "https://money.udn.com/money/story/5612/9659237?from=edn_maintab_cate",
+      "summary": "Quanta Computer (2382) is planning to raise up to **USD 2.2 billion (approx. TWD 71.2 billion)** via a Global Depositary Share (GDS) issuance in Luxembourg — the **largest Taiwan equity offering since Philips sold USD 2.56B of TSMC ADRs in 2007**. Quanta plans to issue 49 million GDS (1 GDS = 5 ordinary shares) at USD 43.91–44.77 per share, representing a discount of approximately 6%–7.8% to the July 29 closing price of TWD 309.5. Citigroup and UBS are arranging the transaction. Proceeds are earmarked for **foreign-currency procurement of raw materials**, reflecting the surging cost of AI server components including GPUs and memory. The fundraising comes as Quanta accelerates capacity expansion globally to fulfill AI server demand.\n\n**Market Implications:** This landmark deal signals Quanta's aggressive push to secure supply chain dominance in the AI server buildout. The scale of the GDS issuance could create **short-term overhang on Quanta's share price** given the discount pricing and large share supply. However, long-term, the capital raise strengthens Quanta's balance sheet for procurement and facility expansion. Foreign institutional investors should note this as a potential **entry point** given the discounted GDS pricing. The deal also underscores broader Taiwan tech sector confidence in sustained AI-driven demand."
+    },
+    {
+      "title": "TSMC Kumamoto (JASM) Fab Requires Recalibration After Major 7.1 Earthquake; Operations Under Review",
+      "section": "金融",
+      "date": "2026/07/29 21:07:19",
+      "url": "https://money.udn.com/money/story/11162/9659090?from=edn_subcatelist_cate",
+      "summary": "A magnitude 7.1 earthquake struck Kumamoto, Japan on July 28, with TSMC's JASM fab recording a maximum seismic intensity of 5. TSMC immediately evacuated personnel (all confirmed safe) and completed post-earthquake structural inspections, confirming structural integrity. Water, power, and safety systems are reported as functioning normally. However, due to the significant magnitude of the quake, production equipment requires recalibration and adjustment, and TSMC has dispatched additional resources to support JASM operations. Raw material supply is currently unaffected. The JASM construction site — unaffected by the quake — resumed work today after safety confirmation. TSMC is conducting a comprehensive review of earthquake-related impacts and is in close communication with customers. **Market implications:** Near-term production disruption at JASM is likely, introducing potential supply uncertainty for customers sourcing from the Kumamoto facility. Investors should monitor TSMC's forthcoming guidance on the duration of recalibration and any client-facing impact on delivery schedules. This adds a near-term operational risk overhang to TSMC's Japan expansion narrative, though structural damage has been ruled out."
+    },
+    {
+      "title": "Delta Electronics (台達電) Posts Record H1 Profit of NT$45.7B; EPS NT$17.59 — Driven by AI Infrastructure Demand",
+      "section": "金融",
+      "date": "2026/07/29 23:37:47",
+      "url": "https://money.udn.com/money/story/5612/9659233?from=edn_maintab_cate",
+      "summary": "Delta Electronics (2308) reported record first-half 2026 results, with after-tax net profit surging 88.9% YoY to NT$45.691 billion and EPS of NT$17.59 — both all-time highs. H1 revenue reached NT$342.608 billion (+41% YoY), also a record. Q2 alone delivered revenue of NT$183.256 billion (+47.7% YoY, +15% QoQ), net profit of NT$25.135 billion (+80.2% YoY), and EPS of NT$9.68, all setting single-quarter records. H1 profits already represent over 70% of full-year 2025 earnings, signaling exceptional operating momentum. Key growth drivers include AI-driven demand for AC/DC power supplies and adoption of DC/DC power modules in next-generation ASIC server platforms by cloud service customers, with liquid cooling also maintaining a growth trajectory. An investor conference is scheduled for July 30. **Market implications:** Despite the strong fundamentals, Delta's stock fell over 5% on July 29, hitting its limit-down during intraday trading before partially recovering — reflecting broader Taiwan market weakness rather than company-specific deterioration. With H2 typically a seasonal peak, Delta remains a high-conviction AI infrastructure play. Fund managers should watch the investor day for forward guidance on margins and order visibility."
+    },
+    {
+      "title": "Fed Decision: Rates Held Steady, Three Regional Fed Presidents Dissent with Hawkish Votes — More Than Expected",
+      "section": "產經",
+      "date": "2026/07/30 02:37:53",
+      "url": "https://money.udn.com/money/story/5599/9659483",
+      "summary": "The U.S. Federal Reserve held the federal funds rate unchanged at 3.50%–3.75% at its July 29 FOMC meeting, in line with market expectations. However, three regional Federal Reserve Bank presidents — Beth Hammack (Cleveland), Neel Kashkari (Minneapolis), and Lorie Logan (Dallas) — dissented, each voting for a 25 bps rate hike. This exceeded Bloomberg's prior expectation of only two dissenters, signaling a more hawkish undercurrent within the committee than markets had priced in. The dissenters cited persistent inflation burdens on households, with price pressures attributed to both Trump administration tariffs and Iran conflict-driven energy cost increases. The post-meeting statement was nearly identical to the June statement, with only minor wording adjustments. Fed Chair Waller reaffirmed the commitment to bring inflation back to 2%, explicitly rejecting any notion of a relaxed inflation target. **Market implications**: The unexpectedly high number of hawkish dissenters reduces near-term rate cut expectations. For Taiwan life insurers with significant USD-denominated fixed income holdings, a prolonged high U.S. rate environment supports investment yields but also sustains foreign exchange hedging cost pressures. The flattening/bear-steepening signal (2Y yields -4bps, 30Y +4bps) warrants close monitoring for insurers' asset-liability management strategies."
+    },
+    {
+      "title": "Fed Decision: Waller Reaffirms 2% Inflation Target — Five Key Takeaways from FOMC",
+      "section": "產經",
+      "date": "2026/07/30 05:59:30",
+      "url": "https://money.udn.com/money/story/5599/9659536",
+      "summary": "The FOMC voted 9-3 to hold rates at 3.50%–3.75%, with Lorie Logan, Beth Hammack, and Neel Kashkari dissenting in favor of a 25 bps hike. The post-meeting statement noted inflation remains elevated, partly reflecting supply shocks driving up energy and specific sector prices, while affirming that economic activity continues to expand at a solid pace with strong productivity growth and capital investment. Fed Chair Waller was emphatic at the press conference, stating unequivocally: \"There is no relaxed inflation target, and there is no relaxed implied target — at least not under this committee.\" U.S. 2-year Treasury yields fell 4 bps to 4.24%, while 30-year yields rose 4 bps to 5.13%, reflecting a modest bear steepening. U.S. equities briefly turned positive during the press conference before reversing lower. **Market implications**: The hawkish tone from Waller combined with three dissents reinforces a \"higher for longer\" posture. Taiwan life insurers' USD bond portfolios face continued FX hedging cost headwinds, and the NTD/USD dynamic will remain sensitive to Fed trajectory. Fund managers should reassess duration positioning in light of the bear-steepening yield curve."
+    },
+    {
+      "title": "Taiwan Stock Market Plunges — National Team Intervenes as Index Briefly Breaks Below 40,000",
+      "section": "證券",
+      "date": "2026/07/30 01:53:59",
+      "url": "https://money.udn.com/money/story/5607/9659309?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market suffered its seventh-largest single-day point decline in history on July 29, with the TAIEX plunging as much as 2,200+ points intraday to 39,384 before recovering to close at 40,039 — down 1,564 points (-3.76%). The sharp selloff was characterized as a \"long-side capitulation\" (多殺多), with severe weakness in semiconductors, copper clad laminates, memory chips, and silicon wafers. Finance Minister Chuang Tsui-yun provided verbal support at the Legislative Yuan, affirming strong economic fundamentals (consecutive red signal lights on the business cycle indicator) and signaling close monitoring by the National Stabilization Fund. Following the minister's comments, the \"national team\" deployed: eight major state-owned banks bought a net NT$10.27 billion, investment trusts net bought NT$5.7 billion, while foreign investors net sold NT$22.25 billion and proprietary dealers net sold NT$18.59 billion — net institutional selling totaled NT$35.14 billion on NT$1.14 trillion total turnover. Key near-term catalysts to watch include: the Fed FOMC rate decision, earnings releases from Microsoft and Meta, and South Korea's tightened margin requirements on single-stock leveraged ETFs (effective July 31), which may extend cross-market volatility.\n\n**Market Implication:** Sustained foreign selling pressure alongside national team support creates a fragile stabilization dynamic. Investors should monitor whether FOMC tone shifts sentiment and whether Korea-linked contagion in memory stocks subsides."
+    },
+    {
+      "title": "Margin Call Wave Hits Taiwan Market — Combined Margin Balances Shrink NT$52.1 Billion in Single Day",
+      "section": "證券",
+      "date": "2026/07/30 01:15:09",
+      "url": "https://money.udn.com/money/story/5607/9659286?from=edn_maintab_cate",
+      "summary": "Following consecutive days of severe market declines, Taiwan's margin financing system came under significant stress on July 29. Listed-market margin balances fell NT$38.52 billion in a single session, while OTC-market balances dropped NT$13.58 billion — a combined single-day reduction of NT$52.1 billion, indicating forced liquidations and stop-loss exits at scale. Despite widespread market reports of margin calls being issued, the FSC's official data through July 28 showed the aggregate collateral maintenance ratio at 165.5%, with an estimated July 29 figure of approximately 159% — still comfortably above the 130% warning threshold. KGI Securities independently estimated listed-market maintenance ratio at 158% and OTC at approximately 150%. The FSC and Taiwan Stock Exchange emphasized that maintenance ratios are calculated on a consolidated household basis (including supplementary collateral), and that individual stock breaches of 130% do not automatically trigger forced liquidation at the account level. Unrestricted-purpose securities lending maintenance ratios remained elevated at ~250%.\n\n**Market Implication:** While systemic margin call risk appears contained by official metrics, the scale of single-day balance reduction signals genuine forced selling. A continued market decline could push ratios toward more critical levels, warranting close monitoring of OTC small/mid-cap names most vulnerable to cascade liquidations."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Amazon Expands Satellite Launch Program — Shengda Tech, Unimicron, Taiwan Electric, and Others Set to Receive New Orders",
+      "section": "金融",
+      "date": "2026/07/29",
+      "url": "https://money.udn.com/money/story/11162/9656863?from=edn_maintab_cate",
+      "summary": "Amazon has filed with the FCC to launch an additional 5,105 dedicated Direct-to-Device (D2D) satellites on top of its existing 3,232-satellite Kuiper broadband constellation, directly competing with SpaceX's Starlink Mobile. The D2D service will leverage spectrum acquired through Amazon's Globalstar purchase, enabling standard smartphones to connect directly to satellites without ground infrastructure. Taiwan supply chain beneficiaries identified by institutional investors include Shengda Tech (3491), Unimicron (2313), Taiwan Electric (2383), Yeh-Chiang (2367), and Wistron NeWeb (6285), covering high-frequency RF components, PCBs, copper-clad laminates, and thermal management. Commercial D2D launches are expected to begin in 2028, providing multi-year order visibility for these suppliers."
+    },
+    {
+      "title": "Air Cargo Enters Golden Profit Period — Market Enters \"High Rates, Low Cost\" Phase",
+      "section": "金融",
+      "date": "2026/07/29",
+      "url": "https://money.udn.com/money/story/10871/9656824?from=edn_maintab_cate",
+      "summary": "China Airlines (2610), EVA Air, and Starlux Airlines announced approximately 20% reductions in fuel surcharges effective August 1, following a pullback in international oil prices (long-haul Europe/U.S. rates drop from NT$62 to NT$49/kg; short-haul Asia from NT$21 to NT$17/kg). However, underlying market freight rates remain elevated driven by AI server shipments, HPC equipment, semiconductor tools, and the approaching electronics peak season. Taiwan-to-North America all-in rates currently stand at NT$320–350/kg, with spot market premiums of 30%+ above standard rates. Institutional investors expect the widening spread between lower fuel costs and firm base rates to significantly expand cargo margins for all three carriers in H2 2026."
+    },
+    {
+      "title": "Unimicron (3037) Significantly Raises 2026 Capital Expenditure to NT$53.7 Billion, Up Over 57%",
+      "section": "金融",
+      "date": "2026/07/28 22:02:05",
+      "url": "https://money.udn.com/money/story/11162/9656764?from=edn_subcatelist_cate",
+      "summary": "Unimicron Technology (3037), the leading IC substrate manufacturer, announced a board resolution to substantially revise its 2026 capital budget upward from approximately NT$34.0 billion to NT$53.7 billion — an increase of roughly NT$19.7 billion, or over 57%. The board also approved an additional NT$17.6 billion in long-lead-time equipment procurement orders, with planned investment of approximately NT$37.3 billion funded through internal cash and bank financing. The purpose cited is new fab construction and process capability upgrades in line with customer demand. Execution flexibility is preserved, with actual disbursements subject to project progress and payment terms."
+    },
+    {
+      "title": "ADATA Posts Record Q2 EPS of NT$32.39, H1 EPS NT$62.46 — Declares Interim Cash Dividend of NT$18 Per Share",
+      "section": "證券",
+      "date": "2026/07/29 02:02:53",
+      "url": "https://money.udn.com/money/story/11074/9656590?from=edn_maintab_cate",
+      "summary": "Memory module maker ADATA Technology (3260) reported a landmark Q2 2026, with net profit surpassing NT$10 billion for the first time at NT$10.4 billion — a new single-quarter record, up 9.1% QoQ and more than tenfold YoY — generating EPS of NT$32.39. H1 2026 net profit reached NT$19.94 billion (EPS NT$62.46), a 13x YoY increase that already exceeds the company's best-ever full-year earnings. Q2 revenues were NT$38.14 billion (+46.1% QoQ, +197.4% YoY), with gross margin at 42.1%. The board approved a first-ever interim semi-annual cash dividend of NT$18 per share. Management guided for continued profit growth in Q3, citing tightening memory supply driven by expanding global AI applications. **Market Implication:** ADATA's blowout results confirm the AI-driven memory supercycle thesis, though the stock's near-term price action will be dominated by the broader sector selloff. The interim dividend policy signals management confidence in earnings sustainability and may provide some downside support."
+    },
+    {
+      "title": "Taiwan Market Deleveraging — When Will the \"2x Leveraged ETF Surgery\" End?",
+      "section": "證券",
+      "date": "2026/07/28 18:32:45",
+      "url": "https://money.udn.com/money/story/5607/9656404?from=edn_maintab_cate",
+      "summary": "Moore Investment Advisory CIO Guo Zhe-rong issued a market commentary warning that the 2,030-point crash may represent only the beginning of a broader deleveraging cycle rather than a capitulation bottom. He notes that brokerages have already begun issuing margin call warnings, with forced liquidations likely triggering if the TAIEX falls a further ~400 points to approximately 41,250. He draws a parallel to South Korea, where the FSC mandated higher margin requirements for 2x leveraged ETFs on Samsung and SK Hynix through July 31, forcing liquidations that accelerated the selloff (Korea –10.8%). Technically, the analyst identifies a pattern of lower highs and lower lows with no near-term support level visible, and does not rule out a test of 40,000. **Market Implication:** The margin call cascade risk at ~41,250 is a concrete near-term trigger point that fund managers should monitor. If the TAIEX approaches that level, indiscriminate forced selling could temporarily disconnect prices from fundamentals, potentially creating tactical entry opportunities in quality names."
+    },
+    {
+      "title": "[Hon Hai and Wistron: Warrants Worth Watching Amid Market Volatility]",
+      "section": "證券 (Securities)",
+      "date": "2026/07/29 02:15:34",
+      "url": "https://money.udn.com/money/story/5739/9656619?from=edn_subcatelist_cate",
+      "summary": "Despite broad Taiwan equity market volatility driven by turbulence in US and Korean tech stocks, both **foreign investors and domestic investment trusts (投信)** have been simultaneously accumulating select names including **Hon Hai (2317)** and **Wistron (3231)**. Hon Hai's analyst day is scheduled for **August 12**, with earnings expected to beat consensus. Industrial Foxconn (工業富聯) reported 230% YoY revenue growth in AI servers for H1 2026, with H2 momentum expected to accelerate via GB-series shipments and Q4 VR product ramp. Hon Hai is also expanding US production capacity, which is projected to surpass Mexico by year-end — reducing geopolitical supply chain risk. The article frames these stocks as fundamentally sound candidates for leveraged warrant plays during market dips, though the core takeaway for fund managers is the **confirmed dual institutional accumulation** in AI supply chain leaders amid market weakness."
+    },
+    {
+      "title": "[UMC: No Signs of AI Demand Slowdown; Q3 Wafer Shipments Expected High Single-Digit Growth]",
+      "section": "金融 (Finance)",
+      "date": "2026/07/30 00:02:07",
+      "url": "https://money.udn.com/money/story/5612/9659228?from=edn_maintab_cate",
+      "summary": "United Microelectronics Corp. (UMC, 2303) held its investor conference on July 29, providing an upbeat H2 outlook. Q3 wafer shipments are expected to grow **high single digits QoQ**, with capacity utilization projected to exceed **90%** and gross margins holding at mid-30% levels. UMC raised its **2026 capex guidance from USD 1.5B to USD 2.0B** and announced dual expansion plans at its Singapore P4 fab and a new Tainan facility. CEO Jason Wang noted that AI demand is broadening beyond compute chips into memory interconnects and power management ICs, and that mature and specialty nodes are increasingly benefiting from AI-adjacent demand. The disciplined ASP and margin stance — rejecting market share gains at the cost of profitability — is a constructive signal for investors monitoring foundry pricing dynamics."
+    },
+    {
+      "title": "[Yageo: Market Demand \"Very, Very Strong\"; Some Customers Paying Premiums to Secure Supply]",
+      "section": "金融 (Finance)",
+      "date": "2026/07/30 01:17:41",
+      "url": "https://money.udn.com/money/story/5612/9659283?from=edn_maintab_cate",
+      "summary": "Passive components giant Yageo (2327) held its investor conference on July 29, describing market demand as **\"very, very strong\"** across AI servers, HPC, industrial, and automotive segments. AI now accounts for **16% of total revenue**, up from Q1. Notably, some customers are willing to pay **price premiums** and negotiate **long-term supply agreements (LTAs)** covering 6 months to multi-year horizons to secure component supply. Yageo also noted Q2 price adjustments to pass through rising raw material costs, with further increases possible if input costs continue rising — consistent with reports of Samsung Electro-Mechanics and Taiyo Yuden raising MLCC prices. Despite the strong demand backdrop, Yageo's share price hit the daily limit-down (跌停) on July 29, closing at TWD 507, suggesting **market concerns may relate to valuation or near-term earnings quality** rather than fundamental demand deterioration."
+    },
+    {
+      "title": "TSMC's Central Taiwan Science Park 1.4nm Fab Construction Ahead of Schedule; Safety Inspection Conducted",
+      "section": "金融",
+      "date": "2026/07/29 22:50:14",
+      "url": "https://money.udn.com/money/story/11162/9659234?from=edn_subcatelist_cate",
+      "summary": "The Central Taiwan Science Park Bureau chief led an inspection of TSMC's (2330) 1.4nm advanced process fab under construction in the Central Science Park (中科), confirming that construction progress is ahead of schedule. Phase one foundation piling is substantially complete, with construction of the equipment building (CUP) and offices underway. Of four planned FABs, the first two have been contracted to Da Xin Construction and Hu Zhu Construction, with steel framing in progress. The first fab is targeted for completion by April 2027. Authorities emphasized worker safety measures, particularly heat-related illness prevention during summer conditions. **Market implications:** Ahead-of-schedule progress reinforces TSMC's capacity expansion timeline for its most advanced nodes. This is constructive for TSMC's long-term supply commitments and supports confidence in Taiwan's domestic advanced semiconductor infrastructure build-out."
+    },
+    {
+      "title": "Taiwan Optical (台光電) Claims Global #1 in CCL Industry; Q2 EPS ~NT$27.55 on AI-Driven Demand",
+      "section": "金融",
+      "date": "2026/07/29 20:12:58",
+      "url": "https://money.udn.com/money/story/11162/9659012?from=edn_subcatelist_cate",
+      "summary": "Taiwan Optical (台光電, 2383) announced that Prismark data confirms it surpassed competitors to become the global #1 in overall CCL (Copper Clad Laminate) revenue in 2025, rising from third place in 2024 and overtaking Shengyi and Kingboard. In high-speed materials, it has held global leadership since 2023 with a 38.6% market share, expected to grow annually. Q2 2026 revenue reached NT$47.27 billion (+43% QoQ, +110% YoY), a new quarterly record, with gross margin of 33.9% (+4.5pp QoQ), net profit of NT$9.87 billion (+84.9% QoQ, +183.8% YoY), and EPS of approximately NT$27.55 — the sixth consecutive quarter of earning more than one full share capital in profit. The results reflect robust demand for high-end AI-related PCB materials at full capacity utilization. **Market implications:** Taiwan Optical is a direct beneficiary of AI server buildout and represents a compelling mid-cap listed play on AI infrastructure supply chain expansion."
+    },
+    {
+      "title": "UMC Financials: Q2 Net Income NT$42.26 Billion, Gross Margin 32.5%, EPS NT$3.39",
+      "section": "產經",
+      "date": "2026/07/29 16:54:39",
+      "url": "https://money.udn.com/money/story/5710/9658618",
+      "summary": "United Microelectronics Corporation (UMC, 2303) reported Q2 2026 consolidated revenue of NT$68.73 billion, up 12.6% QoQ and 17% YoY, with gross margin of 32.5% and net income attributable to parent of NT$42.26 billion (EPS NT$3.39). Wafer shipments grew 10.6% QoQ, driven by strong demand in communications and consumer electronics, pushing capacity utilization to 85%. The 22/28nm process revenue hit a new record high, with 22nm accounting for 17.5% of Q2 revenue. UMC also delivered its first 12-inch silicon photonics production wafers to customers this month, a notable milestone. Q3 guidance calls for high single-digit shipment growth, with significant recovery in 8-inch product mix. The board approved expansion of Singapore's P4 fab cleanroom capacity. These results are positive for Taiwan's broader semiconductor supply chain and relevant to fund managers tracking fabless and foundry sector dynamics."
+    },
+    {
+      "title": "Taiwan Futures Night Session Pares Gains as US-Iran Ceasefire Breaks Down and Oil Prices Surge",
+      "section": "產經",
+      "date": "2026/07/29 21:05:38",
+      "url": "https://money.udn.com/money/story/11112/9659088",
+      "summary": "Taiwan index futures (TAIEX futures) opened the night session up 333 points at 40,661, briefly reaching a high of 40,982 (+654 points), before retreating to approximately 40,729 (+401 points) by 9 PM as geopolitical risk re-emerged. Iran launched missile attacks on U.S. military forces in the Middle East; all missiles were intercepted by U.S. Central Command. The breakdown of the short-lived ceasefire sent WTI crude oil surging over 6% and Brent crude up over 4%, strengthening the USD and lifting U.S. Treasury yields, which weighed on U.S. equity futures (Dow e-mini -300 points). TSMC futures were trading around NT$2,244 (+NT$28) as of 9 PM. Markets were also in wait-and-see mode ahead of the FOMC decision and earnings from Microsoft, Meta, Qualcomm, and ARM. Rising oil prices and geopolitical uncertainty are near-term headwinds for Taiwan equities, while elevated energy costs add to global inflation concerns already flagged by the Fed."
+    },
+    {
+      "title": "Unimicron AI Product Mix to Reach 70% — Q3 Gross Margin Expected to Improve",
+      "section": "證券",
+      "date": "2026/07/30 00:45:06",
+      "url": "https://money.udn.com/money/story/5710/9658949?from=edn_maintab_cate",
+      "summary": "Unimicron Technology (3037), a leading IC substrate manufacturer, held its investor conference on July 29, projecting continued revenue growth in H2 2026 driven by strong AI GPU/ASIC and HPC demand. AI-related products accounted for over 60% of revenue in H1, and management guided this ratio to rise to approximately 70% in H2. Q3 gross margin is expected to improve sequentially, benefiting from higher-value AI orders and price adjustments to reflect rising input costs. Capital expenditure for 2026 is set at NT$53.7 billion, focused on the Guangfu Phase 2 plant (capacity coming online Q3 2026) and Yangmei Phase 2. Yangmei Phase 3 is scheduled to break ground by end-2026 or early 2027, aligned with customer demand schedules. The positive H2 outlook for substrate capacity and pricing offers a constructive read-through for the broader AI supply chain in Taiwan.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "*Note: Articles 3 and 4 cover the same TSMC/JASM earthquake event. Article 3 (the more detailed update) has been used as the primary HIGH IMPORTANCE entry. Article 4 is subsumed within the same story and not duplicated.*",
+    "*All five articles reviewed were relevant to the designated coverage topics (TSMC, major Taiwan listed companies, Taiwan equity market, semiconductor sector).*",
+    "*No articles were fully irrelevant — all five articles relate to major Taiwan listed companies (Hon Hai, Quanta, UMC, Yageo) or monetary policy (Fed statement), which fall within the defined relevant topics.*"
+  ]
+}
