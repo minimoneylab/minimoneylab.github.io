@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-29",
+  "update_time": "2026-07-29 09:02:04",
+  "total_articles": 2,
+  "high": [],
+  "medium": [
+    {
+      "title": "European Stock Markets Rise on Corporate Earnings and Oil Drop Following US-Iran Truce",
+      "section": "MoneyTimes",
+      "date": "2026-07-28",
+      "url": "https://www.moneytimes.com.br/bolsas-da-europa-sobem-com-balancos-e-queda-do-petroleo-apos-tregua-eua-ira/",
+      "summary": "European markets advanced on Tuesday morning, with the pan-European Stoxx 600 gaining 0.40% to 647.18 points, driven by positive corporate earnings — notably Unilever surging 7% in London after reporting its strongest quarterly organic growth — and a decline in oil prices following a recent US-Iran ceasefire. The easing of Middle East tensions is worth monitoring from a Brazilian perspective: lower oil prices could weigh on Petrobras revenues and Brazilian export earnings, while reduced global risk aversion may support modest capital flows toward emerging markets including Brazil. For BRL traders, a sustained decline in crude oil represents a mild headwind for Brazil's terms of trade, but the broader risk-on sentiment stemming from geopolitical de-escalation could partially offset this. Watch whether Brent crude sustains its downward trajectory and how that feeds into Petrobras pricing policy discussions."
+    },
+    {
+      "title": "Chinese Stocks Fall to One-Week Low as Technology Sector Declines",
+      "section": "MoneyTimes",
+      "date": "2026-07-28",
+      "url": "https://www.moneytimes.com.br/acoes-da-china-recuam-para-menor-cotacao-em-uma-semana-com-queda-do-setor-de-tecnologia/",
+      "summary": "Chinese equities pulled back sharply on Tuesday, with the Shanghai Composite falling 1.2%, the CSI 300 declining 2.8%, and the Hang Seng also retreating, as investors reassessed elevated valuations amid concerns over rising chip production capacity and high AI infrastructure spending. This is marginally relevant for Brazilian markets given China's critical role as Brazil's largest trading partner, particularly for iron ore and soybeans. A sustained risk-off move in Chinese equities could dampen commodity demand sentiment, putting indirect pressure on Vale's share price and BRL. Fund managers should monitor whether this selloff reflects a broader reassessment of Chinese growth or remains contained to the technology sector."
+    }
+  ],
+  "not_relevant": [
+    "1. **SK Hynix Record Profit Falls Short of Forecasts; Shares Drop 10%** — South Korean chipmaker results; no relevance to BRL, Brazilian rates, or local markets.",
+    "2. **Aegea Approves Capital Increase and Itaúsa (ITSA4) to Contribute Up to R$ 1.5 Billion; Explained** — Corporate capital raise by a sanitation company with Itaúsa participation; company-specific transaction with no direct macro, FX, or rates relevance.",
+    "3. **Mover Reaches Agreement with Bradesco BBI Regarding Stake in Motiva (MOTV3)** — M&A/restructuring transaction involving a transportation infrastructure concession company; company-specific deal with no direct macro or market-wide implications."
+  ]
+}
