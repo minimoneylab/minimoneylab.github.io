@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-03",
+  "update_time": "2026-08-03 06:06:53",
+  "total_articles": 25,
+  "high": [
+    {
+      "title": "Taiwan Stock Market: NT$650 Billion Dividend Windfall Incoming — Quanta, CTBC Financial Among Key Drivers of August Bull Run",
+      "section": "證券 (Securities)",
+      "date": "2026/08/02",
+      "url": "https://money.udn.com/money/story/5607/9665204?from=edn_maintab_cate",
+      "summary": "Taiwan's listed companies are set to release a massive NT$650 billion cash dividend wave in August, providing a critical liquidity injection into the equity market at a time of short-term volatility. The top payers include Quanta Computer (2382) at NT$60.2 billion, CTBC Financial (2891) at NT$49.1 billion, Chunghwa Telecom at NT$40.3 billion, and Shin Kong Financial (post-merger with Taishin) at NT$24.8 billion. This follows a record-breaking year for Taiwan's listed companies, which collectively posted NT$4.5 trillion in net profit — an all-time high — driven by the AI demand surge benefiting advanced semiconductor packaging, PCBs, thermal solutions, and server assembly. A total of 234 companies hit historical earnings records in the prior fiscal year, resulting in aggregate cash dividends rising to a record NT$2.49 trillion, up nearly NT$200 billion year-on-year. With 451 companies scheduled to pay dividends in August, the reinvestment effect is expected to be substantial. **Market implication:** This dividend liquidity cycle is historically supportive of index stability and sector rotation into high-yield financials and tech names. Fund managers should monitor reinvestment flows into financial holding companies and AI-supply-chain stocks.\n\n---"
+    },
+    {
+      "title": "[TSMC: KGI 5C Warrant Highlights Strong Performance Amid AI Demand]",
+      "section": "證券",
+      "date": "2026/08/02 00:57:22",
+      "url": "https://money.udn.com/money/story/5739/9665056?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) shares staged a strong rebound on July 31st, closing at NT$2,425, up NT$220, reclaiming all key moving averages. While Q2 financials did not materially beat consensus, the stock's relatively modest P/E, structural technology leadership, and robust AI-driven demand provided solid downside support. For Q3 2026, TSMC guided revenue of US$44.6–45.8 billion (midpoint: ~+12% QoQ), driven by surging High-Performance Computing (HPC) demand and accelerating 2nm ramp. Gross margin guidance of 65–67% came in below expectations, with management flagging a 3–4 percentage point dilution effect from the rapid 2nm scale-up. Crucially, TSMC upgraded its full-year 2026 USD revenue growth outlook from \"above 30%\" to \"above 40%\" and raised capex guidance significantly from US$52–56 billion to US$60–64 billion — signaling exceptional confidence in sustained AI infrastructure demand. Additionally, TSMC announced an incremental US$100 billion investment in Arizona (on top of the previously announced US$165 billion), alongside 13 new fabs and advanced packaging facilities planned in Taiwan. **Market implication:** The revenue and capex upgrades are strongly bullish for TSMC and its entire supply chain. The gross margin pressure from 2nm is a near-term headwind to watch, but the long-term demand trajectory remains highly compelling."
+    },
+    {
+      "title": "[Google TPU Demand Surges Toward 15 Million Units by 2028 — MediaTek, Hon Hai, and Others to Benefit]",
+      "section": "金融",
+      "date": "2026/08/03 02:09:49",
+      "url": "https://money.udn.com/money/story/5612/9666533?from=edn_maintab_cate",
+      "summary": "Google is reportedly planning to dramatically scale up its Tensor Processing Unit (TPU) procurement, with 2028 demand projected to reach 15 million units — surpassing Nvidia's current annual order volume of approximately 13 million units. This would position Google as the world's largest AI compute chip buyer by volume. Institutional investors identify TSMC (2330), MediaTek (2454), Hon Hai (2317), and Inventec (2356) as primary Taiwan-based beneficiaries. TSMC has reportedly secured the 2nm process orders for Google's TPUv9, targeting mass production in 2028. However, a significant supply constraint has emerged: Nvidia has already pre-committed over 50% of TSMC's CoWoS advanced packaging capacity for the next three years — limiting Google's ability to secure sufficient advanced packaging. As a result, Google may only secure packaging for roughly 10 million-plus units with CoWoS, leaving the remainder potentially unresolved. **Market implication:** This development is broadly positive for TSMC's long-term capacity utilization and pricing power. MediaTek's role in TPU-related silicon design and Hon Hai's server assembly exposure make both names worth monitoring for incremental order flow. CoWoS capacity constraints remain a critical bottleneck and a key risk factor for Google's 2028 TPU ambitions."
+    },
+    {
+      "title": "[MediaTek Officially Confirms ASIC Projects Use Intel EMIB-T Advanced Packaging]",
+      "section": "產經",
+      "date": "2026/08/02 15:30:56",
+      "url": "https://money.udn.com/money/story/5612/9666042",
+      "summary": "MediaTek (2454) officially confirmed at its most recent investor conference that it is utilizing Intel's EMIB-T advanced packaging technology in its ASIC projects — a significant strategic disclosure. CEO Tsai Li-hsing clarified that MediaTek serves as a critical partner for data center customers, leveraging deep design-technology co-optimization with TSMC (2330) alongside close collaboration with leading advanced packaging partners. Specifically, MediaTek is deploying both CoWoS (TSMC's packaging) and EMIB-T (Intel's packaging) to help customers develop high-performance, oversized-die ASICs on cutting-edge nodes including 2nm. Intel's EMIB 2.5D solution uses a small silicon bridge with multi-layer routing — replacing large silicon interposers — and supports HBM integration, positioning it as well-suited for current AI workloads. **Market implications:** This confirmation elevates MediaTek's strategic positioning in the AI data center supply chain beyond pure chip design into advanced packaging ecosystems. It also signals that Intel's foundry/packaging business is gaining traction with top-tier fabless clients, potentially diversifying TSMC's CoWoS dominance. For fund managers, this strengthens the bull case for MediaTek's ASIC revenue stream and warrants closer monitoring of Intel-MediaTek collaboration developments."
+    },
+    {
+      "title": "[TSMC Advanced Process Continues Charge — Intel and Samsung Actively Catching Up]",
+      "section": "金融",
+      "date": "2026/08/03 02:15:03",
+      "url": "https://money.udn.com/money/story/5612/9666539?from=edn_subcatelist_cate",
+      "summary": "Intel's 18A-P (the first performance-enhanced variant of the 18A family) has entered risk production, while its 14A process is targeted for internal risk production in H2 2027 and volume production in H2 2028. Industry consensus views 18A as primarily serving Intel's internal products, with 14A being the true battleground for winning external customers. Advanced packaging — particularly EMIB-T — remains Intel's key competitive weapon for external business. Meanwhile, Samsung disclosed at its recent earnings call that its foundry division saw meaningful profit improvement driven by HBM base-die demand growth and strong orders from U.S. clients, with multiple design wins continuing to expand. **Market implications:** TSMC retains its structural lead, but the competitive landscape is gradually intensifying. For Taiwan-focused investors, TSMC's moat remains intact near-term, while MediaTek's dual-packaging strategy (CoWoS + EMIB-T) demonstrates how leading fabless firms are hedging supply chain concentration risk. The 2027–2028 timeline for Intel 14A volume production provides a reasonable window before any meaningful threat to TSMC's external customer share materializes."
+    },
+    {
+      "title": "Foreign Investors and Investment Trusts Buy on Dips — Focus on Hon Hai and Financial Stocks",
+      "section": "證券 (Securities)",
+      "date": "2026/08/03 01:21:54",
+      "url": "https://money.udn.com/money/story/5607/9666537?from=edn_subcatelist_cate",
+      "summary": "Taiwan's stock market staged a powerful retaliatory rebound on July 31, surging 3,186 points (+7.9%) to close at 43,119 — its strongest single-day gain in recent memory. TSMC hit the daily limit-up (+9.98%), leading a broad-based rally in electronic blue chips, while financial stocks gained 4.45%. However, Taiwan index futures (night session) subsequently pulled back over 1,000 points, creating divergence with U.S. equity markets and raising investor uncertainty heading into the new week.\n\nAnalysts attribute the futures pullback to the cash market having \"overshot\" on July 31, noting that TSMC's ADR gained only 0.23% on the same day versus the 9.98% gain in the Taiwan cash market — a clear sign of premium. Key support levels to watch are the 5-day MA (41,665) and 10-day MA (42,834). Foreign investors and domestic investment trusts were notable buyers of Cathay Financial Holdings (凱基金, 2883) and **Hon Hai (鴻海, 2317)** during the surge, and analysts suggest any weakness today offers a dip-buying opportunity. Foreign institutional futures short positions remain elevated, cautioning against excessive leverage or chasing prices higher."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[IBM Quantum Computing Breakthrough — Quanta and Hon Hai Identified as First-Tier Beneficiaries]",
+      "section": "金融",
+      "date": "2026/08/03 02:13:59",
+      "url": "https://money.udn.com/money/story/5612/9666529?from=edn_maintab_cate",
+      "summary": "IBM has announced a landmark entry into the \"quantum advantage\" era, demonstrating that its quantum computers can execute computations beyond the capability of classical computers with verifiably correct results — a critical milestone for commercial application. IBM collaborated with the University of Chicago, RIKEN (Japan), and quantum software firms including Qedma, BlueQubit, and Algorithmiq, publishing three peer-reviewed papers confirming result reliability. With the U.S. government targeting commercial-grade quantum computers by 2028 and IBM as the top recipient of public quantum investment, institutional analysts identify Quanta Computer (2382) and Hon Hai (2317) as Taiwan's first-tier beneficiaries positioned to capture quantum hardware supply chain opportunities. While commercialization timelines remain medium-to-long term, this development warrants monitoring for potential order flow implications for Taiwan's server and hardware manufacturers."
+    },
+    {
+      "title": "[PSMC Founder's Final Interview — Huang Chung-jen Emphasized \"Steady Operation,\" Rejected Blind Capacity Expansion]",
+      "section": "金融",
+      "date": "2026/08/03 02:04:12",
+      "url": "https://money.udn.com/money/story/11162/9666396?from=edn_maintab_cate",
+      "summary": "PSMC (6770) founder and chairman Huang Chung-jen passed away on July 31, 2026, shocking the semiconductor industry. In what proved to be his final media interview (conducted in mid-July with the Economic Daily News), Huang emphasized a strategy of \"steady operation\" — rejecting aggressive capacity expansion in favor of developing high-value-added products using existing processes and equipment. He outlined PSMC's diversified transformation roadmap encompassing 3D AI Foundry, advanced packaging, Wafer-on-Wafer (WoW), silicon capacitors, power management ICs, and specialty processes. While acknowledging AI-driven demand as undeniable, Huang cautioned against losing capital discipline due to short-term cycles, and questioned whether massive AI capex would ultimately generate sufficient returns. **Relevance:** PSMC is a listed Taiwan semiconductor company; Huang's passing introduces near-term leadership uncertainty, and investors should monitor whether the strategic transformation trajectory is maintained under new leadership."
+    },
+    {
+      "title": "[PSMC Founder's Final Interview — Hsieh Tsai-chu Takes the Helm, Adhering to \"Chairman Huang's Philosophy\"]",
+      "section": "金融",
+      "date": "2026/08/03 02:01:48",
+      "url": "https://money.udn.com/money/story/11162/9666398?from=edn_subcatelist_cate",
+      "summary": "Following Huang Chung-jen's passing, PSMC Vice Chairman Hsieh Tsai-chu has assumed the acting chairman role. Hsieh is a long-time ally of Huang with over 30 years at the company across every major strategic inflection point. His three key challenges are: (1) continuing the transformation direction Huang mapped out; (2) capital allocation decisions following the sale of the Tongluo P5 fab, including equipment relocation, product mix adjustment, and evaluating new fab capacity for advanced packaging demand; and (3) managing the leadership transition — Huang was the face of PSMC for fundraising, alliance-building, and strategy communication, roles Hsieh must now gradually assume with investors, customers, and the supply chain. **Relevance:** Succession risk is a material concern for PSMC shareholders; Hsieh's low-profile, technically-oriented background contrasts with Huang's outward-facing style, making near-term investor relations a potential vulnerability to monitor."
+    },
+    {
+      "title": "Weekly Pre-Market Analysis: Substrate Carriers and Robotics Concepts in Focus",
+      "section": "證券 (Securities)",
+      "date": "2026/08/03 00:47:46",
+      "url": "https://money.udn.com/money/story/5607/9666351?from=edn_subcatelist_cate",
+      "summary": "Taiwan's market surged 7.9% on July 31 driven by strong U.S. macro data (PCE cooling) and Microsoft's blowout earnings, with semiconductor stocks leading. TSMC gapped up to limit-up, electronics gained 9.1%, and financials rose 4.45%. Analysts characterize the move as a technical rebound rather than a confirmed trend reversal, recommending tactical short-term trading. CSP capex earnings season is concluding, which should help resolve AI spending uncertainty that weighed on fundamentals. Analysts recommend focusing on liquid large-cap AI names — particularly TSMC and advanced packaging, substrate carriers/PCBs, power management, and robotics-related stocks — while avoiding over-leveraging given still-elevated foreign futures short positions.\n\n**Market Implication:** Sector rotation into substrate carriers and robotics concepts may present near-term trading opportunities, but the elevated foreign short base in index futures remains a structural overhang for the broader market."
+    },
+    {
+      "title": "GIS Equipment Certified by Major Wafer Foundry — Chung-Hsin Electric (中興電, 1513) Eyes New Growth Wave in Q4",
+      "section": "證券 (Securities)",
+      "date": "2026/08/03 00:50:39",
+      "url": "https://money.udn.com/money/story/5710/9666339?from=edn_maintab_cate",
+      "summary": "Chung-Hsin Electric (1513), a major heavy electrical equipment manufacturer, is expected to enter a new growth phase in H2 2026, driven by three concurrent demand drivers: Taiwan Power Company's (Taipower) grid resilience program, AI data center construction, and semiconductor fab buildouts. Notably, the company's Gas-Insulated Switchgear (GIS) equipment has received certification from a major domestic wafer foundry and will begin shipments in Q4 2026. This is significant as GIS products carry higher margins than the company's standard product mix, which should improve overall profitability. The company currently holds an order backlog exceeding NT$40 billion, with some order visibility extending to 2031. New order targets for 2026 are NT$20–25 billion. Taipower's additional NT$33.4 billion five-year distribution grid upgrade plan (starting 2027) provides further long-term revenue visibility.\n\n**Market Implication:** For investors in Taiwan's power infrastructure and semiconductor supply chain adjacencies, Chung-Hsin Electric represents a high-conviction multi-year growth story with improving margin dynamics."
+    },
+    {
+      "title": "Japan and U.S. Reportedly Conducting Joint Yen Intervention — Finance Minister to Confirm as Early as August 3",
+      "section": "產經 (Business/Economy)",
+      "date": "2026/08/02 18:46:48",
+      "url": "https://money.udn.com/money/story/5599/9666225",
+      "summary": "According to Bloomberg and Reuters, Japanese Finance Minister Katayama Kozuki is expected to confirm as early as August 3 that Tokyo and Washington have jointly intervened in currency markets to arrest the yen's slide toward a 40-year low. The Nikkei reports this represents the first coordinated USD/JPY intervention since 2011. The yen strengthened 1.3% on July 31 to ¥157.4/USD following reported intervention. U.S. Treasury Secretary Bessent's \"to-do list\" — reportedly showing \"buy $50–100 billion in yen\" — was inadvertently photographed, adding credibility to the joint action narrative.\n\n**Market Implication:** A sustained yen strengthening trend would have meaningful implications for Taiwan's life insurers and exporters. Life insurance companies with large unhedged USD/foreign asset exposures may face translation losses, while a stronger yen relative to USD also shifts competitive dynamics in global electronics. This warrants close monitoring."
+    }
+  ],
+  "not_relevant": []
+}
