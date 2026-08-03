@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-04",
+  "update_time": "2026-08-04 06:07:05",
+  "total_articles": 30,
+  "high": [
+    {
+      "title": "TSMC Advanced Process Continues to Surge — Intel and Samsung Actively Catching Up",
+      "section": "金融",
+      "date": "2026/08/03 02:15:03",
+      "url": "https://money.udn.com/money/story/5612/9666539?from=edn_subcatelist_cate",
+      "summary": "TSMC (2330) continues to lead in advanced process technology while Intel and Samsung intensify efforts to close the gap. Intel's 18A-P, the first performance-enhanced variant of its 18A family, has entered risk production, with the 14A process slated for internal risk production in H2 2027 and volume production targeted for H2 2028. Industry observers note that 18A is primarily for Intel's internal use, while 14A is the critical battleground for capturing external foundry customers. On the packaging front, Intel's EMIB-T technology is being positioned as a key differentiator for external business. Notably, MediaTek (2454) disclosed at its recent analyst day that it is collaborating with both TSMC and key advanced packaging partners — including CoWoS and EMIB-T — to develop high-performance custom ASICs for data center clients, underscoring MediaTek's growing role in the AI compute ecosystem. Samsung's foundry division also showed improving profitability driven by strong HBM base die demand and robust U.S. customer orders, with multiple design wins expanding. **Market implication:** TSMC remains the dominant advanced node leader, and the competitive gap with Intel and Samsung remains wide. MediaTek's dual-packaging strategy with TSMC and Intel adds optionality and strengthens its data center ASIC positioning — a positive catalyst for the stock."
+    },
+    {
+      "title": "Google TPU Demand to Reach 15 Million Units by 2028 — TSMC, MediaTek, Hon Hai, Inventec to Benefit",
+      "section": "金融",
+      "date": "2026/08/03 02:09:49",
+      "url": "https://money.udn.com/money/story/5612/9666533?from=edn_maintab_cate",
+      "summary": "Google is reportedly planning to significantly ramp its Tensor Processing Unit (TPU) orders, with 2028 demand potentially reaching 15 million units — surpassing Nvidia's current annual order volume of approximately 13 million units. This would position Google as the world's largest AI compute chip buyer by volume. TSMC (2330) is set to be the primary beneficiary, having secured Google's TPUv9 orders on its 2nm process node, targeting volume production in 2028. However, TSMC's CoWoS advanced packaging capacity constraints pose a challenge — over 50% of TSMC's CoWoS capacity through 2028 has already been reserved by Nvidia, limiting Google's access to advanced packaging. As a result, Google is expected to secure only a portion of its target CoWoS allocation. MediaTek (2454), Hon Hai (2317), and Inventec (2356) are also cited as supply chain beneficiaries. **Market implication:** This is a structurally bullish signal for TSMC's 2nm revenue ramp and advanced packaging pricing power. CoWoS capacity scarcity reinforces TSMC's leverage over hyperscaler customers. MediaTek and Hon Hai's inclusion in the TPU supply chain broadens their AI exposure beyond traditional server ODM roles."
+    },
+    {
+      "title": "Intel's Advanced Packaging EMIB-T Yields Exceed 90%, Cost 50% Lower Than TSMC CoWoS — MediaTek Confirmed as Customer",
+      "section": "金融",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/5612/9668641?from=edn_maintab_cate",
+      "summary": "Intel's EMIB-T advanced packaging technology has achieved yields exceeding 90%, reaching mass production readiness, with full ramp expected to begin next year. Critically, the technology's cost is reported to be approximately 50% lower than TSMC's CoWoS, primarily because EMIB-T does not require expensive large-area silicon interposers. MediaTek has been confirmed as a landmark customer, having disclosed at its recent analyst day that it is collaborating with partners on both CoWoS and EMIB-T to develop high-performance, oversized ASIC chips for clients. Broadcom and Meta are also reportedly evaluating adoption.\n\n**Market Implications:** While current advanced packaging capacity remains supply-constrained — limiting near-term share displacement from TSMC — this development is a meaningful long-term competitive signal. Intel's improving foundry execution could gradually erode TSMC's near-monopoly in CoWoS packaging, particularly for cost-sensitive AI ASIC workloads. For fund managers, this warrants monitoring TSMC's CoWoS pricing power and MediaTek's capex strategy. It also raises questions about whether other hyperscaler and fabless clients may diversify packaging vendors over 2027–2028. Near-term TSMC impact appears limited; medium-term competitive dynamics deserve closer scrutiny."
+    },
+    {
+      "title": "Memory Shortage Worsens — MacBook Air Supply Disruption Ripples Through Taiwan Supply Chain Including TSMC, Quanta, and Hon Hai",
+      "section": "金融",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/5612/9668642?from=edn_maintab_cate",
+      "summary": "A deepening memory shortage is now materially impacting Apple's MacBook Air supply, with Bloomberg's Mark Gurman citing sources describing this as the most severe inventory crunch in recent memory. All base-spec MacBook Air models ordered today face shipment delays until late August, with select configurations pushed to early September — highly unusual for a product refreshed just in March 2026 with the M5 chip. Apple is reportedly sourcing memory from Chinese suppliers to serve domestic China demand as a stopgap measure, and has already raised MacBook Air prices by nearly 20%. The disruption is expected to affect shipments across Taiwan's Apple supply chain, specifically naming TSMC (chip production), Quanta (2382, assembly), and Hon Hai/Foxconn (2317).\n\n**Market Implications:** Near-term revenue recognition at Quanta and Hon Hai may be impacted if MacBook Air build schedules slip. TSMC's M5 wafer demand itself is unlikely to be directly constrained (memory is the bottleneck, not logic silicon), but overall Apple platform momentum could soften Q3 expectations. Investors should monitor whether memory tightness extends further into the fall product cycle, particularly ahead of iPhone season."
+    },
+    {
+      "title": "Global Nine Major CSP Vendors' Capex Surges ~90% YoY in 2026 — Hon Hai, Quanta and Other ODMs Set to Benefit",
+      "section": "金融",
+      "date": "2026/08/04 02:00:10",
+      "url": "https://money.udn.com/money/story/11162/9668577?from=edn_maintab_cate",
+      "summary": "TrendForce's latest research indicates that total capital expenditure by the world's nine largest cloud service providers (CSPs) — including Google, Amazon, Meta, Microsoft, Oracle, ByteDance, Tencent, Alibaba, and Baidu — is projected to surpass USD 886.7 billion in 2026, representing a year-on-year increase of approximately 90%. In tandem, TrendForce has revised upward its 2026 AI server shipment growth forecast from 28% to approximately 31%, driven by new product launches, rising demand from Chinese AI players, and the ramp-up of next-generation ASIC platforms from Google and AWS in H2 2026. North American CSPs account for nearly 90% of total spending, with most roughly doubling their individual capex. Taiwan-listed ODM manufacturers — notably **Hon Hai (2317)**, Quanta, Wistron, Wiwynn, and Inventec — are identified as primary beneficiaries of this structural demand surge. For fund managers, this reinforces a strong multi-year secular tailwind for Taiwan's AI server supply chain. Hon Hai in particular warrants close attention given its scale and diversified AI infrastructure exposure.\n\n---"
+    },
+    {
+      "title": "[MediaTek and King Yuan Electronics: Four Hot Stocks to Watch]",
+      "section": "證券 (Securities)",
+      "date": "2026/08/04 01:23:21",
+      "url": "https://money.udn.com/money/story/5739/9668351?from=edn_subcatelist_cate",
+      "summary": "AI-driven semiconductor demand is fueling strong growth outlooks for MediaTek (2454) and King Yuan Electronics (KYEC, 2449). Institutional investors are bullish on both companies' H2 2026 prospects as AI chip, ASIC, and high-speed computing demand expands alongside new product ramp-ups.\n\nFor MediaTek, a foreign institutional investor has applied a Sum-of-the-Parts (SOTP) valuation methodology, assigning 43x P/E to its AI ASIC business and 14x P/E to the smartphone segment, raising the target price significantly from NT$2,605 to NT$4,250. However, the rating remains \"Neutral\" given that the current share price already partially reflects 2027 CoWoS tailwinds, uncertainty surrounding HBM memory procurement, and variability in Google TPU pricing (Humufish architecture ASPs surging from USD 4,000–5,000 to USD 12,000–15,000 vs. prior Zebrafish), which remain a key variable for 2028 ASIC revenue estimates.\n\nKYEC benefits from rising GPU and ASIC burn-in testing demand as customers raise reliability requirements. **Market Implication:** The dramatic target price upgrade for MediaTek underscores the market's repricing of Taiwan's AI ASIC exposure; fund managers should monitor whether \"Neutral\" ratings are upgraded as 2028 earnings visibility improves.\n\n---"
+    }
+  ],
+  "medium": [
+    {
+      "title": "IBM Quantum Computing Breakthrough — Quanta and Hon Hai Among First-Tier Beneficiaries",
+      "section": "金融",
+      "date": "2026/08/03 02:13:59",
+      "url": "https://money.udn.com/money/story/5612/9666529?from=edn_maintab_cate",
+      "summary": "IBM has announced it has entered the \"quantum advantage\" era — a milestone defined as quantum computers completing computational tasks beyond the capability of classical computers, with results that can be independently verified. This breakthrough, supported by collaborations with the University of Chicago, Japan's RIKEN institute, and software firms Qedma, BlueQubit, and Algorithmiq, was published across three simultaneous research papers. The development is seen as pivotal in transitioning quantum computing from performance testing toward real-world scientific and commercial applications. IBM is the largest recipient of U.S. government quantum investment, with President Trump targeting commercial-grade quantum computers by 2028. Taiwanese firms Quanta Computer (2382) and Hon Hai (2317) are identified by institutional analysts as first-tier participants in the quantum computing supply chain. **Relevance:** While commercial-scale quantum revenue remains a multi-year horizon, Hon Hai's positioning in both quantum and AI infrastructure supply chains reinforces its long-term diversification narrative for institutional investors."
+    },
+    {
+      "title": "Power Chipmaker PSMC Founder Huang Chung-jen's Final Interview — Emphasis on \"Steady Management,\" No Blind Expansion",
+      "section": "金融",
+      "date": "2026/08/03 02:04:12",
+      "url": "https://money.udn.com/money/story/11162/9666396?from=edn_maintab_cate",
+      "summary": "Powerchip Semiconductor Manufacturing Corp. (PSMC, 6770) founder and chairman Huang Chung-jen passed away on July 31, 2026, sending shockwaves through Taiwan's semiconductor industry. In his final media interview, conducted in mid-July with the Economic Daily News, Huang emphasized a philosophy of \"steady management\" — prioritizing high-value-added products using existing processes and equipment over aggressive capacity expansion. He outlined PSMC's transformation into a diversified foundry integrating 3D AI Foundry, advanced packaging, Wafer-on-Wafer (WoW), silicon capacitors, power management ICs, and specialty processes. Huang expressed caution about whether the enormous capital expenditures driven by the AI boom would ultimately generate sufficient returns, and urged discipline in navigating future industry downturns. **Market implication:** PSMC's strategic direction under new leadership will be closely watched. The company's conservative, differentiated approach may attract investors seeking exposure to AI infrastructure without the valuation risk of pure-play leading-edge foundries."
+    },
+    {
+      "title": "[Japan Finance Minister to Confirm Joint US-Japan Intervention to Halt Yen Depreciation as Early as August 3]",
+      "section": "產經",
+      "date": "2026/08/02 18:46:48",
+      "url": "https://money.udn.com/money/story/5599/9666225",
+      "summary": "According to Bloomberg and Reuters, Japanese Finance Minister Katayama Satsuki was expected to confirm as early as August 3 that Tokyo and Washington have jointly intervened in currency markets to arrest the yen's slide toward a 40-year low. Reports indicate a series of coordinated yen-buying operations have been executed — the first joint intervention since 2011 — with the yen already recovering 1.3% to 157.4 per USD on July 31. US Treasury Secretary Bessent's meeting notes allegedly listed \"buy $50–100 billion yen\" as an agenda item, suggesting active US participation. **Market Implications:** A confirmed US-Japan joint FX intervention is a landmark macro event. For Taiwan, a stronger yen could reduce competitive pressure on Japanese exporters versus Taiwanese tech firms, while also affecting capital flows across Asia. Taiwan life insurers with significant unhedged USD or JPY foreign bond positions should be monitored closely for FX translation impacts. The CBC may also take note of any spillover effects on the TWD."
+    },
+    {
+      "title": "[PSMC Founder's Final Interview: Vice Chairman Hsieh Tsai-chu to Uphold \"Huang Philosophy\"]",
+      "section": "金融",
+      "date": "2026/08/03 02:01:48",
+      "url": "https://money.udn.com/money/story/11162/9666398?from=edn_subcatelist_cate",
+      "summary": "Following the passing of PSMC (力積電, 6770) founder and chairman Frank Huang Chung-jen, Vice Chairman Hsieh Tsai-chu has assumed acting chairman duties. Hsieh, a long-time associate of Huang, faces three key challenges: (1) continuing PSMC's ongoing transformation strategy in wafer foundry services; (2) capital allocation decisions following the sale of the Tongluo P5 fab, including equipment relocation, product mix adjustment, and evaluating new fab capacity for advanced packaging demand; and (3) transitioning leadership style, as Huang was the face of the company for investor relations, fundraising, and strategic communications. **Market Implications:** Leadership transitions at listed companies always introduce uncertainty. Investors will watch whether Hsieh can maintain institutional confidence and execute on the advanced packaging pivot. Near-term volatility in PSMC shares is possible as the market reassesses management risk."
+    },
+    {
+      "title": "Foreign Investors and Domestic Investment Trusts Buy the Dip — Focus on Cathay Financial and Hon Hai",
+      "section": "證券",
+      "date": "2026/08/03",
+      "url": "https://money.udn.com/money/story/5607/9666537?from=edn_subcatelist_cate",
+      "summary": "Taiwan's equity market staged a sharp rebound on July 31st, surging 3,186 points (+7.9%) to close at 43,119, led by TSMC hitting its daily limit-up gain of 9.98%. However, Taiwan index futures subsequently pulled back over 1,000 points in overnight trading, creating mixed signals. Analysts note that TSMC's cash market move on July 31st significantly outpaced its ADR performance (ADR +0.23% vs. spot +9.98%), suggesting the domestic rally may have run ahead of fundamentals. Both foreign investors (外資) and domestic investment trusts (投信) were noted as active buyers of Cathay Securities Financial (2883) and Hon Hai (2317) during the surge. Analysts advise watching the 5-day moving average (41,665) and 10-day moving average (42,834) as key support levels, and caution against over-leveraging given still-elevated foreign futures short positions.\n\n---"
+    },
+    {
+      "title": "CSP Vendors Monetize Assets to Fund Compute Expansion",
+      "section": "金融",
+      "date": "2026/08/04 01:54:49",
+      "url": "https://money.udn.com/money/story/11162/9668578?from=edn_subcatelist_cate",
+      "summary": "TrendForce projects 2026 global CSP capex to exceed USD 886.7 billion (+90% YoY), but notes investor concern over whether returns will justify the massive outlay — highlighted by Google's negative free cash flow in Q2. To sustain liquidity while continuing compute buildouts, CSPs are employing varied monetization strategies: Google is selling TPU systems six months ahead of schedule to accelerate cash recovery; Meta is monetizing idle compute capacity to improve utilization rates; and Nvidia has introduced a new revenue-sharing and credit-support business model to improve the financial health of the broader AI ecosystem. This article complements the TrendForce capex piece and is relevant to assessing the sustainability of AI infrastructure demand — a key driver for Taiwan's ODM and server supply chain."
+    },
+    {
+      "title": "Mainland China GPU Prices Surge — Surging ASPs to Boost ASUS, MSI, and Gigabyte Profits",
+      "section": "金融",
+      "date": "2026/08/04 01:31:15",
+      "url": "https://money.udn.com/money/story/5612/9668643?from=edn_subcatelist_cate",
+      "summary": "Driven by a sharp rise in memory component prices, GPU prices at Shenzhen's Huaqiangbei market surged approximately 30% within less than one week in late July, with prices changing daily. The Nvidia RTX 5060 rose to RMB 2,700–3,100 (up ~30% in four days), while the RTX 5080 exceeded RMB 11,000 (up ~RMB 1,700 from early July). The price surge has spread to secondary markets as well. Taiwan-listed graphics card vendors **ASUS (2357)**, **MSI (2377)**, and **Gigabyte (2376)** stand to benefit directly through higher average selling prices (ASPs), providing a meaningful near-term earnings uplift. Investors should monitor whether memory cost pass-through sustains margin expansion or ultimately pressures end demand."
+    },
+    {
+      "title": "U.S. Stocks Rally Sharply; Dow Jones Closes at Record High as Trump Claims Iran Negotiations Underway",
+      "section": "產經 (Economy & Business)",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/5599/9668870",
+      "summary": "Despite Tehran's denial, President Trump asserted that U.S.-Iran negotiations are actively ongoing, sparking a broad risk-on rally on Wall Street. The Dow Jones Industrial Average surged 693 points (+1.32%) to a record close of 53,178, the S&P 500 gained 1.48% to 7,600, the Nasdaq jumped 2.13% to 25,913, and the Philadelphia Semiconductor Index rose 1.05% to 11,430. For Taiwan equity investors, the strong performance of the Philadelphia Semiconductor Index is a constructive overnight signal for Taiwan's semiconductor-heavy TAIEX, particularly for TSMC, MediaTek, and related supply chain names. A geopolitical de-escalation scenario in the Middle East, if confirmed, would also support oil price stability and global risk appetite, providing a favorable backdrop for foreign inflows into emerging Asian markets including Taiwan."
+    },
+    {
+      "title": "GPU Prices Surge 30% at Huaqiangbei; Cheng Chi (2425) Emerges as Hidden Winner; ASUS, MSI, Gigabyte Also Benefit",
+      "section": "金融",
+      "date": "2026/08/03",
+      "url": "https://money.udn.com/money/story/11162/9668766?from=edn_subcatelist_cate",
+      "summary": "GPU prices at Shenzhen's Huaqiangbei electronics market have surged approximately 30% in under one week since late July, with prices changing daily — a phenomenon described as \"one price per day.\" Nvidia's RTX 5060 now trades at RMB 2,700–3,100 (up from RMB 2,300–2,500), while the high-end RTX 5080 has exceeded RMB 11,000, up roughly RMB 1,700 from early July. The primary beneficiary in mainland China is Colorful Technology, the dominant GPU brand. Critically for Taiwan investors, Cheng Chi (2425), a Taiwan-listed company in which Colorful has a strategic investment stake, stands to benefit as a leveraged play on Colorful's windfall. Additionally, Taiwan's major add-in board (AIB) vendors — ASUS (2357), MSI (2377), and Gigabyte (2376) — are seeing meaningful average selling price (ASP) uplift, which should translate into improved gross margins and earnings momentum in Q3. This is a positive near-term catalyst for these hardware names."
+    },
+    {
+      "title": "Taiwan Panel Makers (AUO & Innolux) Accelerate Capacity Rationalization; to Reshape TV, Monitor, and Notebook Panel Supply by 2028",
+      "section": "金融",
+      "date": "2026/08/03",
+      "url": "https://money.udn.com/money/story/11162/9668156?from=edn_subcatelist_cate",
+      "summary": "According to TrendForce analysis, Taiwan's two major LCD panel makers — Innolux (3481) and AUO (2409) — are accelerating a strategic shift from volume-driven competition to high-value-added manufacturing. By 2028, their combined share of global LCD monitor panel supply is projected to fall below 10%, notebook panel supply will shrink to approximately 20%, while TV panel supply is expected to be maintained at around 22% given relatively stable profitability. Innolux plans to shut down its Fab3 notebook LCD line by end-2027/early 2028, with the facility potentially repurposed toward advanced packaging (FOPLP), CPO, and TGV glass-via technologies. For investors, this capacity discipline signals reduced exposure to commoditized price wars, improved earnings quality, and a potential re-rating catalyst if the transition to high-value applications gains traction. Monitor this as a structural positive for both names."
+    },
+    {
+      "title": "[Taiwan Stock Exchange Relaxes \"Lockdown\" Rules — Three Liquidity Reforms Effective August 10]",
+      "section": "證券 (Securities)",
+      "date": "2026/08/04 01:23:41",
+      "url": "https://money.udn.com/money/story/5607/9668702?from=edn_maintab_cate",
+      "summary": "The Taiwan Stock Exchange (TWSE) and Taipei Exchange (TPEx) announced three significant reforms to the \"Notice and Disposition Securities\" (注意暨處置) mechanism, effective August 10, 2026. Key changes include: (1) shortening disposition periods — standard disposition cut from 10 to 5 trading days, and day-trading-heavy stocks from 12 to 7 trading days; (2) accelerating matching intervals from every 5–20 minutes to approximately every 2 minutes for disposed stocks; and (3) widening the price-spread threshold for \"Notice Stock\" designation for stocks priced above NT$1,000 (requiring a NT$300+ six-day spread), with further tiering above NT$2,000. The NT$1,000+ threshold adjustment is being dubbed the **\"TSMC Clause\"** by market participants, as it prevents high-priced blue chips from being inadvertently flagged under outdated thresholds. These reforms modernize a framework dating back to 1995, improving trading efficiency and reducing liquidity penalties on high-quality large-caps. A semi-annual review mechanism has also been established."
+    },
+    {
+      "title": "[Precision Intellitech (6510) Posts Record July Revenue — AI and HPC Demand Drive 49.9% YoY Growth]",
+      "section": "證券 (Securities)",
+      "date": "2026/08/04 01:02:03",
+      "url": "https://money.udn.com/money/story/11074/9668327?from=edn_subcatelist_cate",
+      "summary": "Semiconductor test interface manufacturer Precision Intellitech (精測, 6510) reported July consolidated revenue of NT$615 million, a single-month record high, up 7.1% MoM and 49.9% YoY. Cumulative January–July revenue reached NT$3.612 billion, up 30.0% YoY. Growth is attributed to strong shipments of AI and high-performance computing (HPC) related products, with GPU and ASIC chip testing demand identified as the core growth engine. The company noted that Agentic AI adoption is driving sustained data center and cloud investment. Notably, the company plans to double capacity by end of August 2026 versus end-2025, and triple capacity by March 2027 — a significant capacity commitment suggesting robust order visibility. Pricing remains stable despite upstream material tightness."
+    }
+  ],
+  "not_relevant": []
+}
