@@ -1,0 +1,176 @@
+{
+  "date": "2026-08-05",
+  "update_time": "2026-08-05 06:08:06",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "Memory Shortage Expands — MacBook Air Supply Crunch Ripples Through Taiwan Supply Chain",
+      "section": "金融",
+      "date": "2026/08/04 01:35:05",
+      "url": "https://money.udn.com/money/story/5612/9668642?from=edn_maintab_cate",
+      "summary": "A worsening memory shortage is now impacting Apple's best-selling MacBook Air, with new orders delayed until late August or early September — described by industry insiders as the most severe supply disruption in recent memory. The constraint stems from insufficient LPDDR memory availability for the M5-equipped MacBook Air, launched in March 2026. To partially alleviate the shortage, Apple is reportedly sourcing memory from mainland Chinese suppliers, at least for devices sold domestically in China. Apple has also already raised MacBook Air prices by nearly 20%. Critically for Taiwan investors, the supply disruption is expected to affect shipment schedules across Taiwan's Apple supply chain, specifically naming **TSMC (2330)**, **Quanta Computer (2382)**, and **Hon Hai/Foxconn (2317)**. While near-term order volumes may not collapse, shipment timing shifts could affect quarterly revenue recognition. Investors in Apple supply chain names should monitor whether the memory squeeze resolves ahead of the peak autumn product launch season, which could create a catch-up shipment surge in Q4 2026."
+    },
+    {
+      "title": "Intel's Advanced Packaging Breakthrough — EMIB-T Costs 50% Less Than TSMC CoWoS, Wins MediaTek Order",
+      "section": "金融",
+      "date": "2026/08/04 01:43:41",
+      "url": "https://money.udn.com/money/story/5612/9668641?from=edn_maintab_cate",
+      "summary": "Intel's EMIB-T advanced packaging technology has reportedly achieved backend yield rates exceeding 90%, reaching mass production readiness, with volume production planned for next year. Most significantly, EMIB-T's cost is estimated at approximately **50% below TSMC's CoWoS**, primarily because it eliminates the need for expensive large-area silicon interposers. Intel has already secured a landmark ASIC order from **MediaTek (聯發科)**, and Broadcom and Meta are reportedly evaluating adoption. MediaTek confirmed at its recent analyst day that it is partnering with providers of both CoWoS and EMIB-T, and will help clients develop oversized-die high-performance ASICs using both technologies. Near-term, analysts believe EMIB-T will supplement rather than displace TSMC CoWoS given persistent advanced packaging capacity constraints. However, this is a meaningful **long-term competitive threat to TSMC's advanced packaging revenue stream** and represents a significant step in Intel Foundry's effort to challenge TSMC's dominance. Investors in TSMC and MediaTek should closely track customer adoption trends as EMIB-T scales into 2027."
+    },
+    {
+      "title": "Global Top-9 CSP Capital Expenditure to Surge ~90% in 2026 — Hon Hai, Quanta Among Key Beneficiaries",
+      "section": "金融",
+      "date": "2026/08/04 02:00:10",
+      "url": "https://money.udn.com/money/story/11162/9668577?from=edn_maintab_cate",
+      "summary": "TrendForce's latest research projects that the combined capital expenditure of the world's nine largest cloud service providers (CSPs) — including Google, Amazon, Meta, Microsoft, Oracle, ByteDance, Tencent, Alibaba, and Baidu — will exceed **USD 886.7 billion in 2026**, representing approximately **90% year-on-year growth**. North American hyperscalers account for nearly 90% of total spending, with most roughly doubling their capex individually. TrendForce has also revised its 2026 AI server shipment growth forecast upward from 28% to approximately **31%**, driven by strong demand for NVIDIA GB/VR standard AI server platforms, the ramp of Google and AWS next-generation ASIC platforms in H2 2026, and accelerating Chinese AI infrastructure build-out. Taiwan ODM manufacturers **Hon Hai (2317)**, **Quanta (2382)**, Wistron, Wiwynn, and Inventec are highlighted as deep beneficiaries. This is a strongly positive demand signal for Taiwan's server supply chain and supports continued earnings momentum for these ODM names through the remainder of 2026."
+    },
+    {
+      "title": "Taiwan Stock Exchange Relaxes \"Lockdown\" Rules for Watched/Disposed Securities — Three Liquidity Reforms Effective August 10",
+      "section": "證券 (Securities)",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/5607/9668702?from=edn_maintab_cate",
+      "summary": "The Taiwan Stock Exchange (TWSE) and the OTC market operator (TPEx) announced three major reforms to the rules governing \"watch-list\" (注意股) and \"disposed\" (處置股) securities, effective August 10. Key changes include: (1) **Disposal periods shortened** — standard disposal cut from 10 to 5 trading days; disposal with excessive day-trading cut from 12 to 7 days; (2) **Matching intervals accelerated** — matching frequency for disposed stocks tightened to approximately every 2 minutes, versus the previous 5- or 20-minute intervals; (3) **Price-spread thresholds widened for high-priced stocks** — stocks closing above NT$1,000 are only flagged if the 6-day price spread exceeds NT$300, with tiered thresholds above NT$2,000. The last provision is dubbed the **\"TSMC Clause\"** by market participants, given TSMC's elevated share price. Market professionals view these as significant structural optimizations that will improve liquidity and trading efficiency. For fund managers, this reform reduces friction and punitive constraints on high-price, high-liquidity blue chips, potentially reducing artificial volatility and improving execution quality for large-cap positions.\n\n---"
+    },
+    {
+      "title": "TSMC Kumamoto Plant Fully Restored in Under One Week After Major Earthquake, Demonstrates Exceptional Operational Resilience",
+      "section": "金融 (Financial)",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5612/9671058?from=edn_maintab_cate",
+      "summary": "A magnitude 7.1 earthquake struck Kumamoto, Japan on July 28, directly impacting TSMC's JASM fab. Within six days, TSMC dispatched engineers and emergency personnel from Taiwan headquarters, completed facility inspections, equipment recalibration, and full production line restoration — returning to pre-earthquake operational status in under one week. Fab 1 (12–28nm mature node) has resumed production, while Fab 2 (targeting 3nm advanced node, slated for production in approximately two years) has also restarted construction. TSMC additionally announced a ¥250 million JPY (~NT$51.47 million) donation to support Kumamoto's disaster recovery, complemented by an employee fundraising campaign through the TSMC Charity Foundation. **Market Implications:** The rapid recovery underscores TSMC's world-class operational risk management and supply chain resilience — a critical positive signal for institutional investors monitoring geopolitical and natural disaster risk exposure. The Kumamoto facilities represent an increasingly important node in TSMC's global production diversification strategy, and swift restoration minimizes any near-term revenue disruption risk. Investors should view this as reaffirming TSMC's operational premium valuation."
+    },
+    {
+      "title": "Mature Node Wafer Prices to Rise Even More Sharply in 2027 — Vanguard, UMC, and PSMC All Confirm AI-Driven Demand Surge",
+      "section": "金融 (Financial)",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5612/9671027?from=edn_maintab_cate",
+      "summary": "Vanguard International Semiconductor (5347) Chairman Frank Shih stated at an investor conference on August 4 that AI is driving an explosive surge in mature node demand, and that pricing increases in 2027 will be larger than those seen in 2026. UMC (2303) and PSMC (6770) subsequently echoed this pricing outlook, signaling a broad industry consensus on continued foundry price escalation. Analysts project that utilization rates across these three foundries will exceed 90%, with gross margins potentially approaching 45%–50% as economies of scale improve. The structural drivers include: AI advanced chips requiring mature node companion chips, TSMC's gradual withdrawal from the mature segment redirecting orders to Vanguard, surging server power management IC demand, and AI spillover into edge computing (WiFi 7, IoT, MCU). **Market Implications:** This is a significant sector re-rating catalyst. Investors should consider increasing exposure to UMC, Vanguard, and PSMC as near-term beneficiaries of pricing power and utilization recovery. The coordinated price signaling from three major foundries strengthens conviction that this is a sustainable trend, not a short-term blip. Vanguard's role as a bellwether for TSMC's mature node strategy adds additional credibility to the outlook."
+    },
+    {
+      "title": "Huaqiangbei DRAM Spot Prices Surge Up to 14% in a Single Week — Taiwan DRAM Names Nanya, Winbond Benefit",
+      "section": "金融 (Financial)",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5612/9671038?from=edn_maintab_cate",
+      "summary": "Shenzhen's Huaqiangbei market — China's largest and most price-sensitive electronics wholesale hub — posted its sharpest weekly DRAM price increase of 2026, with all major specifications rising approximately 10–14%. DDR4 8Gb 3200 jumped from $19.50 to $22.00 (+12.82%), while DDR5 24Gb and DDR5 16Gb each surged 14.29%. This ends nearly six months of range-bound spot pricing. The move is seen as confirming that DRAM shortages remain intact despite recent market noise, as original equipment manufacturers report 2026–2027 DRAM and HBM capacity is nearly sold out. Taiwan beneficiaries include Nanya Technology (2408), Winbond (2344), ADATA (3260), Transcend (2451), Team Group (4967), and Apacer (8271) — with Nanya and Winbond both hitting the daily limit-up on August 4. **Market Implications:** The Huaqiangbei price surge serves as a powerful real-time demand signal and should alleviate investor concerns around memory market softness. With HBM capacity constrained and DDR spot prices accelerating, the risk/reward for Taiwan DRAM-related equities is skewing increasingly favorable heading into Q3 earnings season."
+    },
+    {
+      "title": "Wistron Plans GDR Issuance to Raise NT$45 Billion as AI Server Shipments Surge Through Next Year",
+      "section": "金融",
+      "date": "2026/08/05 01:01:34",
+      "url": "https://money.udn.com/money/story/11162/9670975?from=edn_maintab_cate",
+      "summary": "Wistron (3231) held its investor conference on August 4, with Chairman Simon Lin expressing confidence in continued AI server momentum. President Alex Lin highlighted new customer orders for GB300 and Vera Rubin platforms, with H2 2026 shipment momentum targeted to exceed H1, and order visibility extending strongly into H1 2027. To fund rapid capacity expansion, Wistron's board approved significant new capital expenditure: NT$20B and NT$85B for Hsinchu and Kaohsiung facilities respectively, US$53M for U.S. operations, and US$40M for Vietnam — totaling approximately NT$135.15B in global capex additions. Critically, the board simultaneously approved a Global Depositary Receipt (GDR) issuance of up to 250 million shares. Based on the August 4 closing price of NT$195 and applying a typical issuance discount, Wistron could raise at least NT$45B. **Market implication:** The GDR issuance represents meaningful near-term dilution risk for existing shareholders. However, it signals management's conviction in sustained AI server demand. The scale of the capital raise and capex commitment underscores Wistron's ambition to cement its position among the top-tier AI infrastructure ODMs, with positive read-throughs for component suppliers and the broader AI server supply chain."
+    },
+    {
+      "title": "Wistron H1 2026 EPS Reaches NT$7.78, Q2 Net Profit Hits Record High",
+      "section": "金融",
+      "date": "2026/08/05 01:00:04",
+      "url": "https://money.udn.com/money/story/11162/9670980?from=edn_subcatelist_cate",
+      "summary": "Wistron (3231) reported Q2 2026 after-tax net profit of NT$14.827B, a record high, surging 54% QoQ and 128% YoY, with EPS of NT$4.72. Q2 consolidated revenue reached NT$895.443B (+5.8% QoQ, +62.4% YoY), with gross margin improving to 5.66% (+45bps QoQ). H1 2026 consolidated revenue totaled NT$1.74 trillion (+94% YoY), with after-tax net profit of NT$24.458B (+106% YoY) and EPS of NT$7.78 — both H1 records. Institutional investors expect H2 performance to outpace H1, implying full-year EPS of at least NT$15+, which would set an all-time annual profit record. Chairman Lin cautioned that a dramatic near-term doubling of gross margins is unlikely, but noted that high-margin business lines are being cultivated on the ODM foundation and could scale rapidly. **Market implication:** The blowout earnings and bullish H2 guidance provide strong fundamental support for Wistron's valuation. The GDR issuance announced alongside these results will be closely watched by institutional investors as a dilution event to model carefully."
+    },
+    {
+      "title": "FSC to Launch Taiwan Stock Market Leverage Dashboard by End of September, Providing Margin Balance and Credit Trading Data",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5607/9671046?from=edn_maintab_cate",
+      "summary": "Taiwan's Financial Supervisory Commission (FSC) announced on August 4th that it will mandate the Taiwan Stock Exchange (TWSE) to develop an official \"leverage dashboard\" for the Taiwan equity market, targeting a go-live date of end-September 2026. The dashboard will consolidate key credit trading metrics including margin loan balances, overall collateral maintenance ratios, short-selling via securities lending, and unrestricted-purpose loan maintenance ratios — data points investors previously had to calculate independently.\n\nThe initiative follows a period of heightened market volatility and public controversy after discrepancies emerged between CMoney's published margin maintenance ratios and TWSE's own figures, triggering accusations of data suppression. FSC's Securities and Futures Bureau Deputy Director Huang Chung-hao stressed the regulator's commitment to \"safety, transparency, and fairness,\" categorically denying any data cover-up."
+    },
+    {
+      "title": "MSCI Quarterly Rebalancing to Be Announced on the 13th — Taiwan Weighting Likely to Be Cut",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05 01:29:41",
+      "url": "https://money.udn.com/money/story/5607/9671029?from=edn_subcatelist_cate",
+      "summary": "MSCI is set to announce its latest quarterly index rebalancing on August 13, with changes taking effect at end of month. Market analysts at Mega Securities Investment Advisory assess that the probability of Taiwan's weighting being reduced is high. Since the last semi-annual MSCI rebalancing (May 29), Taiwan's share of ex-Japan Asia-Pacific market capitalization has declined by 0.26 percentage points — from 17.67% to 17.41% as of July 31. Over this period, Taiwan's total market cap fell approximately 6%, from USD 4.6 trillion to USD 4.3 trillion, the second-largest decline among ex-Japan APAC markets after South Korea (-18%). All other regional markets saw their weighting increase, led by Hong Kong (+1.33 ppts). On potential new index constituents, analysts screen for non-MSCI-member listed companies with large market caps, foreign investor net buying, and no disciplinary trading suspension; **Nanya Technology (2408), Formosa Petrochemical (6505), and Nan Ya PCB (8046)** are flagged as candidates. **Market Implication:** A confirmed Taiwan weighting cut could trigger passive foreign fund outflows from Taiwan-listed stocks, adding near-term selling pressure, particularly on large-cap names. Investors should monitor August 13 announcement closely.\n\n---"
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan Auto Market — July Registrations Up 8.9% YoY to 38,657 Units; Replacement Demand Now Driving Growth",
+      "section": "金融",
+      "date": "2026/08/04 00:57:21",
+      "url": "https://money.udn.com/money/story/5612/9668645?from=edn_maintab_cate",
+      "summary": "Taiwan's new vehicle registrations reached 38,657 units in July 2026, up 8.9% year-on-year, though down 6.5% month-on-month due to typhoon disruptions and short-term equity market volatility dampening consumer sentiment. Cumulative January–July registrations stand at 240,935 units, up 2.8% YoY, pointing to resilient full-year growth. Industry observers note that market momentum has structurally shifted from first-time buyers to **replacement-cycle demand** (vehicles aged 8–10+ years), providing a more durable demand base. The earlier overhang from US tariff uncertainty on American-made vehicles has largely dissipated, with consumers refocusing on product quality and promotional offers. For investors in Taiwan-listed auto-related stocks and dealers, the data suggests a stable demand backdrop, though monthly volatility from weather and macro sentiment remains a factor.\n\n---"
+    },
+    {
+      "title": "Scientech (精測) Posts Record July Consolidated Revenue, Driven by AI and HPC Demand",
+      "section": "證券 (Securities)",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/11074/9668327?from=edn_subcatelist_cate",
+      "summary": "Scientech (6510), a semiconductor test interface manufacturer, reported July consolidated revenue of NT$615 million — a single-month all-time high — up 7.1% MoM and 49.9% YoY. Cumulative January–July revenue reached NT$3.612 billion, +30.0% YoY. The company attributed the record to strong shipment momentum in AI and high-performance computing (HPC) related products, driven by continued data center and cloud capex expansion under the Agentic AI wave. Capacity is set to double by end of August 2026 versus end-2025, and triple by March 2027. GPU and ASIC chip testing are identified as key growth engines. The stock rose NT$160 to close at NT$2,655. This underscores the broadening AI supply chain opportunity beyond flagship names, with test interface providers emerging as high-growth beneficiaries."
+    },
+    {
+      "title": "U.S. Markets Surge — Dow Jones Closes at Record High on Trump-Iran Talks",
+      "section": "產經",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/5599/9668870",
+      "summary": "U.S. equities rallied sharply on August 4, with the Dow Jones Industrial Average surging 693 points (+1.32%) to a record close of 53,178. The S&P 500 gained 1.48% to 7,600.50, and the Nasdaq rose 2.13% to 25,913.90. The Philadelphia Semiconductor Index advanced 1.05% to 11,430.35. The catalyst was President Trump's claims that U.S.-Iran negotiations are ongoing — despite Tehran's denial — raising hopes for geopolitical de-escalation and potential reopening of the Strait of Hormuz. The semiconductor index gain is directionally positive for Taiwan's tech exporters and ADR pricing."
+    },
+    {
+      "title": "MediaTek and King Yuan Electronics Among Four Favored Stocks — AI Chip Demand Drives Upgraded Price Targets",
+      "section": "證券 (Securities)",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/5739/9668351?from=edn_subcatelist_cate",
+      "summary": "Foreign institutional investors have significantly raised their price target on MediaTek (2454) from NT$2,605 to NT$4,250, applying a sum-of-the-parts (SOTP) valuation: 43x P/E on AI ASIC business and 14x P/E on smartphone segment, reflecting MediaTek's strategic pivot away from traditional handsets toward AI ASIC design. Despite the dramatic target upgrade, the rating remains \"Neutral\" due to uncertainties around HBM memory procurement and variability in Google TPU ASP uplift (from the Zebrafish to Humufish architecture transition, where ASPs have risen from $4,000–$5,000 to $12,000–$15,000). King Yuan Electronics (2449) is flagged as a beneficiary of rising GPU and ASIC test demand, particularly burn-in testing. The elevated target price on MediaTek is a key data point for fund managers tracking Taiwan's AI supply chain, though the maintained neutral rating signals that near-term upside may already be priced in.\n\n---"
+    },
+    {
+      "title": "Wistron Expands into CSP and Neocloud Customers, Blurring Boundary with Subsidiary Wiwynn",
+      "section": "金融",
+      "date": "2026/08/05 01:38:43",
+      "url": "https://money.udn.com/money/story/11162/9671180?from=edn_subcatelist_cate",
+      "summary": "Wistron (3231) announced a significant strategic shift at its August 4 investor conference: the company is actively pursuing Cloud Service Provider (CSP) and Neocloud AI model customers — market segments previously dominated by its listed subsidiary Wiwynn. The rationale is that the AI server ODM market is highly oligopolistic, and Wistron's management is unwilling to forfeit any orders. Chairman Lin indicated that Wistron is evolving from traditional ODM toward higher-value \"technology services,\" which carry superior margins and are expected to grow at high percentage rates. Wistron is also investing in a computing power center at NCKU Tainan campus, available to both internal use and Taiwan startups. This strategic convergence between Wistron and Wiwynn's customer bases may raise questions about intra-group competition and resource allocation, and investors in both entities should monitor how the group delineates responsibilities going forward."
+    },
+    {
+      "title": "PSMC Vows Annual Profitability and Dividends; Management Affirms \"Three Unchanged\" Principles Post-Founder Death",
+      "section": "金融",
+      "date": "2026/08/05 01:13:21",
+      "url": "https://money.udn.com/money/story/5612/9671047?from=edn_maintab_cate",
+      "summary": "Following the sudden passing of founder Frank Huang on July 31, Power Semiconductor Manufacturing Co. (PSMC, 6770) held a press conference on August 4 with Acting Chairman Hsieh Tsai-chu and President Chu Hsien-kuo, who outlined three commitments: core business growth trajectory unchanged, management team unchanged, and strategic direction unchanged. PSMC's three business pillars — memory foundry, logic foundry, and AI/advanced packaging — are expected to deliver sustained profitability and dividends annually. Notably, the planned sale of its Tongluo fab to Micron will inject over NT$50B in cash, strengthening the balance sheet by reducing debt ratios and depreciation burdens. The company also flagged deepening collaboration with Micron beyond the asset sale, potentially including HBM-related work. The press conference effectively addressed succession and governance concerns, and serves as a stabilizing signal for PSMC shareholders."
+    },
+    {
+      "title": "GlobalWafers Q3 Outlook Clouded by Italian Plant Fire; Full-Year Performance Expected Flat to Growing",
+      "section": "金融",
+      "date": "2026/08/05 00:58:09",
+      "url": "https://money.udn.com/money/story/5612/9670978?from=edn_subcatelist_cate",
+      "summary": "GlobalWafers (6488) Chairwoman Doris Hsu disclosed at the company's investor conference that Q3 results will face uncertainty due to a fire at its Italian facility, tempering earlier expectations for a stronger sequential improvement. Nevertheless, full-year 2026 performance is still expected to range from flat to modest growth, with 2027 projected to deliver significantly higher revenue. Hsu noted that silicon wafer spot prices are expected to rise in H2 2026 and Q1 2027, and that long-term contract prepayments should increase materially from H1 2027. The company is actively negotiating price increases with customers as industry supply-demand conditions improve and order visibility rises. AI, HPC, and mature-node demand are cited as key long-term drivers, and GlobalWafers is expanding capacity to capture 2027 revenue upside."
+    },
+    {
+      "title": "Taiwan Stock Market Scenario Analysis: High Probability of Breaking Through Monthly/Quarterly Moving Average Resistance, Targeting 45,500 Points",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5607/9671028?from=edn_maintab_cate",
+      "summary": "Taiwan's weighted index closed down 25 points at 43,360 on August 4th, after an intraday swing of over 1,016 points as the index encountered dual resistance at the 20-day (monthly) and 60-day (quarterly) moving averages, with combined stop-loss and profit-taking selling pressure. Turnover expanded to NT$1.08 trillion. Institutional analysts outline three scenarios: (1) a volume-driven breakout above resistance toward 45,500 — the most probable outcome, contingent on daily volume exceeding NT$1.2 trillion; (2) sideways consolidation if volume stays in the NT$0.9–1 trillion range; and (3) a pullback to re-test the 180-day moving average if volume falls below NT$0.9 trillion. Leading investment strategists from KGI, Fubon, and Taishin note that the 10-day line held as support and short-term KD indicators continue to trend upward, suggesting the market remains in a constructive posture pending volume confirmation."
+    },
+    {
+      "title": "August Taiwan ETF Dividend Distribution Roundup: 00878, 00929, 00891 and Others Hit Record Payouts",
+      "section": "產經 (Industry/Economy)",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/5618/9669757",
+      "summary": "Twenty-nine Taiwan-listed ETFs are scheduled to go ex-dividend between August 4th and 25th, with the ex-dividend peak falling around August 18th. Driven by Taiwan equities' strong first-half performance — up approximately 60% — multiple ETFs are distributing record per-unit dividends, including Cathay Taiwan Tech Leaders (00881) at NT$4.6, UPAMC Taiwan ESG Low Carbon 50 (00923) at NT$3.05, China Trust Small Cap High Price 30 (00894) at NT$2.05, Mega Taiwan Wafer Manufacturing (00913) at NT$1.78, China Trust Key Semiconductor (00891) at NT$1.55, and Cathay Sustainable High Dividend (00878) at NT$1.01. This broad-based record payout cycle reflects robust underlying equity gains and underscores continued retail investor appetite for income-generating ETF products in Taiwan."
+    },
+    {
+      "title": "GlobalWafers: Customer Inventories Healthy, Silicon Wafer Capacity Fully Loaded",
+      "section": "金融 (Finance)",
+      "date": "2026/08/04",
+      "url": "https://money.udn.com/money/story/11162/9670699?from=edn_subcatelist_cate",
+      "summary": "GlobalWafers Chairwoman Doris Hsu reported at the company's Q2 2026 investor conference that semiconductor medium-to-long-term prospects remain positive, with AI and high-performance computing (HPC) demand continuing to grow and customer inventories returning to healthy levels. All wafer sizes — 12-inch, 8-inch, and 6-inch — are running at full capacity. Q2 revenue reached NT$15.214 billion, up 8.8% quarter-on-quarter, while net profit after tax surged 99.3% QoQ to NT$3.779 billion (EPS: NT$7.9), partly boosted by valuation gains from its Siltronic stake. First-half revenue of NT$29.199 billion was down 7.6% year-on-year due to higher depreciation and expansion-related costs, though net profit rose 80.9% YoY. The strong capacity utilization data and positive demand commentary from GlobalWafers — a key upstream supplier in the semiconductor supply chain — provides a constructive read-through for Taiwan's broader semiconductor sector."
+    },
+    {
+      "title": "Hon Hai and Wistron in Focus for Call Warrant Positioning",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05 00:26:26",
+      "url": "https://money.udn.com/money/story/5739/9671057?from=edn_subcatelist_cate",
+      "summary": "Following last week's sharp volatility — during which the TAIEX briefly broke below 40,000 points on July 29 before rebounding to 43,000 on July 30 — institutional attention has turned to stocks that foreign investors aggressively accumulated during the selloff. **Hon Hai (2317)** and **Wistron (3231)** emerged as key names bought by foreign investors against the market trend, positioning them as likely first movers when capital re-enters. Analysts note that ODM server assembly is beginning to face component shortages, but AI server demand is expected to remain prioritized, with Q3 AI server shipments projected to grow in the high single digits quarter-on-quarter and Q4 forecast as the peak quarter for the year. Hon Hai is also seen deepening its component supply role to expand per-rack revenue value, supporting both revenue growth and margin improvement in the AI server cycle."
+    },
+    {
+      "title": "MediaTek (2454) — Two Warrant Plays Highlighted as ASIC Revenue Ramp Drives Upgraded Outlook",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05 00:18:40",
+      "url": "https://money.udn.com/money/story/5739/9671074?from=edn_subcatelist_cate",
+      "summary": "MediaTek's stock has recovered above short-term moving averages, prompting institutional analysts to upgrade their rating to **Buy** with a target price raised to **TWD 6,000**. The key catalyst is the data center ASIC business, expected to enter mass production in Q4 2026, contributing over USD 2 billion in full-year revenue, scaling further to several billion dollars in 2027. Revenue estimates have been revised up to TWD 656.5 billion for 2026 (+10.2% YoY) and TWD 1.12 trillion for 2027 (+71.2% YoY), with EPS forecasts of TWD 72.09 and TWD 157.37 respectively. This represents a transformational inflection driven by AI infrastructure spending, moving MediaTek beyond its traditional mobile chipset base."
+    }
+  ],
+  "not_relevant": [
+    "1. **GPU Price Surge \"One Price Per Day\" Boosts ASUS, MSI Profits** (2026/08/04) — Duplicate/overlap of Article 3; no incremental relevance beyond what Article 3 covers.",
+    "2. **CSP Players Monetize Assets to Support AI Compute Expansion** (2026/08/04) — Covers global cloud capex (Google, Meta, NVIDIA business models); no direct Taiwan listed-company or financial sector angle.",
+    "3. **Taiwan Mobile Upgrades Overseas Travel Insurance: Adds Statutory Infectious Disease and Transport Delay Coverage** (2026/08/03) — Product launch by Taiwan Mobile (3045) / Fubon P&C; minor insurance product news, not material to life insurers, FSC policy, or macro themes.",
+    "*No articles were fully irrelevant — all five covered major Taiwan listed companies in the semiconductor/technology sector, which falls within the monitored universe. However, none of the five articles addressed life insurers, FSC, foreign investor flows, CBC monetary policy, interest rates, or Taiwan Dollar dynamics specifically.*"
+  ]
+}
