@@ -1,0 +1,196 @@
+{
+  "date": "2026-08-06",
+  "update_time": "2026-08-06 06:08:08",
+  "total_articles": 31,
+  "high": [
+    {
+      "title": "[TSMC Kumamoto Fab Resumes Operations — Production Line Restored in Under One Week, Demonstrating Strong Crisis Response]",
+      "section": "金融",
+      "date": "2026/08/05 01:10:40",
+      "url": "https://money.udn.com/money/story/5612/9671058?from=edn_maintab_cate",
+      "summary": "Following the magnitude 7.1 earthquake that struck Kumamoto, Japan on July 28, TSMC's (2330) JASM fab has fully restored operations to pre-earthquake levels in under one week. TSMC dispatched engineers and emergency response personnel from its Taiwan headquarters to recalibrate production equipment. The Kumamoto Fab 1, which produces 12–28nm mature-node wafers, resumed production just six days after the quake, while Fab 2 — slated to produce 3nm advanced chips in approximately two years — has also resumed construction. TSMC additionally announced a donation of ¥250 million (approximately NT$51.47 million) toward Kumamoto earthquake relief, supplemented by an employee fundraising initiative through its charitable foundation.\n\n**Market Implications:** The rapid recovery is a meaningful positive signal for TSMC investors and its global customers, demonstrating supply chain resilience at a strategically critical facility. Any extended disruption at JASM would have had knock-on effects for mature-node customers. The swift restoration removes a near-term operational risk overhang. TSMC's long-term commitment to Japan — spanning nearly 30 years — is reinforced, which should help maintain favorable relations with Japanese government partners supporting JASM's funding arrangements."
+    },
+    {
+      "title": "[Mature-Node Wafer Prices to Rise More Sharply Next Year — Vanguard, UMC, PSMC All Confirm Strong AI-Driven Demand]",
+      "section": "金融",
+      "date": "2026/08/05 01:33:43",
+      "url": "https://money.udn.com/money/story/5612/9671027?from=edn_maintab_cate",
+      "summary": "Vanguard International Semiconductor (5347) Chairman Fang Lüeh stated at an investor conference on August 4 that AI-driven demand for mature-process chips is surging, and that pricing will continue to rise in 2027 at a pace exceeding 2026 increases. UMC (2303) and PSMC (6770) echoed this pricing trajectory. Institutional investors are projecting significant earnings growth across all three foundries, with capacity utilization rates expected to exceed 90% and gross margins approaching 45–50%. The pricing trend is attributed to: (1) TSMC's gradual exit from mature nodes, redirecting orders to peers such as Vanguard; (2) AI spillover demand for power management ICs, WiFi 7, IoT chips, and MCUs; and (3) server power supply demand surge.\n\n**Market Implications:** This is a strong bullish catalyst for Taiwan's mature-node foundry segment. UMC, Vanguard, and PSMC are positioned to benefit from structurally tighter supply-demand dynamics. Investors should monitor capacity utilization disclosures and ASP trends in upcoming quarterly results. The AI-to-mature-node linkage is becoming a durable investment thesis — not a short-term trade — which warrants re-rating consideration for this sub-sector."
+    },
+    {
+      "title": "MSCI Quarterly Rebalancing Announced for August 13 — Taiwan Weight Reduction Likely",
+      "section": "證券",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5607/9671029?from=edn_subcatelist_cate",
+      "summary": "MSCI will announce its latest quarterly index rebalancing on August 13, with changes taking effect at month-end. Institutional analysts assess that Taiwan's weighting is likely to be reduced, given that Taiwan's share of ex-Japan Asia-Pacific market capitalization declined by 0.26 percentage points between May 29 and July 31. Over that period, Taiwan's total market cap fell approximately 6% from USD 4.6 trillion to USD 4.3 trillion — the second-largest decline in the ex-Japan APAC region after South Korea (-18%). Taiwan's weight slipped from 17.67% to 17.41%. Other markets, including Hong Kong (+1.33 pp), saw gains. On potential new additions, Chiaohwa Investment Advisory screens Nanya Technology (2408), Formosa Petrochemical (6505), and Nan Ya PCB (8046) as candidates based on market cap growth, foreign buying, and non-watch-list status. **Market implication:** A confirmed weight reduction could trigger passive fund outflows from Taiwan equities, adding near-term selling pressure, particularly on large-cap constituents. Investors should monitor the August 13 announcement closely."
+    },
+    {
+      "title": "Hon Hai and Wistron in Focus as Foreign Investors Accumulate Amid Volatility",
+      "section": "證券",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5739/9671057?from=edn_subcatelist_cate",
+      "summary": "During last week's sharp Taiwan market correction — when the TAIEX briefly broke below 40,000 points on July 29 before rebounding to 43,000 on July 30 — foreign investors notably accumulated Hon Hai (2317) and Wistron (3231) as key AI infrastructure plays. Analysts expect Q3 AI server shipments to maintain high single-digit quarter-on-quarter growth despite component shortages, with Q4 projected as the full-year operational peak. Hon Hai is expected to maintain its position as the primary supplier of VR200 NVL72 server racks and is actively increasing its component supply mix to expand per-rack revenue value. **Market implication:** Foreign accumulation of Hon Hai and Wistron during the selloff signals continued institutional conviction in AI server demand. These stocks and related call warrants are flagged as leading indicators for the next market recovery leg."
+    },
+    {
+      "title": "[Hon Hai July Revenue Hits Record High of NT$946.5 Billion, Up 54.19% YoY — Monthly Revenue of NT$1 Trillion in Sight]",
+      "section": "金融",
+      "date": "2026/08/06 01:33:25",
+      "url": "https://money.udn.com/money/story/5612/9673476?from=edn_maintab_cate",
+      "summary": "Hon Hai Precision (2317) reported July consolidated revenue of NT$946.51 billion, surpassing the NT$900 billion threshold for the first time and setting a new all-time single-month record for any Taiwan-listed company. The result represents a month-on-month increase of 15.18% and a remarkable year-on-year surge of 54.19%, driven by strong AI server product shipments and new order pull-ins from non-Apple clients. Cumulative January–July revenue reached NT$5.589 trillion, also a record for the comparable period, up 37.89% YoY. Institutional investors are optimistic that August revenue will breach the NT$1 trillion mark — which would be a historic first for any Taiwan-listed company — as Apple's new iPhone ramp-up cycle begins and AI shipments remain robust. Full-year revenue is being targeted at NT$10 trillion. Management noted broad-based strength across all four product categories in July, with cloud/network products and computer terminals showing the sharpest sequential gains. Hon Hai's investor day is scheduled for August 12, where Q2 financials and forward guidance will be disclosed. **Market implication**: The revenue trajectory reinforces Hon Hai's central role in AI infrastructure supply chains and supports a re-rating of earnings estimates. Investors should watch the August 12 earnings call closely for AI cabinet order visibility and margin commentary."
+    },
+    {
+      "title": "[Nanya Technology Announces Largest-Ever Investment: NT$346.6 Billion 5A Fab, Accelerating Advanced DRAM Process Race]",
+      "section": "金融",
+      "date": "2026/08/06 01:06:59",
+      "url": "https://money.udn.com/money/story/5612/9673469?from=edn_maintab_cate",
+      "summary": "Nanya Technology (2408), the Formosa Plastics Group's DRAM subsidiary, announced a landmark capital expenditure decision: its 2026 capex budget has been raised by 34% to NT$69.7 billion (from NT$52 billion), and the company will invest up to NT$346.6 billion in a new 5A fabrication facility over four years (2026–2029). This represents the largest single investment in Taiwan's DRAM industry in nearly 20 years and Nanya's largest-ever capital commitment. The 5A fab's Phase 1 target is a monthly wafer input capacity of 35,900 wafers, with EUV lithography equipment to be deployed as the cornerstone of its next-generation DRAM process node (10nm-class). Funding will come from a combination of internal cash, bank loans, and other financing channels. Maximum planned capacity for the 5A fab is 45,000 wafer starts per month. Industry analysts interpret this aggressive investment stance — unusual for the traditionally conservative Formosa Plastics group — as a strong signal that the current memory supply shortage and price surge cycle has further to run, and that AI-driven DRAM demand is structurally sound. **Market implication**: This investment signals sustained upward pressure on DRAM pricing and validates the AI memory demand thesis. It also raises Nanya's financial leverage risk, making the funding structure and bank credit facilities worth monitoring. Positive read-through for the broader Taiwan memory and semiconductor equipment supply chain."
+    },
+    {
+      "title": "SpaceX Fully Adopts NVIDIA Chips — Musk Praises Performance, Boosting TSMC, Hon Hai, and Wistron Orders",
+      "section": "金融",
+      "date": "2026/08/06 00:42:57",
+      "url": "https://money.udn.com/money/story/11162/9673415?from=edn_maintab_cate",
+      "summary": "SpaceX CEO Elon Musk announced at an earnings call that SpaceX will fully transition to NVIDIA's latest Vera Rubin AI chips, accelerating computing capacity buildout to compete with Microsoft, Google, and other top-tier cloud providers. This is a significant positive catalyst for Taiwan's supply chain: TSMC (2330) as the primary chip manufacturer, Hon Hai (2317), and Wistron (3231) are expected to see sustained order momentum. However, SpaceX's capital expenditure surged more than fivefold year-over-year to USD 18.4 billion last quarter, with AI-related spending alone reaching USD 15.8 billion — reigniting market concerns over return on investment timelines. The CFO guided that capex will remain at similar elevated levels for at least two more quarters. SpaceX's AI business (including xAI, Grok, platform X, and data centers) posted revenue of USD 2.6 billion (+247% YoY), driven by cloud service contracts totaling USD 14.1 billion signed last quarter. Despite the positive demand signal for Taiwan's AI supply chain, SpaceX shares fell over 10% in early trading on capex concerns — a risk factor investors should monitor for potential demand sustainability and order visibility."
+    },
+    {
+      "title": "AMD Reports Strong Q2 but Weak Guidance Disappoints — Taiwan Supply Chain Impact on TSMC and Others",
+      "section": "金融",
+      "date": "2026/08/06 00:34:19",
+      "url": "https://money.udn.com/money/story/5612/9673417?from=edn_subcatelist_cate",
+      "summary": "AMD reported record Q2 revenue of USD 11.536 billion (+13% QoQ, +50% YoY), with non-GAAP gross margin of 56% (+13 ppts YoY) and diluted EPS of USD 1.66, all beating Wall Street consensus. CEO Lisa Su guided that data center revenue could more than double next year. However, AMD's Q3 guidance missed the market's high-end expectations, and notably, SpaceX confirmed it will no longer use AMD chips in favor of NVIDIA — both factors sent AMD shares down over 8% in early U.S. trading. Institutional investors expect this volatility to directly impact Taiwan supply chain companies including TSMC (2330), Pegatron (4938), Wiwynn (6669), Compal (2324), MiTAC (3706), and Jentech (3653). The data center segment generated USD 6.718 billion (+107% YoY), representing 58% of total revenue, driven by strong demand for EPYC processors and Instinct GPUs. Fund managers with exposure to AMD-linked Taiwan names should reassess near-term order visibility given the guidance miss and SpaceX's pivot to NVIDIA."
+    },
+    {
+      "title": "Taiwan Stock Market \"Double Short-Squeeze Rally\" — Index Surges 4,678 Points in Four Sessions; TSMC and MediaTek Lead",
+      "section": "證券 (Securities)",
+      "date": "2026/08/06 01:21:09",
+      "url": "https://money.udn.com/money/story/5607/9673499?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index staged a powerful V-shaped recovery, surging 1,250 points (+2.8%) on August 5 to close at 44,611, accumulating a 4,678-point gain over just four trading sessions on turnover expanding to NT$1.2 trillion. The rally was driven by a dual short-squeeze dynamic — covering of outright short positions and short-sellers forced to re-enter the market. TSMC (2330) rose NT$85 to NT$2,405, reclaiming all moving averages and contributing approximately 707 index points, while MediaTek surged NT$135 to recapture the NT$4,000 level, adding 69 index points. Other outperforming sectors included memory chips, low-earth-orbit satellites, silicon photonics, and PCBs. Foreign institutional investors, currently employing a market-neutral strategy, have been adding to AI-related alpha names while using index futures shorts as beta hedges. Near-term resistance is seen at 45,000–46,000. Critically, foreign investors' average futures short cost basis is approximately 44,000 points — a sustained hold above this level creates intensifying covering pressure. Fund managers should note that TWD exchange rate trends and JPY appreciation-driven carry-trade unwinding remain key tail risks for the near term."
+    },
+    {
+      "title": "Taiwan Taiex Approaches 45,000 — Experts Offer Eight-Character Strategy for Trapped Holders and Sidelined Investors",
+      "section": "證券 (Securities)",
+      "date": "2026/08/06 01:18:23",
+      "url": "https://money.udn.com/money/story/5607/9673505?from=edn_maintab_cate",
+      "summary": "Following a near-5,000-point rebound in four sessions, Taiwan's equity market reclaimed both its monthly and quarterly moving averages, with the intraday high reaching 44,980. Fubon Investment Advisory Chairman Chen Yi-kuang and Taishin Investment Advisory President Huang Wen-ching advise against chasing the rally blindly, recommending a \"segmented response, range-bound operation\" approach. Near-term (45,000–46,000), they suggest trimming cyclical rebound plays such as memory and passive components. For structurally weak holdings or companies with disappointing Q2 results and no AI narrative, reducing exposure near the quarterly moving average is advised. For long-term core holdings — particularly TSMC and AI supply-chain leaders with strong fundamentals that were indiscriminately sold during the sell-off — continued holding is recommended, with re-entry considered on a secondary pullback. Two key macro risks flagged: (1) JPY appreciation potentially triggering global carry-trade unwinds, and (2) NTD depreciation pressure affecting foreign investor sentiment and capital flows. Both factors are directly relevant to life insurer FX hedging costs and foreign investor positioning."
+    }
+  ],
+  "medium": [
+    {
+      "title": "[Huaqiangbei DRAM Spot Prices Surge — Single-Week Gain of up to 14%; Nanya, Winbond Among Beneficiaries]",
+      "section": "金融",
+      "date": "2026/08/05 01:16:05",
+      "url": "https://money.udn.com/money/story/5612/9671038?from=edn_maintab_cate",
+      "summary": "Shenzhen's Huaqiangbei market — regarded as the world's largest electronics wholesale hub — reported a sharp week-on-week DRAM price surge, ending roughly six months of subdued spot price movement. DDR4 8Gb 3200 rose 12.82% to $22, while DDR5 24Gb and DDR5 16Gb each jumped 14.29%. Taiwan DRAM-related stocks including Nanya Technology (2408) and Winbond (2344) both hit the daily limit-up on August 4. Industry sources note that original equipment manufacturers' 2027 DRAM and HBM capacity is nearly sold out, reinforcing the tightening supply narrative and countering recent negative market sentiment.\n\n**Relevance:** A meaningful short-term positive for Taiwan's DRAM and memory-related equities (Nanya, Winbond, ADATA, Transcend). Spot price momentum at Huaqiangbei is a reliable early indicator of contract price direction. Fund managers with exposure to memory stocks should reassess upside scenarios given the velocity of this move."
+    },
+    {
+      "title": "[Wistron AI Server Shipments Strong Through Next Year — Plans GDR Issuance Targeting NT$45 Billion in Capital Raise]",
+      "section": "金融",
+      "date": "2026/08/05 01:01:34",
+      "url": "https://money.udn.com/money/story/11162/9670975?from=edn_maintab_cate",
+      "summary": "Wistron (3231) held an investor conference on August 4, with Chairman Simon Lin expressing confidence in sustained AI server momentum. President Brian Lin noted new customer wins for GB300 and Vera Rubin platforms, with H2 2026 AI server shipments expected to outperform H1, and H1 2027 orders continuing to ramp. The board approved approximately NT$13.5 billion in aggregate new global capex (Taiwan, U.S., Vietnam). To fund inventory pre-building and global expansion, Wistron's board also approved a GDR issuance of up to 250 million shares, with the raise potentially exceeding NT$45 billion based on the August 4 closing price of NT$195.\n\n**Relevance:** The large GDR issuance signals confidence in AI server demand but introduces near-term dilution risk for existing shareholders. The Vera Rubin ramp and enterprise/CSP customer diversification are positive structural developments worth monitoring."
+    },
+    {
+      "title": "[PSMC Targets Annual Profits and Dividends — President Announces \"Three Unchanging Principles\" After Founder's Death]",
+      "section": "金融",
+      "date": "2026/08/05 01:13:21",
+      "url": "https://money.udn.com/money/story/5612/9671047?from=edn_maintab_cate",
+      "summary": "Following the sudden passing of PSMC (6770) founder Huang Chung-jen on July 31, acting Chairman Hsieh Tsai-chu and President Chu Hsien-kuo held a press conference on August 4 to reassure stakeholders. Chu announced \"three unchanging principles\": (1) upward business trajectory, (2) management team continuity, and (3) strategic direction unchanged — implicitly addressing concerns about a potential corporate governance disruption. PSMC's three business pillars — memory foundry, logic foundry, and AI/advanced packaging services — remain intact. The planned sale of the Tongluo fab to Micron will generate over NT$50 billion in cash, improving the balance sheet and reducing depreciation burden. The Micron partnership is expected to extend into HBM-related collaboration.\n\n**Relevance:** Corporate governance continuity is the key investor concern following the founder's death. The management's prompt public reassurance and the Micron asset sale/partnership are stabilizing factors. Investors should watch for any changes in ownership structure or board composition in coming weeks."
+    },
+    {
+      "title": "GlobalWafers: Italian Plant Fire Adds Q3 Uncertainty, But Full-Year Performance Expected to Be Flat-to-Growth",
+      "section": "金融",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5612/9670978?from=edn_subcatelist_cate",
+      "summary": "GlobalWafers (6488.TW) — Taiwan's largest and the world's third-largest semiconductor silicon wafer manufacturer — held its analyst day on August 4. Chairwoman Doris Hsu flagged that a fire incident at the company's Italian plant has introduced downside risk to the previously more optimistic Q3 outlook, though full-year 2026 performance is still expected to come in flat-to-growth versus 2025. Management guided for a meaningfully stronger revenue year in 2027, supported by a ramp in new capacity. Spot prices for silicon wafers are expected to rise in H2 2026 and Q1 2027, and long-term contract prepayments are projected to increase significantly from H1 2027. Customer inventories are described as healthy, and capacity utilisation across 12-inch, 8-inch, and 6-inch wafers is currently at full load. Demand drivers cited include AI/HPC infrastructure expansion from cloud to edge, advanced packaging, HBM, and silicon photonics. The Italian plant fire remains a near-term watch item for investors, but medium-to-long-term sentiment is constructive."
+    },
+    {
+      "title": "Wistron H1 2026 EPS Reaches NT$7.78, Q2 Net Profit Hits Record High",
+      "section": "金融",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/11162/9670980?from=edn_subcatelist_cate",
+      "summary": "Wistron (3231.TW) reported Q2 2026 after-tax net profit of NT$14.827 billion, a record high, up 54% QoQ and 128% YoY, with EPS of NT$4.72. H1 2026 cumulative net profit reached NT$24.458 billion (EPS: NT$7.78), also a record for the period, up 106% YoY, on consolidated revenues of NT$1.74 trillion (+94% YoY). Gross margin averaged 5.44% for H1, slightly down 0.3pp YoY. Institutional investors expect H2 performance to exceed H1, implying full-year EPS of at least 1.5x book value and a new annual profit record. Chairman Simon Lin attributed the strong results to AI server demand remaining firmly in a growth trend, and expressed confidence that H2 will sustain H1's momentum — a positive read-across for the broader Taiwan AI server supply chain."
+    },
+    {
+      "title": "Wistron Moves Aggressively into CSP, Neocloud, and AI Model Clients — Boundary with Wiwynn Blurs",
+      "section": "金融",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/11162/9671180?from=edn_subcatelist_cate",
+      "summary": "At its August 4 analyst day, Wistron (3231.TW) announced a significant strategic shift: the company will no longer limit itself to enterprise customers and will actively pursue Cloud Service Provider (CSP) and Neocloud clients — territory previously dominated by its affiliate Wiwynn (6669.TW). Chairman Simon Lin cited the highly oligopolistic nature of AI server systems supply as the key rationale; the group cannot afford to pass on any order. Wistron is also pivoting toward higher-margin \"technology services\" beyond traditional ODM, leveraging its industrial base to cultivate new high-margin business lines. Additionally, the company is investing in a compute-power center at NCKU Tainan campus for internal use and external access by Taiwan startups. The blurring of the Wistron/Wiwynn client segmentation is a notable structural development and may have implications for Wiwynn's competitive positioning going forward."
+    },
+    {
+      "title": "Taiwan Stock Exchange Leverage Dashboard Targeting September Launch — FSC Mandates Transparency",
+      "section": "證券",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5607/9671046?from=edn_maintab_cate",
+      "summary": "The FSC (金管會) announced that the Taiwan Stock Exchange (TWSE) will build an official \"leverage dashboard\" targeting a go-live by end of September, consolidating key margin trading data including margin loan balances, portfolio collateral maintenance ratios, short-selling ratios, and uncapped-purpose lending figures. The initiative follows controversy over discrepancies between CMoney-published margin maintenance data and TWSE figures, which prompted the CMoney data to be taken down and raised public concerns about data suppression. The FSC's Securities and Futures Bureau Deputy Director Huang Chung-hao emphasized the regulator's commitment to transparency, stating: \"There is no covering up — only disclosure.\" **Implication:** Enhanced systemic leverage visibility is a positive regulatory development, though it also signals the FSC is monitoring margin risks carefully amid elevated market volatility."
+    },
+    {
+      "title": "TAIEX Technical Outlook: Three Scenarios as Index Tests Monthly and Quarterly Moving Averages",
+      "section": "證券",
+      "date": "2026/08/05",
+      "url": "https://money.udn.com/money/story/5607/9671028?from=edn_maintab_cate",
+      "summary": "Taiwan's benchmark index closed down 25 points at 43,360 on August 4, with intraday volatility of over 1,016 points and turnover expanding to TWD 1.08 trillion. Institutional analysts outline three scenarios: (1) **Bullish breakout** — if daily volume exceeds TWD 1.2 trillion, the index could clear resistance at the monthly and quarterly moving averages and target 45,500 (most probable scenario); (2) **Sideways consolidation** — volume in the TWD 0.9–1.0 trillion range suggests range-bound trading as the market digests overhead supply; (3) **Pullback to the 26-week moving average** — if volume drops below TWD 0.9 trillion, a retest of the semi-annual support line is possible. Technical indicators including the 5-day MA upturn and KD values trending higher are supportive near-term."
+    },
+    {
+      "title": "[MediaTek: Two Warrants in Play — Rating Upgraded to Buy, Target Price Raised to NT$6,000]",
+      "section": "證券",
+      "date": "2026/08/05 00:18:40",
+      "url": "https://money.udn.com/money/story/5739/9671074?from=edn_subcatelist_cate",
+      "summary": "MediaTek (2454) has seen its share price recover above key short-term moving averages, prompting institutional investors to upgrade their rating to \"Buy\" with a target price raised to NT$6,000. The primary catalyst is the expected commencement of ASIC revenue contribution from Q4 2026, with data center ASIC shipments projected to generate over US$2 billion in full-year 2026 revenue, scaling to multi-billion dollars in 2027. Revised consensus estimates put 2026 and 2027 revenue at NT$656.5 billion and NT$1.12 trillion respectively (YoY growth of 10.2% and 71.2%), with EPS of NT$72.09 and NT$157.37. The extraordinary 2027 revenue ramp reflects MediaTek's strategic pivot into the high-value AI data center ASIC market, which materially diversifies its revenue base beyond mobile chipsets. **Market implication**: If ASIC ramp execution is on track, MediaTek's 2027 valuation re-rating potential is significant; investors should monitor Q3 2026 earnings for early ASIC design win confirmation."
+    },
+    {
+      "title": "[CCL Boom: Chemical Companies Nanya Plastics, Guojing Chemical, Shuang Jian Race to Expand Capacity]",
+      "section": "金融",
+      "date": "2026/08/06 01:02:37",
+      "url": "https://money.udn.com/money/story/10871/9673403?from=edn_maintab_cate",
+      "summary": "Surging demand for high-end copper clad laminates (CCL) driven by AI servers, HPC, and advanced networking is creating significant upstream supply chain opportunities. Taiwan-based CCL material suppliers — including Nanya Plastics (1303), Guojing Chemical, Shuang Jian, and Chong Shun — are aggressively expanding production capacity to capture AI-related materials demand. Nanya Plastics reported that Q2 saw unprecedented simultaneous supply tightness across fiberglass cloth, copper foil, CCL, and ABF substrates, with resource crowding-out effects causing shortages and price increases to spill over into mid- and basic-grade materials. Nanya noted near-full utilization rates across all product lines and confirmed progress from its partnership with Nitto Boseki in advancing high-grade materials. **Market implication**: Sustained AI infrastructure buildout provides multi-quarter visibility for upstream PCB materials suppliers; Nanya Plastics (1303) appears to be the most comprehensively positioned domestically given its full vertical integration across materials."
+    },
+    {
+      "title": "[Novatek Semiconductors — Positive Outlook, Foreign Investors Buy for 17 Consecutive Sessions]",
+      "section": "證券",
+      "date": "2026/08/05 00:25:01",
+      "url": "https://money.udn.com/money/story/5739/9671159?from=edn_subcatelist_cate",
+      "summary": "Novatek Microelectronics (3034), a leading display driver IC maker, is benefiting from rising OLED panel penetration and growing demand from edge AI devices including AI PCs and AI smartphones. Foreign investors have accumulated shares for 17 consecutive trading sessions since mid-July, pushing the stock back above the NT$500 level. Institutional commentary highlights near-term drivers including higher average selling prices from AI device display requirements (high resolution, high refresh rate, low power), stable automotive display IC shipments, and a high historical dividend yield providing downside support. Longer-term, the pipeline of high-end ASIC and edge AI vision products entering mass production is expected to expand Novatek's total addressable market and support earnings multiple expansion. **Market implication**: Sustained foreign buying flow and improving product mix toward higher-margin ASIC/AI visual products make Novatek a watch-list candidate; confirm through Q3 revenue data whether the OLED upgrade cycle is translating into meaningful ASP uplift."
+    },
+    {
+      "title": "Aspeed Technology Q2 Net Profit Surpasses Four Times Book Capital; H1 EPS of NT$78.28 — Best on Record",
+      "section": "金融",
+      "date": "2026/08/06 01:04:10",
+      "url": "https://money.udn.com/money/story/5612/9673475?from=edn_maintab_cate",
+      "summary": "Aspeed Technology (5274), Taiwan's \"stock king,\" reported Q2 after-tax net profit of NT$1.841 billion (+30.2% QoQ, +188% YoY), a single-quarter historical record, with EPS of NT$40.87. H1 after-tax profit reached NT$3.255 billion (+114% YoY), with EPS of NT$78.28 — the best first-half result in company history. July consolidated revenue hit a new monthly record of NT$1.524 billion (+16.33% MoM, +97.59% YoY), driven by easing component shortages and higher BMC (baseboard management controller) chip shipments for remote server management. Chairman Lin Hong-ming expressed confidence that AI demand remains robust through 2027 and has already received customer signals extending to 2028, emphasizing that cloud infrastructure is a structural long-term trend analogous to electricity buildout. Aspeed's stock rose NT$520 to close at NT$16,020."
+    },
+    {
+      "title": "Largan Precision July Revenue Surges 31% MoM; Q3 Gross Margin Expected to Break 50%",
+      "section": "金融",
+      "date": "2026/08/06 01:01:47",
+      "url": "https://money.udn.com/money/story/5612/9673480?from=edn_subcatelist_cate",
+      "summary": "Largan Precision (3008) reported July consolidated revenue of NT$4.877 billion (+31% MoM, -11% YoY), beating market expectations. Management guided that August pull-in demand will be stronger than July as the industry enters peak season. As Apple's primary lens supplier, Largan is expected to benefit from the upcoming iPhone 18 launch, which will reportedly feature a variable aperture lens on flagship models — a product Largan is positioned to supply. Institutional investors project quarterly revenue to rise sequentially through Q3, with gross margin potentially exceeding 50% driven by volume scale and higher average selling prices, though variable aperture lens yield rates remain a key uncertainty. Chairman Lin En-ping confirmed Q4 will be the busiest quarter of the year."
+    },
+    {
+      "title": "SpaceX Starlink Business Shines — Taiwan Satellite Supply Chain Stocks Surge",
+      "section": "金融",
+      "date": "2026/08/06 00:35:34",
+      "url": "https://money.udn.com/money/story/11162/9673420?from=edn_subcatelist_cate",
+      "summary": "SpaceX's Starlink satellite service reported Q2 revenue of USD 4.3 billion (+66% QoQ), with subscribers doubling to 12 million, though average revenue per user declined 22% YoY. SpaceX President Gwynne Shotwell declared intentions to capture significant market share from T-Mobile, AT&T, and Verizon by building terrestrial infrastructure for full mobile service. Taiwan Starlink-related supply chain stocks surged sharply: Shengtai (3491) and Hwatung (2313) hit upper limit (漲停), while Wistron NeWeb (6285) gained 7.5%. Institutions are bullish on continued SpaceX satellite expansion, including the rollout of next-generation V3 low-orbit satellites and the planned launch of the first orbital data center \"Starmind AI-1\" next year, both of which should sustain Taiwan supply chain order flows."
+    },
+    {
+      "title": "Chunghwa Telecom Reports Strong AI Progress; ICT Contract Value Surpasses Full-Year 2025 Level",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05 23:51:03",
+      "url": "https://money.udn.com/money/story/5710/9673175?from=edn_subcatelist_cate",
+      "summary": "Chunghwa Telecom (2412) reported at its Q2 analyst day that ICT business contract signings in H1 2026 already exceeded the full-year 2025 level, with year-on-year ICT revenue growth of 32%. Its U.S. operations — benefiting from AI supply-chain exposure — recorded revenue growth of 1,157% YoY. The company's Lunping AIDC is set to commence operations with a major cloud service provider (CSP) already reserved as a customer, and the Taiwan Stock Exchange has joined its Taichung AIDC, potentially anchoring a new financial-sector data hub. H1 EPS reached NT$2.68, exceeding the high end of guidance, with management expressing confidence in achieving full-year targets. Subsidiaries Jing Ce and Zhonghua Liding are targeting AI semiconductor testing and AI supply-chain opportunities respectively. For fund managers, Chunghwa Telecom is increasingly repositioning as a domestic AI infrastructure play with meaningful international revenue diversification — a relevant consideration for dividend-focused and infrastructure-themed portfolios."
+    },
+    {
+      "title": "Taiwan Market Rebounds to 45,000 — Buy or Sell? Analyst Maintains 50,000-Point Year-End Target",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05 18:42:12",
+      "url": "https://money.udn.com/money/story/5607/9673010?from=edn_maintab_cate",
+      "summary": "Moore Investment Advisory CIO Kuo Che-jung argues that the worst of Taiwan's correction is now behind it, maintaining a 50,000-point year-end target and a longer-term 100,000-point target within four years, underpinned by AI industry momentum. He disclosed a personal NT$100 million purchase of 0050 (Taiwan's flagship ETF) during last week's breach of 40,000, generating over NT$12 million in cumulative gains. He intends to hold until at least 50,000–60,000 points. The commentary also highlights the rapid commercialization of AI virtual actors in China — with 1-minute ad rates reaching NT$1.24 million — as evidence of AI monetization potential and a counter-argument to bubble concerns. While the bullish 100,000-point call warrants skepticism, the underlying thesis on AI supply-chain resilience and the ETF inflow dynamic during market dislocations is directionally relevant for positioning."
+    }
+  ],
+  "not_relevant": [
+    "*All five articles were relevant to covered topics (TSMC, major Taiwan listed companies, semiconductor sector). No articles were excluded.*",
+    "*No articles were fully irrelevant — all five articles pertained to major Taiwan listed companies covered under the fund manager's mandate. All articles have been summarized above.*",
+    "*All 5 articles were assessed as relevant to Taiwan listed companies and major technology/supply chain topics covered in the fund manager's focus universe. No articles were filtered out.*"
+  ]
+}
