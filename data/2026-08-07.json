@@ -1,0 +1,174 @@
+{
+  "date": "2026-08-07",
+  "update_time": "2026-08-07 06:07:56",
+  "total_articles": 34,
+  "high": [
+    {
+      "title": "Hon Hai (Foxconn) July Revenue Hits Record NT$946.5 Billion, Up 54.19% YoY — Monthly Trillion Target in Sight",
+      "section": "金融",
+      "date": "2026/08/06 01:33:25",
+      "url": "https://money.udn.com/money/story/5612/9673476?from=edn_maintab_cate",
+      "summary": "Hon Hai (2317) reported July consolidated revenue of NT$946.51 billion, breaking the NT$900 billion threshold for the first time and setting a new all-time monthly record for any Taiwan-listed company. The figure represents a 15.18% MoM gain and a striking 54.19% YoY surge, driven by strong AI product shipments and non-Apple customer new model pull-in effects. Cumulative January–July revenue reached NT$5.589 trillion, also a record for the period, up 37.89% YoY. Institutional investors are now pricing in the possibility that August revenue could breach NT$1 trillion — which would mark the first time any Taiwan-listed company achieves a single-month trillion-dollar revenue milestone. A full-year revenue target of NT$10 trillion is also being discussed. Management noted that AI cabinet demand remains on a growth trajectory and that ICT products are entering their traditional H2 peak season. A formal investor conference is scheduled for August 12, where Q2 financials and forward guidance will be disclosed. **Market implication:** This result significantly reinforces Hon Hai's positioning as a primary AI infrastructure beneficiary; consensus earnings upgrades are likely. Watch the August 12 analyst day for Q3 guidance and AI order visibility."
+    },
+    {
+      "title": "SpaceX Fully Adopts NVIDIA Chips — Positive Read-Through for TSMC, Hon Hai, Wistron",
+      "section": "金融",
+      "date": "2026/08/06 00:42:57",
+      "url": "https://money.udn.com/money/story/11162/9673415?from=edn_maintab_cate",
+      "summary": "SpaceX CEO Elon Musk publicly endorsed NVIDIA's latest Vera Rubin chip during an August 4 earnings call, confirming that SpaceX will fully migrate its AI infrastructure to NVIDIA platforms and accelerate compute capacity buildout to compete with Microsoft and Google. SpaceX's Q2 AI segment revenue surged 247% YoY to US$2.6 billion, supported by cloud service contracts. Total capex reached US$18.4 billion for the quarter — up over 5x YoY — with AI-related spend alone at US$15.8 billion. The CFO guided for similar capex levels for at least the next two quarters. Institutional analysts highlight that Taiwan supply chain players TSMC (2330), Hon Hai (2317), and Wistron (3231) are well-positioned to capture incremental orders. However, SpaceX's stock fell over 10% in early trading on concerns about the timeline for returns on the massive capital outlay. **Market implication:** Sustained hyperscaler and emerging AI-native company capex commitments are structurally supportive for TSMC's advanced node demand and Hon Hai/Wistron's AI server assembly pipelines. Near-term stock volatility at SpaceX does not diminish the supply chain order flow."
+    },
+    {
+      "title": "Nanya Technology Announces NT$346.6 Billion 5A Fab Investment — Largest Taiwan DRAM Capex in 20 Years",
+      "section": "金融",
+      "date": "2026/08/06 01:06:59",
+      "url": "https://money.udn.com/money/story/5612/9673469?from=edn_maintab_cate",
+      "summary": "Nanya Technology (2408), the Formosa Plastics Group's DRAM subsidiary, announced a landmark investment plan: its board approved raising 2026 capex by 34% to NT$69.7 billion (from NT$52 billion), and committed up to NT$346.6 billion over four years (2026–2029) to construct its new 5A fab. This is the largest single investment in Taiwan's DRAM industry in approximately two decades. The 5A fab will target Phase 1 monthly wafer starts of 35,900 units, incorporating EUV lithography equipment for next-generation DRAM process nodes. The advanced capex will fund 10nm-class process development and EUV integration. Funding will come from a combination of retained earnings, bank borrowings, and other capital market instruments. Industry observers note that Nanya's historically conservative Formosa Plastics parent now endorsing such an aggressive expansion signals strong conviction that the current memory supply shortage and price surge cycle has legs, and that AI-era DRAM demand growth is structural. **Market implication:** Bullish signal for the broader DRAM and memory supply chain. Upstream equipment, materials, and construction suppliers to benefit. Also puts competitive pressure on peers to accelerate their own process roadmaps."
+    },
+    {
+      "title": "Taiwan Stock Market \"Double Short-Squeeze Rally\" Surges 4,678 Points in Four Days; Short-Term Volatility May Increase",
+      "section": "證券 (Securities)",
+      "date": "2026/08/06",
+      "url": "https://money.udn.com/money/story/5607/9673499?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market staged a powerful V-shaped recovery on August 5th, surging 1,250 points (+2.8%) to close at 44,611, driven by a combination of strong US market gains, positive corporate earnings releases, and a short-squeeze dynamic in both futures and cash markets. The rally was led by heavyweight TSMC (+NT$85, closing at NT$2,405), which alone contributed approximately 707 index points and reclaimed all key moving averages. MediaTek surged NT$135 to reclaim the NT$4,000 psychological level, contributing 69 index points. Turnover expanded sharply to NT$1.2 trillion. Over four consecutive sessions, the index has gained 4,678 points. Foreign investors (外資) were net buyers, contributing to short-covering pressure. Analysts note that foreign futures short positions carry an average cost near 44,000 points — a sustained hold above this level amplifies squeeze risk, with the next resistance zone at 45,000–46,000. However, foreign institutional players are reportedly maintaining market-neutral strategies, pairing long AI/Alpha positions with short index futures as a beta hedge, suggesting the rally may face increased near-term choppiness."
+    },
+    {
+      "title": "[Taiwan Stock Market Rebounds Toward 45,000 – Should Investors Sell or Buy? Expert Eight-Point Strategy]",
+      "section": "證券 (Securities)",
+      "date": "2026/08/06 01:18:23",
+      "url": "https://money.udn.com/money/story/5607/9673505?from=edn_maintab_cate",
+      "summary": "Taiwan's equity market staged a dramatic V-shaped recovery, surging nearly 5,000 points in just four trading sessions to approach the psychologically significant 45,000-point level, reclaiming both the monthly and quarterly moving averages in the process. Market strategists from Fubon Investment Advisory and Taishin Investment Advisory advise against indiscriminate chasing of the rally, recommending instead a \"segmented, range-bound\" operational strategy. Near-term, they suggest taking profits in memory and passive component names as the index approaches the 45,000–46,000 resistance zone, while trimming weaker holdings with disappointing Q2 earnings or lacking AI catalysts. For core long-term positions — particularly TSMC and AI supply chain leaders with solid fundamentals — analysts recommend holding through short-term volatility and adding on pullbacks. Two key tail risks are flagged: (1) continued JPY appreciation could trigger carry-trade unwinding and global capital reallocation; and (2) NTD exchange rate dynamics, with accelerated depreciation pressure potentially weighing on foreign investor flows. **Market Implication:** The dual mention of NTD moves and foreign investor behavior is directly relevant to life insurer FX hedging costs and portfolio valuations, warranting close monitoring.\n\n---"
+    },
+    {
+      "title": "DRAM Shortage Hits TSMC: $1 Billion Worth of Apple Processors Stalled Awaiting Memory Components",
+      "section": "金融",
+      "date": "2026/08/07 01:20:54",
+      "url": "https://money.udn.com/money/story/5612/9675997?from=edn_maintab_cate",
+      "summary": "TSMC (2330) is reportedly caught in the crossfire of the global DRAM shortage, with industry sources indicating the company is currently holding approximately USD $1 billion worth of Apple processors that cannot proceed to packaging due to insufficient DRAM supply. This bottleneck is directly threatening the production and delivery schedule for the iPhone 18 series, which is set to launch in approximately six weeks and will feature Apple's A20 Pro chip — the first chip manufactured using TSMC's cutting-edge 2nm (N2) process node. Apple relies heavily on Micron as its primary DRAM supplier, but also sources from SK Hynix and Samsung. While Apple and its assemblers express confidence in meeting initial launch demand, there are growing concerns about prolonged wait times for online orders as retail inventory depletes rapidly. The market impact was immediate: TSMC's share price fell NT$40 to close at NT$2,365 on August 6th. This situation highlights supply chain fragility even for top-tier semiconductor players and may weigh on near-term sentiment for TSMC and the broader Apple supply chain. Investors should monitor DRAM supply updates closely, particularly from Micron, SK Hynix, and Samsung."
+    },
+    {
+      "title": "TSMC Next-Generation Technology Breakthrough: Opening New Opportunities in the Post-Silicon Era",
+      "section": "金融",
+      "date": "2026/08/07 00:26:28",
+      "url": "https://money.udn.com/money/story/5612/9676021?from=edn_maintab_cate",
+      "summary": "TSMC (2330), in collaboration with National Yang Ming Chiao Tung University and supported by the National Science and Technology Council (NSTC), has successfully developed a high-performance single-layer molybdenum disulfide (MoS₂) top-gate transistor, marking a significant breakthrough toward overcoming the physical limits of Moore's Law. The findings have been published in *Nature Electronics*, one of the most prestigious academic journals in science, underscoring the technological significance of this development. Industry experts note that as semiconductor processes advance below 1nm — toward the 0.7nm (A7 process) / CFET era — exploring new materials becomes essential, and MoS₂ is emerging as a leading candidate. Major semiconductor equipment players including Applied Materials, ASML, AIXTRON, ASM International, and Lam Research are all actively investing in related R&D. While commercialization remains years away, this breakthrough reinforces TSMC's long-term technological leadership and its ability to maintain competitive advantages in the post-silicon era, which is a key consideration for long-term investors evaluating TSMC's moat."
+    },
+    {
+      "title": "Taiwan Stock Market Close: Down 214 Points to 44,396; TSMC Falls 1.66% to NT$2,365",
+      "section": "證券",
+      "date": "2026/08/06 13:56:03",
+      "url": "https://money.udn.com/money/story/12509/9674760?from=edn_subcatelist_cate",
+      "summary": "Taiwan's benchmark index opened higher on August 6 but reversed course throughout the session, closing at 44,396.7 points — down 214.9 points (-0.48%) on turnover of NT$940.4 billion. The intraday low reached 44,024.32 points. Market breadth was modestly positive with 584 advancers versus 493 decliners, and 20 stocks hitting upper limits.\n\n**Key movers:** TSMC (2330) led heavyweight losses, declining 1.66% to NT$2,365 on volume of 22,762 lots. The semiconductor sub-index shed 1.25% and the financial sector underperformed significantly, falling 2.14%. On the positive side, electronic components (+1.79%), other electronics (+2.70%), and computer peripherals (+1.09%) outperformed. Hon Hai (2317) bucked the trend, rising 2.32%, while Delta Electronics (2308) gained 1.81%. MediaTek (2454) dropped 2.00% and UMC (2303) slipped 0.40%.\n\n**Market implications:** The sharp underperformance of financials (-2.14%) warrants close attention from life insurer-focused investors, as sector-wide selling pressure may reflect concerns over unrealized losses or interest rate sensitivity. TSMC's decline alongside semiconductor weakness suggests near-term profit-taking in AI-driven chip plays, though broader electronic component strength indicates rotational activity rather than broad risk-off sentiment."
+    },
+    {
+      "title": "Taiwan Dollar Closes at 32.261, Appreciates 5.4 Pips",
+      "section": "證券",
+      "date": "2026/08/06 16:31:10",
+      "url": "https://money.udn.com/money/story/12509/9675138?from=edn_subcatelist_cate",
+      "summary": "The New Taiwan Dollar strengthened against the US Dollar on August 6, closing at 32.261 — appreciating 5.4 pips from the previous close of 32.315. Intraday range was 32.200 (high) to 32.290 (low), with an opening print of 32.290. Total daily turnover reached USD 2.179 billion.\n\n**Market implications:** The TWD's modest appreciation, combined with an active trading session, warrants monitoring by life insurer investors. Taiwan's major life insurers carry substantial USD-denominated overseas investment portfolios; TWD strength erodes the domestic-currency value of foreign asset holdings and can pressure net worth and unrealized gains. Continued appreciation could also influence the Central Bank of Taiwan's (CBC) stance on FX intervention, particularly if export competitiveness concerns intensify. The relatively tight intraday range suggests no major speculative pressure, but the directional bias toward TWD strength bears watching."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Aspeed Technology (Signal King) Q2 Net Profit Exceeds Four Times Paid-in Capital; H1 EPS NT$78.28 — Best Ever",
+      "section": "金融",
+      "date": "2026/08/06 01:04:10",
+      "url": "https://money.udn.com/money/story/5612/9673475?from=edn_maintab_cate",
+      "summary": "Aspeed Technology (5274), Taiwan's stock king, reported Q2 after-tax net profit of NT$1.841 billion — a new single-quarter record, up 30.2% QoQ and 188% YoY — with EPS of NT$40.87. H1 net profit reached NT$3.255 billion (+114% YoY), with EPS of NT$78.28, the best first-half result in company history. July revenue hit NT$1.524 billion, another monthly record, up 16.33% MoM and 97.59% YoY, aided by easing component shortages and strong BMC (Baseboard Management Controller) chip shipments for remote server management. Chairman Lin Hong-ming reiterated that AI infrastructure demand is not a bubble, and flagged that customers have already provided growth signals extending to 2028. H2 revenue is expected to materially outperform H1. **Relevance:** Aspeed is a key barometer for AI server infrastructure build-out momentum; its results validate the sustained strength of data center and server market demand underpinning Taiwan's broader tech supply chain."
+    },
+    {
+      "title": "CCL Supply Chain Expansion: Nanya Plastics, Guojing Chemical, Shuangchien, and Chungsun Race to Capture AI-Driven Demand",
+      "section": "金融",
+      "date": "2026/08/06 01:02:37",
+      "url": "https://money.udn.com/money/story/10871/9673403?from=edn_maintab_cate",
+      "summary": "Sustained demand from AI servers, HPC, and high-speed networking is driving a significant capacity expansion cycle across Taiwan's copper clad laminate (CCL) supply chain. Upstream materials suppliers — including copper foil, electronic resins, and fiberglass cloth — are all seeing tightening supply. Nanya Plastics (1303) is running near full utilization and upgrading its premium materials mix, while Guojing Chemical, Shuangchien, and Chungsun are all initiating capacity additions. Nanya Plastics noted that Q2 saw unprecedented simultaneous supply tightness across fiberglass, copper foil, copper clad laminates, and ABF substrates, with shortages cascading from high-end to mid-range materials. The company's collaboration with Nitto Boseki on high-grade materials is now bearing fruit. **Relevance:** Confirms a \"materials-first\" supply chain expansion trend as a downstream read-through to AI infrastructure investment; Nanya Plastics (1303) is the most comprehensively positioned domestic player across the CCL materials value chain."
+    },
+    {
+      "title": "Largan Precision July Revenue Surges 31% MoM; Q3 Gross Margin Expected to Break 50% Threshold",
+      "section": "金融",
+      "date": "2026/08/06",
+      "url": "https://money.udn.com/money/story/5612/9673480?from=edn_subcatelist_cate",
+      "summary": "Largan Precision (3008) reported July consolidated revenue of NT$4.877 billion, beating market expectations, up 31% month-on-month (though down 11% year-on-year). Management maintained a constructive outlook for August, citing improving seasonal pull-in demand. Largan is the primary lens supplier for Apple's iPhone 18, which is expected to feature a variable aperture lens for the first time on flagship models. Institutional investors project that quarterly revenue will rise sequentially through Q3, with gross margin potentially exceeding 50% — contingent on variable aperture lens yield rates, which remain a key risk factor. Full production utilization is expected this quarter.\n\n**Market Implication:** Largan's outlook is a positive read-through for Apple's Taiwan supply chain. The variable aperture lens ramp is a key earnings quality driver to watch."
+    },
+    {
+      "title": "AMD Strong Q2 Earnings but Soft Q3 Guidance; Impact on Taiwan Supply Chain Including TSMC",
+      "section": "金融",
+      "date": "2026/08/06",
+      "url": "https://money.udn.com/money/story/5612/9673417?from=edn_subcatelist_cate",
+      "summary": "AMD (Advanced Micro Devices) reported record Q2 revenue of US$11.536 billion (+13% QoQ, +50% YoY), with non-GAAP gross margin of 56% and diluted EPS of US$1.66, all exceeding Wall Street consensus. Data center revenue reached US$6.718 billion (+107% YoY), driven by strong EPYC CPU and Instinct GPU demand. However, AMD's Q3 revenue guidance fell short of the market's high-end expectations, details on 2027 outlook were limited, and the loss of SpaceX as a chip customer added to sentiment headwinds — sending AMD shares down over 8% in early US trading. Taiwan supply chain companies flagged as potentially impacted include TSMC (2330), Pegatron (4938), Wiwynn (6669), Compal (2324), MiTAC (3706), and Ching Seng (3653).\n\n**Market Implication:** Mixed signal for TSMC and AI server supply chain. Strong AMD data center fundamentals are positive, but guidance miss and SpaceX customer loss introduce near-term uncertainty for related Taiwan names."
+    },
+    {
+      "title": "SpaceX Starlink Business Booms; Taiwan Satellite Supply Chain Stocks Rally",
+      "section": "金融",
+      "date": "2026/08/06",
+      "url": "https://money.udn.com/money/story/11162/9673420?from=edn_subcatelist_cate",
+      "summary": "SpaceX's Starlink satellite internet service reported quarterly revenue of US$4.3 billion (+66% QoQ), with subscriber count doubling to 12 million users. SpaceX President Gwynne Shotwell stated intentions to capture a \"significant\" share of customers from US telecom majors T-Mobile, AT&T, and Verizon. Taiwan SpaceX supply chain stocks reacted strongly: Ascend (昇達科, 3491) hit the daily limit at NT$1,285; Wus Printed Circuit (華通, 2313) and Win Semiconductors (穩懋) also hit upper limits; Compeq (啟碁, 6285) rose NT$7.5 to NT$260. Generation 3 low-orbit satellites (V3) have begun deployment with Taiwan suppliers shipping. The forthcoming \"Starmind AI-1\" space-based data center launch is anticipated for next year.\n\n**Market Implication:** Continued positive momentum for Taiwan's LEO satellite supply chain. Investors should monitor subscriber ARPU trends (down 22% YoY) as a potential headwind to Starlink's revenue quality despite volume growth."
+    },
+    {
+      "title": "[Uni-President Enterprises Posts Record Q2 and H1 Profits; Core Business and Equity Investments Both Strong]",
+      "section": "金融 (Financial)",
+      "date": "2026/08/06 23:55:53",
+      "url": "https://money.udn.com/money/story/10871/9675989?from=edn_maintab_cate",
+      "summary": "Uni-President Enterprises (1216) reported Q2 after-tax net income of NT$8.0 billion, up 45.2% YoY, with EPS of NT$1.41; H1 after-tax net income reached NT$14.55 billion (+36.4% YoY), both hitting all-time seasonal highs. Growth was driven by the core Taiwan business, subsidiary President Chain Store (7-ELEVEN), President Catering (統一中控 — H1 CNY net income +9% YoY to RMB 1.4 billion), and an equity-method gain from President Securities benefiting from buoyant H1 market conditions. The 5% RMB-to-NTD appreciation added a modest currency tailwind to consolidated results. As a large-cap consumer staples and retail conglomerate, Uni-President's strong earnings signal resilient domestic consumption and underscore the breadth of the current market recovery beyond pure technology plays."
+    },
+    {
+      "title": "[Chunghwa Telecom Advances AI Strategy; ICT Signings Surpass Full-Year 2025, U.S. Revenue Surges 1,157%]",
+      "section": "證券 (Securities)",
+      "date": "2026/08/05 23:51:03",
+      "url": "https://money.udn.com/money/story/5710/9673175?from=edn_subcatelist_cate",
+      "summary": "Chunghwa Telecom (2412) held its Q2 investor conference, reporting H1 EPS of NT$2.68 — above the high end of its own guidance — with management expressing confidence in achieving full-year targets. ICT contract signings in H1 already exceeded the entirety of 2025, driven by AIDC projects, infrastructure, smart grid, and financial-sector cloud services. Its U.S. operations saw revenue grow 1,157% YoY on AI supply chain deliveries. The Lunping AIDC facility is set to commence operations with a large cloud service provider (CSP) customer already committed, and the Taiwan Stock Exchange has joined its Taichung AIDC, reinforcing its positioning as a regional AI infrastructure hub. This is a meaningful non-semiconductor AI monetization story within Taiwan's listed universe."
+    },
+    {
+      "title": "Barron's Decodes Cloud Earnings: Hyperscalers Prove Strong Profitability, Dispelling Monetization Concerns",
+      "section": "金融",
+      "date": "2026/08/07 00:30:31",
+      "url": "https://money.udn.com/money/story/5612/9676018?from=edn_maintab_cate",
+      "summary": "Barron's analysis of the latest earnings from major cloud service providers (CSPs) — Amazon, Microsoft, and Alphabet — reveals that their incremental profit margins on cloud revenue have surged from 33.8% to 50.9% year-over-year, meaning more than $0.50 of every new dollar in cloud revenue is converting to operating profit. Combined annualized new cloud revenue across the three giants reached $56 billion in Q2. This data is expected to help restore investor confidence amid recent concerns over massive AI infrastructure capex. Taiwan's AI supply chain, including TSMC, Hon Hai (2317), Quanta, and Wistron, are seen as indirect beneficiaries of this positive sentiment shift. For fund managers tracking Taiwan's AI-exposed names, this development supports the thesis that hyperscaler spending on AI infrastructure remains sustainable and commercially justified."
+    },
+    {
+      "title": "Chuan Ho (川湖) Earns Over 11x Book Value; H1 EPS Reaches NT$110.96, Stock Joins NT$10,000 Club",
+      "section": "金融",
+      "date": "2026/08/07 00:20:05",
+      "url": "https://money.udn.com/money/story/5612/9676023?from=edn_maintab_cate",
+      "summary": "Server slide rail manufacturer Chuan Ho (2059) reported record Q2 net profit of NT$7.088 billion, up 10.5x year-over-year, with EPS of NT$74.38, while H1 EPS reached NT$110.96, surpassing full-year 2025 earnings. Q2 gross margin hit a new high of 87.42%, exceeding that of key customer NVIDIA, driven by strong demand from AI server and ASIC supply chains. The stock closed at NT$10,100 on August 6th, making Chuan Ho only the third stock in Taiwan market history to cross the NT$10,000 threshold. July revenue also set a new record at NT$6.407 billion, up 3.5x year-over-year. An investor conference is scheduled for August 7th. Chuan Ho's extraordinary margin performance and AI-driven growth trajectory make it a notable high-conviction name within Taiwan's AI infrastructure supply chain."
+    },
+    {
+      "title": "Innodisk (宜鼎) Earns More in Six Months Than Previous 20 Years Combined; Q2 EPS NT$108.93 Sets Taiwan Memory Industry Record",
+      "section": "金融",
+      "date": "2026/08/06 23:52:08",
+      "url": "https://money.udn.com/money/story/5612/9675992?from=edn_subcatelist_cate",
+      "summary": "Memory module maker Innodisk (5289) reported Q2 net profit of NT$10.368 billion, up over 55x year-over-year, with EPS of NT$108.93 — setting a single-quarter EPS record for Taiwan's memory industry. H1 net profit of NT$15.834 billion surpassed the company's cumulative earnings from its founding in 2005 through 2025, effectively earning more in six months than in the prior 20 years combined. The results reflect a memory super-cycle driven by AI server and edge computing demand, with DRAM and NAND Flash supply remaining tight. Management expects DRAM to maintain stable growth in H2, with AI system solution revenue projected to double year-over-year, supported by new projects involving NVIDIA and other leading partners. The stock hit the daily limit-up at NT$1,610 on August 6th. This result further corroborates the DRAM shortage narrative flagged in the TSMC article above, and investors should view tight memory supply as a persistent theme through at least H2 2026."
+    },
+    {
+      "title": "Winbond: DRAM Supply/Demand to Tighten Further Next Year; Board Approves NT$13 Billion Capex Budget",
+      "section": "金融 (Finance)",
+      "date": "2026/08/06 23:45:53",
+      "url": "https://money.udn.com/money/story/11162/9676006?from=edn_subcatelist_cate",
+      "summary": "Winbond Electronics (2344) held its analyst day on August 6, with President Chen Pei-ming expressing strong confidence in the memory market outlook driven by AI, data centers, and automotive demand. Management expects DRAM supply tightness to persist through 2027, with the supply-demand imbalance projected to be even more severe next year than in 2026. Winbond has set an ambitious target to become the world's largest SLC NAND chip supplier by 2027. To capitalize on the shortage-driven pricing cycle, the board approved a capital expenditure budget of NT$13.074 billion, to be deployed from August onward for production equipment, R&D facilities, and capacity expansion — primarily at its Kaohsiung fab, which currently runs at ~15,000 wafers/month. Management also noted that DRAM prices are expected to continue rising this quarter, with Flash products likely to follow, and that some customers have already begun negotiating long-term supply agreements (LTAs) covering 2029–2030. **Market implication:** Sustained pricing power and aggressive capex signal a positive earnings trajectory for Winbond; relevant for investors tracking Taiwan's memory sector and downstream supply chain dynamics.\n\n---"
+    },
+    {
+      "title": "U.S. Stocks Mostly Lower Ahead of July Jobs Report",
+      "section": "產經",
+      "date": "2026/08/07 05:21:42",
+      "url": "https://money.udn.com/money/story/123398/9676208",
+      "summary": "U.S. equity markets closed mostly in the red on August 6 as investors positioned cautiously ahead of the July non-farm payrolls release. The Dow Jones Industrial Average fell 464 points (−0.85%) to 53,885, while the S&P 500 slipped 0.18% to 7,709.96. The Nasdaq edged down just 0.06%, suggesting technology names held relatively firm. Notably, the Philadelphia Semiconductor Index bucked the trend, rising 0.33% to 12,048 — a positive read-through for Taiwan's semiconductor supply chain, including TSMC and related chipmakers. The soft broader market tone and pre-data caution may weigh modestly on Taiwan equities at the open, though the resilience in semis is a partial offset. The jobs report outcome will be a key driver of Federal Reserve rate-cut expectations and, by extension, USD/TWD dynamics and foreign capital flows into Taiwan."
+    },
+    {
+      "title": "Taiwan Stock Market Resilience vs. Korean Market Collapse — Will TAIEX Break 40,000 Again?",
+      "section": "證券",
+      "date": "2026/08/06 18:23:50",
+      "url": "https://money.udn.com/money/story/5607/9675450?from=edn_maintab_cate",
+      "summary": "Moore Investment Advisory CIO Kuo Che-jung notes that while Korean equities plunged intraday by over 5%, the TAIEX showed notable resilience, recovering most of an early 500-point drop to close down only 214 points. Crucially, the OTC small/mid-cap index surged nearly 2%, signaling recovering market confidence and a firming bottom. The analyst assigns less than a 5% probability to the TAIEX re-breaking the 40,000 level, framing any prior dips below that mark as buying opportunities rather than panic signals, with a year-end 50,000-point target maintained. On the memory sector, SanDisk's latest earnings beat expectations (EPS NT$39.25 vs. est. NT$34), with next-quarter guidance also above consensus — the post-earnings selloff is attributed to revenue guidance falling short of the highest-end estimates rather than a demand reversal. Passive component makers Murata and Taiyo Yuden both raised guidance, supporting sustained AI-driven demand. This broader context is constructive for Taiwan's tech-heavy listed universe."
+    },
+    {
+      "title": "Hon Hai and Lite-On Technology: Four Warrant Plays Worth Watching",
+      "section": "證券",
+      "date": "2026/08/07 01:55:02",
+      "url": "https://money.udn.com/money/story/5739/9675662?from=edn_subcatelist_cate",
+      "summary": "Hon Hai (2317) reported record-breaking July revenue of NT$946.51 billion — up 15.1% month-on-month and 54.1% year-on-year — beating market expectations, driven by robust AI server and notebook demand. Institutional investors maintain a positive Q3 outlook, forecasting high single-digit percentage sequential revenue growth, with full-year AI server cabinet shipments projected to double versus 2025. Hon Hai also begins shipping CPO (Co-Packaged Optics) products in Q3, with H1 2027 volumes expected to reach 3–4x the H2 2026 level, supporting margin expansion. Lite-On Technology (2301) beat Q2 gross margin and profit expectations due to inventory write-back gains and a favorable product mix shift; Q3 revenue is forecast to grow 15–20% sequentially as next-generation GPU (18.3KW) and ASIC (8.5KW) platforms ramp. Both stocks recently attracted foreign institutional buying interest, which aligns with the broader AI infrastructure investment theme relevant to major Taiwan listed companies.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "*All five articles reviewed were deemed relevant to major Taiwan listed companies and AI/tech supply chain themes covered in the mandate. No articles were excluded.*",
+    "*No articles were fully excluded — all five articles relate to major Taiwan listed companies (TSMC, Hon Hai, Chuan Ho, Innodisk) or Taiwan's technology supply chain, which fall within the relevant coverage universe.*"
+  ]
+}
