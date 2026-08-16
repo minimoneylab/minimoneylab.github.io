@@ -1,8 +1,61 @@
 {
   "date": "2026-08-16",
-  "update_time": "2026-08-08 06:07:50",
-  "total_articles": 34,
-  "high": [],
-  "medium": [],
-  "not_relevant": []
+  "update_time": "2026-08-16 17:27:55",
+  "total_articles": 22,
+  "high": [
+    {
+      "title": "TSMC Advances Arizona Expansion: Topping-Off Ceremony Completed for Fab 3",
+      "section": "金融",
+      "date": "2026/08/16 11:21:02",
+      "url": "https://money.udn.com/money/story/11162/9694382?from=edn_subcatelist_cate",
+      "summary": "Taiwan Semiconductor Manufacturing Co. (TSMC) has achieved a key milestone in its US expansion strategy, completing the topping-off ceremony for its third wafer fab (Fab 3 / P3) in Arizona ahead of market expectations. The ceremony was attended by Phoenix Mayor Kate Gallego and TSMC executives, including Vice President of Facility Services Tsung-Tszu Chuang and Vice President of Fab Operations Ray Chuang. Installing the top structural beam marks the completion of the main building frame.\n\n**Market Implications:** TSMC's faster-than-expected structural milestone in Arizona alleviates concerns regarding overseas operational execution and labor disputes. For institutional investors, this reinforces confidence in TSMC's capacity expansion plan to serve US tech giants domestically while securing its global foundry leadership and maintaining solid execution on its advanced node roadmap."
+    },
+    {
+      "title": "Which Stocks Are Active ETFs Buying Recently? Poya Takes Top Spot, Followed by Nanya Plastics and Fulltech",
+      "section": "金融",
+      "date": "2026/08/16 14:31:53",
+      "url": "https://money.udn.com/money/story/5607/9694699",
+      "summary": "Total active ETF assets in Taiwan have surged past NT$1.02 trillion, with Taiwan equity active ETFs exceeding NT$880 billion. Recent trading data shows active fund managers diversifying holdings beyond pure technology into consumer retail, legacy industrials, and financials. Retail giant Poya (5904) topped active ETF net purchases last week with 6,617 shares, followed by Nanya Plastics (1303) and Fulltech (1815). Financial holdings—including First Financial (2892), Mega Financial (2886), and Hua Nan Financial (2880)—also ranked in the top 10 net additions. Analysts project the TAIEX to trade within a 42,000–49,000 range in Q3, bolstered by returning foreign capital.\n\n**Market Implications:** The growth of active ETFs is becoming a major driver of liquidity on the TWSE. Asset managers are rebalancing portfolios toward non-tech and financial sectors to hedge tech concentration risks while capturing steady dividend yields. Strategic accumulation of financial holding companies provides downside support for the sector and signals renewed institutional rotation."
+    }
+  ],
+  "medium": [
+    {
+      "title": "Taiwan High Speed Rail Ticket Fares Frozen for 20 Years Set to Move? Chairman Shi Che: Review After New Trains Launch Next Year",
+      "section": "金融",
+      "date": "2026/08/16 01:50:00",
+      "url": "https://money.udn.com/money/story/5612/9693943?from=edn_maintab_cate",
+      "summary": "Taiwan High Speed Rail (2633) is preparing to review its ticket pricing structure—unadjusted for 20 years—following the arrival of its first new-generation N700ST train set, scheduled for commercial rollout in July 2025. Chairman Shi Che confirmed that a new financial sustainability plan incorporating potential fare adjustments will be proposed in July 2025, with potential implementation target by September 2028. Transportation Minister Chen Shih-kai emphasized that any price increase remains contingent upon enhancing overall service quality and securing public satisfaction."
+    },
+    {
+      "title": "Bargain Hunting Opportunities Emerge in Deeply Discounted Stocks Below Quarterly Moving Average",
+      "section": "證券",
+      "date": "2026/08/16 02:16:59",
+      "url": "https://money.udn.com/money/story/5607/9693948?from=edn_maintab_cate",
+      "summary": "While the TAIEX has rebounded above its 13-week (quarterly) moving average, market turnover has shrunk, reflecting cautious follow-through buying. Primary institutional and smart money capital is taking position in oversold equities trading below their quarterly MAs, notably Vanguard International Semiconductor (VIS), UMC, Quanta Computer, Winbond, Acer, and Innolux. Analysts highlight that these low-base stocks offer cleaner chip distribution and reduced overhead resistance, making them attractive short-term tactical plays for investors seeking fundamental upside entering the second half of the year."
+    },
+    {
+      "title": "Taipei Automation Exhibition Showcases AI & Robotics; HIWIN and Delta Electronics Take Center Stage",
+      "section": "金融",
+      "date": "2026/08/16 00:45:45",
+      "url": "https://money.udn.com/money/story/5612/9693836?from=edn_maintab_cate",
+      "summary": "The 2026 Taiwan Automation and Robotics Exhibition opens on August 19th under the theme \"Human-Robot Collaboration & AI Empowerment,\" featuring 886 vendors across 3,506 booths. Leading listed firms, including Delta Electronics (2308), HIWIN (2049), Techman Robot (4585), and Solomon (2359), will showcase advancements in physical AI, humanoid robotics, edge AI, and digital twins. The exhibition is anticipated to serve as a near-term catalyst for Taiwan's robotics concept stocks and smart factory supply chain."
+    },
+    {
+      "title": "Mega Funds' ETFs 00913 and 00690 Set Ex-Dividend Date for August 18",
+      "section": "產經",
+      "date": "2026/08/16 17:04:07",
+      "url": "https://money.udn.com/money/story/5607/9694908",
+      "summary": "Mega Securities Investment Trust announced that Mega Taiwan IC Foundry ETF (00913) and Mega Blue Chip 30 ETF (00690) will go ex-dividend on August 18, with August 17 as the last buying date. Fund momentum is supported by robust July revenue figures across Taiwan's semiconductor leaders: TSMC reported NT$467.58 billion (+44.7% YoY) driven by AI demand, UMC posted NT$23.84 billion (+19.0% YoY), and Winbond registered NT$26.77 billion (+291.6% YoY). Fund managers maintain a bullish outlook on Taiwan's semiconductor supply chain performance for H2 as global cloud service providers expand capital expenditure.\n\n---"
+    },
+    {
+      "title": "US Treasury Yields Surge as US Stocks Hit Record Highs: Which One Will Pull Back?",
+      "section": "產經",
+      "date": "2026/08/15 22:36:29",
+      "url": "https://money.udn.com/money/story/123398/9693885",
+      "summary": "US Treasury yields have risen significantly due to heavy government bond supply and persistent inflation concerns, with 30-year bond auction yields reaching their highest level since 2001. Despite higher borrowing costs, major US stock indices such as the S&P 500 continue to hit record highs, diverging from the traditional inverse yield-equity correlation. Market strategists from LPL Financial warn that if elevated yields stem from fiscal deficit pressures rather than growth expectations, equity valuations could eventually face selling pressure. For Taiwan institutional investors and life insurance firms holding large foreign bond portfolios, prolonged high US Treasury yields boost reinvestment yields on new allocations but continue to weigh on net accounting equity due to unrealized mark-to-market fixed-income losses.\n\n---"
+    }
+  ],
+  "not_relevant": [
+    "None"
+  ]
 }
