@@ -1,63 +1,63 @@
 {
-  "update_time": "2026-08-19 07:10:21",
+  "update_time": "2026-08-20 07:10:20",
   "us_indices": [
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "close": 7691.76,
-      "change": -53.3,
-      "change_pct": -0.69
+      "close": 7707.98,
+      "change": 16.22,
+      "change_pct": 0.21
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "close": 26289.71,
-      "change": -355.2,
-      "change_pct": -1.33
+      "close": 26331.09,
+      "change": 41.38,
+      "change_pct": 0.16
     },
     {
       "name": "Dow Jones",
       "ticker": "^DJI",
-      "close": 53343.4,
-      "change": -116.38,
-      "change_pct": -0.22
+      "close": 53463.05,
+      "change": 119.65,
+      "change_pct": 0.22
     },
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "close": 15.84,
-      "change": 0.65,
-      "change_pct": 4.28
+      "close": 14.89,
+      "change": -0.95,
+      "change_pct": -6.0
     },
     {
       "name": "SOX (Semiconductors)",
       "ticker": "^SOX",
-      "close": 11992.46,
-      "change": -628.54,
-      "change_pct": -4.98
+      "close": 11738.23,
+      "change": -254.23,
+      "change_pct": -2.12
     }
   ],
   "asia_indices": [
     {
       "name": "TWSE Index",
       "ticker": "^TWII",
-      "close": 45857.27,
-      "change": 46.26,
-      "change_pct": 0.1
+      "close": 45308.68,
+      "change": -548.59,
+      "change_pct": -1.2
     },
     {
       "name": "Hang Seng",
       "ticker": "^HSI",
-      "close": 25453.23,
-      "change": 336.38,
-      "change_pct": 1.34
+      "close": 25471.15,
+      "change": 17.92,
+      "change_pct": 0.07
     },
     {
       "name": "Nikkei 225",
       "ticker": "^N225",
-      "close": 69220.25,
-      "change": 506.45,
-      "change_pct": 0.74
+      "close": 67460.73,
+      "change": -1759.52,
+      "change_pct": -2.54
     }
   ],
   "sgx_futures": [
@@ -66,8 +66,8 @@
       "contract": "TWN Q26",
       "ticker": "TWN-Q26.SI",
       "month": "Aug 2026",
-      "date": "2026-08-18",
-      "close": 3926.5,
+      "date": "2026-08-19",
+      "close": 3863.25,
       "prev_close": null,
       "change_pct": null,
       "source": "Yahoo Finance"
@@ -77,8 +77,8 @@
       "contract": "TWN U26",
       "ticker": "TWN-U26.SI",
       "month": "Sep 2026",
-      "date": "2026-08-18",
-      "close": 3930.75,
+      "date": "2026-08-19",
+      "close": 3867.25,
       "prev_close": null,
       "change_pct": null,
       "source": "Yahoo Finance"
@@ -89,22 +89,12 @@
       "name": "TSMC",
       "tw_ticker": "2330.TW",
       "adr_ticker": "TSM",
-      "tw_close": 2380.0,
-      "tw_change_pct": -0.83,
-      "adr_close": 413.41,
-      "adr_change_pct": -4.07,
-      "fx_rate": 31.88,
+      "tw_close": 2350.0,
+      "tw_change_pct": -1.26,
+      "adr_close": 412.09,
+      "adr_change_pct": -0.32,
+      "fx_rate": 31.85,
       "basis_table": [
-        {
-          "adr_date": "Aug 11",
-          "adr_close": 422.06,
-          "fx_rate": 32.21,
-          "tw_open_next": 2405.0,
-          "adr_fx": 13594.17,
-          "tw_x_ratio": 12025.0,
-          "basis": 1.1305,
-          "premium_pct": 13.05
-        },
         {
           "adr_date": "Aug 12",
           "adr_close": 429.15,
@@ -144,36 +134,36 @@
           "tw_x_ratio": 12075.0,
           "basis": 1.1368,
           "premium_pct": 13.68
+        },
+        {
+          "adr_date": "Aug 18",
+          "adr_close": 413.41,
+          "fx_rate": 31.88,
+          "tw_open_next": 2340.0,
+          "adr_fx": 13180.3,
+          "tw_x_ratio": 11700.0,
+          "basis": 1.1265,
+          "premium_pct": 12.65
         }
       ],
-      "avg_basis": 1.1336,
-      "avg_premium_pct": 13.36,
-      "predicted_open": 2325.54,
-      "gap_pct": -2.29,
-      "signal": "BEARISH",
-      "signal_icon": "🔴",
-      "signal_text": "Already ahead, expect pullback"
+      "avg_basis": 1.1328,
+      "avg_premium_pct": 13.28,
+      "predicted_open": 2317.5,
+      "gap_pct": -1.38,
+      "signal": "NEUTRAL",
+      "signal_icon": "⚪",
+      "signal_text": "Minor adjustment expected"
     },
     {
       "name": "UMC",
       "tw_ticker": "2303.TW",
       "adr_ticker": "UMC",
-      "tw_close": 119.0,
-      "tw_change_pct": -2.06,
-      "adr_close": 18.48,
-      "adr_change_pct": -5.38,
-      "fx_rate": 31.88,
+      "tw_close": 115.5,
+      "tw_change_pct": -2.94,
+      "adr_close": 18.12,
+      "adr_change_pct": -1.95,
+      "fx_rate": 31.85,
       "basis_table": [
-        {
-          "adr_date": "Aug 11",
-          "adr_close": 18.94,
-          "fx_rate": 32.21,
-          "tw_open_next": 123.0,
-          "adr_fx": 610.04,
-          "tw_x_ratio": 615.0,
-          "basis": 0.9919,
-          "premium_pct": -0.81
-        },
         {
           "adr_date": "Aug 12",
           "adr_close": 19.31,
@@ -213,12 +203,22 @@
           "tw_x_ratio": 612.5,
           "basis": 1.0156,
           "premium_pct": 1.56
+        },
+        {
+          "adr_date": "Aug 18",
+          "adr_close": 18.48,
+          "fx_rate": 31.88,
+          "tw_open_next": 115.0,
+          "adr_fx": 589.18,
+          "tw_x_ratio": 575.0,
+          "basis": 1.0247,
+          "premium_pct": 2.47
         }
       ],
-      "avg_basis": 1.0006,
-      "avg_premium_pct": 0.06,
-      "predicted_open": 117.77,
-      "gap_pct": -1.03,
+      "avg_basis": 1.0072,
+      "avg_premium_pct": 0.72,
+      "predicted_open": 114.61,
+      "gap_pct": -0.77,
       "signal": "NEUTRAL",
       "signal_icon": "⚪",
       "signal_text": "Minor adjustment expected"
@@ -227,22 +227,12 @@
       "name": "ASE",
       "tw_ticker": "3711.TW",
       "adr_ticker": "ASX",
-      "tw_close": 599.0,
-      "tw_change_pct": -2.6,
-      "adr_close": 36.41,
-      "adr_change_pct": -8.77,
-      "fx_rate": 31.88,
+      "tw_close": 588.0,
+      "tw_change_pct": -1.84,
+      "adr_close": 35.66,
+      "adr_change_pct": -2.06,
+      "fx_rate": 31.85,
       "basis_table": [
-        {
-          "adr_date": "Aug 11",
-          "adr_close": 38.65,
-          "fx_rate": 32.21,
-          "tw_open_next": 633.0,
-          "adr_fx": 1244.88,
-          "tw_x_ratio": 1266.0,
-          "basis": 0.9833,
-          "premium_pct": -1.67
-        },
         {
           "adr_date": "Aug 12",
           "adr_close": 39.28,
@@ -282,12 +272,22 @@
           "tw_x_ratio": 1260.0,
           "basis": 1.0088,
           "premium_pct": 0.88
+        },
+        {
+          "adr_date": "Aug 18",
+          "adr_close": 36.41,
+          "fx_rate": 31.88,
+          "tw_open_next": 568.0,
+          "adr_fx": 1160.82,
+          "tw_x_ratio": 1136.0,
+          "basis": 1.0218,
+          "premium_pct": 2.18
         }
       ],
-      "avg_basis": 1.0028,
-      "avg_premium_pct": 0.28,
-      "predicted_open": 578.83,
-      "gap_pct": -3.37,
+      "avg_basis": 1.0105,
+      "avg_premium_pct": 1.05,
+      "predicted_open": 562.04,
+      "gap_pct": -4.42,
       "signal": "BEARISH",
       "signal_icon": "🔴",
       "signal_text": "Already ahead, expect pullback"
