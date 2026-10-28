@@ -1,40 +1,40 @@
 {
-  "update_time": "2026-10-27 08:57:11",
+  "update_time": "2026-10-28 08:16:34",
   "us_indices": [
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "close": 7676.77,
-      "change": 53.09,
-      "change_pct": 0.7
+      "close": 7722.6,
+      "change": 45.83,
+      "change_pct": 0.6
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "close": 26169.38,
-      "change": 214.04,
-      "change_pct": 0.82
+      "close": 26477.81,
+      "change": 308.43,
+      "change_pct": 1.18
     },
     {
       "name": "Dow Jones",
       "ticker": "^DJI",
-      "close": 52361.58,
-      "change": 146.42,
-      "change_pct": 0.28
+      "close": 52377.57,
+      "change": 15.99,
+      "change_pct": 0.03
     },
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "close": 18.39,
-      "change": -1.06,
-      "change_pct": -5.45
+      "close": 17.52,
+      "change": -0.87,
+      "change_pct": -4.73
     },
     {
       "name": "SOX (Semiconductors)",
       "ticker": "^SOX",
-      "close": 11083.47,
-      "change": 304.01,
-      "change_pct": 2.82
+      "close": 11482.5,
+      "change": 399.03,
+      "change_pct": 3.6
     }
   ],
   "asia_indices": [
@@ -48,16 +48,16 @@
     {
       "name": "Hang Seng",
       "ticker": "^HSI",
-      "close": 23093.37,
-      "change": 158.69,
-      "change_pct": 0.69
+      "close": 23211.81,
+      "change": 118.44,
+      "change_pct": 0.51
     },
     {
       "name": "Nikkei 225",
       "ticker": "^N225",
-      "close": 63384.95,
-      "change": 691.79,
-      "change_pct": 1.1
+      "close": 63698.36,
+      "change": 1508.71,
+      "change_pct": 2.43
     }
   ],
   "sgx_futures": [
@@ -67,7 +67,7 @@
       "ticker": "TWN-V26.SI",
       "month": "Oct 2026",
       "date": "2026-10-27",
-      "close": 3982.5,
+      "close": 3986.75,
       "prev_close": null,
       "change_pct": null,
       "source": "Yahoo Finance"
@@ -78,7 +78,7 @@
       "ticker": "TWN-X26.SI",
       "month": "Nov 2026",
       "date": "2026-10-27",
-      "close": 3997.0,
+      "close": 3998.0,
       "prev_close": null,
       "change_pct": null,
       "source": "Yahoo Finance"
